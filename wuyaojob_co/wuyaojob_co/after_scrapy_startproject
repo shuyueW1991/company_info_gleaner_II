@@ -1,0 +1,364 @@
+0. scrapy startproject %name
+    贴入文件default_tool.py
+1.items.py:
+    输入所需模块：
+import scrapy
+import re
+from scrapy.exporters import CsvItemExporter
+from scrapy.conf import settings
+from scrapy.loader import ItemLoader
+from scrapy.loader.processors import TakeFirst, MapCompose, Join, Compose
+from default_tool import TxtItemExporter
+
+    在新生成的%nameItem编辑所需要的item，格式：name= scrapy.Field()
+
+    删除pass
+
+    引入需要因地制宜的文本清理系列函数，作为一个可供参考翻阅的词典，现贴出部分：
+
+def void_nan(x):
+    if x == None:
+        return 'NaN'
+        print(x)
+    else:
+        return x
+
+
+def strip(x):
+    x = x.strip('\t').strip('\n').strip('\r').strip(" ").strip(' ').strip('|').strip('"').strip('&nbsp;')
+    print(len(x))
+    print(x)
+    if len(x) > 0:
+        return x
+    else:
+        return 'NaN'
+
+def strip_type(x):
+    count = len(re.findall('<label', x))
+    if count == 3:
+        p = re.compile(r'<label.*?/label>')
+        x = p.findall(x)[-1]
+        x = re.sub("<span.*?/span>","",x)
+        x = re.sub('<label class="at">',"",x)
+        x = re.sub("</label>","",x)
+        return x
+    else:
+        return 'NaN'
+
+def strip_ppline_left(x):
+    x = x.strip('\t').strip('\n').strip('\r').strip(" ").strip(' ').strip('"').strip('&nbsp;')
+    print(len(x))
+    print(x)
+    if len(x) > 0:
+        return x
+    else:
+        return 'NaN'
+
+def numeric_only(x):
+    text = re.sub("\D","", x)
+    if text:
+        return str(text)
+    else:
+        return 'NaN'
+
+def find_tag_ownership(x):
+    if x:
+        xx= x.split('|')
+        return xx[0]
+    else:
+        return 'NaN'
+
+def find_tag_stfnum(x):
+    if x:
+        xx= x.split('|')
+        return xx[1]
+    else:
+        return 'NaN'
+
+def find_tag_type(x):
+    if x:
+        xx= x.split('|')
+        return xx[-1]
+    else:
+        return 'NaN'
+
+def find_tag_stfnum_0(x):
+    x=x.strip('<p>').strip('</p>')
+    if x:
+        p = re.sub("<em.*?/em>","shit",x)
+        pp= p.split('shit')
+        return pp[-2]
+    else:
+        return 'NaN'
+
+def find_tag_type_0(x):
+    x=x.strip('<p>').strip('</p>')
+    if x:
+        p = re.sub("<em.*?/em>","shit",x)
+        pp= p.split('shit')
+        return pp[-1]
+    else:
+        return 'NaN'
+
+
+def list_string_merge(x):
+    return "".join(x)
+
+def span_regex(x):
+    clean = re.search(r'<span>.*</span>',x)
+    return clean.group(0).strip('<span>').strip('</span>')
+
+def p_regex(x):
+    clean = re.search(r'<p>.*</p>',x)
+    return clean.group(0).strip('<p>').strip('</p>')
+
+def mgmt_name_clean(x):
+    clean = re.findall(r'"name":".+?"',x)
+    return clean
+
+def mgmt_title_clean(x):
+    clean = re.findall(r'"position":".+?"',x)
+    return clean
+
+def mgmt_remark_clean(x):
+    clean = re.findall(r'"remark":".+?"',x)
+    return clean
+
+def co_desc_clean(x):
+    clean = re.search(r'"introduction":{.+?}',x)
+    return clean.group().strip('"introduction":')
+
+def prd_desc_clean(x):
+    clean = re.findall(r'"productprofile":".+?"',x)
+    return clean
+
+def prd_name_clean(x):
+    clean = re.findall(r'"product":".+?"',x)
+    return clean
+
+def position_count_clean(x):
+    clean = re.search(r'"positionCount":\d+',x)
+    return clean.group().strip('"positionCount":')
+
+def resume_rate_clean(x):
+    clean = re.search(r'"resumeProcessRate":\d+',x)
+    return clean.group().strip('"resumeProcessRate":')
+
+def experience_count_clean(x):
+    clean = re.search(r'"experienceCount":\d+',x)
+    return clean.group().strip('"experienceCount":')
+
+def resume_time_clean(x):
+    clean = re.search(r'"resumeProcessTime":\d+',x)
+    return clean.group().strip('"resumeProcessTime":')
+
+def co_id_clean(x):
+    clean = re.search(r'"companyId":\d+',x)
+    return clean.group().strip('"companyId":')
+
+    编写class %nameLoader(ItemLoader)用来实现清洗，例如：
+class WuyaojobCoLoader(ItemLoader):
+    default_item_class = WuyaojobCoItem
+    default_output_processor = Join()
+
+    wuyaojob_co_web_id_in = MapCompose(numeric_only)
+    co_nm_in = MapCompose(strip)
+    co_ownership_in = MapCompose(strip)
+    co_staff_num_in = MapCompose(strip)
+    co_type_in = MapCompose(strip_type)
+    co_short_desc_in = MapCompose(strip)
+    co_add_in = MapCompose(strip)
+
+2. middlewares.py
+    写入需要的模块
+from scrapy import signals
+import base64
+from default_tool import RandomUserAgentMiddleware
+from default_tool import ProxyMiddleware（只有上阿布云了才用到）
+
+    如果要用阿布云，贴入：
+
+proxyServer = "http://proxy.abuyun.com:9020"
+
+# 代理隧道验证信息
+proxyUser = "H020G39R1142524D"
+proxyPass = "E440F4C798A80714"
+
+proxyAuth = "Basic " + base64.urlsafe_b64encode(bytes((proxyUser + ":" + proxyPass), "ascii")).decode("utf8")
+
+3. pipelines.py
+    写入需要的模块：
+
+import codecs
+import pymysql
+import traceback
+import datetime
+from scrapy.exceptions import DropItem
+
+    编辑pipeline文件：例子（如果上数据库测试，就是这个版本）
+    class WuyaojobCoPipeline(object):
+    def __init__(self):
+        self.source_mysql_host = "rm-bp1tp2w15f1qlap94.mysql.rds.aliyuncs.com"
+        self.source_mysql_db = "buz_source_data"
+        self.source_mysql_user = "root"
+        self.source_mysql_passwd = "u8!7-ZXC"
+        self.conn = pymysql.connect(host=self.source_mysql_host, user=self.source_mysql_user,
+                                    passwd=self.source_mysql_passwd, db=self.source_mysql_db, charset='utf8')
+        self.cursor = self.conn.cursor(pymysql.cursors.DictCursor)
+
+
+    def process_item(self, item, spider):
+        sql = "insert into wuyaojob_co(wuyaojob_co_web_id,co_nm,co_staff_num,co_type,co_short_desc,co_add)\
+        values ('{0}', '{1}', '{2}', '{3}', '{4}','{5}')"
+
+        try:
+            if item['co_nm']:
+                self.cursor.execute(sql.format(item['wuyaojob_co_web_id'], item['co_nm'], item['co_staff_num'], item['co_type'], item['co_short_desc']\
+                                           , item['co_add']))
+                self.conn.commit()
+                # return item
+
+        except:
+            # traceback.print_exc()
+            raise DropItem("Something nasty happens, nigger!")
+
+     如果进行本地调试，保存到本地的文件进行查看的话，class版本为：
+
+class WuyaojobCoPipeline(object):
+    #def __init__(self):
+        #self.source_mysql_host = "rm-bp1tp2w15f1qlap94.mysql.rds.aliyuncs.com"
+        #self.source_mysql_db = "buz_source_data"
+        #self.source_mysql_user = "root"
+        #self.source_mysql_passwd = "u8!7-ZXC"
+        #self.conn = pymysql.connect(host=self.source_mysql_host, user=self.source_mysql_user,
+        #                            passwd=self.source_mysql_passwd, db=self.source_mysql_db, charset='utf8')
+        #self.cursor = self.conn.cursor(pymysql.cursors.DictCursor)
+
+
+    def process_item(self, item, spider):
+        #sql = "insert into wuyaojob_co(wuyaojob_co_web_id,co_nm,co_staff_num,co_type,co_short_desc,co_add)\
+        #values ('{0}', '{1}', '{2}', '{3}', '{4}','{5}')"
+
+        try:
+            if item['co_nm']:
+                #self.cursor.execute(sql.format(item['wuyaojob_co_web_id'], item['co_nm'], item['co_staff_num'], item['co_type'], item['co_short_desc']\
+                                           , item['co_add']))
+                #self.conn.commit()
+                return item
+
+        except:
+            # traceback.print_exc()
+            raise DropItem("Something nasty happens, nigger!")
+
+
+4.setting.py
+    贴入以下内容：
+
+SPLASH_URL = 'http://localhost:8050'
+DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+
+    释放robottxt约束：
+
+# Obey robots.txt rules
+ROBOTSTXT_OBEY = False
+
+    激活下载上限，如果在调试中，因为如果太快，就会被认为是爬虫：
+# DOWNLOAD_DELAY = 3
+
+
+    供splash使用的部分：
+SPIDER_MIDDLEWARES = {
+   'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+}
+
+# Enable or disable downloader middlewares
+# See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
+DOWNLOADER_MIDDLEWARES = {
+   'scrapy_splash.SplashCookiesMiddleware': 723,
+   'scrapy_splash.SplashMiddleware': 725,
+   'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+   'wuyaojob_co.middlewares.WuyaojobCoSpiderMiddleware': 543,
+   'wuyaojob_co.middlewares.ProxyMiddleware': 543, #如果没有上阿布云，就注释此行。否则报错为啥没有该类
+}
+
+
+    激活pipeline：
+# Configure item pipelines
+# See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
+ITEM_PIPELINES = {
+   'wuyaojob_co.pipelines.WuyaojobCoPipeline': 300,
+}
+    打开自动收敛控制：
+# Enable and configure the AutoThrottle extension (disabled by default)
+# See http://doc.scrapy.org/en/latest/topics/autothrottle.html
+AUTOTHROTTLE_ENABLED = False
+
+    打开本地调试时记录csv的文本的格式：
+# FEED_URI = '/Users/yuyang/notreProgram/company_info_gleaner/wuyaojob_co/%(name)s.csv'
+FEED_URI = '/root/users/WSY/wuyaojob_co/%(name)s.csv'
+FEED_FORMAT = 'csv'
+FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
+FEED_EXPORTERS = {'csv': 'wuyaojob_co.items.TxtItemExporter',}
+FEED_STORE_EMPTY = False
+FEED_EXPORT_FIELDS = ["wuyaojob_co_web_id","co_nm","co_staff_num","co_type","co_short_desc", "co_add"]
+
+CSV_DELIMITER = "|"
+
+# Logging Settings
+LOG_ENABLED = True
+LOG_ENCODING = 'utf-8'
+LOG_FILE = 'wuyaojob_co.log'
+LOG_LEVEL = 'DEBUG'
+LOG_STDOUT = True
+
+
+5. spider itself:
+    非常需要因地制宜地调整，因为和文件名有关系，所以这里仅仅贴个例子：
+import scrapy
+from wuyaojob_co.items import WuyaojobCoItem
+from wuyaojob_co.items import WuyaojobCoLoader
+from scrapy.selector import Selector
+from scrapy_splash import SplashRequest
+import random
+import time
+import datetime
+
+    在class中要，修改name如果必要的话，以及告诉爬虫要爬个啥。翼遍历为例：贴入以下：
+    name = "wuyaojobcospider"
+    allowed_domains = ["m.51job.com"]
+
+    def start_requests(self):
+        for i in range(2000000,4000000):
+            # start_urls=['http://jobs.51job.com/all/co'+str(i)+'.html']
+            start_urls=['http://m.51job.com/campus/search/codetail.php?coid='+str(i)]
+            for url in start_urls:
+                yield scrapy.Request(url, self.parse_page)
+                # yield SplashRequest(url, self.parse_page,args={'wait':0.5})
+
+    定义爬取的函数，基于该页面。举个例子：
+
+    def parse_page(self,response):
+
+        load = WuyaojobCoLoader(item=WuyaojobCoItem(), response=response)
+
+        link_container = load.nested_xpath('//div[@class="xq qhd"]')
+        link_container.add_xpath('co_nm', 'p/text()')
+        link_container.add_xpath('co_ownership', 'div[@class="xqd x2"]/label[2]/text()')
+        link_container.add_xpath('co_staff_num', 'div[@class="xqd x2"]/label[1]/text()')
+        link_container.add_xpath('co_type', 'div[@class="xqd x2"]')
+
+        # co_container = load.nested_xpath('//div[@class="tCompany_full"]/div[@class="tBorderTop_box bt"]/div[@class="tmsg inbox"]/div[@class="con_msg"]/div[@class="in"]')
+        co_container = load.nested_xpath('//div[@class="xqp"]')
+        co_container.add_xpath('co_short_desc', 'text()')
+
+        co_container = load.nested_xpath('//form[@id="mapForm"]')
+        co_container.add_xpath('co_add', 'p/text()')
+        co_container.add_xpath('wuyaojob_co_web_id', 'input/@value')
+
+
+        # load.add_value('lg_update_time', repr(date))
+
+
+        yield load.load_item() #这一行，如果需要接连爬下去的话，可以是yield scrapy.Request(url, self.parse_page)之类的。
+
