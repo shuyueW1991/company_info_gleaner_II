@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../spider_51job_search/.idea/spider_51job_search.iml" filepath="$PROJECT_DIR$/../spider_51job_search/.idea/spider_51job_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spider_chinahr.iml" filepath="$PROJECT_DIR$/.idea/spider_chinahr.iml" />
+    </modules>
+  </component>
+</project>
