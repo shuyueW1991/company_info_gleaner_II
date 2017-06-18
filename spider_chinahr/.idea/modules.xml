@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../my/geetest/.idea/geetest.iml" filepath="$PROJECT_DIR$/../../my/geetest/.idea/geetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spider_51job_search/.idea/spider_51job_search.iml" filepath="$PROJECT_DIR$/../spider_51job_search/.idea/spider_51job_search.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spider_chinahr.iml" filepath="$PROJECT_DIR$/.idea/spider_chinahr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zhilian_history/.idea/zhilian_history.iml" filepath="$PROJECT_DIR$/../zhilian_history/.idea/zhilian_history.iml" />
     </modules>
   </component>
 </project>

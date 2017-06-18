@@ -26,6 +26,7 @@ class SpiderChinahrItem(scrapy.Item):
     chr_email_addr = scrapy.Field()
     chr_co_address = scrapy.Field()
     chr_co_desc = scrapy.Field()
+    chr_co_url = scrapy.Field()
 
 def clean(x):
     return x.replace('\r', '').replace('\t', '').replace('\n', '').replace("\n", '').replace('"', '').replace(" ", "").replace("\"", "").replace("|","")
@@ -47,6 +48,7 @@ class SpiderChinahrLoader(ItemLoader):
     chr_email_addr_in = MapCompose(clean)
     chr_co_address_in = MapCompose(clean)
     chr_co_desc_in = MapCompose(clean)
+    chr_co_url_in = MapCompose(clean)
 
 
 class TxtItemExporter(CsvItemExporter):

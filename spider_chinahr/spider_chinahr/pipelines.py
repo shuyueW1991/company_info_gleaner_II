@@ -8,4 +8,7 @@
 
 class SpiderChinahrPipeline(object):
     def process_item(self, item, spider):
+
+        ## Need to add uploading to database part here
+
         return item

@@ -18,24 +18,28 @@ DELTAFETCH_ENABLED = True
 DELTAFETCH_DIR = '/root/users/JH/company_info_gleaner_II/spider_chinahr/'
 
 # Exporting Settings
-# FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_chinahr/%(name)s_20170613.txt'
-FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_chinahr/%(name)s_20170612.txt'
+FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_chinahr/%(name)s_20170613.txt'
+# FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_chinahr/%(name)s_20170612.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_chinahr.items.TxtItemExporter',}
 FEED_STORE_EMPTY = False
-FEED_EXPORT_FIELDS = ["chr_co_name",
-                      "chr_co_city",
-                      "chr_co_industry"
-                      "chr_co_type",
-                      "chr_co_estab",
-                      "chr_co_regcap",
-                      "chr_contact_name",
-                      "chr_mobile_num",
-                      "chr_fixline_num",
-                      "chr_email_addr",
-                      "chr_co_address",
-                      "chr_co_desc"]
+# FEED_EXPORT_FIELDS = ["chr_co_name",
+#                       "chr_co_city",
+#                       "chr_co_industry"
+#                       "chr_co_type",
+#                       "chr_co_estab",
+#                       "chr_co_regcap",
+#                       "chr_contact_name",
+#                       "chr_mobile_num",
+#                       "chr_fixline_num",
+#                       "chr_email_addr",
+#                       "chr_co_address",
+#                       "chr_co_desc",
+#                       "chr_co_url"]
+
+FEED_EXPORT_FIELDS = ["chr_co_url"]
+
 CSV_DELIMITER = "|"
 
 # Logging Settings
@@ -61,14 +65,14 @@ DOWNLOADER_MIDDLEWARES = {
 }
 
 SPIDER_MIDDLEWARES = {
-    'scrapy_deltafetch.DeltaFetch': None,
+    'scrapy_deltafetch.DeltaFetch': 200,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 AUTOTHROTTLE_ENABLED = True
 # The initial download delay
-AUTOTHROTTLE_START_DELAY = 1
+AUTOTHROTTLE_START_DELAY = 0.5
 # The maximum download delay to be set in case of high latencies
 AUTOTHROTTLE_MAX_DELAY = 2
 # The average number of requests Scrapy should be sending in parallel to
@@ -78,4 +82,4 @@ AUTOTHROTTLE_MAX_DELAY = 2
 #AUTOTHROTTLE_DEBUG = False
 
 CONCURRENT_REQUESTS = 32
-DOWNLOAD_DELAY = 0.25
+DOWNLOAD_DELAY = 0.2
