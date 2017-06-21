@@ -103,7 +103,7 @@ ITEM_PIPELINES = {
 
 
 # Exporting Settings
-FEED_URI = '/Users/yuyang/notreProgram/company_info_gleaner_II/spider_zhilian_search_needing_broadcrawling3/%(name)s_20170611.txt'
+FEED_URI = '%(name)s_20170621.txt'
 # FEED_URI = '/root/users/WSY/spider_zhilian_search_needing_broadcrawling/%(name)s_20170605.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}

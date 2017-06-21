@@ -40,7 +40,18 @@ class SpiderZhilianSearchPipeline(object):
                 #                            , item['co_add']))
                 # self.conn.commit()
                 # return item
-            return item
+            flag = 1
+
+            neg_list = ['上海外滩','海外游','海外旅游','房产中介','链家','海底捞','海外背景','海外留学','海外置业','跟单','编辑','买手','采购','推广','广告投放','房产投资','房产','运营','清关','SNS','SEO','facebook','亚马逊','google','SEM','移民','置业','理财','招商','创业','老师','教师','培训','护士','厨师','保险','房产销售','上海外','珠海外','不动产','海外包','猎头']
+
+            for word in neg_list:
+                if word in item['co_nm']:
+                    flag = 0
+                if word in item['job_nm']:
+                    flag = 0
+
+            if flag == 1:
+                return item
 
 
         except:

@@ -19,7 +19,12 @@ class SpiderZhilianSearchSpider(scrapy.Spider):
     name = "zhiliansearch2"
 
     def start_requests(self):
-        yield scrapy.Request('http://sou.zhaopin.com/jobs/searchresult.ashx?kw=%s&p=1' %self.searchword, callback=self.parse_page)
+        city_list = ['上海','北京','广州','杭州','厦门','福州','深圳','青岛']
+        for city in city_list:
+            string_to_search = 'http://sou.zhaopin.com/jobs/searchresult.ashx?jl=' + city + '&kw=%s&p=1'
+            yield scrapy.Request(string_to_search % self.searchword, callback=self.parse_page)
+
+        # yield scrapy.Request('http://sou.zhaopin.com/jobs/searchresult.ashx?jl=&kw=%s&p=1' %self.searchword, callback=self.parse_page)
 
 
     def parse_page(self, response):

@@ -45,7 +45,6 @@ class SpiderZhilianSearchLoader(ItemLoader):
     default_item_class = SpiderZhilianSearchItem
     default_output_processor = Join()
 
-
     co_id_in = MapCompose(numeric_only)
     co_nm_in = MapCompose(clean)
     co_ownership_in = MapCompose(clean)
