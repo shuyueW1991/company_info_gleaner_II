@@ -8,7 +8,6 @@
 import scrapy
 from scrapy.conf import settings
 from scrapy.exporters import CsvItemExporter
-import re
 from scrapy.loader import ItemLoader
 from scrapy.loader.processors import TakeFirst, MapCompose, Join
 
@@ -26,6 +25,7 @@ class Spider51JobSearchItem(scrapy.Item):
     qc_co_tags = scrapy.Field()
     qc_co_desc = scrapy.Field()
     qc_co_address = scrapy.Field()
+    qc_job_desc = scrapy.Field()
 
 class search51jobLoader(ItemLoader):
     default_item_class = Spider51JobSearchItem

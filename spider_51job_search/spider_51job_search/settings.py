@@ -15,14 +15,15 @@ SPIDER_MODULES = ['spider_51job_search.spiders']
 NEWSPIDER_MODULE = 'spider_51job_search.spiders'
 
 # Exporting Settings
-# FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_51job_search/%(name)s_20170610.txt'
-# FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_51job_search/%(name)s_20170610_名称海外.txt'
-FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_51job_search/%(name)s_20170610_地点海外.txt'
+FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_51job_search/%(name)s_20170626.txt'
+# FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_51job_search/%(name)s_20170621_名称海外.txt'
+# FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_51job_search/%(name)s_20170621_地点海外.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_51job_search.items.TxtItemExporter',}
 FEED_STORE_EMPTY = False
 FEED_EXPORT_FIELDS = ["qc_job_name",
+                      "qc_job_desc",
                       "qc_co_name",
                       "qc_job_loc",
                       "qc_job_pay",
@@ -58,7 +59,7 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
-AUTOTHROTTLE_ENABLED = False
+AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 AUTOTHROTTLE_START_DELAY = 1
 # The maximum download delay to be set in case of high latencies
@@ -69,5 +70,5 @@ AUTOTHROTTLE_MAX_DELAY = 2
 # Enable showing throttling stats for every response received:
 #AUTOTHROTTLE_DEBUG = False
 
-CONCURRENT_REQUESTS = 64
+CONCURRENT_REQUESTS = 32
 DOWNLOAD_DELAY = 0.25

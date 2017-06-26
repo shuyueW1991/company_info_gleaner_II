@@ -1,0 +1,416 @@
+2017-06-26 14:33:39 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: search_51job)
+2017-06-26 14:33:39 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 2, 'CONCURRENT_REQUESTS': 32, 'SPIDER_MODULES': ['spider_51job_search.spiders'], 'FEED_URI': '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_51job_search/%(name)s_20170626.txt', 'LOG_LEVEL': 'INFO', 'AUTOTHROTTLE_ENABLED': True, 'DOWNLOAD_DELAY': 0.25, 'RETRY_HTTP_CODES': [400, 403, 404, 408, 429, 500, 502, 503], 'RETRY_TIMES': 5, 'FEED_FORMAT': 'csv', 'BOT_NAME': 'search_51job', 'LOG_FILE': 'search_51job.log', 'FEED_EXPORT_FIELDS': ['qc_job_name', 'qc_job_desc', 'qc_co_name', 'qc_job_loc', 'qc_job_pay', 'qc_job_date', 'qc_co_type', 'qc_co_ee_size', 'qc_co_tags', 'qc_co_desc', 'qc_co_address'], 'NEWSPIDER_MODULE': 'spider_51job_search.spiders', 'LOG_STDOUT': True, 'AUTOTHROTTLE_START_DELAY': 1}
+2017-06-26 14:33:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.throttle.AutoThrottle',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-26 14:33:40 [py.warnings] WARNING: /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-06-26 14:33:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['spider_51job_search.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-26 14:33:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-26 14:33:40 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-06-26 14:33:40 [scrapy.core.engine] INFO: Spider opened
+2017-06-26 14:33:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-26 14:33:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:40 [stdout] INFO: the job page is http://jobs.51job.com/qingdao/72418168.html?s=01&t=0
+2017-06-26 14:33:40 [stdout] INFO: the co link is http://jobs.51job.com/all/co3083456.html
+2017-06-26 14:33:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:40 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:40 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou-thq/88223652.html?s=01&t=0
+2017-06-26 14:33:40 [stdout] INFO: the co link is http://jobs.51job.com/all/co3745461.html
+2017-06-26 14:33:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:40 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:40 [stdout] INFO: the job page is http://jobs.51job.com/wuhan/86043659.html?s=01&t=0
+2017-06-26 14:33:40 [stdout] INFO: the co link is http://jobs.51job.com/all/co2984386.html
+2017-06-26 14:33:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:41 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:41 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-ypq/89013566.html?s=01&t=0
+2017-06-26 14:33:41 [stdout] INFO: the co link is http://jobs.51job.com/all/co4413774.html
+2017-06-26 14:33:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:41 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:41 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lhxq/88026976.html?s=01&t=0
+2017-06-26 14:33:41 [stdout] INFO: the co link is http://jobs.51job.com/all/co4068177.html
+2017-06-26 14:33:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:41 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:41 [stdout] INFO: the job page is http://jobs.51job.com/hadongbin-ngq/88760763.html?s=01&t=0
+2017-06-26 14:33:41 [stdout] INFO: the co link is http://jobs.51job.com/all/co4056890.html
+2017-06-26 14:33:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:41 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:42 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen/45296708.html?s=01&t=0
+2017-06-26 14:33:42 [stdout] INFO: the co link is http://jobs.51job.com/all/co245628.html
+2017-06-26 14:33:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:42 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:42 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-baq/90967473.html?s=01&t=0
+2017-06-26 14:33:42 [stdout] INFO: the co link is http://jobs.51job.com/all/co3821167.html
+2017-06-26 14:33:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:42 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:42 [stdout] INFO: the job page is http://jobs.51job.com/beijing/84687161.html?s=01&t=0
+2017-06-26 14:33:42 [stdout] INFO: the co link is http://jobs.51job.com/all/co3664706.html
+2017-06-26 14:33:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:42 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:43 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-nsq/74911671.html?s=01&t=0
+2017-06-26 14:33:43 [stdout] INFO: the co link is http://jobs.51job.com/all/co3013044.html
+2017-06-26 14:33:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:43 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:43 [stdout] INFO: the job page is http://jobs.51job.com/tianjin-bhxq/82777938.html?s=01&t=0
+2017-06-26 14:33:43 [stdout] INFO: the co link is http://jobs.51job.com/all/co3976270.html
+2017-06-26 14:33:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:43 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:43 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-hpq/90972755.html?s=01&t=0
+2017-06-26 14:33:43 [stdout] INFO: the co link is http://jobs.51job.com/all/co3954447.html
+2017-06-26 14:33:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:43 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:44 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen/90703125.html?s=01&t=0
+2017-06-26 14:33:44 [stdout] INFO: the co link is http://jobs.51job.com/all/co2866164.html
+2017-06-26 14:33:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:44 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:44 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lhq/85807381.html?s=01&t=0
+2017-06-26 14:33:44 [stdout] INFO: the co link is http://jobs.51job.com/all/co2742821.html
+2017-06-26 14:33:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:44 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:44 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-hkq/90972600.html?s=01&t=0
+2017-06-26 14:33:44 [stdout] INFO: the co link is http://jobs.51job.com/all/co2382630.html
+2017-06-26 14:33:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:44 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:45 [stdout] INFO: the job page is http://jobs.51job.com/nanjing/81902844.html?s=01&t=0
+2017-06-26 14:33:45 [stdout] INFO: the co link is http://jobs.51job.com/all/co2008976.html
+2017-06-26 14:33:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:46 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:46 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou-thq/90972480.html?s=01&t=0
+2017-06-26 14:33:46 [stdout] INFO: the co link is http://jobs.51job.com/all/co4473346.html
+2017-06-26 14:33:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:46 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:46 [stdout] INFO: the job page is http://jobs.51job.com/ningbo-jdq/87216870.html?s=01&t=0
+2017-06-26 14:33:46 [stdout] INFO: the co link is http://jobs.51job.com/all/co4004109.html
+2017-06-26 14:33:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:46 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:46 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-jaq/67675335.html?s=01&t=0
+2017-06-26 14:33:46 [stdout] INFO: the co link is http://jobs.51job.com/all/co2139469.html
+2017-06-26 14:33:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:46 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:47 [stdout] INFO: the job page is http://jobs.51job.com/beijing/87580140.html?s=01&t=0
+2017-06-26 14:33:47 [stdout] INFO: the co link is http://jobs.51job.com/all/co4341796.html
+2017-06-26 14:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:47 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:47 [stdout] INFO: the job page is http://jobs.51job.com/wuxi-caq/90953644.html?s=01&t=0
+2017-06-26 14:33:47 [stdout] INFO: the co link is http://jobs.51job.com/all/co2190565.html
+2017-06-26 14:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:47 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:47 [stdout] INFO: the job page is http://jobs.51job.com/wuhan/83690169.html?s=01&t=0
+2017-06-26 14:33:47 [stdout] INFO: the co link is http://jobs.51job.com/all/co711721.html
+2017-06-26 14:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:47 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:47 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou/90971546.html?s=01&t=0
+2017-06-26 14:33:47 [stdout] INFO: the co link is http://jobs.51job.com/all/co4492222.html
+2017-06-26 14:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:47 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:48 [stdout] INFO: the job page is http://jobs.51job.com/overseas/85002559.html?s=01&t=0
+2017-06-26 14:33:48 [stdout] INFO: the co link is http://jobs.51job.com/all/co3795498.html
+2017-06-26 14:33:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:48 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:48 [stdout] INFO: the job page is http://jobs.51job.com/tianjin-hxq/87099935.html?s=01&t=0
+2017-06-26 14:33:48 [stdout] INFO: the co link is http://jobs.51job.com/all/co2241317.html
+2017-06-26 14:33:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:48 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:48 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lgq/90970802.html?s=01&t=0
+2017-06-26 14:33:48 [stdout] INFO: the co link is http://jobs.51job.com/all/co2968309.html
+2017-06-26 14:33:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:48 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:48 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou/71378268.html?s=01&t=0
+2017-06-26 14:33:48 [stdout] INFO: the co link is http://jobs.51job.com/all/co3046849.html
+2017-06-26 14:33:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:48 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou-byq/65089947.html?s=01&t=0
+2017-06-26 14:33:49 [stdout] INFO: the co link is http://jobs.51job.com/all/co3400659.html
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-nsq/64878320.html?s=01&t=0
+2017-06-26 14:33:49 [stdout] INFO: the co link is http://jobs.51job.com/all/co3016196.html
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen/87734320.html?s=01&t=0
+2017-06-26 14:33:49 [stdout] INFO: the co link is http://jobs.51job.com/all/co3548907.html
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the job page is http://jobs.51job.com/qingdao-snq/73332519.html?s=01&t=0
+2017-06-26 14:33:49 [stdout] INFO: the co link is http://jobs.51job.com/all/co2744259.html
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:49 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lgq/86231107.html?s=01&t=0
+2017-06-26 14:33:50 [stdout] INFO: the co link is http://jobs.51job.com/all/co3953019.html
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:50 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:50 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lgq/87949685.html?s=01&t=0
+2017-06-26 14:33:50 [stdout] INFO: the co link is http://jobs.51job.com/all/co3977095.html
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:50 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:50 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou-byq/88082814.html?s=01&t=0
+2017-06-26 14:33:50 [stdout] INFO: the co link is http://jobs.51job.com/all/co4366349.html
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:50 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:50 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-pdxq/83824353.html?s=01&t=0
+2017-06-26 14:33:50 [stdout] INFO: the co link is http://jobs.51job.com/all/co2712166.html
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:50 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:50 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-hkq/80230496.html?s=01&t=0
+2017-06-26 14:33:50 [bs4.dammit] WARNING: Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2017-06-26 14:33:50 [stdout] INFO: the co link is http://jobs.51job.com/all/co3967322.html
+2017-06-26 14:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:51 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:51 [bs4.dammit] WARNING: Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2017-06-26 14:33:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:51 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou-thq/88236137.html?s=01&t=0
+2017-06-26 14:33:51 [stdout] INFO: the co link is http://jobs.51job.com/all/co3900015.html
+2017-06-26 14:33:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:51 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:51 [stdout] INFO: the job page is http://jobs.51job.com/shanghai/84173386.html?s=01&t=0
+2017-06-26 14:33:51 [stdout] INFO: the co link is http://jobs.51job.com/all/co3570199.html
+2017-06-26 14:33:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:51 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:51 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-sjq/77525179.html?s=01&t=0
+2017-06-26 14:33:51 [stdout] INFO: the co link is http://jobs.51job.com/all/co2221234.html
+2017-06-26 14:33:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:51 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:51 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-hpq/89540812.html?s=01&t=0
+2017-06-26 14:33:51 [stdout] INFO: the co link is http://jobs.51job.com/all/co478331.html
+2017-06-26 14:33:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-hkq/66397420.html?s=01&t=0
+2017-06-26 14:33:52 [stdout] INFO: the co link is http://jobs.51job.com/all/co3536876.html
+2017-06-26 14:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the job page is http://jobs.51job.com/shanghai/89655256.html?s=01&t=0
+2017-06-26 14:33:52 [stdout] INFO: the co link is http://jobs.51job.com/all/co721819.html
+2017-06-26 14:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou/88403046.html?s=01&t=0
+2017-06-26 14:33:52 [stdout] INFO: the co link is http://jobs.51job.com/all/co4132545.html
+2017-06-26 14:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-baq/62336611.html?s=01&t=0
+2017-06-26 14:33:52 [stdout] INFO: the co link is http://jobs.51job.com/all/co3058943.html
+2017-06-26 14:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:52 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:53 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen/90968624.html?s=01&t=0
+2017-06-26 14:33:53 [stdout] INFO: the co link is http://jobs.51job.com/all/co2289308.html
+2017-06-26 14:33:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:53 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:53 [stdout] INFO: the job page is http://jobs.51job.com/chengdu/90968613.html?s=01&t=0
+2017-06-26 14:33:53 [stdout] INFO: the co link is http://jobs.51job.com/all/co2698403.html
+2017-06-26 14:33:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:53 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:53 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen/90968528.html?s=01&t=0
+2017-06-26 14:33:53 [stdout] INFO: the co link is http://jobs.51job.com/all/co2810273.html
+2017-06-26 14:33:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:53 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:54 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-nsq/88276965.html?s=01&t=0
+2017-06-26 14:33:54 [stdout] INFO: the co link is http://jobs.51job.com/all/co3955182.html
+2017-06-26 14:33:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:54 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:54 [bs4.dammit] WARNING: Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2017-06-26 14:33:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:54 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-nsq/47575750.html?s=01&t=0
+2017-06-26 14:33:54 [stdout] INFO: the co link is http://jobs.51job.com/all/co2304612.html
+2017-06-26 14:33:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:54 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:54 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-jaq/89197811.html?s=01&t=0
+2017-06-26 14:33:54 [stdout] INFO: the co link is http://jobs.51job.com/all/co2475159.html
+2017-06-26 14:33:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:54 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:54 [stdout] INFO: the next page is http://search.51job.com/list/000000,000000,0000,00,9,99,%25E6%25B5%25B7%25E5%25A4%2596,2,2.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=
+2017-06-26 14:33:54 [stdout] INFO: next page exists, number is 1
+2017-06-26 14:33:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:55 [stdout] INFO: the job page is http://jobs.51job.com/nanjing/88106779.html?s=01&t=0
+2017-06-26 14:33:55 [stdout] INFO: the co link is http://jobs.51job.com/all/co3681807.html
+2017-06-26 14:33:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:55 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:55 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lhq/88232443.html?s=01&t=0
+2017-06-26 14:33:55 [stdout] INFO: the co link is http://jobs.51job.com/all/co4374282.html
+2017-06-26 14:33:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:55 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:55 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-cnq/90967675.html?s=01&t=0
+2017-06-26 14:33:55 [stdout] INFO: the co link is http://jobs.51job.com/all/co3626412.html
+2017-06-26 14:33:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:55 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:55 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lgq/90967684.html?s=01&t=0
+2017-06-26 14:33:56 [stdout] INFO: the co link is http://jobs.51job.com/all/co3559237.html
+2017-06-26 14:33:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:56 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:56 [stdout] INFO: the job page is http://jobs.51job.com/nanjing-qhq/90967603.html?s=01&t=0
+2017-06-26 14:33:56 [stdout] INFO: the co link is http://jobs.51job.com/all/co4339338.html
+2017-06-26 14:33:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:56 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:56 [stdout] INFO: special hiring page
+2017-06-26 14:33:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:56 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lhq/90709400.html?s=01&t=0
+2017-06-26 14:33:56 [stdout] INFO: the co link is http://jobs.51job.com/all/co3886645.html
+2017-06-26 14:33:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:56 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:56 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-ftq/85704487.html?s=01&t=0
+2017-06-26 14:33:56 [stdout] INFO: the co link is http://jobs.51job.com/all/co3091198.html
+2017-06-26 14:33:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:56 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:57 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lgq/89947090.html?s=01&t=0
+2017-06-26 14:33:57 [stdout] INFO: the co link is http://jobs.51job.com/all/co4455127.html
+2017-06-26 14:33:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:57 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:57 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-ptq/90967149.html?s=01&t=0
+2017-06-26 14:33:57 [stdout] INFO: the co link is http://jobs.51job.com/all/co3370362.html
+2017-06-26 14:33:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:57 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:58 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-ytq/74090213.html?s=01&t=0
+2017-06-26 14:33:59 [stdout] INFO: the co link is http://jobs.51job.com/all/co2564801.html
+2017-06-26 14:33:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:59 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:59 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-nsq/70536054.html?s=01&t=0
+2017-06-26 14:33:59 [stdout] INFO: the co link is http://jobs.51job.com/all/co2517034.html
+2017-06-26 14:33:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:59 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:59 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-pdxq/87201972.html?s=01&t=0
+2017-06-26 14:33:59 [stdout] INFO: the co link is http://jobs.51job.com/all/co2579770.html
+2017-06-26 14:33:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:59 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:33:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:59 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-pdxq/86488344.html?s=01&t=0
+2017-06-26 14:33:59 [stdout] INFO: the co link is http://jobs.51job.com/all/co2886670.html
+2017-06-26 14:33:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:33:59 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:00 [stdout] INFO: the job page is http://jobs.51job.com/beijing/87301803.html?s=01&t=0
+2017-06-26 14:34:00 [stdout] INFO: the co link is http://jobs.51job.com/all/co1990501.html
+2017-06-26 14:34:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:00 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:00 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen/90606694.html?s=01&t=0
+2017-06-26 14:34:00 [stdout] INFO: the co link is http://jobs.51job.com/all/co3441444.html
+2017-06-26 14:34:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:00 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:00 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-nsq/90965775.html?s=01&t=0
+2017-06-26 14:34:00 [stdout] INFO: the co link is http://jobs.51job.com/all/co2050622.html
+2017-06-26 14:34:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:00 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:00 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lhq/78120992.html?s=01&t=0
+2017-06-26 14:34:00 [stdout] INFO: the co link is http://jobs.51job.com/all/co3112582.html
+2017-06-26 14:34:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:01 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:01 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-lgq/83263494.html?s=01&t=0
+2017-06-26 14:34:01 [stdout] INFO: the co link is http://jobs.51job.com/all/co4052222.html
+2017-06-26 14:34:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:01 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:01 [stdout] INFO: the job page is http://jobs.51job.com/shanghai-hkq/61322065.html?s=01&t=0
+2017-06-26 14:34:01 [stdout] INFO: the co link is http://jobs.51job.com/all/co3303381.html
+2017-06-26 14:34:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:01 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:03 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-ftq/76660546.html?s=01&t=0
+2017-06-26 14:34:03 [stdout] INFO: the co link is http://jobs.51job.com/all/co2165327.html
+2017-06-26 14:34:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:03 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:03 [stdout] INFO: the job page is http://jobs.51job.com/overseas/90964839.html?s=01&t=0
+2017-06-26 14:34:03 [stdout] INFO: the co link is http://jobs.51job.com/all/co3160145.html
+2017-06-26 14:34:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:03 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:04 [stdout] INFO: the job page is http://jobs.51job.com/jinshuiqu/70110719.html?s=01&t=0
+2017-06-26 14:34:04 [stdout] INFO: the co link is http://jobs.51job.com/all/co2808548.html
+2017-06-26 14:34:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:04 [scrapy.crawler] INFO: Received SIG_UNBLOCK, shutting down gracefully. Send again to force 
+2017-06-26 14:34:04 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:04 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-06-26 14:34:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:04 [stdout] INFO: the job page is http://jobs.51job.com/shenzhen-nsq/87623372.html?s=01&t=0
+2017-06-26 14:34:04 [stdout] INFO: the co link is http://jobs.51job.com/all/co3961923.html
+2017-06-26 14:34:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:04 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:04 [scrapy.crawler] INFO: Received SIG_UNBLOCK twice, forcing unclean shutdown
+2017-06-26 14:34:04 [stdout] INFO: the job page is http://jobs.51job.com/guangzhou-byq/90606398.html?s=01&t=0
+2017-06-26 14:34:04 [stdout] INFO: the co link is http://jobs.51job.com/all/co2509395.html
+2017-06-26 14:34:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:05 [stdout] INFO: the co parsing result is 200
+2017-06-26 14:34:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:05 [stdout] INFO: the job page is http://jobs.51job.com/qingdao-lsq/79465657.html?s=01&t=0
+2017-06-26 14:34:05 [stdout] INFO: the co link is http://jobs.51job.com/all/co4001881.html
+2017-06-26 14:34:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): jobs.51job.com
+2017-06-26 14:34:05 [stdout] INFO: the co parsing result is 200
