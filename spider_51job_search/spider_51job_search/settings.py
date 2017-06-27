@@ -15,9 +15,9 @@ SPIDER_MODULES = ['spider_51job_search.spiders']
 NEWSPIDER_MODULE = 'spider_51job_search.spiders'
 
 # Exporting Settings
-FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_51job_search/%(name)s_20170626.txt'
-# FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_51job_search/%(name)s_20170621_名称海外.txt'
-# FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_51job_search/%(name)s_20170621_地点海外.txt'
+# FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_51job_search/%(name)s_20170626.txt'
+FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_51job_search/%(name)s_20170626_名称海外.txt'
+# FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_51job_search/%(name)s_20170626_地点海外.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_51job_search.items.TxtItemExporter',}
