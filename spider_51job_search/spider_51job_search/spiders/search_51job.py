@@ -43,7 +43,10 @@ class Search51jobSpider(scrapy.Spider):
             job_page = requests.get(clean(str(job_link[0])), headers=self.headers)
             print('the job page is {}'.format(job_link[0]))
             biscuit = bs(job_page.content, 'html.parser')
-            out['qc_job_desc'] = clean(biscuit.find("div", class_="tBorderTop_box").get_text())
+            try:
+                out['qc_job_desc'] = clean(biscuit.find("div", class_="tBorderTop_box").get_text())
+            except:
+                print('no job description available')
             co_link = item.xpath('span[@class="t2"]/a/@href').extract()
             print('the co link is {}'.format(co_link[0]))
             try:
