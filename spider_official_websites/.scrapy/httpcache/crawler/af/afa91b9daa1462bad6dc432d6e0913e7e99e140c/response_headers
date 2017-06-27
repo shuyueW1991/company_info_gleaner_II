@@ -1,0 +1,18 @@
+Content-Security-Policy: default-src 'self'; font-src 'self'; style-src 'unsafe-inline' 'self'; script-src 'self' *.google.com *.google-analytics.com *.gstatic.com *.tiqcdn.com tag.thinkvine.com js-agent.newrelic.com dpm.demdex.net 'unsafe-eval' 'unsafe-inline'; frame-src 'self' *.google.com www.youtube.com wdc.custhelp.com; img-src 'self' *.google-analytics.com tag.thinkvine.com avatars.discourse.org community.wd.com support.wdc.com;
+Set-Cookie: ASP.NET_SessionId=jsm0o3h3u0kc2ycptr4a521v; path=/; HttpOnly
+X-Cdn: Incapsula
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Server: nosniff
+Strict-Transport-Security: max-age=31536000
+Public-Key-Pins: pin-sha256="ebYH47GNbj3Z9IlH7A+eaFBJrCl95KuV36bfDN3aNqQ="; pin-sha256="Ne1UYBo2Q3yarh2ysR6gIMfpXil6j3B4BvdxyBq7Vrg="; max-age=5184000; includeSubDomains
+X-Iinfo: 8-65242712-65242763 NNNN CT(106 102 0) RT(1498558009458 420) q(0 0 2 -1) r(14 15) U18
+Cache-Control: private
+X-Content-Type-Options: nosniff
+X-Aspnet-Version: 4.0.30319
+X-Aspnet-Version: nosniff
+Date: Tue, 27 Jun 2017 10:06:51 GMT
+X-Powered-By: nosniff
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block

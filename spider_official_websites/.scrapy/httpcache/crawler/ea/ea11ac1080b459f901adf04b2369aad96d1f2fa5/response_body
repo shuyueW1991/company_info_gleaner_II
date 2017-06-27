@@ -1,0 +1,738 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<title>中华人民共和国计算机软件保护条例-中国（福建）自由贸易试验区门户网站</title>
+<meta name="keywords" content="福州自贸区官网,自贸区官网,福建自贸区官网,中国自贸区,平潭片区,厦门片区,福州片区,自贸区,中国福建自由贸易试验区,中国(福建)自由贸易试验区,平潭自贸区,厦门自贸区,福州自贸区,福建自贸区,平潭自由贸易试验区,厦门自由贸易试验区,福州自由贸易试验区,福建自由贸易试验区,中国（福建）自由贸易试验区,中国（福建）自由贸易试验区门户网站" /><meta name="description" content="中国（福建）自由贸易试验区网站（www.china-fjftz.gov.cn）是中国（福建）自由贸易试验区唯一的官方门户网站，包括福建自贸区总站、自贸区福州片区、自贸区厦门片区、自贸区平潭片区网站。用于发布福建自贸区新闻动态、政策法规、政策解读、规划方案、自贸区网上办事、自贸区对台合作等内容" />
+<meta name="copyright" content="Copyright 2017 - 中国（福建）自由贸易试验区,中国（福建）自由贸易试验区门户网站" />
+<meta name="baidu-site-verification" content="rL3Om7WEqh" />
+<script> 
+   (function() {
+     if (! 
+     /*@cc_on!@*/
+     0) return;
+     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     var i= e.length;
+     while (i--){
+         document.createElement(e[i])
+     } 
+})() 
+</script>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css"/>
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/index_tab.js"></script>
+<script type="text/javascript" src="/js/jquery.SuperSlide.js"></script>
+
+<script type="text/javascript" src="/js/jzf.js"></script>
+
+<script language="javascript" type="text/javascript">
+var baseUrl='/',controller='article';
+function showtime()
+{
+var today,hour,second,minute,year,month,date;
+var strDate ;
+today=new Date();
+var n_day = today.getDay();
+switch (n_day)
+{
+    case 0:{
+      strDate = "星期日"
+    }break;
+    case 1:{
+      strDate = "星期一"
+    }break;
+    case 2:{
+      strDate ="星期二"
+    }break;
+    case 3:{
+      strDate = "星期三"
+    }break;
+    case 4:{
+      strDate = "星期四"
+    }break;
+    case 5:{
+      strDate = "星期五"
+    }break;
+    case 6:{
+      strDate = "星期六"
+    }break;
+    case 7:{
+      strDate = "星期日"
+    }break;
+}
+year = today.getFullYear();
+month = today.getMonth()+1;
+date = today.getDate();
+hour = today.getHours();
+minute =today.getMinutes();
+second = today.getSeconds();
+document.getElementById('time').innerHTML = year + "年" + month + "月" + date + "日" + strDate +" " + hour + ":" + minute + ":" + second; //显示时间
+setTimeout("showtime();", 1000); //设定函数自动执行时间为 1000 ms(1 s)
+}
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fa77760ba71400031b0fe2ba39b97748";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?49ca092d1107900217cfd9ae2cdb9b72";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".tc").find(".tz_box").hide(0);
+        $(".tc").hover(
+		function () { $(this).css("z-index", "20").find(".tz_box").css("z-index", "50").stop(true, true).animate({ opacity: "show" }); },
+		function () { $(this).css("z-index", "1").find(".tz_box").css("z-index", "1").stop(true, true).animate({ opacity: "hide" }); }
+		);
+
+        $(".search_text").focus(function () {
+
+            $(this).addClass("focus");
+
+        }).blur(function () {
+
+            $(this).removeClass("focus");
+
+        });
+    });
+</script>
+</head>
+<body>
+	<header>
+	<div class="gb_top">
+    	<div class="container gb_main">
+        	<div class="left"> 
+                <div class="time_box"> 
+                    <span id="time"></span> 
+                    <script language="javascript"> showtime();</script> 
+                </div>
+                <p>中国(福建)自由贸易试验区欢迎您!</p> 
+            </div>
+            <div class="fright">
+            	<ul class="gb_top_list"><li><a href="javascript:ClickObject1();">简体版</a></li><li> | </li><li><a href="javascript:ClickObject2();">繁體版</a></li><li> | </li><li><a href="/html/en">English</a></li><li> | </li><li><a href="#" style="position:relative;*z-index:1">手机门户<ul class="xl_erweima"><li><img src="/images/mb_qrcode.png"><p>手机站二维码</p></li></ul></a></li><li> | </li><li><a href="#" style="position:relative;*z-index:1">微信<ul class="xl_erweima"><li><img src="/images/wx_qrcode.jpg"><p>微信二维码</p></li></ul></a></li><li> | </li><li><a target="_blank" href="http://weibo.com/fjftz" style="position:relative;*z-index:1">微博<ul class="xl_erweima"><li><img src="/images/wb_qrcode.png"><p>微博二维码</p></li></ul></a></li><li> | </li><li><a target="_blank" href="http://www.fiet.gov.cn/">福建省商务厅</a></li></ul>
+            </div>
+        </div>
+    </div>
+</header><div class="container">	
+		<div class="gb_logo_box">
+    	<div class="gb_logo"><a href="/"></a></div>
+    </div>
+    <div class="gb_banner">
+    <div id="slideBox" class="slideBox">
+    <div class="hd">
+      <ul>
+        <li style="visibility: hidden"><a></a></li>
+        <li><a target="_blank" href="http://www.fzftz.gov.cn/" class="on">福州片区</a></li>
+        <li><a target="_blank" href="http://www.xmftz.gov.cn/" class="a_xm on">厦门片区</a></li>
+        <li><a target="_blank" href="http://ptftz.pingtan.gov.cn/" class="a_pt on">平潭片区</a></li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li style="background:url(/images/picture_zmq.jpg) center no-repeat"><a href="http://picture.china-fjftz.gov.cn/" target="_blank""></a></li>
+        <li style="background:url(/images/fzftz.jpg) center no-repeat"><a href="#"></a></li>
+        <li style="background:url(/images/xmftz.jpg) center no-repeat"><a href="#"></a></li>
+        <li style="background:url(/images/ptftz.jpg) center no-repeat"><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+        <script type="text/javascript">
+		jQuery(".slideBox").slide( { mainCell:".bd ul",effect:"leftLoop",autoPlay:true} );</script> 
+    </div>
+    
+    
+    <nav class="nav"> 
+        <ul class="sy1_ul">
+          <div class="sy2_inside">
+            <li class="sy1_li"><a href="/" class="sy1_tit ">首页</a></li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli1"> <a class="sy1_tit " href="/article/index/gid/8/aid/142" target="_self"><span class="navspan">走进自贸区</span></a>
+              <ul class="sy2_ul">
+              	<div class="into_fta">
+                	<div class="fta_left">
+                    	<img src="/images/ftzmap.jpg">
+                        <p>2014年12月31日，国务院正式批复设立中国（福建）自由贸易试验区。中国（福建）自由贸易试验区从此成为中国大陆境内继上海自贸试验区之后的第二批自贸试验区。中国（福建）自由贸易试验区范围总面积118.04平方公里，包括平潭、厦门、福州3个片区。其中平潭片区43平方公里、厦门片区43.78平方公里、福州片区31.26平方公里。<a href="/article/index/gid/8/aid/142.html">【更多】</a></p>
+                    </div>
+                    <div class="fta_right">
+                    	<ul>
+                        	<li><a href="/article/index/gid/8/aid/142.html"><img src="/images/fta_01.png"><p>自贸区简介</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/11/aid/143"><img src="/images/fta_04.png"><p>福州片区简介</p></a></li>
+                            <li><a href="/article/index/gid/9/aid/358.html"><img src="/images/fta_02.png"><p>机构职能与设置</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/12/aid/144"><img src="/images/fta_05.png"><p>厦门片区简介</p></a></li>
+                            <li><a href="/article/index/gid/14/aid/4.html"><img src="/images/fta_03.png"><p>自贸区大事记</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/13/aid/145"><img src="/images/fta_06.png"><p>平潭片区简介</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli2"> <a class="sy1_tit " href="/article/list/gid/3" target="_self"><span class="navspan">新闻资讯</span></a>
+              <ul class="sy2_ul">
+              	<div class="gb_xl_news">
+                	<div class="slideTxtBox">
+						<div class="hd">
+							<ul><li><a href="">工作动态</a></li><li><a href="">媒体报道</a></li><li><a href="">福建资讯</a></li></ul>
+						</div>
+						<div class="bd">
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6531.html">
+							2017年版自贸试验区外商投资负面清单减至95项</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6451.html">
+							江阴港区海铁联运到发箱量突破5000标箱</a><span class="date">06-15</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6409.html">
+							香港全国人大代表来闽开展专题调研</a><span class="date">06-12</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6408.html">
+							厦门市自贸委、厦门市国资委举办企业转型升级高级研讨班</a><span class="date">06-12</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6391.html">
+							平潭片区与四川自贸试验区川南临港片区签署战略合作协议</a><span class="date">06-08</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6378.html">
+							尤权会见香港全国人大代表访问团</a><span class="date">06-07</span></li>
+											
+							</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6541.html">
+							台湾“中华茶联”厦门设代表处在海沧自贸园区揭牌</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6540.html">
+							习近平主持召开中央全面深化改革领导小组第三十六次会议</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6524.html">
+							今年以来福建江阴港进口汽车3700辆 同比增长五成</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6523.html">
+							菲律宾《联合日报》关注厦门汽车进口贸易：欧洲汽车可直抵厦门</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6522.html">
+							厦门片区太古海投冷链物流厦门冷库正式投用</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6514.html">
+							驶入深蓝 ——中国自贸区“大胆试、大胆闯、自主改”的厦门新实践</a><span class="date">06-22</span></li>
+											</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6545.html">
+							福建“拥抱”世界华文传媒论坛 助推“海丝”建设</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6544.html">
+							福建提升自贸协定原产地签证水平显成效</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6543.html">
+							原产地证书助力莆田企业驰骋“一带一路”</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6534.html">
+							闽出台意见进一步降低实体经济企业成本</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6533.html">
+							福建省再增两个国家级双创示范基地</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6532.html">
+							“一带一路”法律保障高峰论坛举行</a><span class="date">06-26</span></li>
+											</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+                </div>
+                <div class="gb_xl_video">
+                    <h3><a href="/article/video/gid/29" target="_blank">视频新闻</a></h3>
+                    <div class="video_list">
+                    	<ul>
+										
+                        	<li><a target="_blank" href="/article/index/aid/6539.html"><span></span><img src="/upfile/files/201706/26/125721_524.jpg"><p>大陆首家台商独资海员...</p></a></li>
+										
+                        	<li><a target="_blank" href="/article/index/aid/6494.html"><span></span><img src="/upfile/files/201706/19/180450_786.jpg"><p>自贸区负面清单“再瘦...</p></a></li>
+											
+                        </ul>
+                    </div>
+                    <div class="video_news_list">
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6476.html">自贸新路径 厦门：获批为汽车整车进口口岸</a><span class="date">（06-16）</span></li>
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6407.html">福州港开通直航印尼集装箱航线</a><span class="date">（06-09）</span></li>
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6406.html">香港全国人大代表访问团考察福建自贸试验区</a><span class="date">（06-09）</span></li>
+										 
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli3"> <a class="sy1_tit " href="/article/list/gid/4" target="_self"><span class="navspan">信息公开</span></a>
+              <ul class="sy2_ul">
+              	<div class="info_list">
+                	<ul>
+                    	<li><a target="_blank" href="/article/list/gid/66"><i class="fa fa-volume-up"></i>国家支持政策</a></li>
+                        <li><a target="_blank" href="/article/list/gid/22"><i class="fa fa-location-arrow"></i>方案与规划</a></li>
+						<li><a target="_blank" href="/article/list/gid/23"><i class="fa fa-signal"></i>统计数据</a></li>
+                        <li><a target="_blank" href="http://www.fiet.gov.cn/xxgk/zfxxgkzl/"><i class="fa fa-file-text-o"></i>政府信息公开专栏</a></li>
+                     </ul>
+                </div>
+                <div class="info_box">
+                	<div class="info_news" style="border-bottom:dotted 1px #ddd; padding-bottom:15px; margin-bottom:15px;">
+                    	<h3>通知公告<a target="_blank" href="/article/list/gid/19">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/5902.html">
+							关于启动实施新的外国人来华工作许可制度的...</a><span class="date">03-31</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5669.html">
+							关于印发 《福建省引进台湾高层次人才“百...</a><span class="date">02-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5285.html">
+							关于海关特殊监管区域和保税监管场所保税货...</a><span class="date">01-05</span></li>
+										
+                        </ul>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="info_news"  style="border-bottom:dotted 1px #ddd; padding-bottom:15px; margin-bottom:15px;">
+                    	<h3>政策法规<a target="_blank" href="/article/list/gid/20">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/6513.html">
+							质检总局关于推进检验检疫改革创新 进一步...</a><span class="date">06-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6480.html">
+							国务院办公厅关于印发自由贸易试验区外商投...</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6353.html">
+							厦门市市场监督管理局关于印发推进自贸区商...</a><span class="date">06-02</span></li>
+					
+                        </ul>
+                    </div>
+                    <div class="info_news">
+                    	<h3>政策解读<a target="_blank" href="/article/list/gid/44">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/6513.html">
+							质检总局关于推进检验检疫改革创新 进一步...</a><span class="date">06-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6480.html">
+							国务院办公厅关于印发自由贸易试验区外商投...</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6353.html">
+							厦门市市场监督管理局关于印发推进自贸区商...</a><span class="date">06-02</span></li>
+					
+                        </ul>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="info_news">
+                    	<h3>扶持政策<a target="_blank" href="/article/list/gid/21">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/5828.html">
+							平潭综合实验区管委会关于促进会展产业发展...</a><span class="date">03-24</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5803.html">
+							福州市人民政府办公厅关于印发《福州港口生...</a><span class="date">03-21</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/4508.html">
+							福建省深化人才发展体制机制改革实施意见</a><span class="date">09-20</span></li>
+					
+                        </ul>
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli4"> <a class="sy1_tit " href="#" target="_self"><span class="navspan">办事大厅</span></a>
+              <ul class="sy2_ul">
+              	<div class="xl_fta_box">
+                	<div class="box_left"></div>
+                    <div class="box_middle">
+                    	<ul>
+                        	<li><img src="/images/fz_fta.png"><p>福州片区办事大厅</p><a target="_blank" href="http://www.fzftz.gov.cn/wsbs.aspx">办事入口</a></li>
+                            <li><img src="/images/xm_fta.png"><p>厦门片区办事大厅</p><a target="_blank" href="http://www.xmftz.gov.cn/wsbs/">办事入口</a></li>
+                            <li><img src="/images/pt_fta.png"><p>平潭片区办事大厅</p><a target="_blank" href="http://zzhy.ptxzfwzx.gov.cn/">办事入口</a></li>
+                        </ul>
+                    </div>
+                    <div class="box_right"></div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli5"> <a class="sy1_tit " href="/gcolumn/ztlm" target="_self"><span class="navspan">专题专栏</span></a>
+              <ul class="sy2_ul">
+              	<div class="zt_left">
+                	<div class="zt_title"><i></i>专题</div>
+                    <ul>
+										
+                    	<li>
+                        	<div class="zt_img"><a target="_blank" href="http://picture.china-fjftz.gov.cn/"><img src="/upfile/files/201705/05/144925_772.jpg"></a></div>
+                            <div class="zt_text">
+                            	<a target="_blank" href="http://picture.china-fjftz.gov.cn/" class="text_name">福建自贸试验区随手拍&摄影采风作品评选活...</a>
+                                <p><a href="http://picture.china-fjftz.gov.cn/">【详情】</a></p>
+                            </div>
+                            
+                        </li>
+										
+                    	<li>
+                        	<div class="zt_img"><a target="_blank" href="/html/zmqtp/"><img src="/upfile/files/201610/14/083618_111.jpg"></a></div>
+                            <div class="zt_text">
+                            	<a target="_blank" href="/html/zmqtp/" class="text_name">福建自贸试验区2015-2016年度评选活动结果公布</a>
+                                <p>福建自贸试验区2015-2016年度评选活动结果公布<a href="/html/zmqtp/">【详情】</a></p>
+                            </div>
+                            
+                        </li>
+				                    </ul>
+                </div>
+                <div class="zt_right">
+                	<div class="zt_title"><i></i>专栏</div>
+                	<ul>
+										
+                    	<li><a target="_blank" href="/article/list/gid/65.html"><i></i><p>中央媒体报道福建自贸区专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/68.html"><i></i><p>福建自贸区建设成效专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/58.html"><i></i><p>福建创新举措专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/67.html"><i></i><p>福建自贸区实践案例专栏</p></a></li>
+										
+                    </ul>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli6"> <a class="sy1_tit " href="/article/list/gid/70" target="_self"><span class="navspan">对台直通车</span></a>
+              <ul class="sy2_ul">
+              	<div class="gb_xl_news">
+                	<div class="slideTxtBox">
+						<div class="hd">
+							<ul><li><a href="">对台新闻</a></li><li><a href="">对台政策</a></li><li><a href="">创新举措</a></li></ul>
+						</div>
+						<div class="bd">
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6548.html">
+							福建探索海峡博士后计划 深化两岸人才交流...</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6547.html">
+							百余家福建台资企业 将首次联合赴台征才</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6546.html">
+							福建“六区”发展战略 与闽台深度融合发展</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6538.html">
+							第四届中国青年创新创业大赛（福建赛区）启...</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6537.html">
+							两岸护理专家在厦门探讨创新</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6536.html">
+							银监会推动解决台胞办理信用卡难试点工作—...</a><span class="date">06-26</span></li>
+												
+							</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/3427.html">
+							 厦门检验检疫局中国（福建）自由贸易试验...</a><span class="date">04-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/3396.html">
+							厦门检验检疫局中国（福建）自由贸易试验区...</a><span class="date">04-19</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1485.html">
+							台湾导游领队在福建自贸试验区执业实施方案</a><span class="date">08-07</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1239.html">
+							台湾会计专业人士担任中国（福建）自由贸易...</a><span class="date">07-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1091.html">
+							台湾药师在福建自由贸易试验区执业的管理暂...</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/869.html">
+							关于取得大陆注册结构工程师等3类执业资格...</a><span class="date">06-02</span></li>
+											</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6479.html">
+							采认台湾教师从业资格</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6478.html">
+							台胞参保直通车</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6477.html">
+							采认进出港台籍船舶技术证照</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5670.html">
+							两岸保险“创研中心”</a><span class="date">02-24</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5664.html">
+							台湾中高层次人才认定新机制</a><span class="date">02-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5663.html">
+							台资建筑业企业资质认定办法</a><span class="date">02-23</span></li>
+											</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+                </div>
+                <div class="gb_xl_video">
+                    <div class="fw_list">
+                    	<img src="/images/dtztc.jpg"/>
+                    </div>
+                   
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+          </div>
+          <div class="gb_search">
+            <FORM action="/article/list.html" method="post" id="searchForm">
+				<input type="text" class="gb_text_box" id="keywords" name="keywords" value="" placeholder="请输入关键字" />
+                <input type="submit" value="" class="gb_btn_ok">
+            </FORM>
+        </div>
+        </ul>
+        
+    </nav>		<div class="address">
+            <div class="add_box">您所在的位置：<a href="http://www.china-fjftz.gov.cn">首页</a>  > <a href="/gcolumn/ztlm.html">专题专栏</a> > <a href="/gcolumn/ztlm1/gid/25.html">知识产权专栏</a> > <a href="/article/list/gid/53.html">行政法规</a></div>
+    </div>
+	<div class="left">
+    <div id="nav">
+    <h1>知识产权专栏</h1><ul><li><a  href="/article/list/gid/51.html">国际条约</a></li><li><a  href="/article/list/gid/52.html">国内法律</a></li><li><a class="selected" href="/article/list/gid/53.html">行政法规</a></li><li><a  href="/article/list/gid/54.html">纠纷解决</a></li></ul>    </div>
+        <div class="hot_list" id="smartFloat_tags">
+      <h3 class="title_name">热门文章</h3>
+      <ul>
+      <li><span class="number front">1</span><a href="/article/index/aid/142.html">中国（福建）自由贸易试验区简介</a><span class="read">121115</span></li><li><span class="number front">2</span><a href="/article/index/aid/143.html">中国（福建）自由贸易试验区 • 福州片区</a><span class="read">85964</span></li><li><span class="number front">3</span><a href="/article/index/aid/3742.html">办事指南</a><span class="read">81147</span></li><li><span class="number">4</span><a href="/article/index/aid/144.html">中国（福建）自由贸易试验区 • 厦门片区</a><span class="read">76190</span></li><li><span class="number">5</span><a href="/article/index/aid/430.html">联系我们</a><span class="read">74300</span></li><li><span class="number">6</span><a href="/article/index/aid/358.html">机构设置和职能</a><span class="read">60928</span></li><li><span class="number">7</span><a href="/article/index/aid/428.html">使用帮助</a><span class="read">54571</span></li><li><span class="number">8</span><a href="/article/index/aid/429.html">法律声明</a><span class="read">41727</span></li>       
+      </ul>
+    </div>
+  </div>    
+    <div class="right">
+    	    	<div class="right_title"><span>行政法规</span></div>
+    	        <div class="content_box">
+                    <h1>中华人民共和国计算机软件保护条例</h1>
+          <div class="wd_info"><span>2015-02-14 16:10:00</span>
+		            来源：<span>福建省商务厅</span>		  阅读次数：<span class="blue">2283</span>次</div>
+                                        <div class="news_vdcon">
+            <div style="TEXT-ALIGN: center"><span style="FONT-WEIGHT: bold">第一章 总 则</span><br /></div>　　<br />　　第一条 为了保护计算机软件著作权人的权益，调整计算机软件在开发、传播和使用中发生的利益关系，鼓励计算机软件的开发与应用，促进软件产业和国民经济信息化的发展，根据《中华人民共和国著作权法》，制定本条例。<br />　　<br />　　第二条 本条例所称计算机软件（以下简称软件），是指计算机程序及其有关文档。<br />　　<br />　　第三条 本条例下列用语的含义：<br />　　<br />　　（一）计算机程序，是指为了得到某种结果而可以由计算机等具有信息处理能力的装置执行的代码化指令序列，或者可以被自动转换成代码化指令序列的符号化指令序列或者符号化语句序列。同一计算机程序的源程序和目标程序为同一作品。<br />　　<br />　　（二）文档，是指用来描述程序的内容、组成、设计、功能规格、开发情况、测试结果及使用方法的文字资料和图表等，如程序设计说明书、流程图、用户手册等。<br />　　<br />　　（三）软件开发者，是指实际组织开发、直接进行开发，并对开发完成的软件承担责任的法人或者其他组织；或者依靠自己具有的条件独立完成软件开发，并对软件承担责任的自然人。<br />　　<br />　　（四）软件著作权人，是指依照本条例的规定，对软件享有著作权的自然人、法人或者其他组织。<br />　　<br />　　第四条 受本条例保护的软件必须由开发者独立开发，并已固定在某种有形物体上。<br />　　<br />　　第五条 中国公民、法人或者其他组织对其所开发的软件，不论是否发表，依照本条例享有著作权。<br />　　<br />　　外国人、无国籍人的软件首先在中国境内发行的，依照本条例享有著作权。<br />　　<br />　　外国人、无国籍人的软件，依照其开发者所属国或者经常居住地国同中国签订的协议或者依照中国参加的国际条约享有的著作权，受本条例保护。<br />　　<br />　　第六条 本条例对软件著作权的保护不延及开发软件所用的思想、处理过程、操作方法或者数学概念等。<br />　　<br />　　第七条 软件著作权人可以向国务院著作权行政管理部门认定的软件登记机构办理登记。软件登记机构发放的登记证明文件是登记事项的初步证明。<br />　　<br />　　办理软件登记应当缴纳费用。软件登记的收费标准由国务院著作权行政管理部门会同国务院价格主管部门规定。<br />　　<br /><div style="TEXT-ALIGN: center"><strong>　　第二章 软件著作权</strong></div>　　<br />　　第八条 软件著作权人享有下列各项权利：<br />　　<br />　　（一）发表权，即决定软件是否公之于众的权利；<br />　　<br />　　（二）署名权，即表明开发者身份，在软件上署名的权利；<br />　　<br />　　（三）修改权，即对软件进行增补、删节，或者改变指令、语句顺序的权利；<br />　　<br />　　（四）复制权，即将软件制作一份或者多份的权利；<br />　　<br />　　（五）发行权，即以出售或者赠与方式向公众提供软件的原件或者复制件的权利；<br />　　<br />　　（六）出租权，即有偿许可他人临时使用软件的权利，但是软件不是出租的主要标的的除外；<br />　　<br />　　（七）信息网络传播权，即以有线或者无线方式向公众提供软件，使公众可以在其个人选定的时间和地点获得软件的权利；<br />　　<br />　　（八）翻译权，即将原软件从一种自然语言文字转换成另一种自然语言文字的权利；<br />　　<br />　　（九）应当由软件著作权人享有的其他权利。<br />　　<br />　　软件著作权人可以许可他人行使其软件著作权，并有权获得报酬。<br />　　<br />　　软件著作权人可以全部或者部分转让其软件著作权，并有权获得报酬。<br />　　<br />　　第九条 软件著作权属于软件开发者，本条例另有规定的除外。<br />　　<br />　　如无相反证明，在软件上署名的自然人、法人或者其他组织为开发者。<br />　　<br />　　第十条 由两个以上的自然人、法人或者其他组织合作开发的软件，其著作权的归属由合作开发者签订书面合同约定。无书面合同或者合同未作明确约定，合作开发的软件可以分割使用的，开发者对各自开发的部分可以单独享有著作权；但是，行使著作权时，不得扩展到合作开发的软件整体的著作权。合作开发的软件不能分割使用的，其著作权由各合作开发者共同享有，通过协商一致行使；不能协商一致，又无正当理由的，任何一方不得阻止他方行使除转让权以外的其他权利，但是所得收益应当合理分配给所有合作开发者。<br />　　<br />　　第十一条 接受他人委托开发的软件，其著作权的归属由委托人与受托人签订书面合同约定；无书面合同或者合同未作明确约定的，其著作权由受托人享有。<br />　　<br />　　第十二条 由国家机关下达任务开发的软件，著作权的归属与行使由项目任务书或者合同规定；项目任务书或者合同中未作明确规定的，软件著作权由接受任务的法人或者其他组织享有。<br />　　<br />　　第十三条 自然人在法人或者其他组织中任职期间所开发的软件有下列情形之一的，该软件著作权由该法人或者其他组织享有，该法人或者其他组织可以对开发软件的自然人进行奖励：<br />　　<br />　　（一）针对本职工作中明确指定的开发目标所开发的软件；<br />　　<br />　　（二）开发的软件是从事本职工作活动所预见的结果或者自然的结果；<br />　　<br />　　（三）主要使用了法人或者其他组织的资金、专用设备、未公开的专门信息等物质技术条件所开发并由法人或者其他组织承担责任的软件。<br />　　<br />　　第十四条 软件著作权自软件开发完成之日起产生。<br />　　<br />　　自然人的软件著作权，保护期为自然人终生及其死亡后50年，截止于自然人死亡后第50年的12月31日；软件是合作开发的，截止于最后死亡的自然人死亡后第50年的12月31日。<br />　　<br />　　法人或者其他组织的软件著作权，保护期为50年，截止于软件首次发表后第50年的12月31日，但软件自开发完成之日起50年内未发表的，本条例不再保护。<br />　　<br />　　第十五条 软件著作权属于自然人的，该自然人死亡后，在软件著作权的保护期内，软件著作权的继承人可以依照《中华人民共和国继承法》的有关规定，继承本条例第八条规定的除署名权以外的其他权利。<br />　　<br />　　软件著作权属于法人或者其他组织的，法人或者其他组织变更、终止后，其著作权在本条例规定的保护期内由承受其权利义务的法人或者其他组织享有；没有承受其权利义务的法人或者其他组织的，由国家享有。<br />　　<br />　　第十六条 软件的合法复制品所有人享有下列权利：<br />　　<br />　　（一）根据使用的需要把该软件装入计算机等具有信息处理能力的装置内；<br />　　<br />　　（二）为了防止复制品损坏而制作备份复制品。这些备份复制品不得通过任何方式提供给他人使用，并在所有人丧失该合法复制品的所有权时，负责将备份复制品销毁；<br />　　<br />　　（三）为了把该软件用于实际的计算机应用环境或者改进其功能、性能而进行必要的修改；但是，除合同另有约定外，未经该软件著作权人许可，不得向任何第三方提供修改后的软件。<br />　　<br />　　第十七条 为了学习和研究软件内含的设计思想和原理，通过安装、显示、传输或者存储软件等方式使用软件的，可以不经软件著作权人许可，不向其支付报酬。<br />　　<br /><div style="TEXT-ALIGN: center"><strong>　　第三章 软件著作权的许可使用和转让</strong></div>　　<br />　　第十八条 许可他人行使软件著作权的，应当订立许可使用合同。<br />　　<br />　　许可使用合同中软件著作权人未明确许可的权利，被许可人不得行使。<br />　　<br />　　第十九条 许可他人专有行使软件著作权的，当事人应当订立书面合同。<br />　　<br />　　没有订立书面合同或者合同中未明确约定为专有许可的，被许可行使的权利应当视为非专有权利。<br />　　<br />　　第二十条 转让软件著作权的，当事人应当订立书面合同。<br />　　<br />　　第二十一条 订立许可他人专有行使软件著作权的许可合同，或者订立转让软件著作权合同，可以向国务院著作权行政管理部门认定的软件登记机构登记。<br />　　<br />　　第二十二条 中国公民、法人或者其他组织向外国人许可或者转让软件著作权的，应当遵守《中华人民共和国技术进出口管理条例》的有关规定。<br />　　<br /><div style="TEXT-ALIGN: center"><strong>　　第四章 法律责任</strong></div>　　<br />　　第二十三条 除《中华人民共和国著作权法》或者本条例另有规定外，有下列侵权行为的，应当根据情况，承担停止侵害、消除影响、赔礼道歉、赔偿损失等民事责任：<br />　　<br />　　（一）未经软件著作权人许可，发表或者登记其软件的；<br />　　<br />　　（二）将他人软件作为自己的软件发表或者登记的；<br />　　<br />　　（三）未经合作者许可，将与他人合作开发的软件作为自己单独完成的软件发表或者登记的；<br />　　<br />　　（四）在他人软件上署名或者更改他人软件上的署名的；<br />　　<br />　　（五）未经软件著作权人许可，修改、翻译其软件的；<br />　　<br />　　（六）其他侵犯软件著作权的行为。<br />　　<br />　　第二十四条 除《中华人民共和国著作权法》、本条例或者其他法律、行政法规另有规定外，未经软件著作权人许可，有下列侵权行为的，应当根据情况，承担停止侵害、消除影响、赔礼道歉、赔偿损失等民事责任；同时损害社会公共利益的，由著作权行政管理部门责令停止侵权行为，没收违法所得，没收、销毁侵权复制品，可以并处罚款；情节严重的，著作权行政管理部门并可以没收主要用于制作侵权复制品的材料、工具、设备等；触犯刑律的，依照刑法关于侵犯著作权罪、销售侵权复制品罪的规定，依法追究刑事责任：<br />　　<br />　　（一）复制或者部分复制著作权人的软件的；<br />　　<br />　　（二）向公众发行、出租、通过信息网络传播著作权人的软件的；<br />　　<br />　　（三）故意避开或者破坏著作权人为保护其软件著作权而采取的技术措施的；<br />　　<br />　　（四）故意删除或者改变软件权利管理电子信息的；<br />　　<br />　　（五）转让或者许可他人行使著作权人的软件著作权的。<br />　　<br />　　有前款第一项或者第二项行为的，可以并处每件100元或者货值金额1倍以上５倍以下的罚款；有前款第三项、第四项或者第五项行为的，可以并处20万元以下的罚款。<br />　　<br />　　第二十五条 侵犯软件著作权的赔偿数额，依照《中华人民共和国著作权法》第四十九条的规定确定。<br />　　<br />　　第二十六条 软件著作权人有证据证明他人正在实施或者即将实施侵犯其权利的行为，如不及时制止，将会使其合法权益受到难以弥补的损害的，可以依照《中华人民共和国著作权法》第五十条的规定，在提起诉讼前向人民法院申请采取责令停止有关行为和财产保全的措施。<br />　　<br />　　第二十七条 为了制止侵权行为，在证据可能灭失或者以后难以取得的情况下，软件著作权人可以依照《中华人民共和国著作权法》第五十一条的规定，在提起诉讼前向人民法院申请保全证据。<br />　　<br />　　第二十八条 软件复制品的出版者、制作者不能证明其出版、制作有合法授权的，或者软件复制品的发行者、出租者不能证明其发行、出租的复制品有合法来源的，应当承担法律责任。<br />　　<br />　　第二十九条 软件开发者开发的软件，由于可供选用的表达方式有限而与已经存在的软件相似的，不构成对已经存在的软件的著作权的侵犯。<br />　　<br />　　第三十条 软件的复制品持有人不知道也没有合理理由应当知道该软件是侵权复制品的，不承担赔偿责任；但是，应当停止使用、销毁该侵权复制品。如果停止使用并销毁该侵权复制品将给复制品使用人造成重大损失的，复制品使用人可以在向软件著作权人支付合理费用后继续使用。<br />　　<br />　　第三十一条 软件著作权侵权纠纷可以调解。<br />　　<br />　　软件著作权合同纠纷可以依据合同中的仲裁条款或者事后达成的书面仲裁协议，向仲裁机构申请仲裁。<br />　　<br />　　当事人没有在合同中订立仲裁条款，事后又没有书面仲裁协议的，可以直接向人民法院提起诉讼。<br />　　<br /><div style="TEXT-ALIGN: center"><strong>　　第五章 附 &nbsp;则</strong></div>　　<br />　　第三十二条 本条例施行前发生的侵权行为，依照侵权行为发生时的国家有关规定处理。<br />　　<br />　　第三十三条 本条例自2002年1月1日起施行。1991年6月4日国务院发布的《计算机软件保护条例》同时废止。          </div>
+          <!-- <div class="csw_content_text_6">
+            <b>标签：</b>
+            <a href="/e/tags/?tagname=跨境电商网站推广">跨境电商网站推广</a>
+            <a href="/e/tags/?tagname=微软Bing搜索">微软Bing搜索</a>
+            <a href="/e/tags/?tagname=晋江跨境电商峰会">晋江跨境电商峰会</a>
+            </div> -->
+          <div class="share01">
+          <span>分享到：</span>
+              <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+                </div>
+                     <div class="page_up">
+            <p> 上一篇： <a href="/article/index/aid.html"></a> </p>
+            <p> 下一篇： <a href="/article/index/aid/236.html">中华人民共和国知识产权海关保护条例</a> </p>
+          </div>
+          		<!-- <div class="xg_read">
+      		<div class="read_title">相关阅读</div>
+            <div class="read_list">
+	            <ul>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+	            </ul>
+            </div>
+      </div> -->
+        </div>
+    </div></div>	
+	<div class="clear"></div>
+<footer>
+    <div class="footer_box">
+        <select name="select1" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----国家部委-----</option>
+            <option value="http://www.fmprc.gov.cn/chn/">外交部</option>
+            <option value="http://www.sdpc.gov.cn/">国家发展和改革委员会</option>
+            <option value="http://www.moe.edu.cn">教育部</option>
+            <option value="http://www.most.gov.cn/">科学技术部</option>
+            <option value="http://www.seac.gov.cn/">国家民族事务委员会</option>
+            <option value="http://www.mps.gov.cn">公安部</option>
+            <option value="http://www.mca.gov.cn">民政部</option>
+            <option value="http://www.mof.gov.cn">财政部</option>
+            <option value="http://www.mlr.gov.cn">国土资源部</option>
+            <option value="http://www.mohurd.gov.cn/ ">建设部</option>
+            <option value="http://www.moc.gov.cn/">交通运输部</option>
+            <option value="http://www.miit.gov.cn/n11293472/index.html">工信部</option>
+            <option value="http://www.agri.gov.cn">农业部</option>
+            <option value="http://www.mwr.gov.cn">水利部</option>
+            <option value="http://www.mofcom.gov.cn/">商务部</option>
+            <option value="http://www.nhfpc.gov.cn/">卫计委</option>
+            <option value="http://www.mcprc.gov.cn/">文化部</option>
+            <option value="http://gwzs.my.gov.cn/">劳动和社会保障部</option>
+            <option value="http://www.pbc.gov.cn/">中国人民银行</option>
+            <option value="http://www.soa.gov.cn/ ">国家海洋局</option>
+            <option value="http://www.tobacco.gov.cn/">国家烟草专卖局</option>
+            <option value="http://www.chinapost.gov.cn/">国家邮政局</option>
+            <option value="http://www.nach.gov.cn/">国家文物局</option>
+            <option value="http://www.chinasafety.gov.cn/">国家海洋局</option>
+            <option value="http://www.chinasafety.gov.cn/newpage/">国家安全生产监督管理局</option>
+            <option value="http://www.aqsiq.gov.cn/">国家质量监督检验检疫总局</option>
+            <option value="http://www.safe.gov.cn/">国家外汇管理局</option>
+            <option value="http://www.chinagrain.gov.cn/">国家粮食局</option>
+            <option value="http://www.safea.gov.cn/">国家外国专家局</option>
+            <option value="http://www.satcm.gov.cn/">国家中医药管理局</option>
+            <option value="http://www.customs.gov.cn/">海关总署</option>
+            <option value="http://www.caac.gov.cn/">中国民用航空总局</option>
+            <option value="http://www.stats.gov.cn/">国家统计局</option>
+            <option value="http://www.chinatax.gov.cn/">国家税务总局</option>
+            <option value="http://www.zhb.gov.cn/">国家环境保护总局</option>
+            <option value="http://www.chinasarft.gov.cn/index.html">国家广播电影电视总局</option>
+            <option value="http://www.sport.gov.cn/">国家体育总局</option>
+            <option value="http://www.saic.gov.cn/">国家工商行政管理局</option>
+            <option value="http://www.cpo.cn.net/">国家知识产权局</option>
+            <option value="http://www.cnta.com/">国家旅游局</option>
+            <option value="http://www.sfda.gov.cn/WS01/CL0001/">国家粮食药品监督管理局</option>
+            <option value="http://www.cma.gov.cn/">中国气象局</option>
+            <option value="http://www.cbrc.gov.cn/index.html">中国银行业监督委员会</option>
+            <option value="http://www.idcpc.org.cn/index_zhongwen.htm">中共中央对外联络部</option>
+        </select>
+        <select name="select2" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----省直机关-----</option>
+            <option value="http://www.fujian.gov.cn/">福建省人民政府</option>
+            <option value="http://www.fjdpc.gov.cn/">省发改委</option>
+            <option value="http://www.fjetc.gov.cn/">省经信委</option>
+            <option value="http://www.fjhfpc.gov.cn/">省卫计委</option>
+            <option value="http://www.fjedu.gov.cn/html/index.html">省教育厅</option>
+            <option value="http://www.fjkjt.gov.cn/">省科技厅</option>
+            <option value="http://www.fjmzzj.gov.cn/">省民族宗教厅</option>
+            <option value="http://www.fjgat.gov.cn/">省公安厅</option>
+            <option value="http://www.fjcdi.gov.cn/">省监察厅</option>
+            <option value="http://www.fjsmzt.gov.cn/">省民政厅</option>
+            <option value="http://www.fjsf.gov.cn/">省司法厅</option>
+            <option value="http://www.fjcz.gov.cn/">省财政厅</option>
+            <option value="http://www.fjrs.gov.cn">省人社厅</option>
+            <option value="http://www.fjgtzy.gov.cn/">省国土厅</option>
+            <option value="http://www.fjepb.gov.cn/">省环保厅</option>
+            <option value="http://www.fjjs.gov.cn/">省住建厅</option>
+            <option value="http://www.fjjt.gov.cn/">省交通运输厅</option>
+            <option value="http://www.fjagri.gov.cn/html/">省农业厅</option>
+            <option value="http://www.fjforestry.gov.cn/">省林业厅</option>
+            <option value="http://www.fjwater.gov.cn/">省水利厅</option>
+            <option value="http://www.fjof.gov.cn/">省海洋渔业厅</option>
+            <option value="http://www.fiet.gov.cn/">省商务厅</option>
+            <option value="http://www.fjwh.gov.cn/">省文化厅</option>
+            <option value="http://www.fjaudit.gov.cn/">省审计厅</option>
+            <option value="http://www.fjfao.gov.cn/">省外办</option>
+            <option value="http://www.fjgzw.gov.cn/">省国资委</option>
+            <option value="http://www.fj-l-tax.gov.cn">省地税局</option>
+            <option value="http://www.fjaic.gov.cn/">省工商局</option>
+            <option value="http://www.fjqi.gov.cn/">省质监局</option>
+            <option value="http://www.fjxwgd.gov.cn/">省新闻出版广电局</option>
+            <option value="http://www.fjty.gov.cn/">省体育局</option>
+            <option value="http://www.fjsafety.gov.cn/">省安监局</option>
+            <option value="http://www.fjfda.gov.cn/">省食品药品监管局</option>
+            <option value="http://www.stats-fj.gov.cn/">省统计局</option>
+            <option value="http://www.fjta.gov.cn/">省旅游局</option>
+            <option value="http://www.fjgrain.gov.cn/">省粮食局</option>
+            <option value="http://www.fjjg.gov.cn/fjwjj/index.htm">省物价局</option>
+            <option value="http://www.fjqw.gov.cn/">省侨办</option>
+            <option value="http://www.fjrf.gov.cn/">省人防办</option>
+            <option value="http://www.fjfzb.gov.cn/">省法制办</option>
+            <option value="http://www.fjjghq.gov.cn/">省机关事务管理局</option>
+            <option value="http://www.fujian.gov.cn/fw/bmxxcx/wzdh/sydbwzdh/szfbm/201402/t20140210_697591.htm">省金融办</option>
+            <option value="http://www.fujian.gov.cn/fw/bmxxcx/wzdh/sydbwzdh/szfbm/201212/t20121203_550109.htm">省监狱局</option>
+            <option value="http://gwy.fjrs.gov.cn/">省公务员局</option>
+        </select>
+        <select name="select3" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----兄弟自贸区-----</option>
+            <option value="http://www.china-shftz.gov.cn/">中国（上海）自由贸易试验区</option>
+            <option value="http://www.china-gdftz.gov.cn/">中国（广东）自由贸易试验区</option>
+            <option value="http://www.china-tjftz.gov.cn/">中国（天津）自由贸易试验区</option>
+            <option value="http://www.china-zjftz.gov.cn/">中国（浙江）自由贸易试验区</option>
+            <option value="http://www.china-hnftz.gov.cn/">中国（河南）自由贸易试验区</option>
+			<option value="http://www.shaanxiftz.gov.cn/">中国（陕西）自由贸易试验区</option>
+        </select>
+        <select name="select4" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----其他-----</option>
+
+        </select>
+    </div>
+    <div class="gb_footer">
+        <ul>
+            <a href="/index/sitemap.html">站点地图</a> | <a href="/article/index/aid/428.html">使用帮助</a> | <a href="/article/index/aid/430.html">联系我们</a> | <a href="/article/index/aid/429.html">法律声明</a> | <a href="javascript:SetHome(window.location);">设为首页</a> | <a href="javascript:AddFavorite(window.location,document.title);">收藏本站</a>
+        </ul>
+    </div>
+    <div class="gb_bottom">
+        <p>您好，欢迎访问本网站！您是本网站的第10354823位访问者</p>
+        <p>主办：福建自贸试验区工作领导小组办公室</p>
+        <p>版权所有：福建省商务厅 闽ICP备14009608号-3</p>
+        <p>技术支持：<a href="http://www.ec.com.cn/" target="_blank">CIECC</a> <a target="_blank" href="http://www.rsnet.com.cn/">润商网络</a></p>
+    </div>
+</footer>
+<script type="text/javascript">
+    function AddFavorite(sURL, sTitle) {
+        sURL = encodeURI(sURL);
+        try{
+
+            window.external.addFavorite(sURL, sTitle);
+
+        }catch(e) {
+            try{
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+            }
+        }
+    }
+    function SetHome(url){
+        if (document.all) {
+            document.body.style.behavior='url(#default#homepage)';
+            document.body.setHomePage(url);
+        }else{
+            alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+        }
+    }
+</script><script type="text/javascript">
+$(function(){
+	$('.hm-t-go-top').hide();
+	$(window).scroll(function() {		
+		//if($(window).scrollTop() >= 300){
+		h = $(window).height();
+		t = $(document).scrollTop();
+		if(t > h*2){
+			//$('.hm-t-go-top').fadeIn(300); 
+			$('.hm-t-go-top').show();
+		}else{    
+			//$('.hm-t-go-top').fadeOut(300);
+			$('.hm-t-go-top').hide();
+		}  
+	});
+	$('.hm-t-go-top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});	
+});
+</script>
+<div id="hm_t_undefined" class="hm-t-container">
+	<div class="hm-t-go-top" style="display: block; background-color: rgb(102, 102, 102); background-position: -42px 50%;"></div>
+</div>
+</body>
+</html>

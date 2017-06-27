@@ -1,0 +1,9 @@
+X-Cache: cp4010 int
+Location: https://en.wikipedia.org/wiki/Port_Chalmers
+Set-Cookie: WMF-Last-Access=27-Jun-2017;Path=/;HttpOnly;secure;Expires=Sat, 29 Jul 2017 12:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=27-Jun-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sat, 29 Jul 2017 12:00:00 GMT
+Date: Tue, 27 Jun 2017 13:46:26 GMT
+Server: Varnish
+X-Cache-Status: int
+X-Varnish: 658507765
+X-Client-Ip: 223.167.164.123

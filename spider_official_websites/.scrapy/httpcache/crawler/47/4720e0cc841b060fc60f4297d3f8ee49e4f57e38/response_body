@@ -1,0 +1,49 @@
+<html><head>
+<script type="text/javascript">
+window.onload = function() {
+  // Parse the tracking code from cookies.
+  var trk = "sentinel_org_block";
+  var trkInfo = "sentinel_org_block";
+  var cookies = document.cookie.split("; ");
+  for (var i = 0; i < cookies.length; ++i) {
+    if ((cookies[i].indexOf("trkCode=") == 0) && (cookies[i].length > 8)) {
+      trk = cookies[i].substring(8);
+    }
+    else if ((cookies[i].indexOf("trkInfo=") == 0) && (cookies[i].length > 8)) {
+      trkInfo = cookies[i].substring(8);
+    }
+  }
+
+  // Get the protocol for the redirect url.
+  var protocol = "http:";
+  if (window.location.protocol == "https:") {
+    protocol = "https:";
+  } else {
+    // If "sl" cookie is set, redirect to https.
+    for (var i = 0; i < cookies.length; ++i) {
+      if ((cookies[i].indexOf("sl=") == 0) && (cookies[i].length > 3)) {
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        return;
+      }
+    }
+  }
+
+  // Get the new domain. For touch.www.linkedin.com or tablet.www.linkedin.com
+  // we strip "touch." and "tablet.". For international domains such as
+  // fr.linkedin.com, we convert it to www.linkedin.com
+  var domain = location.host;
+  if (domain.substr(0, 6) == "touch.") {
+    domain = domain.substr(6);
+  } else if (domain.substr(0, 7) == "tablet.") {
+    domain = domain.substr(7);
+  } else if (domain.charAt(2) == ".") {
+    domain = "www" + domain.substr(2);
+  }
+  
+  window.location.href = "https://" + domain + "/uas/login?trk=" + trk + "&trkInfo=" + trkInfo + "&session_redirect=" +
+      encodeURIComponent(protocol + "//" + domain +
+      window.location.href.substr(window.location.href.search(window.location.host) +
+                                  window.location.host.length));
+}
+</script>
+</head></html>

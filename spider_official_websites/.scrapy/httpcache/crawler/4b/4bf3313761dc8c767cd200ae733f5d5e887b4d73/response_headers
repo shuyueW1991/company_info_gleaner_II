@@ -1,0 +1,14 @@
+Vary: Host,Accept-Encoding
+Set-Cookie: U_TRS1=0000007b.b37f4f75.5952618e.4748b30f; path=/; expires=Fri, 25-Jun-27 13:45:50 GMT; domain=.sina.com.cn
+Set-Cookie: U_TRS2=0000007b.b3934f75.5952618e.1fb5fee8; path=/; domain=.sina.com.cn
+Set-Cookie: miaopai=usrmdinst_3; path=/
+Server: Apache
+Dpool_Header: freya44
+P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Content-Type: text/html
+Date: Tue, 27 Jun 2017 13:45:50 GMT
+Sina-Lb: aGEuMTg2LmcxLnRjLmxiLnNpbmFub2RlLmNvbQ==
+Content-Encoding: gzip
+Cache-Control: max-age=120
+Sina-Ts: ZGRlZDlhY2UgMCAwIDAgOCAxMAo=
+Expires: Tue, 27 Jun 2017 13:47:50 GMT

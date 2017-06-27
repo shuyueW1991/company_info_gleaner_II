@@ -1,0 +1,24 @@
+Accept-Ranges: bytes
+Backend-Timing: D=293428 t=1498557999001962
+Last-Modified: Tue, 27 Jun 2017 07:36:17 GMT
+Server: mw1210.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Cache: cp1054 pass, cp2019 pass, cp4017 pass, cp4017 pass
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Age: 0
+X-Analytics: ns=0;page_id=1;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Ua-Compatible: IE=Edge
+Set-Cookie: stopMobileRedirect=true; expires=Thu, 27-Jul-2017 10:06:39 GMT; Max-Age=2592000; path=/; domain=.mediawiki.org; httponly
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+X-Content-Type-Options: nosniff
+Date: Tue, 27 Jun 2017 10:06:39 GMT
+X-Varnish: 114306940, 965534333, 442782904, 143847340
+X-Client-Ip: 180.173.144.160
+Link: </static/images/project-logos/mediawikiwiki.png>;rel=preload;as=image
+X-Cache-Status: pass
+Vary: Accept-Encoding,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Content-Encoding: gzip
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate

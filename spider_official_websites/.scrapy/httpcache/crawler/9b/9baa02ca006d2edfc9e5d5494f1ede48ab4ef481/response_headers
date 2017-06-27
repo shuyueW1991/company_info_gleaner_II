@@ -1,0 +1,12 @@
+Set-Cookie: session=eyJfcGVybWFuZW50IjpmYWxzZX0.DDPBog.4MPdxjCIZ7fDj4u3IceWY6ZmdiE; HttpOnly; Path=/
+Last-Modified: 2017-06-27 10:14:58.943970
+Content-Type: text/html; charset=utf-8
+Via: 1.1 52eef4a2c604c355eed70029baeecaaa.cloudfront.net (CloudFront)
+Server: nginx/1.10.2
+Date: Tue, 27 Jun 2017 10:14:58 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0
+Expires: -1
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Id: f366Me3Kt44MuqHkKxjC5tvS1zF8rYOOg8QQyaz69rmCxgQDlhDBfQ==
+Location: https://www.sophos.com/en-us/legal/sophos-group-privacy-policy.aspx
+Pragma: no-cache

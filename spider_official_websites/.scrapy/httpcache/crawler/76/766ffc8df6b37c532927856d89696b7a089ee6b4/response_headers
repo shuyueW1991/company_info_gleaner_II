@@ -1,0 +1,14 @@
+Set-Cookie: inuid=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/signup/
+Set-Cookie: inuid=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/signup/
+Set-Cookie: TC-Ugrow-G0=5e22903358df63c5e3fd2c757419b456;Path=/
+Server: WeiBo
+Lb_Header: alice50
+Pramga: no-cache
+Dpool_Header: surtur175
+Vary: Accept-Encoding
+Content-Type: text/html
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Content-Encoding: gzip
+Cache-Control: no-cache, must-revalidate
+Last-Modified: Tue, 27 Jun 2017 13:45:47 GMT
+Date: Tue, 27 Jun 2017 13:45:47 GMT

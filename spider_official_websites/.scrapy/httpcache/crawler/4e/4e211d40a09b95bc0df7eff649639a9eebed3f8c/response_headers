@@ -1,0 +1,10 @@
+P3P: CP="This is not a P3P Policy! See http://www.eloqua.com/content/eloqua/en/home/trust/privacy-policy.html for more info."
+Date: Tue, 27 Jun 2017 10:13:27 GMT
+Server: nginx
+Cache-Control: public, max-age=60, s-maxage=60
+Cpdm-Request-Id: e7eed6c6-bff2-4e68-a850-cee452f5d78e
+Vary: Accept-Encoding
+X-Via: cpdm-cr
+Content-Type: application/rss+xml
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip

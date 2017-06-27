@@ -1,0 +1,5 @@
+Content-Encoding: gzip
+Location: https://graph.qq.com/oauth/show?which=Login&display=pc&client_id=101050064&redirect_uri=http%3A%2F%2Fwww.iriding.cc%2Fcallback&response_type=code&state=passportwithqq_from_%2Fsso%2Flogin%3Fgo%3Ddirectly%26from%3Dhttp%3A%2F%2Firiding.cc%2Fsso%2Flogin%3Ffrom%3D%2Fcompany_info
+Content-Type: text/html
+Date: Tue, 27 Jun 2017 13:45:46 GMT
+Server: tws

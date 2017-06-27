@@ -1,0 +1,15 @@
+X-Ua-Compatible: IE=edge
+X-Discourse-Trackview: 1
+Content-Type: text/html; charset=utf-8
+Server: nginx
+Date: Tue, 27 Jun 2017 10:06:41 GMT
+X-Request-Id: 2c2bf7bb-257a-47ae-9a53-47b32a308914
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Discourse-Route: about/index
+X-Runtime: 0.017799
+Set-Cookie: _forum_session=MS80N0p3eVczdCtJMnJ1b2dnUkQvUnFrZTB6UUUzbWh2WUNIZ2d3TGxkTFFNY3pnMzNRQU5RSUhXd1BDc2lHd2ZXOWlsUzdRNTl2b3FHcHB1UDFUVUE9PS0tM2pJcmtEalhmdnhMTE9hREhFOVVEdz09--b6b6b2dc38e1383c5092d0c4480e95d04eb6d3cd; path=/; HttpOnly
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: no-store, must-revalidate, no-cache, private
+X-Xss-Protection: 1; mode=block

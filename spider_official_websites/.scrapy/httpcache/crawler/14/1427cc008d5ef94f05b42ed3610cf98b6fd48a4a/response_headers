@@ -1,0 +1,12 @@
+Accept-Ranges: bytes
+Content-Language: en
+Content-Type: text/html
+Access-Control-Allow-Origin: (null)
+Server: Apache/2.4.7
+Content-Location: gpl-3.0.html
+Date: Tue, 27 Jun 2017 10:06:25 GMT
+Tcn: choice
+Expires: Tue, 27 Jun 2017 10:06:25 GMT
+Vary: negotiate,accept,accept-language,Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=0

@@ -1,0 +1,24 @@
+Set-Cookie: GeoIP=CN:31:Shanghai:31.05:121.40:v4; Path=/; secure; Domain=.wikipedia.org
+Server: mw1219.eqiad.wmnet
+X-Analytics: ns=0;page_id=1067606;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 567648102, 463251754, 508292739 252513753, 655100602
+X-Cache-Status: hit
+Accept-Ranges: bytes
+Date: Tue, 27 Jun 2017 13:46:28 GMT
+Vary: Accept-Encoding,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+X-Ua-Compatible: IE=Edge
+Age: 49104
+X-Cache: cp1068 miss, cp2004 miss, cp4017 hit/8, cp4010 miss
+Backend-Timing: D=61746 t=1498433323867483
+Content-Language: en
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+P3P: CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sun, 25 Jun 2017 23:27:51 GMT
+Content-Encoding: gzip
+Link: </static/images/project-logos/enwiki.png>;rel=preload;as=image;media=not all and (min-resolution: 1.5dppx),</static/images/project-logos/enwiki-1.5x.png>;rel=preload;as=image;media=(min-resolution: 1.5dppx) and (max-resolution: 1.999999dppx),</static/images/project-logos/enwiki-2x.png>;rel=preload;as=image;media=(min-resolution: 2dppx)

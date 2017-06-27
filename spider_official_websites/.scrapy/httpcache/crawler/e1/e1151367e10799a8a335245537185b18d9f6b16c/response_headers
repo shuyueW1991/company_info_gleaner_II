@@ -1,0 +1,22 @@
+Accept-Ranges: bytes
+Backend-Timing: D=61436 t=1498558005868036
+Content-Encoding: gzip
+Server: mw1247.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding,Cookie,Authorization
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-Analytics: ns=-1;special=Userlogin;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Frame-Options: DENY
+X-Ua-Compatible: IE=Edge
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Date: Tue, 27 Jun 2017 10:06:45 GMT
+X-Varnish: 751719495, 407540686, 635301501, 151870284
+X-Client-Ip: 180.173.144.160
+X-Content-Type-Options: nosniff
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Cache: cp1055 pass, cp2016 pass, cp4010 pass, cp4017 pass
+X-Powered-By: HHVM/3.18.2
+Age: 0
+X-Cache-Status: pass

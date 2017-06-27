@@ -1,0 +1,6 @@
+Vary: Accept-Encoding,User-Agent
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/5.6.15
+Content-Encoding: gzip
+Date: Tue, 27 Jun 2017 10:05:43 GMT

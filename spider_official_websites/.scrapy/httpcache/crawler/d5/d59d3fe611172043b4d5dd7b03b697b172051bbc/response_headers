@@ -1,0 +1,22 @@
+Accept-Ranges: bytes
+Set-Cookie: WMF-Last-Access=27-Jun-2017;Path=/;HttpOnly;secure;Expires=Sat, 29 Jul 2017 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=27-Jun-2017;Path=/;Domain=.wikimedia.org;HttpOnly;secure;Expires=Sat, 29 Jul 2017 00:00:00 GMT
+Set-Cookie: GeoIP=CN:31:Shanghai:31.05:121.40:v4; Path=/; secure; Domain=.wikimedia.org
+Backend-Timing: D=91010 t=1498558000446517
+X-Powered-By: HHVM/3.18.2
+Content-Type: text/html
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Server: mw1218.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+P3P: CP="This is not a P3P policy! See https://meta.wikimedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Date: Tue, 27 Jun 2017 10:06:40 GMT
+X-Varnish: 781335625, 14225714, 417940824, 143647757
+X-Client-Ip: 180.173.144.160
+X-Content-Type-Options: nosniff
+X-Cache-Status: pass
+Content-Encoding: gzip
+X-Cache: cp1067 pass, cp2001 pass, cp4008 pass, cp4017 pass
+Vary: Accept-Encoding
+X-Analytics: https=1;nocookies=1
+Age: 0
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate

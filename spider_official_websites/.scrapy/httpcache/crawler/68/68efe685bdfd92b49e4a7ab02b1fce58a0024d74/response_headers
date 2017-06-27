@@ -1,0 +1,5 @@
+Content-Type: text/html; charset=UTF-8
+Location: /api/redirect_login/
+Date: Tue, 27 Jun 2017 09:58:17 GMT
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Server: TornadoServer/4.4.3

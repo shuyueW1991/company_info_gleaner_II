@@ -1,0 +1,12 @@
+Set-Cookie: session=.eJwtyDsKgDAMANC7ZBazdxcRRPE3l6qRFmwbTEFEvLsOju_dULdl1ei-6KZiGHXbVx9BgU2JRSG6NZfINkq-RI8nzegvw7y7xSQXgyBkoLeDxILazC70kenwJlBIfz0v3zAjdA.DDPBrQ.48FSw2ISifAn1aaIpUEZhogVyKg; HttpOnly; Path=/
+Last-Modified: 2017-06-27 10:15:09.618683
+Content-Type: text/html; charset=utf-8
+Via: 1.1 52b1eb5d9b2b4e11e465d2d84c3f5d60.cloudfront.net (CloudFront)
+Server: nginx/1.10.2
+Date: Tue, 27 Jun 2017 10:15:09 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0
+Expires: -1
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Id: fR03hLNs6t0sUlqJMGS1zav4EYwgtj-9fBdwd5bos7gr0FfK1hohGg==
+Location: https://id.sophos.com/web/saml/login/Okta
+Pragma: no-cache

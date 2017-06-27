@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>芯灵思|SINLINX|嵌入式|全志|三星|飞思卡尔|恩智浦|NXP|Freescale|Android|LINUX|开发板|学习板|核心板</title>
+<link rel="stylesheet" href="../css/style.css"  type="text/css" media="all" />
+<link rel="stylesheet" href="../css/global.css">
+<link rel="stylesheet" href="../css/common-header9.css">
+<link rel="stylesheet" href="../css/responsiveslides.css">
+<link rel="shortcut icon" href="../sinlinx.ico" type="image/x-icon" />
+<script type="text/javascript" src="../js/base-all.js"></script>
+<script type="text/javascript" src="../js/common-header.js"></script>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/responsiveslides.min.js"></script>
+<link href="css/css.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<div class="ali-common-header" id="commonHeader"></div>
+
+
+<P>&nbsp;</P>
+<H3 align="center"><span style="font-size:30px;">SIN-IMX6UL User's Manual</H3>
+<P>&nbsp;</P>
+
+<div id="wrapper"> 
+  <div class="brand-list">
+    <div class="brand-bd cle" id="brand-waterfall">      
+      <div class="item" id="brand-a">
+        <h3>Modules</h3>
+        <p><a href="http://www.sinlinx.com/MODULES/uart-ttl2usb.html" target="_blank">UART TTL to USB For Debug</a></p>
+        <p><a href="http://www.sinlinx.com/MODULES/4.3LCD-R.html" target="_blank">4.3' LCD</a></p>
+        <p><a href="http://www.sinlinx.com/MODULES/7LCD-R.html" target="_blank">7' LCD</a></p>
+        <p><a href="http://www.sinlinx.com/MODULES/usbcamera.html" target="_blank">USB CAMERA</a></p>
+        <p><a href="http://www.sinlinx.com/MODULES/usbwifi-rtl8188eu.html" target="_blank">USB WIFI RTL8188EU</a></p>
+        <p><a href="http://www.sinlinx.com/MODULES/usbwifi-rtl8723bu.html" target="_blank">USB WIFI RTL8723BU</a></p>
+      </div>
+      <div class="item" id="brand-b">
+      <h3>WIKI</h3>     
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/startup.html" target="_blank">启动模式</a></p> 
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/write.html" target="_blank">如何写入文件系统？</a></p> 
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/net2board.html" target="_blank">通过网络传输文件到开发板</a></p>
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/usb2board.html" target="_blank">通过USB Host传输文件到开发板</a></p>
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/gpio.html" target="_blank">GPIO子系统</a></p>
+      </div>
+      <div class="item" id="brand-c">    
+       <h3>UBOOT</h3>     
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/fatload.html" target="_blank">读取SD卡</a></p>    
+      </div>
+      <div class="item" id="brand-d"> 
+      <h3>RTOS</h3>     
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/rtos.html" target="_blank">已支持RT-thread</a></p>           
+      </div>
+      <div class="item" id="brand-e">
+      <h3>UBUNTU</h3>     
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/ubuntu.html" target="_blank">虚拟机安装ubuntu</a></p>
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/root.html" target="_blank">获取Root权限</a></p>
+       <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/samba.html" target="_blank">获取samba服务</a></p>          
+      </div>
+      <div class="item" id="brand-f">
+      <h3>BUILD</h3>
+      <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/lib.html" target="_blank">安装依赖库</a></p>
+      <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/mtd.html" target="_blank">安装MTD-UTILS</a></p>
+      <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/cross.html" target="_blank">安装arm-linux-gcc交叉编译器</a></p>
+      <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/uboot.html" target="_blank">编译UBOOT</a></p>
+      <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/linux.html" target="_blank">编译LINUX KERNEL</a></p>
+      <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/filesys.html" target="_blank">编译文件系统</a></p>
+      <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/tslib.html" target="_blank">编译TSLIB</a></p>
+      <p><a href="http://www.sinlinx.com/sin-imx6ul/wiki/qt.html" target="_blank">编译QT4.8.7</a></p>
+      </div>
+      <div class="item" id="brand-g">       
+      </div>
+      <div class="item" id="brand-h">       
+      </div>
+      <div class="item" id="brand-l">       
+      </div>
+      <div class="item" id="brand-m">       
+      </div>
+      <div class="item" id="brand-n">
+      <h3>VIDEO</h3>
+        <p><a href="#" target="_blank">Third-party Videos</a></p>   
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/waterfall.js"></script> 
+<script>
+$(function(){
+	$('#brand-waterfall').waterfall();
+});
+</script>
+
+
+<div class="footer-bottom" id="commonFooter"></div>
+<script type="text/javascript" src="../js/header_and_footer.js"></script>
+<p align="right"><script language="JavaScript" src="http://s20.cnzz.com/stat.php?id=5224571&amp;web_id=5224571&amp;show=pic1" type="text/javascript"></script></p>
+
+
+</body>
+</html>

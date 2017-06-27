@@ -1,0 +1,9 @@
+X-Ua-Compatible: IE=edge
+Set-Cookie: website#lang=pl-PL; domain=sophos.com; path=/; secure; HttpOnly
+Set-Cookie: __SophosNextDeviceEnabled=; domain=sophos.com; path=/; secure; HttpOnly
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=10886400
+Location: /pl-pl/mysophos/login.aspx?item=%2fsophos%2fsupport%2fdownloads.aspx&url=%252fpl-pl%252fsophos%252fsupport%252fdownloads.aspx
+X-Frame-Options: SAMEORIGIN
+Date: Tue, 27 Jun 2017 10:17:44 GMT

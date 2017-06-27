@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>中国知识产权网-知识产权-专利检索</title>
+<link href="../../../images/cp.css" rel="stylesheet" type="text/css" />
+<link href="../../../images/css.css" rel="stylesheet" type="text/css" />
+<link href="../../../images/patent.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="../../../images/qiehuan.js"></script>
+<script type="text/javascript" src="../../../images/jquery.min.js"></script>
+<script type="text/javascript" src="../../../images/coin-slider.min.js"></script>
+
+<style type="text/css">
+.follow .active strong a{display:block; color:#185aa4;float:none}
+.team {padding-left:28px;}
+</style>
+    <style type="text/css">
+        .coin-slider {
+            width: 343px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#games').coinslider({ hoverPause: false });
+        });
+    </script>
+
+</head>
+
+<body>
+<div class="wrap">
+ <!--头部公用部分　start-->
+<script src="../../../images/header2013.js" type="text/javascript"></script>
+<script type="text/javascript">
+  search2013();
+  top2013();
+  nav2013();
+</script>
+<!--头部公用部分　end-->
+
+
+<div class="clear"></div>
+<div class="main">
+<div class="dh">您的位置：<a href="../../../" class=a_cu>首页</a>><a href="../../" class=a_cu>培训课堂</a>><a href="../" class=a_cu>IP申请指南</a>><a href="./" class=a_cu>商标申请</a></div>
+
+
+
+		<div class="cpjg">
+			<div class="cp">
+				<div class="title">申请指南</div>
+				<div class="cp_u">
+					<ul>
+						<li class="lIcon1 curre"><a href="#" class="hide">专利</a>
+							<ul>
+								<li><a href="http://www.cnipr.com/PX/px7/px7a/new1/">发明专利申请</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7a/new2/">实用新型/外观专利申请</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7a/pct/">PCT国际申请</a></li>
+								<li><a href="http://www.sipo.gov.cn/bgxz/">相关表格下载</a></li>
+							</ul>
+						</li>
+						<li class="lIcon2"><a href="http://www.cnipr.com/PX/px7/px7b/" class="hide current">商标</a> </li>
+						<li class="lIcon3"><a href="#" class="hide">版权</a>
+							<ul>
+								<li><a href="http://www.cnipr.com/PX/px7/px7c/new4/">计算机软件著作权登记</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7c/new5/">作品著作权登记</a></li>
+							</ul>
+						</li>
+						<li class="lIcon4"><a href="#" class="hide">其他</a>
+							<ul>
+								<li><a href="http://www.cnipr.com/PX/px7/px7d/new6/">植物新品种</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7d/new7/">非物质文化遗产</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7d/new8/">地理标志</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7d/jcdl/">集成电路布图设计专有权</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<div class="containet l10">
+				<div class="rigWarpN">
+					<div class="rigTit rigTit2">商标申请</div>
+					<ul id="tab">
+						<li class="fli">申请须知</li>
+						<li>注册流程图</li>
+						<li>收费标准</li>
+						<li>申请书式</li>
+						<li>商品和服务分类</li>
+						<li>图形要素</li>
+						<li>马德里申请</li>
+					</ul>
+					<div id="tab_con">
+						<div class="tabItem fdiv">
+							<div class="cot">
+							
+
+
+<p align="justify">　　自然人、法人或者其他组织对其生产、制造、加工、拣选或经销的商品或者提供的服务需要取得商标专用权的，应当依法向国家工商行政管理总局商标局（以下简称商标局）提出商标注册申请。狭义的商标注册申请仅指商品和服务商标注册申请、商标国际注册申请、证明商标注册申请、集体商标注册申请、特殊标志登记申请。广义的商标注册申请除包括狭义的商标注册申请的内容外，还包括变更、续展、转让注册申请，异议申请，商标使用许可合同备案申请，以及其他商标注册事宜的办理。</p>
+<p>　　</p>
+<p>　　国内的申请人办理各种商标注册事宜有两种途径：一是直接到商标局办理；二是委托国家认可的商标代理机构代理。两种途径的主要区别是发生联系的方式不同和提交的书件稍有差别。在发生联系的方式方面，直接到商标局办理的，在办理过程中申请人与商标局直接发生联系；委托商标代理机构办理的，在办理过程中申请人通过商标代理机构与商标局发生联系，而不直接与商标局发生联系。在提交的书件方面，直接到商标局办理的，申请人除应提交的其他书件外，应提交经办人本人的身份证复印件；委托商标代理机构办理的，申请人除应提交的其他书件外，应提交委托商标代理机构办理商标注册事宜的授权委托书。国内的申请人直接办理商标注册事宜的，应到商标局的商标注册大厅办理。</p>
+<p>　　</p>
+<p>　　外国人或外国企业在中国办理商标注册事宜必须委托商标代理机构代理，但在中国有经常居所或者营业所的外国人或外国企业除外。</p>
+<p>　　</p>
+<p>　　委托商标代理机构办理商标注册事宜的，应准备的书件和办理程序可以向商标代理机构咨询。</p>
+<p>　　</p>
+<p>　　使用本栏目应注意以下几点：</p>
+<p>　　</p>
+<p>　　一、在商标注册用商品和服务国际分类每一个类别上每注册一个商标图样为一件商标。每件商标每申请办理任何一项注册事宜都视为一件申请，应分别提交一套申请书件， 并分别缴纳费用。</p>
+<p>　　</p>
+<p>　　二、应提交的书件没有指明份数的，如果在“具体要求”及“注意事项”栏目中也没有特别声明是多少份的，则应认为是1式1份。</p>
+<p>　　</p>
+<p>　　三、特别声明：</p>
+<p>　　</p>
+<p><strong>　　（一）本栏目所有内容不是国家工商行政管理总局或国家工商行政管理总局商标局的正式发文，因此，所有内容都是指导性的，不具有法律约束力。</strong></p>
+<p><strong>　　</strong></p>
+<p><strong>　　（二）本栏目内容于2010年3月完成，如果以后发生变动，或者在办理中与商标注册大厅接待人员的要求不一致的，应以接待人员的要求为准。</strong></p>
+<p>　　</p>
+<p>　　（商标申请相关内容来源国家工商总局商标局）</p>
+
+
+							</div>
+						</div>
+						<div class="tabItem">
+							<div class="cot">
+								
+
+<img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" alt src="./201305/W020130513575977738886.jpg" OLDSRC="W020130513575977738886.jpg" />
+
+							</div>
+						</div>
+						<div class="tabItem">
+							<div class="cot">
+
+
+<img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" alt src="./201305/W020130513577458511423.jpg" OLDSRC="W020130513577458511423.jpg" />
+
+
+
+							</div>
+							
+						</div>
+						<div class="tabItem">
+							<div class="cot">
+
+
+
+<p align="justify">　　　　　　　　　　　　　　　&nbsp; 关于修订商标申请书式填写说明的说明<br />
+<br />
+　　近年来，由于申请人填写商标申请书式内容不规范，每年有近2万件商标申请文件被不予受理，不仅申请人商标申请日期无法保留，在先申请权利得不到保证，同时也使商标局申请受理和后续审查工作受到影响。<br />
+<br />
+　　为了保护商标申请人的合法权益，完善和规范商标申请工作程序，增强商标申请受理工作的透明度，提高商标申请注册的质量和效率，我局在保留原有申请书格式的基础上，对商标申请书的注释部分（填写说明）进行了修订、完善和补充。请商标申请人和商标代理组织在办理申请商标注册及其他商标事宜时，参照各种商标申请书式背面的填写说明认真填写。<br />
+<br />
+　　商标注册申请人及各商标代理组织应当特别注意申请书式的注释（填写说明）中明确规定的申请人应当填写的项目。例如：申请人为自然人的，应当在姓名后面填写身份证件号码，申请人地址应当详细填写省、市、县、街区至门牌号码，申请人应当在申请人章戳/签字栏盖章或签字，通过商标代理组织办理的各类商标业务申请书件，申请人应当在申请书上盖章、签字等。<br />
+<br />
+　　本次修订后的各种商标申请书式的注释（填写说明）将于2010年7月1日开始正式启用。自2010年7月1日起，商标申请人、商标代理组织在申请商标注册及办理其他商标申请事宜时，应当按照本次公布的商标申请书式背面的填写说明要求认真填写申请事项，不得空项，不得擅自改动申请书式。对于未按照要求使用申请书，或未按照要求填写申请书式具体内容的，商标局将不予受理。 <br />
+　　<br />
+　　</p>
+<p align="justify">
+<table style="width: 430pt; border-collapse: collapse" class="222222222222" border="0" cellspacing="0" cellpadding="0" width="430" x:str>
+    <tbody>
+        <tr style="height: 16.5pt" height="22">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; width: 370pt; height: 16.5pt; border-top: silver 1pt solid; border-right: silver 1pt solid" height="22" colspan="5">
+            <p align="center"><font size="3"><strong>商标申请书式（注释）修订说明表</strong></font></p>
+            </td>
+        </tr>
+        <tr style="height: 15.75pt" height="21">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 15.75pt; border-right: silver 1pt solid" height="21" width="47"><strong><font color="#333333" size="2">序号</font></strong></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 123pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" colspan="2"><strong><font color="#333333" size="2">修订项目</font></strong></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200"><strong><font color="#333333" size="2">修订说明</font></strong></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><strong><font color="#333333" size="2">备注</font></strong></td>
+        </tr>
+        <tr style="height: 33pt" height="44">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 33pt; border-right: silver 1pt solid" height="44" width="47" x:num><font color="#333333" size="2">1</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 123pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" colspan="2"><font color="#333333" size="2">　</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　&nbsp; 在申请书正面左下角增加“请按背面说明填写”一栏，以示提醒告知。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">　</font></td>
+        </tr>
+        <tr style="height: 42.75pt" height="57">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 42.75pt; border-right: silver 1pt solid" height="57" width="47" x:num><font color="#333333" size="2">2</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">申请书式</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">所有书式</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 申请人办理各种商标申请业务，必须使用商标局公布的申请书式。所有申请书式及填写的各项内容均应打字或印刷，不得手写。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">　</font></td>
+        </tr>
+        <tr style="height: 78pt" height="104">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 78pt; border-right: silver 1pt solid" height="104" width="47" x:num><font color="#333333" size="2">3</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">申请人名称</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">所有书式</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 申请人名称与“申请人章戳（签字）”处所盖章戳（签字）以及所附主体资格证明文件中的名称应当一致。申请人为自然人的，应当同时在姓名后面填写身份证件号码。申请人名称中应当使用规范汉字，不得含有其他国家的文字。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 29.25pt" height="39">
+            <td style="border-bottom-color: #ebe9ed; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 29.25pt; border-right: silver 1pt solid" height="39" width="47" x:num><font color="#333333" size="2">4</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">申请人名称<br />
+            （英文）</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">有英文名称的申请书式</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 外国申请人必须填写英文名称，国内申请人不需填写。</font></p>
+            </td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">外国申请人必填</font></td>
+        </tr>
+        <tr style="height: 94.5pt" height="126">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; width: 35pt; height: 94.5pt; border-top: silver 1pt solid; border-right: silver 1pt solid" height="126" width="47" x:num><font color="#333333" size="2">5</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 52pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">申请人地址</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 71pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">所有书式</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 159pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 申请人地址应当按照主体资格证明文件中的地址详细填写，主体资格证明文件中的地址未冠有省、市、县等行政区划的，申请人应当注明相应行政区划名称。申请人为自然人的，可以填写通讯地址。除异议申请人外，申请人非为自然人的，填写地址必须与主体资格证明一致。如填写不一致的，将不予受理。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 53pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 56.25pt" height="75">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 72pt; border-right: silver 1pt solid" height="96" rowspan="2" width="47" x:num><font color="#333333" size="2">6</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">申请人地址</font></td>
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-right: silver 1pt solid" rowspan="2" width="95"><font color="#333333" size="2">有英文地址的申请书式</font></td>
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-right: silver 1pt solid" rowspan="2" width="200">
+            <p align="justify"><font color="#333333" size="2">&nbsp; 外国申请人必须填写详细的英文地址，国内申请人不需填写。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-right: silver 1pt solid" rowspan="2" width="95"><font color="#333333" size="2">外国申请人必填</font></td>
+        </tr>
+        <tr style="height: 15.75pt" height="21">
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: #ebe9ed; width: 52pt; height: 15.75pt; border-left-color: silver; border-right: silver 1pt solid" height="21" width="69"><font color="#333333" size="2">（英文）</font></td>
+        </tr>
+        <tr style="height: 36.75pt" height="49">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 36.75pt; border-right: silver 1pt solid" height="49" width="47" x:num><font color="#333333" size="2">7</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">申请人国籍/地区</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式二、十七</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　&nbsp; 非国内申请人必须填写国籍/地区。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 71.25pt" height="95">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 71.25pt; border-right: silver 1pt solid" height="95" width="47" x:num><font color="#333333" size="2">8</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">共有商标</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式一、二、四、八</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　&nbsp; 共有商标或共同申请的，应当在共同申请或共有商标一栏选择“是”。填写转让申请书时，转让前为共有商标或转让后为共有商标的，均应选择“是”。其他共有人名义应填写在申请书附页上，并在附页上盖章（签字）。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 36pt" height="48">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 36pt; border-right: silver 1pt solid" height="48" width="47" x:num><font color="#333333" size="2">9</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">代理组织名称</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">所有书式</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 委托商标代理组织代理的，必须填写代理组织名称。此处的代理组织是指在商标局备案的商标代理组织，非为普通代办人或经办人。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">商标代理组织必填</font></td>
+        </tr>
+        <tr style="height: 39pt" height="52">
+            <td style="border-bottom-color: #ebe9ed; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 39pt; border-right: silver 1pt solid" height="52" width="47" align="right" x:num><font color="#333333" size="2">10</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">申请人章戳<br />
+            （签字）</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">所有书式</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 委托商标代理组织代理的，申请人也必须在此栏盖章或签字。申请人未在本栏盖章或签字的，将不予受理。</font></p>
+            </td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 32.25pt" height="43">
+            <td style="border-bottom-color: #ebe9ed; border-left: silver 1pt solid; background-color: white; width: 35pt; height: 32.25pt; border-top: silver 1pt solid; border-right: silver 1pt solid" height="43" width="47" align="right" x:num><font color="#333333" size="2">11</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; width: 52pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">代理组织章戳<br />
+            （签字）</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; width: 71pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">所有书式</font></td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; width: 159pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 此栏由商标代理人签字并加盖代理组织章戳。</font></p>
+            </td>
+            <td style="border-bottom-color: #ebe9ed; background-color: white; width: 53pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">商标代理组织必填</font></td>
+        </tr>
+        <tr style="height: 22.5pt" height="30">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; width: 35pt; height: 22.5pt; border-top: silver 1pt solid; border-right: silver 1pt solid" height="30" width="47" x:num><font color="#333333" size="2">12</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 52pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">商标种类</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 71pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式一、二</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 159pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">&nbsp; 申请人应当选择申报的商标的种类。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; width: 53pt; border-left-color: silver; border-top: silver 1pt solid; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 26.25pt" height="35">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 26.25pt; border-right: silver 1pt solid" height="35" width="47" x:num><font color="#333333" size="2">13</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">类别</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">所有书式</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 一份申请书只能办理一个类别的商标申请事项。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 63pt" height="84">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 63pt; border-right: silver 1pt solid" height="84" width="47" x:num><font color="#333333" size="2">14</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">商标说明</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式一、二</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 应当填写：商标名称、商标图样外文或少数民族文字的含义、特殊字体的文字表述、立体/颜色商标的说明、商标图样中需要放弃专用权的声明以及其他申请人认为需要说明的事项。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">　</font></td>
+        </tr>
+        <tr style="height: 36.75pt" height="49">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 36.75pt; border-right: silver 1pt solid" height="49" width="47" x:num><font color="#333333" size="2">15</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">商品/服务项目</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式一、二</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 商品/服务项目填写不下的可以填写在申请书附页上，并标明所附页数。商品/服务项目前应标明序号。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 36pt" height="48">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 36pt; border-right: silver 1pt solid" height="48" width="47" x:num><font color="#333333" size="2">16</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">优先权要求</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式二</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 初次申请未填写优先权初次申请国、申请日期、申请号等项目，或填写不全的，视为未提出优先权要求。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">　</font></td>
+        </tr>
+        <tr style="height: 42.75pt" height="57">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 42.75pt; border-right: silver 1pt solid" height="57" width="47" x:num><font color="#333333" size="2">17</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">商标申请号/注册号</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">除书式一、二</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 一份申请书只能办理一个商标（申请号/注册号）的商标申请事项。商标为马德里国际注册商标的，应在注册号前加字母“G”。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 42.75pt" height="57">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 42.75pt; border-right: silver 1pt solid" height="57" width="47" x:num><font color="#333333" size="2">18</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">异议请求和事实依据</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式三</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 异议人除填写“异议请求和事实依据”栏之外，可另提交签字盖章的异议理由书，以便对方当事人答辩。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 32.25pt" height="43">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 32.25pt; border-right: silver 1pt solid" height="43" width="47" x:num><font color="#333333" size="2">19</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">异议须知</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式三</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 异议人或商标代理组织应按须知的要求提交异议申请及相关证件。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">　</font></td>
+        </tr>
+        <tr style="height: 30pt" height="40">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 30pt; border-right: silver 1pt solid" height="40" width="47" x:num><font color="#333333" size="2">21</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">商标代理人变更</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式六</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">&nbsp; 只适用于已注册商标和注册中商标的注册申请代理人的变更。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">　</font></td>
+        </tr>
+        <tr style="height: 37.5pt" height="50">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 37.5pt; border-right: silver 1pt solid" height="50" width="47" x:num><font color="#333333" size="2">22</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">更正事项</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式七</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">&nbsp; “更正事项”一栏中应注明更正的项目和内容，不得涉及商标申请文件或注册文件的实质性内容。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">必填项目</font></td>
+        </tr>
+        <tr style="height: 33pt" height="44">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 33pt; border-right: silver 1pt solid" height="44" width="47" x:num><font color="#333333" size="2">23</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">商标续展</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式九</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">&nbsp; 未到续展期或宽展期已满的商标续展申请不予受理。</font></p>
+            </td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 53pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">　</font></td>
+        </tr>
+        <tr style="height: 38.25pt" height="51">
+            <td style="border-bottom: silver 1pt solid; border-left: silver 1pt solid; background-color: white; border-top-color: silver; width: 35pt; height: 38.25pt; border-right: silver 1pt solid" height="51" width="47" x:num><font color="#333333" size="2">24</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 52pt; border-left-color: silver; border-right: silver 1pt solid" width="69"><font color="#333333" size="2">撤回/注销商标</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 71pt; border-left-color: silver; border-right: silver 1pt solid" width="95"><font color="#333333" size="2">书式十一、九</font></td>
+            <td style="border-bottom: silver 1pt solid; background-color: white; border-top-color: silver; width: 159pt; border-left-color: silver; border-right: silver 1pt solid" width="200">
+            <p align="justify"><font color="#333333" size="2">　 应当交回《商标注册申请受理通知书》或《商标注册证》原件，未交回的应在申请书上注明理由。</font></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<p align="justify"><br />
+<strong><font size="2">注：1、商标申请书式应当使用70g以上的A4（210mm*297mm）纸张打印。除附页以外申请书式应当正反面打印</font></strong></p>
+<p align="justify"><strong><font size="2">　　2、根据2002年9月15日施行的《商标法实施条例》第十五条第二款规定，“商标注册申请等有关文件，应当打字或者印刷。”从2002年9月15日起，</font></strong><strong><font size="2">申请人提交的商标注册申请等有关书件必须打字或者印刷，对于手写的商标申请书件，商标局和商标评审委员会不予受理。</font></strong>　　<br />
+　　<br />
+　　<br />
+　　<br />
+　　相关申请书下载 <br />
+　　<br />
+　　<br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/01.doc">书式一：商标注册申请书式</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/02.doc">书式二：商标注册申请书式外</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/03.doc">书式三：商标异议申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/04.doc">书式四：变更商标申请人/注册人名义地址申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/05.doc">书式五：删减商品服务项目申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/06.doc">书式六：变更商标代理人申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/07.doc">书式七：更正商标申请注册事项申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/08.doc">书式八：转让注册商标申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/09.doc">书式九：商标续展注册申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/10.doc">书式十：撤销连续三年停止使用注册商标申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/11.doc">书式十一：商标注销申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/12.doc">书式十二：注销注册商标申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/13.doc">书式十三：补发变转续证明申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/14.doc">书式十四：补发商标注册证申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/15.doc">书式十五：提供商标注册证明申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/16.doc">书式十六：提供优先权证明文件申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/17.doc">书式十七：商标备案申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/18.doc">书式十八：商标备案变更终止申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/19.doc">书式十九：撤回注册商标申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/20.doc">书式二十：撤回异议申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/21.doc">书式二十一：商标专用权质权登记申请书等</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/22.doc">书式二十二：商标代理委托书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/23.doc">书式二十三：驳回商标注册申请复审申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/24.doc">书式二十四：驳回商标注册申请复审申请书正文</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/25.doc">书式二十五：商标异议复审申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/26.doc">书式二十六：商标异议复审申请书正文</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/27.doc">书式二十七：撤销注册商标复审申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/28.doc">书式二十八：撤销注册商标复审申请书正文</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/29.doc">书式二十九：注册商标争议裁定申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/30.doc">书式三十：注册商标争议裁定申请书正文</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/31.doc">书式三十一：撤回商标评审申请书</a><br />
+　　<a href="http://www.cnipr.com/PX/px7/px7b/download/04/32.doc">书式三十二：商标评审代理委托书</a></p>
+
+
+
+							</div>
+							
+						</div>
+						<div class="tabItem">
+							<div class="cot">
+
+
+<p align="justify"><strong>　　　　　　　　　　　　　　　　　商标注册用商品和服务分类说明</strong> </p>
+<p class="Custom_UnionStyle" align="center"><br />
+<font style="line-height: 175%; font-size: 12pt"><strong>（一）中国商品分类的历史沿革</strong></font></p>
+<p class="Custom_UnionStyle" align="justify"><br />
+<font style="line-height: 175%; font-size: 12pt">　　众所周知，商标是区别商品或服务来源的一种标志，每一个注册商标都是指定用于某一商品或服务上的。如提到长虹，人们会想到彩色电视机；提到茅台，人们会想到酒；提到美加净，人们会想到化妆品等等。应该说，离开商品或服务而独立存在的商标是不存在的。所以在办理商标注册申请时，正确表述所要指定的商品或服务及其所属类别，是商标申请人（代理人）首先会遇到的问题。<br style="line-height: 175%; font-size: 12pt" />
+　　许多不同的部门出于管理、统计等工作需要都要对商品进行分类。如从国民经济管理的角度，通常将商品分为工业品和农产品两大类，工业品中又分重工产品和轻工产品，重工业产品中又可划分为冶金工业产品、机械工业产品等等。国家商标主管机关为了商标注册和管理的需要，也需要对商品进行分类。商标注册和管理，应该说是一项庞大、复杂的系统工程，商品及服务分类是商标局的一项基础工作。我国目前已有注册商标七百多万件，如果没有一套科学的分类管理体系，要想检索、查询、调阅一个商标，就像大海捞针一样，几乎是不可能的。<br style="line-height: 175%; font-size: 12pt" />
+　　正是为了商标检索、审查、管理工作的需要，把某些具有共同属性的商品组合到一起，编为一个类，将所有商品及服务共划分为45个类别，形成了我们这里所要叙述的“商标注册用商品和服务分类”。如将“工业用油及油脂、润滑剂，吸收、喷洒和粘结灰尘用品，燃料（包括马达用的汽油）和照明剂，蜡烛，灯芯”等组合在一起，形成一个类（第4类）；又如，将“外科、医疗、牙科和兽医用仪器及器械，假肢、假眼和假牙、矫形用品、缝合材料”等组合在一起，形成另一个类（第10类）。商标局的查询检索系统是按照商品及服务的类别设立的；《商标公告》按照类别编排；申请人申请商标注册也要按照类别提出；商标局发给注册人的商标注册证上也必须注明商品或服务及其所属类别。<br style="line-height: 175%; font-size: 12pt" />
+　　商品分类又是作为申请商标注册办理手续及缴纳费用的基本单位。即一个商标在一个类别上申请注册办理一份手续，缴纳一份基本费用。如一个申请人在医用化学药品、中成药、中药材、药酒、医用营养物品、空气净化制剂、兽药、农药、卫生巾、牙填料上申请注册商标，虽然其指定的商品多达十项，但因这些商品均属同一类别（5类），所以只需办理一份手续，缴纳一份基本费用（即一标一类）。而另一企业申请注册的商标虽然仅需使用在绘画笔和绘画颜料上，但需填写两份申请书，在两个类别分别申请，并缴纳两份基本费用，因为这两种商品分别属于两个类别，即绘画笔属于第16类，绘画颜料属于第2类。<br style="line-height: 175%; font-size: 12pt" />
+　　以往，都是由各国的商标主管机关根据本国的国情及对商品的理解，制定各自的商品分类表，供商标主管机关及商标注册申请人使用。商品分类表不是一成不变的。它会随着商品的丰富及人们对商品的认识而逐步增加及修订。我国自1923年起，先后制定公布过五个商品分类表。到二十世纪五十年代，世界经济得到了较大的发展，国际间的交往更加频繁。一些国家认为，各国使用各自的商品分类表已不能适应有关商标事务的国际联系，给商标所有人到国外注册带来了麻烦，不利于商标事业的发展和经济发展。这些国家的商标主管机关认为，需要有一个国际统一的商标注册用商品分类表。在这种情况下产生了尼斯协定。</font></p>
+<p class="Custom_UnionStyle" align="center"><br />
+<font style="line-height: 175%; font-size: 12pt"><strong>（二）商标注册用商品和服务国际分类的发展与现状</strong> </font></p>
+<p class="Custom_UnionStyle" align="left"><br />
+<font style="line-height: 175%; font-size: 12pt">　&nbsp; 尼斯协定是一个有多国参加的国际公约，其全称是《商标注册用商品和服务国际分类尼斯协定》。该协定于1957年6月15日在法国南部城市尼斯签订，1961年4月8日生效。尼斯协定的成员国目前已发展到65个。我国于1994年8月9日加入了尼斯联盟。尼斯协定的宗旨是建立一个共同的商标注册用商品和服务国际分类体系，并保证其实施。目前，国际分类共包括45类，其中商品34类，服务项目11类，共包含一万多个商品和服务项目。申请人所需填报的商品及服务一般说来都在其中了。不仅所有尼斯联盟成员国都使用此分类表，而且，非尼斯联盟成员国也可以使用该分类表。所不同的是，尼斯联盟成员可以参与分类表的修订，而非成员国则无权参与。目前世界上已有一百三十多个国家和地区采用此分类表。我国自1988年11月1日起采用国际分类，大大方便了商标申请人，更加规范了商标主管机关的管理，密切了国际间商标事务的联系。尤其是1994年我国加入尼斯协定以来，我们积极参与了对尼斯分类的修改与完善，已将多项有中国特色的商品加入尼斯分类中。尼斯分类表定期修订，一是增加新的商品，二是将已列入分类表的商品按照新的观点进行调整，以求商品更具有内在的统一性。尼斯分类第十版自2012年1月1日起实行。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; 尼斯分类表包括两部分，一部分是按照类别排列的商品和服务分类表，一部分是按照字母顺序排列的商品和服务分类表。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; 按照类别排列的分类表将商品和服务按照1-45类的顺序排列。每类有一个类别号和标题，每类的标题概括了本类所包含商品的特征及范围，最后列出了本类包括的所有商品或服务项目，每项商品或服务均有一个顺序号，以便查找。另外，每一类有一个注释，对本类主要包括哪些商品，本类与相关类别的商品如何区别，如何划分边缘商品的类别作了说明，这个注释对划分一些易混淆商品的类别有很大帮助。如第三类，类名为“洗衣用漂白剂及其他物料，清洁、擦亮、去渍及研磨用制剂，肥皂，香料，香精油、化妆品，香水、牙膏、牙粉。”【注释】为：“本类主要包括洗澡用品和化妆品。尤其包括：个人用除臭剂；化妆用卫生用品。尤其不包括：清洁烟囱用化学制品（第一类）；生产过程中用的去渍用品（第一类）；非个人用除臭剂（第五类）；磨石或手磨砂轮（第八类）。 <br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; 另一部分是按字母顺序排列的商品和服务分类表。世界知识产权组织出版了按英文、法文顺序排列的商品和服务分类表。我国商标主管机关也编排印制了按汉语拼音顺序排列的商品和服务分类表。使用这个表查阅一般商品的类别就像查字典一样方便。如某一生产电视机和录相机的企业，要在这两种商品上申请商标注册，按照汉语拼音顺序，很容易就能查到这两种商品都属于第9类；又如，某一生产食品的企业要在牛奶和冰淇淋上申请商标注册，借助该表，也可以很快查到这两种商品分别属于第29类（牛奶）和第30类（冰淇淋）。</font></p>
+<p class="Custom_UnionStyle" align="center"><font style="line-height: 175%; font-size: 12pt">&nbsp;<br style="line-height: 175%; font-size: 12pt" />
+<strong>（三）商品及服务分类遵循的原则</strong>　</font></p>
+<p class="Custom_UnionStyle" align="left"><font style="line-height: 175%; font-size: 12pt">　 <br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; &nbsp;世界知识产权组织对商品及服务进行分类时，一般遵照下列原则，各国管理机关及申请人在遇到分类表上没有的商品及服务项目，需要进行分类时，也可按照以下标准划分<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; &nbsp;1．商品<br style="line-height: 175%; font-size: 12pt" />
+&nbsp; 　（1）制成品原则上按其功能、用途进行分类，如果分类表没有规定分类的标准，该制成品即按字母排列的分类表内类似的其他制成品分在一类，也可以根据辅助的分类标准，即根据这些制成品的材料或其操作方式进行分类；<br style="line-height: 175%; font-size: 12pt" />
+　 &nbsp;（2）多功能的组合制成品（如钟和无线电收音机的组合产品）可以根据产品中各组成部分的功能或用途，把该产品分在与这些功能或用途相应的不同类别里，若类别表中没有规定这些标准，则可以采用第（1）条中所示的标准；<br style="line-height: 175%; font-size: 12pt" />
+　 &nbsp;（3）原料、未加工品或半成品原则上按其组成的原材料进行分类；<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （4）商品构成其它商品某一部分，原则上与其他商品分在一类，但这种同类商品在正常情况下不能用于其它用途。其他所有情况均按上述标准（1）进行分类；<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （5）成品或半成品按其组成的原材料分类时，如果是由几种不同原材料制成，原则上按其主要原材料进行分类；<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （6）用于盛放商品的盒、箱之类的容器，原则上与该商品分在同一类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （1）制成品原则上按其功能或用途进行分类。如果各类类别标题均未涉及某一制成品的功能或用途，该制成品就比照字母顺序分类表中其他的类似制成品分类。如果没有类似的，可以根据辅助标准进行分类，如按制成品的原材料或其操作方式进行分类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （2）多功能的组合制成品（如钟和收音机的组合产品）可以分在与其各组成部分的功能或用途相应的所有类别里。如果各类类别标题均未涉及这些功能或用途，则可以采用第（1）条中所示的标准。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （3）原料、未加工品或半成品原则上按其组成的原材料进行分类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （4）商品是构成其他产品的一部分，且该商品在正常情况下不能用于其它用途，则该商品原则上与其所构成的产品分在同一类。其他所有情况均按第（1）条中所示的标准进行分类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （5）成品或非成品按其组成的原材料分类时，如果是由几种不同原材料制成，原则上按其主要原材料进行分类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （6）用于盛放商品的专用容器，原则上与该商品分在同一类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; &nbsp;2．服务<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （1）服务原则上按照服务分类类名及其注释所划分的行业进行分类，也可以按字母排列的分类表中类似的服务分在一类；<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （2）出租业的服务，原则上与通过出租物所实现的服务分在一类（如出租电话机，分在38类） ；<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （3）提供建议、信息或咨询的服务原则上与提供服务所涉及的事务归于同一类别，例如运输咨询（第39类），商业管理咨询（第35类），金融咨询（第36类），美容咨询（第44类）。以电子方式（例如电话、计算机）提供建议、信息或咨询不影响这种服务的分类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （1）服务原则上按照服务类类别标题及其注释所列出的行业进行分类，若未列出，则可以比照字母顺序分类表中其他的类似服务分类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （2）出租服务，原则上与通过出租物所实现的服务分在同一类别（如出租电话机，分在第三十八类）。租赁服务与出租服务相似，应采用相同的分类原则。但融资租赁是金融服务，分在第三十六类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （3）提供建议、信息或咨询的服务原则上与提供服务所涉及的事物归于同一类别，例如运输咨询（第三十九类），商业管理咨询（第三十五类），金融咨询（第三十六类），美容咨询（第四十四类）。以电子方式（例如电话、计算机）提供建议、信息或咨询不影响这种服务的分类。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; （4）特许经营的服务原则上与特许人所提供的服务分在同一类别（例如，特许经营的商业建议（第三十五类），特许经营的金融服务（第三十六类），特许经营的法律服务（第四十五类）。</font></p>
+<p class="Custom_UnionStyle" align="center"><br />
+<font style="line-height: 175%; font-size: 12pt"><strong>（四）商品及服务名称的填写</strong></font></p>
+<p class="Custom_UnionStyle" align="left"><br />
+<font style="line-height: 175%; font-size: 12pt">　&nbsp; 商品名称是整个商标注册工作的重要内容之一，它决定了注册商标保护的范围。因此，在申请商标注册时，必须指明具体的商品和服务名称。并且，一份申请书上填报的商品或服务只能限定在一个类别之内。商品名称力求具体、准确、规范，以便明确指定该商标的保护范围。在《类似商品和服务区分表》中，每个类别有注释，并将商品或服务项目分为不同群组，提出商标注册申请时不能填写注释部分和群组名，如2907奶及乳制品，4301提供餐饮，住宿服务。一般说来，一个商品在商品分类表中有正规名称时，应使用分类表中的规范名称。某些人们日常生活中约定俗成的商品称谓，在申请商标注册时是不允许使用的。如“家用电器”，因为它包括的范围过大，涉及商品分类表中至少五个类别的商品。例如第七类的洗衣机、家用电动碾磨机；第八类的电动刮胡刀；第九类的电视机；第十类的电动按摩器；第十一类的电冰箱、电热水器等。诸如此类的情况还有“塑料制品”、“皮制品”等。<br style="line-height: 175%; font-size: 12pt" />
+　&nbsp; 使用《类似商品和服务区分表》中规范的商品及服务名称，有助于加快商标的注册进程，确保申请人及时获得商标专用权。</font></p>
+<p class="Custom_UnionStyle" align="left">&nbsp;</p>
+<p class="Custom_UnionStyle" align="center"><font style="font-size: 12pt"><strong>&nbsp;<a oldsrc="W020120628392851877951.pdf" href="http://sbj.saic.gov.cn/sbsq/spfl/200902/W020120628392851877951.pdf">《类似商品和服务区分表》(基于尼斯分类第十版).pdf</a></strong></font></p>
+<p class="Custom_UnionStyle" align="center">&nbsp;</p>
+<p class="Custom_UnionStyle" align="center">&nbsp;<a oldsrc="W020130205305002701416.pdf" href="http://sbj.saic.gov.cn/sbsq/spfl/200902/W020130205305002701416.pdf"><font style="font-size: 12pt"><strong>NCL(10-2013)版中文版和区分表主要修改内容.pdf</strong></font></a></p>
+
+
+
+
+							</div>
+						</div>
+						<div class="tabItem">
+
+
+<p>
+<table cellspacing="1" cellpadding="3" width="80%" bgcolor="#2f3e8d" align="center">
+    <tbody>
+        <tr align="center" bgcolor="#faf9ff">
+            <td colspan="2">图形要素表国际分类</td>
+        </tr>
+        <tr align="center" bgcolor="#edecf3">
+            <td width="10%">序号</td>
+            <td>名 称</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1</td>
+            <td>天体,自然现象,地图</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.1</td>
+            <td>星,慧星注:(a)包括表示军阶的星(b)不包括火花(1.15.7)和星号(即*)(24.17.3)</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.1.1</td>
+            <td>星</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.1.15</td>
+            <td>彗星,带尾的星</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.1.17</td>
+            <td>指南针盘面注:不包括指南针,航海罗盘(17.5.1和A17.5.21)</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.11</td>
+            <td>星座,星群,星空,天球(仪),天体图</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.11.1</td>
+            <td>星座,星系</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.11.12</td>
+            <td>星空</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.11.15</td>
+            <td>天球(仪),天体图</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.13</td>
+            <td>浑天仪,天象仪,天体运行轨道,原子模型,分子模型</td>
+        </tr>
+        <tr align="center" bgcolor="#ffffff">
+            <td bgcolor="#faf9ff">1.13.1</td>
+            <td>浑天仪,天象仪,天体运行轨道,原子模型,分子模型</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<p>　　　　　　　　　　　　　&nbsp;<u>&nbsp;</u></p>
+<p align="center">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　<u><a href="http://www.cnipr.com/PX/px7/px7b/download/06/more.doc">下载更多</a></u></p>
+
+							
+						</div>
+						<div class="tabItem">
+							
+
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/1.doc">如何办理马德里商标国际注册申请</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/2.doc">马德里商标国际注册申请量各省/自治区/直辖市统计表</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/3.doc">马德里商标国际注册代理机构代理量统计表（前十位)</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/4.doc">指定哥伦比亚所要求收取的单独规费</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/5.doc">查阅国际公告使用说明</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/6.doc">马德里商标国际注册书式</a> </p>
+<p>　　<a href="http://sbj.saic.gov.cn/sbsq/mdlsq/201002/t20100225_80450.html">下载书式</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/8.doc">如何将国际注册转为国家注册申请</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/9.doc">指定收取单独规费国家的收费标准（汇率：以收文当日为准）</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/10.doc">关于国际注册指定美国、日本、韩国、新加坡等国家的说明</a> </p>
+<p>　　<a href="http://www.cnipr.com/PX/px7/px7b/download/07/11.doc">关于日本马德里商标国际注册二期费用的通知</a> </p>
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="clear"></div>
+
+
+
+<script src="../../../images/foot2013.js" type='text/javascript'></script>
+
+</div>
+
+
+
+</div>
+
+
+
+
+<script type="text/javascript" src="../../../images/patent.js"></script>
+
+<!--start add monitor codes-TRS、Gridsum,20170619-->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=1137" async="async" defer="defer"></script> 
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-820032-F552BE/gs.js'></script>
+<!--end add monitor codes-TRS、Gridsum-->
+
+<!--start add monitor codes:Neusoft,20170622-->
+<script>
+    var _paq = _paq || [];
+    (function() {
+        _paq.push(["setSiteId", "jEVZOqlU"]);
+        _paq.push(["trackPageClick"]);
+        var g = document.createElement("script");
+        g.src = ('https:' == document.location.protocol?'https://':'http://')+"ci.realsight.cn/ci-receiver/ubm.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<!--end add monitor codes:Neusoft,20170622-->
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+Server: mw1269.eqiad.wmnet
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 929797935, 289821095, 512476545, 639936589
+X-Cache-Status: pass
+Content-Disposition: inline; filename="feed.xml"
+Accept-Ranges: bytes
+Date: Tue, 27 Jun 2017 13:47:11 GMT
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Age: 0
+X-Cache: cp1067 pass, cp2010 pass, cp4017 pass, cp4010 pass
+Backend-Timing: D=974817 t=1498571230371698
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+P3P: CP="This is not a P3P policy! See https://www.wikidata.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Type: application/xml; charset=UTF-8
+Last-Modified: Sun, 25 Jun 2017 22:47:24 GMT
+Content-Encoding: gzip
+Expires: Thu, 01 Jan 1970 00:00:00 GMT

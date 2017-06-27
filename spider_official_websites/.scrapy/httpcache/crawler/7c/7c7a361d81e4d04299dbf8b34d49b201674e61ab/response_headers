@@ -1,0 +1,25 @@
+Set-Cookie: SECSESSID_2=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; httponly
+Set-Cookie: SECSESSID=496p5pk93hrfqpfemomftcp2g3; expires=Tue, 27-Jun-2017 14:46:25 GMT; Max-Age=3600; path=/; secure; httponly
+Set-Cookie: SECSESSID_2=skFc4geinyRzaUc2%2BuK5LImby1iwozGROCvKT0ih0NlkOTFiZTY4YjZhZDJlMGVlYjRiMzdiODY2ZmIxZGQ3ODJkNjI0ZTFiMDJhNmVmNGJiZjk0ZDFmZjY1ZDhjZTkxFc%2BVrMK%2Bzeii%2BERdzeN%2BU8a%2FguzPB8ft5WYufkNS3aLT3fTy92rIzz8wuID9SqjIWLm95dBFyHH1d0i4M%2B9e3CZIEGBmLIkO8m%2BUXmCE3xIlR9jLxjzV4iSZIj%2BZscfj%2BiU%2FwEs4CQ0fqmMMMaAcewGgHy5h4MU0BZSo4CN%2BarP8Iyeqz093WtWKXIUaSMYexeudom5wXlZBF8EJFmoEPYg7iCVj1S1hl9cwF6UQpcFrY7HPht7NCG6kw8sV2WvyBEraVYzfOeTZW9nNX6IZlOv78qc5q321WwP7XY8TNOCJSX91LMvJGGlw9QkWsoI1vNByk%2FjA9aea4H9zXPWmbitIu%2Be8b8%2FGPF45Owye8JCzJ38dKbp3PYFS9uoFBFP3; expires=Tue, 27-Jun-2017 14:10:25 GMT; Max-Age=1440; path=/; secure; httponly
+Server: nginx
+X-Varnish: 484261104
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+X-Cdn: Incapsula
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Vary: Accept-Encoding
+Cache-Control: public, max-age=0, must-revalidate, no-transform
+X-Content-Type-Options: nosniff
+X-Ua-Compatible: IE=edge
+Age: 0
+X-Iinfo: 8-2743230-2743302 SNNN RT(1498571180622 4286) q(0 0 0 -1) r(5 5) U2
+Content-Language: en-NZ
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 varnish-v4
+Content-Security-Policy: default-src https://www.govt.nz https://*.cwp.govt.nz https://*.google-analytics.com; style-src https://www.govt.nz https://*.cwp.govt.nz https://*.gstatic.com 'unsafe-inline' https://api.addressfinder.io; script-src https://www.govt.nz https://*.cwp.govt.nz https://*.gstatic.com 'unsafe-eval' 'unsafe-inline' https://api.addressfinder.io; frame-src https://www.govt.nz https://*.cwp.govt.nz https://*.youtube-nocookie.com https://*.youtube.com; child-src https://www.govt.nz https://*.cwp.govt.nz https://*.youtube-nocookie.com https://*.youtube.com;
+Content-Type: text/html; charset=utf-8
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+Pragma: no-cache
+Date: Tue, 27 Jun 2017 13:46:25 GMT
+Last-Modified: Thu, 27 Apr 2017 00:46:15 GMT

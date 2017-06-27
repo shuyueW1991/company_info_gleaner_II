@@ -1,0 +1,10 @@
+X-Cloud-Trace-Context: 05fd0e7d66b28d1c2abc4354d675a985
+Set-Cookie: sophos_session="e30\075|1498558882|5d0fcc419cf2106653c59b3b7039093cb9d1a4a7"; Path=/; secure; HttpOnly
+Cache-Control: no-cache
+Server: Google Frontend
+Expires: Tue, 27 Jun 2017 10:21:22 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+X-Frame-Options: deny
+Date: Tue, 27 Jun 2017 10:21:22 GMT

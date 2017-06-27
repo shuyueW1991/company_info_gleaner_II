@@ -1,0 +1,11 @@
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Powered-By: New VM-Web1
+X-Aspnet-Version: 4.0.30319
+X-Aspnetmvc-Version: 4.0
+Server: Microsoft-IIS/8.5
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+X-Powered-By: ASP.NET
+Content-Encoding: gzip
+Cache-Control: private
+Date: Tue, 27 Jun 2017 10:15:39 GMT

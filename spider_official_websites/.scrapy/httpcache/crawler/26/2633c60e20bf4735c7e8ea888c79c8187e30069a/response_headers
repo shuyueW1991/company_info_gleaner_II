@@ -1,0 +1,9 @@
+Host_Service: FutureTenseContentServer:11.1.1.8.0
+Content-Language: en
+Last-Modified: Tue, 27 Jun 2017 09:56:30 GMT
+Server: Oracle-Application-Server-11g
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: Servlet/2.5 JSP/2.1
+Content-Encoding: gzip
+Date: Tue, 27 Jun 2017 10:13:24 GMT

@@ -1,0 +1,24 @@
+Set-Cookie: MS-CV=x5O5EFNwsk+5IYO/.6; domain=.microsoft.com; expires=Wed, 28-Jun-2017 10:15:52 GMT; path=/
+Set-Cookie: MS-CV=x5O5EFNwsk+5IYO/.6; domain=.microsoft.com; expires=Wed, 28-Jun-2017 10:15:52 GMT; path=/
+Cache-Control: no-cache, no-store
+X-Akamai-Transformed: 9 27692 0 pmb=mRUM,1
+Content-Type: text/html
+Server: Microsoft-IIS/8.0
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Pragma: no-cache
+Correlationvector: x5O5EFNwsk+5IYO/.6.1
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Credentials: true
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+X-Edgeconnect-Origin-Mex-Latency: 238
+X-Edgeconnect-Origin-Mex-Latency: 238
+X-Frame-Options: SAMEORIGIN
+Ntcoent-Length: 94659
+Vary: Accept-Encoding
+Expires: -1
+Date: Tue, 27 Jun 2017 10:15:52 GMT
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Content-Encoding: gzip
+X-Aspnet-Version: 4.0.30319

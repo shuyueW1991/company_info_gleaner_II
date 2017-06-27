@@ -1,0 +1,22 @@
+Backend-Timing: D=18002 t=1498556972764487
+Set-Cookie: WMF-Last-Access=27-Jun-2017;Path=/;HttpOnly;secure;Expires=Sat, 29 Jul 2017 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=27-Jun-2017;Path=/;Domain=.wikimediafoundation.org;HttpOnly;secure;Expires=Sat, 29 Jul 2017 00:00:00 GMT
+Set-Cookie: GeoIP=CN:31:Shanghai:31.05:121.40:v4; Path=/; secure; Domain=.wikimediafoundation.org
+Last-Modified: Tue, 27 Jun 2017 09:49:32 GMT
+Content-Type: text/html; charset=utf-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Server: mw1266.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Encoding: gzip
+Age: 1020
+X-Varnish: 1072326749, 395574062 400340811, 264786371 276412613, 146989967 148184168
+X-Client-Ip: 180.173.144.160
+X-Content-Type-Options: nosniff
+X-Analytics: https=1;nocookies=1
+Cache-Control: s-maxage=1200, must-revalidate, max-age=0
+X-Cache: cp1053 miss, cp2016 hit/1, cp4018 hit/2, cp4017 hit/15
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie
+Date: Tue, 27 Jun 2017 10:06:35 GMT
+X-Powered-By: HHVM/3.18.2
+Location: https://wikimediafoundation.org/wiki/Home
+X-Cache-Status: hit

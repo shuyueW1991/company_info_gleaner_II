@@ -1,0 +1,8 @@
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000;
+Content-Encoding: gzip
+Cache-Control: private
+Date: Tue, 27 Jun 2017 10:07:54 GMT

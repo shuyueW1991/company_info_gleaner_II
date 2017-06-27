@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中国数字音乐协会</title>
+    <link rel="stylesheet" href="css/main.css?{{-version}}"/>
+</head>
+<body>
+    <div class="home-page">
+        <h1 class="logo">中国数字音乐协会</h1>
+        <div class="banner">
+            <div class="banner-pic">
+                <ul class="banner-img-box">
+                    <li><a href="news-articles/news-article01.html" target="_blank"><img src="images/common/banner1.jpg" alt=""/></a></li>
+                    <li><a href="news-articles/news-article02.html" target="_blank"><img src="images/common/banner2.jpg" alt=""/></a></li>
+                    <li><a href="news-articles/news-article03.html" target="_blank"><img src="images/common/banner3.jpg" alt=""/></a></li>
+                    <li><a href="news-articles/news-article04.html" target="_blank"><img src="images/common/banner4.jpg" alt=""/></a></li>
+                    <li><a href="news-articles/news-article05.html" target="_blank"><img src="images/common/banner5.jpg" alt=""/></a></li>
+                </ul>
+                <div class="bottom-text">
+                    <p></p>
+                    <ul class="pointer-dot">
+                        <li class="active"></li>
+                        <li class="inactive"></li>
+                        <li class="inactive"></li>
+                        <li class="inactive"></li>
+                        <li class="inactive"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="news-part">
+                <h3>新闻资讯</h3>
+                <ul>
+                    <li><a href="news-articles/news-article01.html" target="_blank">“互联网＋”时代的音乐：技术发展带来版权新课题</a></li>
+                    <li><a href="news-articles/news-article02.html" target="_blank">《著作权法》将第三次修订,通过版权保护促进音乐产业发展</a></li>
+                    <li><a href="news-articles/news-article03.html" target="_blank">国内音乐版权保护进展缓慢 观众只知明星不知作曲家</a></li>
+                    <li><a href="news-articles/news-article04.html" target="_blank">徐沛东：音乐版权亟需立法保护 要用互联网思维解决问题</a></li>
+                    <li><a href="news-articles/news-article05.html" target="_blank">作品红作者穷 音乐版权“变现”敢问路在何方</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="law-ruler">
+            <div class="part-header">
+                <h3>法律法规</h3>
+            </div>
+            <ul>
+                <li><a href="law-articles/law-article01.html" target="_blank">· 伯尔尼保护文学和艺术作品公约</a></li>
+                <li><a href="law-articles/law-article02.html" target="_blank">· 广东省高级人民法院关于审理侵害影视和音乐作品著作权纠纷案件若干问题的办案指引</a></li>
+                <li><a href="law-articles/law-article03.html" target="_blank">· 实施国际著作权条约的规定</a></li>
+                <li><a href="law-articles/law-article04.html" target="_blank">· 信息网络传播权保护条例2013</a></li>
+                <li><a href="law-articles/law-article05.html" target="_blank">· 与贸易有关的知识产权协议(WTO)</a></li>
+                <li><a href="law-articles/law-article06.html" target="_blank">· 中华人民共和国著作权法2010</a></li>
+                <li><a href="law-articles/law-article07.html" target="_blank">· 著作权法实施条例2013</a></li>
+                <li><a href="law-articles/law-article08.html" target="_blank">· 著作权集体管理条例著作权集体管理条例（2013年修正本）</a></li>
+                <li><a href="law-articles/law-article09.html" target="_blank">· 最高人民法院关于审理侵害信息网络传播权民事纠纷案件适用法律若干问题的规定2012</a></li>
+                <li class="last-child"><a href="law-articles/law-article10.html" target="_blank">· 最高人民法院关于审理著作权民事纠纷案件适用法律若干问题的解释2002</a></li>
+            </ul>
+        </div>
+        <ul class="other-logos">
+            <li><a href="http://www.cbice.com/" target="_blank"><img src="images/common/other-logos-01.png" alt=""/></a></li>
+            <li><a href="http://www.ccopyright.com.cn/cpcc/" target="_blank"><img src="images/common/other-logos-02.png" alt=""/></a></li>
+            <li><a href="http://www.ncac.gov.cn/" target="_blank"><img src="images/common/other-logos-03.png" alt=""/></a></li>
+            <li><a href="http://www.cnipr.com/" target="_blank"><img src="images/common/other-logos-04.png" alt=""/></a></li>
+            <li class="nomargin"><a href="http://www.ipr.gov.cn/" target="_blank"><img src="images/common/other-logos-05.png" alt=""/></a></li>
+        </ul>
+        <div class="copyright-part">
+            <!--版权备案-->
+            <div class="copyright-register">
+                <div class="part-header">
+                    <h3>版权备案</h3>
+                </div>
+                <div class="title">
+                    <p></p>
+                    <div>
+                        <p class="num">备案编号</p>
+                        <p class="work">作品</p>
+                        <p class="person">备案人</p>
+                    </div>
+                </div>
+               <div class="list-wrap copyright-register-list">
+                   <ul>
+                       <li>
+                           <p class="num">1012016041800001</p>
+                           <p class="work">白夜诱惑</p>
+                           <p class="person">Frank秋枫</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041800002</p>
+                           <p class="work">大约在冬季</p>
+                           <p class="person">Frank秋枫</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041800003</p>
+                           <p class="work">很开很开心</p>
+                           <p class="person">Frank秋枫</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041800004</p>
+                           <p class="work">谁知道我戴着面具活着</p>
+                           <p class="person">Frank秋枫</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900001</p>
+                           <p class="work">从今以后</p>
+                           <p class="person">曾维胜</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900002</p>
+                           <p class="work">萤火虫</p>
+                           <p class="person">陈志强</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900003</p>
+                           <p class="work">通通摇一摇</p>
+                           <p class="person">代林林</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900005</p>
+                           <p class="work">一条绳两蚂蚱</p>
+                           <p class="person">高信</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900005</p>
+                           <p class="work">爱你却离开了我</p>
+                           <p class="person">高信</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900006</p>
+                           <p class="work">喜洋洋</p>
+                           <p class="person">高信</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900007</p>
+                           <p class="work">秋水吟</p>
+                           <p class="person">高翊菲</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900008</p>
+                           <p class="work">凌晨还有谁没睡</p>
+                           <p class="person">寂悸</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900009</p>
+                           <p class="work">永不放手</p>
+                           <p class="person">陆平</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900010</p>
+                           <p class="work">爱已远走</p>
+                           <p class="person">陆平</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900011</p>
+                           <p class="work">原谅我不告而别</p>
+                           <p class="person">陆平</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900012</p>
+                           <p class="work">来一场说走就走的旅行</p>
+                           <p class="person">陆平</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900013</p>
+                           <p class="work">过客</p>
+                           <p class="person">陆平</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900014</p>
+                           <p class="work">听我说声对不起</p>
+                           <p class="person">陆平</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900015</p>
+                           <p class="work">世界那么大</p>
+                           <p class="person">陆平</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900016</p>
+                           <p class="work">男子汉</p>
+                           <p class="person">陆平</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900017</p>
+                           <p class="work">爱的冬眠期</p>
+                           <p class="person">乔玉青</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900018</p>
+                           <p class="work">谁说男人不可以流眼泪</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900019</p>
+                           <p class="work">跳动的爱</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900020</p>
+                           <p class="work">我的梦想我做主</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900021</p>
+                           <p class="work">我的幸福就是你</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900022</p>
+                           <p class="work">我们的青春</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900023</p>
+                           <p class="work">我是你的公主</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900024</p>
+                           <p class="work">我要的幸福很简单</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900025</p>
+                           <p class="work">我已偷偷爱上你</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900026</p>
+                           <p class="work">幸福1加1</p>
+                           <p class="person">师立泽、芮英杰</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900027</p>
+                           <p class="work">山水画</p>
+                           <p class="person">天籁天</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900028</p>
+                           <p class="work">天鹅梦</p>
+                           <p class="person">童彤</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900029</p>
+                           <p class="work">失重天平</p>
+                           <p class="person">童彤</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900030</p>
+                           <p class="work">梦回雪域</p>
+                           <p class="person">王浩</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900031</p>
+                           <p class="work">生命中的爱恋</p>
+                           <p class="person">王浩</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900032</p>
+                           <p class="work">看不透的爱情看不透的你</p>
+                           <p class="person">王浩</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900033</p>
+                           <p class="work">寂寞的温柔</p>
+                           <p class="person">王浩</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900034</p>
+                           <p class="work">恨别离</p>
+                           <p class="person">艺枫</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900035</p>
+                           <p class="work">我爱你你却想着他</p>
+                           <p class="person">雨霖枫</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900036</p>
+                           <p class="work">永远到底有多远</p>
+                           <p class="person">雨霖枫</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900037</p>
+                           <p class="work">攒了假期去看你</p>
+                           <p class="person">张守梅</p>
+                       </li>
+                       <li>
+                           <p class="num">1012016041900038</p>
+                           <p class="work">等你再痛也心甘</p>
+                           <p class="person">张韦</p>
+                       </li>
+                   </ul>
+               </div>
+            </div>
+        </div>
+        <!--互动交流-->
+        <div class="interact">
+            <div class="part-header">
+                <h3>互动交流</h3>
+            </div>
+            <div class="icons-wrap">
+                <img src="images/common/interact-icons.png" alt=""/>
+            </div>
+        </div>
+        <!---->
+        <div class="footer">
+            <p>Copyright © 2015 - 2016  www.musicipr.com</p>
+            <p>中国（香港）数字音乐协会  版权所有</p>
+            <p>网站开发：广州数音网络科技有限公司</p>
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/sliderJs/slider.js"></script>
+    <script src="js/home.js?{{-version}}"></script>
+</body>
+</html>

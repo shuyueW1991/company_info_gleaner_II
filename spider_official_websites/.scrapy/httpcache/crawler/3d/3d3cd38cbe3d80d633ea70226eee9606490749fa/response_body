@@ -1,0 +1,499 @@
+<!DOCTYPE html PUBliC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-Ua-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="Description" content="" />
+<title>中国国际电子商务中心</title>
+<link href="stylesheets/base.css" rel="stylesheet" type="text/css" />
+<link href="stylesheets/layout.css" rel="stylesheet" type="text/css" />
+<link href="stylesheets/index-2013-001.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.ec.com.cn/js/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="js/v3-0-common.js"></script>
+<script type="text/javascript" src="js/heartBeat.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript">
+var pageconfig={};
+pageconfig={
+	current:"1"
+}
+  $(document).ready(function(){
+$("#daohang").sticky({topSpacing:0});
+  });
+
+</script>
+<script language="javascript">
+	//为展现最后一行li添加class，以便于隐藏展现最后一行的虚线
+	$(function(){
+		$("#content .gongzuo ul li:eq(4)").addClass('kong');
+		$("#content .gongzuo ul li:eq(5)").addClass('kong');
+		$("#content .kuai ul li:eq(3)").addClass('wu');
+		$("#content .kuai ul li:eq(7)").addClass('wu');
+		$("#content .kuai ul li:eq(11)").addClass('wu');
+		$("#content .kuai ul li:eq(15)").addClass('wu');
+		$("#content .kuai ul li:eq(19)").addClass('wu');
+		$("#content .kuai ul li:eq(23)").addClass('wu');
+	})
+</script>
+</head>
+
+<body>
+<div id="container">
+	<!--[if !IE]>头部 开始<![endif]-->
+  <div id="header"> 
+<div id="top_link"><p><a href="http://www.mofcom.gov.cn" target="_blank">商务部官网</a></p></div>
+</div>
+  <!--[if !IE]>头部 结束<![endif]-->
+  <!--[if !IE]>导航 开始<![endif]-->
+  <div id="daohang">
+  <div id="site-nav">
+    <div id="nav" class="clearfix">
+      <ul>
+        <li class="first" value="1"><a href="http://ciecc.mofcom.gov.cn">首页</a></li>
+        <li value="2"><a href="/gzdt/1/cateinfo.html">工作动态</a></li>
+        <li value="3"><a href="/dzzw/1/cateinfo.html">电子政务</a></li>
+        <li value="4"><a href="/dzsw/1/cateinfo.html">电子商务</a></li>
+        <li value="5"><a href="/yjyzx/1/cateinfo.html">研究与咨询</a></li>
+        <li value="6"><a href="/dwpx/1/cateinfo.html">电商培训</a></li>
+        <li value="7"><a href="/cpfw_index.shtml">产品与服务</a></li>
+        <li value="8"><a href="/gjjl/1/cateinfo.html">国际交流</a></li>
+        <li value="9"><a href="/gzjb/zxjb/1/cateinfo.html">工作简报</a></li>
+        <li value="10"><a href="/channel/about.shtml?ID=1">关于我们</a><img src="/images/common/bg_nav_line.gif" /></li>
+      </ul>
+    </div>
+    <div id="second-nav">
+      <ul value="1">
+	    <li class="no"><strong>快速链接：</strong></li>
+		<li class="first"><a href="/channel/cpyfw.shtml?id=3">全流程电子商务平台</a></li>
+        <li><a href="/channel/cpyfw.shtml?id=6">数据中心服务体系</a></li>
+        <li><a href="/gzjb/dwjb/1/cateinfo.html">中心党委简报</a></li>
+        <li><a href="/gzjb/dzswjb/1/cateinfo.html">电子商务简报</a></li>
+		<li><a href="/channel/contact-zb.shtml">联系我们</a></li>
+		<li><a href="http://www.ec.com.cn/">直通EC</a></li>
+      </ul>
+      <ul value="2">
+      </ul>
+      <ul value="3">
+      </ul>
+      <ul value="4">
+      </ul>
+      <ul value="5">
+      </ul>
+      <ul value="6">
+      </ul> 
+      <ul value="7">
+      </ul>
+      <!--ul style="display:none;margin-left:324px;"  value="7">
+        <li class="first"><a href="/channel/cpyfw.shtml?id=3">全流程电子商务平台</a></li>
+        <li><a href="/channel/cpyfw.shtml?id=4">安全服务体系</a></li>
+        <li><a href="/channel/cpyfw.shtml?id=5">中国商务信用平台</a></li>
+        <li><a href="/channel/cpyfw.shtml?id=6">数据中心服务体系</a></li>
+      </ul-->
+      <ul value="8">
+      </ul>
+      <ul style="display:none;margin-left:370px;"  value="9">
+        <li class="first"><a href="/gzjb/zxjb/1/cateinfo.html">中心工作简报</a></li>
+        <li><a href="/gzjb/dwjb/1/cateinfo.html">中心党委简报</a></li>
+        <li><a href="/gzjb/dzswjb/1/cateinfo.html">电子商务简报</a></li>
+        <li><a href="/gzjb/swxyjb/1/cateinfo.html">商务信用简报</a></li>
+        <li><a href="/gzjb/sjjb/1/cateinfo.html">数据中心简报</a></li>
+      </ul>
+      <ul style="display:none;margin-left:450px;" value="10">
+        <li class="first"><a href="/channel/about.shtml?ID=1">职能简介</a></li>
+        <!-- li><a href="/channel/about-nsjg.shtml">内设机构</a></li -->
+        <li><a href="/channel/about.shtml?ID=2">旗下公司</a></li>
+        <li><a href="/channel/about.shtml?ID=3">发展历程</a></li>
+        <li><a href="/channel/zizhi.shtml#daohang">资质文件</a></li>
+		<li><a href="article/cieccgywm/201506/1347425_1.html">公开招聘</a></li>
+        <li><a href="http://www.ec.com.cn/">直通EC</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <!--[if !IE]>导航 结束<![endif]-->
+  <!--[if !IE]>主体 开始<![endif]-->
+
+  <!-- 春节释放 beigin -->
+
+<!--<style type="text/css">
+  body{background:url(http://www.ec.com.cn/images/v3-6/db/img_EC_chunjie2015.jpg) top center no-repeat;padding-top:85px;}
+  #main{background:#fff;margin-top:0px!important;padding-top:20px;  }
+  #header,#daohang-sticky-wrapper{width:950px;margin:0 auto;}
+  #daohang{width:950px!important;}
+</style> -->
+
+<!-- 春节释放 end -->
+
+  <div id="main">
+    <div id="column" class="clearfix">
+      <div id="content">
+        <div class="padding clearfix"> 
+          <!--[if !IE]>关于我们/联系我们 开始<![endif]-->
+          <div class="guanyu_lianxi">
+            <div class="women">
+              <h4>关于我们</h4>
+              <ul>
+                <li><a href="/channel/about.shtml?ID=1">职能简介</a><!-- li><a href="/channel/about-nsjg.shtml">内设机构</a--><li><a href="/channel/about.shtml?ID=2">旗下公司</a><li><a href="/channel/about.shtml?ID=3">发展历程</a><li><a href="/channel/zizhi.shtml#daohang">资质文件</a><li><a href="/article/cieccgywm/201506/1347425_1.html">公开招聘</a><li><a href="http://www.ec.com.cn/">直通EC</a></li>
+              </ul>
+            </div>
+            <div class="women non">
+              <h4>联系我们</h4>
+              <ul>
+                <li><a href="/channel/contact-zb.shtml">总部</a></li><li><a href="/channel/contact-fwwl.shtml">服务网络</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--[if !IE]>关于我们/联系我们 结束<![endif]-->
+          <div class="toutiao clearfix">
+            <div class="xinwen clearfix"> 
+              <!--[if !IE]>图片切换 开始<![endif]-->
+              <div id="focus_block">
+                <div class="focus_scroll">
+                  
+<!--Begin:新首页-滚动图片新闻(2017-06-14 09:43:53    Powered by zWebCms1.0)-->
+<div class="scroll_block">
+<div class="text_shadow">
+<p><a href="http://ciecc.mofcom.gov.cn/article/dwpx/201706/1362821_1.html" target="_blank">中国国际电子商务中心党委书记姚广海一行赴山东商务厅交流电子商务人才培训</a></p>
+<em>2017/06/14</em>
+</div>                        
+<a href="http://ciecc.mofcom.gov.cn/article/dwpx/201706/1362821_1.html" target="_blank"><img src="http://images.ec.com.cn/201706/pic201706140943412017061401.jpg" alt=" "/> </a>
+</div>
+<div class="scroll_block">
+<div class="text_shadow">
+<p><a href="http://ciecc.mofcom.gov.cn/article/gzdt/201704/1362641_1.html" target="_blank">2017中国国际电子商务博览会开幕</a></p>
+<em>2017/04/25</em>
+</div>                        
+<a href="http://ciecc.mofcom.gov.cn/article/gzdt/201704/1362641_1.html" target="_blank"><img src="http://images.ec.com.cn/201704/pic20170425093526image001.jpg" alt=" "/> </a>
+</div>
+<div class="scroll_block">
+<div class="text_shadow">
+<p><a href="http://ciecc.mofcom.gov.cn/article/gzdt/201703/1362441_1.html" target="_blank">中国电子商务产业园发展联盟成立大会在北京隆重召开</a></p>
+<em>2017/03/06</em>
+</div>                        
+<a href="http://ciecc.mofcom.gov.cn/article/gzdt/201703/1362441_1.html" target="_blank"><img src="http://images.ec.com.cn/201703/pic2017030610124420170306021.jpg" alt=" "/> </a>
+</div>
+
+<!--End:新首页-滚动图片新闻 -->
+
+					<div class="focus_ctrl">
+						<a href="#" class="prev" title="上一页">上一页</a>
+						<a href="#" class="next" title="下一页">下一页</a>
+					</div>
+                </div>
+              </div>
+              <!--[if !IE]>图片切换 结束<![endif]-->
+              <div class="text">
+			  <!--[if !IE]>头条新闻 开始<![endif]-->
+                <h2><a target=_blank href="http://ciecc.mofcom.gov.cn/article/dwpx/201706/1362821_1.html">电子商务中心党委书记姚广海一行赴山东商务厅交流电子商务人才培训</a></h2><p>电子商务中心党委书记姚广海与山东省商务厅副厅长任海涛、电子商务处调研员钱淑芬进行交流研讨，双方就开展多形式、多领域电子商务人才培训及电商讲师大赛等工作初步达成合作意向。<a target=_blank href="http://ciecc.mofcom.gov.cn/article/dwpx/201706/1362821_1.html">查看全文</a></p>
+              </div>
+            </div>
+            <!--[if !IE]>工作动态 开始<![endif]-->
+            <div class="gongzuo">
+              <div class="title">
+                <h5><a href="/gzdt/1/cateinfo.html" target="_blank">MORE>></a></h5>
+              </div>
+              <ul class="clearfix">
+                
+<!--Begin:新首页-工作动态(2017-06-14 09:42:41    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dwpx/201706/1362821_1.html">中国国际电子商务中心党委书记姚...</a><img src='http://images.ec.com.cn/images/new.gif' ></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzdt/201704/1362641_1.html">2017中国国际电子商务博览会开幕</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzdt/201704/1362640_1.html">关于参加“2017中国商业特许经营...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzdt/201704/1362560_1.html">2017中国汉中农村电子商务暨互联...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzsw/201703/1362501_1.html">第三届工业化和信息化融合普及工...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzdt/201703/1362480_1.html">国富瑞公司通过2016年度跨地区I...</a></li>
+<!--End:新首页-工作动态 -->
+
+              </ul>
+            </div>
+            <!--[if !IE]>工作动态 结束<![endif]--> 
+          </div>
+        </div>
+        <div class="block">
+          <div class="neirong clearfix"> 
+            <!--[if !IE]>电子政务 开始<![endif]-->
+            <div class="kuai">
+              <div class="title">
+                <h5><a href="/dzzw/1/cateinfo.html" target="_blank">MORE>></a></h5>
+              </div>
+              <ul>
+                
+<!--Begin:新首页-电子政务(2017-05-18 10:24:09    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzzw/201705/1362703_1.html">商务预报APP正式上线</a> </li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzzw/201411/1319746_1.html">智慧生活  共建共享</a> </li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzzw/201410/1318560_1.html">“商务预报”网站全新改版</a> </li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzzw/201410/1315603_1.html">中心召开第2次网络安全会商会议</a> </li>
+<!--End:新首页-电子政务 -->
+
+              </ul>
+            </div>
+            <!--[if !IE]>电子政务 结束<![endif]--> 
+            <!--[if !IE]>电子商务 开始<![endif]-->
+            <div class="kuai non">
+              <div class="title shangwu">
+                <h5><a href="/dzsw/1/cateinfo.html" target="_blank">MORE>></a></h5>
+              </div>
+              <ul>
+                
+<!--Begin:新首页-电子商务(2017-04-25 09:37:50    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzsw/201704/1362642_1.html">2017中国国际电子商务博览会圆满闭幕</a><img src='http://images.ec.com.cn/images/new.gif' ></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzsw/201703/1362501_1.html">第三届工业化和信息化融合普及工程高峰论...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzsw/201703/1362442_1.html">中国电子商务产业园发展联盟成立大会在北...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dzsw/201612/1362222_1.html">大数据为全民健康保驾护航</a></li>
+<!--End:新首页-电子商务 -->
+
+              </ul>
+            </div>
+            <!--[if !IE]>电子商务 结束<![endif]--> 
+          </div>
+        </div>
+        <div class="block">
+          <div class="neirong clearfix"> 
+            <!--[if !IE]>研究与咨询 开始<![endif]-->
+            <div class="kuai">
+              <div class="title zixun">
+                <h5><a href="/yjyzx/1/cateinfo.html" target="_blank">MORE>></a></h5>
+              </div>
+              <ul>
+                
+<!--Begin:新首页-研究与咨询(2017-05-18 10:20:40    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/yjyzx/201612/1362200_1.html">《中山市会展业发展报告》顺利通过专家评审</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/yjyzx/201611/1362140_1.html">《中山市跨境电子商务发展规划》顺利通过...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/yjyzx/201609/1361920_1.html">《安阳市电子商务发展规划》顺利通过专家...</a></li>
+<!--End:新首页-研究与咨询 -->
+
+              </ul>
+            </div>
+            <!--[if !IE]>研究与咨询 结束<![endif]--> 
+            <!--[if !IE]>电商培训 开始<![endif]-->
+            <div class="kuai non">
+              <div class="title peixun">
+                <h5><a href="/dwpx/1/cateinfo.html" target="_blank">MORE>></a></h5>
+              </div>
+              <ul>
+                
+<!--Begin:新首页-电商培训(2017-06-15 14:43:22    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dwpx/201706/1362821_1.html">中国国际电子商务中心党委书记姚广海一行赴山...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dwpx/201706/1362823_1.html">中国国际电子商务中心举办首届中国电商讲师大赛</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/dwpx/201706/1362822_1.html">中心培训学院承办贵州省“电子商务百名讲师团...</a></li>
+<!--End:新首页-电商培训 -->
+
+              </ul>
+            </div>
+            <!--[if !IE]>电商培训 结束<![endif]--> 
+          </div>
+        </div>
+        <div class="block dk">
+          <div class="neirong clearfix"> 
+            <!--[if !IE]>产品与服务 开始<![endif]-->
+            <div class="kuai">
+              <div class="title fuwu">
+                <!--h5><a href="/channel/cpyfw.shtml?id=1" target="_blank">MORE>></a></h5-->
+                <h5><a href="/cpfw_index.shtml" target="_blank">MORE>></a></h5>
+              </div>
+              <ul>
+                <LI><A target=_blank href="/channel/fw_dfdsfwpt.shtml">公共服务平台——地方电子商务服务平台</A> <LI><A target=_blank href="/channel/fw_dstj.shtml">信息监测——电商统计</A> <LI><A target=_blank href="/channel/fw_dpdzswpt.shtml">电商平台——单品电子商务平台</A> <LI><A target=_blank href="/channel/cp_sjb.shtml">贸易数据 —— EC数据宝</A></LI>
+              </ul>
+            </div>
+            <!--[if !IE]>产品与服务 结束<![endif]--> 
+            <!--[if !IE]>国际交流 开始<![endif]-->
+            <div class="kuai non">
+              <div class="title jiaoliu">
+                <h5><a href="/gjjl/1/cateinfo.html" target="_blank">MORE>></a></h5>
+              </div>
+              <ul>
+                
+<!--Begin:新首页-国际交流(2017-03-28 13:16:27    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gjjl/201611/1362142_1.html">第二届加中跨境电商论坛7日在多伦多成功...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gjjl/201607/1361784_1.html">亚太电商精英齐聚APEC论坛 共谋国际电子...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gjjl/201510/1354149_1.html">第七届亚太贸易便利化论坛在武汉召开</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gjjl/201509/1352402_1.html">中国国际电子商务中心亮相中国-阿拉伯国...</a></li>
+<!--End:新首页-国际交流 -->
+
+              </ul>
+            </div>
+            <!--[if !IE]>国际交流 结束<![endif]--> 
+          </div>
+        </div>
+      </div>
+      <div id="sidebar"> 
+        <!--[if !IE]>站内搜索 开始<![endif]-->
+        <div class="search">
+	<form action="/channel/searchinfobyIndex.shtml" id="search_key" method="get" target="_blank" name='form_ind_sear' onsubmit="return check_sear();">
+		<input type="text" value="站内搜索" class="keyword" name="q"/>
+		<input type="submit" value="&nbsp;" class="bottom"/>
+	</form>
+	<script language="JavaScript">
+		if ($("#search_key input[type=text]").val() == "站内搜索" || $("#search_key input[type=text]").val() == "") {
+			$("#search_key input[type=text]").val("站内搜索").css({
+				"font-weight" : "normal",
+				"color" : "#aaa"
+			});
+		}
+		$("#search_key input[type=text]").click(function() {
+			if ($(this).val() == "站内搜索") {
+				$(this).val("").css({
+					"font-weight" : "bold",
+					"color" : "#666"
+				});
+			}
+			$(this).select();
+		});
+
+		function check_sear() {
+			var _form_key = $("#search_key input[type=text]").val();
+			if (_form_key == null || _form_key == "" || _form_key == "站内搜索") {
+				alert("请输入关键字!");
+				document.form_ind_sear.q.focus();
+				document.form_ind_sear.q.select();
+				return false;
+			}
+		}
+
+	</script>
+
+</div>
+        <!--[if !IE]>站内搜索 结束<![endif]-->
+        <div class="ad">
+			<a href="/topic/dqlxjysj/index.shtml" target="_blank"><img src="/images/ad_shijian.jpg" alt="党的群众实践活动" /></a>
+		</div>
+
+    <!--  首席专家风采 begin -->
+      <div class="experts_box">
+        <div class="expertStyle" id="expertStyle">
+            <ul>
+                  <li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_01.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_02.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_14.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_03.jpg" width="33px" height="33px"></a></li>
+<!-- li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_04.jpg" width="33px" height="33px"></a></li -->
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_08.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_15.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_06.jpg" width="33px" height="33px"></a></li>
+<!-- li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_07.jpg" width="33px" height="33px"></a></li -->
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_16.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_05.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_09.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_18.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_10.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_19.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_11.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_17.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_12.jpg" width="33px" height="33px"></a></li>
+<li><a href="http://ciecc.ec.com.cn/zjk/" target="_blank"><img src="images/v5-0/expert_13.jpg" width="33px" height="33px"></a></li>
+
+
+
+
+
+            </ul>
+        </div>
+        <a href="http://ciecc.ec.com.cn/zjk/" target="_blank" class="exoertsLink">专家风采</a>
+      </div>
+      <!-- 首席专家风采 end -->
+       <!--[if !IE]>中产品与服务开始<![endif]-->
+      <div class="ad">
+			<a href="/cpfw_index.shtml" target="_blank"><img src="/images/img_cpfw.jpg" alt="产品与服务" /></a>
+		</div>
+		<!--[if !IE]>产品与服务 结束<![endif]--> 
+        <div class="neirong"> 
+          <!--[if !IE]>中心概况 开始<![endif]-->
+          <!-- div class="gaikuang"-->
+            <!--include virtual="/includes/block/cms_piece_14170.html"-->
+          <!--/div-->
+          <!--[if !IE]>中心概况 结束<![endif]--> 
+
+          <!--[if !IE]>工作简报 开始<![endif]-->
+
+          <div class="jianbao">
+  <h4>工作简报</h4>
+  <div class="kuai">
+    <h5><a href="/gzjb/zxjb/1/cateinfo.html" target="_blank">中心工作简报</a></h5>
+    <ul>
+      
+<!--Begin:新首页-中心工作简报(2017-05-19 13:47:25    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/zxjb/201703/1362462_1.html">中心工作简报2017年第1期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/zxjb/201703/1362461_1.html">中心工作简报2016年第17期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/zxjb/201703/1362460_1.html">中心工作简报2016年第16期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/zxjb/201611/1362169_1.html">中心工作简报2016年第11期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/zxjb/201611/1362168_1.html">中心工作简报2016年第10期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/zxjb/201611/1362167_1.html">中心工作简报2016年第9期</a></li>
+<!--End:新首页-中心工作简报 -->
+
+    </ul>
+  </div>
+  <div class="kuai">
+    <h5><a href="/gzjb/dwjb/1/cateinfo.html" target="_blank">中心党委简报</a></h5>
+    <ul>
+      
+<!--Begin:新首页-中心党委简报(2017-05-19 13:47:25    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/dwjb/201612/1362220_1.html">党委工作简报2016第19期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/dwjb/201611/1362173_1.html">党委工作简报2016第18期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/dwjb/201611/1362101_1.html">党委工作简报2016第17期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/dwjb/201610/1362040_1.html">党委工作简报2016第16期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/dwjb/201609/1361928_1.html">党委工作简报2016第15期</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/dwjb/201609/1361927_1.html">党委工作简报2016第14期</a></li>
+<!--End:新首页-中心党委简报 -->
+
+    </ul>
+  </div>
+  <div class="kuai">
+    <h5><a href="/gzjb/swxyjb/1/cateinfo.html" target="_blank">商务信用简报</a></h5>
+    <ul>
+      
+<!--Begin:新首页-商务信用简报(2017-06-21 10:00:57    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/swxyjb/201706/1362860_1.html">商务信用（BCP）简报 总...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/swxyjb/201706/1362802_1.html">商务信用（BCP）简报 总...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/swxyjb/201705/1362760_1.html">商务信用（BCP）简报 总...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/swxyjb/201705/1362705_1.html">商务信用（BCP）简报 总...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/swxyjb/201704/1362600_1.html">商务信用（BCP）简报 总...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/swxyjb/201703/1362463_1.html">商务信用（BCP）简报 总...</a></li>
+<!--End:新首页-商务信用简报 -->
+
+    </ul>
+  </div>
+  <div class="kuai">
+    <h5><a href="/gzjb/sjjb/1/cateinfo.html" target="_blank">数据中心简报</a></h5>
+    <ul>
+      
+<!--Begin:新首页-数据中心简报(2017-05-19 13:47:58    Powered by zWebCms1.0)-->
+<li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/sjjb/201704/1362601_1.html">数据中心周度参考2017年...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/sjjb/201704/1362564_1.html">数据中心周度参考2017年...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/sjjb/201704/1362563_1.html">数据中心周度参考2017年...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/sjjb/201703/1362521_1.html">数据中心周度参考2017年...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/sjjb/201703/1362520_1.html">数据中心周度参考2017年...</a></li><li><a target="_blank" href="http://ciecc.mofcom.gov.cn/article/gzjb/sjjb/201703/1362465_1.html">数据中心周度参考2017年...</a></li>
+<!--End:新首页-数据中心简报 -->
+
+    </ul>
+  </div>
+</div>
+
+
+          <!--[if !IE]>工作简报 结束<![endif]--> 
+        </div>
+      </div>
+    </div>
+    <!--[if !IE]>CIECC网站群 开始<![endif]-->
+    <div id="index_bottom">
+      <dl class="clearfix">
+        <dt>CIECC网站群<dd><p><a target=_blank href="http://www.ec.com.cn/">中国国际电子商务网</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.trade2cn.com/index.html">中国诚商网</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.bcpcn.com/">中国商务信用平台</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.gfapki.com.cn/">CA证书业务</a></p><p><a target=_blank href="http://www.cofortune.com.cn/">国富通</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.cacenter.com.cn/">国富安</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.gftai.com/">国富泰</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.cidschina.com/">国富瑞</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.100iec.com/">百诚源</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.chinabtobholdings.com/zh_CN/index.jsp">国富商通</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.jjfyhotel.com.cn/">锦江富园大酒店</a></p><p><a target=_blank href="http://www.apec-ecba.org/">APEC电子商务工商联盟</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_blank href="http://www.paa.net/PaaPortal/PaaContent/index.htm">泛亚电子商务联盟PAA</a></p></dd>
+      </dl>
+    </div>
+    <!--[if !IE]>CIECC网站群 结束<![endif]--> 
+  </div>
+  <!--[if !IE]>主体 结束<![endif]--> 
+  <!--[if !IE]>底部 开始<![endif]-->
+  <div id="footer">
+  <div class="padding">
+    <div class="footer-top">
+      <ul class="clearfix">
+        <!--li class="first"><a target="_blank" href="http://ciecc.mofcom.gov.cn/" charset="utf-8">关于CIECC</a></li>
+        <li><a href="http://www.ec.com.cn/map/map.shtml" target="_blank" charset="utf-8">网站地图</a></li>
+        <li><a href="http://www.ec.com.cn/about/includes_01/announce.shtml" target="_blank" charset="utf-8">本网声明</a></li-->
+        <!--<li><a href="http://ad.ec.com.cn/" target="_blank">网络推广</a></li>-->
+        <!--li><a href="http://www.ec.com.cn/about/includes_01/link.shtml" target="_blank" charset="utf-8">合作联系</a></li-->
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p><a href="http://ciecc.mofcom.gov.cn/" target="_blank">商务部中国国际电子商务中心（公司）</a>版权所有 </p>
+      <p><a href="http://www.miibeian.gov.cn/" target="_blank">经营许可证编号京ICP证090731号</a>&nbsp;<a href="http://china.ec.com.cn/article/cnhongguan/200601/111788_1.html" target="_blank">增值电信业务经营许可证编号B2-20060031</a></p><p>京公网安备110301000397号</p>
+      <div class="logo-left"><a href="http://ciecc.mofcom.gov.cn/" target="_blank"><img src="/commimages/v3-0/img_footer_logo3.gif" /></a></div>
+      <div class="logo-right"><a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202004030500004" target="_blank"><img src="/commimages/v3-0/img_footer_logo4.gif" /></a></div>
+	  <div style="display:none">
+		<!-- 百度统计代码 -->
+		<script type="text/javascript">
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F61cb68bcc8b07abb8c8b575cc1768b50' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	  </div>
+    </div>
+  </div>
+</div>
+  <!--[if !IE]>底部 开始<![endif]--> 
+</div>
+<script type="text/javascript">
+      $(function() {
+        //首席专家横向移动视频
+        (function(){
+            var _wrap = jQuery('#expertStyle>ul');
+            var _interval = 2000;
+            var _moving;
+            _wrap.hover(function(){
+                clearInterval(_moving);
+            },function(){
+                _moving=setInterval(function(){
+                    var _field=_wrap.find('li:first');
+                    var _w=_field.width();
+                    _field.animate({marginLeft:-_w+'px'},600,function(){
+                        _field.css('marginLeft',0).appendTo(_wrap);
+                    });
+                },_interval)
+            }).trigger('mouseleave');
+       })();
+    });</script>
+</body>
+</html>

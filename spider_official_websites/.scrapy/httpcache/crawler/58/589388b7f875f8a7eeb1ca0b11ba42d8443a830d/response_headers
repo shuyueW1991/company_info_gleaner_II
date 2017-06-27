@@ -1,0 +1,25 @@
+Content-Encoding: gzip
+Server: Microsoft-IIS/8.5
+Strict-Transport-Security: max-age=31536000
+X-Edgeconnect-Midmile-Rtt: 47
+Expires: -1
+Pragma: no-cache
+Set-Cookie: isFirstSession=1; path=/; secure; HttpOnly
+Set-Cookie: MUID=320C8B5BF7C5633C1B2F81F5F6056279; domain=.microsoft.com; expires=Thu, 27-Jun-2019 10:14:23 GMT; path=/; secure
+Set-Cookie: X-FD-FEATURES=ids=muidflt361cf%2cxboxcontentondesktop&imp=ca0b2fd8-ae5e-490d-8e1b-4679304d805f; expires=Wed, 27-Jun-2018 10:14:23 GMT; path=/; secure; HttpOnly
+Set-Cookie: X-FD-Time=1; expires=Tue, 27-Jun-2017 10:19:23 GMT; path=/; secure; HttpOnly
+X-Aspnetmvc-Version: 5.2
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: *
+X-Activity-Id: ca0b2fd8-ae5e-490d-8e1b-4679304d805f
+Ms-Cv: tTBDVnd2JkyjZ3hd.28
+X-Az: {did:c89a015d875b48689560d71e4d13a885, rid: 14, sn: onestore-eas-prod, dt: 2017-05-30T12:37:20.0067482Z, bt: 2017-06-23T17:59:04.0000000Z}
+Date: Tue, 27 Jun 2017 10:14:25 GMT
+Access-Control-Allow-Methods: HEAD,GET,OPTIONS
+P3P: CP="NON DSP ADM DEV PSD OUR IND STP PHY PRE NAV UNI"
+X-Edgeconnect-Origin-Mex-Latency: 483
+Vary: Accept-Encoding
+X-Powered-By: ASP.NET
+X-Appversion: 1.0.6383.32372
+Cache-Control: no-cache, no-store, no-transform
+X-Xss-Protection: 1

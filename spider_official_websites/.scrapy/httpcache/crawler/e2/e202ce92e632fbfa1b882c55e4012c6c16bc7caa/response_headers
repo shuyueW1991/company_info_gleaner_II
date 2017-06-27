@@ -1,0 +1,27 @@
+Set-Cookie: SECSESSID=496p5pk93hrfqpfemomftcp2g3; expires=Tue, 27-Jun-2017 14:46:22 GMT; Max-Age=3600; path=/; secure; HttpOnly
+Set-Cookie: SECSESSID=496p5pk93hrfqpfemomftcp2g3; expires=Tue, 27-Jun-2017 14:46:22 GMT; Max-Age=3600; path=/; secure; httponly
+Set-Cookie: SECSESSID_2=AH7rr%2FSgBh7MpTUd%2BglKbi%2Fmai7WGMwTONEh%2BtrnsYZiMmQyMjFiZGE5ZTI0MDU1ODgzOTkxYWUyMzc0ZWU4NzMyMWVjOTgxYWEzOTg4ZWMyNTQ3Y2MwYTg4Zjc0OTY0mcPoAzwBZRlf5lOk94iw88w6IZdd4TIke7tN7NfZjAB3Y3HF13ckzmVYLREiv%2Fgyks7Y4FoSG30it12vBqDgIDAW8xV4jUTl4nvpZjN764yRsfY%2FYHF6ymHrv7hlnU9h0RokAe%2BV3adb4JHV4Jt9OdOdBM0C2nQlp1QrlKPhWLN0D0lis9VOoMpC%2FspFudatQO1ywIZg4GTqBE4Ici%2BTXkA2GOOYydfSkpzOKwYW6hQGbItOaZH2At13pF4y9m0Q; expires=Tue, 27-Jun-2017 14:10:22 GMT; Max-Age=1440; path=/; secure; httponly
+Set-Cookie: visid_incap_110069=XPRYuDFLQVyLsDoIzO5EOK1hUlkAAAAAQUIPAAAAAADxMNk++tj26fYoA2mgPAds; expires=Wed, 27 Jun 2018 08:44:40 GMT; path=/; Domain=.www.govt.nz
+Set-Cookie: incap_ses_634_110069=tXySPZ/BHnh/8+j022vMCK5hUlkAAAAAHwycODfDQ75M1cpXUiS/9w==; path=/; Domain=.www.govt.nz
+Server: nginx
+X-Varnish: 467008215
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+X-Cdn: Incapsula
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Vary: Accept-Encoding
+Cache-Control: public, max-age=0, must-revalidate, no-transform
+X-Content-Type-Options: nosniff
+X-Ua-Compatible: IE=edge
+Age: 0
+X-Iinfo: 8-2743230-2743302 NNNN CT(0 0 0) RT(1498571180622 420) q(0 0 0 0) r(10 10) U2
+Content-Language: en-NZ
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 varnish-v4
+Content-Security-Policy: default-src https://www.govt.nz https://*.cwp.govt.nz https://*.google-analytics.com; style-src https://www.govt.nz https://*.cwp.govt.nz https://*.gstatic.com 'unsafe-inline' https://api.addressfinder.io; script-src https://www.govt.nz https://*.cwp.govt.nz https://*.gstatic.com 'unsafe-eval' 'unsafe-inline' https://api.addressfinder.io; frame-src https://www.govt.nz https://*.cwp.govt.nz https://*.youtube-nocookie.com https://*.youtube.com; child-src https://www.govt.nz https://*.cwp.govt.nz https://*.youtube-nocookie.com https://*.youtube.com;
+Content-Type: text/html; charset=utf-8
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+Pragma: no-cache
+Date: Tue, 27 Jun 2017 13:46:22 GMT
+Last-Modified: Wed, 19 Apr 2017 04:52:32 GMT

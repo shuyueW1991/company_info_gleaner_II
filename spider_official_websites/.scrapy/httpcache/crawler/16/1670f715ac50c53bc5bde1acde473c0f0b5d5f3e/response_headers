@@ -1,0 +1,6 @@
+Vary: Accept-Encoding
+Server: Apache/2.2.22 (Debian)
+Content-Type: text/html
+X-Powered-By: PHP/5.4.45-0+deb7u8
+Content-Encoding: gzip
+Date: Tue, 27 Jun 2017 10:06:43 GMT

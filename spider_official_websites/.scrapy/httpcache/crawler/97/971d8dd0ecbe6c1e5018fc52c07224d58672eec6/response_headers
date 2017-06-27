@@ -1,0 +1,16 @@
+X-Ua-Compatible: IE=edge
+Set-Cookie: website#lang=en; domain=sophos.com; path=/; secure; HttpOnly
+Set-Cookie: __SophosNextDeviceEnabled=; domain=sophos.com; path=/; secure; HttpOnly
+Set-Cookie: .ASPXAUTH=; domain=sophos.com; expires=Mon, 11-Oct-1999 23:00:00 GMT; path=/; secure; HttpOnly
+Set-Cookie: SC_ANALYTICS_GLOBAL_COOKIE=559ee29fcc904a83baf8deddbdb29f05|False; domain=sophos.com; expires=Sun, 27-Jun-2027 10:19:49 GMT; path=/; secure; HttpOnly
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=10886400
+Date: Tue, 27 Jun 2017 10:19:34 GMT
+Cache-Control: no-cache, no-store
+X-Content-Type-Options: nosniff
+Pragma: no-cache
+Expires: Tue, 27 Jun 2017 10:19:34 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block

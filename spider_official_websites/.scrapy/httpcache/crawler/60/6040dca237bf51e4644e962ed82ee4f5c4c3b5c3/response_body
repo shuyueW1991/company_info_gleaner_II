@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>电子邮件帮助中心</title>
+<link href="css.css" rel="stylesheet" type="text/css" />
+<script type=text/javascript>
+
+function menuFix() {
+var sfEls = document.getElementById("nav").getElementsByTagName("li");
+for (var i=0; i<sfEls.length; i++) {
+sfEls[i].onmouseover=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onMouseDown=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onMouseUp=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onmouseout=function() {
+this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"),
+
+"");
+}
+}
+}
+window.onload=menuFix;
+
+</script>
+<script type="text/javascript">
+<!--
+<!-- Begin
+
+var subs_array = new Array("sub1","sub2","sub3","sub4","sub5","sub6","sub7","sub8","sub9","sub10","sub11");// 把id的在该数组中的隐藏的div
+
+function displaySubs(the_sub,k){//定义变量
+
+
+	for(i=1;i<=11;i++){
+		if(i==k){
+		   document.getElementById('ida'+i).style.color="red";		
+		}else{
+			document.getElementById('ida'+i).style.color="#085776";		
+		}
+	}	
+	
+	if (document.getElementById(the_sub).style.display==""){//如果参数不为空
+
+	document.getElementById(the_sub).style.display = "none";return//如果参数不为空自动隐藏
+
+  }
+
+  for (i=0;i<subs_array.length;i++){//定义循环次数
+
+	var my_sub = document.getElementById(subs_array[i]);
+
+	my_sub.style.display = "none";
+
+	}//所有的都隐藏
+
+  document.getElementById(the_sub).style.display = "";//当前变量的参数显示
+
+  }
+
+//  End -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+</head>
+
+<body>
+<div class="dh">
+	<div class="dh_logo"></div>
+	<div class="dh_tit">
+		<ul id="nav">
+		<li><p class="padtop" ><a href="index.html" style="background-image:url(image/tit_check.jpg); background-repeat:repeat-x; font-weight:bold">首　页</a></p>
+		</li>
+		<li><p class="padtop"><a href="yonghu/index.html">用户端介绍</a>
+		<ul>
+				    <li><a href="yonghu/index.html#sy">邮箱首页</a></li>
+					<li><a href="yonghu/index.html#dl">登录邮箱</a></li>
+					<li><a href="yonghu/index.html#ml">邮件目录</a></li>
+					<li><a href="yonghu/index.html#syj">写邮件</a></li>
+					<li><a href="yonghu/index.html#txl">通讯录</a></li>
+					<li><a href="yonghu/index.html#wp">网盘</a></li>
+					<li><a href="yonghu/index.html#sz">设置</a></li>
+					<li><a href="yonghu/index.html#sp">锁屏</a></li>
+					<li><a href="yonghu/index.html#fk">反馈</a></li>
+					<li><a href="yonghu/index.html#bz">帮助</a></li>
+					<li><a href="yonghu/index.html#tc">退出</a></li>
+		</ul>
+		</li>
+		<li><p class="padtop"><a href="kehu/index.html">客户端配置</a></p>
+		<ul>
+		<li><a href="kehu/index.html#outlook">Outlook Express</a></li>
+		<li><a href="kehu/index.html#foxmail">Foxmail</a></li>
+		</ul>
+		</li>
+		<li><p class="padtop"><a href="faq/index.html">常见问题</a></p>
+		<ul>
+				    <li><a href="faq/index.html#wfsyj">无法收到邮件？</a></li>
+					<li><a href="faq/index.html#cxtd" title="邮件被投递到垃圾邮箱，如何重新投递到收件箱？">邮件被投递到垃圾邮箱，如何重新...</a></li>
+					<li><a href="faq/index.html#dlyx">无法登陆邮箱？</a></li>
+					<li><a href="faq/index.html#yfyj">发件箱中没有已发邮件？</a></li>
+					<li><a href="faq/index.html#tx">邮箱中收到大量退信？</a></li>
+					<li><a href="faq/index.html#cs" title="网页方式写好的邮件，点击发送时提示超时？">网页方式写好的邮件，点击发送...</a></li>
+					<li><a href="faq/index.html#wjmm">忘记邮箱密码？</a></li>
+					<li><a href="faq/index.html#dx">邮箱空间大小和附件大小是多少？</a></li>
+					<li><a href="faq/index.html#xz">如何快速选中要处理的邮件？</a></li>
+					<li><a href="faq/index.html#bj">如何进行邮件的再编辑？</a></li>
+					<li><a href="faq/index.html#sc">如何删除邮箱中不需要的邮件？</a></li>
+					<li><a href="faq/index.html#yc" title="IE浏览器下显示邮箱界面异常如何处理？">IE浏览器下显示邮箱界面异常...</a></li>
+		</ul>
+		</li>
+		
+		<li><p class="padtop"><a href="shuyu/index.html">术语表</a></p>
+
+		</li>
+		
+		</ul>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="subnav">
+	<div class="sub_left">
+				<table cellpadding="0" cellspacing="0" border="0" width="260" height="335">
+				<tr><td class="b1"><span class="b_tit">&nbsp;&nbsp;热点问题</span></td></tr>
+				<tr><td class="kh_content" valign="top">
+					<div class="b_list">
+					<ul>
+				    <li><a href="faq/index.html#wfsyj">无法收到邮件？</a></li>
+					<li><a href="faq/index.html#dlyx">无法登陆邮箱？</a></li>
+					<li><a href="faq/index.html#yfyj">发件箱中没有已发邮件？</a></li>
+					<li><a href="faq/index.html#tx">邮箱中收到大量退信？</a></li>
+					<li><a href="faq/index.html#wjmm">忘记邮箱密码？</a></li>
+					<li><a href="faq/index.html#dx">邮箱空间大小和附件大小是多少？</a></li>
+					<li><a href="faq/index.html#bj">如何进行邮件的再编辑？</a></li>
+					<li><a href="faq/index.html#sc">如何删除邮箱中不需要的邮件？</a></li>
+					<li><a href="faq/index.html#yc" title="IE浏览器下显示邮箱界面异常如何处理？">IE浏览器下显示邮箱界面异常...</a></li>
+				</ul>
+					</div>
+				</td></tr>
+				<tr><td class="b3"></td></tr>
+				</table>
+		
+	</div>
+	<div class="sub_right">
+		<div class="guild_tit">&nbsp;&nbsp;电子邮件是如何投递的</div>
+		<div class="guild">为了能让大家更容易理解邮件的投递过程，下面介绍一下sina.com的用户给ec.com.cn的用户发送邮件所经过的过程：
+          <p>1、sina.com的用户通过标准的smtp协议，将邮件投递到sina的smtp服务器。</p>
+<p>2、sina的smtp服务器在收到这封邮件后，会向DNS服务器提出解析收件方ec.com.cn域名的MX记录的请求，最终DNS服务器将查询到的ec.com.cn的MX记录返回给sina的smtp服务器。</p>
+<p>3、sina的smtp服务器通过标准的smtp协议连接ec.com.cn MX记录对应的主机，在连接以后，按照标准的smtp命令进行数据传输。</p>
+<p>4、ec.com.cn的mx服务器在收到这封邮件后，会将企业邮箱邮件投递到本身的服务器（存储服务器）。</p>
+<p>5、ec.com.cn的用户可以通过web服务、pop3或者IMAP4来读取服务器上保存在的邮件。</p>
+注：上述只是简单描述一下邮件的投递过程，仅供大家参考，实际上一封邮件从发件方发出到接收方看到邮件，不止经过了这几个环节，不能简单的说邮件没有收到就是发件方或收件方的问题，一定要详细查询才能定位清楚问题的原因，有时可能还需要收、发两方服务提供商共同配合才能查询到问题原因。</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="hot">
+		<div class="c1"></div>
+		<div class="c2"></div>
+		<div class="c3"></div>
+			<div class="c_content">
+				<div class="c_list">
+					快速通道						
+				</div>
+				<div class="c_pic">
+					<p class="c_img">
+				  <a href="yonghu/index.html#dl"><img src="image/pic_dl.gif" border="0" onmouseover="this.src='image/pic_dl2.gif'" onmouseout="this.src='image/pic_dl.gif'" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="yonghu/index.html#fk"><img src="image/pic_fk.gif" border=0  onmouseover="this.src='image/pic_fk2.gif'" onmouseout="this.src='image/pic_fk.gif'"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="yonghu/index.html#xyj"><img src="image/pic_xyj.gif" border=0 onmouseover="this.src='image/pic_xyj2.gif'" onmouseout="this.src='image/pic_xyj.gif'"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="yonghu/index.html#txl"><img src="image/pic_txl.gif" border=0 onmouseover="this.src='image/pic_txl2.gif'" onmouseout="this.src='image/pic_txl.gif'"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="yonghu/index.html#wp"><img src="image/pic_wp.gif" border=0 onmouseover="this.src='image/pic_wp2.gif'" onmouseout="this.src='image/pic_wp.gif'"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="yonghu/index.html#sz"><img src="image/pic_sz.gif" border=0 onmouseover="this.src='image/pic_sz2.gif'" onmouseout="this.src='image/pic_sz.gif'"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="yonghu/index.html#sp"><img src="image/pic_sp.gif" border=0 onmouseover="this.src='image/pic_sp2.gif'" onmouseout="this.src='image/pic_sp.gif'"/></a></p>
+				</div>
+					  
+			</div>
+		<div class="c3"></div>
+		<div class="c2"></div>
+		<div class="c1"></div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="current">
+		<div class="current_tit">
+		<div class="current_tit1">&nbsp;&nbsp;常用术语</div>
+		<div class="current_tit2">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida1" onClick="displaySubs('sub1','1')" onFocus="if(this.blur)this.blur()"; >Internet</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida2" onClick="displaySubs('sub2','2')" onFocus="if(this.blur)this.blur()";>浏览器</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida3" onClick="displaySubs('sub3','3')" onFocus="if(this.blur)this.blur()";>ISP</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida4" onClick="displaySubs('sub4','4')" onFocus="if(this.blur)this.blur()";>ICP</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida5" onClick="displaySubs('sub5','5')" onFocus="if(this.blur)this.blur()"; style="color:red">IP地址</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida6" onClick="displaySubs('sub6','6')" onFocus="if(this.blur)this.blur()";>DNS</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida7" onClick="displaySubs('sub7','7')" onFocus="if(this.blur)this.blur()";>服务器</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida8" onClick="displaySubs('sub8','8')" onFocus="if(this.blur)this.blur()";>域名</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida9" onClick="displaySubs('sub9','9')" onFocus="if(this.blur)this.blur()";>E-mail地址</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida10" onClick="displaySubs('sub10','10')" onFocus="if(this.blur)this.blur()";>POP3</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)"  id="ida11" onClick="displaySubs('sub11','11')" onFocus="if(this.blur)this.blur()";>SMTP</a></div>
+		</div>
+		<div class="clear"></div>
+		<div class="current_neir" id="sub1" style="display:none"><p>国际互联网络。它是一种广域网络，是各个国家和地区网络的集合，其目的是让全世界的人可以交换信息。</p>
+		</div>
+				<div class="current_neir" id="sub2" style="display:none"><p>英文为Browser，它是浏览internet上的文本，图像、声音的主要工具。目前最常用的浏览器是Microsoft Internet Explore。</p>
+		</div>
+				<div class="current_neir" id="sub3" style="display:none"><p>Internet Service Provider，互联网服务提供商，是以某种形式提供互联网访问的机构，通常是收费的。例如国内的相关电信部门就有充当ISP的，当然也可以通过其他的机构申请上网。</p>
+<p>注意选择ISP时可能决定了你对Internet的感觉。先从宽敞明亮的窗户向外看花园，再从一个矮小、肮脏、扭曲的窗户看花园，你所看到的是两个截然不同的花园。</p>
+		</div>
+				<div class="current_neir" id="sub4" style="display:none"><p>ICP指网上信息内容服务商，它为上网用户提供包括新闻、娱乐、购物等方面的信息。如国内的新浪网（www.sina.com.cn）。</p> 
+		</div>
+				<div class="current_neir" id="sub5" ><p>为了在网络环境下实现计算机之间的通信，网络中的任何一台计算机必须有一个地址，而且同一个网络中的地址不允许重复。 </p><p>IP地址是将计算机连接到Internet的网际协议地址。好比生活中人们的通信地址一样，它是Internet主机的一种数字型标识，一般用小数点隔开的十进制数表示，分为“4段”，如202.255.255.154。每一个穿过Internet的“信息包”都包含以下信息：信息包被发送的地址（原地址）和信息包被接收的地址（目的地址）。</p>
+<p><a href="shuyu/index.html#ip">详细>></a></p>
+		</div>
+				<div class="current_neir" id="sub6" style="display:none"><p>TCP/IP提供了一种域名系统，它为每个IP地址提供了一个便于记忆的域名，如anymacro.com。必要时DNS就会将它翻译成IP地址让计算机辨识，如anymacro.com的IP地址为61.55.138.198。</p>
+		</div>
+				<div class="current_neir" id="sub7" style="display:none"><p>客户机/服务器网络结构或浏览器/服务器结构的另一半。一般指向运行在别的计算机上的客户端程序提供某种特定服务的计算机或是软件包。这一名称可能指某种特定的程序，例如WWW服务器、邮件服务器，也可能指用于运行程序的计算机。</p>
+<p>一台单独的服务器计算机可以同时有多个服务器软件包在运行，也就是说，它们可以向网络上的客户提供多种不同的服务。</p>
+		</div>
+				<div class="current_neir" id="sub8" style="display:none"><p>IP地址是Internet主机的一种数字型标识，数字型标识对于计算机网络来说当然是有效的，但是对于使用网络的人来说，却不容易记忆。为此，人们就研究出了一种字符型标识，这就是域名。</p>
+<p><a href="shuyu/index.html#ym">详细>></a></p>
+		</div>
+				<div class="current_neir" id="sub9" style="display:none"><p>和普通信件一样，E-mail也是用某种形式的“地址”来确定传送目标的。这种接收地址就是邮件的E-mail地址，它用来唯一确定邮件的发送目标。</p>
+<p>给某人发送电子邮件时，唯一需要知道的一条信息就是这个人的Internet电子邮件地址。</p>
+<p><a href="shuyu/index.html#email">详细>></a></p>
+		</div>
+				<div class="current_neir" id="sub10" style="display:none"><p>电子邮件两大支柱之一，Post Office Protocol--version3的缩写，邮局协议版本3，允许PC机访问邮件服务器上存放的邮件的一种协议。由于许多个人微机通过电话拨号上网，没有24小时专线上网的条件（包括固定IP地址甚至主机域名），不可能通过SMTP协议直接收发Email。</p>
+   <p><a href="shuyu/index.html#pop3">详细>></a></p>
+		</div>
+				<div class="current_neir" id="sub11" style="display:none"><p>电子邮件两大支柱之一，Simple Mail Transfer Protocol的简写，意为简单邮件传输协议，是定义E-mail在邮件服务器间如何传输的协议。它是用于在互联网上发送电子邮件的主要协议，几乎所有的互联网电子邮件都是由基于SMTP的客户端和服务器程序发送和接收的。</p>
+<p>因此，SMTP服务器就是用来发邮件的服务器，如果某人想要在互联网建立一个电子邮件服务器，那么他就应该寻找那些支持SMTP的邮件服务器软件。</p>
+		</div>
+		
+</div>
+<div class="footer">
+<iframe src="tail.html" height="50" width="100%" frameborder="0" scrolling="no"></iframe>
+
+</div>
+</body>
+</html>

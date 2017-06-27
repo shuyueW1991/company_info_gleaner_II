@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>电子邮件帮助中心</title>
+<link href="../css.css" rel="stylesheet" type="text/css" />
+<script type=text/javascript>
+
+function menuFix() {
+var sfEls = document.getElementById("nav").getElementsByTagName("li");
+for (var i=0; i<sfEls.length; i++) {
+sfEls[i].onmouseover=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onMouseDown=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onMouseUp=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onmouseout=function() {
+this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"),
+
+"");
+}
+}
+}
+window.onload=menuFix;
+
+</script>
+<script type="text/javascript">
+
+
+function displaySubs(k)
+{//定义变量
+
+
+	for(i=1;i<=10;i++)
+
+	{
+		if(i==k)
+		{
+		   document.getElementById('ida'+i).style.color="#cc0000";		
+		}else
+		{
+			document.getElementById('ida'+i).style.color="#333333";		
+		}
+	}	
+}	
+</script>
+
+</head>
+
+<body>
+<div class="dh">
+	<div class="dh_logo"></div>
+	<div class="dh_tit">
+		<ul id="nav">
+		<li><p class="padtop" ><a href="../index.html" >首　页</a></p>
+		</li>
+		<li><p class="padtop"><a href="index.html" style="background-image:url(../image/tit_check.jpg); background-repeat:repeat-x; font-weight:bold" name="top">用户端介绍</a>
+		</li>
+		<li><p class="padtop"><a href="../kehu/index.html">客户端配置</a></p>
+		<ul>
+		<li><a href="../kehu/index.html#outlook">Outlook Express</a></li>
+		<li><a href="../kehu/index.html#foxmail">Foxmail</a></li>
+		</ul>
+		</li>
+		<li><p class="padtop"><a href="../faq/index.html">常见问题</a></p>
+					<ul>
+				    <li><a href="../faq/index.html#wfsyj" >无法收到邮件？</a></li>
+					<li><a href="../faq/index.html#cxtd" title="邮件被投递到垃圾邮箱，如何重新投递到收件箱？">邮件被投递到垃圾邮箱，如何重新...</a></li>
+					<li><a href="../faq/index.html#dlyx">无法登陆邮箱？</a></li>
+					<li><a href="../faq/index.html#yfyj">发件箱中没有已发邮件？</a></li>
+					<li><a href="../faq/index.html#tx">邮箱中收到大量退信？</a></li>
+					<li><a href="../faq/index.html#cs" title="网页方式写好的邮件，点击发送时提示超时？">网页方式写好的邮件，点击发送...</a></li>
+					<li><a href="../faq/index.html#wjmm">忘记邮箱密码？</a></li>
+					<li><a href="../faq/index.html#dx">邮箱空间大小和附件大小是多少？</a></li>
+					<li><a href="../faq/index.html#xz">如何快速选中要处理的邮件？</a></li>
+					<li><a href="../faq/index.html#bj">如何进行邮件的再编辑？</a></li>
+					<li><a href="../faq/index.html#sc">如何删除邮箱中不需要的邮件？</a></li>
+					<li><a href="../faq/index.html#yc" title="IE浏览器下显示邮箱界面异常如何处理？">IE浏览器下显示邮箱界面异常...</a></li>
+					</ul>
+		</li>
+		
+		<li><p class="padtop"><a href="../shuyu/index.html">术语表</a></p>
+
+		</li>
+		
+		</ul>
+	</div>
+</div>
+
+<table cellpadding="0" cellspacing="0" border="0"class="div_all">
+	<tr>
+		<td width="265" class="left_div0" valign="top">
+					<table cellpadding="0" cellspacing="0" border="0" width="260">
+				<tr><td class="b1"><span class="b_tit">&nbsp;&nbsp;用户使用手册</span></td></tr>
+				<tr><td class="kh_content">
+					<div class="b_list">
+					<ul>
+				    <li><a href="#sy" onClick="displaySubs('1')" id="ida1"  onFocus="if(this.blur)this.blur()";>邮箱首页</a></li>
+					<li><a href="#dl" onClick="displaySubs('2')" id="ida2"  onFocus="if(this.blur)this.blur()";>登录邮箱</a></li>
+					<li><a href="#ml" onClick="displaySubs('3')" id="ida3"  onFocus="if(this.blur)this.blur()";>邮件目录</a></li>
+					<li><a href="#xyj" onClick="displaySubs('4')" id="ida4"  onFocus="if(this.blur)this.blur()";>写邮件</a></li>
+					<li><a href="#txl" onClick="displaySubs('5')" id="ida5"  onFocus="if(this.blur)this.blur()";>通讯录</a></li>
+					<li><a href="#wp" onClick="displaySubs('6')" id="ida6"  onFocus="if(this.blur)this.blur()";>网盘</a></li>
+					<li><a href="#sz" onClick="displaySubs('7')" id="ida7"  onFocus="if(this.blur)this.blur()";>设置</a></li>
+					<li><a href="#sp" onClick="displaySubs('8')" id="ida8"  onFocus="if(this.blur)this.blur()";>锁屏</a></li>
+					<li><a href="#fk" onClick="displaySubs('9')" id="ida9"  onFocus="if(this.blur)this.blur()";>反馈</a></li>
+					<li><a href="#bz" onClick="displaySubs('10')" id="ida10"  onFocus="if(this.blur)this.blur()";>帮助</a></li>
+					<li><a href="#tc" onClick="displaySubs('11')" id="ida11"  onFocus="if(this.blur)this.blur()";>退出</a></li>
+					</ul>
+					</div>
+				</td></tr>
+				<tr><td class="b3"></td></tr>
+				</table>
+		
+		 </td>
+		 <td>
+		 <div class="div_right ">
+		   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="sy">邮箱首页</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>邮箱登陆后默认界面，直观显示的邮箱结构，使用户能够快速把握邮箱所具有的大部分功能。</p>
+					 <p>系统的左边和上边都是系统的导航栏，用户可以通过它方便、快捷地使用各项功能。其中左边包括撰写邮件、邮件夹、通讯录、网盘、邮件查找、POP3助理等。上边除了这些，还包括“快速查看”、“快速检索”、系统配置“选项”、系统“帮助”、系统“退出”等。如下图：</p>
+					 <p align="center"><img src="images/02.gif" border="1"  /><br /><br /></p>
+			   </td>
+             </tr>
+
+           </table>
+ <div align="right"><a href="#top"><span style="font-size:12px;background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="dl">登录</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>用户拥有自己的用户名和密码就可以在任何地点、任何时间、任何平台上通过互联网，登录访问自己的邮箱。下图为登录界面例图：</p>
+					 <p align="center"><img src="images/01.gif" border="1"  /><br /><br /></p>
+			   </td>
+             </tr>
+
+           </table>
+		   <div align="right"><a href="#top"><span style="font-size:12px; background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+	 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="ml">邮件目录</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p class="xx">*文件夹</p>
+					 <p>邮件系统所提供的文件夹中包括收件箱、发件箱、草稿箱、垃圾箱。</p> <p>在这里可以清楚的看到邮箱的使用情况，包括邮箱的总体和单个文件夹下的邮件数、新邮件数、占用空间数等，可以有利于用户直观统计和合理运用空间。可以看到用户的信箱列表，每个邮箱和总的新邮件数、邮件数、占用字节数，已使用的邮箱容量，剩余容量。</p>
+<p>A.收件箱系统级文件夹，默认收到邮件的存储位置。</p>
+<p>B.草稿箱系统级文件夹，位于该文件夹下的邮件可编辑后重发。</p>
+<p>C.已发送系统级文件夹，已发送邮件的留档存储位置。</p>
+<p>D.垃圾箱系统级文件夹，用来存储在收件箱、发件箱、草稿箱或其他用户自定义文件夹下已删除的邮件。</p>
+<br />
+<p class="xx">* 用户自定义文件夹</p>
+<p>用户自己建立个人的文件夹，且可以管理。邮件系统提供的文件夹包括收件箱、草稿箱、发件箱、垃圾箱。系统还允许用户：</p>
+<p>A. 创建文件夹</p>
+<p>选择“新建文件夹”即可。如图，想在主目录创建一个与“收件夹”等平级的文件夹test，只需选择“新建文件夹”，并取名test即可。</p>
+					 <p align="center"><img src="images/302.gif" border="1"  /><br /><br /></p>
+					 <p align="center"><img src="images/303.gif" border="1"  /><br /><br /></p>
+<p>B. 进入文件夹</p>
+<p>直接点击该文件夹，即可进入。</p>
+<p>C. 重命名文件夹</p>
+<p>在首页中的文件夹后点击”改名”即可。</p>
+<p>D. 删除名文件夹在首页的文件夹后点击“删除”即可。</p>
+ <p align="center"><img src="images/304.gif" border="1"  /><br /><br /></p>
+ <p class="xx">* 查看邮件</p>
+<p>查看邮件、写邮件和管理邮件的方法。左边的列表是初始登录邮箱时显示的第一个页面，从这个页面中，点击每一个文件夹将进入这个文件夹下面的邮件列表。</p>
+<p class="xx">* 打开信件</p>
+<p>单击邮件列表中的相应邮件的主题，即可打开这封邮件。如图：</p>
+ <p align="center"><img src="images/06.gif" border="1"  /><br /><br /></p>
+ <p class="xx">* 回复信件</p>
+<p>单击邮件列表中的相应邮件的主题，即可打开这封邮件。</p>
+<p>回复功能是对该信件的回复，这时在发邮件时，收信人处将自动填入回复邮件的发信人的邮件地址，同时，回复邮件的正文将自动加入到邮件正文当中。</p>
+<p class="xx">* 回复所有</p>
+<p> 与“回复”不同，回复只回复“发件人”；而“回复所有”，则会回复邮件标题中出现的所有邮箱地址。</p>
+<p>回复功能是对该信件的回复，这时，在发邮件时，收信人处将自动填入回复邮件的发信人的邮件地址，同时，回复邮件的正文将自动加入到邮件正文当中。如图：</p>
+<p><img src="images/07.gif" width="531" height="401" border="1" /></p>
+<p class="xx">* 阅读信件</p>
+<p>打开邮件后，该邮件的头信息，内容，以及附件的名称显示出来。邮件的头信息包括发件人、收件人、发送时间和主题。邮件内容显示邮件的正文信息。邮件附件显示附件的文件名。点击这个文件名，如果是可以显示的文件，比如文本文件，word文档等，会直接显示出来，否则，将提示下载。</p>
+<p class="xx">* 移动原文件</p>
+<p>在打开的信件的上方有“移动到”这一栏，此时可以将该文件移动到发件箱、草稿箱、垃圾箱等</p>
+<p class="xx">* 更多功能</p>
+<p>在打开文件的上方有“更多”这一栏，此时可以打印邮件、查看信头、下载邮件、标记颜色等。</p>
+<p><img src="images/305.gif" width="550" height="342" border="1" /></p>
+<p class="xx">* 下载信件或附件</p>
+<p>下载功能将这封信的原信下载到你的本地去。一般用户可能不需要这样应用，仅仅需要下载相应的附件即可。如果下载附件，可以在附件下，点击“下载”即可。</p>
+<p><img src="images/306.gif" width="541" height="336" border="1" /></p>
+<p class="xx">* 发件人相关线索</p>
+<p>此功能用来快速检索与此邮件主题相关其他邮件，方便您快速定位到相关邮件。如上图。提高使用便捷性。</p>
+<p class="xx">* 删除信件</p>
+<p>删除功能是将邮件删除，注意，如果这封邮件是位于垃圾箱的邮件，则将彻底删除，无法恢复。如果不是垃圾箱中的邮件，则是将邮件删除到垃圾箱，用户可以从垃圾箱中恢复。</p>
+<p class="xx">* 转发信件</p>
+<p>转发功能将这封邮件转发给别的收件人。这封邮件可以被编辑后发送，转发后的邮件的发信人将不是原发信人，而是转发的邮件地址。</p>
+<p class="xx">* 把发件人地址存入地址本</p>
+<p>
+阅读邮件时，鼠标左键点击“发件人”地址，选择“编辑联系人”，即可将发信人邮件地址存入用户的通讯录中去。该功能将自动保存发信人的邮件地址，这通常在您认为这个发信人的邮件地址对您很重要时应用。</p>
+<p class="xx">* 把发件人地址存入拒收列表</p>
+<p>阅读邮件时，鼠标左键点击“发件人”地址，选择“拒收地址”，即可将发信人邮件地址存入过滤器里面的拒收邮件列表中去。该功能将使您以后自动拒收该发件人的邮件，一般，你讨厌这个发信人以后再给您发送邮件时可以应用这个功能。</p>
+<p><img src="images/12.gif" width="531" height="327" border="1" /></p>
+<p class="xx">* 标记为未读</p>
+<p>鼠标选中邮件，可以将邮件标记为未读，如图所示。标记为未读功能会使您阅读过的邮件仍然是一封新邮件。一般情况下，您阅读一封邮件后，这封邮件将不再是新邮件，而是一封已读邮件了。但是，您可能还需要处理邮件中提到的一些事情，您想让邮件更加醒目一些，这时您就需要这个功能了。</p>
+<p><img src="images/307.gif" width="551" height="324" border="1" /></p>
+<p class="xx">* 查看其他信件</p>
+<p>针对打开邮件在这个文件夹中位置，上一封，下一封可以直接打开与它相邻的邮件，当这封邮件是这个文件夹的第一封或者是最后一封时，将返回这个文件夹的邮件列表页面去。</p>
+<p><img src="images/308.gif" width="531" height="325" border="1" /></p>
+			   </td>
+             </tr>
+           </table>
+		   <div align="right"><a href="#top"><span style="font-size:12px; background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="xyj">写邮件</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p class="xx">* 打开写邮件</p>
+					 <p>点击左侧导航栏中的操作链接“写信”，即可进入邮件撰写与发送页面。如图所示： </p>
+					 <p align="center"><img src="images/309.gif" border="1"  /><br /><br /></p>
+					 <p class="xx">* 收信人</p>
+					 <p> 收信人填写收信人的email地址，如果通讯录中有收信人，可以点击“收信人”，从通讯录中导入，可填写多个收信人。多个收件人时，以半角英文逗号分隔。</p>
+					 <p class="xx">* 抄送、密送</p>
+					 <p>填写抄送人、密送人的email地址，如果通讯录中有抄送人、密送人，可以点击前端的“抄送”、“密送”按钮，从通讯录导入。可填写多个抄送人、密送人，同样以半角英文逗号分隔。</p>
+					 <p class="xx">* 使用群发单显 </p>
+					 <p>群发可以同时给多个人发送信件，但是每个收件人所收到的信件中会显示所有收件人的地址信息，群发单显的作用就是让收件人在收到的信件的信息中看不到其他收件人的信息。在“群发单显”的输入框中输入所有收件人的地址，以半角英文逗号分隔。 </p>
+					 <p class="xx">* 主题</p>
+					 <p>发送邮件的标题。 </p>
+					 <p class="xx">* 编辑</p>
+					 <p>在文本框中输入正文内容。可以编辑多媒体文件，如：更改字体、文字颜色、增加底色、加入超链接、插入图片等等。</p>
+	<p align="center"><img src="images/310.gif" border="1"  /><br /><br /></p>	
+					<p class="xx">* 附件</p>
+					<p>1).添加附件
+点击添加附件，选中要添加的文件，可以添加附件。附件后面有“删除”字句，点击该字句，可以将选择错误的附件删除。</p>
+<p>2).添加附件
+点击“网盘”，可以插入网盘中的文件，作为邮件附件。点击附件后的“删除”字句，可以取消。 </p>	
+<p class="xx">* 紧急</p>
+<p>选中该项，邮件优先进入active队列中。</p>
+<p class="xx">* 已读回执</p>
+<p>对方收到信件后，阅读时，会弹出回执窗口，若对方同意回执，则发件人会收到读信回执，便可知邮件已被阅读。</p>
+<p class="xx">* 发送</p>
+<p>点击“发送”可以将邮件发送出去。</p>
+<p class="xx">* 发送</p>
+<p>点击“发送”可以将邮件发送出去。</p>
+<p class="xx">* 存草稿</p>
+<p>邮件写好后，如果不想现在发送，可以选择存为草稿，先将邮件保存到草稿箱，留待以后再编辑发送。</p>
+<p class="xx">* 预览</p>
+<p>提前预览邮件。</p>
+<p class="xx">* 取消</p>
+<p>取消发送，关闭写信窗口。</p>
+				 
+			   </td>
+             </tr>
+
+           </table>
+		   <div align="right"><a href="#top"><span style="font-size:12px; background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+		   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="txl" id="txl">通讯录</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>在图左侧的导航栏中点击“通讯录”，出现下图： </p>
+					 <p align="center"><img src="images/20.gif" border="1"  /><br /><br /></p>
+		             <p class="xx">* 通讯录介绍</p>
+					 <p>通讯录即用户个人的通讯地址本，通讯录分为左右两部分；地址以组划分，如上图所示，通讯录左侧为组列表，右侧为显示区。</p>
+					 <p class="xx">* 使用通讯录</p>
+					 <p>在发邮件页面中，点击其左侧的“收信人”、“抄送”或“密送”或“群发单显”按钮，则会弹出一个地址本邮件地址窗口。分别选择发信人、抄送、密送、群发单显，点击确定按钮，即可将邮件地址自动导入各个输入框，当然可以多选。</p>
+					 <p class="xx">* 创建用户</p>
+					 <p>在通讯录页面，点击“新建联系人”，在弹出的输入框里分别输入姓名，邮件地址，手机号码，生日等，即可在相应群组下添加新的联系人。</p>
+					 <p class="xx">* 删除用户</p>
+					 <p>选中准备删除的地址前的方框，点击页面上方的“删除联系人”即可。也可进入编辑窗口进行删除。</p>
+					 <p class="xx">* 修改用户</p>
+					 <p>点击需要编辑的地址，即可查看该地址的基本资料，点击下面的“编辑联系人“即可进入编辑页面。</p>
+					 <p class="xx">* 复制到组 </p>
+					 <p>选中需要复制到分组的地址，单击上面的“复制到组”，此时会弹出一个列表，里面显示通讯组所有的组，选中想要加入的分组即可。此时实现的是地址的复制，如果该地址原来就属于一个分组，此时这个地址就属于两个分组的成员；</p>
+					 <p class="xx">* 移动到组</p>
+					 <p>选中需要移动到分组的地址，单击上面的“移动到组”，此时会弹出一个列表，里面显示通讯组所有的组，选中想要加入的分组即可。此时实现的是地址的移动，如果该地址原来就属于一个分组，此时这个地址就不属于原来的分组了，而是属于现在的分组。 </p>
+					 <p class="xx">* 写信</p>
+					 <p>选中要发送的地址前的方框，点击上面的“发送”即可给该地址发送信件。</p>
+					 <p class="xx">* 打印</p>
+					 <p>选中要打印信息的地址前的方框，点击上面的“打印”即可弹出打印窗口。</p>
+			   </td>
+             </tr>
+
+           </table>
+ <div align="right"><a href="#top"><span style="font-size:12px;background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+	 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="wp">网盘</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>网盘功能可以使用户在邮箱中以目录或文件的方式存储和共享文件。对目录和文件可以进行重命名、删除、移动、下载、共享、取消共享等操作。具有移动磁盘的功能，只要能登陆邮箱，便可随时随地存储或下载文件；也可以方便的将网盘中的文件或目录，共享给其他用户，使其可以下载使用。其配置页面如下： </p>
+					 <p align="center"><img src="images/24.gif" border="1"  /><br /><br /></p>
+					 <p class="xx">* 上传</p>
+					 <p>在上图中，点击“工具栏”中的上传”按钮，选择要上传的文件，则可将文件上传至右侧当前目录下。</p>
+					 <p class="xx">*新建文件夹</p>
+					 <p>在上图中，点击“工具栏”中的“新建文件夹”按钮，即可新建文件夹。</p>
+					 <p class="xx">* 下载</p>
+					 <p>对目录和文件可以进行下载。需要下载某个文件或目录时，只需选中该文件或目录前面的按钮，点击“工具栏”中的“下载”，即可下载。</p>
+					 <p class="xx">* 发送</p>
+					 <p>选中文件或文件夹前面的按钮，点击“工具栏”中的“发送”按钮，弹出两个选项“以附件方式发送”“以共享方式发送”，选中其中一个方式即可进入发送邮件窗口。</p>
+					 <p align="center"><img src="images/311.gif" border="1"  /><br /><br /></p>
+					 <p class="xx">* 移动</p>
+					 <p>选中文件或文件夹前面的按钮，点击“工具栏”中的“移动”按钮，弹出“移动文件”对话框，选中目的目录点击“确定”即可将该文件或者文件夹移动到目的目录。</p>
+					 <p align="center"><img src="images/28.gif" border="1"  /><br /><br /></p>
+					 <p class="xx">* 排序</p>
+					 <p>点击“工具栏”中的“排列”图标，可以按照名称、大小、日期、类型等方式排列。 </p>
+					 <p align="center"><img src="images/312.gif" border="1"  /><br /><br /></p>
+			   </td>
+             </tr>
+
+           </table>
+		   <div align="right"><a href="#top"><span style="font-size:12px; background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+		   		   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="sz">设置</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>选项设置，是邮箱强大功能的总体配置入口，可以对多种功能进行个性化配置。其中，具体分常规、账户与安全、邮箱收发、高级等。具体如图所示：</p>
+					<p align="center"><img src="images/33.gif" border="1"  /><br /><br /></p>
+					<p class="xx">* 常用设置</p>
+					<p>如下图所示，常规设置主要确定登录设置和显示设置，包括默认登录首页、每页最多显示邮件数、发件人显示显示邮件大小。</p>
+					<p align="center"><img src="images/313.gif" border="1"  /><br /><br /></p>
+					<p class="xx">* 签名设置</p>
+					<p>如下图所示，写邮件时可选择所创建的签名文件，选择后，系统将所选签名中的内容，自动加载到邮件末尾。可以建多个签名，灵活的选择签名文件。</p>
+					<p align="center"><img src="images/314.gif" border="1"  /><br /><br /></p>
+					<p class="xx">* 账户与安全-个人资料</p>
+					<p>修改个人的信息。</p>
+					<p align="center"><img src="images/315.gif" border="1"  /><br /><br /></p>
+					<p class="xx">* 修改密码 </p>
+					<p>在此，可以修改用户个人密码。</p>
+					<p class="xx">* 邮件收发-操作习惯设置</p>
+					<p>在此，对个人的操作习惯进行个性设置。如下图所示。</p>
+					<p align="center"><img src="images/316.gif" border="1"  /><br /><br /></p>
+					<p class="xx">* 来信分类</p>
+					<p>在此可以新建分类，创建分类规则，使邮件系统根据设置的各项规则执行相应的分类。</p>
+					<p align="center"><img src="images/317.gif" border="1"  /><br /><br /></p>
+					<p class="xx">* 自动回复</p>
+					<p>这个功能是用来帮助客户自动的回复发信人特定的内容。以表示邮件收到或表示尊重等。</p>
+					<p class="xx">* 自动转发</p>
+					<p>这个功能是用来帮助客户将接收到的信件自动的转发给指定的账号。以完成相应的需要等。</p>
+					<p class="xx">* 文件夹管理</p>
+					<p>在此以文件夹的形式显示客户账号内的所有文件夹，包括收发信箱，垃圾箱以及草稿箱等。在此也可以创建新的文件夹。</p>
+					<p class="xx">* 高级-白名单</p>
+					<p>白名单设置的是让某些邮箱可以避开反垃圾的误判，点击添加即可添加白名单。</p>
+					<p align="center"><img src="images/319.gif" border="1"  /><br /><br /></p>
+					<p class="xx">* 黑名单</p>
+					<p>黑名单设置的是允许客户拒收某些地址的来信，点击添加黑名单即可出现。</p>
+					<p align="center"><img src="images/320.gif" border="1"  /><br /><br /></p>
+					<p class="xx">* 反垃圾</p>
+					<p>反垃圾主要是设置系统判断邮件是否为垃圾邮件的依据，在此可以选择反垃圾处理的级别以及处理方式。</p>
+					<p align="center"><img src="images/321.gif" border="1"  /><br /><br /></p>
+					
+			   </td>
+             </tr>
+
+           </table>
+ <div align="right"><a href="#top"><span style="font-size:12px;background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>	
+ 		   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="sp">锁屏</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>给登陆页面加锁。</p>
+				 </td>
+             </tr>
+
+           </table>
+ <div align="right"><a href="#top"><span style="font-size:12px;background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+ 		   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="fk">反馈</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>单击此处即可进入系统反馈中心，在这里可以将遇到的一些问题或者对邮件系统的建议进行提交，技术人员会对这些反馈信息进行分析以对系统进行改进和完善。</p>
+					 </td>
+             </tr>
+
+           </table>
+ <div align="right"><a href="#top"><span style="font-size:12px;background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+ 		   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="bz">帮助</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>查看在线快速帮助手册，这是系统的帮助中心，可以查到用户感兴趣的一些问题。</p>
+					 
+			   </td>
+             </tr>
+
+           </table>
+ <div align="right"><a href="#top"><span style="font-size:12px;background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>
+ 		   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab4">
+             <tr>
+               <td class="guild_tit">&nbsp;&nbsp;<a name="tc">退出</a></td>
+             </tr>
+             <tr>
+               <td class="guild">
+                 
+					 <p>退出邮箱登陆。</p>
+					
+			   </td>
+             </tr>
+
+           </table>
+ <div align="right"><a href="#top"><span style="font-size:12px;background-color:#BBEAC0">返回顶部↑</span></a>&nbsp;&nbsp;</div>   
+  </div>
+  </td></tr></table>
+  
+
+<div class="clear"></div>
+
+<div class="footer">
+<iframe src="../tail.html" height="50" width="100%" frameborder="0"></iframe>
+</div>
+</body>
+</html>

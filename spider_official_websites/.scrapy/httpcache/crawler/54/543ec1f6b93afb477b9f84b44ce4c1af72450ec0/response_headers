@@ -1,0 +1,15 @@
+Content-Security-Policy: default-src 'self'; font-src 'self'; style-src 'unsafe-inline' 'self'; script-src 'self' *.google.com *.google-analytics.com *.gstatic.com *.tiqcdn.com tag.thinkvine.com js-agent.newrelic.com dpm.demdex.net 'unsafe-eval' 'unsafe-inline'; frame-src 'self' *.google.com www.youtube.com wdc.custhelp.com; img-src 'self' *.google-analytics.com tag.thinkvine.com avatars.discourse.org community.wd.com support.wdc.com;
+X-Cdn: Incapsula
+Content-Type: text/html; charset=UTF-8
+Server: Microsoft-IIS/10.0
+Server: nosniff
+Strict-Transport-Security: max-age=31536000
+Date: Tue, 27 Jun 2017 10:06:49 GMT
+X-Iinfo: 5-82421698-82421700 SNNN RT(1498558008191 462) q(0 0 0 -1) r(1 1) U11
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Public-Key-Pins: pin-sha256="ebYH47GNbj3Z9IlH7A+eaFBJrCl95KuV36bfDN3aNqQ="; pin-sha256="Ne1UYBo2Q3yarh2ysR6gIMfpXil6j3B4BvdxyBq7Vrg="; max-age=5184000; includeSubDomains
+X-Powered-By: nosniff
+Location: https://support.wdc.com/knowledgebase/answer.aspx?ID=13162
+X-Aspnet-Version: nosniff
+X-Xss-Protection: 1; mode=block

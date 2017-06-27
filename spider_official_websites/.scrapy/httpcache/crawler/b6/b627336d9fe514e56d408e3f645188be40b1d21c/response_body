@@ -1,0 +1,257 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.section508.gov/sites/default/files/favicon.png" type="image/png" />
+<meta type="text/javascript" id="_fed_an_ua_tag" src="?agency=GSA&subagency=section508&ver=true&yt=true&sdor=true&autotracker=true&maincd=true&cto=24" /><meta name="description" content="This page explains website policies, procedures, and required links for the Section508.gov website. Accessibility PolicyLinking PolicyRequired LinksSocial Media SitesPaperwork Reduction Act Statement" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.section508.gov/content/website-policies-and-procedures" />
+<link rel="shortlink" href="http://www.section508.gov/node/345" />
+  <title>Website Policies and Procedures | Section508.gov</title>  
+  <style type="text/css" media="all">
+@import url("http://www.section508.gov/modules/system/system.base.css?orzbr9");
+@import url("http://www.section508.gov/modules/system/system.menus.css?orzbr9");
+@import url("http://www.section508.gov/modules/system/system.messages.css?orzbr9");
+@import url("http://www.section508.gov/modules/system/system.theme.css?orzbr9");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.section508.gov/modules/comment/comment.css?orzbr9");
+@import url("http://www.section508.gov/modules/field/theme/field.css?orzbr9");
+@import url("http://www.section508.gov/modules/node/node.css?orzbr9");
+@import url("http://www.section508.gov/modules/search/search.css?orzbr9");
+@import url("http://www.section508.gov/modules/user/user.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/modules/extlink/extlink.css?orzbr9");
+@import url("http://www.section508.gov/modules/forum/forum.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/modules/views/css/views.css?orzbr9");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.section508.gov/sites/all/modules/ctools/css/ctools.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/modules/tagclouds/tagclouds.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/modules/extlink_extra/extlink_extra.508.css?orzbr9");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.section508.gov/sites/default/files/color/tej-3d1fe017/colors.css?orzbr9");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.section508.gov/sites/all/themes/omega/alpha/css/alpha-reset.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/alpha/css/alpha-mobile.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/alpha/css/alpha-alpha.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/omega/css/formalize.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/omega/css/omega-text.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/omega/css/omega-branding.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/omega/css/omega-menu.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/omega/css/omega-forms.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/omega/css/omega-visuals.css?orzbr9");
+</style>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" media="all" />
+<style type="text/css" media="all">
+@import url("http://www.section508.gov/sites/all/themes/tej/css/global.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/tej/css/colors-global.css?orzbr9");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.section508.gov/sites/all/themes/omega/alpha/css/grid/alpha_fluid/normal/alpha-fluid-normal-12.css?orzbr9");
+@import url("http://www.section508.gov/sites/all/themes/omega/alpha/css/grid/alpha_fluid/normal/alpha-fluid-normal-24.css?orzbr9");
+</style>
+  <script type="text/javascript" src="http://www.section508.gov/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.section508.gov/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.section508.gov/misc/drupal.js?orzbr9"></script>
+<script type="text/javascript" src="http://www.section508.gov/misc/jquery.cookie.js?v=1.0"></script>
+<script type="text/javascript" src="http://www.section508.gov/sites/all/modules/extlink/extlink.js?orzbr9"></script>
+<script type="text/javascript" src="http://www.section508.gov/sites/all/libraries/digitalgov_dap/Universal-Federated-Analytics-Min.js?orzbr9"></script>
+<script type="text/javascript" src="http://www.section508.gov/sites/all/modules/google_analytics/googleanalytics.js?orzbr9"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-47110301-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.section508.gov/sites/all/themes/tej/js/tej.js?orzbr9"></script>
+<script type="text/javascript" src="http://www.section508.gov/sites/all/themes/omega/omega/js/jquery.formalize.js?orzbr9"></script>
+<script type="text/javascript" src="http://www.section508.gov/sites/all/themes/omega/omega/js/omega-mediaqueries.js?orzbr9"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"tej","theme_token":"mQ5mGFEowaFs-GK6heg39AUU9R2dSugiKI0ozFzJAjg","js":{"sites\/all\/modules\/extlink_extra\/extlink_extra.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/libraries\/digitalgov_dap\/Universal-Federated-Analytics-Min.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/tej\/js\/tej.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tagclouds\/tagclouds.css":1,"sites\/all\/modules\/extlink_extra\/extlink_extra.508.css":1,"sites\/all\/themes\/tej\/css\/colors.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"https:\/\/fonts.googleapis.com\/css?family=Ubuntu":1,"sites\/all\/themes\/tej\/css\/global.css":1,"sites\/all\/themes\/tej\/css\/colors-global.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_fluid\/normal\/alpha-fluid-normal-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_fluid\/normal\/alpha-fluid-normal-24.css":1}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"[.]gov","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":{"value":"\u003Cp style=\u0022font-style:italic\u0022\u003EFollowing this link will take you to a non-government website, which may have different privacy policies than Section508.gov. Please note that GSA neither endorses nor guarantees the external organizations, services, advice, or products on the linked website, nor do we control or guarantee the accuracy, relevance, timeliness or completeness of the information.\u003C\/p\u003E\r\n\r\n[extlink:external-url]\r\n  ","format":"full_html"},"mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"extlink_extra":{"extlink_alert_type":"page","extlink_alert_timer":"0","extlink_alert_url":"\/now-leaving","extlink_cache_fix":0,"extlink_exclude_warning":"","extlink_508_fix":1,"extlink_508_text":" [external link]","extlink_url_override":0,"extlink_url_params":{"external_url":null,"back_url":null}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/content\/website-policies-and-procedures":true},"omega":{"layouts":{"primary":"normal","order":[],"queries":[]}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-345 node-type-page context-content">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix branding-gradient">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-6 region region-branding padtop" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title=" GSA Government-wide Section 508 Accessibility Program"><img src="http://www.section508.gov/sites/default/files/new%20logo.png" alt=" GSA Government-wide Section 508 Accessibility Program" id="logo" /></a>      </div>
+                        <hgroup class="site-name-slogan">        
+                                <h6 class="site-slogan">GSA Government-wide Section 508 Accessibility Program</h6>
+              </hgroup>
+          </div>
+          </div>
+</div><div class="grid-6 region region-search padtop" id="region-search">
+  <div class="region-inner region-search-inner">
+    <div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/content/website-policies-and-procedures" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-jOiv1HnZOvwUjZj60j9A5e8oqcfPrwXs70rRnwr8bnI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix menu-gradient">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-24">
+    <div class="grid-12 prefix-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <section class="block block-menu block-menu-test-menu block-menu-menu-test-menu odd" id="block-menu-menu-test-menu">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">navigation header</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/sitemap" title="">Site Map</a></li>
+<li class="leaf"><a href="/content/about-us" title="">About Us</a></li>
+<li class="leaf"><a href="/content/accessibility" title="">Accessibility</a></li>
+<li class="leaf"><a href="/content/contact-us" title="">Contact Us</a></li>
+<li class="last leaf"><a href="/content/opening-pdf-or-doc-files" title="">Plug-Ins</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix gradient">  
+  <div id="zone-content" class="zone zone-content clearfix container-24">    
+          <div id="breadcrumb" class="grid-24"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> » <span class="active active-trail">Website Policies and Procedures</span></div></div>
+        
+        <div class="grid-24 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <h1 class="title" id="page-title">Website Policies and Procedures</h1>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/content/website-policies-and-procedures" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-kapilbulchandani odd clearfix" id="node-page-345">
+        <span property="dc:title" content="Website Policies and Procedures" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This page explains website policies, procedures, and required links for the Section508.gov website.</p>
+<p><a href="#_34un52plpz34">Accessibility Policy</a><br /><a href="#_p7y1e21sfeed">Linking Policy</a><br /><a href="#_64zwi3gkjmqj">Required Links</a><br /><a href="#_hy4mt5xqgk6h">Social Media Sites</a><br /><a href="#_mh4bi4ev0dd">Paperwork Reduction Act Statement</a></p>
+<h2><a name="_34un52plpz34" id="_34un52plpz34"></a>Accessibility Policy</h2>
+<p>General Services Administration (GSA) is committed to providing access to all individuals—with or without disabilities—seeking information on this website. We've built this website to conform to the <a href="http://www.section508.gov/section508-laws">Section 508 of the Rehabilitation Act</a> (as amended), which requires that all individuals with disabilities (whether federal employees or members of the general public) have access to, and use of, information and data comparable to that provided to individuals without disabilities, unless an undue burden would be imposed on us.</p>
+<h3><a name="_37wuvotyl97i" id="_37wuvotyl97i"></a>If you have trouble viewing content</h3>
+<p>If you have difficulty accessing information on this site, particularly if using assistive technology, including screen readers, eye tracking devices, or voice recognition software, please contact us. You can do this by <a href="mailto:section.508@gsa.gov">emailing us</a> with the following information:</p>
+<ul><li>URL (web address) of the material you tried to access</li>
+<li>the problem you experienced</li>
+<li>your contact information</li>
+</ul><p>We'll get back to you as soon as we can, and attempt to provide the information you're seeking.</p>
+<h3><a name="_fbklemy1ggxn" id="_fbklemy1ggxn"></a>3rd-party plug-ins</h3>
+<p>Some content on this website may require use of a 3rd-party plug-in to view. Links to these plug-ins are listed below. Please note these are non-government sites and GSA does not endorse these products. They’re listed only for your convenience. Please direct questions about each tool to the respective vendor.</p>
+<ul><li><a href="https://get.adobe.com/reader/">Download Adobe Reader</a> to view Portable Document Format (PDF) files</li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?displaylang=en&amp;id=4">Download Word Viewer</a> to view MS-Word documents</li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?DisplayLang=en&amp;id=10">Download Excel Viewer</a> to view MS-Excel spreadsheets</li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?DisplayLang=en+&amp;id=6">Download PowerPoint Viewer</a> to view MS-Powerpoint presentations</li>
+<li><a href="https://www.texthelp.com/en-us/products/browsealoud/ba-bookmarklet">Use browsealoud</a> to listen to a web page</li>
+</ul><h2><a name="_p7y1e21sfeed" id="_p7y1e21sfeed"></a>Linking Policy</h2>
+<p>This website may include hypertext links or pointers to information created and maintained by other public or private organizations. GSA provides these links solely for your information and convenience. If you select a link to an outside website, you’re leaving the Section508.gov website and are subject to the privacy and security policies of the external website.</p>
+<h3><a name="_1p6vjgrf9kmp" id="_1p6vjgrf9kmp"></a>Evaluation criteria</h3>
+<p>We evaluate all links to external websites using the following criteria:</p>
+<ul><li>Is the website's content relevant, useful and authoritative?</li>
+<li>Does the website's information appear to be accurate and current?</li>
+<li>Does the website complement existing information, products and services?</li>
+<li>Is the website accessible and applicable to a complementary audience?</li>
+<li>Is the website's approach to the privacy of personal information consistent with the government's privacy and security policies?</li>
+<li>Is the primary intent of the website to educate and inform, rather than persuade, convert, or sell? The site may include advertising but must be free from heavy marketing or promotion of products.</li>
+<li>Is the website an official government-owned or supported website? If not, does the website provide government information and/or services in a way that is not available on an official government website?</li>
+<li>Does the website provide information free of charge?</li>
+<li>Is the website content consistent with sound public policy? Does it support the mission of GSA and its programs?</li>
+</ul><h3><a name="_e4lg7lppatxf" id="_e4lg7lppatxf"></a>Links to other government websites</h3>
+<p>This website links to publicly available websites that are government-owned or government sponsored, including domains ending in .gov, .mil and .us. We may also link to quasi-government agencies and websites created by public/private partnerships; state and local government sites (e.g., <a href="http://www.maryland.gov">www.maryland.gov</a>); and government-sponsored websites that end in .com, .org, or .net (e.g., <a href="http://www.usps.com">www.usps.com</a> for the U.S. Postal Service).</p>
+<p>Because the websites of other federal government agencies must follow the same policies as GSA, links to these sites (including sites managed by the U.S. military) are made without notification or disclaimer.</p>
+<h3><a name="_csmdnm82uoao" id="_csmdnm82uoao"></a>Links to non-government websites</h3>
+<p>This website may link to non-government websites, if they provide relevant information that’s not available on an official government website. We provide these links as a public service only; the U.S. government, including GSA (as the sponsoring federal agency of Section508.gov), neither endorses nor guarantees in any way the external organizations, services, advice, or products included in these website links. Furthermore, the U.S. government neither controls nor guarantees the accuracy, relevance, timeliness or completeness of the information contained in non-government website links.</p>
+<h3><a name="_7pqm0f2ss8h6" id="_7pqm0f2ss8h6"></a>Disclaimer of endorsement</h3>
+<p>The Section508.gov website includes hypertext links, or pointers, to information created and maintained by other public and/or private organizations. We provide these links and pointers only for your information and convenience. When you select a link to an outside website, you are leaving the Section508.gov site and are subject to the privacy and security policies of the owners/sponsors of the outside website.</p>
+<ul><li>GSA and Section508.gov do not control or guarantee the accuracy, relevance, timeliness, or completeness of information contained on a linked website.</li>
+<li>We do not endorse the organizations sponsoring linked websites and we do not endorse the views they express or the products/services they offer.</li>
+<li>The content of external, non-Federal websites is not subject to Federal information quality, privacy, security, and related guidelines.</li>
+<li>We cannot authorize the use of copyrighted materials contained in linked websites. Users must request such authorization from the sponsor of the linked website.</li>
+<li>We are not responsible for transmissions users receive from linked websites.</li>
+<li>We do not guarantee that outside websites comply with Section 508 (accessibility requirements) of the Rehabilitation Act.</li>
+</ul><h3><a name="_phwy22avvrhj" id="_phwy22avvrhj"></a>Prohibitions</h3>
+<p>GSA will not link to any website that exhibits hate, bias, or discrimination. Furthermore, we reserve the right to deny or remove any link that contains misleading information or unsubstantiated claims, or is determined to be in conflict with GSA's mission or policies.</p>
+<h2><a name="_64zwi3gkjmqj" id="_64zwi3gkjmqj"></a>Required Links</h2>
+<p>Federal agencies are required to provide the following links/information on our websites.</p>
+<ul><li><a href="https://www.gsa.gov/privacy">GSA Privacy Policy</a>
+<ul><li><a href="/content/privacy-policy">Section508.gov Privacy Policy</a></li>
+</ul></li>
+<li><a href="http://www.gsa.gov/portal/category/21546">Budget and Performance</a></li>
+<li><a href="http://www.gsa.gov/portal/directives">Orders &amp; Directives</a></li>
+<li><a href="http://www.gsa.gov/portal/content/105305">Freedom of Information Act Requests</a></li>
+<li><a href="http://www.gsa.gov/portal/content/101344">No FEAR Act</a></li>
+<li><a href="http://www.gsa.gov/portal/category/21544">Reports</a></li>
+</ul><h2><a name="_hy4mt5xqgk6h" id="_hy4mt5xqgk6h"></a>Social Media Sites</h2>
+<p>Where we manage a presence on social media sites to share government information and engage with our audience, we do not collect any personally identifiable information through those sites. We do not use personal information made available by the third-party sites. If you submit a question or comment to us via a social media tool or platform, we may reply directly to you via that platform, but we don’t track or record any information about individuals who use or interact with us via those platforms.</p>
+<h2><a name="_mh4bi4ev0dd" id="_mh4bi4ev0dd"></a>Paperwork Reduction Act Statement</h2>
+<p>The feedback surveys on this website (information collections) meet the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (OMB) control number. The OMB control number for our collections is 3090-0297. We estimate that it will take 3 minutes to read the instructions, gather the facts, and answer the questions. Send only comments relating to our time estimate, including suggestions for reducing this burden, or any other aspects of this collection of information to: General Services Administration, Regulatory Secretariat Division (MVCB), ATTN: Ms. Flowers/IC 3090-0297, 1800 F Street, NW, Washington, DC 20405.</p>
+</div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first shrink-bottom" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-block block-47 block-block-47 odd block-without-title" id="block-block-47">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="fancyfont">
+<ul class="nav-footer"><li><a href="/sitemap">Site Map</a></li>
+<li><a href="/content/about-us">About Us</a></li>
+<li><a href="http://www.gsa.gov/portal/content/116621">Accessibility Aids/Plug-ins</a></li>
+<li><a href="/content/contact-us">Contact Us</a></li>
+<li><a href="/content/privacy-policy">Privacy Policy</a></li>
+<li><a href="/content/website-policies-and-procedures">Website Policies and Procedures</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  <script type="text/javascript" src="http://www.section508.gov/sites/all/modules/extlink_extra/extlink_extra.js?orzbr9"></script>
+</body>
+</html>

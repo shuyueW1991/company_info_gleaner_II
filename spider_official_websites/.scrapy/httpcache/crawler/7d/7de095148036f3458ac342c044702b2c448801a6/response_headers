@@ -1,0 +1,13 @@
+X-Ua-Compatible: IE=edge
+Set-Cookie: __SophosNextDeviceEnabled=; domain=sophos.com; path=/; secure; HttpOnly
+Set-Cookie: .ASPXAUTH=; domain=sophos.com; expires=Mon, 11-Oct-1999 23:00:00 GMT; path=/; secure; HttpOnly
+Content-Type: text/html
+Strict-Transport-Security: max-age=10886400
+Pragma: no-cache
+Date: Tue, 27 Jun 2017 10:20:49 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Tue, 27 Jun 2017 10:20:49 GMT
+Location: https://secure2.sophos.com/es-es/lp/rackspace-customer-case.aspx
+Cache-Control: no-cache, no-store
+X-Xss-Protection: 1; mode=block

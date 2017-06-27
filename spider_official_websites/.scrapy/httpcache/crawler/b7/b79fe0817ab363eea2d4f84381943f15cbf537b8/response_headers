@@ -1,0 +1,6 @@
+Vary: Cookie
+Server: nginx
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=31536000
+Location: https://news.sophos.com/2014/12/11/our-top-10-predictions-for-security-threats-in-2015-and-beyond/
+Date: Tue, 27 Jun 2017 10:23:00 GMT

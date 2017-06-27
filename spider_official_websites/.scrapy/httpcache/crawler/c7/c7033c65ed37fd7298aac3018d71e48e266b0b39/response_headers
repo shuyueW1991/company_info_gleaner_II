@@ -1,0 +1,20 @@
+Vary: Accept-Encoding
+X-Ms-Invokeapp: 1; RequireReadOnly
+Microsoftsharepointteamservices: 
+Set-Cookie: SPUsageId=c4f25809-8d29-4e45-9551-2d712d8f799b; expires=Tue, 11-Jul-2017 13:46:12 GMT; path=/; secure; HttpOnly
+Server: 
+X-Aspnet-Version: 4.0.30319
+X-Frame-Options: SAMEORIGIN
+Sprequestguid: a4bfff9d-4713-30dc-7a28-059d7f0f4838
+Spiislatency: 0
+Request-Id: a4bfff9d-4713-30dc-7a28-059d7f0f4838
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 12 Jun 2017 13:46:12 GMT
+Content-Encoding: gzip
+X-Powered-By: 
+Cache-Control: private, max-age=0
+Sprequestduration: 196
+X-Sharepointhealthscore: 0
+Last-Modified: Tue, 27 Jun 2017 13:46:12 GMT
+X-Content-Type-Options: nosniff
+Date: Tue, 27 Jun 2017 13:46:12 GMT

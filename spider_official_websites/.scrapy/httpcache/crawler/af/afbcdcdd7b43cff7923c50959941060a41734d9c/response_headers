@@ -1,0 +1,8 @@
+P3P: CP="CUR OTR STA"
+Pragma: no-cache
+Content-Type: text/html;charset=UTF-8
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-Xss-Protection: 1; mode=block
+X-Powered-By: Salesforce.com ApexPages
+Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private,s-maxage=0
+Date: Tue, 27 Jun 2017 10:20:42 GMT

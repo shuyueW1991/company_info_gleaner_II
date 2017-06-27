@@ -1,0 +1,23 @@
+Server: mw1271.eqiad.wmnet
+X-Analytics: ns=-1;special=CreateAccount;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 346103373, 973135080, 336329402, 656680033
+X-Frame-Options: DENY
+Content-Encoding: gzip
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Vary: Accept-Encoding,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+X-Ua-Compatible: IE=Edge
+Age: 0
+X-Cache: cp1052 pass, cp2019 pass, cp4018 pass, cp4010 pass
+Backend-Timing: D=73268 t=1498571350422600
+Content-Language: fr
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Content-Type: text/html; charset=UTF-8
+X-Cache-Status: pass
+Accept-Ranges: bytes
+Link: </static/images/project-logos/frwiki.png>;rel=preload;as=image;media=not all and (min-resolution: 1.5dppx),</static/images/project-logos/frwiki-1.5x.png>;rel=preload;as=image;media=(min-resolution: 1.5dppx) and (max-resolution: 1.999999dppx),</static/images/project-logos/frwiki-2x.png>;rel=preload;as=image;media=(min-resolution: 2dppx)
+Date: Tue, 27 Jun 2017 13:49:10 GMT

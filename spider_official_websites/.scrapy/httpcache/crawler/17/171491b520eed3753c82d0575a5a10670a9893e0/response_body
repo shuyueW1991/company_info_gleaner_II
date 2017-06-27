@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>走出去公共服务平台</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit">
+	<meta name="keywords" content="your keywords">
+	<meta name="description" content="your description">
+	<meta name="author" content="hl,haolei@ec.com.cn">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet" href="/style/style.css">
+	<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+    <!--[if IE]>
+		<script src="/js/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<section class="mianBody clearfix">
+		<section class="ml">
+			<dl class="menu">
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/gbdqzn">国别（地区）指南</a></dt>
+                <!-- -->
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/fwydyl">服务“一带一路”</a></dt>
+				<dd><a href="/article/fwydyl/zcwj">政策文件</a></dd>
+				<dd><a href="/article/fwydyl/tjsj">统计数据</a></dd>
+				<dd><a href="/article/fwydyl/zgzx">相关资讯</a></dd>
+                <!-- -->
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/tjgjcnhz">推进国际产能合作</a></dt>
+                <dd><a href="/article/tjgjcnhz/zcwj">政策文件</a></dd>
+				<dd><a href="/article/tjgjcnhz/tjsj">统计数据</a></dd>
+				<dd><a href="/article/tjgjcnhz/xgzxhlj">相关资讯</a></dd>
+                <!-- -->
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/jwjmhzq">境外经贸合作区</a></dt>
+                <dd><a href="/article/jwjmhzq/article02.shtml">业务简介</a></dd>
+				<dd><a href="/article/jwjmhzq/zcfg/">政策法规</a></dd>
+                <dd><a href="/article/jwjmhzq/article01.shtml">境外经贸合作区名录</a></dd>
+                <!-- -->
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/tzhzcj" >投资合作促进</a></dt>
+                <dd><a href="/article/tzhzcj/tzhz">投资合作发展报告</a></dd>
+                <dd><a href="/article/tzhzcj/article01.shtml">展会论坛</a></dd>
+                <dd><a href="http://fta.mofcom.gov.cn" target="_blank">自贸区网</a></dd>
+                <dd><a href="http://project.fdi.gov.cn/" target="_blank">投资项目信息库</a></dd>
+                <dd><a href="/article/tzhzcj/gbtz">国别投资经营便利化状况报告</a></dd>
+                <!-- -->
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/tjsj">统计数据</a></dt>
+                <dd><a href="/article/tjsj/tjgb">统计公报</a></dd>
+				<dd><a href="/article/tjsj/ydjm">月度简明统计数据</a></dd>
+                <dd><a href="/article/zxbs/dwtzhzxx/">统计数据填报</a></dd>
+                <!-- -->
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/ywzn">政策法规及业务指南</a></dt>
+				<dd><a href="/article/ywzn/dwtz">对外投资</a></dd>
+				<dd><a href="/article/ywzn/dwcbgc">对外承包工程</a></dd>
+                <dd><a href="/article/ywzn/dwlwhz">对外劳务合作</a></dd>
+                <dd><a href="/article/ywzn/xgzx">其他政策法规及资讯</a></dd>
+                <!-- -->
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/qyml">企业名录</a></dt>
+				<dd><a href="http://femhzs.mofcom.gov.cn/fecpmvc/pages/fem/CorpJWList.html" target="_blank">境外投资企业（机构）备案结果公开名录</a></dd>
+                <dd><a href="http://wszw.hzs.mofcom.gov.cn/fecp/zsma/corp/corp_ml_list.jsp" target="_blank">对外承包工程企业名录</a></dd>
+                <dd><a href="http://wszw.hzs.mofcom.gov.cn/fecp/zsmb/corp/corp_ml_index.jsp" target="_blank">对外劳务合作企业名录</a></dd>
+                <dd><a href="/article/qyml/lwhz/">劳务合作服务平台</a></dd>
+<dd><a href="http://zsmtjhzs.mofcom.gov.cn/gsapp/pages/zsmwp/gov/BadRecordListShow.html" target="_blank">不良信用记录</a></dd>
+
+                <!-- -->
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/zxbs">在线办事</a></dt>
+                <dd><a href="/article/zxbs/scbl">首次业务办理及办事咨询</a></dd>
+                <dd><a href="/article/zxbs/dwtzhzxx">对外投资合作信息服务</a></dd>
+                <dd><a href="/article/zxbs/dwtzhzzw">对外投资合作在外人员信息管理</a></dd>
+                
+                <!-- -->
+				<dt><i class="icon_01"></i><a href="/article/jwaq">境外安全风险防范</a></dt>
+                <dd><a href="/article/jwaq/zcfg">政策法规</a></dd>
+                <dd><a href="http://www.mofcom.gov.cn/article/ztxx/xmlh/" target="_blank">安全风险防范</a></dd>
+                <dd><a href="/article/jwaq/tbtx">特别提醒</a></dd>
+                <dd><a href="/article/jwaq/article01.shtml">相关链接</a></dd>
+			</dl>
+		</section>
+		<section class="mr">
+			<nav class="nav_main_01 clearfix"><script>
+var colname='投资合作促进';
+var ecolname='tzhzcj';
+var colCommentFlag = '1';
+var siteId='fec';
+</script>
+当前位置：<a href='/'>首页</a><span>></span> <a  href='/article/tzhzcj/'>投资合作促进</a><a class="go_to_index" href="/"></a></nav>
+             <section class="newList_02">
+                           <h1>投资合作发展报告<a href="/article/tzhzcj/tzhz/">更多></a></h1>
+				           <section class="mt20">
+                                 <a href="/article/tzhzcj/tzhz/upload/zgdwtzhzfzbg2016.pdf" class="mr20 ml20"><img src="/img/img16.jpg"></a>
+                                 <a href="/article/tzhzcj/tzhz/upload/zgdwtzhzfzbg2015.pdf"><img src="/img/img12.jpg"></a>
+                           </section>
+						   <section class="mt20">
+                                 <a href="/article/tzhzcj/tzhz/upload/duiwaitouzihezuofazhanbaogao2014.pdf" class="mr20 ml20"><img src="/img/img11.jpg"></a>
+                                 <a href="/article/tzhzcj/tzhz/upload/fec2013-up.rar"><img src="/img/img10.jpg"></a>
+                           </section>
+             </section>
+		
+			<section class="newList_02">
+                           <h1>展会论坛<a href="/article/tzhzcj/article01.shtml">更多></a></h1>
+				<ul>
+	<li><a href="http://www.chinafair.org.cn/china/index/index.aspx" target="_blank">中国国际投资贸易洽谈会（98厦洽会）</a></li>
+    <li><a href="http://www.caexpo.org/" target="_blank">中国—东盟博览会</a></li>
+    <li><a href="http://www.caeexpo.org/" target="_blank">中国—亚欧博览会</a></li>
+    <li><a href="http://www.casetf.org/" target="_blank">中国—阿拉伯国家博览会</a></li>
+    <li><a href="http://www.neasiaexpo.org.cn/" target="_blank">中国—东北亚博览会</a></li>
+</ul>
+			</section>
+                        <section class="newList_02">
+                                <h1>自贸区网<a href="http://fta.mofcom.gov.cn" target="_blank">点击进入</a></h1>				
+			</section>
+                        <section class="newList_02">
+                                <h1>投资项目信息库<a href="http://project.fdi.gov.cn/" target="_blank">点击进入</a></h1>				
+			</section>
+			<section class="newList_02">
+                                <h1>国别投资经营状况便利化报告<a href="/article/tzhzcj/gbtz/">点击进入</a></h1>				
+			</section>
+		</section>
+	</section>
+	<div class="wrapper footer">
+	<p class="mt24">版权所有：中华人民共和国商务部 对外投资和经济合作司　　 技术支持：中国国际电子商务中心</p>
+	<p>网上政务技术支持电话：010－67870108                     邮箱: hezuosi@mofcom.gov.cn</p>
+        <span><img src="/img/icon/logo.gif" /></span>
+        <div class="logo1"><script type="text/javascript">
+document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/33/000/0000/40672568/CA330000000406725680001.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</div>
+</body>
+</html>

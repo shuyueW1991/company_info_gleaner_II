@@ -1,0 +1,11 @@
+Content-Security-Policy: default-src 'self' https://arduino.cc; script-src 'self' 'unsafe-inline' https://forum.arduino.cc https://store.arduino.cc https://store-cdn.arduino.cc https://arduino.cc https://checkout.stripe.com https://stats.g.doubleclick.net https://connect.facebook.net https://www.google-analytics.com https://code.jquery.com https://ajax.googleapis.com https://js.stripe.com https://auth.arduino.cc https://hydra.arduino.cc https://cdn.arduino.cc ; style-src 'self' 'unsafe-inline' https://code.jquery.com https://arduino.cc https://id.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; font-src 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; img-src 'self' https://www.google-analytics.com https://store.arduino.cc https://store-cdn.arduino.cc https://assets.windowsphone.com *.stripe.com https://content.arduino.cc https://dcw9y8se13llu.cloudfront.net https://stats.g.doubleclick.net https://www.facebook.com https://ssl.google-analytics.com https://my.arduino.cc https://blog.arduino.cc https://id.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; connect-src 'self' https://auth.arduino.cc https://api.arduino.cc https://my.arduino.cc https://forum.arduino.cc https://store.arduino.cc https://checkout.stripe.com https://api.stripe.com https://cdn.arduino.cc https://cdn-stag.arduino.cc; child-src 'self' https://create.arduino.cc https://downloads.arduino.cc https://checkout.stripe.com https://www.youtube.com https://js.stripe.com https://www.hackster.io; frame-src 'self' https://hydra.arduino.cc https://auth.arduino.cc https://create.arduino.cc https://downloads.arduino.cc https://www.youtube.com https://checkout.stripe.com https://js.stripe.com https://www.hackster.io; upgrade-insecure-requests; block-all-mixed-content
+Server: nginx/1.4.2
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 01 Jan 2002 00:00:00 GMT
+X-Cache: HIT
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.4.45-1~dotdeb+7.1
+Content-Encoding: gzip
+Cache-Control: no-store, no-cache, must-revalidate
+Date: Tue, 27 Jun 2017 10:07:06 GMT

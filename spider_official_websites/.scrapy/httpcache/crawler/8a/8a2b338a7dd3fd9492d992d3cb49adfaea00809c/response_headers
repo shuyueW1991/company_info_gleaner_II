@@ -1,0 +1,10 @@
+Cache-Control: private
+X-Aspnetmvc-Version: 4.0
+Set-Cookie: __RequestVerificationToken=qTWlWFLGHyYYvB0CdzF6apr8lrbzaznF0XZfAdNvpthAFa5XJ4a5NBRpRPBNoU4MxHHgLBfO3jx01jtZHPTVcdiQr6qY6KOhp4XtCtdZgAWUcHtmJ55MZT52dDDzege3gfAEwVgUTABitm5SdpUQqA2; path=/; HttpOnly
+Content-Type: text/html; charset=utf-8
+X-Powered-By: ASP.NET
+Vary: Accept-Encoding
+X-Aspnet-Version: 4.0.30319
+Date: Tue, 27 Jun 2017 10:08:52 GMT
+Content-Encoding: gzip
+Server: Microsoft-IIS/7.5

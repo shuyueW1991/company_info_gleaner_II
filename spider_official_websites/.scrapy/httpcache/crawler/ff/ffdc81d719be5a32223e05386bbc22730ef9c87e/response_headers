@@ -1,0 +1,12 @@
+Set-Cookie: session=eyJfZnJlc2giOmZhbHNlLCJfcGVybWFuZW50IjpmYWxzZX0.DDPBow.3K8X-YWUIA-lK1X8XaNYOhSxNPE; HttpOnly; Path=/
+Last-Modified: 2017-06-27 10:14:59.164992
+Content-Type: text/html; charset=utf-8
+Via: 1.1 52b1eb5d9b2b4e11e465d2d84c3f5d60.cloudfront.net (CloudFront)
+Server: nginx/1.10.2
+Date: Tue, 27 Jun 2017 10:14:59 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0
+Expires: -1
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Id: qSLLFfR9heAWx-tSYElpmYXEy8wRfaI19AXClr_rlHR9XQ7utMpBeQ==
+Location: https://www.sophos.com/en-us/legal.aspx
+Pragma: no-cache

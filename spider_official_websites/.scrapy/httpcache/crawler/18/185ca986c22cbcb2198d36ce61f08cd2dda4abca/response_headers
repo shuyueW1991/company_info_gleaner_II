@@ -1,0 +1,11 @@
+Strict-Transport-Security: max-age=31536000;
+Set-Cookie: ASP.NET_SessionId=eogjkeujptr4h3rslhtazus2; path=/; HttpOnly
+X-Aspnet-Version: 4.0.30319
+X-Aspnetmvc-Version: 4.0
+Server: Microsoft-IIS/8.5
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+X-Powered-By: ASP.NET
+Content-Encoding: gzip
+Cache-Control: private,private
+Date: Tue, 27 Jun 2017 10:07:51 GMT

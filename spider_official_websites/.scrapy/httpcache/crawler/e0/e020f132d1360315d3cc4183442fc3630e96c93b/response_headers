@@ -1,0 +1,20 @@
+Age: 0
+X-Cache: cp1054 pass, cp2016 pass, cp4010 pass, cp4010 pass
+Location: https://m.wikidata.org/w/index.php?title=Special:CreateAccount&printable=yes&returnto=Special%3ANewItem&returntoquery=page%3DTemplate%253ADiscussion%2Bnavigation%252Ftext%252Ffr%26site%3Dwikidatawiki&uselang=it
+Backend-Timing: D=68938 t=1498571353798269
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Server: mw1214.eqiad.wmnet
+X-Cache-Status: pass
+X-Varnish: 234207181, 481724064, 707903450, 641583739
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+Content-Type: text/html; charset=utf-8
+Date: Tue, 27 Jun 2017 13:49:13 GMT
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+Content-Encoding: gzip
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Last-Modified: Tue, 27 Jun 2017 13:49:13 GMT

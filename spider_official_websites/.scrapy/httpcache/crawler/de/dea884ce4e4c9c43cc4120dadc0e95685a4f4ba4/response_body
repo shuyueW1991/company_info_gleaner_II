@@ -1,0 +1,886 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>新浪帮助中心</title>
+<meta name="Keywords" content="新浪帮助中心" />
+<meta name="Description" content="新浪帮助中心" />
+<link rel="stylesheet" href="../../../css/reset.css" type="text/css" />
+<link rel="stylesheet" href="../../../css/common.css" type="text/css" />
+<script type="text/javascript" src="../../../js/jquery-1.7.1.min.js"></script>
+
+<style type="text/css">
+.main-lt {
+    float:left;
+    width:690px;
+}
+.main-rt {
+    float:right;
+    width:254px;
+}
+.prt1 {
+    padding-left:3px;
+}
+
+.search-box {
+    float:left;
+    width:400px;
+    height:30px;
+    padding:0;
+    margin:0;
+    line-height:30px;
+    background:url(/images/img_07.png) 0 0 no-repeat;
+    border:none;
+    overflow:hidden;
+    color:#999;
+    text-indent:10px;
+}
+.search-btn {
+    float:left;
+    width:31px;
+    height:32px;
+    border:none;
+    cursor:pointer;
+    background:url(/images/img_07.png) right 0 no-repeat;
+    overflow:hidden;
+}
+.search-keywords {
+    float:left;
+    padding-left:12px;
+    height:30px;
+    line-height:30px;
+    color:#999;
+}
+.search-keywords a:link,
+.search-keywords a:visited {
+    color:#4186a4;
+    text-decoration:none;
+}
+.search-keywords a:active,
+.search-keywords a:hover,
+.search-keywords a:focus {
+    color:#f00;
+    text-decoration:underline;
+}
+
+.menu1 {
+    background:url(/images/img_10.png) right bottom no-repeat;
+    font-size:14px;
+    color:#666;
+    line-height:30px;
+}
+
+.cont1 {
+    background:url(/images/img_05.png) 0 0 repeat-y;
+    padding:0 3px 10px 3px;
+}
+
+.cpsy {
+    background:url(/images/img_12.png) 1px bottom no-repeat;
+    padding:13px 0 0 56px;
+    line-height:30px;
+    height:30px;
+    color:#666;
+}
+
+.cont1-p {
+    padding:26px 0 13px 0;
+    background:url(/images/img_04.png) 50% bottom no-repeat;
+}
+.cont1-p2 {
+    padding:26px 0 13px 0;
+}
+.cont1-p a,
+.cont1-p2 a {
+    width:116px;
+    height:59px;
+    display:inline;
+    float:left;
+    margin-left:12px;
+    text-indent:-9999px;
+    overflow:hidden;
+}
+
+.boke-btn:link,
+.boke-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 1px -1120px no-repeat;
+}
+.boke-btn:active,
+.boke-btn:hover,
+.boke-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -1200px no-repeat;
+}
+
+.uc-btn:link,
+.uc-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 2px -960px no-repeat;
+}
+.uc-btn:active,
+.uc-btn:hover,
+.uc-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 1px -1040px no-repeat;
+}
+
+.caijing-btn:link,
+.caijing-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 1px -1280px no-repeat;
+}
+.caijing-btn:active,
+.caijing-btn:hover,
+.caijing-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -1360px no-repeat;
+}
+
+.vipmail-btn:link,
+.vipmail-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 1px -800px no-repeat;
+}
+.vipmail-btn:active,
+.vipmail-btn:hover,
+.vipmail-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -880px no-repeat;
+}
+
+.mail-btn:link,
+.mail-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 1px -640px no-repeat;
+}
+.mail-btn:active,
+.mail-btn:hover,
+.mail-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -720px no-repeat;
+}
+
+.cnmail-btn:link,
+.cnmail-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) -1px -480px no-repeat;
+}
+.cnmail-btn:active,
+.cnmail-btn:hover,
+.cnmail-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -560px no-repeat;
+}
+
+.qiyemail-btn:link,
+.qiyemail-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 1px -1440px no-repeat;
+}
+.qiyemail-btn:active,
+.qiyemail-btn:hover,
+.qiyemail-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -1520px no-repeat;
+}
+
+.weibo-btn:link,
+.weibo-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -320px no-repeat;
+}
+.weibo-btn:active,
+.weibo-btn:hover,
+.weibo-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -400px no-repeat;
+}
+
+.anquan-btn:link,
+.anquan-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -160px no-repeat;
+}
+.anquan-btn:active,
+.anquan-btn:hover,
+.anquan-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -240px no-repeat;
+}
+
+.ub-btn:link,
+.ub-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 0 no-repeat;
+}
+.ub-btn:active,
+.ub-btn:hover,
+.ub-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0604/image/0325img_23.png) 0 -81px no-repeat;
+}
+
+.xinfutong-btn:link,
+.xinfutong-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -800px no-repeat;
+}
+.xinfutong-btn:active,
+.xinfutong-btn:hover,
+.xinfutong-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -880px no-repeat;
+}
+
+.shipin-btn:link,
+.shipin-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -640px no-repeat;
+}
+.shipin-btn:active,
+.shipin-btn:hover,
+.shipin-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -720px no-repeat;
+}
+
+.shangcheng-btn:link,
+.shangcheng-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -480px no-repeat;
+}
+.shangcheng-btn:active,
+.shangcheng-btn:hover,
+.shangcheng-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -560px no-repeat;
+}
+
+.luntan-btn:link,
+.luntan-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -320px no-repeat;
+}
+.luntan-btn:active,
+.luntan-btn:hover,
+.luntan-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -400px no-repeat;
+}
+
+.guanggao-btn:link,
+.guanggao-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -160px no-repeat;
+}
+.guanggao-btn:active,
+.guanggao-btn:hover,
+.guanggao-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -240px no-repeat;
+}
+
+.wuxian-btn:link,
+.wuxian-btn:visited {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 0 no-repeat;
+}
+.wuxian-btn:active,
+.wuxian-btn:hover,
+.wuxian-btn:focus {
+    background:url(http://www.sinaimg.cn/dy/deco/2015/0206/image/index_img_22b.png) 0 -80px no-repeat;
+}
+
+.btnline1 {
+    height:6px;
+    line-height:6px;
+    font-size:0px;
+    overflow:hidden;
+    background:url(/images/img_24.png) 50% 0 no-repeat;
+}
+
+
+.prt3 {
+    padding-top:20px;
+    _padding-top:27px;  /* liuxiaolong.fix12 */
+}
+.prt3-line1 {
+    padding:0 3px;
+}
+
+.tabmenu1 {
+    height:32px;
+    line-height:36px;
+    border-bottom:solid 1px #d5d5d5;
+}
+.tabmenu1 span {
+    text-align:center;
+    margin-right:5px;
+    background:url(/images/img_14.png) 0 3px no-repeat;
+    width:89px;
+    height:32px;
+    color:#666;
+    cursor:pointer;
+    display:inline;
+    float:left;
+}
+.tabmenu1 span.active {
+    color:#fff;
+    background:url(/images/img_13.png) 0 3px no-repeat;
+    height:40px;
+    position:relative;
+}
+
+.wtlb {
+    height:304px;
+}
+
+.cont2 {
+    padding:12px 30px 10px 0;
+    background:url(/images/img_16.png) 50% 0 repeat-y;
+}
+.cont2 li {
+    font-size:14px;
+    display:inline;
+    float:left;
+    width:290px;
+    padding-left:30px;
+    height:28px;
+    line-height:28px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.cont2 a:link {
+    color:#333;
+    text-decoration:none;
+}
+.cont2 a:visited {
+    color:#800080;
+    text-decoration:none;
+}
+.cont2 a:active,
+.cont2 a:hover,
+.cont2 a:focus {
+    color:#f00;
+    text-decoration:underline;
+}
+
+a.bluea:link,
+a.bluea:visited,
+.cont2 a.bluea:link,
+.cont2 a.bluea:visited {
+    color:#4186a4;
+    text-decoration:none;
+}
+a.bluea:active,
+a.bluea:hover,
+a.bluea:focus,
+.cont2 a.bluea:active,
+.cont2 a.bluea:hover,
+.cont2 a.bluea:focus {
+    color:#f00;
+    text-decoration:underline;
+}
+
+.btnline2 {
+    height:8px;
+    line-height:8px;
+    font-size:0;
+    overflow:hidden;
+    background:url(/images/img_25.png) 50% 0 no-repeat;
+}
+
+
+.gonggao {
+    width:238px;
+    height:30px;
+    line-height:30px;
+    padding-left:10px;
+    color:#4186a4;
+    background:url(/images/img_09.png) 0 0 no-repeat;
+    overflow:hidden;
+    margin-left:3px; /* liuxiaolong.fix11 */
+}
+.gonggao .gonggao-rt {
+    float:left;
+    color:#f00;
+    width:175px;
+    text-indent:2px;
+}
+.gonggao-rt a:link {
+    color:#f00;
+    text-decoration:none;
+}
+.gonggao-rt a:visited {
+    color:#800080;
+    text-decoration:none;
+}
+.gonggao-rt a:active,
+.gonggao-rt a:hover,
+.gonggao-rt a:focus {
+    color:#f00;
+    text-decoration:underline;
+}
+
+.prt4 {
+    padding-top:2px;
+}
+.xlwb {
+    padding:13px 0 0 53px;
+    line-height:30px;
+    height:30px;
+    background:url(/images/img_08.png) 0px bottom no-repeat; /* liuxiaolong.fix11 */
+}
+.cont3 {
+    background:url(/images/img_17.png) 50% 0 repeat-y;
+    padding:5px 10px;
+    overflow:hidden;
+}
+.cont3 iframe {
+    margin:0 auto;
+}
+.btnline3 {
+    background:url(/images/img_18.png) 50% 0 no-repeat;
+    height:8px;
+    line-height:8px;
+    font-size:0;
+}
+
+/* 客服电话 */
+.kfdh {
+    float:left;
+    padding:13px 0 0 53px;
+    background:url(/images/img_19.png) -1px bottom no-repeat; /* liuxiaolong.fix11 */
+}
+/* 联系客服 */
+.lxkf {
+    float:right;
+    color:#4186a4;
+    padding:13px 10px 0 0;
+}
+
+
+.kfdh-p {
+    height:34px;
+    padding:0 0 8px 19px;
+    color:#333;
+}
+.kfdh-p span {
+    line-height:34px;
+    display:inline-block;
+}
+.kfdh-underline {
+    background:url(/images/img_20.png) 50% bottom no-repeat;
+}
+.kfdh-number {
+    color:#1291ea;
+    font-size:20px;
+    font-family:Arial, "黑体";
+    font-weight:bold;
+    padding-left:5px;
+}
+.kfdh-more {
+    padding-left:19px;
+}
+</style>
+
+<script language="javascript" type="text/javascript">
+<!--//--><![CDATA[//><!--
+//向上翻滚构造函数 mengjia 110324
+//向上翻滚参数: SinaScrTop(容器ID, 页高[px], 间隔时间[秒/默认5], 速度[毫秒/默认10], 鼠标移入停止[true|false])
+eval(function(p,a,c,k,e,r){e=function(c){return(c<62?'':e(parseInt(c/62)))+((c=c%62)>35?String.fromCharCode(c+29):c.toString(36))};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[13-9a-df-zA-G]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 b(3,5,d,f,k){1.g=q;4(!3||!5)l m n("b(String 3,r 5)等参数:必须");4(!1.$(3))l m n("b()参数错误:3 对像存在");try{4(5<=0)l m n("b(r 5)参数:错误");}catch(e){l m n("b(r 5)参数:错误");};1.3=3;1.5=5;1.d=d?d*1000:5000;1.f=f?f:10;1.k=k;1.x()};b.prototype={x:6(){4(!1.$(1.3)){c};h 9=1,o;h 7=1.$(1.3).getElementsByTagName(\'7\');4(7[0]&&7[0].y==\'z\'){4(7[0].A<=1.5){c};o=7[0].i}B{4(1.$(1.3).A<=1.5){c};o=1.$(1.3).i};1.p=j.C("7");1.p.y=\'z\';1.s=j.C("7");1.p.i=1.s.i=o;1.$(1.3).i="";1.$(1.3).D(1.p);1.$(1.3).D(1.s);1.$(1.3).8=0;1.$(1.3).E.overflow="hidden";1.$(1.3).E.height=1.5+"px";4(1.k!=false){1.$(1.3).onmouseover=6(){9.t()};1.$(1.3).onmouseout=6(){9.u()}};1.u()},u:6(){4(1.g==q){h 9=1;1.g=setInterval(6(){9.v()},1.d)}},t:6(){clearInterval(1.g);1.g=q},v:6(a){4(!1.$(1.3)){1.t();c};4(typeof(a)==\'undefined\'){a=1.5};h 9=1;h 8=1.$(1.3).8;4(a>0){8+=2;a-=2;4(8>=1.$(1.3).scrollHeight/2){8=0;a=0};1.$(1.3).8=8;setTimeout(6(){9.v(a)},1.f)}},$:6(w){4(j.F){c G(\'j.F("\'+w+\'")\')}B{c G(\'j.all.\'+w)}}}',[],43,'|this||parentId|if|pageHeight|function|div|scrollTop|tempThis|num|SinaScrTop|return|timeSpace||speed|TimeObj|var|innerHTML|document|hoverStop|throw|new|Error|html|childDiv1|null|Number|childDiv2|stop|play|moveUp|objName|init|sType|scrollChild|clientHeight|else|createElement|appendChild|style|getElementById|eval'.split('|'),0,{}));
+//-------------------------------- End --------------------------------------
+//--><!]]>
+</script>
+<script language="javascript" type="text/javascript">
+<!--//--><![CDATA[//><!--
+/*
+舌签构造函数
+SubShowClass(ID[,eventType][,defaultID][,openClassName][,closeClassName])
+version 1.31
+*/
+function SubShowClass(C,i,c,l,I){var V=this,v=V;V.parentObj=V.$(C);if(V.parentObj==null&&C!="none"){throw new Error("SubShowClass(ID)参数错误:ID 对像不存在!(value:"+C+")")};V.lock=false;V.label=[];V.defaultID=c==null?0:c;V.selectedIndex=V.defaultID;V.openClassName=l==null?"selected":l;V.closeClassName=I==null?"":I;V.mouseIn=false;var O=function(){v.mouseIn=true},o=function(){v.mouseIn=false};if(C!="none"&&C!=""){if(V.parentObj.attachEvent){V.parentObj.attachEvent("onmouseover",O)}else{V.parentObj.addEventListener("mouseover",O,false)}};if(C!="none"&&C!=""){if(V.parentObj.attachEvent){V.parentObj.attachEvent("onmouseout",o)}else{V.parentObj.addEventListener("mouseout",o,false)}};if(typeof(i)!="string"){i="onmousedown"};i=i.toLowerCase();switch(i){case "onmouseover":V.eventType="mouseover";break;case "onmouseout":V.eventType="mouseout";break;case "onclick":V.eventType="click";break;case "onmouseup":V.eventType="mouseup";break;default:V.eventType="mousedown"};V.autoPlay=false;V.autoPlayTimeObj=null;V.spaceTime=5000};SubShowClass.prototype={version:"1.31",author:"mengjia",_setClassName:function(l,I){var o=this,i;i=l.className;if(i){i=i.replace(o.openClassName,"");i=i.replace(o.closeClassName,"");i+=" "+(I=="open"?o.openClassName:o.closeClassName)}else{i=(I=="open"?o.openClassName:o.closeClassName)};l.className=i},addLabel:function(labelID,contID,parentBg,springEvent,blurEvent){var t=this,labelObj=this.$(labelID),contObj=this.$(contID);if(labelObj==null&&labelID!="none"){throw new Error("addLabel(labelID)参数错误:labelID 对像不存在!(value:"+labelID+")")};var TempID=this.label.length;if(parentBg==""){parentBg=null};this.label.push([labelID,contID,parentBg,springEvent,blurEvent]);var tempFunc=function(){t.select(TempID)};if(labelID!="none"){if(labelObj.attachEvent){labelObj.attachEvent("on"+this.eventType,tempFunc)}else{labelObj.addEventListener(this.eventType,tempFunc,false)}};if(TempID==this.defaultID){if(labelID!="none"){this._setClassName(labelObj,"open")};if(this.$(contID)){contObj.style.display=""};if(this.ID!="none"){if(parentBg!=null){this.parentObj.style.background=parentBg}};if(springEvent!=null){eval(springEvent)}}else{if(labelID!="none"){this._setClassName(labelObj,"close")};if(contObj){contObj.style.display="none"}};var mouseInFunc=function(){t.mouseIn=true},mouseOutFunc=function(){t.mouseIn=false};if(contObj){if(contObj.attachEvent){contObj.attachEvent("onmouseover",mouseInFunc)}else{contObj.addEventListener("mouseover",mouseInFunc,false)};if(contObj.attachEvent){contObj.attachEvent("onmouseout",mouseOutFunc)}else{contObj.addEventListener("mouseout",mouseOutFunc,false)}}},select:function(num,force){if(typeof(num)!="number"){throw new Error("select(num)参数错误:num 不是 number 类型!(value:"+num+")")};if(force!=true&&this.selectedIndex==num){return};var i;for(i=0;i<this.label.length;i++){if(i==num){if(this.label[i][0]!="none"){this._setClassName(this.$(this.label[i][0]),"open")};if(this.$(this.label[i][1])){this.$(this.label[i][1]).style.display=""};if(this.ID!="none"){if(this.label[i][2]!=null){this.parentObj.style.background=this.label[i][2]}};if(this.label[i][3]!=null){eval(this.label[i][3])}}else if(this.selectedIndex==i||force==true){if(this.label[i][0]!="none"){this._setClassName(this.$(this.label[i][0]),"close")};if(this.$(this.label[i][1])){this.$(this.label[i][1]).style.display="none"};if(this.label[i][4]!=null){eval(this.label[i][4])}}};this.selectedIndex=num},random:function(){var O=this;if(arguments.length!=O.label.length){throw new Error("random()参数错误:参数数量与标签数量不符!(length:"+arguments.length+")")};var l=0,o;for(o=0;o<arguments.length;o++){l+=arguments[o]};var I=Math.random(),i=0;for(o=0;o<arguments.length;o++){i+=arguments[o]/l;if(I<i){O.select(o);break}}},order:function(){var O=this;if(arguments.length!=O.label.length){throw new Error("order()参数错误:参数数量与标签数量不符!(length:"+arguments.length+")")};if(!(/^\d+$/).test(SubShowClass.sum)){return};var i=0,o;for(o=0;o<arguments.length;o++){i+=arguments[o]};var I=SubShowClass.sum%i;if(I==0){I=i};var l=0;for(o=0;o<arguments.length;o++){l+=arguments[o];if(l>=I){O.select(o);break}}},play:function(spTime){var t=this;if(typeof(spTime)=="number"){this.spaceTime=spTime};clearInterval(this.autoPlayTimeObj);this.autoPlayTimeObj=setInterval(function(){t.autoPlayFunc()},this.spaceTime);this.autoPlay=true},autoPlayFunc:function(){var i=this;if(i.autoPlay==false||i.mouseIn==true){return};i.nextLabel()},nextLabel:function(){var t=this,index=this.selectedIndex;index++;if(index>=this.label.length){index=0};this.select(index);if(this.autoPlay==true){clearInterval(this.autoPlayTimeObj);this.autoPlayTimeObj=setInterval(function(){t.autoPlayFunc()},this.spaceTime)}},previousLabel:function(){var t=this,index=this.selectedIndex;index--;if(index<0){index=this.label.length-1};this.select(index);if(this.autoPlay==true){clearInterval(this.autoPlayTimeObj);this.autoPlayTimeObj=setInterval(function(){t.autoPlayFunc()},this.spaceTime)}},stop:function(){var i=this;clearInterval(i.autoPlayTimeObj);i.autoPlay=false},$:function(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}};SubShowClass.readCookie=function(O){var o="",l=O+"=";if(document.cookie.length>0){var i=document.cookie.indexOf(l);if(i!=-1){i+=l.length;var I=document.cookie.indexOf(";",i);if(I==-1)I=document.cookie.length;o=unescape(document.cookie.substring(i,I))}};return o};SubShowClass.writeCookie=function(i,l,o,c){var O="",I="";if(o!=null){O=new Date((new Date).getTime()+o*3600000);O="; expires="+O.toGMTString()};if(c!=null){I=";domain="+c};document.cookie=i+"="+escape(l)+O+I};SubShowClass.sum=SubShowClass.readCookie("SSCSum");if((/^\d+$/).test(SubShowClass.sum)){SubShowClass.sum++}else{SubShowClass.sum=1};SubShowClass.writeCookie("SSCSum",SubShowClass.sum,12);
+//--><!]]>
+</script>
+
+
+
+<script type="text/javascript">
+$(function(){
+    $( '#searchBox' ).focus(function(){
+        if( $(this).val() == '请输入关键字，如：找回密码、微博注册' )
+            $( this ).val('').css('color', '#000');
+    }).blur(function(){
+        if( $(this).val() == '' )
+            $( this ).val( '请输入关键字，如：找回密码、微博注册' ).css('color', '#999');
+    });
+});
+</script>
+</head>
+
+<body>
+
+    <div class="wrap">
+		<!-- block nav_nosearch -->
+		
+		<div class="header">
+            <a class="logo pt" href="/">新浪帮助中心</a>
+            <div class="topmenu">
+                <a href="http://www.sina.com.cn">新浪首页</a>
+                | <a target="_blank" href="http://blog.sina.com.cn/">博客</a>
+                | <a target="_blank" href="http://weibo.com">微博</a>
+                | <a target="_blank" href="http://mail.sina.com.cn/">邮箱</a>
+                | <a target="_blank" href="http://video.sina.com.cn">视频</a>
+                | <a target="_blank" href="http://uc.sina.com.cn/">UC</a>
+            </div>  <!-- topmenu end -->
+        </div>  <!-- header end -->
+
+        <div class="nav clearfix">
+            <a href="/" class="cur">首页</a>
+            <a href="http://help.sina.com.cn/commonquestion/view/" target="_blank" class="">常见问题</a>
+            <a href="http://help.sina.com.cn/askquestion/view/" target="_blank" class="">在线答疑</a>
+            <a target="_blank" href="http://emarketing.sina.com.cn/">广告</a>
+        </div> <!-- nav end -->
+		
+		<!-- block nav_nosearch -->
+
+
+        <div class="main clearfix">
+            <div class="main-lt">
+                <form method="post" target="_blank" action="http://help.sina.com.cn/comquestionsearch/view/">
+                <div class="prt1 clearfix">
+                        <input id="searchBox" name="title" class="search-box" type="text" value="请输入关键字，如：找回密码、客户端设置" />
+                        <input class="search-btn pt" type="submit" value="" />
+                        <div class="search-keywords">
+                           搜索热词:
+                            <a href="?s=ComQuestionSearch&a=view&title=理财师">理财师</a>
+<a href="?s=ComQuestionSearch&a=view&title=客户端">客户端</a>
+<a href="?s=ComQuestionSearch&a=view&title=密码">密码</a>
+<a href="?s=ComQuestionSearch&a=view&title=邮箱">邮箱</a>
+                        </div>
+                </div>
+                </form>  <!-- prt1 end -->
+
+                <div class="prt2">
+                    <div class="menu1">
+                        <div class="cpsy">产品索引</div>
+                    </div>
+
+                    <div class="cont1">
+                        <div class="cont1-p clearfix">
+                            <a class="caijing-btn" target="_blank" href="http://help.sina.com.cn/commonquestion/subview/20/">新浪财经</a>
+                             <a class="shipin-btn"  target="_blank"  href="http://help.sina.com.cn/commonquestion/subview/7/">视频</a>
+                            <a class="vipmail-btn"  target="_blank"  href="http://help.sina.com.cn/commonquestion/subview/3/">VIP邮箱</a>
+                            <a class="mail-btn"  target="_blank"  href="http://help.sina.com.cn/commonquestion/subview/2/">免费邮箱</a>
+                            <a class="qiyemail-btn"  target="_blank"  href="http://mail.sina.net/help">企业邮箱</a>
+                        </div>
+                        <div class="cont1-p clearfix">
+                             <a class="boke-btn"  target="_blank"  href="http://help.sina.com.cn/commonquestion/subview/1/">博客</a>
+                            <a class="weibo-btn"  target="_blank"  href="http://help.weibo.com">微博</a>
+                            <a class="xinfutong-btn"  target="_blank"  href="http://help.sina.com.cn/commonquestion/subview/19/">V币</a>
+                            <a class="anquan-btn"  target="_blank"  href="http://help.sina.com.cn/commonquestion/subview/4/">安全中心</a>
+                            <a class="luntan-btn"  target="_blank"  href="http://help.sina.com.cn/commonquestion/subview/8/">论坛</a>
+
+                        </div>
+                        <div class="cont1-p2 clearfix">
+
+
+                            <a class="guanggao-btn" target="_blank"  href="http://emarketing.sina.com.cn/">广告</a>
+                            <!-- <a class="wuxian-btn"  target="_blank"   href="http://www.miaoche.com/">新浪秒车</a>  -->
+                        </div>
+                    </div>  <!-- cont 1 end -->
+                    <div class="btnline1"></div>
+                </div>  <!-- prt2 end -->
+
+                <div class="prt3">
+                    <div class="prt3-line1">
+                        <div class="tabmenu1 clearfix" id="tab1-menu1">
+                            <span class="active" id="tab1-btn1">热点问题</span>
+                            <span id="tab1-btn2">博客</span>
+                            <span id="tab1-btn3">VIP邮箱</span>
+                            <span id="tab1-btn4">免费邮箱</span>
+                            <span id="tab1-btn5">V币</span>
+                            <span id="tab1-btn6">新浪财经</span>
+                        </div> <!-- tabmenu1 end -->
+                    </div>
+                                       <div class="cont2 wtlb" id="tab1-cont1" >
+                        <ul class="clearfix">
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1530/" target="_blank">设置股价提醒后忘记登陆名怎么办？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1529/" target="_blank">单次提醒与重复提醒的区别</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1528/" target="_blank">如何设置股价提醒</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1527/" target="_blank">订阅方式及资费</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1526/" target="_blank">什么是股价短信提醒</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1522/" target="_blank">自选股介绍</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1520/" target="_blank">如何下载</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1519/" target="_blank">港股Level2行情产品特色</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1511/" target="_blank">港股Level2行情如何购买</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1507/" target="_blank"> 港股Level2行情购买价格</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1506/" target="_blank">港股Level2行情使用要求</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1505/" target="_blank">什么是港股Level2行情</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1405/" target="_blank">如何使用小米手机的邮件应用程序创..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1404/" target="_blank">如何使用小米手机的邮件应用程序创..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1399/" target="_blank">如何用安全问题找回支付密码？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1391/" target="_blank">如何找回支付密码？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1376/" target="_blank">银行卡充值流程</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=18" target="_blank">[读书]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1322/" target="_blank">VIP会员说明</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=18" target="_blank">[读书]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1317/" target="_blank">如何购买阅读币</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1298/" target="_blank">博客身份认证答疑</a></li>
+                                                  </ul>
+                        <div class="tart"><a class="bluea" href="http://help.sina.com.cn/commonquestion/view/">更多问题>></a></div>
+                    </div>
+
+                                       <div class="cont2 wtlb" id="tab1-cont2" style="display:none;">
+                        <ul class="clearfix">
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1482/" target="_blank">如何更换博客页面版式？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1477/" target="_blank">焕然一新！博客新版发布器上线啦！</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1476/" target="_blank">博客广告分成计划</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1475/" target="_blank">新浪博客现推好玩积分新功能</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1474/" target="_blank"> 新浪博客推出新功能——神回复</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1473/" target="_blank">博客如何申请删除不良信息</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1460/" target="_blank">如何向编辑推荐自己的文章</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1299/" target="_blank">购喜欢如何发布商品博文</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1298/" target="_blank">博客身份认证答疑</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1289/" target="_blank">什么是博文标签?</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1288/" target="_blank">怎样设置定时发布?</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/836/" target="_blank">简版音乐播放器介绍及使用</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/780/" target="_blank">博客访问流量统计</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/777/" target="_blank">如何推荐自己博文到博客首页？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/656/" target="_blank">如何转载他人的博文？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/653/" target="_blank">如何在博客中插入微博内容？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/652/" target="_blank">如何对博客快速设置</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/534/" target="_blank">博客新版中找不到我已收藏的照片？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/530/" target="_blank">如何在博文中批量上传图片？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=1" target="_blank">[博客]</a><a href="http://help.sina.com.cn/comquestiondetail/view/529/" target="_blank">如何对博客评论、纸条等功能进行管理？</a></li>
+                                                  </ul>
+                        <div class="tart"><a class="bluea" href="http://help.sina.com.cn/commonquestion/view/">更多问题>></a></div>
+                    </div>
+
+                                       <div class="cont2 wtlb" id="tab1-cont3" style="display:none;">
+                        <ul class="clearfix">
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1563/" target="_blank">VIP邮箱发票样例</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1561/" target="_blank">电子传真业务调整公告</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1560/" target="_blank">Windows Mail如何设置</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1549/" target="_blank">手机号不再使用了或丢失，该怎么操作？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1548/" target="_blank">手机微盾用户如何解绑？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1547/" target="_blank">如何获得微盾？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1487/" target="_blank">来信规则设置如何使用？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1486/" target="_blank">短信提醒支付遇到问题及解决方法</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1485/" target="_blank">能否更换短信提醒的支付方式？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1484/" target="_blank">我有多个邮箱，可以用同一个手机接..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1483/" target="_blank">短信提醒选择支付宝支付，为什么进..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1464/" target="_blank">VIP邮箱的密码忘记应如何查询？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1459/" target="_blank">如何召开电话会议</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1458/" target="_blank"> 如何发起预约会议</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1457/" target="_blank">使用话机发起呼出式会议</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1456/" target="_blank">使用话机发起呼入式会议</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1455/" target="_blank">通过网络如何控制会议进程</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1454/" target="_blank">通过话机如何控制会议进程</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1453/" target="_blank">主要功能设置</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=3" target="_blank">[vip邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1452/" target="_blank">什么是电话会议</a></li>
+                                                  </ul>
+                        <div class="tart"><a class="bluea" href="http://help.sina.com.cn/commonquestion/view/">更多问题>></a></div>
+                    </div>
+
+                                       <div class="cont2 wtlb" id="tab1-cont4" style="display:none;">
+                        <ul class="clearfix">
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1562/" target="_blank">邮箱网盘功能调整</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1559/" target="_blank">客户端重复接收相同邮件怎么办？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1558/" target="_blank">在客户端提示“用户名或密码错误”..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1557/" target="_blank">如何设置Windows Mail</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1556/" target="_blank">新浪手机邮客户端</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1480/" target="_blank">我有多个邮箱，可以用同一个手机接..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1479/" target="_blank">能否更换短信提醒的支付方式？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1478/" target="_blank">短信提醒选择支付宝支付，为什么进..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1446/" target="_blank">如何注销手机号码邮箱？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1445/" target="_blank">如何更改手机号码邮箱？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1443/" target="_blank">什么是手机号码邮箱</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1414/" target="_blank">2013年10月壁纸下载--欢庆国庆</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1408/" target="_blank">2013年09月壁纸下载--中秋</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1407/" target="_blank">2013年08月壁纸下载--七夕</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1405/" target="_blank">如何使用小米手机的邮件应用程序创..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1403/" target="_blank">2013年07月壁纸下载--毕业季</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1402/" target="_blank">2013年06月壁纸下载--快乐童年</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1401/" target="_blank">2013年05月壁纸下载--快乐..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1380/" target="_blank">如何解除浏览器限制脚本？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=2" target="_blank">[免费邮箱]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1336/" target="_blank">2013年04月壁纸下载--春来了</a></li>
+                                                  </ul>
+                        <div class="tart"><a class="bluea" href="http://help.sina.com.cn/commonquestion/view/">更多问题>></a></div>
+                    </div>
+
+                                       <div class="cont2 wtlb" id="tab1-cont5" style="display:none;">
+                        <ul class="clearfix">
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1555/" target="_blank">微调研积分兑换微币常见问题</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1554/" target="_blank">paypal外币充值流程</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1553/" target="_blank">手机、固话充值流程</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1552/" target="_blank">消费卡充值流程</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1551/" target="_blank">充值特别说明</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1550/" target="_blank">微调研积分获取方式</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1400/" target="_blank">如何更改安全问题？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1399/" target="_blank">如何用安全问题找回支付密码？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1398/" target="_blank">安全邮箱绑定流程</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1397/" target="_blank">如何用安全邮箱找回支付密码？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1396/" target="_blank">安全手机绑定流程</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1395/" target="_blank">如何取消绑定安全手机？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1394/" target="_blank">如何更改绑定安全手机？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1393/" target="_blank">如何通过安全手机找回支付密码？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1392/" target="_blank">手机丢失了，如何取消绑定手机？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1391/" target="_blank">如何找回支付密码？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1390/" target="_blank">如何修改支付密码？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1389/" target="_blank">如何进行短信支付？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1388/" target="_blank">如何进行手机支付在线支付？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=19" target="_blank">[微币]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1384/" target="_blank">银联在线支付常见问题</a></li>
+                                                  </ul>
+                        <div class="tart"><a class="bluea" href="http://help.sina.com.cn/commonquestion/view/">更多问题>></a></div>
+                    </div>
+
+                                       <div class="cont2 wtlb" id="tab1-cont6" style="display:none;">
+                        <ul class="clearfix">
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1546/" target="_blank">订阅高手后忘记登陆名怎么办？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1545/" target="_blank">H5如何查找大赛中可订阅的高手？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1544/" target="_blank">如何查找大赛中可订阅的高手？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1543/" target="_blank"> H5如何参加大赛</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1542/" target="_blank">如何参加大赛</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1541/" target="_blank">订阅高手为何收不到短信</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1540/" target="_blank">什么是高手ID</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1539/" target="_blank">H5订阅期间能换手机号吗？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1538/" target="_blank">订阅期间能换手机号吗？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1537/" target="_blank">H5如何更换订阅？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1536/" target="_blank"> 如何更换订阅？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1535/" target="_blank">登陆账号的密码丢失，如何找回？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1534/" target="_blank">如何修改股吧昵称</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1533/" target="_blank">为什么我的帖子被删除？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1532/" target="_blank">为什么无法访问黄金吧、白银吧，提..</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1531/" target="_blank">为什么无法正常发帖</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1530/" target="_blank">设置股价提醒后忘记登陆名怎么办？</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1529/" target="_blank">单次提醒与重复提醒的区别</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1528/" target="_blank">如何设置股价提醒</a></li>
+                                                      <li><a class="bluea" href="?s=CommonQuestion&a=subview&productid=20" target="_blank">[新浪财经]</a><a href="http://help.sina.com.cn/comquestiondetail/view/1527/" target="_blank">订阅方式及资费</a></li>
+                                                  </ul>
+                        <div class="tart"><a class="bluea" href="http://help.sina.com.cn/commonquestion/view/">更多问题>></a></div>
+                    </div>
+
+                   
+                    <div class="btnline2"></div>
+                </div>  <!-- prt3 end -->
+<script type="text/javascript">
+var SubShow_02 = new SubShowClass("tab1-menu1", 'onmouseover', 0, 'active', '');//String 主ID(必须的)，String 触发事件(onmouseover)，Number 默认打开项(0)，String 打开项className(selectd)，String 关闭项className(空)
+SubShow_02.addLabel("tab1-btn1","tab1-cont1");//String 标签ID(必须的)，String 内容ID(null)，String 重置主容器背景CSS(null)，String 绑定触发事件(null)，String 绑定恢复事件(null)
+SubShow_02.addLabel("tab1-btn2","tab1-cont2");
+SubShow_02.addLabel("tab1-btn3","tab1-cont3");
+SubShow_02.addLabel("tab1-btn4","tab1-cont4");
+SubShow_02.addLabel("tab1-btn5","tab1-cont5");
+SubShow_02.addLabel("tab1-btn6","tab1-cont6");
+
+</script>
+            </div>  <!-- main left end -->
+
+            <div class="main-rt">
+                <div class="gonggao clearfix">
+                    <div class="lt">最新公告:</div>
+                    <div class="gonggao-rt" id="gonggao">
+                        <p><a href="?s=contactus&a=noticeview&id=50" target="_blank">新浪客服招聘</a>
+<p><a href="?s=contactus&a=noticeview&id=46" target="_blank">不良信息举报电话4006900000</a></p> 
+<p><a href="?s=contactus&a=noticeview&id=31" target="_blank">谨防虚假中奖信息诈骗</a></p> 
+<p><a href="?s=contactus&a=noticeview&id=51" target="_blank">电子传真业务调整公告</a></p> 
+                    </div>
+                </div> <!-- gonggao end -->
+
+<script language="javascript" type="text/javascript">
+//向上翻滚参数: 容器ID,页高(px),间隔时间(秒,默认5),速度(毫秒,默认10)
+var sinaScrTopObj1 = new SinaScrTop('gonggao',30,6,20,false);
+sinaScrTopObj1.play();
+</script>
+
+                <div class="prt4">
+                    <div class="menu1">
+                        <div class="xlwb">新浪微博</div>
+                    </div>  <!-- menu 1 end -->
+
+                    <div class="cont3">
+                        <iframe width="235" height="368" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=410&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=1358795811&verifier=7334c140&dpc=1"></iframe>
+                    </div>  <!-- cont 3 新浪微博 end -->
+
+                    <div class="btnline3"></div>
+                </div>  <!-- xlwb end -->
+
+                <div class="prt5">
+                    <div class="menu1 clearfix">
+                        <div class="kfdh">客服电话</div>
+                        <div class="lxkf"><a class="bluea" href="http://help.sina.com.cn/contactus/view/25/" target="_blank">联系客服</a></div>
+                    </div>
+
+                    <div class="cont3">
+                        <div class="kfdh-p kfdh-underline">
+                            <span>新浪客服热线</span> <span class="kfdh-number">4006-900-000</span>
+                        </div>
+                        <div class="kfdh-p kfdh-underline">
+                            <span>广告客服热线</span> <span class="kfdh-number">4008-812-813</span>
+                        </div>
+                        <div class="kfdh-p kfdh-underline">
+                            <span>微博客服热线</span> <span class="kfdh-number">4000-960-960</span>
+                        </div>
+                        <div class="kfdh-p kfdh-underline">
+                            <span>微博广告热线</span> <span class="kfdh-number">4000-980-980</span>
+                        </div>
+                        <!-- <div class="kfdh-p kfdh-underline">
+                            <span>秒车客服热线</span> <span class="kfdh-number">4000-970-970</span>
+                        </div> -->
+                        <div class="kfdh-more">
+                           <a href="?s=contactus&a=noticeview&id=29" target="_blank" class="bluea">无法拨打"4006"及"4008"的>></a> </br>
+                           <a href="http://help.sina.com.cn/contactus/view/25/" target="_blank" class="bluea">用户电话语音菜单>></a>
+                        </div>
+                    </div>  <!-- cont3 客服电话 end -->
+
+                    <div class="btnline3"></div>
+                </div>  <!-- prt5 end -->
+            </div>  <!-- main right end -->
+        </div>  <!-- main end -->
+        <!-- 二维码-->
+        <div>
+        <div class="side-btns-2w side-btns-weixin" style="display: block;">
+ 	<a title="新浪客服官方微信" class="side-btns-2w-img" href="javascript:void(0)">
+ 		<em>新浪客服官方微信</em> <img width="90" src="/images/weixin.png" src="http://i0.sinaimg.cn/dy/main/other/qrcode_indexright_90.jpg">
+ 		 <span style="cursor:default;">扫扫获得更多帮助 </span> 
+ 	</a> 
+ 	<a title="关闭" class="side-btns-2w-close" href="javascript:;">关闭</a>
+ </div>
+ <div class="side-btns-2w  side-btns-weibo" style="display: block;">
+    	<a title="新浪客服官方微博" class="side-btns-2w-img" href="javascript:void(0)">
+    		<em>新浪客服官方微博 </em> <img width="90" src="/images/weibo.png">
+    		 <span style="cursor:default;">扫扫获得更多帮助</span> 
+    		</a> 
+    		<a title="关闭" class="side-btns-2w-close" href="javascript:;">关闭</a>
+  </div>
+<script>
+$(function(){
+   $('.side-btns-2w').each(function(){
+	var box = $(this);
+        box.find('.side-btns-2w-close').on('click', function(evt){
+		  if(evt && evt.preventDefault){evt.preventDefault();}
+		  box.hide();
+	});
+   });
+});
+</script>
+       </div>
+       <div class="footer">
+            <p>
+                <a href="http://corp.sina.com.cn/chn/">新浪简介</a>
+                | <a href="http://corp.sina.com.cn/eng/">About Sina</a>
+                | <a href="http://emarketing.sina.com.cn/">广告服务</a>
+                | <a href="http://www.sina.com.cn/contactus.html">联系我们</a>
+                | <a href="http://corp.sina.com.cn/chn/sina_job.html">招聘信息</a>
+                | <a href="http://www.sina.com.cn/intro/lawfirm.shtml">网站律师</a>
+                | <a href="http://english.sina.com">SINA English</a>
+                | <a target="_blank" href="http://members.sina.com.cn/apply/">会员注册</a>
+                | <a href="http://tech.sina.com.cn/focus/sinahelp.shtml">产品答疑</a>
+            </p>
+            <p>Copyright &copy; 1996 - 2013 SINA Corporation, All Rights Reserved</p>
+            <p class="footer-p2">新浪公司 <a target="_blank" href="http://home.sina.com.cn/intro/copyright.shtml">版权所有</a></p>
+        </div>  <!-- footer end -->
+
+    </div>  <!-- end wrap -->
+    
+    <!-- SUDA_CODE_START -->  
+<script type="text/javascript" src="http://www.sinaimg.cn/unipro/pub/suda_s_v851c.js"></script>
+
+<script type="text/javascript" > 
+
+_S_pSt(); 
+
+</script> 
+
+<!-- SUDA_CODE_END -->
+<!-- DMP_CODE_START DAGGER --> 
+<script type="text/javascript">
+(function(d, s, id) {
+    var n = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    s = d.createElement(s);
+    s.id = id;
+    s.setAttribute('charset', 'utf-8');
+    s.src = '//d' + Math.floor(0 + Math.random() * (8 - 0 + 1)) + '.sina.com.cn/litong/zhitou/sinaads/src/spec/sinaads_ck.js';
+    n.parentNode.insertBefore(s, n);
+})(document, 'script', 'sinaads-ck-script');
+</script>
+<!-- DMP_CODE_END DAGGER -->
+
+
+    
+
+</body>
+
+</html>
+
+

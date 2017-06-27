@@ -1,0 +1,15 @@
+Set-Cookie: uaid=4bbbdb999d1d4a5e80a4def8ad673516; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPRequ=lt=1498559098&id=254354&co=1; secure= ;path=/;HTTPOnly=;version=1
+Set-Cookie: MSPOK=$uuid-2ae34de1-e132-4b30-891b-5474c561399d$uuid-0dd9699e-0ac6-48bf-b3c4-2a10d6ce1643$uuid-a12ecc1b-b4cb-4b59-a7de-b1ecfa741fa5$uuid-90539a72-57d5-4c1d-b430-dcba3b3929ad$uuid-7c57d7c4-4610-419c-b5ca-95e71a3623d0$uuid-5383d736-4937-4f10-9c5e-c8714211ea53; domain=login.live.com;secure= ;path=/;HTTPOnly= ;version=1
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+Strict-Transport-Security: max-age=31536000
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Date: Tue, 27 Jun 2017 10:24:58 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+Expires: Tue, 27 Jun 2017 10:23:58 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=0
+X-Xss-Protection: 1; mode=block

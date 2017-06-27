@@ -1,0 +1,12 @@
+Access-Control-Allow-Headers: origin, x-requested-with, content-type
+Set-Cookie: PHPSESSID=r39otrbijgkjbp5jq21hut3jp1; path=/; Secure
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Server: Apache
+Access-Control-Allow-Methods: PUT, GET, POST, DELETE, OPTIONS
+Content-Type: text/html; charset=UTF-8
+Link: <https://cfo.gov/wp-json/>; rel="https://api.w.org/"
+Link: <https://cfo.gov/>; rel=shortlink
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Access-Control-Allow-Origin: *
+P3P: CP="CAO DSP CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi HISa OUR IND PHY ONL UNI COM NAV INT CNT STA LOC GOV"
+Date: Tue, 27 Jun 2017 13:46:14 GMT

@@ -1,0 +1,20 @@
+Age: 0
+X-Cache: cp1068 pass, cp2010 pass, cp4016 pass, cp4010 pass
+Location: https://fr.m.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&returnto=Mod%C3%A8le%3APalette+Pages+utiles+%C3%A0+l%27administration+de+Wikip%C3%A9dia&returntoquery=action%3Dhistory%26mobileaction%3Dtoggle_view_desktop&uselang=de
+Backend-Timing: D=70347 t=1498571350422292
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Server: mw1245.eqiad.wmnet
+X-Cache-Status: pass
+X-Varnish: 906013839, 311814485, 132156092, 650895660
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+Content-Type: text/html; charset=utf-8
+Date: Tue, 27 Jun 2017 13:49:10 GMT
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+Content-Encoding: gzip
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Last-Modified: Tue, 27 Jun 2017 13:49:10 GMT

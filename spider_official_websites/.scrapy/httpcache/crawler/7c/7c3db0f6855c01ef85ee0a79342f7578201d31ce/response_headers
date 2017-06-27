@@ -1,0 +1,19 @@
+X-Ua-Compatible: IE=Edge,chrome=1
+Set-Cookie: _gh_sess=eyJzZXNzaW9uX2lkIjoiMTAwYThiNDMyMzJjYTU3YzMzNzMyYzAyYmYzZTJiMGQiLCJsYXN0X3JlYWRfZnJvbV9yZXBsaWNhcyI6MTQ5ODU1Nzk2OTE1MSwicmVmZXJyYWxfY29kZSI6Imh0dHA6Ly9sZWFybi5tYWtlYmxvY2suY29tL2VuL2xlZC1yZ2Itc3RyaXAtYWRkcmVzc2FibGUtc2VhbGVkLTAtNW0xbS8iLCJzcHlfcmVwbyI6Ik1ha2VibG9jay1vZmZpY2lhbC9NYWtlYmxvY2stTGlicmFyaWVzIiwic3B5X3JlcG9fYXQiOjE0OTg1NTc5Njl9--9739c3cd5bbba4341170afdb548ae3c7b7354b96; path=/; secure; HttpOnly
+X-Runtime-Rack: 0.044907
+Content-Type: text/html; charset=utf-8
+Server: GitHub.com
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Content-Security-Policy: default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src data:; script-src 'self'; style-src 'unsafe-inline'
+Public-Key-Pins: max-age=5184000; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="RRM1dGqnDFsCJXBTHky16vi1obOlCgFFn/yOhI/y+ho="; pin-sha256="k2v657xBsOVe1PQRwOsHsw3bsGT2VzIqz5K+59sNQws="; pin-sha256="K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q="; pin-sha256="IQBnNBEiFuhj+8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4="; pin-sha256="iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0="; pin-sha256="LvRiGEjRqfzurezaWuj8Wie2gyHMrW5Q06LspMnox7A="; includeSubDomains
+X-Request-Id: 56ccfc14f1791f8e8a00070c6469858c
+Status: 404 Not Found
+X-Content-Type-Options: nosniff
+X-Github-Request-Id: D9D4:94E8:72CD95E:ADE38D0:59522E10
+X-Frame-Options: deny
+X-Runtime: 0.039322
+Vary: X-PJAX
+Date: Tue, 27 Jun 2017 10:06:09 GMT
+Content-Encoding: gzip
+Cache-Control: no-cache
+X-Xss-Protection: 1; mode=block

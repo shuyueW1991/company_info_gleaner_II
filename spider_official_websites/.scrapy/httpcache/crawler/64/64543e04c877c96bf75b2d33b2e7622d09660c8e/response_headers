@@ -1,0 +1,8 @@
+Vary: Accept-Encoding
+Expires: Thu, 27 Jul 2017 10:05:50 GMT
+Server: Apache/2.2.15 (CentOS)
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/5.4.45
+Content-Encoding: gzip
+Cache-Control: max-age=2592000
+Date: Tue, 27 Jun 2017 10:05:50 GMT

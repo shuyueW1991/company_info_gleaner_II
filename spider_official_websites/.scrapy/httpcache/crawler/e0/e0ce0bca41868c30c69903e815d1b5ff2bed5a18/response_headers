@@ -1,0 +1,13 @@
+Set-Cookie: JSESSIONID=8244E8AD3427F669D51FAD19452003D7; Path=/; HttpOnly
+Content-Language: en
+Content-Type: text/html;charset=UTF-8
+Access-Control-Expose-Headers: Timing-Diagnostics
+Timing-Diagnostics: STUB(12-39), CACHE(24-9), DB_COUT(5-0), DB(6-7), DB_CIN(5-11), TOTAL(52-35)
+Date: Tue, 27 Jun 2017 10:06:16 GMT
+X-Request-Id: a360_prod_ebpr6s00dfw02_308fde_8f9e37c9b3cd2_42
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Server: nginx/1.11.10
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Location: https://myhub.autodesk360.com/ue2940f09/g/shares/SHabee1QT1a327cf2b7ae9ccb31585226ad0?mode=embed
+X-Xss-Protection: 0

@@ -1,0 +1,24 @@
+Set-Cookie: mediawikiwikiSession=jepmu0h74iv462sv15s7bvckpru7vv0n; path=/; secure; httponly
+Set-Cookie: forceHTTPS=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.mediawiki.org; httponly
+Set-Cookie: forceHTTPS=true; path=/; httponly
+Server: mw1262.eqiad.wmnet
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 232171657, 723891664, 357601208, 656613463
+X-Cache-Status: pass
+Date: Tue, 27 Jun 2017 13:46:35 GMT
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Age: 0
+X-Cache: cp1066 pass, cp2004 pass, cp4018 pass, cp4010 pass
+Location: https://m.mediawiki.org/w/index.php?title=Special:UserLogin&printable=yes&returnto=MediaWiki&returntoquery=mobileaction%3Dtoggle_view_desktop
+Backend-Timing: D=44303 t=1498571195284655
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+P3P: CP="This is not a P3P policy! See https://www.mediawiki.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 27 Jun 2017 13:46:35 GMT
+Content-Encoding: gzip
+Expires: Thu, 01 Jan 1970 00:00:00 GMT

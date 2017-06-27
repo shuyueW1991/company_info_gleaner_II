@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>中华人民共和国商务部</title>
+        <style type="text/css">
+            *{margin:0px 0px ; padding:0px 0px;}
+            div{margin:0px auto; font-size:12px; line-height:20px; }
+            td{height:32px; font-size:12px; line-height:20px; }
+            a{outline:none;}
+            a:link {color:#656565;text-decoration: underline;}
+            a:visited {color: #656565; text-decoration:underline;}
+            a:hover {color: #656565; text-decoration: none; }
+            a:active {color: #656565; text-decoration:underline;}
+            .field { background: #ffffff; border-bottom: #cccccc 1.5px solid; border-left:#adadad 1.6px solid; border-right:#cccccc 1px solid; border-top:#adadad 1px solid; 
+                     color: #000000; cursor: text; font-family:"Arial"; font-size: 12px; height: 18px; line-height:18px; padding: 2px; width: 145px;}
+
+            .field2 { background: #ffffff; border:1px solid #75BCE1; outline:2px solid #DEF0FA; color: #000000; cursor: text; font-family:"Arial"; 
+                      font-size: 12px; height: 18px; line-height:18px;padding: 2px; width: 145px;}
+
+            .eng{font-family:Arial, Helvetica, sans-serif;}
+            .top{width:790px; background-image:url(image/index_topbg.jpg); background-repeat:no-repeat; background-position:100% 50%; height:72px; margin-top:50px;}
+            .main{width:815px;}
+            .main_left{float:left; width:453px; }
+            .tab{background-image:url(image/index_dlmid.jpg); background-repeat:repeat-y; width:335px;}
+            .tit{color:#555555; font-size:14px; width:110px; text-align:right;}
+            .fgx{width:790px;background-image:url(image/index_fgx.jpg); background-repeat:no-repeat; background-position:50% 0%; text-align:center;  }
+            .banquan{color:#959595;text-align:center; padding-top:15px; font-size:12px; line-height:18px; }
+            .top_left{float:left;}
+            .top_right{float:right; width:200px; text-align:right; padding-right:25px; margin-top:30px;}
+            .tab2 td{vertical-align:bottom; line-height:18px; font-family:Arial, Helvetica, sans-serif}
+            .pad7{padding-top:7px;}
+            .index_js2{background-image:url(image/index_js2.jpg); background-repeat:no-repeat; background-position:0% 0%; height:42px; width:99px;cursor:pointer;}
+            .index_jb2{background-image:url(image/index_jb2.jpg); background-repeat:no-repeat; background-position:0% 0%; height:42px; width:98px;cursor:pointer;}
+            .index_dl2{background-image:url(image/index_dl2.jpg); background-repeat:no-repeat; background-position:0% 0%; height:42px; width:99px;cursor:pointer;}
+            .index_dl{background-image:url(image/index_dl.jpg); background-repeat:no-repeat; background-position:0% 0%; height:42px; width:99px; cursor:pointer;}
+            .index_jb{background-image:url(image/index_jb.jpg); background-repeat:no-repeat; background-position:0% 0%; height:42px; width:98px; cursor:pointer;}
+			.index-lang {margin: 0 20px;}
+			.index-lang a {text-decoration: none;}
+			.main_right{float:right; margin-right:20px;}
+			.dltop{position:absolute; width:335px; height:104px; display:block;}
+        </style>
+        <script language=JavaScript src="tpl/rsa.js"></script>
+        <script language="javascript">
+
+            function setcookie(name,value){
+                var Days = 30;
+                var exp  = new Date();
+                exp.setTime(exp.getTime() + Days*24*60*60*1000);
+                document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+            }
+            function setcookiepath(name,value,path){
+                var Days = 30;
+                var exp  = new Date();
+                exp.setTime(exp.getTime() + Days*24*60*60*1000);
+                document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString()+";path="+path;
+            }
+
+            function getcookie(name){
+                var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
+                if(arr != null){
+                    return unescape(arr[2]);
+                }else{
+                    return "";
+                }
+            }
+
+            function delcookie(name){
+                var exp = new Date();
+                exp.setTime(exp.getTime() - 1);
+                var cval=getCookie(name);
+                if(cval!=null) document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+            }
+
+            var t=0;
+            function ttt(){
+                if (t==0)
+                    document.aa.F_email.focus();
+                var cos=document.cookie.split(";");
+                var xos;
+                var auth_fc=0;
+                var login_auth_count=-1;
+                for(var i=0;i<cos.length;i++){
+                    if (cos[i].indexOf("LOGIN_AUTH_CODE=")!=-1){
+                        xos=cos[i].split("=");
+                        login_auth_count=parseInt(xos[1]);
+
+                        break;
+                    }
+                }
+                if (login_auth_count==-1){
+                    return;
+                }
+                if (login_auth_count==0){
+                    view_authcode();
+                    return;
+                }
+                for(var i=0;i<cos.length;i++){
+                    if (cos[i].indexOf("AUTH_FAIL_COUNT=")!=-1){
+                        cos=cos[i].split("=");
+                        auth_fc=parseInt(cos[1]);
+                        break;
+                    }
+                }
+                if (auth_fc>=login_auth_count){
+                    view_authcode();
+                }
+            }
+            function getpos(e) {
+                var t=e.offsetTop;
+                var l=e.offsetLeft;
+                var height=e.offsetHeight;
+                while(e=e.offsetParent) {
+                    t+=e.offsetTop;
+                    l+=e.offsetLeft;
+                }
+                return [t,l];
+            }
+            function focusfun(){
+                var d=document.getElementById("codetd");
+                var c=getpos(document.getElementById("F_code"));
+                d.style.top=c[0]-10;
+                document.getElementById("codetd").style.display="block";
+	
+            }
+            function onblurfun(){
+                setTimeout(function(){document.getElementById("codetd").style.display="none";},200);
+            }
+            function view_authcode(){
+                document.getElementById("auth_code_row").removeAttribute("style");
+                document.getElementById("auth_code_td").innerHTML="<input type=text name=F_code id=F_code size=6 class=field onfocus='this.className=&quot;field2&quot;' onblur='this.className=&quot;field&quot;'>";
+                document.getElementById("codetd").innerHTML="<nobr><img src=t_img.php id=img_index style='height:32px;width:88px;'><a href=# onclick='update_index()' style='color:#777777'>换一张</a></nobr>";
+                document.getElementById("auth_code_row2").style.display="";
+            }
+            function tt(){
+                t=1;
+            }
+            function  gotohttps()
+            {
+                var index_url;
+   
+                index_url = location.href;
+                if (index_url.indexOf("https://")){
+                    location.href=index_url.replace("http","https");
+                }
+            }
+
+
+            function chkCookie()
+            {
+                var cdm= document.cookie.indexOf("cdomain=");
+                var dsel=document.getElementById("domain_sel");
+                var keys=document.cookie.split(";");
+                var cdmstr="";
+                var cumstr="";
+                for(var i=0;i<keys.length;i++){
+                    var t=keys[i].split("=");
+                    var key=t[0].replace(" ","");
+                    if (key=="cdomain"){
+                        cdmstr=t[1];
+                    }
+                    if (key=="cusername"){
+                        cumstr=t[1];
+                    }
+                }
+                if (cdmstr != "")
+                    dsel.value=cdmstr;
+                else if (dsel && dsel.options && dsel.options.length > 0)
+                    dsel.options[0].selected = true;
+                if (cumstr)
+                    document.getElementById("F_email").value=cumstr;
+
+                var offset = document.cookie.indexOf("dy_id");
+                if ( offset == -1 ) {
+                    return;
+                }
+                var endstr = document.cookie.indexOf(";", offset);
+                if ( endstr == -1 ) {
+                    endstr = document.cookie.length;
+                }
+                var dy_email = unescape(document.cookie.substring(offset, endstr));
+                var arr_email = dy_email.split("=", 2);
+                if (arr_email[1])
+                    document.aa.F_email.value = arr_email[1];
+                document.aa.F_save_id.checked = true;
+            }
+            var rsapubkey="-----BEGIN PUBLIC KEY-----MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5FvP6Z/qKeOScNctnEb59A1gvRx5AZJytri9UW3ggf1fYhjZ+I8y0dwh25V45GxfbIxfNwIaYRI0vb1NpUhCUi5gry65hNkVegQh8wT0p8+vAq8JBxEKG98m/ZuVy/+jtLkH7EPtXYxz3LJrULsS8gwb4pJ9HC+DgTbUMTc17KwIDAQAB-----END PUBLIC KEY-----";
+            function safe_pass(){
+                var rsapass=document.getElementById("F_rsapassword");
+                var textpass=document.getElementById("F_password");
+                rsapass.value=any_rsa_pass(rsapubkey,"1498557499_"+textpass.value);
+                textpass.value="";
+            }
+            function  setSub()
+            {
+                var saveuname=document.getElementById("F_save_id");
+                if (saveuname && saveuname.checked){
+                    setcookie("cusername",document.getElementById("F_email").value);
+                }else{
+                }
+                var sel=document.getElementById("domain_sel");
+                if (sel){
+                    setcookie("cdomain",sel.value);
+                }
+                var ssllogin_o = document.getElementById("F_ssllogin");
+                if ( !ssllogin_o.checked && false) {
+                    safe_pass();
+                    return true;;
+                }
+                ssl_url = "login.php";
+                index_url = location.href;
+                if ( index_url.indexOf("https://") ){
+                    document.getElementById("F_logintype").value = "1";
+                }
+                proc_pos = index_url.indexOf(":");
+                path_pos = index_url.lastIndexOf("/");
+                ssl_href = "https" + index_url.substring(proc_pos, path_pos+1) + ssl_url;
+                document.aa.action = ssl_href;
+                safe_pass();
+                document.aa.submit();
+            }
+            function loginAct() {
+                document.getElementById("rlogin").value = (new Date()).getTime().toString();
+            }
+        </script>
+    </head>
+
+
+    <body onLoad="ttt();chkCookie();" topmargin=0 leftmargin=0>
+        <form name=aa method=post action="login.php?vid=1498557499" onSubmit="return setSub();">
+            <input type=hidden id=rlogin name=rlogin value=111 />
+            <input type=hidden name=F_lang value={F_lang} />
+            <input type=hidden name=F_tm value={F_tm} />
+            <input type=hidden name=F_loginkey value=1498557499 />
+            <input type=hidden id="F_logintype" name=F_logintype value="0" />
+            <input type=hidden id="F_rsapassword" name=F_rsapassword value="" />
+            <div class="top"><div class="top_left"><img src="image/index_logo.jpg"  /></div>
+                <div class="top_right"><img src="image/index_topser.jpg" align="absmiddle" />&nbsp;
+                    <a href="mailto:help@ec.com.cn">反馈意见</a>&nbsp;&nbsp; <img src="image/index_tophelp.jpg" align="absmiddle"/>&nbsp;
+                    <a href="help/index.html" target="_blank">在线帮助</a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main_left">
+                    <div><img src="image/index_pic1.jpg"  /></div>
+                    <div><img src="image/index_pic2.jpg" /></div>
+                    <div><img src="image/index_pic3.jpg" /></div>
+                    <div><img src="image/index_pic4.jpg" /></div>
+                </div>
+                <div class="main_right">
+					 <div class="dltop"><img src="image/index_dltop.jpg" /></div>
+					 <div style="padding-top:104px; position:relative;">
+                    <table border="0" cellpadding="0" cellspacing="0" class="tab">
+                         <tr>
+                            <td width="110" class="tit">用户名：</td>
+                            <td width="225" colspan="2"><input name=F_email type=text class=field id=F_email onKeyDown="tt()" onfocus="this.className='field2'" onblur="this.className='field'" /></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td style="font-size:14px" colspan="2"><strong><font face="Arial, Helvetica, sans-serif">@</font></strong>
+                                
+                                <font face="Arial, Helvetica, sans-serif" ><strong>mofcom.gov.cn</strong></font>
+                                <input type=hidden name=F_domain value="mofcom.gov.cn" />
+                                
+                                
+                                    
+                                    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tit">密　码：</td>
+                            <td colspan="2"><input type=password name=F_password id=F_password class=field onKeyDown="tt()" onfocus="this.className='field2'" onblur="this.className='field'" />
+<!--                                <a href="passre.php?passlang=cn" style="text-decoration: none;">忘记密码?</a>--></td>
+                        </tr>
+                        <tr  id=auth_code_row2  style='display:none;'>
+                            <td class="tit" valign="bottom">验证码：</td>
+                            <td colspan="2" height=22 id=auth_code_td></td>
+                        </tr>
+                        <tr id=auth_code_row style='display:none;'>
+                            <td></td>
+                            <td colspan="2"><div id="codetd" style="width:88px; height: 32px; z-index: 1;text-align:left; margin:0px " bgcolor=#ffffff  ></div></td>
+                        </tr>
+                        <!--<tr id=auth_code_row style='display:none;'>
+        	<td class="tit">验证码：</td>
+			<td width="127" id=auth_code_td></td>
+			<td width="75"><div id="codetd" style="position: absolute; width: 100px; height:2px; z-index: 1;display:none;" bgcolor=#ffffff ></div>
+                <span style="font-size:13px;">请点击后输入验证码</span></td>
+		</tr> -->
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td colspan="2" class="pad7"><!--<select name=F_tpl>
+                    <option value="">选择风格-->
+                                <!-- BEGIN tpl_row -->
+                                <!--<option value={TPL_VALUE}>{TPL_DISP}-->
+                                <!-- END tpl_row -->
+                                <!--</select>-->
+                                <input type=checkbox name=F_save_id id=F_save_id title="下次登录不需要再输入帐号"  value="1" checked /><label for="F_save_id" style="font-size:13px;">记住用户名</label>&nbsp;
+				<input type=checkbox id="F_mianze" checked disabled><label for=F_mianze><a href="mz.html">服务条款</a></label>
+                                <div style="display:none;"><input type="checkbox" value="1" title="提交密码采用安全传输保护您的密码信息" id="F_ssllogin" name="F_ssllogin" /><label for="F_ssllogin" style="font-size:13px;">SSL安全登录</label></div></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center"><script>
+
+                                function update_index(){
+                                    var imgi=document.getElementById('img_index');
+                                    var d=new Date();
+                                    imgi.src="t_img.php?_d="+d.toUTCString();
+                                    document.getElementById("F_code").focus();
+                                    setTimeout(focusfun,300);
+                                    return false;
+                                }
+                                var ua=navigator.userAgent.toLowerCase();
+                                function check(r){return r.test(ua)};
+
+                                var Browser = {
+                                    'isIE' : (navigator.userAgent.indexOf('MSIE') >= 0) && (navigator.userAgent.indexOf('Opera') < 0),
+                                    'isFirefox' : navigator.userAgent.indexOf('Firefox') >= 0,
+                                    'isOpera' : navigator.userAgent.indexOf('Opera') >= 0,
+                                    'isWindow':check(/windows|win32/)
+                                };
+                                if (Browser.isIE){
+                                    //document.write("<a href=https://sec.anymacro.com:8084/login.php?F_login_ac=netstore.1 target=_self>我有证书</a> &nbsp;&nbsp;");
+                                }
+                                </script>
+                                <input name=action type=image id=action src="image/index_dl.jpg" title="" style="outline:none" class="index_dl"
+                                       onmouseover="this.src='image/index_dl2.jpg'"  onmouseout="this.src='image/index_dl.jpg'" onclick="loginAct();" />                                       
+                            </td>
+                        </tr>
+<!--						<tr>
+							<td colspan="3" align="center"><span class="index-lang"><a href="index.php?l=cn">中文</a></span><span class="index-lang"><a href="index.php?l=eng">English</a></span></td>
+						</tr>
+-->
+                        <tr>
+                            <td colspan="3" class="pad7"><img src="image/index_dlbot.jpg"/></td>
+                        </tr>
+                    </table>
+					 </div>
+                </div>
+                <div class="fgx" style="clear:both;">
+
+<br>
+<center>
+<b color="#555555"><font color="#779999">
+<style>
+.ca td{
+	height:20px;
+}
+</style>
+<table   border="0" class=ca ><tr><td align="left"  colspan="2">
+为了解决WEB方式登录邮件系统时弹出“安全警报”对话框的问题，需要用户在客户端安装根证书，具体操作步骤如下：</td></tr>
+<tr><td>1、</td><td align="left"><a href="http://www.gfapki.com.cn/lib/download/support/CA/LocalRegisterGFACA.zip">http://www.gfapki.com.cn/lib/download/support/CA/LocalRegisterGFACA.zip.</a>
+下载证书文件。</td></tr>
+<tr><td class="hang2" >2、</td><td align="left">通过压缩工具，解压生成文件LocalRegisterGFACA.exe，双击安装，依次选择“是”--“下一步”--“完成”。
+</td></tr></table>
+</font></b>
+</center>
+
+                    <p class="banquan">
+		版权所有：中国国际电子商务中心<br/>
+		Copyright：China International Electronic Commerce Center 
+                        </span></p>
+                </div>
+            </div>
+
+        </form>
+    </body>
+</html>

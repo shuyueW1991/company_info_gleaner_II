@@ -1,0 +1,6 @@
+Vary: Accept-Encoding
+Server: nginx/1.6.2
+Content-Type: text/html
+X-Powered-By: PHP/5.3.3
+Content-Encoding: gzip
+Date: Tue, 27 Jun 2017 10:05:31 GMT

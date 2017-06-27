@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QQ互联开发者信息</title>
+    <script src="./lib/browserDetect.js"></script>
+	<script>
+		var noSupportItems = {ie: [9, 8, 7, 5, 6]}
+		BrowserDetect.init(noSupportItems);
+	</script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="content"></div>
+    <div id="alert"></div>
+    <div id="footer"></div>
+    <script src="../lib/Promise.min.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/underscore.min.js"></script>
+    <script src="../lib/react.min.js"></script>
+    <script src="../lib/react-dom.min.js"></script>
+    <script src="../lib/react-router.min.js"></script>
+    <script src="../lib/reflux.min.js"></script>
+    <script src="https://imgcache.qq.com/ptlogin/ac/v9/js/ptloginout.js"></script>
+
+  <script src="devuser.bundle.js"></script></body>
+</html>

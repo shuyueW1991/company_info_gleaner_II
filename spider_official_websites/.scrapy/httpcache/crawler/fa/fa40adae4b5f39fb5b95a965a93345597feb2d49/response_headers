@@ -1,0 +1,16 @@
+Content-Encoding: gzip
+Content-Type: text/html; charset=iso-8859-1
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Server: mw1268.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Location: https://wikimediafoundation.org/
+X-Varnish: 531499801 229185238, 257866683 31405889, 234995522 221195054, 158487886 88463732
+X-Client-Ip: 180.173.144.160
+Cache-Control: max-age=2592000
+Vary: X-Forwarded-Proto, Accept-Encoding
+Expires: Wed, 26 Jul 2017 04:51:24 GMT
+X-Cache: cp1054 hit/4, cp2016 hit/6, cp4018 hit/2, cp4017 hit/16
+Date: Tue, 27 Jun 2017 10:06:44 GMT
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+Age: 105318
+X-Cache-Status: hit

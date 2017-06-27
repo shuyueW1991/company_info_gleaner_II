@@ -1,0 +1,14 @@
+Location: /
+Set-Cookie: U_TRS1=0000007b.30657d8d.59526190.eb70e4c0; path=/; expires=Fri, 25-Jun-27 13:45:52 GMT; domain=.sina.com.cn
+Set-Cookie: U_TRS2=0000007b.30747d8d.59526190.18dee283; path=/; domain=.sina.com.cn
+Server: Apache
+Dpool_Header: freya38
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Date: Tue, 27 Jun 2017 13:45:52 GMT
+Sina-Lb: aGEuODIuZzEudGMubGIuc2luYW5vZGUuY29t
+Content-Encoding: gzip
+Pragma: no-cache
+Cache-Control: no-cache, must-revalidate
+Sina-Ts: ZDdlZDlhY2UgMCAwIDAgMTUgNjEK
+Expires: Sat, 26 Jul 1997 05:00:00 GMT

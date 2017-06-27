@@ -1,0 +1,1250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<base target="_blank">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国保护知识产权网</title>
+<link rel="stylesheet" href="/css/layout.css" type="text/css" />
+<link rel="stylesheet" href="/css/index.css" type="text/css" />
+<script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/js/script.js" type="text/javascript"></script>
+<!-- search start -->
+<link rel="stylesheet" type="text/css" href="/css/search/main.css" id="Any"></link>
+<script src="/js/search/jquery.autocomplete.js" type="text/javascript" ></script>
+<script src="/js/search/csp.search.runtime2.js" type="text/javascript" ></script>
+
+<!-- search end -->
+
+<SCRIPT LANGUAGE="javascript">
+<!-- 
+function openwin() {window.open ('diaocha.html', '中外知识产权工作组会议征求意见', 'height=650, width=750, top=10, left=10, toolbar=no, menubar=no, scrollbars=yes, resizable=no,location=no, status=no')
+}
+//-->
+</SCRIPT>
+
+</head>
+
+<body onload="setLawDisabled();">
+<div class="block">
+	<div id="header"><img src="/img/topBaner.jpg" usemap="#Map"></div>
+<map name="Map" id="Map">
+	<area shape="rect" coords="910,130,981,150" href="http://www.chinaipr.gov.cn/" target="_blank"/>
+</map>
+<div id="nav">
+	<ul>
+		<li><a href="/" class="selected">首 页</a></li>
+		<li><a href="/list/gjxw/guojizuzhi/1/cateinfo.html">国际新闻</a></li>
+		<!-- 修改为静态方式
+		<li><a href="/list/gnxw/1/cateinfo.html">国内新闻</a></li> 
+		-->
+		<li><a href="/channel/gnNewsIndex.shtml">国内新闻</a></li>
+		<li><a href="/list/gjhz/1/cateinfo.html">中国知识产权国际合作</a></li>
+		<li><a href="/hwwq/index.shtml">海外维权</a></li>
+		<li><a href="/list/bzzn/1/cateinfo.html">保知指南</a></li>
+		<li><a href="/list/sjzl/1/cateinfo.html">数据资料</a></li>
+		<li><a href="/law/list.shtml" target="_blank">政策法规</a></li>
+		<li><a href="/caselib/index.shtml" target="_blank">案例数据库</a></li>
+		<li><a href="http://gzlynew.mofcom.gov.cn/gzlynew/servlet/SearchServlet?OP=searchText&siteid=ipr&searchText=">在线咨询</a></li>
+	</ul>
+</div>
+
+	<!-- 滚动通知 -->
+	<!-- 滚动通知 -->
+<div id="info-massage" class="mt10p">
+	<div class="info-massageDiv" id="div1">
+		<span class="info-massageSpan1" id="div2">　　　欢迎访问中国保护知识产权网！　网站全新推出中英文对照版知识产权国际条约汇编！　欢迎使用本网站在线咨询服务！　订阅《知识产权国际快讯》，请发邮件至：<a href="mailto:news@ipr.gov.cn">news@ipr.gov.cn</a>　　　</span>    
+	</div>
+</div>
+
+	<!-- 新闻热搜词 -->
+	<div class="hotWord mt10p clearfix">
+	<ul>
+		<li class="title">新闻热搜词</li>
+		<li><a href="/list/ydyl/1/cateinfo.html">一带一路国家</a></li>
+		<li><a href="/list/ydypzl/1/cateinfo.html">药品专利</a></li>
+		<li><a href="/list/zhuanllm/1/cateinfo.html">专利流氓</a></li>
+		<li><a href="/list/oztyzl/1/cateinfo.html">欧洲统一专利</a></li>
+		<li><a href="/list/ycpzfa/1/cateinfo.html">烟草平装法案</a></li>
+		<li><a href="/list/rjzl/1/cateinfo.html">软件专利</a></li>
+		<li><a href="/list/gcg/1/cateinfo.html">301观察国</a></li>
+		<li><a href="/list/ssqdc/1/cateinfo.html">337调查</a></li>
+	</ul>
+</div>
+
+	<!-- 新闻热搜词 -->
+	<!-- 图片新闻和滚动新闻 -->
+	<div class="mt10p total">
+		<!-- 滚动新闻 -->
+		<div class="fl scollNews colum01">
+			<h2 class="title01">滚动新闻</h2>
+			<div class="scollNewsDiv1" id="scollNewsDiv1">
+				<ul class="columUl01" id="scollNewsDiv2">
+					<li>
+<span>2017-06-27</span><a title="工商总局：提高认识澄清误区　积极实施商标品牌战略" target="_blank" href="/article/gnxw/sb/201706/1907554.html">工商总局：提高认识澄清误区　积极实施商标品牌战略</a>
+</li><li>
+<span>2017-06-26</span><a title="中医药法7月实施　知识产权亮点引发期待" target="_blank" href="/article/gnxw/lf/dt/201706/1907471.html">中医药法7月实施　知识产权亮点引发期待</a>
+</li><li>
+<span>2017-06-26</span><a title="&ldquo;复兴号&rdquo;京沪高铁首发　我国完全掌握自主知识产权" target="_blank" href="/article/gnxw/zl/201706/1907454.html">&ldquo;复兴号&rdquo;京沪高铁首发　我国完全掌握自主知识产权</a>
+</li><li>
+<span>2017-06-23</span><a title="知识产权综合发展指数广东位居全国第一" target="_blank" href="/article/gnxw/zfbm/zfbmdf/gd/201706/1907390.html">知识产权综合发展指数广东位居全国第一</a>
+</li><li>
+<span>2017-06-22</span><a title="WIPO发布2017年《全球创新指数报告》" target="_blank" href="/article/sjzl/gj/tjsj/201706/1907365.html">WIPO发布2017年《全球创新指数报告》</a>
+</li><li>
+<span>2017-06-21</span><a title="国家工商总局商标局批准设立第三批商标受理窗口" target="_blank" href="/article/gnxw/sb/201706/1907324.html">国家工商总局商标局批准设立第三批商标受理窗口</a>
+</li><li>
+<span>2017-06-21</span><a title="美国商会要求在《北美自由贸易协定》中强化知识产权条款" target="_blank" href="/article/gjxw/gbhj/bmz/mg/201706/1907305.html">美国商会要求在《北美自由贸易协定》中强化知识产权条款</a>
+</li><li>
+<span>2017-06-20</span><a title="知识产权与公共利益成为WTO议题" target="_blank" href="/article/gjxw/gjbh/201706/1907210.html">知识产权与公共利益成为WTO议题</a>
+</li>
+
+				</ul>
+				<ul id="scollNewsDiv3"></ul>
+			</div>
+		</div>
+		<!-- 滚动新闻 -->
+		<!-- 图片新闻 -->
+		<div class="fr scollPic">
+			<div id="p1_picTurnPlayer" class="picTurnPlayer">
+				<div class="bg"></div>
+				<a target="_blank" href="/article/gjxw/gjbh/201704/1904722.html" class="picture dsn"><img src="http://images.ipr.gov.cn/article/201704/1493082660422.jpg"></a><a target="_blank" href="/article/gnxw/zfbm/zy/bw/201612/1899040.html" class="picture dsn"><img src="http://images.ipr.gov.cn/article/201612/1481506246816.jpg"></a><a target="_blank" href="/article/gnxw/zfbm/zy/bw/201611/1898203.html" class="picture dsn"><img src="http://images.ipr.gov.cn/article/201611/1479793620283.jpg"></a><a target="_blank" href="/article/gnxw/qt/201601/1885212.html" class="picture dsn"><img src="http://images.ipr.gov.cn/article/201601/1453364143623.jpg"></a><a target="_blank" href="/article/gnxw/zfbm/zy/bw/201512/1883604.html" class="picture dsn"><img src="http://images.ipr.gov.cn/article/201512/1450077715529.jpg"></a><a target="_blank" href="/article/gjxw/gjbh/201704/1904722.html" class="scollPic-T dsn">2017世界知识产权日专题&mdash;&mdash;2016年要事回顾</a><a target="_blank" href="/article/gnxw/zfbm/zy/bw/201612/1899040.html" class="scollPic-T dsn">中国－欧盟创新政策圆桌会议在厦门大学举办</a><a target="_blank" href="/article/gnxw/zfbm/zy/bw/201611/1898203.html" class="scollPic-T dsn">2016年中美知识产权工作组副部级会议召开</a><a target="_blank" href="/article/gnxw/qt/201601/1885212.html" class="scollPic-T dsn">中国保护知识产权网微信平台正式开通</a><a target="_blank" href="/article/gnxw/zfbm/zy/bw/201512/1883604.html" class="scollPic-T dsn">中欧&ldquo;标准化中的知识产权&rdquo;研讨会在京召开</a>
+
+				<p class="navHover">
+					<i class="cur"></i>
+					<i></i>
+					<i></i>
+					<i></i>
+					<i></i>
+				</p>
+			</div>
+			<script>
+				(new funPicTurnPlayer('p1')).init();
+			</script>
+		</div>
+		<!-- 图片新闻 -->
+	</div>
+	<!-- 图片新闻和滚动新闻 -->
+	<div class="mt10p total">
+		<div class="fl w740p">
+			<!-- 国际新闻 -->
+			<div class="colum01 grayBg">
+				<h2 class="title02"><span><a href="/channel/iNews.shtml">国别环境</a>|<a href="/list/gjxw/gjbh/1/cateinfo.html">国际保护</a></span><img src="img/columTitleImg01.png" /></h2>
+				<div class="subNav" id="tabNav_01">
+					<dl class="w590p center">
+						<dd><a href="/list/gjxw/gjtp/1/cateinfo.html" class="selected">国际谈判</a>|</dd>
+						<dd><a href="/list/gjxw/lfdt/1/cateinfo.html">立法动态</a>|</dd>
+						<dd><a href="/list/gjxw/zfxd/1/cateinfo.html">执法行动</a>|</dd>
+						<dd><a href="/list/gjxw/ajzz/1/cateinfo.html">案件追踪</a>|</dd>
+						<dd><a href="/list/gjxw/gfgd/1/cateinfo.html">各方观点</a>|</dd>
+						<dd><a href="/list/gjxw/jlhz/1/cateinfo.html">交流合作</a></dd>
+					</dl>
+				</div>
+				<div class="subCon total" id="tabCon_01">
+					<div class="subTabDiv">
+						<ul class="columUl02">
+							<li>
+<a title="亚太地区贸易部长承诺年底完成自贸协定谈判" target="_blank" href="/article/gjxw/gjtp/dbtp/qyxty/qita/201706/1906448.html">亚太地区贸易部长承诺年底完成自贸协定谈判</a>
+</li><li>
+<a title="欧盟实施马拉喀什条约的指令或将限制条约适用范围" target="_blank" href="/article/gjxw/gjtp/dbtp/gjty/wipo/201703/1903342.html">欧盟实施马拉喀什条约的指令或将限制条约适用范围</a>
+</li><li>
+<a title="欧洲议会在激烈辩论后通过了CETA" target="_blank" href="/article/gjxw/gjtp/dbtp/qyxty/oumeng/201702/1901747.html">欧洲议会在激烈辩论后通过了CETA</a>
+</li><li>
+<a title="欧盟法院称欧盟可以批准《马拉喀什条约》" target="_blank" href="/article/gjxw/gjtp/dbtp/gjty/wipo/201702/1901663.html">欧盟法院称欧盟可以批准《马拉喀什条约》</a>
+</li><li>
+<a title="WHO癌症机密决议草案显示知识产权相关问题依然存在" target="_blank" href="/article/gjxw/gjtp/dbtp/gjty/qtgjty/201702/1901378.html">WHO癌症机密决议草案显示知识产权相关问题依然&hellip;
+					        </a>
+</li><li>
+<a title="新《加勒比专利公约》即将问世" target="_blank" href="/article/gjxw/gjtp/dbtp/qyxty/qita/201702/1901304.html">新《加勒比专利公约》即将问世</a>
+</li><li>
+<a title="ARIPO修订《专利、实用新型和外观设计议定书》" target="_blank" href="/article/gjxw/gjtp/dbtp/qyxty/qita/201701/1900462.html">ARIPO修订《专利、实用新型和外观设计议定书》</a>
+</li><li>
+<a title="WTO总干事称TRIPS协议修正案即将通过" target="_blank" href="/article/gjxw/gjtp/dbtp/gjty/wtogjty/201612/1898719.html">WTO总干事称TRIPS协议修正案即将通过</a>
+</li><li>
+<a title="WIPO总干事称赞《马拉喀什条约》生效" target="_blank" href="/article/gjxw/gjtp/dbtp/gjty/wipo/201610/1896341.html">WIPO总干事称赞《马拉喀什条约》生效</a>
+</li><li>
+<a title="WIPO传统知识条约文本草案首次修订稿公布" target="_blank" href="/article/gjxw/gjtp/dbtp/gjty/wipo/201609/1895681.html">WIPO传统知识条约文本草案首次修订稿公布</a>
+</li><li>
+<a title="CETA：2018年1月实施该协议是否时机成熟？" target="_blank" href="/article/gjxw/gjtp/dbtp/qyxty/qita/201607/1892732.html">CETA：2018年1月实施该协议是否时机成熟？</a>
+</li><li>
+<a title="《马拉喀什条约》将于9月30日生效" target="_blank" href="/article/gjxw/gjtp/dbtp/gjty/wipo/201607/1892163.html">《马拉喀什条约》将于9月30日生效</a>
+</li><li>
+<a title="印度：东盟贸易协定存在隐患" target="_blank" href="/article/gjxw/gjtp/dbtp/qyxty/qita/201606/1891260.html">印度：东盟贸易协定存在隐患</a>
+</li><li>
+<a title="RCEP秘密谈判让仿制药活动人士担忧" target="_blank" href="/article/gjxw/gjtp/dbtp/qyxty/qita/201604/1889103.html">RCEP秘密谈判让仿制药活动人士担忧</a>
+</li><li>
+<a title="RCEP知识产权章节对较贫困的成员国不利" target="_blank" href="/article/gjxw/gjtp/dbtp/qyxty/qita/201604/1888947.html">RCEP知识产权章节对较贫困的成员国不利</a>
+</li><li>
+<a title="国际保护植物新品种联盟会议成果低于各方期望" target="_blank" href="/article/gjxw/gjtp/dbtp/gjty/qtgjty/201603/1888047.html">国际保护植物新品种联盟会议成果低于各方期望</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="美国商会要求在《北美自由贸易协定》中强化知识产权条款" target="_blank" href="/article/gjxw/lfdt/mj/qtmj/201706/1907305.html">美国商会要求在《北美自由贸易协定》中强化知识产&hellip;
+					        </a>
+</li><li>
+<a title="澳大利亚公布商标法修订案，明年启用新版食品原产地商标" target="_blank" href="/article/gjxw/lfdt/dayz/sbdyz/201706/1907236.html">澳大利亚公布商标法修订案，明年启用新版食品原产&hellip;
+					        </a>
+</li><li>
+<a title="德国联邦宪法法院延迟批准统一专利法院" target="_blank" href="/article/gjxw/lfdt/oz/zloz/201706/1907224.html">德国联邦宪法法院延迟批准统一专利法院</a>
+</li><li>
+<a title="加拿大《专利药品条例》或迎重大修改" target="_blank" href="/article/gjxw/lfdt/mj/zlmj/201706/1907212.html">加拿大《专利药品条例》或迎重大修改</a>
+</li><li>
+<a title="乌拉圭议会正在讨论加入PCT的法律草案" target="_blank" href="/article/gjxw/lfdt/lm/qtlm/201706/1907207.html">乌拉圭议会正在讨论加入PCT的法律草案</a>
+</li><li>
+<a title="土著人民请求更多地参与WIPO决策" target="_blank" href="/article/gjxw/lfdt/lm/qtlm/201706/1907182.html">土著人民请求更多地参与WIPO决策</a>
+</li><li>
+<a title="美国联邦巡回上诉法院概述禁止反言适用范围" target="_blank" href="/article/gjxw/lfdt/mj/zlmj/201706/1907061.html">美国联邦巡回上诉法院概述禁止反言适用范围</a>
+</li><li>
+<a title="乌克兰正在进行国家知识产权保护体制改革" target="_blank" href="/article/gjxw/lfdt/oz/qtoz/201706/1906775.html">乌克兰正在进行国家知识产权保护体制改革</a>
+</li><li>
+<a title="南非内阁审查知识产权政策草案" target="_blank" href="/article/gjxw/lfdt/fz/qtfz/201706/1906762.html">南非内阁审查知识产权政策草案</a>
+</li><li>
+<a title="英国2018年将加入《工业品外观设计国际注册海牙协定》" target="_blank" href="/article/gjxw/lfdt/oz/qtoz/201706/1906718.html">英国2018年将加入《海牙协定》</a>
+</li><li>
+<a title="欧洲议会通过在线内容可跨境携带条例草案" target="_blank" href="/article/gjxw/lfdt/oz/bqoz/201706/1906717.html">欧洲议会通过在线内容可跨境携带条例草案</a>
+</li><li>
+<a title="加拿大联邦法院发布《案件管理实务通知》" target="_blank" href="/article/gjxw/lfdt/mj/qtmj/201706/1906452.html">加拿大联邦法院发布《案件管理实务通知》</a>
+</li><li>
+<a title="马来西亚将修订劳工和知识产权法" target="_blank" href="/article/gjxw/lfdt/yz/zlyz/201705/1906338.html">马来西亚将修订劳工和知识产权法</a>
+</li><li>
+<a title="美国联邦最高法院收紧专利诉讼地原则" target="_blank" href="/article/gjxw/lfdt/mj/zlmj/201705/1906286.html">美国联邦最高法院收紧专利诉讼地原则</a>
+</li><li>
+<a title="美国唱片协会称艺术家不需要精神权利遭反对" target="_blank" href="/article/gjxw/lfdt/mj/bqmj/201705/1906166.html">美国唱片协会称艺术家不需要精神权利遭反对</a>
+</li><li>
+<a title="美国知识产权法协会提议修改法典第35编第101条" target="_blank" href="/article/gjxw/lfdt/mj/zlmj/201705/1906163.html">美国知识产权法协会提议修改法典第35编第101条</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="美国联邦最高法院认为禁止注册诋毁性商标违宪" target="_blank" href="/article/gjxw/zfxd/mz/201706/1907523.html">美国联邦最高法院认为禁止注册诋毁性商标违宪</a>
+</li><li>
+<a title="美国联邦最高法院审议双方复议程序是否符合宪法" target="_blank" href="/article/gjxw/zfxd/mz/201706/1907059.html">美国联邦最高法院审议双方复议程序是否符合宪法</a>
+</li><li>
+<a title="澳大利亚板球运动员联盟力图加大知识产权保护" target="_blank" href="/article/gjxw/zfxd/dyzzfxd/201706/1906763.html">澳大利亚板球运动员联盟力图加大知识产权保护</a>
+</li><li>
+<a title="研究报告显示盗版过滤器弊大于利" target="_blank" href="/article/gjxw/zfxd/mz/201704/1903745.html">研究报告显示盗版过滤器弊大于利</a>
+</li><li>
+<a title="肯尼亚版权委员会取消音乐版权协会的版税征集许可" target="_blank" href="/article/gjxw/zfxd/fzzfxd/201702/1902021.html">肯尼亚版权委员会取消音乐版权协会的版税征集许可</a>
+</li><li>
+<a title="巴林政府查封10万件非法作品" target="_blank" href="/article/gjxw/zfxd/yzzsxd/201702/1901310.html">巴林政府查封10万件非法作品</a>
+</li><li>
+<a title="印度尼西亚打击假冒与走私遇到的挑战" target="_blank" href="/article/gjxw/zfxd/yzzsxd/201701/1900239.html">印度尼西亚打击假冒与走私遇到的挑战</a>
+</li><li>
+<a title="英国注册机构称域名暂停数量一年内翻一番" target="_blank" href="/article/gjxw/zfxd/ozzfxd/201611/1898372.html">英国注册机构称域名暂停数量一年内翻一番</a>
+</li><li>
+<a title="反盗版律师称瑞典文件共享正在减少" target="_blank" href="/article/gjxw/zfxd/ozzfxd/201611/1897450.html">反盗版律师称瑞典文件共享正在减少</a>
+</li><li>
+<a title="菲律宾制定五年行动计划　完善反假冒措施" target="_blank" href="/article/gjxw/zfxd/yzzsxd/201611/1897449.html">菲律宾制定五年行动计划　完善反假冒措施</a>
+</li><li>
+<a title="2015年欧盟当局截获的假冒商品数持续增长" target="_blank" href="/article/gjxw/zfxd/ozzfxd/201610/1896208.html">2015年欧盟当局截获的假冒商品数持续增长</a>
+</li><li>
+<a title="意大利政府与阿里巴巴合作打击假冒意大利产品" target="_blank" href="/article/gjxw/zfxd/yzzsxd/201609/1895457.html">意大利政府与阿里巴巴合作打击假冒意大利产品</a>
+</li><li>
+<a title="英国知识产权局发现&ldquo;可疑包裹&rdquo;后紧急撤离" target="_blank" href="/article/gjxw/zfxd/ozzfxd/201609/1895091.html">英国知识产权局发现&ldquo;可疑包裹&rdquo;后紧急撤离</a>
+</li><li>
+<a title="尼日利亚艺术家们在无音乐日抵制版权侵权" target="_blank" href="/article/gjxw/zfxd/fzzfxd/201609/1895029.html">尼日利亚艺术家们在无音乐日抵制版权侵权</a>
+</li><li>
+<a title="美国没收多特康姆的数百万现金" target="_blank" href="/article/gjxw/zfxd/mz/201608/1894120.html">美国没收多特康姆的数百万现金</a>
+</li><li>
+<a title="俄罗斯计划打击社交媒体盗版" target="_blank" href="/article/gjxw/zfxd/ozzfxd/201608/1894110.html">俄罗斯计划打击社交媒体盗版</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="美国联邦最高法院认为禁止注册诋毁性商标违宪" target="_blank" href="/article/gjxw/ajzz/sbzjzz/201706/1907523.html">美国联邦最高法院认为禁止注册诋毁性商标违宪</a>
+</li><li>
+<a title="香奈儿起诉在线假冒者" target="_blank" href="/article/gjxw/ajzz/qtajzz/201706/1907522.html">香奈儿起诉在线假冒者</a>
+</li><li>
+<a title="俄亥俄州立大学起诉其前篮球运动员商标侵权" target="_blank" href="/article/gjxw/ajzz/sbzjzz/201706/1907521.html">俄亥俄州立大学起诉其前篮球运动员商标侵权</a>
+</li><li>
+<a title="美国联邦第七巡回上诉法院审理家装设计图版权侵权案" target="_blank" href="/article/gjxw/ajzz/bqajzz/201706/1907520.html">美国联邦第七巡回上诉法院审理家装设计图版权侵权案</a>
+</li><li>
+<a title="欧盟委员会对耐克等三家公司展开调查" target="_blank" href="/article/gjxw/ajzz/qtajzz/201706/1907368.html">欧盟委员会对耐克等三家公司展开调查</a>
+</li><li>
+<a title="欧盟法院判定海盗湾向公众传播侵权内容" target="_blank" href="/article/gjxw/ajzz/bqajzz/201706/1907366.html">欧盟法院判定海盗湾向公众传播侵权内容</a>
+</li><li>
+<a title="美国21岁小伙分享盗版《死侍》电影被捕" target="_blank" href="/article/gjxw/ajzz/bqajzz/201706/1907308.html">美国21岁小伙分享盗版《死侍》电影被捕</a>
+</li><li>
+<a title="CAFC推翻ITC专利侵权裁决" target="_blank" href="/article/gjxw/ajzz/zlajzz/201706/1907306.html">CAFC推翻ITC专利侵权裁决</a>
+</li><li>
+<a title="胡椒博士对King.com提交的&ldquo;Crush&rdquo;商标注册申请提出异议" target="_blank" href="/article/gjxw/ajzz/sbzjzz/201706/1907222.html">胡椒博士对King.com提交的&ldquo;Crush&rdquo;&hellip;
+					        </a>
+</li><li>
+<a title="印度孟买高等法院判定并非外观设计的每个组件都需具备原创性和新颖性" target="_blank" href="/article/gjxw/ajzz/qtajzz/201706/1907213.html">印度孟买高等法院判定并非外观设计的每个组件都需&hellip;
+					        </a>
+</li><li>
+<a title="英国伦敦高等法院颁布的FRAND禁令影响波及全球" target="_blank" href="/article/gjxw/ajzz/zlajzz/201706/1907208.html">英国伦敦高等法院颁布的FRAND禁令影响波及全球</a>
+</li><li>
+<a title="夏普起诉海信欲夺回商标权　称劣质电视机损害品牌" target="_blank" href="/article/gjxw/ajzz/sbzjzz/201706/1907105.html">夏普起诉海信欲夺回商标权　称劣质电视机损害品牌</a>
+</li><li>
+<a title="比佛利山庄酒店被诉侵犯版权" target="_blank" href="/article/gjxw/ajzz/bqajzz/201706/1907063.html">比佛利山庄酒店被诉侵犯版权</a>
+</li><li>
+<a title="家乐氏公司对网球明星的商标提出异议" target="_blank" href="/article/gjxw/ajzz/sbzjzz/201706/1907062.html">家乐氏公司对网球明星的商标提出异议</a>
+</li><li>
+<a title="美国联邦巡回上诉法院概述禁止反言适用范围" target="_blank" href="/article/gjxw/ajzz/zlajzz/201706/1907061.html">美国联邦巡回上诉法院概述禁止反言适用范围</a>
+</li><li>
+<a title="美国联邦最高法院审议双方复议程序是否符合宪法" target="_blank" href="/article/gjxw/ajzz/zlajzz/201706/1907059.html">美国联邦最高法院审议双方复议程序是否符合宪法</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="数字时代商标专家面临的挑战&mdash;&mdash;2017年INTA大会总结" target="_blank" href="/article/gjxw/gfgd/fdgj/201706/1906812.html">数字时代商标专家面临的挑战</a>
+</li><li>
+<a title="俄罗斯知识产权法院判决遭质疑" target="_blank" href="/article/gjxw/gfgd/fzzgj/201706/1906807.html">俄罗斯知识产权法院判决遭质疑</a>
+</li><li>
+<a title="研究显示印度专利侵权诉讼效率低下" target="_blank" href="/article/gjxw/gfgd/fzzgj/201706/1906720.html">研究显示印度专利侵权诉讼效率低下</a>
+</li><li>
+<a title="阿诺达姆成为首位当选WHO总干事的非洲官员" target="_blank" href="/article/gjxw/gfgd/zbfdgj/201705/1906168.html">阿诺达姆成为首位当选WHO总干事的非洲官员</a>
+</li><li>
+<a title="印度2016年八大专利动向" target="_blank" href="/article/gjxw/gfgd/fzzgj/201704/1904633.html">印度2016年八大专利动向</a>
+</li><li>
+<a title="英国律师会议重点关注脱欧问题" target="_blank" href="/article/gjxw/gfgd/fdgj/201703/1903082.html">英国律师会议重点关注脱欧问题</a>
+</li><li>
+<a title="知识产权专家反对重新思考在线商标保护机制" target="_blank" href="/article/gjxw/gfgd/fdgj/201703/1903015.html">知识产权专家反对重新思考在线商标保护机制</a>
+</li><li>
+<a title="专家呼吁加大警告标示研究" target="_blank" href="/article/gjxw/gfgd/fdgj/201703/1902401.html">专家呼吁加大警告标示研究</a>
+</li><li>
+<a title="两大机构联手捍卫非洲创作者的权利和该地区的经济增长" target="_blank" href="/article/gjxw/gfgd/zbfdgj/201703/1902399.html">两大机构联手捍卫非洲创作者的权利和该地区的经济&hellip;
+					        </a>
+</li><li>
+<a title="关于多边投资法院体制的诸多问题" target="_blank" href="/article/gjxw/gfgd/fdgj/201703/1902242.html">关于多边投资法院体制的诸多问题</a>
+</li><li>
+<a title="知识产权学者对RCEP协定中的版权规则提出警告" target="_blank" href="/article/gjxw/gfgd/fdgj/201702/1902173.html">知识产权学者对RCEP协定中的版权规则提出警告</a>
+</li><li>
+<a title="新《贸易便利化协定》造福发展中国家和全球贸易" target="_blank" href="/article/gjxw/gfgd/fzzgj/201702/1902169.html">新《贸易便利化协定》造福发展中国家和全球贸易</a>
+</li><li>
+<a title="德国发布新抗生素研发战略报告" target="_blank" href="/article/gjxw/gfgd/fdgj/201702/1902109.html">德国发布新抗生素研发战略报告</a>
+</li><li>
+<a title="非洲两大知识产权组织力求协调统一" target="_blank" href="/article/gjxw/gfgd/zbfdgj/201702/1902066.html">非洲两大知识产权组织力求协调统一</a>
+</li><li>
+<a title="欧盟代表称乌克兰应打击网络盗版" target="_blank" href="/article/gjxw/gfgd/fdgj/201702/1901307.html">欧盟代表称乌克兰应打击网络盗版</a>
+</li><li>
+<a title="USTR候选人莱特希泽或将坚持强硬的知识产权保护立场" target="_blank" href="/article/gjxw/gfgd/fdgj/201701/1900240.html">USTR候选人莱特希泽或将坚持强硬的知识产权保&hellip;
+					        </a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="美国商会要求在《北美自由贸易协定》中强化知识产权条款" target="_blank" href="/article/gjxw/jlhz/qtjlhz/201706/1907305.html">美国商会要求在《北美自由贸易协定》中强化知识产&hellip;
+					        </a>
+</li><li>
+<a title="全球娱乐业巨头形成反盗版联盟" target="_blank" href="/article/gjxw/jlhz/bqjlhz/201706/1907226.html">全球娱乐业巨头形成反盗版联盟</a>
+</li><li>
+<a title="世界五大知识产权局推进专利协调工作" target="_blank" href="/article/gjxw/jlhz/zljlhz/201706/1906768.html">世界五大知识产权局推进专利协调工作</a>
+</li><li>
+<a title="欧洲专利局与安哥拉工业产权局开展双边合作" target="_blank" href="/article/gjxw/jlhz/zljlhz/201705/1906284.html">欧洲专利局与安哥拉工业产权局开展双边合作</a>
+</li><li>
+<a title="财经观察：中芬合作点亮创新之光" target="_blank" href="/article/gjxw/jlhz/qtjlhz/201704/1903759.html">财经观察：中芬合作点亮创新之光</a>
+</li><li>
+<a title="国家知识产权局副局长何志敏率团赴孟加拉国和巴基斯坦进行工作访问" target="_blank" href="/article/gjxw/jlhz/zljlhz/201704/1903725.html">国家知识产权局副局长何志敏率团赴孟加拉国和巴基&hellip;
+					        </a>
+</li><li>
+<a title="英国专利商标局2月份接收商标申请量创新高" target="_blank" href="/article/gjxw/jlhz/sbjlhz/201703/1903269.html">英国专利商标局2月份接收商标申请量创新高</a>
+</li><li>
+<a title="约旦加入《专利合作条约》" target="_blank" href="/article/gjxw/jlhz/zljlhz/201703/1903084.html">约旦加入《专利合作条约》</a>
+</li><li>
+<a title="巴基斯坦将与中国加强知识产权合作" target="_blank" href="/article/gjxw/jlhz/sbjlhz/201703/1902874.html">巴基斯坦将与中国加强知识产权合作</a>
+</li><li>
+<a title="医药行业为研究罕见病呼吁共同合作" target="_blank" href="/article/gjxw/jlhz/qtjlhz/201703/1902537.html">医药行业为研究罕见病呼吁共同合作</a>
+</li><li>
+<a title="知识产权学者对RCEP协定中的版权规则提出警告" target="_blank" href="/article/gjxw/jlhz/bqjlhz/201702/1902173.html">知识产权学者对RCEP协定中的版权规则提出警告</a>
+</li><li>
+<a title="澳大利亚与新西兰制定跨塔斯曼海专利律师制度" target="_blank" href="/article/gjxw/jlhz/qtjlhz/201702/1901546.html">澳大利亚与新西兰制定跨塔斯曼海专利律师制度</a>
+</li><li>
+<a title="美、印贸易部长就印度知识产权执法行动清单达成一致" target="_blank" href="/article/gjxw/jlhz/qtjlhz/201610/1896840.html">美、印贸易部长就印度知识产权执法行动清单达成一致</a>
+</li><li>
+<a title="美国专利商标局和古巴工业产权局参加历史性会议" target="_blank" href="/article/gjxw/jlhz/zljlhz/201610/1896640.html">美国专利商标局和古巴工业产权局参加历史性会议</a>
+</li><li>
+<a title="亚洲太平洋地区商标保护合作短期内很难取得重大进展" target="_blank" href="/article/gjxw/jlhz/sbjlhz/201609/1895455.html">亚洲太平洋地区商标保护合作短期内很难取得重大进展</a>
+</li><li>
+<a title="音乐出版商协会加入PIPCU创意行动" target="_blank" href="/article/gjxw/jlhz/bqjlhz/201609/1895094.html">音乐出版商协会加入PIPCU创意行动</a>
+</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 国际新闻 -->
+			<!-- 图片链接 -->
+			<div class="total mt10p pictures">
+<a href="http://www.ipr.gov.cn/hwwq/intro.html" target="_blank"><font color="FFFFFF">.</font><img src="img/banner04.jpg" /></a>
+<a href="http://www.ipr.gov.cn/hwwq/zhinan.html" target="_blank" class="ml19p"><img src="img/banner02.jpg" /></a>
+<a href="http://www.ipr.gov.cn/office/list.shtml?area_name=" target="_blank" class="ml19p"><img src="img/banner2017.jpg" /></a>
+<a href="http://www.ipr.gov.cn/hwwq/intro/plant/plant_catalog.html" target="_blank" class="ml19p"><img src="img/banner03.jpg" /></a></div>
+			<!-- 图片链接 -->
+			<!-- 国内新闻 -->
+			<div class="colum01 grayBg mt10p">
+				<h2 class="title02"><span><a href="/list/gnxw/zfbm/1/cateinfo.html">政府部门</a>|<a href="/list/gnxw/sfjg/1/cateinfo.html">司法机关</a>|<a href="/list/gnxw/qy/1/cateinfo.html">企业</a>|<a href="/list/gnxw/xsjg/1/cateinfo.html">学术机构</a>|<a href="/list/gnxw/qt/1/cateinfo.html">其他</a></span><img src="img/columTitleImg02.png" /></h2>
+				<div class="subNav" id="tabNav_02">
+					<dl class="w650p center">
+						<dd><a href="/list/gnxw/zl/1/cateinfo.html">专利</a>|</dd>
+						<dd><a href="/list/gnxw/sb/1/cateinfo.html">商标</a>|</dd>
+						<dd><a href="/list/gnxw/bq/1/cateinfo.html">版权</a>|</dd>
+						<dd><a href="/list/gnxw/symm/1/cateinfo.html">商业秘密</a>|</dd>
+						<dd><a href="/list/gnxw/dlbz/1/cateinfo.html">地理标志</a>|</dd>
+						<dd><a href="/list/gnxw/zwxpz/1/cateinfo.html">植物新品种</a>|</dd>
+						<dd><a href="/list/gnxw/fwzwhyc/1/cateinfo.html">非物质文化遗产</a></dd>
+					</dl>
+				</div>
+				<div class="subCon total"  id="tabCon_02">
+					<div class="subTabDiv">
+						<ul class="columUl02">
+							<li>
+<a title="山东东营专利案件资助出新政　每件最高资助10000元" target="_blank" href="/article/gnxw/zl/201706/1907541.html">山东东营专利案件资助出新政　每件最高资助100&hellip;
+					        </a>
+</li><li>
+<a title="福建龙岩学院三项科研成果荣获市科学技术奖和专利奖" target="_blank" href="/article/gnxw/zl/201706/1907540.html">福建龙岩学院三项科研成果荣获市科学技术奖和专利奖</a>
+</li><li>
+<a title="山东青岛举办2017年专利布局实战培训班" target="_blank" href="/article/gnxw/zl/201706/1907539.html">山东青岛举办2017年专利布局实战培训班</a>
+</li><li>
+<a title="甘肃兰州供电公司提前完成全年专利申请工作" target="_blank" href="/article/gnxw/zl/201706/1907537.html">甘肃兰州供电公司提前完成全年专利申请工作</a>
+</li><li>
+<a title="江苏扬州市江都区科技局召开专利服务代理机构工作座谈会" target="_blank" href="/article/gnxw/zl/201706/1907533.html">江苏扬州市江都区科技局召开专利服务代理机构工作&hellip;
+					        </a>
+</li><li>
+<a title="黑龙江知识产权局赴牡丹江市推进知识产权试点城市建设和省专利优势企业创建工作" target="_blank" href="/article/gnxw/zl/201706/1907516.html">黑龙江知产局赴牡丹江推进知产试点城市建设和省专&hellip;
+					        </a>
+</li><li>
+<a title="2018年中国国际专利技术与产品交易会筹备工作交流会在辽宁大连召开" target="_blank" href="/article/gnxw/zl/201706/1907511.html">2018年中国国际专利技术与产品交易会筹备工作&hellip;
+					        </a>
+</li><li>
+<a title="海南：搭乘高价值专利快车　驶入创新发展&ldquo;春天里&rdquo;" target="_blank" href="/article/gnxw/zl/201706/1907478.html">海南：搭乘高价值专利快车　驶入创新发展&ldquo;春天里&rdquo;</a>
+</li><li>
+<a title="河南省政府审议通过《河南省专利奖励办法》" target="_blank" href="/article/gnxw/zl/201706/1907477.html">河南省政府审议通过《河南省专利奖励办法》</a>
+</li><li>
+<a title="西固热电获四项国家实用新型专利授权" target="_blank" href="/article/gnxw/zl/201706/1907475.html">西固热电获四项国家实用新型专利授权</a>
+</li><li>
+<a title="恒科新材料一创新成果获国家专利授权" target="_blank" href="/article/gnxw/zl/201706/1907474.html">恒科新材料一创新成果获国家专利授权</a>
+</li><li>
+<a title="第五届&ldquo;三江知识产权国际论坛&rdquo;举办　发布国家高新区知识产权评价报告" target="_blank" href="/article/gnxw/zl/201706/1907470.html">第五届&ldquo;三江知识产权国际论坛&rdquo;举办　发布国家高&hellip;
+					        </a>
+</li><li>
+<a title="广东佛山：2000多项专利技术推向全国　反向竞价价低者得" target="_blank" href="/article/gnxw/zl/201706/1907469.html">广东佛山：2000多项专利技术推向全国　反向竞&hellip;
+					        </a>
+</li><li>
+<a title="广东中山古镇计划明年建成万件专利强镇" target="_blank" href="/article/gnxw/zl/201706/1907463.html">广东中山古镇计划明年建成万件专利强镇</a>
+</li><li>
+<a title="哈尔斯获杯子提盖及组装方法专利" target="_blank" href="/article/gnxw/zl/201706/1907458.html">哈尔斯获杯子提盖及组装方法专利</a>
+</li><li>
+<a title="&ldquo;复兴号&rdquo;京沪高铁首发　我国完全掌握自主知识产权" target="_blank" href="/article/gnxw/zl/201706/1907454.html">&ldquo;复兴号&rdquo;京沪高铁首发　我国完全掌握自主知识产权</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="工商总局：提高认识澄清误区　积极实施商标品牌战略" target="_blank" href="/article/gnxw/sb/201706/1907554.html">工商总局：提高认识澄清误区　积极实施商标品牌战略</a>
+</li><li>
+<a title="山东青岛市南商标突破两万件位居全省区县级第一" target="_blank" href="/article/gnxw/sb/201706/1907546.html">山东青岛市南商标突破两万件位居全省区县级第一</a>
+</li><li>
+<a title="重庆铜梁工商局做好企业商标培育工作" target="_blank" href="/article/gnxw/sb/201706/1907544.html">重庆铜梁工商局做好企业商标培育工作</a>
+</li><li>
+<a title="福建泉州市发文加强商标品牌建设" target="_blank" href="/article/gnxw/sb/201706/1907542.html">福建泉州市发文加强商标品牌建设</a>
+</li><li>
+<a title="山西大同市40家企业获2016年省著名商标称号" target="_blank" href="/article/gnxw/sb/201706/1907486.html">山西大同市40家企业获2016年省著名商标称号</a>
+</li><li>
+<a title="安徽工商局副局长程胤调研太和县商标战略实施工作" target="_blank" href="/article/gnxw/sb/201706/1907484.html">安徽工商局副局长程胤调研太和县商标战略实施工作</a>
+</li><li>
+<a title="重庆潼南区工商行政管理局抓实商标发展工作" target="_blank" href="/article/gnxw/sb/201706/1907483.html">重庆潼南区工商行政管理局抓实商标发展工作</a>
+</li><li>
+<a title="江苏镇江8名企发声：商标质押融资快出台" target="_blank" href="/article/gnxw/sb/201706/1907482.html">江苏镇江8名企发声：商标质押融资快出台</a>
+</li><li>
+<a title="广西各级工商机关着力推进商标扶贫工作" target="_blank" href="/article/gnxw/sb/201706/1907481.html">广西各级工商机关着力推进商标扶贫工作</a>
+</li><li>
+<a title="湖北鄂州沼山胡柚入选全国十大富农商标案例" target="_blank" href="/article/gnxw/sb/201706/1907404.html">湖北鄂州沼山胡柚入选全国十大富农商标案例</a>
+</li><li>
+<a title="山西大同市40家企业获2016年省著名商标称号" target="_blank" href="/article/gnxw/sb/201706/1907403.html">山西大同市40家企业获2016年省著名商标称号</a>
+</li><li>
+<a title="上海嘉定市场监管局聚焦商标发展提升区域经济发展活力" target="_blank" href="/article/gnxw/sb/201706/1907401.html">上海嘉定市场监管局聚焦商标发展提升区域经济发展&hellip;
+					        </a>
+</li><li>
+<a title="湖南怀化市工商行政管理局一行前往靖州指导商标工作" target="_blank" href="/article/gnxw/sb/201706/1907334.html">湖南怀化市工商行政管理局一行前往靖州指导商标工作</a>
+</li><li>
+<a title="江苏盐城大丰新增2件中国驰名商标" target="_blank" href="/article/gnxw/sb/201706/1907333.html">江苏盐城大丰新增2件中国驰名商标</a>
+</li><li>
+<a title="内蒙古呼和浩特市七项措施力促商标专用权保护" target="_blank" href="/article/gnxw/sb/201706/1907330.html">内蒙古呼和浩特市七项措施力促商标专用权保护</a>
+</li><li>
+<a title="湖北襄阳商标受理窗口启用　家门口就能办商标登记" target="_blank" href="/article/gnxw/sb/201706/1907329.html">湖北襄阳商标受理窗口启用　家门口就能办商标登记</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="广东广州开发区四项举措促软件著作权登记数量大幅提高" target="_blank" href="/article/gnxw/bq/201706/1907397.html">广东广州开发区四项举措促软件著作权登记数量大幅&hellip;
+					        </a>
+</li><li>
+<a title="河北省执法检查组到唐山检查《著作权法》贯彻实施情况" target="_blank" href="/article/gnxw/bq/201706/1907337.html">河北省执法检查组到唐山检查《著作权法》贯彻实施&hellip;
+					        </a>
+</li><li>
+<a title="2017首尔书展　台湾馆版权人首次进驻韩国" target="_blank" href="/article/gnxw/bq/201706/1907269.html">2017首尔书展　台湾馆版权人首次进驻韩国</a>
+</li><li>
+<a title="内蒙古呼和浩特市文化市场综合执法局查处侵权盗版案件工作表彰" target="_blank" href="/article/gnxw/bq/201706/1907255.html">内蒙古呼和浩特市文化市场综合执法局查处侵权盗版&hellip;
+					        </a>
+</li><li>
+<a title="湖南：著作权法实施情况执法检查6月启动" target="_blank" href="/article/gnxw/bq/201706/1907187.html">湖南：著作权法实施情况执法检查6月启动</a>
+</li><li>
+<a title="&ldquo;少年儿童版权教育研究&rdquo;主题研讨会在广东广州举办" target="_blank" href="/article/gnxw/bq/201706/1907186.html">&ldquo;少年儿童版权教育研究&rdquo;主题研讨会在广东广州举办</a>
+</li><li>
+<a title="四川内江隆昌召开2017年作品版权登记工作会" target="_blank" href="/article/gnxw/bq/201706/1907183.html">四川内江隆昌召开2017年作品版权登记工作会</a>
+</li><li>
+<a title="山东潍坊市文化和自然遗产周暨潍坊市版权服务月活动启动" target="_blank" href="/article/gnxw/bq/201706/1907071.html">山东潍坊市文化和自然遗产周暨潍坊市版权服务月活&hellip;
+					        </a>
+</li><li>
+<a title="国家版权局：规范电子版作品登记证书" target="_blank" href="/article/gnxw/bq/201706/1907069.html">国家版权局：规范电子版作品登记证书</a>
+</li><li>
+<a title="江苏苏州首家版权工作站落户姑苏69阁" target="_blank" href="/article/gnxw/bq/201706/1907068.html">江苏苏州首家版权工作站落户姑苏69阁</a>
+</li><li>
+<a title="保护毕业作品版权护航校园创新" target="_blank" href="/article/gnxw/bq/201706/1907067.html">保护毕业作品版权护航校园创新</a>
+</li><li>
+<a title="中英共议数字环境下版权问题" target="_blank" href="/article/gnxw/bq/201706/1907052.html">中英共议数字环境下版权问题</a>
+</li><li>
+<a title="全国人大常委会著作权法执法检查组赴福建检查" target="_blank" href="/article/gnxw/bq/201706/1907041.html">全国人大常委会著作权法执法检查组赴福建检查</a>
+</li><li>
+<a title="福建德化版权保护赢得世界知识产权组织认可" target="_blank" href="/article/gnxw/bq/201706/1907028.html">福建德化版权保护赢得世界知识产权组织认可</a>
+</li><li>
+<a title="担保式版权服务平台在四川成都上线" target="_blank" href="/article/gnxw/bq/201706/1906699.html">担保式版权服务平台在四川成都上线</a>
+</li><li>
+<a title="版权创意灯饰设计大赛在广东中山古镇启动" target="_blank" href="/article/gnxw/bq/201705/1905895.html">版权创意灯饰设计大赛在广东中山古镇启动</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="四川公布系列侵犯企业商业秘密案　谨防员工&ldquo;无间道&rdquo;" target="_blank" href="/article/gnxw/symm/201706/1906963.html">四川公布系列侵犯企业商业秘密案　谨防员工&ldquo;无间&hellip;
+					        </a>
+</li><li>
+<a title="网易游戏前高管涉侵犯商业秘密案不予起诉" target="_blank" href="/article/gnxw/symm/201607/1892543.html">网易游戏前高管涉侵犯商业秘密案不予起诉</a>
+</li><li>
+<a title="农业部：草甘膦毒性对公共利益没有重大影响" target="_blank" href="/article/gnxw/symm/201511/1882541.html">农业部：草甘膦毒性对公共利益没有重大影响</a>
+</li><li>
+<a title="证监会引入商业秘密豁免披露规定" target="_blank" href="/article/gnxw/symm/201511/1882462.html">证监会引入商业秘密豁免披露规定</a>
+</li><li>
+<a title="浙江宁海县市场监管局查处首起商业秘密侵权案件" target="_blank" href="/article/gnxw/symm/201511/1882306.html">浙江宁海县市场监管局查处首起商业秘密侵权案件</a>
+</li><li>
+<a title="内蒙古赤峰将组织反假冒及保护商业秘密执法" target="_blank" href="/article/gnxw/symm/201511/1882305.html">内蒙古赤峰将组织反假冒及保护商业秘密执法</a>
+</li><li>
+<a title="铜陵中院首次开展商业秘密司法保护问卷调查" target="_blank" href="/article/gnxw/symm/201511/1882304.html">铜陵中院首次开展商业秘密司法保护问卷调查</a>
+</li><li>
+<a title="全国工商系统商业秘密保护工作推进会暨中美商业秘密保护研讨会举办" target="_blank" href="/article/gnxw/symm/201510/1882077.html">全国工商系统商业秘密保护工作推进会举办</a>
+</li><li>
+<a title="23%企业商业秘密曾被窃取　浙江重拳打击窃密行为" target="_blank" href="/article/gnxw/symm/201510/1882076.html">浙江重拳打击商业秘密窃密行为</a>
+</li><li>
+<a title="设立私服的行为同时侵犯他人著作权和商业秘密" target="_blank" href="/article/gnxw/symm/201510/1882074.html">设立私服的行为同时侵犯他人著作权和商业秘密</a>
+</li><li>
+<a title="商业秘密保护，台州成全国样板" target="_blank" href="/article/gnxw/symm/201510/1882015.html">商业秘密保护，台州成全国样板</a>
+</li><li>
+<a title="浙江临海：三点齐下构建商业秘密保护工作" target="_blank" href="/article/gnxw/symm/201510/1881943.html">浙江临海：三点齐下构建商业秘密保护工作</a>
+</li><li>
+<a title="浙江省台州市​椒江区内外结合推进商业秘密保护工作" target="_blank" href="/article/gnxw/symm/201510/1881942.html">浙江省台州市​椒江区内外结合推进商业秘密保护工作</a>
+</li><li>
+<a title="温岭：构建三方联动商业秘密保护新格局" target="_blank" href="/article/gnxw/symm/201510/1881941.html">温岭：构建三方联动商业秘密保护新格局</a>
+</li><li>
+<a title="上海查处翱翼汽车电子公司侵犯商业秘密案" target="_blank" href="/article/gnxw/symm/201510/1881854.html">上海查处翱翼汽车电子公司侵犯商业秘密案</a>
+</li><li>
+<a title="保密义务不因合同解除而灭失" target="_blank" href="/article/gnxw/symm/201510/1881711.html">保密义务不因合同解除而灭失</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="内蒙古包头固阳县就地理标志证明商标使用进行专题研讨" target="_blank" href="/article/gnxw/dlbz/201706/1907549.html">内蒙古包头固阳县就地理标志证明商标使用进行专题&hellip;
+					        </a>
+</li><li>
+<a title="江苏东海开展地理标志产品保护申报工作" target="_blank" href="/article/gnxw/dlbz/201706/1907507.html">江苏东海开展地理标志产品保护申报工作</a>
+</li><li>
+<a title="广西自治区地理标志保护工作现场会在百色市召开" target="_blank" href="/article/gnxw/dlbz/201706/1907506.html">广西自治区地理标志保护工作现场会在百色召开</a>
+</li><li>
+<a title="四川泸州市工商局调研指导&ldquo;合江荔枝&rdquo;品牌工作" target="_blank" href="/article/gnxw/dlbz/201706/1907487.html">四川泸州市工商局调研指导&ldquo;合江荔枝&rdquo;品牌工作</a>
+</li><li>
+<a title="山西晋城市工商局推进地理标志商标工作" target="_blank" href="/article/gnxw/dlbz/201706/1907485.html">山西晋城市工商局推进地理标志商标工作</a>
+</li><li>
+<a title="国家质检总局受理河北三河市地理标志产品保护申报" target="_blank" href="/article/gnxw/dlbz/201706/1907406.html">国家质检总局受理河北三河市地理标志产品保护申报</a>
+</li><li>
+<a title="广东湛江遂溪县全力推进地理标志保护产品申报工作" target="_blank" href="/article/gnxw/dlbz/201706/1907373.html">广东湛江遂溪县全力推进地理标志保护产品申报工作</a>
+</li><li>
+<a title="广西百色市地理标志产品保护工作纪实" target="_blank" href="/article/gnxw/dlbz/201706/1907372.html">广西百色市地理标志产品保护工作纪实</a>
+</li><li>
+<a title="新疆自治区督导精河枸杞农产品地理标志保护工作" target="_blank" href="/article/gnxw/dlbz/201706/1907345.html">新疆自治区督导精河枸杞农产品地理标志保护工作</a>
+</li><li>
+<a title="安徽安庆驰名商标地理标志证明商标总数居全省前列" target="_blank" href="/article/gnxw/dlbz/201706/1907344.html">安徽安庆驰名商标地理标志证明商标总数居全省前列</a>
+</li><li>
+<a title="新疆兵团6个产品获国家农产品地理标志登记保护" target="_blank" href="/article/gnxw/dlbz/201706/1907343.html">新疆兵团6个产品获国家农产品地理标志登记保护</a>
+</li><li>
+<a title="山东邹城&ldquo;柳下邑猪牙皂&rdquo;获批国家地理标志保护产品" target="_blank" href="/article/gnxw/dlbz/201706/1907252.html">山东邹城&ldquo;柳下邑猪牙皂&rdquo;获批国家地理标志保护产品</a>
+</li><li>
+<a title="商标富农和运用地理标志精准扶贫典型案例评选结果发布" target="_blank" href="/article/gnxw/dlbz/201706/1907239.html">商标富农和运用地理标志精准扶贫典型案例评选结果&hellip;
+					        </a>
+</li><li>
+<a title="贵州毕节市质监局强力推进地理标志产品申报工作" target="_blank" href="/article/gnxw/dlbz/201706/1907181.html">贵州毕节市质监局强力推进地理标志产品申报工作</a>
+</li><li>
+<a title="湖北宜昌新增地理标志4件　总数达到40件居全省第2位" target="_blank" href="/article/gnxw/dlbz/201706/1907180.html">湖北宜昌新增地理标志4件　总数达到40件居全省&hellip;
+					        </a>
+</li><li>
+<a title="福建省4个地理标志保护产品成功列入&ldquo;中欧100+100&rdquo;地理标志互认产品公示清单" target="_blank" href="/article/gnxw/dlbz/201706/1907097.html">福建4个地理标志保护产品成功列入&ldquo;中欧100+&hellip;
+					        </a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="吉林：加大植物新品种保护力度　规范种苗生产经营秩序" target="_blank" href="/article/gnxw/zwxpz/201705/1905911.html">吉林：加大植物新品种保护力度　规范种苗生产经营&hellip;
+					        </a>
+</li><li>
+<a title="甘肃省林业工作站管理局20个牡丹新品种通过专家审查" target="_blank" href="/article/gnxw/zwxpz/201705/1905910.html">甘肃省林业工作站管理局20个牡丹新品种通过专家&hellip;
+					        </a>
+</li><li>
+<a title="宁夏自治区春小麦品种宁2038获国家植物新品种保护权" target="_blank" href="/article/gnxw/zwxpz/201703/1902261.html">宁夏自治区春小麦品种宁2038获国家植物新品种&hellip;
+					        </a>
+</li><li>
+<a title="农业部发布通知征集第11批植物保护品种" target="_blank" href="/article/gnxw/zwxpz/201703/1902260.html">农业部发布通知征集第11批植物保护品种</a>
+</li><li>
+<a title="山东乐陵：马铃薯新品种入选省首批关键核心技术" target="_blank" href="/article/gnxw/zwxpz/201702/1901035.html">山东乐陵：马铃薯新品种入选省首批关键核心技术</a>
+</li><li>
+<a title="5个杜仲新品种获首批植物新品种权" target="_blank" href="/article/gnxw/zwxpz/201701/1900568.html">5个杜仲新品种获首批植物新品种权</a>
+</li><li>
+<a title="我国2016年授予植物新品种权195项" target="_blank" href="/article/gnxw/zwxpz/201701/1900567.html">我国2016年授予植物新品种权195项</a>
+</li><li>
+<a title="广西植物新品种区域布局试点项目启动" target="_blank" href="/article/gnxw/zwxpz/201611/1898181.html">广西植物新品种区域布局试点项目启动</a>
+</li><li>
+<a title="湖南林科院持续领跑紫薇新品种研发" target="_blank" href="/article/gnxw/zwxpz/201610/1896945.html">湖南林科院持续领跑紫薇新品种研发</a>
+</li><li>
+<a title="贵州安顺金刺梨获贵州省　首个植物新品种保护授权" target="_blank" href="/article/gnxw/zwxpz/201610/1896944.html">贵州安顺金刺梨获贵州省　首个植物新品种保护授权</a>
+</li><li>
+<a title="园林园艺植物新品种保护与推广研讨会登陆肇庆" target="_blank" href="/article/gnxw/zwxpz/201610/1896244.html">园林园艺植物新品种保护与推广研讨会登陆肇庆</a>
+</li><li>
+<a title="农业部调研组到湖南开展植物新品种保护调研" target="_blank" href="/article/gnxw/zwxpz/201610/1896243.html">农业部调研组到湖南开展植物新品种保护调研</a>
+</li><li>
+<a title="80项植物新品种权申请获批" target="_blank" href="/article/gnxw/zwxpz/201609/1895308.html">80项植物新品种权申请获批</a>
+</li><li>
+<a title="上海水稻新品种金农香粳1267顺利通过审定" target="_blank" href="/article/gnxw/zwxpz/201607/1892553.html">上海水稻新品种金农香粳1267顺利通过审定</a>
+</li><li>
+<a title="吕平安：十九个小麦良种里的科技报国梦" target="_blank" href="/article/gnxw/zwxpz/201607/1892494.html">吕平安：十九个小麦良种里的科技报国梦</a>
+</li><li>
+<a title="青海省自主选育的蔬菜&ldquo;青线椒2号&rdquo;获植物新品种权" target="_blank" href="/article/gnxw/zwxpz/201607/1892493.html">青海省自主选育的蔬菜&ldquo;青线椒2号&rdquo;获植物新品种权</a>
+</li>
+
+						</ul>
+					</div>
+					<div class="subTabDiv dsn">
+						<ul class="columUl02">
+							<li>
+<a title="山东济南市采取五项措施　推进非遗传承与学校教育融合" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907548.html">山东济南市采取五项措施　推进非遗传承与学校教育&hellip;
+					        </a>
+</li><li>
+<a title="甘肃天水秦安县举行非物质文化遗产展示展演活动" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907547.html">甘肃天水秦安县举行非物质文化遗产展示展演活动</a>
+</li><li>
+<a title="江西万载县政府广场举办第五届非物质文化遗产展演" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907505.html">江西万载县政府广场举办第五届非物质文化遗产展演</a>
+</li><li>
+<a title="山东济南：商河县非物质文化遗产保护成果展落幕" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907504.html">山东济南：商河县非物质文化遗产保护成果展落幕</a>
+</li><li>
+<a title="山东临沂市举行第三届传统文化进校园暨非物质文化遗产博览会" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907503.html">山东临沂市举行第三届传统文化进校园暨非物质文化&hellip;
+					        </a>
+</li><li>
+<a title="浙江义乌第六批非遗项目申报开始啦" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907502.html">浙江义乌第六批非遗项目申报开始啦</a>
+</li><li>
+<a title="宁夏银川贺兰县公布第四批第五批非物质文化遗产保护名录" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907501.html">宁夏银川贺兰县公布第四批第五批非物质文化遗产保&hellip;
+					        </a>
+</li><li>
+<a title="山东烟台市举办非物质文化遗产及文化旅游商品展" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907500.html">山东烟台市举办非物质文化遗产及文化旅游商品展</a>
+</li><li>
+<a title="广东深圳设立红木非物质文化遗产传承中心" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907496.html">广东深圳设立红木非物质文化遗产传承中心</a>
+</li><li>
+<a title="浙江丽水景宁新增5位市级非物质文化遗产代表性传承人" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907405.html">浙江丽水景宁新增5位市级非物质文化遗产代表性传&hellip;
+					        </a>
+</li><li>
+<a title="重庆涪陵区举办首届非物质文化遗产嘉年华" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907370.html">重庆涪陵区举办首届非物质文化遗产嘉年华</a>
+</li><li>
+<a title="辽宁锦州举行非物质文化遗产传承基地工作座谈会" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907342.html">辽宁锦州举行非物质文化遗产传承基地工作座谈会</a>
+</li><li>
+<a title="山西运城芮城县文化局举办非物质文化遗产宣传展销活动" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907341.html">山西运城芮城县文化局举办非物质文化遗产宣传展销&hellip;
+					        </a>
+</li><li>
+<a title="辽宁葫芦岛三项目入选非物质文化遗产项目名录" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907340.html">辽宁葫芦岛三项目入选非物质文化遗产项目名录</a>
+</li><li>
+<a title="天津宝坻区大力推进非物质文化遗产保护工作" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907339.html">天津宝坻区大力推进非物质文化遗产保护工作</a>
+</li><li>
+<a title="山西晋中市26个非物质文化遗产项目入选省级名录" target="_blank" href="/article/gnxw/fwzwhyc/201706/1907338.html">山西晋中市26个非物质文化遗产项目入选省级名录</a>
+</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 国内新闻 -->
+			<!-- 图片链接2 -->
+			<div class="total mt10p pictures"><a href="/list/gnxw/lf/1/cateinfo.html" target="_blank"><img src="img/banner09.jpg" /></a><a href="/list/gnxw/zf/1/cateinfo.html" target="_blank" class="ml9p"><img src="img/banner10.jpg" /></a><a href="/list/gnxw/sf/1/cateinfo.html" target="_blank" class="ml8p"><img src="img/banner11.jpg" /></a></div>
+			<!-- 图片链接2 -->
+			<!-- 在线办事 -->
+			<div class="colum01 mt10p">
+				<h2 class="title02"><span><a href="/list/bzzn/bszn/1/cateinfo.html">办事指南</a>|<a href="/list/bzzn/jjzn/1/cateinfo.html">救济指南</a></span><img src="img/columTitleImg03.png" /></h2>
+				<div class="total">
+					<div class="fl online">
+						<h2 class="onlineTitle">在线咨询</h2>
+<h3 class="onlineTitle1">为帮助您尽快找到答案，请先搜索。</h3>
+<form action="http://gzlynew.mofcom.gov.cn/gzlynew/servlet/SearchServlet?OP=searchText" method="post" id="searchFrm">
+		<input type="hidden" name="siteid"  id="siteid" value="ipr" />
+				<p class="onlineSearch">
+				<input type="text" name="searchText" id="searchText" maxlength="25" class="txt" />
+				<input type="button" value="搜 索" class="btn" onclick="onCheck()" />
+				</p>
+		</form>
+<h3 class="onlineTitle2">快速查询热点问题：</h3>
+<p class="onlineCom">
+<a href="http://gzlynew.mofcom.gov.cn/gzlynew/servlet/IndexServlet?OP=getListByType&type=44ff877b236c441f892ba821b3ea34c3">咨询类</a>|
+<a href="http://gzlynew.mofcom.gov.cn/gzlynew/servlet/IndexServlet?OP=getListByType&type=187">专利</a>|
+<a href="http://gzlynew.mofcom.gov.cn/gzlynew/servlet/IndexServlet?OP=getListByType&type=188">商标</a>|
+<a href="http://gzlynew.mofcom.gov.cn/gzlynew/servlet/IndexServlet?OP=getListByType&type=189">著作权</a>|
+<a href="http://gzlynew.mofcom.gov.cn/gzlynew/servlet/IndexServlet?OP=getListByType&type=a15587cab0454c49a3720dd70d3f843b">其他</a>|
+ </p>
+
+<table border="0" width="20%" id="table1" cellpadding="0" height="8">
+<tr><td></td></tr>
+</table>
+
+<h2 class="onlineTitle">法律服务机构查询</h2>
+<h3 class="onlineTitle1">请输入所需国家或地区：</h3>
+
+<form action="" method="post" id="searchFrm_2">
+<p class="onlineSearch">
+	<input type="text" class="txt" name="area_name" id="area_name"/>
+	<input type="button" value="搜 索" class="btn" onclick="search()" />
+</p>
+</form>
+
+<h3 class="onlineTitle2">快速查询：</h3>
+<p class="onlineCom"><a href="/office/list.shtml?area_code=502">美国</a>|<a href="/office/list.shtml?area_code=eurUn">欧盟</a>|<a href="/office/list.shtml?area_code=304">德国</a>|<a href="/office/list.shtml?area_code=305">法国</a>|<a href="/office/list.shtml?area_code=303">英国</a>|<a href="/office/list.shtml?area_code=116">日本</a></p>
+
+					</div>
+					<div class="fl law">
+						<h2 class="lawTitle">知识产权法律法规库</h2>
+<script type="text/javascript">
+fenqu_array=new Array;
+	fenqu_array[0]=new Array;
+	fenqu_array[0][0]="-全部／All-";
+
+	fenqu_array[1]=new Array;
+	fenqu_array[1][0]="-请选择/Select-";
+	fenqu_array[1][1]="中国大陆区／China Mainland";
+	fenqu_array[1][2]="安徽／Anhui";
+	fenqu_array[1][3]="北京／Beijing";
+	fenqu_array[1][4]="重庆／Chongqing";
+	fenqu_array[1][5]="福建／Fujian";
+	fenqu_array[1][6]="甘肃／Gansu";
+	fenqu_array[1][7]="广东／Guangdong";
+	fenqu_array[1][8]="广西／Guangxi";
+	fenqu_array[1][9]="贵州／Guizhou";
+	fenqu_array[1][10]="海南／Hainan";
+	fenqu_array[1][11]="河北／Hebei";
+	fenqu_array[1][12]="河南／Henan";
+	fenqu_array[1][13]="黑龙江／Heilongjiang";
+	fenqu_array[1][14]="湖北／Hubei";
+	fenqu_array[1][15]="湖南／Hunan";
+	fenqu_array[1][16]="吉林／Jilin";
+	fenqu_array[1][17]="江苏／Jiangsu";
+	fenqu_array[1][18]="江西／Jiangxi";
+	fenqu_array[1][19]="辽宁／Liaoning";
+	fenqu_array[1][20]="内蒙古／Neimenggu";
+	fenqu_array[1][21]="宁夏／Ningxia";
+	fenqu_array[1][22]="青海／Qinghai";
+	fenqu_array[1][23]="山东／Shandong";
+	fenqu_array[1][24]="山西／Shanxi";
+	fenqu_array[1][25]="陕西／Shaanxi";
+	fenqu_array[1][26]="上海／Shanghai";
+	fenqu_array[1][27]="四川／Sichuan";
+	fenqu_array[1][28]="天津／Tianjin";
+	fenqu_array[1][29]="西藏／Xizang";
+	fenqu_array[1][30]="新疆／Xinjiang";
+	fenqu_array[1][31]="云南／Yunnan";
+	fenqu_array[1][32]="浙江／Zhejiang";
+	
+	fenqu_array[2]=new Array;
+	fenqu_array[2][0]="-请选择/Select-";
+	fenqu_array[2][1]="香港／Hong Kong";
+	fenqu_array[2][2]="澳门／Macao";
+	fenqu_array[2][3]="台湾／Taiwan";
+
+	fenqu_array[3]=new Array;
+	fenqu_array[3][0]="-全部／All-";
+
+	fenqu_array[5]=new Array;
+	fenqu_array[5][0]="-请选择/Select-";
+	fenqu_array[5][1]="美国／United States of America";
+	fenqu_array[5][2]="加拿大／Canada";
+	fenqu_array[5][3]="墨西哥／Mexico";
+
+	fenqu_array[6]=new Array;
+	fenqu_array[6][0]="-请选择/Select-";
+	fenqu_array[6][1]="巴西／Brazil";
+	fenqu_array[6][2]="秘鲁／Peru";
+
+	fenqu_array[7]=new Array;
+	fenqu_array[7][0]="-请选择/Select-";
+	fenqu_array[7][1]="欧盟／European Union";
+	fenqu_array[7][2]="爱沙尼亚／Estonia";
+	fenqu_array[7][3]="白俄罗斯／Belarus";
+	fenqu_array[7][4]="丹麦／Denmark";
+	fenqu_array[7][5]="德国／Germany";
+	fenqu_array[7][6]="俄罗斯／Russia";
+	fenqu_array[7][7]="法国／France";
+	fenqu_array[7][8]="拉脱维亚／Latvia";
+	fenqu_array[7][9]="立陶宛／Lithuania";
+	fenqu_array[7][10]="罗马尼亚／Romania";
+	fenqu_array[7][11]="瑞典／Sweden";
+	fenqu_array[7][12]="瑞士／Switzerland";
+	fenqu_array[7][13]="意大利／Italy";
+	fenqu_array[7][14]="英国／The United Kingdom";
+	fenqu_array[7][15]="其他／Other";
+
+	fenqu_array[8]=new Array;
+	fenqu_array[8][0]="-请选择/Select-";
+	fenqu_array[8][1]="韩国／Korea";
+	fenqu_array[8][2]="日本日本／Japan";
+	fenqu_array[8][3]="印度／India";
+	fenqu_array[8][4]="越南／Vietnam";
+
+	fenqu_array[9]=new Array;
+	fenqu_array[9][0]="-请选择/Select-";
+	fenqu_array[9][1]="埃及／Egypt";
+
+	fenqu_array[10]=new Array;
+	fenqu_array[10][0]="-请选择/Select-";
+	fenqu_array[10][1]="澳大利亚／Australia";
+function show_fq() {
+		var v_range=document.invest_search.area.value;
+		setLawDisabled();
+		if (v_range=="1"){
+			document.getElementById("level_type").disabled=false;
+		}else{
+			document.getElementById("level_type").disabled=true;
+		}
+
+		if (v_range=="0"){
+			document.getElementById("country").value=0;
+			document.getElementById("country").disabled=true;
+		}else if (v_range=="3"){
+			document.getElementById("country").disabled=true;
+		}else{
+			document.getElementById("country").disabled=false;
+		}
+			
+		
+			
+		
+			
+		
+		if (v_range=="" || v_range=="0") {
+			document.getElementById("fq").style.display='block';
+			return;
+		}
+		
+		var j=fenqu_array[v_range].length;
+		document.invest_search.country.options.length=0;
+		for (var i=0;i<j;i++){
+			if(v_range==1&&i==1){
+				continue;
+			}
+			document.invest_search.country.add(new Option(fenqu_array[v_range][i],i));
+		}
+			//document.invest_search.country.options[i]=new Option(fenqu_array[v_range][i],i);
+		return;
+	}
+	/**
+ * 设置知识产权法律法规库“省市或国家”disabled
+ */
+function setLawDisabled() {
+	var s=document.getElementById("area").value;
+	if(s==0)
+		document.getElementById("country").disabled=true;
+}
+function show_fq1(s) {
+		var v_range=document.invest_search.area.value;
+		var f_range=s;
+		var j=fenqu_array[v_range].length;
+		document.invest_search.country.options.length=0;
+		for (var i=0;i<j;i++) {
+			if(v_range==1&&i==1){
+				continue;
+			}
+			document.invest_search.country.add(new Option(fenqu_array[v_range][i],i));
+			//document.invest_search.country.options[i]=new Option(fenqu_array[v_range][i],i);
+			if(f_range==i) document.invest_search.country.options[i].selected=true;
+		}
+		return;
+	}
+	
+function searchLaw(){
+			var search = document.getElementById("keyword").value;
+			var language = document.getElementById("language").value;
+			var content_type = document.getElementById("content_type").value;
+			var area = document.getElementById("area").value;
+			var country = document.getElementById("country").value;
+			var level_type = document.getElementById("level_type").value;
+			var time_range = document.getElementById("time_range").value;
+			//alert(search);
+			var url = "/law/list.shtml";
+			var flag = document.getElementsByName("radio");
+			 if(flag[0].checked){
+			 	var url = url +"?title="+ search;
+             }else{
+             	var url = url +"?content="+ search;
+             }
+             
+             var url = url +"&language="+ language;     
+             var url = url +"&content_type="+ content_type;     
+             var url = url +"&area="+ area;     
+             var url = url +"&country="+ country;     
+             var url = url +"&level_type="+ level_type;     
+             var url = url +"&time_range="+ time_range;     
+			
+			window.location.href=url;
+		}
+		
+$(function(){
+
+$("#clearBtn").click(function(){
+		$("#keyword").val("");
+		$("#subtitle").val("");
+		$("#language").val("0");
+		$("#area").val("0");
+		$("#level_type").val("0");
+		$("#time_range").val("0");
+		
+		$("#keyWordRadio1").prop("checked","checked");
+		$("#country").prop("disabled","disabled");
+	});
+});
+	
+
+
+</script>
+<form name="invest_search" action="http://www.newipr.gov.cn/law/list.shtml" method="post">
+	<table border="0" cellspacing="0" cellpadding="0" class="lawTable">
+		<tr>
+			<th>关键字：</th>
+			<td>
+				<input name="keyword" id="keyword" type="text" size="30" value="" class="txt">　
+				<input name="radio" id="keyWordRadio1" type="radio" checked value="0" />标题
+				<input name="radio" id="keyWordRadio2" type="radio"  value="1" />全文
+			</td>
+		</tr>
+		<tr>
+			<th>语言：</th>
+			<td>
+				<select name="language" id="language" class="w294p">
+					<option value="0">--全部／All--</option>
+					<option value="1" >中文／Chinese</option>
+					<option value="2" >英文／English</option>
+					<option value="3" >其他／Other</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th>类别：</th>
+			<td>
+				<select name="content_type" id="content_type" class="w294p">
+					<option value="0">--全部／All--</option>
+					<option value="1" >专利／Patent</option>
+					<option value="2" >商标／Trademark</option>
+					<option value="3" >版权（著作权）／Copyright</option>
+					<option value="4" >商业秘密／Trade Secret</option>
+					<option value="5" >地理标志（地理标识）／Geographical Indication</option>
+					<option value="6" >植物新品种／New Variety of Plants</option>
+					<option value="7" >集成电路布图设计／Layout-design of Integrated Circuit</option>
+					<option value="8" >网络域名／Domain Name</option>
+					<option value="9" >反垄断／Anti-monopoly</option>
+					<option value="10" >反不正当竞争／Anti-unfair Competition</option>
+					<option value="11" >非物质文化遗产／Intangible Cultural Heritage</option>
+					<option value="12" >其他／Other</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th>地区：</th>
+			<td>
+				<select name="area" id="area" onChange="show_fq();" class="w294p">
+					<option value="0">--全部／All--</option>
+					<option value="1" >中国大陆地区／China Mainland</option>
+					<option value="2" >港澳台地区／Hong Kong, Macao and Taiwan</option>
+					<option value="3" >国际／International</option>
+					<option value="5" >北美洲／North America</option>
+					<option value="6" >南美洲／South America</option>
+					<option value="7" >欧洲／Europe</option>
+					<option value="8" >亚洲／Asia</option>
+					<option value="9" >非洲／Africa</option>
+					<option value="10" >大洋洲／Oceania</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th>省市或国家：</th>
+			<td id="fq">
+				<select name="country" id="country"  class="w294p">
+					<script type="text/javascript">
+						show_fq1();
+					</script>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th>效力级别：</th>
+			<td>
+				<select name="level_type" id="level_type" disabled="disabled" class="w294p">
+					<option value="0">--全部／All--</option>
+					<option value="1" >法律／Law</option>
+					<option value="2" >行政法规／Administrative Regulation</option>
+					<option value="3" >部门规章／Department Regulation</option>
+					<option value="4" >地方法规／Local Regulation</option>
+					<option value="5" >司法解释／Judicial Interpretation</option>
+					<option value="6" >其他规范性文件／Other</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th>颁布时间：</th>
+			<td>
+				<select name="time_range" id="time_range" class="w294p">
+					<option value="0">--全部／All--</option>
+					<option value="1" >-1950</option>
+					<option value="2" >1950-1980</option>
+					<option value="3" >1981-1990</option>
+					<option value="4" >1991-2000</option>
+					<option value="5" >2001-</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+	<h3 class="lawShop">
+		<input type="button" value="搜 索" onclick="searchLaw();" />
+		<input type="button" id="clearBtn" value="重置"/>
+	</h3>
+</form>
+<h3 class="onlineTitle2">常用法规：</h3>
+<p class="onlineCom"><a href="/law/detail.shtml?id=1883">专利法</a><a href="/law/detail.shtml?id=1948">商标法</a><a href="/law/detail.shtml?id=1969">著作权法</a><a href="/law/detail.shtml?id=1992">信息网络传播权保护条例</a></p>
+
+					</div>
+				</div>
+			</div>
+			<!-- 在线办事 -->
+		</div>
+		<div class="fr w250p">
+			<!-- 搜索 -->
+			<div class="mainSearch">
+	<form action="/channel/searchList.shtml" method="get" name="searchForm" id="searchForm">
+		<input type="text" name="q" class="txt ac_input" id="acSuggest" onkeydown="return enterKeyClick();" /><button 
+		id="searchbtn" type="submit" class="btn" onclick="return checkSearch();" >搜索</button>
+		<input type="hidden" value="" name="sid" id="searchId" />
+		<input type="hidden" value="" name="sort" id="sort" />
+        <input value="53d894af4867548c0148a6c199580004" id="ses" type="hidden" name="ses"/>    
+	</form>
+	<script type="text/javascript">
+<!--
+	SearchManager.doSearch(searchConfig);
+	SearchManager.doAutocomplete(searchConfig);
+//-->
+</script> 
+</div>
+			<!-- 搜索 -->
+			<!-- 图片链接3 -->
+			<div class="total mt10p pictures"><a href="/zhuanti/426_2017/index.html" target="_blank"><img src="img/banner06.jpg" /></a></div>
+			<div class="total mt10p pictures"><a href="/zhuanti/law/conventions/index.html" target="_blank"><img src="img/falvhuibian.jpg" /></a></div>
+			<div class="total mt10p pictures"><a href="/zhuanti/Reports/2017_Special_301_Report.html" target="_blank"><img src="img/kxhb-2014.png" /></a></div>
+			<!-- 图片链接3 -->
+			<!-- 数据资料 -->
+			<div class="total mt10p data">
+				<h2><a href="/list/sjzl/1/cateinfo.html" target="_blank">更多<img src="img/icon/icon03.png" /></a><span>数据</span>资料</h2>
+				<ul class="columUl04">
+			<li>
+<a title="WIPO发布2017年《全球创新指数报告》" target="_blank" href="/article/sjzl/gj/tjsj/201706/1907365.html">WIPO发布2017年《全球创新&hellip;
+					        </a>
+</li><li>
+<a title="2017年第一季度宁夏发明专利授权量同比增长48.5%" target="_blank" href="/article/sjzl/gn/201706/1907265.html">2017年第一季度宁夏发明专利授&hellip;
+					        </a>
+</li><li>
+<a title="研究显示印度专利侵权诉讼效率低下" target="_blank" href="/article/sjzl/gj/tjsj/201706/1906720.html">研究显示印度专利侵权诉讼效率低下</a>
+</li><li>
+<a title="2016年腾讯商标申请增长速度居世界第一" target="_blank" href="/article/sjzl/gn/201705/1906283.html">2016年腾讯商标申请增长速度居&hellip;
+					        </a>
+</li><li>
+<a title="大多数的千禧一代使用流媒体盗版网站" target="_blank" href="/article/sjzl/gn/201704/1904608.html">大多数的千禧一代使用流媒体盗版网站</a>
+</li><li>
+<a title="贵州专利申请量去年超2.5万件" target="_blank" href="/article/sjzl/gn/201704/1904398.html">贵州专利申请量去年超2.5万件</a>
+</li>
+
+				</ul>
+			</div>
+			<!-- 数据资料 -->
+			<!-- 知识产权案例数据库 -->
+			<div class="total mt10p data">
+				<h2><a href="/caselib/index.shtml" target="_blank">更多<img src="img/icon/icon03.png" /></a><span>知识产权</span>案例数据库</h2>
+				<a href="../zhuanti/cases/copyright.html"><img src="img/banner08.jpg" class="dataImg" /></a>
+
+				<ul class="columUl04">
+					
+
+
+
+
+
+
+
+	<li>
+		<a href="/caselib/searchDetail.shtml?caseId=ff8080815ad70123015cc9645ff9513f&caseType=2" target="_blank">
+		
+		 
+			 
+		     
+		    	党荣秀、梁文奇与玉田县兰泉机械厂商标权权属纠纷再审案 
+		     
+		 
+		</a>
+	</li>           
+
+	<li>
+		<a href="/caselib/searchDetail.shtml?caseId=ff8080815ad70123015cc933bb2b512d&caseType=2" target="_blank">
+		
+		 
+			 
+		     
+		    	广州市凌特电子有限公司与深圳市金晟安智能系统有限公司专利权权属纠纷案 
+		     
+		 
+		</a>
+	</li>           
+
+	<li>
+		<a href="/caselib/searchDetail.shtml?caseId=ff8080815cc2f3eb015cc9157e880268&caseType=2" target="_blank">
+		
+		 
+			 
+		     
+		    	林钧与海南航天食品有限公司技术转让合同纠纷申请再审案 
+		     
+		 
+		</a>
+	</li>           
+
+	<li>
+		<a href="/caselib/searchDetail.shtml?caseId=ff8080815cc2f3eb015cc90dbbcf0267&caseType=2" target="_blank">
+		
+		 
+			 
+		     
+		    	贾忠信与阜新蒙古族自治县卧凤沟乡人民政府专利权转让合同纠纷再审案 
+		     
+		 
+		</a>
+	</li>           
+
+	<li>
+		<a href="/caselib/searchDetail.shtml?caseId=ff8080815ad70123015cc8ffc7085105&caseType=2" target="_blank">
+		
+		 
+			 
+		    	北京新华商知识产权代理有限公司、傅发春等与大闽食品（漳州）有限公司委…… 
+		     
+		     
+		 
+		</a>
+	</li>           
+
+	<li>
+		<a href="/caselib/searchDetail.shtml?caseId=ff8080815cc2f3eb015cc8ea427a0265&caseType=1" target="_blank">
+		
+		 
+			 
+		     
+		    	美国最高法院在打印机案中采用专利权国际用尽原则 
+		     
+		 
+		</a>
+	</li>           
+  
+
+
+				</ul>
+			</div>
+			<!-- 知识产权案例数据库 -->
+			<!-- 图片链接4 -->
+			<div class="total mt10p pictures"><a href="http://www.ipr.gov.cn/zhuanti/expo/index.html" target="_blank"><img src="img/zhanhui.jpg" /></a></div>
+			<!-- 友情链接 -->
+			<div class="total mt20p link">
+				<h2>友情链接：</h2>
+<ul id="tabNav_03">
+	<li><a href="">政府网站</a>|</li>
+	<li><a href="">新闻媒体</a>|</li>
+	<li><a href="">合作网站</a>
+	</li>
+</ul>
+<div class="total" id="tabCon_03">
+	<p>
+		<a 
+		href="http://www.12312.gov.cn/" style="padding-left:0;" target="_blank">中国市场秩序网</a><br /><a 
+		href="http://fec.mofcom.gov.cn" target="_blank">中国对外经济合作指南</a><br /><a 
+		href="http://www.sarft.gov.cn/" target="_blank">国家广播电影电视总局</a><br />
+	</p>
+	<p class="dsn">
+		<a
+		href="http://www.cnr.cn/" target="_blank" style="padding-left:0;">央广网</a><br /><a 
+		href="http://www.legalinfo.gov.cn/" target="_blank">中国普法网</a><br /><a 
+		href="http://www.legaldaily.com.cn/" target="_blank">法制网</a><br /><a 
+		href="http://www.chinaiprlaw.cn/" target="_blank">中国知识产权司法保护网</a>
+	</p>
+	<p class="dsn">
+		<a 
+		href="http://www.ec.com.cn/" target="_blank" style="padding-left:0;">中国国际电子商务网</a><br /><a 
+		href="http://www.bda.gov.cn/cms//www/index.html" target="_blank">北京经济技术开发区</a><br /><a 
+		href="http://china.trade2cn.com/" target="_blank">中国诚商网</a><br /><a 
+		href="http://www.apec-ecba.org" target="_blank">APEC电子商务工商联盟</a><br />
+	</p>
+</div>
+
+			</div>
+			<!-- 友情链接 -->
+		</div>
+	</div>
+	<!-- footer -->
+	<div id="footer"><center>
+<table style="width: 38%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="style1">
+		<a href="/channel/aboutus.shtml"><font color="#000000">关于我们</font>
+	</a> | <a href="/channel/shengming.shtml"><font color="#000000">本网声明</font>
+	</a><br />主办：<a href="http://www.mofcom.gov.cn/" target="_blank"><font
+		color="#000000">中华人民共和国商务部</font>
+	</a><br />承办：<a href="http://ciecc.mofcom.gov.cn" target="_blank"><font
+		color="#000000">中国国际电子商务中心</font>
+	</a><br />ICP备案编号：京ICP备06025182号</td>
+		<td>
+		<a target="_blank" href="http://pucha.kaipuyun.cn/exposure/jiucuo.html?site_code=bm22000006&amp;url=http%3A%2F%2Fwww.ipr.gov.cn%2F">
+		<img align="right" src="/img/jiucuo.png" width="110" height="55" class="style2" /></a></td>
+	</tr>
+</table>
+</center></div>
+
+	<!-- footer -->
+</div>
+</body>
+</html>

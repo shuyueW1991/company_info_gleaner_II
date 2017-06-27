@@ -1,0 +1,12 @@
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=0; includeSubDomains
+Expires: Tue, 27 Jun 2017 13:46:02 GMT
+Vary: Accept-Encoding
+P3P: CP="CUR OTR STA"
+Content-Type: text/html;charset=UTF-8
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+X-Powered-By: Salesforce.com ApexPages
+Cache-Control: must-revalidate, max-age=0, s-maxage=600
+Last-Modified: Tue, 27 Jun 2017 13:46:02 GMT
+Date: Tue, 27 Jun 2017 13:46:01 GMT

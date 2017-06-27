@@ -1,0 +1,25 @@
+Accept-Ranges: bytes
+Backend-Timing: D=66227 t=1498557997677738
+Last-Modified: Tue, 27 Jun 2017 09:06:37 GMT
+Server: mw1209.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Cache: cp1065 pass, cp2004 pass, cp4017 pass, cp4017 pass
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Age: 0
+X-Analytics: ns=0;page_id=23780;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Content-Security-Policy-Report-Only: default-src *.wikimedia.org *.wikipedia.org *.wiktionary.org *.wikisource.org *.wikibooks.org *.wikiversity.org *.wikiquote.org *.wikinews.org www.mediawiki.org www.wikidata.org *.wikivoyage.org data: blob: 'self'; script-src *.wikimedia.org 'unsafe-inline' 'unsafe-eval' 'self'; style-src  *.wikimedia.org data: 'unsafe-inline' 'self'; report-uri /w/api.php?action=cspreport&format=none&reportonly=1&source=wmfwiki&
+Content-Security-Policy-Report-Only: default-src *.wikimedia.org *.wikipedia.org *.wiktionary.org *.wikisource.org *.wikibooks.org *.wikiversity.org *.wikiquote.org *.wikinews.org www.mediawiki.org www.wikidata.org *.wikivoyage.org data: blob: 'self'; script-src *.wikimedia.org 'unsafe-inline' 'unsafe-eval' 'self'; style-src  *.wikimedia.org data: 'unsafe-inline' 'self'; report-uri /w/api.php?action=cspreport&format=none&reportonly=1&source=wmfwiki&
+X-Ua-Compatible: IE=Edge
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Date: Tue, 27 Jun 2017 10:06:37 GMT
+X-Varnish: 399592445, 661495850, 443063019, 159834358
+X-Client-Ip: 180.173.144.160
+X-Content-Type-Options: nosniff
+X-Cache-Status: pass
+X-Webkit-Csp-Report-Only: default-src *.wikimedia.org *.wikipedia.org *.wiktionary.org *.wikisource.org *.wikibooks.org *.wikiversity.org *.wikiquote.org *.wikinews.org www.mediawiki.org www.wikidata.org *.wikivoyage.org data: blob: 'self'; script-src *.wikimedia.org 'unsafe-inline' 'unsafe-eval' 'self'; style-src  *.wikimedia.org data: 'unsafe-inline' 'self'; report-uri /w/api.php?action=cspreport&format=none&reportonly=1&source=wmfwiki&
+Vary: Accept-Encoding,Cookie
+X-Powered-By: HHVM/3.18.2
+Content-Encoding: gzip
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate

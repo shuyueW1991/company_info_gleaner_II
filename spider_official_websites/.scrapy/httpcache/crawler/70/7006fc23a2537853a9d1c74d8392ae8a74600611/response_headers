@@ -1,0 +1,12 @@
+Set-Cookie: JSESSIONID=568E2EC4765EA7FAA8EE9AE270F5D942.scliferay1; Path=/; HttpOnly
+Set-Cookie: COOKIE_SUPPORT=true; Expires=Sat, 09-Feb-2064 12:49:42 GMT; Path=/; HttpOnly
+Set-Cookie: GUEST_LANGUAGE_ID=en_US; Expires=Sat, 09-Feb-2064 12:49:42 GMT; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+Date: Tue, 27 Jun 2017 10:07:34 GMT
+Foglight-Request-Uuid: cddd508a-b610-4537-9ac9-37c810e648ae
+Content-Type: text/html;charset=UTF-8
+Server: nginx/1.8.0
+Liferay-Portal: Liferay Portal Enterprise Edition 6.2.10 EE GA1 (Newton / Build 6210 / November 1, 2013)
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1

@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>中国知识产权网-知识产权-专利检索</title>
+<link href="../../../../images/cp.css" rel="stylesheet" type="text/css" />
+<link href="../../../../images/css.css" rel="stylesheet" type="text/css" />
+<link href="../../../../images/patent.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="../../../../images/qiehuan.js"></script>
+<script type="text/javascript" src="../../../../images/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../images/coin-slider.min.js"></script>
+
+<style type="text/css">
+.follow .active strong a{display:block; color:#185aa4;float:none}
+.team {padding-left:28px;}
+</style>
+    <style type="text/css">
+        .coin-slider {
+            width: 343px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#games').coinslider({ hoverPause: false });
+        });
+    </script>
+
+</head>
+
+<body>
+<div class="wrap">
+ <!--头部公用部分　start-->
+<script src="../../../../images/header2013.js" type="text/javascript"></script>
+<script type="text/javascript">
+  search2013();
+  top2013();
+  nav2013();
+</script>
+<!--头部公用部分　end-->
+
+
+<div class="clear"></div>
+<div class="main">
+<div class="dh">您的位置：<a href="../../../../" class=a_cu>首页</a>><a href="../../../" class=a_cu>培训课堂</a>><a href="../../" class=a_cu>IP申请指南</a>><a href="../" class=a_cu>版权申请</a>><a href="./" class=a_cu>作品著作权登记</a></div>
+
+
+
+		<div class="cpjg">
+			<div class="cp">
+				<div class="title">申请指南</div>
+				<div class="cp_u">
+					<ul>
+						<li class="lIcon1 curre"><a href="#" class="hide">专利</a>
+							<ul>
+								<li><a href="http://www.cnipr.com/PX/px7/px7a/new1/">发明专利申请</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7a/new2/">实用新型/外观专利申请</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7a/pct/">PCT国际申请</a></li>
+								<li><a href="http://www.sipo.gov.cn/bgxz/">相关表格下载</a></li>
+							</ul>
+						</li>
+						<li class="lIcon2"><a href="http://www.cnipr.com/PX/px7/px7b/" class="hide">商标</a> </li>
+						<li class="lIcon3"><a href="#" class="hide current">版权</a>
+							<ul>
+								<li><a href="http://www.cnipr.com/PX/px7/px7c/new4/">计算机软件著作权登记</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7c/new5/">作品著作权登记</a></li>
+							</ul>
+						</li>
+						<li class="lIcon4"><a href="#" class="hide">其他</a>
+							<ul>
+								<li><a href="http://www.cnipr.com/PX/px7/px7d/new6/">植物新品种</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7d/new7/">非物质文化遗产</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7d/new8/">地理标志</a></li>
+								<li><a href="http://www.cnipr.com/PX/px7/px7d/jcdl/">集成电路布图设计专有权</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+
+			<div class="containet l10">
+				<div class="rigWarpN">
+					<div class="rigTit rigTit2 rigTit3">作品著作权登记</div>
+					<ul id="tab">
+						<li class="fli">申请须知</li>
+						<li>申办流程</li>
+						<li>收费标准</li>
+						<li>常见问题</li>
+					</ul>
+					<div id="tab_con">
+						<div class="tabItem fdiv">
+							<div class="cot">
+								
+
+<p>　　1、办理部门：</p>
+<p>　　</p>
+<p>　　申请人办理作品著作权登记申请，可来人到CPCC版权登记大厅办理，或通过邮寄方式向中国版权保护中心著作权登记部提交登记申请材料办理。</p>
+<p>　　CPCC版权登记大厅地址：北京市东城区安定门东大街28号雍和大厦西楼一层</p>
+<p>　　邮编：100007</p>
+<p>　　受理电话：（010）68003887-5031、（010）68003887-5083 、（010）84195427</p>
+<p>　　审查电话：（010）68003887-3007、（010）68003887-3008、（010）68003887-3042、（010）68003887-3043、（010）68003887-3046、（010）68003887-3055、（010）68003887-5080、（010）68003887-5089、（010）68003887-5181、（010）68003887-5055、（010）68003557、（010）84195224</p>
+<p>　　查询电话：（010）68003887-5020</p>
+<p>　　中国版权保护中心著作权登记部负责办理文字作品、口述作品、音乐、 戏剧、 曲艺、舞蹈、杂技艺术作品、美术、建筑作品、摄影作品、电影作品和以类似摄制电影的方法创作的作品、工程设计图、产品设计图、地图、示意图等图形作品和模型作品、法律、行政法规规定的其它作品著作权登记工作。</p>
+<p>　　地址：北京市东城区安定门东大街28号雍和大厦西楼304 </p>
+<p>　　邮编：100007 </p>
+<p>　　电话：（010）68003887转著作权登记部</p>
+<p>　　传真：（010）68003903</p>
+<p>　　</p>
+<p>　　2、材料要求：</p>
+<p>　　申请作品著作权登记应当提交的材料及要求：</p>
+<p>　　（1）按要求填写完整的作品著作权登记申请表；</p>
+<p>　　（2）申请人的身份证明；</p>
+<p>　　（3）权利归属证明；</p>
+<p>　　（4）作品的样本（可以提交纸介质或者电子介质作品样本）；</p>
+<p>　　（5）作品说明书（请从创作意图、创作过程、独创性三方面写，并作者签字）；</p>
+<p>　　（6）委托他人代为申请时，代理人应提交申请人的授权书；</p>
+<p>　　（7）代理人的身份证明。</p>
+<p>　　</p>
+<p>　　3、办理步骤：</p>
+<p>　　申请人提交登记申请材料--登记机构核查接收材料—通知缴费—申请人缴纳登记费用—登记机构受理申请—审查—制作发放登记证书—公告</p>
+<p>　　</p>
+<p>　　4、办理时限：</p>
+<p>　　登记机构受理登记申请后30个工作日办理完成。需要补正材料的，申请人自接到补正通知书后两个月内完成补正，登记机构自收到符合要求的补正材料后30个工作日办理完成。</p>
+<p>　　</p>
+<p>　　5、缴费要求：</p>
+<p>　　申请人办理作品著作权登记申请应按规定缴纳费用。</p>
+<p>　　申请人收到缴费通知书后，应于10日内直接到CPCC版权登记大厅向中国版权保护中心财务处缴费，或通过银行或邮局汇付。汇付登记费用的，应在汇单中写明作品名称、申请流水号。</p>
+<p>　　帐户名称：中国版权保护中心</p>
+<p>　　开户银行：北京银行雍和支行 </p>
+<p>　　行号：1286&nbsp; </p>
+<p>　　银行帐号：0109 1286 1001 2011 1000 204</p>
+<p>　　传真:010-68003395(请注明收款室收)</p>
+<p>　　</p>
+<p>　　6、查询服务：</p>
+<p>　　申请人可以通过网站了解登记申请的办理情况，或与受理通知书上写明的承办人联系询问登记办理情况。</p>
+<p>　　作品登记申请人、其他社会公众、司法机关、行政管理机关等对已登记的作品可以申请查询相关信息。 </p>
+
+
+							</div>
+						</div>
+						<div class="tabItem">
+							<div class="cot">
+								
+
+<img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" alt src="./201305/W020130513612331327347.jpg" OLDSRC="W020130513612331327347.jpg" />
+
+
+							</div>
+						</div>
+						<div class="tabItem">
+							<div class="cot">
+								
+
+<p align="center">　　<strong>中国版权保护中心著作权自愿登记 </strong>&nbsp;</p>
+<p align="center">　　<strong>收费标准 </strong>　　&nbsp;</p>
+<p align="center">　　</p>
+<p align="center"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" alt src="./201305/W020130513611906790288.jpg" OLDSRC="W020130513611906790288.jpg" /></p>
+<p>　　</p>
+<p align="center">　　&nbsp;</p>
+<p>　　一次性申请登记作品数量较大的或其他特殊情况，协商确定收费标准。 </p>
+<p>　　缴费时间及缴纳方式： </p>
+<p>　　申请人应于接到缴费通知时交纳登记费，可以通过银行划帐、邮局汇款或直接交纳现金或支票。划帐或汇款时请注明作品名称。</p>
+
+
+							</div>
+						</div>
+						<div class="tabItem">
+							<div class="cot">
+								
+
+<p>　　1 什么是作品？ </p>
+<p>　　</p>
+<p>　　我国著作权法所称的作品，是指文学、艺术和科学领域内，具有独创性并能以某种有形形式复制的智力创造成果。作品应当具备以下条件： </p>
+<p>　　</p>
+<p>　　（1）独创性，即作品必须是由作者通过独立构思和创作而产生。具有独创性的作品才受著作权法的保护。 </p>
+<p>　　（2）可复制性，即指可以通过印刷、复印、临摹、拓印、录音、录像、翻录、反拍等方式将作品制作一份或多份，但无论采用什么复制方式以及复制多少作品，均不会改变作品的内容及思想。 </p>
+<p>　　（3）合法性，作品应当以法律所允许的客观形式表现出来。公民从事文学、艺术和科学作品的创作，应当符合法律规定，不违背社会公共利益。 </p>
+<p>　　</p>
+<p>　　2 哪些作品可申请登记？ </p>
+<p>　　</p>
+<p>　　我国著作权法第三条规定的各类作品均可申请登记。包括：文字作品；口述作品；音乐、 戏剧、 曲艺、舞蹈、杂技艺术作品；美术、建筑作品；摄影作品；电影作品和以类似摄制电影的方法创作的作品；工程设计图、产品设计图、地图、示意图等图形作品和模型作品；计算机软件；法律、行政法规规定的其它作品。 </p>
+<p>　　</p>
+<p>　　根据著作权法实施条例第四条的规定，上述作品的含义是指： </p>
+<p>　　(1)文字作品，是指小说、诗词、散文、论文等以文字形式表现的作品； </p>
+<p>　　(2)口述作品，是指即兴的演说、授课、法庭辩论等以口头语言形式表现的作品； </p>
+<p>　　(3)音乐作品，是指歌曲、交响乐等能够演唱或者演奏的带词或者不带词的作品； </p>
+<p>　　(4)戏剧作品，是指话剧、歌剧、地方戏等供舞台演出的作品； </p>
+<p>　　(5)曲艺作品，是指相声、快书、大鼓、评书等以说唱为主要形式表演的作品； </p>
+<p>　　(6)舞蹈作品，是指通过连续的动作、姿势、表情等表现思想情感的作品； </p>
+<p>　　(7)杂技艺术作品，是指杂技、魔术、马戏等通过形体动作和技巧表现的作品； </p>
+<p>　　(8)美术作品，是指绘画、书法、雕塑等以线条、色彩或者其他方式构成的有审美意义的平面或者立体的造型艺术作品； </p>
+<p>　　(9)建筑作品，是指以建筑物或者构筑物形式表现的有审美意义的作品； </p>
+<p>　　(10)摄影作品，是指借助器械在感光材料或者其他介质上记录客观物体形象的艺术作品； </p>
+<p>　　(11)电影作品和以类似摄制电影的方法创作的作品，是指摄制在一定介质上，由一系列有伴音或者无伴音的画面组成，并且借助适当装置放映或者以其他方式传播的作品； </p>
+<p>　　(12)图形作品，是指为施工、生产绘制的工程设计图、产品设计图，以及反映地理现象、说明事物原理或者结构的地图、示意图等作品； </p>
+<p>　　(13)模型作品，是指为展示、试验或者观测等用途，根据物体的形状和结构，按照一定比例制成的立体作品。 </p>
+<p>　　</p>
+<p>　　3 哪些作品不能申请登记？ </p>
+<p>　　(1)依法禁止出版、传播的作品； </p>
+<p>　　(2)法律、法规、国家机关的决议、决定、命令和其他具有立法、行政、司法性质的文件，及其官方正式译文； </p>
+<p>　　(3)时事新闻； </p>
+<p>　　(4)历法、通用数表、通用表格和公式； </p>
+<p>　　(5)超过保护期限的作品。 </p>
+<p>　　</p>
+<p>　　4 谁能申请作品登记？ </p>
+<p>　　(1)作者，创作作品的自然人、法人或其他组织； </p>
+<p>　　(2)其他著作权人，包括通过转让、承受、继承等继受取得著作权的权利人。 </p>
+<p>　　申请人可直接申请登记或委托代理人办理申请。</p>
+<p>　　</p>
+<p>　　5 如何申请作品著作权登记？ </p>
+<p>　　作者、其他著作权人或其代理人向中国版权保护中心著作权登记部提交登记申请材料并缴纳相应费用后，经登记机构受理、审查，对符合登记要求，申请材料齐备的发放著作权登记证书。 </p>
+<p>　　</p>
+<p>　　6 作品著作权登记的办理时限有多长？ </p>
+<p>　　自登记机构受理登记申请后30个工作日办理完成。需要补正材料的，申请人自接到补正通知书后两个月内完成补正，登记机构自收到符合要求的补正材料后30个工作日办理完成。</p>
+<p>　　</p>
+<p>　　7 申请作品登记的流程是什么? </p>
+<p>　　请参见“申请流程”。</p>
+<p>　　</p>
+<p>　　8 作品著作权登记的收费标准是什么？</p>
+<p>　　</p>
+<p align="center"><strong>　　中国版权保护中心著作权自愿登记 </strong></p>
+<p align="center"><strong>　　收费标准 </strong></p>
+<p align="center"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" alt src="./201305/W020130513610466954966.jpg" OLDSRC="W020130513610466954966.jpg" /></p>
+<p>　　</p>
+<p align="center">　　一次性申请登记作品数量较大的或其他特殊情况，协商确定收费标准。 </p>
+<p>　　</p>
+<p>　　9 哪些情况下申请办理变更补充登记？</p>
+<p>　　（1）申请人名称、地址变更；</p>
+<p>　　（2）作品名称变更；</p>
+<p>　　（3）申请登记材料填写错误。</p>
+<p>　　上述情况办理变更登记。作品内容变化或增加时办理补充登记。</p>
+<p>　　</p>
+<p>　　10变更或补充登记申请需要提交哪些材料？</p>
+<p>　　（1） 按要求填写的作品著作权变更或补充登记申请表；</p>
+<p>　　（2） 申请人的身份证明；</p>
+<p>　　（3） 变更或补充的作品样本；</p>
+<p>　　（4） 变更的证明材料；</p>
+<p>　　（5） 委托他人代为申请的，应提交申请人出具的授权书；</p>
+<p>　　（6） 代理人的身份证明。</p>
+<p>　　变更补充登记应按规定缴纳费用。</p>
+<p>　　</p>
+<p>　　11撤销登记的情形有哪些？ </p>
+<p>　　（1）登记后发现属于不受著作权法保护的作品；</p>
+<p>　　（2）超过著作权保护期的作品；</p>
+<p>　　（3）依法禁止出版、传播的作品；</p>
+<p>　　（4）登记后发现与事实不相符的；</p>
+<p>　　（5）申请人申请撤销原作品登记的；</p>
+<p>　　（6）登记后发现是重复登记的。</p>
+<p>　　</p>
+<p>　　12撤销登记需要提交哪些材料？</p>
+<p>　　（1） 按要求填写的作品著作权撤销登记申请表；</p>
+<p>　　（2） 申请人的身份证明；</p>
+<p>　　（3） 委托他人代为申请的，应提交申请人出具的授权书；</p>
+<p>　　（4） 代理人的身份证明；</p>
+<p>　　（5） 其他证明材料。</p>
+<p>　　撤销登记应按规定缴纳费用。</p>
+<p>　　</p>
+<p>　　13什么情况下可以撤回登记申请？</p>
+<p>　　申请人在收到受理通知书后至登记申请批准之前，可以随时请求撤回申请。</p>
+<p>　　</p>
+<p>　　14撤回登记需要提交哪些材料？</p>
+<p>　　（1） 按要求填写的作品著作权撤回登记申请表；</p>
+<p>　　（2） 申请人的身份证明；</p>
+<p>　　（3） 委托他人代为申请的，应提交申请人出具的授权书；</p>
+<p>　　（4） 代理人的身份证明；</p>
+<p>　　（5） 其他材料。</p>
+<p>　　撤回登记的，登记费不予退回。</p>
+<p>　　</p>
+<p>　　15 对已登记的作品如何查询相关信息？</p>
+<p>　　作品登记申请人、其他社会公众、司法机关、行政管理机关等对已登记的作品可以申请查询相关信息。申请人和社会公众查询应缴纳费用：每件作品200元。</p>
+<p>　　申请人申请查询：应提交查询申请书，写明需查询的作品名称、查询理由、查询内容；提交身份证明复印件。</p>
+<p>　　公众申请查询：应提交材料同于申请人查询所提交材料。但其可查询内容限于查看登记申请表格内记载的基本信息和登记证书的真伪。</p>
+<p>　　司法机关、行政管理机关申请查询：出示查询公函即可。公函中应写明需查询的作品名称和查询内容。</p>
+<p>　　</p>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="clear"></div>
+
+
+
+<script src="../../../../images/foot2013.js" type='text/javascript'></script>
+
+</div>
+
+
+
+</div>
+
+
+
+
+<script type="text/javascript" src="../../../../images/patent.js"></script>
+
+<!--start add monitor codes-TRS、Gridsum,20170619-->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=1137" async="async" defer="defer"></script> 
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-820032-F552BE/gs.js'></script>
+<!--end add monitor codes-TRS、Gridsum-->
+
+<!--start add monitor codes:Neusoft,20170622-->
+<script>
+    var _paq = _paq || [];
+    (function() {
+        _paq.push(["setSiteId", "jEVZOqlU"]);
+        _paq.push(["trackPageClick"]);
+        var g = document.createElement("script");
+        g.src = ('https:' == document.location.protocol?'https://':'http://')+"ci.realsight.cn/ci-receiver/ubm.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<!--end add monitor codes:Neusoft,20170622-->
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+X-Ua-Compatible: IE=edge
+Set-Cookie: __SophosNextDeviceEnabled=true; domain=sophos.com; path=/; secure; HttpOnly
+Set-Cookie: .ASPXAUTH=; domain=sophos.com; expires=Mon, 11-Oct-1999 23:00:00 GMT; path=/; secure; HttpOnly
+Content-Type: text/html
+Strict-Transport-Security: max-age=10886400
+Date: Tue, 27 Jun 2017 10:15:03 GMT
+Cache-Control: max-age=0, no-cache
+X-Content-Type-Options: nosniff
+Pragma: no-cache
+Expires: Tue, 27 Jun 2017 10:15:03 GMT
+Location: https://secure2.sophos.com/it-it/mysophos/login.aspx?item=%2fsupport%2fdownloads.aspx&returnid=5185afac-b0b3-4c36-b509-0564aca32863&url=%252fit-it%252fsupport%252fdownloads.aspx
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block

@@ -1,0 +1,1209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+<meta http-equiv="keywords" content="<meta http-equiv="keywords" content="知识产权，专利检索，专利分析，快报，月刊，i智库，中国专利排行榜，专家看法，判例精选，知识产权法院，知产创新，知产战略管理，知产交易，知产投融资，政策警示，执法维权，应用实务，司法实践，培训课堂，知识产权图书，法律法规，知产申请注册，专利展示、商标展示，观点，解读，资讯，cnipr视角，cnipr周刊，在线咨询，社区，热议话题，PIAC会员，中国专利信息年会，知识产权优秀博士论文，426知识产权产权日，426专题，电影-全球挚爱，中国专利周，中国专利奖">
+<meta http-equiv="description" content="www.cnipr.com 中国知识产权网">
+
+<title>中国知识产权网--知识产权-专利检索-产品服务-i智库-专利展示-政策警示-业内资讯-观点聚集-专家解读-cnipr视角-专利分析月报-专利信息快报-司法实践-知法天地-应用实务-培训课堂-中国专利信息年会-知识产权关键词</title>
+<link href="./images/css.css" rel="stylesheet" type="text/css" />
+
+<!--首页引用css-->
+<link href="./images/index2013.css" rel="stylesheet" type="text/css" />
+<link href="./images/index201407-newfortest2014piac.css" rel="stylesheet" type="text/css" /><!--2014-8 newadded for PIAC-->
+<link href="./images/idx2014903.css" rel="stylesheet" type="text/css" /><!--2014-09-03 add i智库中国专利排行榜-->
+<link href="./images/styleguanggao.css" rel="stylesheet" type="text/css" /><!--2015-05-15 add规划发展处 调查问卷-->
+
+<script type="text/javascript" src="./images/qiehuan.js"></script>
+<script type="text/javascript" src="./images/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="./images/coin-slider.min.js"></script>
+<script type="text/javascript" src="./images/FusionCharts.js"></script>
+<script type="text/javascript" src="./images/idxscroll.js"></script><!--2014-8 newadded for PIAC-->
+
+
+
+    <style type="text/css">
+        .coin-slider {
+            width: 343px;
+        }
+        .float_botm{
+        	width:126px;
+            margin-left:500px;
+            position:fixed;
+            right:6%;
+            top:82%;
+            z-index:99;
+            bottom;20px;
+        }
+         .wxsm02_botm{
+        	width:433px; 
+            height:121px;
+            float:left;
+
+            margin-top:10px;
+            background:url(http://www.cnipr.com/images/zl_bj2.jpg) top repeat-x;
+        }
+        
+        .cniprs li{padding-left:10px;}
+        
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+             $('#games').coinslider({ hoverPause: false });
+             setNews();
+             setInterval("setNews()",5000);
+        });
+       var no = 0;
+       function setNews()
+       {
+        $("span[name='newitem']").each(function(e){                        
+             if(e!=no)
+               $(this).hide();
+             else
+               $(this).show();             
+         });
+          if(($("span[name='newitem']").length-1)==no)
+               no=0;
+          else
+               no++;
+
+       }
+     
+
+    </script>
+
+   <script language="javascript" type="text/javascript">
+    var ImgWidth = 697; //单个图片宽
+    var ImgNums = 4; //图片个数
+    var goleft; //定时器总动作间隔
+    var gozone; //定时器下一动作
+    var goBack; //定时器返回初始位置
+    var bitnum = 0; //记录图片翻滚到第几张图片
+    window.onload = goplay; //页面加载完开始执行
+
+    function goplay() {
+        clearInterval(goleft);
+        clearInterval(gozone);
+        clearInterval(goBack);
+        goleft = setInterval("IFLeftadd()", 3000);  //每个规定时间执行下一帧播放
+    }
+    function IFLeftadd() {
+
+        clearInterval(goleft);
+        clearInterval(gozone);
+        clearInterval(goBack);
+        if (ImgFrame.scrollLeft >= (ImgNums - 1) * ImgWidth)  //如果图片已滚动到头则执行返回初始位置
+        {
+            bitnum = 0;
+            goBack = setInterval('SBack()', 1);  //执行返回
+        }
+        else {
+            bitnum += 1;
+            gozone = setInterval("IFLeftadding()", 1); //执行下一帧，并记录图片的位置
+        }
+        changeImgStyle(bitnum);
+    }
+    function IFLeftadding() {
+        var addlen = ImgWidth * bitnum - ImgFrame.scrollLeft;
+        ImgFrame.scrollLeft += Math.ceil(addlen / 12); 
+
+        if (ImgFrame.scrollLeft % ImgWidth == 0) {
+            clearInterval(goleft);
+            clearInterval(gozone);
+            clearInterval(goBack);
+            goplay();
+        }
+    }
+    function IFRightadding() {
+        var addlen = ImgWidth * bitnum;
+        ImgFrame.scrollLeft = ImgFrame.scrollLeft - Math.ceil((ImgFrame.scrollLeft - addlen) / 12);
+
+        if (ImgFrame.scrollLeft % ImgWidth == 0) {
+            clearInterval(goleft);
+            clearInterval(gozone);
+            clearInterval(goBack);
+            goplay();
+        }
+    }
+    function SBack() {
+        if (ImgFrame.scrollLeft > 0) {
+            ImgFrame.scrollLeft -= Math.ceil(ImgFrame.scrollLeft / 18);
+        }
+        else {
+            ImgFrame.scrollLeft = 0;
+            clearInterval(goBack);
+            goplay();
+        }
+    }
+    function IFgoto(id) {
+        if (id > bitnum) {
+            clearInterval(goleft);
+            clearInterval(gozone);
+            clearInterval(goBack);
+            bitnum = id;
+            gozone = setInterval("IFLeftadding()", 1); //执行下一帧，并记录图片的位置
+        }
+        else if (id < bitnum) {
+            clearInterval(goleft);
+            clearInterval(gozone);
+            clearInterval(goBack);
+            bitnum = id;
+            gozone = setInterval("IFRightadding()", 1); //执行下一帧，并记录图片的位置
+        }
+        changeImgStyle(bitnum);
+    }
+    function changeImgStyle(id) {
+        /*   for(var i=1;i&lt;=ImgNums;i++)
+        {
+        $("hf"+i).className="hfC2";
+        }
+        $("hf"+(bitnum+1)).className="hfC1";
+        */
+    }
+   </script>
+
+</head>
+
+<body>
+
+
+
+
+<!--    2016春节banner
+<div class="ipods"><div class="ipods2"></div><div class="font-bg"></div></div>-->
+
+<!--    2017春节banner 
+<div class="ipods2017"><div class="ipods22017"></div><div class="font-bg2017"></div></div>-->
+
+<!-- 
+<div style=" background-image:url(http://www.cnipr.com/images/indexbg20160419a.jpg); height:130px; width:1328px; cursor:pointer; " onclick="location.href='http://www.cnipr.com/CNIPR/CNIPR4/xcz2016/'"">
+	 426专题头部　
+</div>
+-->
+<!-- 
+<div style=" background-image:url(http://www.cnipr.com/images/indexbg20160419b.jpg);  width:1328px; background-repeat:no-repeat;">
+	 426专题body  -->
+    
+    
+
+
+<!--节日banner所用样式
+<div class="wrap" style="margin-top:-327px;">
+-->
+
+<div class="wrap" style="margin-top:0px;">
+<!--头部公用部分　start-->
+<script src="./images/header2013.js" type="text/javascript"></script>
+<script type="text/javascript">
+  search2013();
+  top2013();
+  nav2013();
+</script>
+<!--头部公用部分　end-->
+
+
+<div class="main m10">
+<div class="m_left">
+<div class="slide left">
+
+<div id="games">
+
+        <a href="http://www.cnipr.com/gonggao/201706/t20170614_202788.htm" target="_blank" id="games1" name="gameitem" >
+            <img src="./images/img1.jpg" alt="Mini Ninjas" />
+            <span>7月1日起执行新收费标准 修订后的专利（申请）相关表格公布</span>
+        </a> 
+
+        <a href="http://www.cnipr.com/PX/px1/201706/t20170614_202787.htm" target="_blank" id="games1" name="gameitem" >
+            <img src="./images/img2.jpg" alt="Mini Ninjas" />
+            <span>“专利法第四次修改”专题公益讲座（2017-6-23至7-14）</span>
+        </a> 
+
+        <a href="http://www.cnipr.com/CNIPR/cniprinterview/201706/t20170612_202763.htm" target="_blank" id="games1" name="gameitem" >
+            <img src="./images/img3.jpg" alt="Mini Ninjas" />
+            <span>访专利局电学发明审查部电力一处师彦斌处长</span>
+        </a> 
+
+        <a href="http://www.cnipr.com/sy/201705/t20170525_202568.htm" target="_blank" id="games1" name="gameitem" >
+            <img src="./images/img4.jpg" alt="Mini Ninjas" />
+            <span>大疆无人机：在无人的领域开拓疆土</span>
+        </a> 
+
+
+       <!--   备份内容  ---
+       <a href="http://www.cnipr.com/PX/px1/201706/t20170614_202787.htm" target="_blank" id="games1" name="gameitem" >
+            <img src="./images/img1.jpg" alt="Mini Ninjas" />
+            <span>“专利法第四次修改”专题公益讲座（2017-6-23至7-14）</span>
+        </a> 
+
+        <a href="http://www.cnipr.com/CNIPR/cniprinterview/201706/t20170612_202763.htm" target="_blank" id="games1" name="gameitem" >
+            <img src="./images/img2.jpg" alt="Mini Ninjas" />
+            <span>访专利局电学发明审查部电力一处师彦斌处长</span>
+        </a> 
+
+        <a href="http://www.cnipr.com/sy/201705/t20170525_202568.htm" target="_blank" id="games1" name="gameitem" >
+            <img src="./images/img3.jpg" alt="Mini Ninjas" />
+            <span>大疆无人机：在无人的领域开拓疆土</span>
+        </a> 
+
+        <a href="http://www.cnipr.com/CNIPR/twzb/yth/" target="_blank" id="games1" name="gameitem" >
+            <img src="./images/img4.jpg" alt="Mini Ninjas" />
+            <span>2017成都创交会知识产权与城市创新发展国际研讨会图文直播</span>
+        </a>  
+
+       -->
+
+</div>
+</div>
+<div class="follow l10 gd">
+<div class="title"><a href="http://www.cnipr.com/sy/" id="ones1" onmouseover="settabones('ones',1,3)"  class="current"><span class="cRed" id="redones1">观点</span></a> <a href="http://www.cnipr.com/ynzx/" id="ones2" onmouseover="settabones('ones',2,3)"><span id="redones2"> 资讯</span></a><a href="http://www.cnipr.com/CNIPR/CNIPR1/" id="ones3" onmouseover="settabones('ones',3,3)" ><span id="redones3">解读</span></a> </div>
+<ul id="con_ones_1" style="display:block">
+<!--<li><a href="#">俄罗斯铁路公司因商标侵权起诉苹果</a>01-18</li>-->
+
+<li>
+<a href="./sy/201706/t20170627_202934.htm" target="_blank">工商总局局长：商标品牌是否著名不是政...</a>
+06-27                    
+</li>
+
+<li>
+<a href="./sy/201706/t20170627_202932.htm" target="_blank">共享单车专利侵权案持续发酵 专家：专利...</a>
+06-27                    
+</li>
+
+<li>
+<a href="./sy/201706/t20170622_202892.htm" target="_blank">提升创新“含金量” 彰显发展新动力</a>
+06-22                    
+</li>
+
+<li>
+<a href="./sy/201706/t20170621_202877.htm" target="_blank">华为如何化解禁售危机？</a>
+06-21                    
+</li>
+
+</ul>
+
+<ul id="con_ones_2" style="display:none">
+
+<li>
+<a href="./ynzx/201706/t20170627_202931.htm" target="_blank">反不正当竞争法24年来首修订 增加互联网...</a>
+06-27                    
+</li>
+
+<li>
+<a href="./ynzx/201706/t20170627_202933.htm" target="_blank">我国500最具价值品牌在京揭晓 40个民族...</a>
+06-27                    
+</li>
+
+<li>
+<a href="./ynzx/201706/t20170627_202930.htm" target="_blank">中医药法下月实施 知识产权亮点引发期待</a>
+06-27                    
+</li>
+
+<li>
+<a href="./ynzx/201706/t20170623_202909.htm" target="_blank">巴黎航展上的“中国明星”</a>
+06-23                    
+</li>
+
+</ul>
+
+<ul id="con_ones_3" style="display:none">
+
+<li>
+<a href="./CNIPR/CNIPR1/201706/t20170627_202935.htm" target="_blank">新修改的PCT实施细则将于7月1日起正式生...</a>
+06-27                    
+</li>
+
+<li>
+<a href="./CNIPR/CNIPR1/201706/t20170620_202863.htm" target="_blank">华为手机在英被禁售正在上诉 国产手机海...</a>
+06-20                    
+</li>
+
+<li>
+<a href="./CNIPR/CNIPR1/201706/t20170616_202829.htm" target="_blank">中国恩菲：多晶硅行业的探路者</a>
+06-16                    
+</li>
+
+<li>
+<a href="./CNIPR/CNIPR1/201706/t20170614_202785.htm" target="_blank">《悟空》两年零收入，作者权益谁保护？</a>
+06-14                    
+</li>
+
+</ul>
+</div>
+
+<div class="scool" >
+<!--marquee direction="left" onmouseover="this.stop();" scrollamount="3" onmouseout="this.start();"-->
+
+<span name="newitem">
+<a href="./gonggao/201706/t20170627_202939.htm" target="_blank">关于印发2017年国家知识产权示范城市工作计划的通知</a></span>
+
+<span name="newitem">
+<a href="./gonggao/201706/t20170614_202788.htm" target="_blank">7月1日起执行新收费标准 修订后的专利（申请）相关表格公布</a></span>
+
+<span name="newitem">
+<a href="./gonggao/201706/t20170602_202676.htm" target="_blank">关于印发知识产权人才“十三五”规划的通知</a></span>
+
+<span name="newitem">
+<a href="./gonggao/201706/t20170605_202692.htm" target="_blank">关于公布第二期全国专利信息实务人才名单的通知</a></span>
+
+<span name="newitem">
+<a href="./gonggao/201705/t20170527_202613.htm" target="_blank">钮文新：中国金融安全的“命门”在哪？</a></span>
+
+<div style="text-align:right; margin-top:-23px; margin-right:5px;"><a href="http://www.cnipr.com/gonggao" style="background-image:none">更多<font size="-2" style="font-family:SimSun; color:#000;">>></font></a></div>
+
+<!--/marquee-->
+</div>
+<div class="follow m10 pl f_line">
+<div class="title"><a href="http://www.cnipr.com/sfsj/zjkf/" id="fos1" onmouseover="settabfos('fos',1,3)" class="current" ><span class="cRed" id="redfos1">专家看法</span></a> <a href="http://www.cnipr.com/sfsj/pljx/" id="fos2" onmouseover="settabfos('fos',2,3)" ><span id="redfos2">判例精选</span></a> <a href="http://www.cnipr.com/sfsj/zscqfy/" id="fos3" onmouseover="settabfos('fos',3,3)"><span id="redfos3">知识产权法院</span></a> </div>
+
+
+<ul id="con_fos_1" style="display:block">
+
+
+<li class="active">
+<strong><a href="./sfsj/zjkf/201706/t20170615_202803.htm" target="_blank">从上海十大IP案件之“伟星案”看假冒注...</a></strong>
+<p>前段时间，上海高院发布2016年上海法院知识产权司法保护十大案件，其中...</p></li>
+
+
+
+<li>
+<a href="./sfsj/zjkf/201706/t20170609_202748.htm" target="_blank">将网络游戏认定为影视作品有哪些益处？</a>
+06-09                    
+</li>
+
+<li>
+<a href="./sfsj/zjkf/201706/t20170608_202723.htm" target="_blank">商标思维对版权侵权判定的“不良影响”</a>
+06-08                    
+</li>
+
+<li>
+<a href="./sfsj/zjkf/201705/t20170531_202624.htm" target="_blank">专利权既是排他权也是实施权</a>
+05-31                    
+</li>
+
+<li>
+<a href="./sfsj/zjkf/201705/t20170526_202596.htm" target="_blank">以共享单车为例，谈如何保护商业创意？</a>
+05-26                    
+</li>
+
+<li>
+<a href="./sfsj/zjkf/201705/t20170523_202532.htm" target="_blank">小议共享单车与单一颜色商标</a>
+05-23                    
+</li>
+
+
+</ul>
+<ul id="con_fos_2" style="display:none">
+
+
+<li class="active">
+<strong><a href="./sfsj/pljx/201706/t20170621_202878.htm" target="_blank">表示放弃的技术方案能否纳入专利权利要...</a></strong>
+<p>权利人能够证明专利权人在专利无效宣告程序中对权利要求说明书及附图的...</p></li>
+
+
+
+<li>
+<a href="./sfsj/pljx/201706/t20170619_202849.htm" target="_blank">从海宁皮革城商标侵权案看组合商标侵权...</a>
+06-19                    
+</li>
+
+<li>
+<a href="./sfsj/pljx/201706/t20170616_202828.htm" target="_blank">信息网络传播权侵权认定标准应适用“服...</a>
+06-16                    
+</li>
+
+<li>
+<a href="./sfsj/pljx/201706/t20170613_202781.htm" target="_blank">商业模式的反不正当竞争法保护应以允许...</a>
+06-13                    
+</li>
+
+<li>
+<a href="./sfsj/pljx/201706/t20170612_202764.htm" target="_blank">2016年商标行政复议典型案例</a>
+06-12                    
+</li>
+
+<li>
+<a href="./sfsj/pljx/201706/t20170607_202717.htm" target="_blank">瑞士“威戈”折戟近似商标诉争案</a>
+06-07                    
+</li>
+
+
+</ul>
+
+<ul id="con_fos_3" style="display:none">
+
+
+<li class="active">
+<strong><a href="./sfsj/zscqfy/201706/t20170627_202941.htm" target="_blank">中国首家互联网法院为何选择杭州</a></strong>
+<p>6月26日上午，中央深改组召开第三十六次会议，会议审议通过了《关于设立...</p></li>
+
+
+
+<li>
+<a href="./sfsj/zscqfy/201706/t20170626_202921.htm" target="_blank">法院司法信息公开存在的问题与对策建议</a>
+06-26                    
+</li>
+
+<li>
+<a href="./sfsj/zscqfy/201706/t20170623_202913.htm" target="_blank">甘肃省高级人民法院认真开展打击侵犯...</a>
+06-23                    
+</li>
+
+<li>
+<a href="./sfsj/zscqfy/201706/t20170623_202911.htm" target="_blank">广州知识产权法院黎炽森副院长一行来...</a>
+06-23                    
+</li>
+
+<li>
+<a href="./sfsj/zscqfy/201706/t20170622_202895.htm" target="_blank">德国联邦宪法法院延迟批准统一专利法院</a>
+06-22                    
+</li>
+
+<li>
+<a href="./sfsj/zscqfy/201706/t20170621_202882.htm" target="_blank">新吴法院一案例入选知识产权保护十佳案例</a>
+06-21                    
+</li>
+
+
+</ul>
+
+
+</div>
+
+<!--piac 线上 线下 start-->
+
+<!--2014-7-24新增 开始-->	<div class="nh_block">
+     <iframe src="http://www.cnipr.com/cnipr_for_piac2014/cnipr_news_piac20142/" frameborder="0" width="100%" height="100%" scrolling="no" style=" display:inline;">  </iframe>   
+</div>	 
+<!--2014-7-24新增 结束-->  
+
+
+
+
+
+
+<!--piac 线上 线下 Over-->
+
+<div class="follow m10 pl">
+<div class="title">
+<a href="http://www.cnipr.com/CNIPR/izhiku/izhikuview/"><span class="cRed"><font style="color:#185aa4;">i 智库</font></span></a>
+<!--<a href="http://ip.people.com.cn/chinarank/" target="_blank" class="phb">中国专利排行榜</a>初始-->
+</div>
+
+<ul>
+
+<li class="active actives">
+
+<img src="./CNIPR/izhiku/izhikuview/201706/W020170613250987851086.png" width=104 height=69/>
+<strong><a href="./CNIPR/izhiku/izhikuview/201706/t20170613_202774.htm" target="_blank">i智库与知产宝联合发布...</a></strong>
+<p>2017年6月3日至6月4日，中国知识产权法学研究会2017年会在北京国际会议中心隆重召...</p>
+
+</li>
+		
+
+   <li><a href="./CNIPR/izhiku/izhikuview/201706/t20170608_202733.htm" target="_blank">董明珠的新能源汽车梦</a>
+    06-08</li>
+
+   <li><a href="./CNIPR/izhiku/izhikuview/201706/t20170612_202769.htm" target="_blank">【智库观察】近五年中国专利转移状况简析</a>
+    06-12</li>
+
+   <li><a href="./CNIPR/izhiku/izhikuview/201702/t20170222_201197.htm" target="_blank">【图解专利】一幅图带您了解专利资产...</a>
+    02-22</li>
+
+   <li><a href="./CNIPR/izhiku/izhikuview/201701/t20170123_200916.htm" target="_blank">i智库发布无人机报告：理格局、看转变...</a>
+    01-23</li>
+
+
+</ul>
+
+
+</div>
+
+
+<div class="follow m10 l10 pl">
+
+<div class="title titles">
+<!--
+<a href="http://www.cnipr.com/CNIPR/CNIPR3/CNIPR3domain/index.htm" id="th1" onmouseover="settabth('th',1,2)" class="current"><span class="cRed" id="redth1">专利信息快报</span></a>
+-->
+<a href="http://www.cnipr.com/CNIPR/CNIPR4/" id="th2" onmouseover="settabth('th',2,2)"><span id="redth2" class="cRed" style="color:#185aa4;">专题荟萃</span></a></div>
+<!--
+<ul id="con_th_1" style="display:block">
+<li class="active actives">
+
+<img src="./CNIPR/CNIPR3/CNIPR3domain/201611/W020161102063942808194.jpg" width=104 height=69/><strong><a href="./CNIPR/CNIPR3/CNIPR3domain/201611/t20161102_199476.htm" target="_blank">中国专利统计公布第3244期</a></strong><p>2016年11月2日中国专利公开公告数据共13736件。</p>
+
+</li>
+		
+
+   <li><a href="./CNIPR/CNIPR3/CNIPR3domain/201610/t20161026_199350.htm" target="_blank">中国专利统计公布第3243期</a>10-26</li>
+
+   <li><a href="./CNIPR/CNIPR3/CNIPR3domain/201610/t20161019_199256.htm" target="_blank">中国专利统计公布第3242期</a>10-19</li>
+
+   <li><a href="./CNIPR/CNIPR3/CNIPR3domain/201610/t20161012_199147.htm" target="_blank">中国专利统计公布第3241期</a>10-12</li>
+
+   <li><a href="./CNIPR/CNIPR3/CNIPR3domain/201610/t20161008_199057.htm" target="_blank">中国专利统计公布第3240期</a>10-08</li>
+
+</ul>
+-->
+
+<ul id="con_th_2"  style="display:block">
+<li class="active actives">
+
+<img src="./CNIPR/CNIPR4/201704/W020170421257296570247.jpg" width=104 height=69/><strong><a href="./CNIPR/CNIPR4/201704/t20170419_202016.html" target="_blank"><a href="http://www.cnipr.com/CNIPR/CNIPR4/xcz2017/" target="_blank">2017知识产权宣传周专题</a></a></strong><p>2017年4月20日至4月26日，2017全国知识产权宣传周正式启幕，本届宣传周主题为“创...</p>
+
+</li>
+		
+
+   <li><a href="./CNIPR/CNIPR4/201611/t20161118_199801.html" target="_blank"><a href="http://www.cnipr.com/CNIPR/CNIPR4/2016zlz/" target="_blank">第十届中国专利周</a></a>11-18</li>
+
+   <li><a href="./CNIPR/CNIPR4/201609/t20160918_198877.html" target="_blank"><a href="http://www.cnipr.com/CNIPR/CNIPR4/ipo2016/" target="_blank">第二届知识产权运营大赛</a></a>09-18</li>
+
+   <li><a href="./CNIPR/CNIPR4/201609/t20160912_198791.html" target="_blank"><a href="http://www.cnipr.com/CNIPR/CNIPR4/tzjss/" target="_blank">钛时代 新生活</a></a>09-12</li>
+
+   <li><a href="./CNIPR/CNIPR4/201606/t20160622_197539.html" target="_blank"><a href="http://www.cnipr.com/CNIPR/CNIPR4/zxxjy/" target="_blank">中小学知识产权教育专题</a></a>06-22</li>
+
+</ul>
+
+
+
+</div>
+
+
+
+
+	<div class="sq spNew m10">
+		<div class="title"><a href="http://www.cnipr.com/services/" target="_blank" id="fose1" onmouseover="settabfose(&#39;fose&#39;,1,2)"><b></b><span class="cRed" id="redfose1">产品服务展示</span></a> 
+		</div>
+		<div style=" overflow:hidden; width:697px;"><iframe src="indexlb.html" scrolling="no" width="697px" height="197px"  frameborder="0"></iframe></div>
+        </div>
+
+</div>
+
+
+<div class="m_right">
+ 
+<div class="nh"><a href="http://www.piac-china.com/" target="blank"><img src="../images/nh.jpg" width="247" height="63" /></a></div>
+
+<div class="xinxi m10">
+
+<div class="title"><a href="#" id="four1" onmouseover="settabfour('four',1,3)" class="current"><span class="cRed" id="redfour1">信息产品</span></a>|<a href="#"  id="four2" onmouseover="settabfour('four',2,3)"><span id="redfour2">信息服务</span></a>|<a href="http://www.cnipr.com/services/hyzq/hyzq.html" target="_blank" id="four3" onmouseover="settabfour('four',3,3)"><span class="cRed" id="redfour3">会员专区</span></a></div>
+
+<ul class="cniprs" id="con_four_1" style="display:block">
+<!--<li><a href="http://www.cnipr.com/services/1_tszs.html" target="_blank">
+<img src="./images/e_03.png" width="26" height="19" />CNIPR专利信息服务平台</a></li>-->
+<li><a href="http://www.cnipr.com/services/systems/cniprsearch/" target="_blank">
+<img src="./images/e_03.png" width="26" height="19" />CNIPR专利信息服务平台</a></li>
+<!--<li><a href="http://www.cnipr.com/services/5_xxfx.html" target="_blank">
+<img src="./images/e_06.png" width="26" height="23" />专利信息分析系统</a></li>-->
+<li><a href="http://www.cnipr.com/services/systems/dashuju/" target="_blank">
+<img src="./images/e_06.png" width="26" height="23" />中国知识产权大数据与智慧服务系统</a></li>
+<!--<li><a href="http://www.cnipr.com/services/2_ypt.html" target="_blank">
+<img src="./images/e_08.png" width="26" height="20" />专利信息应用云平台</a></li>-->
+<li><a href="http://www.cnipr.com/services/systems/izhiliao/" target="_blank">
+<img src="./images/e_08.png" width="26" height="20" />知了网 知识产权云服务平台</a></li>
+<!--<li><a href="http://www.cnipr.com/services/4_tx.html" target="_blank">
+<img src="./images/e_10.png" width="26" height="18" />图像资源检索系统</a></li>-->
+<li><a href="http://www.cnipr.com/services/systems/ip_manage/" target="_blank">
+<img src="./images/e_04.png" width="26" height="18" />企业知识产权管理平台</a>
+<!--<li><a href="http://www.cnipr.com/services/3_zndc.html" target="_blank">
+<img src="./images/e_12.png" width="26" height="19" />专利智能调查系统</a>-->
+<li><a href="http://www.cnipr.com/services/systems/ip_maker/" target="_blank">
+<img src="./images/e_05.png" width="26" height="19" />原创认证保护平台</a>
+<!--<a href="http://www.cnipr.com/services/systems/patentinvest/" class="blue" target="_blank">更多&nbsp;<img src="./images/icon2.png" width="13" height="13" /></a></li>-->
+<a href="http://www.cnipr.com/services/systems/cniprsearch/" class="blue" target="_blank">更多&nbsp;<img src="./images/icon2.png" width="13" height="13" /></a></li>
+</ul>
+
+
+<ul class="cniprse" id="con_four_2" style="display:none">
+<!--<li><a href="http://www.cnipr.com/services/7_wxfy.html" target="_blank"><img src="./images/p_03.png" width="26" height="24" />专利文献翻译服务</a></li>-->
+<li><a href="http://www.cnipr.com/services/systems/ip_translate/" target="_blank">
+<img src="./images/e_01.png" width="26" height="24" />I译+ 知识产权语言服务平台</a></li>
+<!--<li><a href="http://www.cnipr.com/services/8_zx.html" target="_blank"><img src="./images/p_06.png" width="26" height="21" />专利信息咨询服务</a></li>-->
+<li><a href="http://www.cnipr.com/services/systems/izhiku/" target="_blank">
+<img src="./images/e_02.png" width="26" height="21" />I智库 知识产权咨询培训</a></li>
+<!--<li><a href="http://www.cnipr.com/services/9_zyjg.html" target="_blank"><img src="./images/p_08.png" width="26" height="20" />数据资源和加工</a></li>-->
+<li><a href="http://www.cnipr.com/services/dataservice/" target="_blank">
+<img src="./images/p_08.png" width="26" height="20" />数据资源和加工</a></li>
+<!--<li><a href="http://www.cnipr.com/services/10_px.html" target="_blank"><img src="./images/p_10.png" width="26" height="21" />培训</a></li>-->
+<li><a href="http://www.cnipr.com/services/trainservice/" target="_blank">
+<img src="./images/p_10.png" width="26" height="21" />培训</a></li>
+</ul>
+
+
+
+<ul class="cniprse" id="con_four_3" style="display:none">
+<li><a href="http://www.piac-china.com/" target="_blank" class="current">
+<img src="./images/i_03.png" width="26" height="24" />免费参加中国专利信息年会</a></li>
+<li><a href="http://www.cnipr.com/PIAC_cnipr_Member/" target="_blank">
+<img src="./images/i_06.png" width="26" height="21" />会员资料下载<a></li>
+<!--
+<li><a href="http://www.cnipr.com/services/hyzq/hyzq.html#tixi" target="_blank">
+<img src="images/e_07.png" width="26" height="20" />会员体系</a></li>
+-->
+<li><a href="http://bbs.cnipr.com/home.php?mod=space&do=activity&view=all" target="_blank">
+<img src="./images/i_10.png" width="26" height="21" />参与会员线上线下活动</a>
+
+<a href="http://www.cnipr.com/piac/servlet/MemberRegisterServlet" class="blue" style="margin-left:10px;" target="_blank">注册&nbsp;<img src="./images/icon2.png" width="13" height="13" /></a></li>
+</ul>
+
+</div>
+
+
+
+<div class="xinxi m10">
+<!--<div class="title"><a href="http://www.cnipr.com/yysw/" class="current">专利信息应用实务</a></div>-->
+
+<div class="title"><a href="http://www.cnipr.com/yysw/zscqycx/" id="yysw1" onmouseover="settabyysw('yysw',1,3)" class="current" ><span class="cRed" id="redyysw1">知产创新</span></a> <a href="http://www.cnipr.com/yysw/zscqjyytrz/" id="yysw2" onmouseover="settabfos('yysw',2,3)" ><span id="redyysw2">知产投融资</span></a> <a href="http://www.cnipr.com/yysw/zscqzlygl/" id="yysw3" onmouseover="settabyysw('yysw',3,3)"><span id="redyysw3">战略管理</span></a> </div>
+
+<ul class="zixun zixuns" id="con_yysw_1" style="display:block">
+
+
+<li>
+<a href="./yysw/zscqycx/201706/t20170623_202912.htm" target="_blank">ofo启用全球首款“物联网智能锁...</a>
+<!--06-23-->                    
+</li>
+
+<li>
+<a href="./yysw/zscqycx/201706/t20170621_202888.htm" target="_blank">“基因魔剪”专利之争：中国专...</a>
+<!--06-21-->                    
+</li>
+
+<li>
+<a href="./yysw/zscqycx/201706/t20170620_202871.htm" target="_blank">智轨列车”申请专利30余项 市场...</a>
+<!--06-20-->                    
+</li>
+
+<li>
+<a href="./yysw/zscqycx/201706/t20170616_202838.htm" target="_blank">MP3技术与AAC技术之间的继承与超越</a>
+<!--06-16-->                    
+</li>
+
+<li>
+<a href="./yysw/zscqycx/201706/t20170609_202752.htm" target="_blank">访中国工程院院士、著名计算机...</a>
+<!--06-09-->                    
+</li>
+
+
+</ul>
+<ul class="zixun zixuns" id="con_yysw_2" style="display:none">
+
+
+<li>
+<a href="./yysw/zscqjyytrz/201706/t20170616_202837.htm" target="_blank">如何培育高价值专利</a>
+<!--06-16-->                    
+</li>
+
+<li>
+<a href="./yysw/zscqjyytrz/201706/t20170612_202768.htm" target="_blank">技术转让支持公司副总裁：如何...</a>
+<!--06-12-->                    
+</li>
+
+<li>
+<a href="./yysw/zscqjyytrz/201706/t20170608_202732.htm" target="_blank">姜丹明：知产人是知识产权质量...</a>
+<!--06-08-->                    
+</li>
+
+<li>
+<a href="./yysw/zscqjyytrz/201705/t20170519_202505.htm" target="_blank">专利资产证券化到底难在哪？</a>
+<!--05-19-->                    
+</li>
+
+<li>
+<a href="./yysw/zscqjyytrz/201705/t20170517_202470.htm" target="_blank">专利运营何以实现"运赢"</a>
+<!--05-17-->                    
+</li>
+
+
+</ul>
+
+<ul class="zixun zixuns" id="con_yysw_3" style="display:none">
+
+
+<li>
+<a href="./yysw/zscqzlygl/201706/t20170622_202905.htm" target="_blank">三星难敌华为：两专利无效未得...</a>
+<!--06-22-->
+</li>
+
+<li>
+<a href="./yysw/zscqzlygl/201706/t20170622_202904.htm" target="_blank">海外专利纠纷不断 我国知识产权...</a>
+<!--06-22-->
+</li>
+
+<li>
+<a href="./yysw/zscqzlygl/201706/t20170621_202889.htm" target="_blank">商标大国，品牌数量缘何较少</a>
+<!--06-21-->
+</li>
+
+<li>
+<a href="./yysw/zscqzlygl/201706/t20170614_202793.htm" target="_blank">中美医药专利制度对药品用途保...</a>
+<!--06-14-->
+</li>
+
+<li>
+<a href="./yysw/zscqzlygl/201706/t20170609_202753.htm" target="_blank">我国新能源汽车专利短板日渐凸...</a>
+<!--06-09-->
+</li>
+
+
+</ul>
+
+<!--here-->
+
+
+
+
+<!--
+<div class="chuang">
+<div class="c_title">
+<a href="http://www.cnipr.com/yysw/yycx/" id="tse1" onmouseover="settabtse('tse',1,5)" class="current"><span class="cRed" id="redtse1">创新</span></a> / <a href="http://www.cnipr.com/yysw/yysq/" id="tse2" onmouseover="settabtse('tse',2,5)" ><span class="cRed" id="redtse2">申请</span></a> / 
+<a href="http://www.cnipr.com/yysw/yygl/" id="tse3" onmouseover="settabtse('tse',3,5)" ><span class="cRed" id="redtse3">管理</span></a> / 
+<a href="http://www.cnipr.com/yysw/yywq/" id="tse4" onmouseover="settabtse('tse',4,5)"><span class="cRed" id="redtse4">维权</span></a> / 
+<a href="http://www.cnipr.com/yysw/yyyy/" id="tse5" onmouseover="settabtse('tse',5,5)"><span class="cRed" id="redtse5">运营</span></a>
+</div>
+
+
+<div class="c_cot"  id="con_tse_1" style="display:block">
+<a href="http://www.cnipr.com/yysw/yycx/201304/t20130426_177270.htm">垃圾专利</a>
+<a href="http://www.cnipr.com/yysw/yycx/201304/t20130426_177265.htm">专利文献</a>
+<a href="http://www.cnipr.com/yysw/yycx/201304/t20130426_177264.htm">专利信息</a>
+<a href="http://www.cnipr.com/yysw/yycx/201304/t20130426_177257.htm">专利族</a>
+<a href="http://www.cnipr.com/yysw/yycx/201304/t20130425_177216.htm">专利检索</a>
+<a href="http://www.cnipr.com/yysw/yycx/201304/t20130415_175788.htm">TRIZ理论</a>
+<a href="http://www.cnipr.com/yysw/yycx/201304/t20130415_175787.htm">专利分析</a>
+<a href="http://www.cnipr.com/yysw/yycx/201304/t20130415_175786.htm">专利挖掘</a></div>
+
+<div class="c_cot" id="con_tse_2" style="display:none">
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130426_177292.htm" target=_blank>实用性</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130426_177291.htm" target=_blank>实用性</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130426_177290.htm" target=_blank>创造性</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130426_177289.htm" target=_blank>新颖性</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130426_177271.htm" target=_blank>专利索引</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130426_177269.htm" target=_blank>专利优先权</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130426_177266.htm" target=_blank>专利证书</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130425_177239.htm" target=_blank>口头审理</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130425_177238.htm" target=_blank>抵触申请</A>
+<A href="http://www.cnipr.com/yysw/yysq/201304/t20130425_177233.htm" target=_blank>单一性</A>
+</div>
+
+<div class="c_cot" id="con_tse_3" style="display:none">
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130426_177267.htm" target=_blank>专利悬崖</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130426_177262.htm" target=_blank>专利标准化</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130426_177261.htm" target=_blank>专利预警</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130426_177259.htm" target=_blank>专利风险</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130426_177258.htm" target=_blank>专利组合</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130426_177256.htm" target=_blank>专利布局</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130425_177236.htm" target=_blank title="专利权评价报告">专利权评..</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130425_177234.htm" target=_blank>专利池</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130425_177212.htm" target=_blank>专利战略</A>
+<A href="http://www.cnipr.com/yysw/yygl/201304/t20130425_177211.htm" target=_blank title="企业专利管理">企业专利..</A>
+</div>
+
+<div class="c_cot" id="con_tse_4" style="display:none">
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130426_177293.htm" target=_blank>伯尔尼公约</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130426_177286.htm" target=_blank>新颖性</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130426_177285.htm" target=_blank>专利制度</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130426_177272.htm" target=_blank>专利地雷</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130425_177249.htm" target=_blank>专利法</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130425_177237.htm" target=_blank title="专利海盗/专利投机人">专利海盗..</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130425_177230.htm" target=_blank title="专利合作条约">专利合作..</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130415_175792.htm" target=_blank title="保护工业产权巴黎公约">保护工业..</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130425_177229.htm" target=_blank>权属纠纷</A>
+<A href="http://www.cnipr.com/yysw/yywq/201304/t20130425_177227.htm" target=_blank title="假冒专利行为">假冒专利..</A>
+</div>
+
+<div class="c_cot" id="con_tse_5" style="display:none">
+<A href="http://www.cnipr.com/yysw/yyyy/201304/t20130426_177268.htm" target=_blank title="专利许可贸易">专利许可..</A>
+<A href="http://www.cnipr.com/yysw/yyyy/201304/t20130426_177263.htm" target=_blank>专利资本化</A>
+<A href="http://www.cnipr.com/yysw/yyyy/201304/t20130425_177235.htm" target=_blank>交叉许可</A>
+<A href="http://www.cnipr.com/yysw/yyyy/201304/t20130418_175914.htm" target=_blank title="专利实施许可">专利实施..</A>
+<A href="http://www.cnipr.com/yysw/yyyy/201304/t20130418_175913.htm" target=_blank>专利转让</A>
+<A href="http://www.cnipr.com/yysw/yyyy/201304/t20130418_175904.htm" target=_blank>专利联盟</A>
+<A href="http://www.cnipr.com/yysw/yyyy/201304/t20130418_175901.htm" target=_blank>专利质押</A>
+</div>
+
+</div>-->
+
+
+<!--<ul class="zixun zixuns">20140428xx -->
+<!--
+
+
+
+
+-->
+<!--xx 20140428
+
+<li><a href="./yysw/qqyd/201706/t20170626_202922.htm" target="_blank">专利涉及共享单车行业，顾泰来...</a></li>
+
+<li><a href="./yysw/zscqsqzc/201706/t20170623_202914.htm" target="_blank">“基因魔剪”专利之争：外企在...</a></li>
+
+<li><a href="./yysw/zscqycx/201706/t20170623_202912.htm" target="_blank">ofo启用全球首款“物联网智能锁...</a></li>
+
+<li><a href="./yysw/zscqsqzc/201706/t20170622_202906.htm" target="_blank">律界谈格力美的专利战：大动干...</a></li>
+
+<li><a href="./yysw/zscqzlygl/201706/t20170622_202905.htm" target="_blank">三星难敌华为：两专利无效未得...</a></li>
+
+xx 20140428-->
+<!--</ul> xx20140428-->
+
+
+</div>
+<!--<div class="nh m10"><a href="#"><img src="../images/sd_21.jpg" width="247" height="45" border="0" usemap="#Map" />-->
+<!--<div class="nh m10"><a href="#"><img src="../images/sd-20140426.jpg" width="247" height="45" border="0" usemap="#Map" />-->
+<div class="nh m10"><a href="#"><img src="../images/sd-policylaw.jpg" width="247" height="45" border="0" usemap="#Map" />
+
+    <map name="Map" id="Map">
+      <!--<area shape="rect" coords="30,10,116,37" href="http://59.151.93.208/" target="blank" />-->
+      <!--<area shape="rect" coords="30,10,116,37" href="http://www.cnipr.com/20140426/" target="blank" />-->
+      <area shape="rect" coords="30,10,116,37" href="http://www.cnipr.com/yysw/zcjj/" target="blank" />
+      <area shape="rect" coords="148,9,235,36" href="http://www.cnipr.com/sfsj/flfg/zlnew/" target="blank" />
+    </map>
+</a></div>
+<div class="nhs m10" style=" margin-top:7px;"><a href="http://www.cnipr.com/PX/px7/px7a/new1/" >专利</a>/<a href="http://www.cnipr.com/PX/px7/px7b/">商标</a>/<a href="http://www.cnipr.com/PX/px7/px7c/new4/">版权</a>/<a href="http://www.cnipr.com/PX/px7/px7d/new6/">其他</a></div>
+
+<div class="xinxi m10" style=" height:140px; overflow:hidden; margin-top:8px;">
+<div class="title"><a href="http://bbs.cnipr.com/forum.php" class="current" target="_blank">社区．热议话题</a></div>
+<ul class="zixun zixuns">
+<script type="text/javascript" src="http://bbs.cnipr.com/api.php?mod=js&bid=11"></script>
+
+<!--li class="active"><a href="#"><img src="../images/b_img1.jpg" width="76" height="55" /></a><strong><a href="#">PIAC-CNIPR社区线下研讨会</a><br />
+    <a href="#">企业专利全生命周期价值链（第二期）</a></strong></li>
+<li><a href="#">2011版专利审查操作规程实审分册</a></li>
+<li><a href="#">专利技术生命周期分析--图示法</a></li>
+<li><a href="#">[资料]专利预警实务</a></li>
+<li><a href="#">田力普局长也出书：《不可不看的...</a></li>
+<li><a href="#">专利分析法的作用及详解</a></li>
+<li><a href="#">2011版专利审查操作规程实审分册</a></li>
+<li><a href="#">专利技术生命周期分析--图示法</a></li-->
+
+</ul>
+</div>
+<div class="xinxi m10" style=" height:130px; overflow:hidden; margin-top:8px;">
+<div class="titles"><a href="http://app.cnipr.com/cniprWeb/zxt_2010/listmeg2013.jsp" class="current currentee">在线咨询</a><span><a href="http://app.cnipr.com/cniprWeb/zxt_2010/listmeg2013.jsp" target="blank">更多<img src="./images/b_ic2.jpg" width="13" height="13" /></a></span><span><a href="http://app.cnipr.com/cniprWeb/zxt_2010/addmeg2013.jsp" target="blank">提问<img src="./images/b_ic.jpg" width="13" height="13" /></a></span></div>
+<iframe src="http://app.cnipr.com/cniprWeb/zxzx_2013.jsp" frameborder="0" scrolling="no" style="height:200px;"></iframe>
+
+<!--
+<ul class="zixun">
+<li><a href="#">问： 怎样得到失效的专利？</a></li>
+<li><a href="#">问： 你好，请帮我查询一下......</a></li>
+<li><a href="#">问： 麻烦请帮我查下这个知......</a></li>
+<li><a href="#">问： 请问专利审查意见在哪里?</a></li>
+<li><a href="#">问： 怎样得到失效的专利？</a></li>
+<li><a href="#">问： 你好，请帮我查询一下......</a></li>
+<li><a href="#">问： 麻烦请帮我查下这个知......</a></li>
+<li><a href="#">问： 请问专利审查意见在哪里?</a></li>
+<li><a href="#">问： 怎样得到失效的专利？</a></li>
+</ul>
+-->
+</div>
+<div class="nh m10"><a href="http://www.cnipr.com/foot2013/contactus2013/"><img src="../images/sd_43.jpg" width="247" height="49" /></a></div>
+</div>
+
+
+
+<div class="clear"></div>
+
+</div>
+
+<!--首页底部友情链接部分　start-->
+<div class="you m10">
+<div class="title">
+<a href="#" id="twe1" onmouseover="settabtwe('twe',1,3)" class="current"><span class="cRed" id="redtwe1">合作伙伴</span></a><a href="#"  id="twe2" onmouseover="settabtwe('twe',2,3)"><span id="redtwe2">友情链接</span></a><a href="#"  id="twe3" onmouseover="settabtwe('twe',3,3)"><span id="redtwe3">联系我们</span></a>
+</div>
+<div class="cot"   id="con_twe_1" style="display:block">
+<ul class="tu">
+<li><a href="http://www.sipo.gov.cn/" target="_blank"><img src="../images/sd_47.jpg" width="106" height="47" /></a><br /><a href="http://www.sipo.gov.cn/" target="_blank">国家知识产权局</a></li><li><a href="http://www.wipo.int/portal/index.html.en" target="_blank"><img src="../images/sd_49.jpg" width="106" height="47" /></a><br /><a href="http://www.wipo.int/portal/index.html.en" target="_blank">世界知识产权组织</a></li> <li><a href="http://www.epo.org/" target="_blank"><img src="../images/sd_53.jpg" width="106" height="47" /></a><br /><a href="http://www.epo.org/" target="_blank">欧洲专利局</a></li><li><a href="http://www.uspto.gov/" target="_blank"><img src="../images/sd_55.jpg" width="106" height="47" /></a><br /><a href="http://www.uspto.gov/" target="_blank">美国专利商标局</a></li><li><a href="http://www.ipo.org/" target="_blank"><img src="../images/sd_57.jpg" width="106" height="47" /></a><br /><a href="http://www.ipo.org/" target="_blank">知识产权所有者协会</a></li><li><a href="http://www.piug.org/" target="_blank"><img src="../images/sd_59.jpg" width="106" height="47" /></a><br /><a href="http://www.piug.org/" target="_blank">专利信息用户组织</a></li><li><a href="http://eng.kipi.or.kr/main/main.jsp" target="_blank"><img src="../images/sd_61.jpg" width="106" height="47" /></a><br /><a href="http://eng.kipi.or.kr/main/main.jsp" target="_blank">韩国知识产权研究院</a></li><li><a href="http://www.japio.or.jp/" target="_blank"><img src="../images/sd_51.jpg" width="106" height="47" /></a><br /><a href="http://www.japio.or.jp/" target="_blank">日本特许情报机构</a></li>
+
+</ul>
+<ul style="float:left;" class="l9">      
+<li style="width:135px;"><a target="_blank" href="http://www.ncac.gov.cn/">国家版权局</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.saic.gov.cn/">国家工商行政管理总局</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.jpo.go.jp/">日本特许厅</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.kipo.go.kr/kpo/eng/">韩国知识产权局</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.ipo.gov.uk/">英国知识产权局</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.asia-ipec.org/">亚洲知识产权交易委员会</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.sipo-reexam.gov.cn/">专利复审委员会</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.bjipo.gov.cn/">北京市知识产权局</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.iprchn.com/">中国知识产权报</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.fmyzl.com/">中国发明与专利杂志</a></li>
+<li style="width:135px;"><a target="_blank" href="http://ip.people.com.cn/">人民网知识产权频道</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.chinaipmagazine.com/">中国知识产权杂志</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.ipzhiku.com/">i智库</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.laichushu.com/">"来出书"自助出版平台</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.izhiliao.com.cn/">知了网</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.ipwitkey.com/">专利威客网</a></li>
+<li style="width:135px;"><a target="_blank" href="http://www.wiptrans.com/">I译+</a></li>
+<li style="width:135px;"><a target="_blank" href="https://www.maker-ip.com//">创客IP</a></li>
+
+</ul>
+</div>
+
+<div class="cot" id="con_twe_2" style="display:none">
+
+<ul class="tu tu2">
+
+<li>
+   <a href="http://www.managingip.cn/" target="_blank"><img src="./images/links_img1.jpg" width="108" height="49" /></a><br />
+   <a href="http://www.managingip.cn/" target="_blank">知识产权管理<br/>&nbsp;</a>
+</li>
+<li>
+   <a href="http://www.theipmediagroup.com/" target="_blank"><img src="./images/links_img2.jpg" width="105" height="49" /></a><br />
+
+   <a href="http://www.theipmediagroup.com/" target="_blank">IP Media Group<br /></a>
+</li>
+<li>
+   <a href="http://www.ctex.cn/" target="_blank"><img src="./images/links_img3.jpg" width="108" height="49" /></a><br />
+   <a href="http://www.ctex.cn/" target="_blank">中国技术交易所<br />&nbsp;</a>
+</li>
+
+<!--2015-01-21 将复审委移到合作伙伴
+<li>
+   <a href="http://www.sipo-reexam.gov.cn/" target="_blank"><img src="../images/links_img4.jpg" width="108" height="49" /></a><br />
+   <a href="http://www.sipo-reexam.gov.cn/" target="_blank">专利复审委员会<br />&nbsp;</a>
+</li>
+-->
+<li>
+   <a href="http://www.chinacopyright.org.cn/" target="_blank"><img src="./images/links_img5.jpg" width="106" height="49" /></a><br />
+   <a href="http://www.chinacopyright.org.cn/" target="_blank">中国版权在线<br />&nbsp;</a>
+</li>
+<li>
+   <a href="http://www.registerbrandeurope.cn/" target="_blank"><img src="./images/links_img6.jpg" width="108" height="49" /></a><br />
+   <a href="http://www.registerbrandeurope.cn/" target="_blank">欧盟商标与外观<br />注册局</a>
+</li>
+<li>
+   <a href="http://www.china-iprhelpdesk.eu/" target="_blank"><img src="./images/links_img7.jpg" width="107" height="49" /></a><br />
+   <a href="http://www.china-iprhelpdesk.eu/" class="lineH" target="_blank">欧盟中小企业<br />中国知识产权服务处</a>
+</li>
+<li>
+   <a href="http://www.mysipo.com/" target="_blank"><img src="./images/links_img8.jpg" width="107" height="49" /></a><br />
+   <a href="http://www.mysipo.com/" target="_blank">思博知识产权网<br />&nbsp;</a>
+</li>
+<!--<li>
+   <a href="http://www.pscu.com.cn" target="_blank"><img src="../images/links_img9.jpg" width="107" height="49" /></a><br />
+   <a href="http://www.pscu.com.cn" target="_blank">捷诚信通知识产权代理<br />&nbsp;</a>
+</li>-->
+<li>
+   <a href="http://x.zhihuiya.com/" target="_blank"><img src="./images/patsnapxylogo.jpg" width="107" height="49" /></a><br />
+   <a href="http://x.zhihuiya.com/" target="_blank">智慧芽学院<br />&nbsp;</a>
+</li>
+
+
+<li style="margin-top:-15px">
+   <a href="http://www.iprdaily.cn/" target="_blank"><img src="./images/links_img10.jpg" width="107" height="49" /></a><br />
+   <a href="http://www.iprdaily.cn/" target="_blank">IPR DAILY<br />&nbsp;</a>
+</li>
+<li style="margin-top:-15px">
+   <a href="http://www.banlvtong.com" target="_blank"><img src="./images/links_img11.jpg" width="107" height="49" /></a><br />
+   <a href="http://www.banlvtong.com" target="_blank">中国版权网版律通<br />&nbsp;</a>
+</li>
+<li style="margin-top:-15px">
+   <a href="http://www.qihaoip.com/" target="_blank"><img src="./images/links_img12.jpg" width="107" height="49" /></a><br />
+   <a href="http://www.qihaoip.com/" target="_blank">7号网<br />&nbsp;</a>
+</li>
+<li style="margin-top:-15px">
+   <a href="http://www.zldsj.com/" target="_blank"><img src="./images/images_DI-logo.jpg" width="107" height="49" /></a><br />
+   <a href="http://www.zldsj.com/" target="_blank">中国知识产权大数<br />据与智慧服务系统</a>
+</li>
+<li style="margin-top:-15px">
+   <a href="http://www.shewentm.com/" target="_blank"><img src="./images/links_img13.png" width="107" height="49" /></a><br />
+   <a href="http://www.shewentm.com/" target="_blank">社文商标管家网<br />&nbsp;</a>
+</li>
+<li style="margin-top:-15px">
+   <a href="http://www.hengdulaw.com" target="_blank"><img src="./images/links_img14.jpg" width="107" height="49" /></a><br />
+   <a href="http://www.hengdulaw.com" target="_blank">恒都律师事务所<br />&nbsp;</a>
+</li>
+
+
+</ul>
+</div>
+
+<div class="lianxi" id="con_twe_3" style="display:none">
+<ul style="float:left;" class="ino">
+<li><span class="img"><img src="../images/z_03.jpg" width="25" height="24" /></span><strong>E-Mail：</strong><a href="href="mailto:webmaster@cnipr.com"">webmaster@cnipr.com</a></li>
+<li><span class="img"><img src="../images/z_12.jpg" width="25" height="21" /></span>
+<p><strong>IT运维电话：</strong>4001880860</p>
+<p class="i_bian"><strong>&nbsp;&nbsp;&nbsp;网站编辑部：</strong>010-82000860-8213</p>
+<p class="i_tel">010-82000860-8215</p>
+</li>
+</ul>
+<ul style="float:left;" class="ino">
+<li><span class="img"><img src="../images/z_03.jpg" width="25" height="24" /></span><strong>加入我们</strong><br /></li>
+<p class="i_bian">如果您有意加入我们的团队，请发送简历至</p>
+<p class="i_bian"><b><a href="href="mailto:renshi@cnipr.com">renshi@cnipr.com</a></b><br />
+                  <img src="./images/cnipr_erweima.jpg" alt />
+
+ <!-- <a href="http://www.ipph.cn/gywm/rczpzdh/"><strong>招聘职位>></strong></a>--></p>
+</li>
+</ul>
+<ul style="float:left;" class="inos">
+<li><span class="img"><img src="../images/z_07.jpg" width="28" height="26" /></span><strong>找到我们</strong><br /></li>
+<p class="i_bian">地址：北京市海淀区西外太平庄55号知识产权出版社有限责任公司网络中心</p>
+<p class="i_bian">邮编：100081 <a href="http://www.cnipr.com/images/ca_16_2.jpg" target="_blank"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看地图>></strong></a></p>
+<p class="i_bian">乘车路线：地铁2或4号线西直门站西北出口、或地铁9号线国家图书馆站西北出口，然后乘坐运通105线中苑宾馆站下车，往西走200米即到</p>
+</li>
+</ul>
+</div>
+
+
+<!--首页底部友情链接部分　end-->
+
+
+<!--底部版本部分　start-->
+<div class="foot" style="padding:10px 0 0 0;width:520px;">
+<p style="width:520px; padding-left:78px;">
+<a href="http://www.ipph.cn" target="_blank"><img style="  padding-top: 10px;" src="images/zl_bj1bb.png" border=0 /></a></p>
+<p style="width:520px;">
+<!--<img src="./images/chengxin.jpg" width="97" height="33" />-->
+<span style="width:380px; padding-left:77px;">京ICP备09007110号　|　互联网出版许可证新出网证（京）字005号 </span>
+<br/><span style="width:380px; padding-left:77px;">版权所有：中国知识产权网 未经许可不得复制</span></p></div>
+
+<div class="wxsm02_botm">
+	<img src="./images/cnipr_wxsm02.png" style="padding-left:60px; margin-top:0px;" /></img>
+</div>
+<!--原ICP05065668 20141216修改-->
+<!--底部版本部分　end-->
+
+
+
+
+
+</div>
+
+</div>
+
+<script type="text/javascript">
+	function settab(name,cur,n)
+{
+    for(i=1;i<=n;i++)
+	{
+		var menu=document.getElementById(name+i);
+		var con=document.getElementById("con_"+name+"_"+i);
+		con.style.display=(i==cur)?"block":"none";
+		var conn=document.getElementById("con_two_"+i);
+		conn.style.display=(i==cur)?"block":"none";
+		var connn=document.getElementById("red"+i);
+		connn.className=(i==cur)?"cRed":""
+		menu.className=(i==cur)?"current":""
+	}
+
+}
+
+          function settabfos(name,cur,n)
+{	
+    for(i=1;i<=n;i++)
+	{
+		var menu=document.getElementById(name+i);
+		var con=document.getElementById("con_"+name+"_"+i);
+		con.style.display=(i==cur)?"block":"none";
+		var connn=document.getElementById("redfos"+i);
+		connn.className=(i==cur)?"cRed":""
+		menu.className=(i==cur)?"current":""
+	}
+
+}
+
+
+ function settabyysw(name,cur,n)
+{	
+    for(i=1;i<=n;i++)
+	{
+		var menu=document.getElementById(name+i);
+		var con=document.getElementById("con_"+name+"_"+i);
+		con.style.display=(i==cur)?"block":"none";
+		var connn=document.getElementById("redfos"+i);
+		connn.className=(i==cur)?"cRed":""
+		menu.className=(i==cur)?"current":""
+	}
+
+}
+
+</script>
+
+<!--add dcwj 2015-05-15-->
+<!--<div id="J_floatAd"> <span class="close" id="J_close" title="close"></span> <span class="gglk">
+	<a href="http://59.151.73.155:8080/yunyingvote" class="gglk" target="_blank"></a>
+	<!--<p><a href="http://weibo.com/chinapiac" class="glka" target="_blank"></a></p>-->
+	<!--<a href="http://www.piac-china.com/2013/piac-Notice2014.html" class="glkb" target="_blank"></a>--></span> 
+
+</div>
+<script type="text/javascript">
+   function floatAd(){
+       this.ad = document.getElementById('J_floatAd');
+       this.closeBox = document.getElementById('J_close');
+       this.lastScrollY = 0;
+       this.minScreen = 1024;
+       this.timer = null;
+   }
+   floatAd.prototype = {
+       init : function(){
+           var _this = this;
+           this.ad.style.top = '150px';
+           if(window.screen.width < this.minScreen){
+               this.ad.style.display = 'none';
+           }
+           this.close();
+           this.timer = setInterval(function(){_this.scroll()},10)
+       },
+       scroll : function(){
+           var diffY;
+           if (document.documentElement && document.documentElement.scrollTop){
+               diffY = document.documentElement.scrollTop;
+           }
+           else{
+               diffY = document.body.scrollTop;
+           }
+           percent = 0.03 * (diffY - this.lastScrollY);
+           if(percent > 0){
+               percent = Math.ceil(percent);
+           }
+           else{
+               percent = Math.floor(percent);
+           }
+           this.ad.style.top = parseInt(this.ad.style.top) + percent + "px";
+           this.lastScrollY = this.lastScrollY + percent;
+       },
+       close : function(){
+           var _this = this;
+           this.closeBox.onclick = function(){
+               _this.ad.style.display = 'none';
+               clearInterval(_this.timer);
+               my_float_ad = null;
+           }
+       }
+   }
+   
+   var my_float_ad = new floatAd();
+   my_float_ad.init();
+</script>
+
+<!--add dcwj 2015-05-15-->
+<div class="float_botm">
+	<ul>
+    	<li>
+        	<img src="./images/cnipr_wxsm.jpg" /></img>
+        </li>
+    </ul>
+</div>
+
+<!--start add monitor codes-TRS、Gridsum,20170619-->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=1137" async="async" defer="defer"></script> 
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-820032-F552BE/gs.js'></script>
+<!--end add monitor codes-TRS、Gridsum-->
+
+<!--start add monitor codes:Neusoft,20170622-->
+<script>
+    var _paq = _paq || [];
+    (function() {
+        _paq.push(["setSiteId", "jEVZOqlU"]);
+        _paq.push(["trackPageClick"]);
+        var g = document.createElement("script");
+        g.src = ('https:' == document.location.protocol?'https://':'http://')+"ci.realsight.cn/ci-receiver/ubm.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<!--end add monitor codes:Neusoft,20170622-->
+
+</body>
+</html>

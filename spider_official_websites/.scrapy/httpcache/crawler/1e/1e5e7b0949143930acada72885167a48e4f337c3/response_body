@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>芯灵思|SINLINX|嵌入式|全志|三星|飞思卡尔|恩智浦|NXP|Freescale|Android|LINUX|开发板|学习板|核心板</title>
+<link rel="stylesheet" href="../css/style.css"  type="text/css" media="all" />
+<link rel="stylesheet" href="../css/global.css">
+<link rel="stylesheet" href="../css/common-header9.css">
+<link rel="stylesheet" href="../css/responsiveslides.css">
+<link rel="shortcut icon" href="../sinlinx.ico" type="image/x-icon" />
+<script type="text/javascript" src="../js/base-all.js"></script>
+<script type="text/javascript" src="../js/common-header.js"></script>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/responsiveslides.min.js"></script>
+</head>
+
+<body>
+
+<div class="ali-common-header" id="commonHeader"></div>
+
+
+
+
+
+<p align="center"><img src="photo/512.jpg"></p>
+<p align="center"><img src="photo/4.jpg"></p>
+<p align="center"><img src="photo/5.jpg"></p>
+<p align="center"><img src="photo/7.jpg"></p>
+<p align="center"><img src="photo/8.jpg"></p>
+<p align="center"><img src="photo/9.jpg"></p>
+<p align="center"><img src="photo/10.jpg"></p>
+<p align="center"><img src="photo/11.jpg"></p>
+<p align="center"><img src="photo/12.jpg"></p>
+<p align="center"><img src="photo/13.jpg"></p>
+
+
+<div class="footer-bottom" id="commonFooter"></div>
+<script type="text/javascript" src="../js/header_and_footer.js"></script>
+<p align="right"><script language="JavaScript" src="http://s20.cnzz.com/stat.php?id=5224571&amp;web_id=5224571&amp;show=pic1" type="text/javascript"></script></p>
+
+
+</body>
+</html>

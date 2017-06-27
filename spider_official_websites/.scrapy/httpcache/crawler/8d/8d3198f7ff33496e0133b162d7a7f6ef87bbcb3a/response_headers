@@ -1,0 +1,18 @@
+X-Drupal-Cache: MISS
+X-Varnish: 514819513 510790265
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 varnish-v4
+Server: nginx
+X-Ah-Environment: prod
+Date: Tue, 27 Jun 2017 10:02:07 GMT
+X-Request-Id: v-adcd8a14-5b1f-11e7-8300-0a0cc47e8984
+X-Cache-Hits: 1
+X-Content-Type-Options: nosniff
+Age: 732
+Vary: Accept-Encoding
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Cache: HIT
+X-Redirect-Id: 78
+Content-Encoding: gzip
+Location: http://www.thechannelco.com/company/copyright
+Cache-Control: max-age=900, public

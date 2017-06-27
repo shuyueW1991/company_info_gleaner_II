@@ -1,0 +1,13 @@
+Age: 1013
+Content-Encoding: gzip
+Server: nginx/1.8.1
+Via: 1.0 www.gov.mo (Access Gateway-ag-D4163CBB765BE7F2-27969603)
+Vary: Accept-Encoding
+Content-Type: text/html
+Etag: "cdfb9-6f-f24e6080"
+Accept-Ranges: bytes
+X-Mag: D4163CBB765BE7F2;d2448fd0;27969603;usrLkup->1;usrBase->1;getPRBefFind->2;getPRBefFind->2;PRAfterFind->2;All_public;publicURL->2;usrPr->3;aclEval->3;SendSoapStart->3;SendSoapExit->13;EvalACL->13;NoMatch->13;publicURL->13;aud->13;FP4->14;
+Cache-Control: no-store
+Cache-Control: no-cache
+Last-Modified: Sun, 09 Mar 2014 06:53:38 GMT
+Date: Tue, 27 Jun 2017 13:45:50 GMT

@@ -1,0 +1,14 @@
+Set-Cookie: PHPSESSID=h9kpt8i7qou29b50vj5djur1d2; path=/; secure
+Server: Apache Microsoft-HTTPAPI/2.0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 27 Jun 2017 13:46:16 GMT
+X-Powered-By: PHP/5.6.30
+Content-Encoding: gzip
+Pragma: no-cache
+Link: <https://www.cio.gov/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.cio.gov/>; rel=shortlink
+Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+Date: Tue, 27 Jun 2017 13:46:16 GMT

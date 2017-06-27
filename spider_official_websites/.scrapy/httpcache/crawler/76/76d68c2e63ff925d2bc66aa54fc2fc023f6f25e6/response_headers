@@ -1,0 +1,18 @@
+X-Rate-Limit-Reset: 1498558552
+Content-Language: en
+X-Rate-Limit-Limit: 750
+Set-Cookie: ADRUM_BTa="R:129|g:cf15320d-52d8-4fa1-9f26-8e6b537033d6"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: ADRUM_BT1="R:129|i:1083|e:71"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: ADRUM_BTa="R:51|g:6825831f-6753-4311-bbca-cc0ac1bf2f64"; Version=1; Max-Age=30; Expires=Tue, 27-Jun-2017 10:16:09 GMT; Path=/
+Set-Cookie: ADRUM_BT1="R:51|i:1083"; Version=1; Max-Age=30; Expires=Tue, 27-Jun-2017 10:16:09 GMT; Path=/
+Set-Cookie: ADRUM_BT1="R:51|i:1083|e:71"; Version=1; Max-Age=30; Expires=Tue, 27-Jun-2017 10:16:09 GMT; Path=/
+Set-Cookie: sid=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Server: nginx
+Strict-Transport-Security: max-age=315360000
+X-Okta-Request-Id: WVIwS3yJ2RK8c6heFkNebAAABqs
+Date: Tue, 27 Jun 2017 10:15:39 GMT
+X-Robots-Tag: none
+X-Rate-Limit-Remaining: 729
+Public-Key-Pins-Report-Only: pin-sha256="r5EfzZxQVvQpKo3AgYRaT7X2bDO/kj3ACwmxfdT2zt8="; pin-sha256="MaqlcUgk2mvY/RFSGeSwBRkI+rZ6/dxe/DuQfBT/vnQ="; pin-sha256="72G5IEvDEWn+EThf3qjR7/bQSWaS2ZSLqolhnO6iyJI="; pin-sha256="rrV6CLCCvqnk89gWibYT0JO6fNQ8cCit7GGoiVTjCOg="; max-age=60; report-uri="https://okta.report-uri.io/r/default/hpkp/reportOnly"
+P3P: CP="HONK"
+Location: https://id.sophos.com/?fromURI=https%3A%2F%2Fsophos.okta.com%2Fapp%2Fsophos_mysophos_1%2Fexk1ecentalrfZOXJ0x7%2Fsso%2Fsaml%3FRelayState%3Dhttps%253a%252f%252fsecure2.sophos.com%252fko-kr%252fsupport%252fdownloads.aspx

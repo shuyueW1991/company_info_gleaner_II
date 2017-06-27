@@ -1,0 +1,24 @@
+Set-Cookie: stopMobileRedirect=true; expires=Tue, 27-Jun-2017 12:48:35 GMT; Max-Age=-3600; path=/; domain=.wikipedia.org; httponly
+Set-Cookie: frwikiSession=5trggsjgo4jrjrcfuhk9ea01fhqlqbg7; path=/; secure; httponly
+Set-Cookie: forceHTTPS=true; path=/; httponly
+Server: mw1238.eqiad.wmnet
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 928680080, 78095282, 513378408, 655698028
+X-Cache-Status: pass
+Date: Tue, 27 Jun 2017 13:48:35 GMT
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Age: 0
+X-Cache: cp1067 pass, cp2001 pass, cp4017 pass, cp4010 pass
+Location: https://fr.m.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Connexion&returnto=Mod%C3%A8le%3APalette+Pages+utiles+%C3%A0+l%27administration+de+Wikip%C3%A9dia&returntoquery=mobileaction%3Dtoggle_view_desktop
+Backend-Timing: D=54867 t=1498571315867657
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+P3P: CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P for more info."
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 27 Jun 2017 13:48:35 GMT
+Content-Encoding: gzip
+Expires: Thu, 01 Jan 1970 00:00:00 GMT

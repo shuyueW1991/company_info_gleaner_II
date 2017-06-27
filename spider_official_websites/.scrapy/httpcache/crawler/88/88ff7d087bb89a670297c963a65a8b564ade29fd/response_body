@@ -1,0 +1,306 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>全国公安机关互联网站安全服务平台</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+	<link href="/css/css.css" rel="stylesheet" media="screen">
+	<link href="/css/css2.css" rel="stylesheet" media="screen">
+	<!-- title图片 -->
+	<link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon" />
+	 <!-- 表单验证 -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/custom/milk.css"> 
+	<script src="/js/jquery-validation-1.13.1/lib/jquery.mockjax.js"></script>
+	<script src="/js/jquery-validation-1.13.1/dist/jquery.validate.js"></script>
+	<script type="text/javascript" src="/js/custom/recordquery.js"></script>
+</head>
+<body>
+ <div class="wrapper">
+	<!-- 页面头 -->
+	
+	<!-- start:头部 -->
+      <div class="container container1">
+        <div class="navbar-header page-scroll">
+          <a class="logo">
+            <img src="/img/logo.png" width="247"/>
+          </a>
+          <div class="logo-right index-top">
+            <div class="input-append pull-right">
+              <input class="span2" type="text" style="border-right:0px;" placeholder="备案查询">
+              <span class="add-on" onclick="window.location.href='/portal/recordQuery'"><i class="icon-search"></i></span>
+            </div>
+            <ul class="nav nav-pills z-index" >
+              <li class='active'><a href="/portal/index">首页</a></li>
+              <li ><a href="/portal/recordQuery">公共查询</a></li>
+              <li ><a href="/portal/recordInform">常见问题</a></li>
+              <li ><a href="/portal/recordIssue">政策法规</a></li>
+              <li ><a href="/portal/recordNotice">通知公告</a></li>
+              <li ><a href="/portal/recordPolicies">备案须知</a></li>
+              <li ><a href="/portal/recordShow" onclick="loading()">备案展厅</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>    
+      <div class="heng"></div>
+    <!-- end:头部 -->
+     <div id="over" class="over"></div>
+    <div id="layout" class="layout"><img src="/img/loading2.gif" /></div>
+   <script type="text/javascript">
+	   function loading(){
+		   document.getElementById("over").style.display = "block";
+		   document.getElementById("layout").style.display = "block";
+	   }
+	</script>
+	<!-- start:内容 -->
+    <div class="p_list re_index">
+      <!-- start:详细内容 -->
+      <div class="p_detail">
+        <h5><span>公安部指挥破获特大网络赌博案 </span></h5>
+        <ul class="lb_list">
+        <html>
+<head>
+	<title></title>
+</head>
+<body>
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">涉案资金巨大&mdash;&mdash;犯罪团伙创建500多个私彩赌博网站，一个月的投注额逾1000亿元，涉案赌资逾5000亿元；</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　涉案人员众多&mdash;&mdash;数据显示，赌博网站实时在线人员达12万余人，国内参赌会员近100万人；</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　涉案组织严密&mdash;&mdash;分工明确、层级管理严格、网络安全防护周密，并以亲友为纽带，&ldquo;传销式&rdquo;扩张；</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;1&middot;09&rdquo;特大网络赌博案，是湖南省岳阳市公安机关在一场打击地下&ldquo;六合彩&rdquo;治安行动中，循线追击，精准研判摸出的一起网络赌博大案。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　近日，公安部指挥部署湖南、广东两地公安机关，对&ldquo;1&middot;09&rdquo;专案进行收网，成功抓获犯罪嫌疑人98名，冻结非法结算资金账户3000多个。此次行动斩断了许氏犯罪团伙的&ldquo;人员链&rdquo;、&ldquo;资金链&rdquo;、&ldquo;技术链&rdquo;，从源头上对网络赌博进行打击。此案是我国近几年来整体摧毁集赌博网站研发、维护、出租、开设赌场于一体的特大跨境有组织犯罪集团的经典战例。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　精心研判精准打击</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　斩断犯罪团伙资金人员技术链</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　近年来，以广东珠三角及粤东地区为源头，由务工返乡人员传至湖南、江西、湖北等地农村地区的非法&ldquo;六合彩&rdquo;赌博问题非常严重。湖南省岳阳市一度是赌博受害重灾区，地下&ldquo;六合彩&rdquo;最泛滥时，一到开号时间，万人空巷，人们停止生产生活，纷纷去买码开号。随着公安机关打击力度不断加大以及互联网的普及，地下&ldquo;六合彩&rdquo;从地面转向网络，由明转暗，投注金额更是逐年加大。对此，公安部治安管理局专门部署重点地区集中研判打击源头网络赌博犯罪团伙。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　2014 年9 月15 日，岳阳市公安局发现有人在阿波罗酒店登录赌博网站，随即开展立案侦查工作。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;这类网站看上去是用邮箱登录，但却没有注册功能。通过数据分析、归类，种种迹象表明这背后可能有一个专业团队。&rdquo;岳阳市公安局网络犯罪侦查大队彭志宏介绍。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　经侦查发现，这批赌博网站的后台运营维护都出自同一IP，地址位于深圳市南山区科技园豪威科技大厦，使用者为深圳市某网络科技公司。由此，该案源头直指广东。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　案情上报后，公安部高度重视，成立专案组，代号&ldquo;1&middot;09&rdquo;，并将其列至&ldquo;断链&rdquo;专项行动，由公安部治安管理局局长刘绍武任专案领导小组组长，明确以湖南省公安厅为主，广东省公安厅协助，在广东境内打一场以抓获许某辉为首的地下&ldquo;六合彩&rdquo;顶层犯罪集团的围歼战。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　2015 年7 月2 日，公安部对&ldquo;1&middot;09&rdquo;专案犯罪嫌疑人实施收网。抓捕行动中，湖南与广东民警分成18个抓捕组，分别在汕头、揭阳、深圳、广州、东莞五个地区同时进行抓捕，共抓获犯罪嫌疑人84 名，捣毁网络赌博窝点12 个，并对北京、上海、广州、深圳14 家银行总行涉案账号进行冻结。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　然而，&ldquo;技术链&rdquo;还存在的话，赌博网站很容易&ldquo;死灰复燃&rdquo;。随后，公安部于9 月18 日组织开展第二次抓捕行动，将躲藏在广东揭阳的许氏犯罪团伙网站研发人员一举抓获。据了解，该犯罪团伙在国内的技术人员已悉数落网，&ldquo;技术链&rdquo;被斩断，赌博网站失去了生存根基。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;传销式&rdquo;扩张主打&ldquo;信誉&rdquo;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　犯罪集团疯狂揽金数亿元</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　公安机关侦查发现，犯罪嫌疑人许某辉依托香港&ldquo;六合彩&rdquo;和国内&ldquo;时时彩&rdquo;等彩票平台的开奖周期，创立多种竞奖方式与玩法，通过深圳某网络公司开发运营、台湾某网络公司提供服务器，先后开发建立了500 多个赌博网站。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　根据截获该集团网络数据统计：该集团在国内发展参赌会员近100 万人，同时在线人数可达12 万余人，投注金额特别巨大。记者了解到，以查获的网站&ldquo;中胜&rdquo;为例，在2014 年8 月2 日至21 日期间，网站共接受9 期投注，金额达5500万元。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　这批域名带&ldquo;us&rdquo;标志的赌博网站，每个网站从上至下分为六个层级：公司、大股东、股东、总代理、代理、会员。各层级间的人以类似传销的方式在亲朋熟人中发展下线，并由此获得投注额13%左右的&ldquo;返水&rdquo;。获得进站账号&ldquo;安全码&rdquo;的人，便得到了参与赌博的&ldquo;金口令&rdquo;。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　在深圳打工的邱某翔除了司机这个职业外，还有另外一个身份&mdash;&mdash;&ldquo;顺盈赌博网站&rdquo;的大股东。对于他来说，发展下线是个不耽误时间还能赚取外快补贴家用的美事。&ldquo;只要开电脑看一下，抄抄数，看要收谁的钱，要付谁的钱，上个厕所的时间就做完了。&rdquo;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　从&ldquo;代理&rdquo;一直做到&ldquo;大股东&rdquo;，邱某翔自己从来不参赌，只拿&ldquo;返水&rdquo;。&ldquo;我的职责就是发展客户，介绍朋友加入，发展会员，把账号密码给出去。&rdquo;邱某翔说，&ldquo;层级越高，能发展的客户越多。投注的人越多，我们赚的返水就越高。例如上面给我13%的返水，我就给下面的人12.8%，我就赚那0.2%的水钱。&rdquo;但直至做到&ldquo;大股东&rdquo;级别，邱某翔也并没有获得巨额的收益，近2 年来邱某翔只&ldquo;赚取&rdquo;了10 多万元。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　那么，巨额的赌资都去哪儿了？</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　开设赌场出租网站</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　犯罪集团疯狂揽金数亿元</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;许某辉自己组织运行其中部分网站并开设赌场，每月可获利约500 万元。另外，他将其中300 多个网站以每月3 万元至5 万元的租金租给专人设赌，仅网站月租金就有1300 余万元。据统计，从2013 年至2015 年6 月，许氏集团揽金高达5 亿元。&rdquo;岳阳市公安局治安支队副支队长戴克俭介绍。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　据了解，现年39 岁的许某辉仅在深圳市第一生态苑的一处高档住宅就价值4000 多万元，其同一集团犯罪同伙均开豪车、住豪宅，有的甚至包养情妇。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;恒达赌博公司&rdquo;的范某租用了许某辉7 个赌博网站，并找了亲戚及同乡8 人来为自己运营网站。他们平均年龄20 多岁，分别负责这7 个赌博网站对账、操盘、调整赔率和额度等工作。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;每周一、三、五下午四五点开盘。开盘前，我们调好赔率，然后大家投注。以43 的赔率为基准，如果投注的人多，我们就降低赔率，投注的人少，就升高赔率，这样可以控制风险。投注的人越多，庄家的赢面就越大。&rdquo;看守所中，1992年出生的陈某亮看起来稚气未脱，他是范某的表弟，初中学历的他被表哥叫来帮忙做对账的工作。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;每个客户都有信用额，先赌后付钱。不同用户信用额也不同，有几百万也有几千万。客户将手上的信用额分配给下面的股东、代理。只要赌资交付不出现问题，时间一长，就可以根据他们的需求给调高额度。目前为止，没有客户投过自己负担不起的额度，也没出现过不讲诚信的情况，我们做的是信誉。&rdquo;陈某亮颇为自豪地交代。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　低犯罪门槛迎合众人心理</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　网赌给社会带来巨大危害</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　办案民警介绍，网络赌博玩法很多，但不复杂。参赌人员最开始投注不要钱，信用额度为5 万元，赢了直接给钱，输了可以先打欠条。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　就这样，亲友间传销式地拉人参赌、&ldquo;互联网+&rdquo;式的犯罪方法、极具诱惑力的赔率及&ldquo;先赌后付&rdquo;的信用体系大大降低了参赌犯罪门槛，提高了对抱有侥幸心理人们的吸引力。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;犯罪层级最下面一层的会员，不仅自己赌，有的还帮人&lsquo;写单&rsquo;。想赌的人，电话报单给会员，会员从中抽取投注额的12%。电话报单方便，而且也不会留下任何证据。&rdquo;岳阳市公安局治安支队副大队长谢鹗飞介绍。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　通常，投注的人与写单的人相互都不认识也不见面，投注时也不用交钱，等额度用完结算时，就会有人上门收钱。&ldquo;地下&lsquo;六合彩&rsquo;的庄家与一些好逸恶劳的社会青年有联系，需要时就让他们去讨要赌资。&rdquo;民警介绍，岳阳县仅2015 年发生的因讨赌债而发生的非法拘禁案件就有10 多起。&ldquo;2015 年大年初一，家住岳阳县的刘某因欠赌资30 多万元，无力偿还躲藏起来。庄家让几个18 岁左右的社会青年找到他，开车把他拉到水库边进行暴力威胁，逼其打欠条，后将他软禁，并拿欠条去威胁刘某家人还钱。&rdquo;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　汨罗市汨罗镇西郊的村民曹某去年8 月开始接触网赌，不到一年的时间输掉了45 万元，除了曹某母亲贷款帮其还掉10 多万元外，曹某还背负了20多万元的债务，至今难以还清。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;我有个同学，她老公办了个油籽厂，一年能有十几万收入。家有两套房子，生活比较宽裕。后来她买&lsquo;六合彩&rsquo;，上街买菜碰到她，她就向我借钱，开口就是2 万元。后来她输了两套房子，欠了50 万元，邻居朋友都向她讨债。最后她跑路了，离了婚，倾家荡产。&rdquo;岳阳县城关镇老街居委会居民袁春立向记者说。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;也有的小庄家挪用他人赌资去赌，输了后，当小庄家无力赔偿时，往往就选择逃跑、躲藏，致使一些赌民采取极端手段，如绑架、非法拘禁等逼迫庄家兑现。同时，参与赌博的人，信用额度用完，只有将输了的钱还清，才可以继续下单。人们期待致富，然而有时等不到回本就买不起了，倾家荡产，甚至外逃、自杀来逃避债务。网络赌博造成了地方资金的大量流失，不仅给岳阳市的经济发展造成严重阻碍，还带来了很多社会治安问题，严重影响群众的生产生活。&rdquo;戴克俭说。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　做长线勇攻坚</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　公安机关全力突破侦查瓶颈</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;由于犯罪分子利用假身份证、手机黑卡等制造假的身份信息，以此作为掩饰，网上数据和身份都是伪造的。网络身份和现实人物分离，如何将案情落地，是我们在侦破过程中遇到的一大瓶颈。&rdquo;戴克俭说。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　此次落网的某网络公司负责&ldquo;时时彩&rdquo;研发的负责人吴某对记者说，这家网络公司为了逃避打击一共更换了4 次工作场所，期间公司名也多次更换，公司员工的手机、电脑等全部统一配备，一旦发现形势不对，许某辉就立马收回销毁这些通信、研发工具。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　办案民警在虚拟网络的巨幕下，通过对前期搜集的网站赌博交易记录、电话短信、银行账单、人员资料等大量信息进行筛选、甄别、归类，抽丝剥茧，逐渐把握了整个团伙链条中的层级关系和人员身份。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　为摸清该团伙的犯罪模式和犯罪嫌疑人的行为规律，民警们侦控锁定犯罪嫌疑人的活动区域，蹲点数月，来获取犯罪事实，使案情落地，为案件侦破打下坚实基础。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　断链必行常态整治</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　继续部署打击涉网黄赌违法犯罪</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;&lsquo;1&middot;09&rsquo;专案等网络赌博案，是今年&lsquo;断链&rsquo;行动中非常突出的一类案件，这类案件数量多、危害大。近些年，私彩网络化传播趋势明显，在实际操作过程中，主要是以熟人间相互传销的方式进行拓展，借助互联网平台，人们投注、资金流转变得更加便捷和迅速，赌博金额也日趋庞大。该案的侦破有效遏制了当前国内涉众最广的网络赌博活动。&rdquo;公安部治安管理局行动处处长张晓鹏介绍。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　据了解，近年来，各地公安机关健全完善常态打击整治机制，有效地遏制了娱乐服务场所的黄赌违法犯罪。然而信息技术的迅猛发展，也催化全新违法犯罪形态的形成。线上平台对黄赌活动要素的&ldquo;优化集成&rdquo;，使&ldquo;黄赌违法犯罪+互联网&rdquo;成为今后一个时期公安机关打击整治工作的新挑战。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　&ldquo;在近年来健全完善常态整治机制、有效打击遏制社会面黄赌活动基础上，针对&lsquo;黄赌违法犯罪+互联网&rsquo;这一新的规律特点，公安部今年重点部署开展了&lsquo;断链&rsquo;行动，坚决斩断跨境网络赌博等犯罪活动的&lsquo;人员链&rsquo;、&lsquo;资金链&rsquo;和&lsquo;技术链&rsquo;。公安部已将&lsquo;断链&rsquo;行动纳</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　入打击整治黄赌违法犯罪的常态化工作，并积极推动源头治理，切实维护正常社会秩序和人民群众合法权益。&rdquo;公安部治安管理局相关负责人表示。</span></span></div>
+</body>
+</html>
+
+        </ul>
+       <!--  <ul class="unstyled list_foot">
+          <li>上一页</li>
+          <li>下一页</li>
+        </ul> -->
+      </div>
+      <!-- end:详细内容 -->
+    </div>
+    <div style="clear:both;"></div>
+    <!-- end:内容 -->
+</div>
+	<!-- 页面尾 -->
+	
+
+ <div class="z_footerk">
+ 	  <p class="z_gap"></p>
+ 	  
+ 	  <div class="z_footer"> 
+      <p class="text-center">
+        Copyright2015 公安部网络安全保卫局 All Rights Reserved
+        <!-- <br/>公安机关备案号:京010202000001号 --> 
+       <!--  <a href="javascript:void(0)" onClick="recordsform()">京ICP备030173号</a> --><br/>
+<!--         建议使用1024*768以上分辨率浏览 <br/> -->
+        <!-- 地址：北京市东长安街14号 --> 
+       
+       <!--  邮编：100741 -->京ICP备05070602号&nbsp;&nbsp;&nbsp;
+        邮箱：<a href="mailto:support@beian.gov.cn">support@beian.gov.cn</a><br/>
+       <div style="width:440px;margin:0 auto; padding: 0;">
+		 	<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102002019" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/img/ghs.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#666666;">京公网安备 11010102002019号</p>&nbsp;&nbsp;&nbsp;建议使用1024*768以上分辨率浏览 </a>
+	   </div>
+      </p>
+      <form id="recordform" action="/portal/registerSystemInfo" method="post"><input type="hidden" name="recordcode" value="京ICP备030173号"/></form>
+      </div>
+   </div>
+
+</body>
+</html>

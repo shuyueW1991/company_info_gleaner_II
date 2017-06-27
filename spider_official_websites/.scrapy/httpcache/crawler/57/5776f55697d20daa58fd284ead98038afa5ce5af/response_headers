@@ -1,0 +1,24 @@
+Accept-Ranges: bytes
+Content-Encoding: gzip
+X-Cache-Hits: 0
+Server: Oscar Platform 201702201028-385
+X-Timer: S1498557993.874152,VS0,VE471
+X-Served-By: cache-nrt6122-NRT
+X-Request-Id: add6bc15e2fa916a2980482aa98c1e2f
+Status: 200
+Vary: Accept-Encoding
+X-Ua-Compatible: IE=Edge,chrome=1
+Set-Cookie: SaneID=10.1.1.229.1498557993007631; path=/; domain=.nature.com
+Set-Cookie: _jobs_new_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWI0M2M3ZTg0ZTZiOWE2ZmUyNzQxOTEzMTk1NjkwY2Q3BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVdTb0FqMTRqWGZoVmhjZW1PT21RN2pTU0xmNTY3elFOODFNTnlkMnZaYWM9BjsARg%3D%3D--6e2220c238e19009b5934bb0973ceee311641893; path=/; HttpOnly
+Content-Type: text/html; charset=utf-8
+Via: 1.1 varnish
+Via: 1.1 varnish
+X-Vcap-Request-Id: 53881354-d405-4291-72b6-345ec083dcdf
+Date: Tue, 27 Jun 2017 10:06:33 GMT
+P3P: CP="CAO DSP LAW IVA IVD HIS OUR UNR STP UNI COM"
+X-Rack-Cache: miss
+X-Runtime: 0.184247
+X-Cache: MISS
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 3.0.21
+Age: 0
+Cache-Control: max-age=0, private, must-revalidate

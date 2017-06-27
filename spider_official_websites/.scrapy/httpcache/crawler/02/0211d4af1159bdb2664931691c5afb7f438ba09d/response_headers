@@ -1,0 +1,25 @@
+Accept-Ranges: bytes
+Backend-Timing: D=90605 t=1498557997304041
+Last-Modified: Tue, 27 Jun 2017 07:36:17 GMT
+Server: mw1273.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+P3P: CP="This is not a P3P policy! See https://www.mediawiki.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Vary: Accept-Encoding,Cookie,Authorization
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Age: 0
+X-Analytics: ns=0;page_id=1;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Ua-Compatible: IE=Edge
+Set-Cookie: stopMobileRedirect=true; expires=Thu, 27-Jul-2017 10:06:37 GMT; Max-Age=2592000; path=/; domain=.mediawiki.org; httponly
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Link: </static/images/project-logos/mediawikiwiki.png>;rel=preload;as=image
+Date: Tue, 27 Jun 2017 10:06:37 GMT
+X-Varnish: 24908901, 957624195, 638499149, 162532943
+X-Client-Ip: 180.173.144.160
+X-Content-Type-Options: nosniff
+X-Cache-Status: pass
+X-Cache: cp1053 pass, cp2019 pass, cp4010 pass, cp4017 pass
+X-Powered-By: HHVM/3.18.2
+Content-Encoding: gzip
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate

@@ -1,0 +1,11 @@
+Set-Cookie: CFID=5215072; Domain=.plainlanguage.gov; Expires=Thu, 20-Jun-2047 10:08:25 GMT; Path=/; HttpOnly
+Set-Cookie: CFTOKEN=9b792c45601cae70-1A3C5699-F6CE-600A-C3E9A76931551789; Domain=.plainlanguage.gov; Expires=Thu, 20-Jun-2047 10:08:25 GMT; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=61701121915F821C48BE5C38746D5BD8.chh; Path=/; HttpOnly
+Set-Cookie: BIGipServerpool_prd_chh_cf_tr_http=1958916763.20480.0000; path=/; Httponly
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html;charset=UTF-8
+X-Cnection: close
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+Date: Tue, 27 Jun 2017 10:08:25 GMT

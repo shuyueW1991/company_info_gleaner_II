@@ -1,0 +1,13 @@
+Server: Apache Microsoft-HTTPAPI/2.0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 27 Jun 2017 13:46:18 GMT
+Pragma: no-cache
+Content-Encoding: gzip
+X-Powered-By: PHP/5.6.30
+Link: <https://www.cio.gov/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.cio.gov/?p=1294>; rel=shortlink
+Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+Date: Tue, 27 Jun 2017 13:46:18 GMT

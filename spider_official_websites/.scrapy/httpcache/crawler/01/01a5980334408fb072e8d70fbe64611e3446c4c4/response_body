@@ -1,0 +1,186 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>全国公安机关互联网站安全服务平台</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+	<link href="/css/css.css" rel="stylesheet" media="screen">
+	<link href="/css/css2.css" rel="stylesheet" media="screen">
+	<!-- title图片 -->
+	<link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon" />
+	 <!-- 表单验证 -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/custom/milk.css"> 
+	<script src="/js/jquery-validation-1.13.1/lib/jquery.mockjax.js"></script>
+	<script src="/js/jquery-validation-1.13.1/dist/jquery.validate.js"></script>
+	<script type="text/javascript" src="/js/custom/recordquery.js"></script>
+</head>
+<body>
+ <div class="wrapper">
+	<!-- 页面头 -->
+	
+	<!-- start:头部 -->
+      <div class="container container1">
+        <div class="navbar-header page-scroll">
+          <a class="logo">
+            <img src="/img/logo.png" width="247"/>
+          </a>
+          <div class="logo-right index-top">
+            <div class="input-append pull-right">
+              <input class="span2" type="text" style="border-right:0px;" placeholder="备案查询">
+              <span class="add-on" onclick="window.location.href='/portal/recordQuery'"><i class="icon-search"></i></span>
+            </div>
+            <ul class="nav nav-pills z-index" >
+              <li class='active'><a href="/portal/index">首页</a></li>
+              <li ><a href="/portal/recordQuery">公共查询</a></li>
+              <li ><a href="/portal/recordInform">常见问题</a></li>
+              <li ><a href="/portal/recordIssue">政策法规</a></li>
+              <li ><a href="/portal/recordNotice">通知公告</a></li>
+              <li ><a href="/portal/recordPolicies">备案须知</a></li>
+              <li ><a href="/portal/recordShow" onclick="loading()">备案展厅</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>    
+      <div class="heng"></div>
+    <!-- end:头部 -->
+     <div id="over" class="over"></div>
+    <div id="layout" class="layout"><img src="/img/loading2.gif" /></div>
+   <script type="text/javascript">
+	   function loading(){
+		   document.getElementById("over").style.display = "block";
+		   document.getElementById("layout").style.display = "block";
+	   }
+	</script>
+	<!-- start:内容 -->
+    <div class="p_list re_index">
+      <!-- start:详细内容 -->
+      <div class="p_detail">
+        <h5><span>公安机关打击整治网络黑客犯罪活动成效显著   侦破黑客犯罪案件400余起 抓获违法犯罪嫌疑人900余名  </span></h5>
+        <ul class="lb_list">
+        <html>
+<head>
+	<title></title>
+</head>
+<body>
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">正在全国范围内组织开展的打击整治网络黑客犯罪专项行动已取得明显成效，截止目前，各地公安机关成功侦破黑客犯罪案件400余起，抓获违法犯罪嫌疑人900余名，有力地震慑了网络黑客违法犯罪活动。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　随着互联网技术迅猛发展，我国网络犯罪问题日益突出，严重侵害人民群众合法权益、危害互联网安全和社会秩序。公安部对此高度重视，近年来连续组织开展了系列专项打击整治行动。这次为期半年的打击整治网络黑客犯罪专项行动，重点是严厉打击网络攻击破坏、入侵控制网站，制作传播木马病毒和网银木马盗窃、诈骗等危害网络安全、侵害人民群众切身利益的网络犯罪行为。公安部按照打源头、挖幕后、斩链条的思路，加强统一指挥调度和统筹协调，各地公安机关迅速行动，通力合作，积极开展破案攻坚，取得显著战果。行动中，中国公安机关与有关国家执法机关联合开展了一系列国际执法合作活动。其中，山东淄博公安机关联合越南执法机关成功侦破了一起入侵电子邮箱诈骗案。吉林延边公安机关联合韩国执法机关成功侦破一起网银木马盗窃资金案。在严厉打击网络黑客犯罪活动的同时，公安机关还在全国建立了300多个电子数据勘查取证实验室，加强对网络犯罪活动的勘查取证工作。积极开展网络空间打防管控体系建设，督促党政机关和企事业单位严格落实信息安全等级保护制度，不断提升维护网络安全能力。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　公安部有关负责人表示，公安机关将始终保持对网络违法犯罪活动的高压打击态势，深入研究网络黑客犯罪规律特点，依法开展针对性的打击整治工作，切实维护互联网正常秩序和人民群众切身利益。同时，将继续深化国际执法合作，积极参与互联网全球治理，共同构建和平、安全、开放、合作、有序的网络空间。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">公安部公布打击黑客犯罪五起典型案例</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　1、山东淄博涉越跨国网络诈骗案</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　2015年3月，越南海防市某公司向中国山东文远建材科技有限公司订购了价值75000美元的货物。但是越方公司付款后，中方公司并未收到货款。经核查，发现越方公司遭到网络诈骗，货款被汇入另外一个银行账户。2015年4月，山东文远建材公司向山东淄博公安机关报案。同时，越南公安部也提出协助请求，希望中国公安机关协助开展调查。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　山东淄博公安机关立即就此开展了调查。经侦查，民警发现犯罪嫌疑人采取入侵受害人电子邮箱获取中越两国公司往来贸易信息的手段，利用与中方公司电子邮箱地址类似的邮箱仿冒中方公司与越方联系，诱使其将货款汇入另一个银行账户。近期，淄博公安机关转战上海、武汉、广州等地，打掉了一个以外籍人员为主，境内外人员相互勾连的犯罪团伙，抓获犯罪嫌疑人5名，其中外籍人员3名。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　2、吉林延边涉韩特大跨国网络盗窃案</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　2015年初，吉林省延边州公安机关工作中发现一个由中韩两国犯罪嫌疑人组成的团伙涉嫌针对韩国网民银行卡实施跨国网银盗窃。延边公安机关成立专案组历经数月的缜密侦查，结合韩国警方提供的证据材料，逐渐查明该团伙由多个分工明确犯罪小组组成，分布在吉林省延边州、长春市，福建省龙岩市，广东省广州市、山东省威海市等地，专门针对韩国金融机构银行储户存款实施网络盗窃。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　近日，吉林公安机关开展统一行动，在吉林、福建、广东、山东、河南等地抓获犯罪嫌疑人31人，捣毁犯罪窝点4处。经查，该犯罪团伙利用&ldquo;木马程序&rdquo;和&ldquo;钓鱼网站&rdquo;等方式获取韩国居民银行卡信息，然后由韩国籍犯罪嫌疑人冒充韩国银行工作人员，通过电话方式诱骗用户解除银行卡保护设置，利用已获取的韩国居民的网银账户信息登录韩国受害人网银账户，将银行卡内的存款转移至专门用于接收赃款的韩国银行卡，再由位于韩国的犯罪嫌疑人通过银行ATM机取出赃款。经初步统计，该犯罪团伙一周内盗窃的资金就达到人民币300余万元。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　3、江苏徐州&ldquo;5.15&rdquo;系列盗窃支付宝账号余额案</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　2015年5月14日，江苏省徐州市睢宁县淘宝卖家王某到公安机关报案，称其支付宝账号内余额被盗3996元。接报后，江苏徐州公安机关迅速展开侦查，发现犯罪嫌疑人以定做家具名义向受害人QQ发送伪造成图片样式的木马程序，利用该木马程序将受害人支付宝账号内余额盗走。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　徐州公安机关对植入木马分析发现，该木马程序具有远程控制、键盘记录、结束进程等功能，并且可以避免被主流杀毒软件发现。用户一旦被植入木马程序，用户电脑即被嫌疑人监控，当受害人登陆网银、支付宝等网站时可以获取受害人的账户密码等信息，实施盗窃行为。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　近期，江苏徐州公安机关先后在广东、四川、辽宁等地抓获涉嫌制作销售木马、提供免杀、实施盗窃等环节的10名犯罪嫌疑人，彻底摧毁此包含植入木马、实施盗窃、销售木马、制作木马的分工明确、链条完整的网络盗窃犯罪团伙。目前已查实该犯罪团伙作案近20起，涉案价值10余万元。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　4、江苏南通通州区教育局网站被入侵案</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　2015年7月8日，江苏南通市通州区教育技术装备室负责人报案称，今年以来通州区教育党建人事网页面多次被人恶意篡改，危及信息安全，给教育局形象造成恶劣影响。接报后，江苏南通公安机关迅速对该网站服务器进行勘验，发现该服务器被植入了恶意木马文件。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　近期，江苏南通公安机关在徐州成功抓获非法侵入南通通州教育局网站服务器，并非法篡改网页的犯罪嫌疑人丛某某。经审讯，丛某某对其犯罪事实供认不讳。其自2014年以来采用扫描网站漏洞放置木马病毒方式获取网站控制权限，然后入侵网站服务器并进行篡改，非法添加私服推广广告网页获取推广费。据统计，该犯罪嫌疑人先后入侵了近200个的网站，非法获利近二十万元。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　5、安徽宿州王某提供木马程序案</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　2015年8月20日，安徽省公安厅接群众举报称，有网民在互联网上大肆贩卖手机木马程序。安徽省公安厅迅速部署宿州公安机关开展进一步调查。经查，宿州居民王某有重大作案嫌疑。</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">&nbsp;</span></span></div>
+
+<div><span style="FONT-FAMILY: 宋体"><span style="FONT-SIZE: 16px">　　8月29日，安徽宿州公安机关成功将王某抓获。经审讯，王某供称其自2015年以来，利用自学的计算机技术制作手机木马程序并利用互联网进行销售，该程序具备手机短信息拦截、键盘记录等功能。经对王某使用的作案电脑进行勘验，公安机关发现王某还在境外租用15台服务器，建设维护100余个虚假中国移动网站并在网站上挂载其制作的手机木马程序，再出租给专门实施网络盗窃、网络诈骗的不法分子使用。据统计，王某共非法获利60余万元。</span></span></div>
+</body>
+</html>
+
+        </ul>
+       <!--  <ul class="unstyled list_foot">
+          <li>上一页</li>
+          <li>下一页</li>
+        </ul> -->
+      </div>
+      <!-- end:详细内容 -->
+    </div>
+    <div style="clear:both;"></div>
+    <!-- end:内容 -->
+</div>
+	<!-- 页面尾 -->
+	
+
+ <div class="z_footerk">
+ 	  <p class="z_gap"></p>
+ 	  
+ 	  <div class="z_footer"> 
+      <p class="text-center">
+        Copyright2015 公安部网络安全保卫局 All Rights Reserved
+        <!-- <br/>公安机关备案号:京010202000001号 --> 
+       <!--  <a href="javascript:void(0)" onClick="recordsform()">京ICP备030173号</a> --><br/>
+<!--         建议使用1024*768以上分辨率浏览 <br/> -->
+        <!-- 地址：北京市东长安街14号 --> 
+       
+       <!--  邮编：100741 -->京ICP备05070602号&nbsp;&nbsp;&nbsp;
+        邮箱：<a href="mailto:support@beian.gov.cn">support@beian.gov.cn</a><br/>
+       <div style="width:440px;margin:0 auto; padding: 0;">
+		 	<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102002019" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/img/ghs.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#666666;">京公网安备 11010102002019号</p>&nbsp;&nbsp;&nbsp;建议使用1024*768以上分辨率浏览 </a>
+	   </div>
+      </p>
+      <form id="recordform" action="/portal/registerSystemInfo" method="post"><input type="hidden" name="recordcode" value="京ICP备030173号"/></form>
+      </div>
+   </div>
+
+</body>
+</html>

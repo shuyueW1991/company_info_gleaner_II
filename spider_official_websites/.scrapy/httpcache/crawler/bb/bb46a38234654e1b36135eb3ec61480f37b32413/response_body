@@ -1,0 +1,738 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<title>商标法条约  -中国（福建）自由贸易试验区门户网站</title>
+<meta name="keywords" content="福州自贸区官网,自贸区官网,福建自贸区官网,中国自贸区,平潭片区,厦门片区,福州片区,自贸区,中国福建自由贸易试验区,中国(福建)自由贸易试验区,平潭自贸区,厦门自贸区,福州自贸区,福建自贸区,平潭自由贸易试验区,厦门自由贸易试验区,福州自由贸易试验区,福建自由贸易试验区,中国（福建）自由贸易试验区,中国（福建）自由贸易试验区门户网站" /><meta name="description" content="中国（福建）自由贸易试验区网站（www.china-fjftz.gov.cn）是中国（福建）自由贸易试验区唯一的官方门户网站，包括福建自贸区总站、自贸区福州片区、自贸区厦门片区、自贸区平潭片区网站。用于发布福建自贸区新闻动态、政策法规、政策解读、规划方案、自贸区网上办事、自贸区对台合作等内容" />
+<meta name="copyright" content="Copyright 2017 - 中国（福建）自由贸易试验区,中国（福建）自由贸易试验区门户网站" />
+<meta name="baidu-site-verification" content="rL3Om7WEqh" />
+<script> 
+   (function() {
+     if (! 
+     /*@cc_on!@*/
+     0) return;
+     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     var i= e.length;
+     while (i--){
+         document.createElement(e[i])
+     } 
+})() 
+</script>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css"/>
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/index_tab.js"></script>
+<script type="text/javascript" src="/js/jquery.SuperSlide.js"></script>
+
+<script type="text/javascript" src="/js/jzf.js"></script>
+
+<script language="javascript" type="text/javascript">
+var baseUrl='/',controller='article';
+function showtime()
+{
+var today,hour,second,minute,year,month,date;
+var strDate ;
+today=new Date();
+var n_day = today.getDay();
+switch (n_day)
+{
+    case 0:{
+      strDate = "星期日"
+    }break;
+    case 1:{
+      strDate = "星期一"
+    }break;
+    case 2:{
+      strDate ="星期二"
+    }break;
+    case 3:{
+      strDate = "星期三"
+    }break;
+    case 4:{
+      strDate = "星期四"
+    }break;
+    case 5:{
+      strDate = "星期五"
+    }break;
+    case 6:{
+      strDate = "星期六"
+    }break;
+    case 7:{
+      strDate = "星期日"
+    }break;
+}
+year = today.getFullYear();
+month = today.getMonth()+1;
+date = today.getDate();
+hour = today.getHours();
+minute =today.getMinutes();
+second = today.getSeconds();
+document.getElementById('time').innerHTML = year + "年" + month + "月" + date + "日" + strDate +" " + hour + ":" + minute + ":" + second; //显示时间
+setTimeout("showtime();", 1000); //设定函数自动执行时间为 1000 ms(1 s)
+}
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fa77760ba71400031b0fe2ba39b97748";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?49ca092d1107900217cfd9ae2cdb9b72";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".tc").find(".tz_box").hide(0);
+        $(".tc").hover(
+		function () { $(this).css("z-index", "20").find(".tz_box").css("z-index", "50").stop(true, true).animate({ opacity: "show" }); },
+		function () { $(this).css("z-index", "1").find(".tz_box").css("z-index", "1").stop(true, true).animate({ opacity: "hide" }); }
+		);
+
+        $(".search_text").focus(function () {
+
+            $(this).addClass("focus");
+
+        }).blur(function () {
+
+            $(this).removeClass("focus");
+
+        });
+    });
+</script>
+</head>
+<body>
+	<header>
+	<div class="gb_top">
+    	<div class="container gb_main">
+        	<div class="left"> 
+                <div class="time_box"> 
+                    <span id="time"></span> 
+                    <script language="javascript"> showtime();</script> 
+                </div>
+                <p>中国(福建)自由贸易试验区欢迎您!</p> 
+            </div>
+            <div class="fright">
+            	<ul class="gb_top_list"><li><a href="javascript:ClickObject1();">简体版</a></li><li> | </li><li><a href="javascript:ClickObject2();">繁體版</a></li><li> | </li><li><a href="/html/en">English</a></li><li> | </li><li><a href="#" style="position:relative;*z-index:1">手机门户<ul class="xl_erweima"><li><img src="/images/mb_qrcode.png"><p>手机站二维码</p></li></ul></a></li><li> | </li><li><a href="#" style="position:relative;*z-index:1">微信<ul class="xl_erweima"><li><img src="/images/wx_qrcode.jpg"><p>微信二维码</p></li></ul></a></li><li> | </li><li><a target="_blank" href="http://weibo.com/fjftz" style="position:relative;*z-index:1">微博<ul class="xl_erweima"><li><img src="/images/wb_qrcode.png"><p>微博二维码</p></li></ul></a></li><li> | </li><li><a target="_blank" href="http://www.fiet.gov.cn/">福建省商务厅</a></li></ul>
+            </div>
+        </div>
+    </div>
+</header><div class="container">	
+		<div class="gb_logo_box">
+    	<div class="gb_logo"><a href="/"></a></div>
+    </div>
+    <div class="gb_banner">
+    <div id="slideBox" class="slideBox">
+    <div class="hd">
+      <ul>
+        <li style="visibility: hidden"><a></a></li>
+        <li><a target="_blank" href="http://www.fzftz.gov.cn/" class="on">福州片区</a></li>
+        <li><a target="_blank" href="http://www.xmftz.gov.cn/" class="a_xm on">厦门片区</a></li>
+        <li><a target="_blank" href="http://ptftz.pingtan.gov.cn/" class="a_pt on">平潭片区</a></li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li style="background:url(/images/picture_zmq.jpg) center no-repeat"><a href="http://picture.china-fjftz.gov.cn/" target="_blank""></a></li>
+        <li style="background:url(/images/fzftz.jpg) center no-repeat"><a href="#"></a></li>
+        <li style="background:url(/images/xmftz.jpg) center no-repeat"><a href="#"></a></li>
+        <li style="background:url(/images/ptftz.jpg) center no-repeat"><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+        <script type="text/javascript">
+		jQuery(".slideBox").slide( { mainCell:".bd ul",effect:"leftLoop",autoPlay:true} );</script> 
+    </div>
+    
+    
+    <nav class="nav"> 
+        <ul class="sy1_ul">
+          <div class="sy2_inside">
+            <li class="sy1_li"><a href="/" class="sy1_tit ">首页</a></li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli1"> <a class="sy1_tit " href="/article/index/gid/8/aid/142" target="_self"><span class="navspan">走进自贸区</span></a>
+              <ul class="sy2_ul">
+              	<div class="into_fta">
+                	<div class="fta_left">
+                    	<img src="/images/ftzmap.jpg">
+                        <p>2014年12月31日，国务院正式批复设立中国（福建）自由贸易试验区。中国（福建）自由贸易试验区从此成为中国大陆境内继上海自贸试验区之后的第二批自贸试验区。中国（福建）自由贸易试验区范围总面积118.04平方公里，包括平潭、厦门、福州3个片区。其中平潭片区43平方公里、厦门片区43.78平方公里、福州片区31.26平方公里。<a href="/article/index/gid/8/aid/142.html">【更多】</a></p>
+                    </div>
+                    <div class="fta_right">
+                    	<ul>
+                        	<li><a href="/article/index/gid/8/aid/142.html"><img src="/images/fta_01.png"><p>自贸区简介</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/11/aid/143"><img src="/images/fta_04.png"><p>福州片区简介</p></a></li>
+                            <li><a href="/article/index/gid/9/aid/358.html"><img src="/images/fta_02.png"><p>机构职能与设置</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/12/aid/144"><img src="/images/fta_05.png"><p>厦门片区简介</p></a></li>
+                            <li><a href="/article/index/gid/14/aid/4.html"><img src="/images/fta_03.png"><p>自贸区大事记</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/13/aid/145"><img src="/images/fta_06.png"><p>平潭片区简介</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli2"> <a class="sy1_tit " href="/article/list/gid/3" target="_self"><span class="navspan">新闻资讯</span></a>
+              <ul class="sy2_ul">
+              	<div class="gb_xl_news">
+                	<div class="slideTxtBox">
+						<div class="hd">
+							<ul><li><a href="">工作动态</a></li><li><a href="">媒体报道</a></li><li><a href="">福建资讯</a></li></ul>
+						</div>
+						<div class="bd">
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6531.html">
+							2017年版自贸试验区外商投资负面清单减至95项</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6451.html">
+							江阴港区海铁联运到发箱量突破5000标箱</a><span class="date">06-15</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6409.html">
+							香港全国人大代表来闽开展专题调研</a><span class="date">06-12</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6408.html">
+							厦门市自贸委、厦门市国资委举办企业转型升级高级研讨班</a><span class="date">06-12</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6391.html">
+							平潭片区与四川自贸试验区川南临港片区签署战略合作协议</a><span class="date">06-08</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6378.html">
+							尤权会见香港全国人大代表访问团</a><span class="date">06-07</span></li>
+											
+							</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6541.html">
+							台湾“中华茶联”厦门设代表处在海沧自贸园区揭牌</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6540.html">
+							习近平主持召开中央全面深化改革领导小组第三十六次会议</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6524.html">
+							今年以来福建江阴港进口汽车3700辆 同比增长五成</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6523.html">
+							菲律宾《联合日报》关注厦门汽车进口贸易：欧洲汽车可直抵厦门</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6522.html">
+							厦门片区太古海投冷链物流厦门冷库正式投用</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6514.html">
+							驶入深蓝 ——中国自贸区“大胆试、大胆闯、自主改”的厦门新实践</a><span class="date">06-22</span></li>
+											</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6545.html">
+							福建“拥抱”世界华文传媒论坛 助推“海丝”建设</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6544.html">
+							福建提升自贸协定原产地签证水平显成效</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6543.html">
+							原产地证书助力莆田企业驰骋“一带一路”</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6534.html">
+							闽出台意见进一步降低实体经济企业成本</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6533.html">
+							福建省再增两个国家级双创示范基地</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6532.html">
+							“一带一路”法律保障高峰论坛举行</a><span class="date">06-26</span></li>
+											</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+                </div>
+                <div class="gb_xl_video">
+                    <h3><a href="/article/video/gid/29" target="_blank">视频新闻</a></h3>
+                    <div class="video_list">
+                    	<ul>
+										
+                        	<li><a target="_blank" href="/article/index/aid/6539.html"><span></span><img src="/upfile/files/201706/26/125721_524.jpg"><p>大陆首家台商独资海员...</p></a></li>
+										
+                        	<li><a target="_blank" href="/article/index/aid/6494.html"><span></span><img src="/upfile/files/201706/19/180450_786.jpg"><p>自贸区负面清单“再瘦...</p></a></li>
+											
+                        </ul>
+                    </div>
+                    <div class="video_news_list">
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6476.html">自贸新路径 厦门：获批为汽车整车进口口岸</a><span class="date">（06-16）</span></li>
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6407.html">福州港开通直航印尼集装箱航线</a><span class="date">（06-09）</span></li>
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6406.html">香港全国人大代表访问团考察福建自贸试验区</a><span class="date">（06-09）</span></li>
+										 
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli3"> <a class="sy1_tit " href="/article/list/gid/4" target="_self"><span class="navspan">信息公开</span></a>
+              <ul class="sy2_ul">
+              	<div class="info_list">
+                	<ul>
+                    	<li><a target="_blank" href="/article/list/gid/66"><i class="fa fa-volume-up"></i>国家支持政策</a></li>
+                        <li><a target="_blank" href="/article/list/gid/22"><i class="fa fa-location-arrow"></i>方案与规划</a></li>
+						<li><a target="_blank" href="/article/list/gid/23"><i class="fa fa-signal"></i>统计数据</a></li>
+                        <li><a target="_blank" href="http://www.fiet.gov.cn/xxgk/zfxxgkzl/"><i class="fa fa-file-text-o"></i>政府信息公开专栏</a></li>
+                     </ul>
+                </div>
+                <div class="info_box">
+                	<div class="info_news" style="border-bottom:dotted 1px #ddd; padding-bottom:15px; margin-bottom:15px;">
+                    	<h3>通知公告<a target="_blank" href="/article/list/gid/19">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/5902.html">
+							关于启动实施新的外国人来华工作许可制度的...</a><span class="date">03-31</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5669.html">
+							关于印发 《福建省引进台湾高层次人才“百...</a><span class="date">02-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5285.html">
+							关于海关特殊监管区域和保税监管场所保税货...</a><span class="date">01-05</span></li>
+										
+                        </ul>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="info_news"  style="border-bottom:dotted 1px #ddd; padding-bottom:15px; margin-bottom:15px;">
+                    	<h3>政策法规<a target="_blank" href="/article/list/gid/20">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/6513.html">
+							质检总局关于推进检验检疫改革创新 进一步...</a><span class="date">06-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6480.html">
+							国务院办公厅关于印发自由贸易试验区外商投...</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6353.html">
+							厦门市市场监督管理局关于印发推进自贸区商...</a><span class="date">06-02</span></li>
+					
+                        </ul>
+                    </div>
+                    <div class="info_news">
+                    	<h3>政策解读<a target="_blank" href="/article/list/gid/44">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/6513.html">
+							质检总局关于推进检验检疫改革创新 进一步...</a><span class="date">06-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6480.html">
+							国务院办公厅关于印发自由贸易试验区外商投...</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6353.html">
+							厦门市市场监督管理局关于印发推进自贸区商...</a><span class="date">06-02</span></li>
+					
+                        </ul>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="info_news">
+                    	<h3>扶持政策<a target="_blank" href="/article/list/gid/21">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/5828.html">
+							平潭综合实验区管委会关于促进会展产业发展...</a><span class="date">03-24</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5803.html">
+							福州市人民政府办公厅关于印发《福州港口生...</a><span class="date">03-21</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/4508.html">
+							福建省深化人才发展体制机制改革实施意见</a><span class="date">09-20</span></li>
+					
+                        </ul>
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli4"> <a class="sy1_tit " href="#" target="_self"><span class="navspan">办事大厅</span></a>
+              <ul class="sy2_ul">
+              	<div class="xl_fta_box">
+                	<div class="box_left"></div>
+                    <div class="box_middle">
+                    	<ul>
+                        	<li><img src="/images/fz_fta.png"><p>福州片区办事大厅</p><a target="_blank" href="http://www.fzftz.gov.cn/wsbs.aspx">办事入口</a></li>
+                            <li><img src="/images/xm_fta.png"><p>厦门片区办事大厅</p><a target="_blank" href="http://www.xmftz.gov.cn/wsbs/">办事入口</a></li>
+                            <li><img src="/images/pt_fta.png"><p>平潭片区办事大厅</p><a target="_blank" href="http://zzhy.ptxzfwzx.gov.cn/">办事入口</a></li>
+                        </ul>
+                    </div>
+                    <div class="box_right"></div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli5"> <a class="sy1_tit " href="/gcolumn/ztlm" target="_self"><span class="navspan">专题专栏</span></a>
+              <ul class="sy2_ul">
+              	<div class="zt_left">
+                	<div class="zt_title"><i></i>专题</div>
+                    <ul>
+										
+                    	<li>
+                        	<div class="zt_img"><a target="_blank" href="http://picture.china-fjftz.gov.cn/"><img src="/upfile/files/201705/05/144925_772.jpg"></a></div>
+                            <div class="zt_text">
+                            	<a target="_blank" href="http://picture.china-fjftz.gov.cn/" class="text_name">福建自贸试验区随手拍&摄影采风作品评选活...</a>
+                                <p><a href="http://picture.china-fjftz.gov.cn/">【详情】</a></p>
+                            </div>
+                            
+                        </li>
+										
+                    	<li>
+                        	<div class="zt_img"><a target="_blank" href="/html/zmqtp/"><img src="/upfile/files/201610/14/083618_111.jpg"></a></div>
+                            <div class="zt_text">
+                            	<a target="_blank" href="/html/zmqtp/" class="text_name">福建自贸试验区2015-2016年度评选活动结果公布</a>
+                                <p>福建自贸试验区2015-2016年度评选活动结果公布<a href="/html/zmqtp/">【详情】</a></p>
+                            </div>
+                            
+                        </li>
+				                    </ul>
+                </div>
+                <div class="zt_right">
+                	<div class="zt_title"><i></i>专栏</div>
+                	<ul>
+										
+                    	<li><a target="_blank" href="/article/list/gid/65.html"><i></i><p>中央媒体报道福建自贸区专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/68.html"><i></i><p>福建自贸区建设成效专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/58.html"><i></i><p>福建创新举措专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/67.html"><i></i><p>福建自贸区实践案例专栏</p></a></li>
+										
+                    </ul>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli6"> <a class="sy1_tit " href="/article/list/gid/70" target="_self"><span class="navspan">对台直通车</span></a>
+              <ul class="sy2_ul">
+              	<div class="gb_xl_news">
+                	<div class="slideTxtBox">
+						<div class="hd">
+							<ul><li><a href="">对台新闻</a></li><li><a href="">对台政策</a></li><li><a href="">创新举措</a></li></ul>
+						</div>
+						<div class="bd">
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6548.html">
+							福建探索海峡博士后计划 深化两岸人才交流...</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6547.html">
+							百余家福建台资企业 将首次联合赴台征才</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6546.html">
+							福建“六区”发展战略 与闽台深度融合发展</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6538.html">
+							第四届中国青年创新创业大赛（福建赛区）启...</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6537.html">
+							两岸护理专家在厦门探讨创新</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6536.html">
+							银监会推动解决台胞办理信用卡难试点工作—...</a><span class="date">06-26</span></li>
+												
+							</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/3427.html">
+							 厦门检验检疫局中国（福建）自由贸易试验...</a><span class="date">04-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/3396.html">
+							厦门检验检疫局中国（福建）自由贸易试验区...</a><span class="date">04-19</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1485.html">
+							台湾导游领队在福建自贸试验区执业实施方案</a><span class="date">08-07</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1239.html">
+							台湾会计专业人士担任中国（福建）自由贸易...</a><span class="date">07-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1091.html">
+							台湾药师在福建自由贸易试验区执业的管理暂...</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/869.html">
+							关于取得大陆注册结构工程师等3类执业资格...</a><span class="date">06-02</span></li>
+											</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6479.html">
+							采认台湾教师从业资格</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6478.html">
+							台胞参保直通车</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6477.html">
+							采认进出港台籍船舶技术证照</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5670.html">
+							两岸保险“创研中心”</a><span class="date">02-24</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5664.html">
+							台湾中高层次人才认定新机制</a><span class="date">02-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5663.html">
+							台资建筑业企业资质认定办法</a><span class="date">02-23</span></li>
+											</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+                </div>
+                <div class="gb_xl_video">
+                    <div class="fw_list">
+                    	<img src="/images/dtztc.jpg"/>
+                    </div>
+                   
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+          </div>
+          <div class="gb_search">
+            <FORM action="/article/list.html" method="post" id="searchForm">
+				<input type="text" class="gb_text_box" id="keywords" name="keywords" value="" placeholder="请输入关键字" />
+                <input type="submit" value="" class="gb_btn_ok">
+            </FORM>
+        </div>
+        </ul>
+        
+    </nav>		<div class="address">
+            <div class="add_box">您所在的位置：<a href="http://www.china-fjftz.gov.cn">首页</a>  > <a href="/gcolumn/ztlm.html">专题专栏</a> > <a href="/gcolumn/ztlm1/gid/25.html">知识产权专栏</a> > <a href="/article/list/gid/51.html">国际条约</a></div>
+    </div>
+	<div class="left">
+    <div id="nav">
+    <h1>知识产权专栏</h1><ul><li><a class="selected" href="/article/list/gid/51.html">国际条约</a></li><li><a  href="/article/list/gid/52.html">国内法律</a></li><li><a  href="/article/list/gid/53.html">行政法规</a></li><li><a  href="/article/list/gid/54.html">纠纷解决</a></li></ul>    </div>
+        <div class="hot_list" id="smartFloat_tags">
+      <h3 class="title_name">热门文章</h3>
+      <ul>
+      <li><span class="number front">1</span><a href="/article/index/aid/142.html">中国（福建）自由贸易试验区简介</a><span class="read">121115</span></li><li><span class="number front">2</span><a href="/article/index/aid/143.html">中国（福建）自由贸易试验区 • 福州片区</a><span class="read">85964</span></li><li><span class="number front">3</span><a href="/article/index/aid/3742.html">办事指南</a><span class="read">81147</span></li><li><span class="number">4</span><a href="/article/index/aid/144.html">中国（福建）自由贸易试验区 • 厦门片区</a><span class="read">76190</span></li><li><span class="number">5</span><a href="/article/index/aid/430.html">联系我们</a><span class="read">74300</span></li><li><span class="number">6</span><a href="/article/index/aid/358.html">机构设置和职能</a><span class="read">60928</span></li><li><span class="number">7</span><a href="/article/index/aid/428.html">使用帮助</a><span class="read">54571</span></li><li><span class="number">8</span><a href="/article/index/aid/429.html">法律声明</a><span class="read">41727</span></li>       
+      </ul>
+    </div>
+  </div>    
+    <div class="right">
+    	    	<div class="right_title"><span>国际条约</span></div>
+    	        <div class="content_box">
+                    <h1>商标法条约  </h1>
+          <div class="wd_info"><span>2015-02-14 15:58:04</span>
+		            来源：<span>福建省商务厅</span>		  阅读次数：<span class="blue">2431</span>次</div>
+                                        <div class="news_vdcon">
+            　　（1994年10月28日于日内瓦，中国政府签字）<br />　　<br />　<strong>　第一条　缩略语</strong><br />　　<br />　　除另有说明，本条约中：<p>　　<br />　　（一）“商标主管机关”指由一缔约方指定负责商标注册的机构；<br /></p>　　<br />　　（二）“注册”指由商标主管机关进行的商标注册；<br />　　<br />　　（三）“申请”指要求注册的申请；<br />　　<br />　　（四）凡提及“人”应理解为指自然人和法人；<br />　　<br />　　（五）“注册持有人”指商标注册簿上列为注册持有者的人；<br />　　<br />　　（六）“商标注册簿”指由商标主管机关保管的整套资料，其中包括所有注册的内容和关于注册的全部录入资料，不论这样的资料用何种载体存储；<br />　　<br />　　（七）“巴黎公约”指１８８３年３月２０日于巴黎签署后经修改和修订的《保护工业产权巴黎公约》；<br />　　<br />　　（八）“尼斯分类”指１９５７年６月１５日于尼斯签署后经修改和修订的《商标注册用商品和服务国际分类尼斯协定》；<br />　　<br />　　（九）“缔约方”指加入本条约的任何国家或政府间组织；<br />　　<br />　　（十）凡提及“批准书”均应理解为包括接受书和同意书；<br />　　<br />　　（十一）“本组织”指世界知识产权组织；<br />　　<br />　　（十二）“总干事”指本组织的总干事；<br />　　<br />　　（十三）“实施细则”指第十七条所指本条约下的《实施细则》。<br />　　<br /><div style="text-align: justify;"><strong>　　第二条　本条约适用的商标</strong></div><strong>　　</strong><br />　　（１）［商标的性质］（ａ）本条约适用于由视觉标志构成的商标，但唯有接受立体商标注册的缔约方才有义务将本条约也适用于立体商标。<br />　　<br />　　（ｂ）本条约不适用于全息商标和不含视觉标志的商标，尤其是音响商标和嗅觉商标。<br />　　<br />　　（２）［商标的种类］（ａ）本条约应适用于与商品或服务有关的标志（商标商标或服务商标）或与商品和服务两者有关的标志。<br />　　<br />　　（ｂ）本条约不适用于集体商标、证明商标和保证商标。<br />　　<br /><strong>　　第三条　申请</strong><br />　　<br />　　（１）［申请书含有或附带的说明或项目；收费］（ａ）任何缔约方均可要求申请书中含有下列某些或全部说明或项目：<br />　　<br />　　（一）注册申请；<br />　　<br />　　（二）申请人的名称和地址；<br />　　<br />　　（三）如申请人为一国国民，该国国名；申请人如在一国有住所，该国国名；申请人如在一国有真实有效的工商营业所，该国国名；<br />　　<br />　　（四）申请人为法人的，该法人的法律性质，以及该法人按其法律组成的国家及在该国之内适用的领土区域；<br />　　<br />　　（五）申请人有代理人的，该代理人的名称和地址；<br />　　<br />　　（六）第四条第（２）款（ｂ）项之下要求提供的联系地址的，该联系地址；<br />　　<br />　　（七）申请人希望获得在先申请优先权的，要求该在先申请优先权的声明并同时按《巴黎公约》第四条对优先权声明的要求提供说明和证据；<br />　　<br />　　（八）申请人因在展览会上展示商品和／或服务而希望获得由此产生的任何保护的，这种声明及缔约方法律要求提供的支持该声明的说明；<br />　　<br />　　（九）缔约方的商标主管机关使用其认为标准的字符（字母和数字）并且申请人希望以标准字符注册和公布商标的，这种声明；<br />　　<br />　　（十）申请人要求将颜色作为商标的显著特点的，此种要求声明以及要求的（诸）颜色的名称和关于该商标主要着色部分所用各颜色的说明；<br />　　<br />　　（十一）商标是立体商标的，这种声明；<br />　　<br />　　（十二）商标的一份或多份图样；<br />　　<br />　　（十三）商标本身或商标某些部分的音译；<br />　　<br />　　（十四）商标本身或商标某些部分的意译；<br />　　<br />　　（十五）申请注册的商品和／或服务的名称，按《尼斯分类》中的类别分组并按该分类的类别顺序排列，每组之前标明该组商品或服务所属的《尼斯分类》类别编号；<br />　　<br />　　（十六）第（４）款所指人员的签字；<br />　　<br />　　（十七）缔约方法律要求的关于有意使用该商标的声明。<br />　　<br />　　（ｂ）申请人不作（ａ）项第（十七）目所指关于有意使用商标的声明的，或已作此种声明的，可提交缔约方法律要求的关于实际使用商标的声明和相应证据。<br />　　<br />　　（ｃ）任何缔约方均可要求向商标主管机关缴纳申请费。<br />　　<br />　　（２）［呈交］关于呈交申请的要求，下列情况下任何缔约方不得驳回申请：<br />　　<br />　　（一）以书面提交的申请，在不违反第（３）款的前提下，所用书式相当于《实施细则》规定的申请书式的；<br />　　<br />　　（二）缔约方允许以传真向商标主管机关传送文函而申请是如此传送的，在不违反第（３）款的前提下，此种传送产生的纸质副本相当于第（一）目所指的申请。<br />　　<br />　　（３）［语文］任何缔约方均可要求申请书以商标主管机关接受的语文填写或以该机关接受的数种语文之一填写。但如商标主管机关接受数种语文，则可要求申请人按该商标主管机关所适用的对其他语文的规定办理，但不得要求申请书以一种以上语文填写。<br />　　<br />　　（４）［签字］（ａ）第（１）款（ａ）项（十六）目中提及的签字可以是申请人或其代理人的签字。<br />　　<br />　　（ｂ）虽有（ａ）项规定，但任何缔约方均可要求申请人在第（１）款（ａ）项第（十七）目和（ｂ）项所指的声明上签字，即使申请人有代理人也须如此。<br />　　<br />　　（５）［为多个类别的商品和／或服务提出的单项申请］同一份申请可涉及多个商品和／或服务，不论它们属《尼斯分类》中的一个类别或多个类别。<br />　　<br />　　（６）［实际使用］在不违反《实施细则》规定的最短时限的前提下，任何缔约方均可要求已提交第（１）款（ａ）项第（十七）目下使用意图声明的申请人，在缔约方法律规定的时限内按该法律要求向商标主管机关提供商标实际使用的证据。<br />　　<br />　　（７）［禁止的其他要求］除第（１）款至第（４）款和第（６）款所指的要求外，任何缔约方不得规定申请书必须符合其他要求。尤其不得在申请待批的过程中要求其：<br />　　<br />　　（一）提供任何商业登记簿的证明或摘录；<br />　　<br />　　（二）示明申请人正在进行工商业活动并提交相应证据；<br />　　<br />　　（三）示明申请人正在进行与申请中列出的商品和／或服务相应的一项活动并提供相应证据；<br />　　<br />　　（四）提交商标已在另一缔约方商标注册簿中注册或已在某一不属本条约缔约方的《巴黎公约》缔约国商标注册簿中注册的证据，但申请人要求《巴黎公约》第六条之五所指的申请除外。<br />　　<br />　　（８）［证据］在申请审查期间，商标主管机关对申请所含任何说明或项目的真实性产生合理怀疑时，任何缔约方均可要求向商标主管机关提供证据。<br />　　<br /><strong>　　第四条　代理；联系地址</strong><br />　　<br />　　（１）［准许操业的代理人］任何缔约方均可要求为在商标主管机关办理任何手续之目的而指定的代理人须是该机关准许操业的代理人。<br />　　<br />　　（２）［强制代理；联系地址］（ａ）任何缔约方均可要求在其领土内既无住所又无真实有效的工商营业所的任何人，为在商标主管机关办理任何手续之目的，必须有一位代理人作为其代表。<br />　　<br />　　（ｂ）任何缔约方在不要求（ａ）项所述的代理的前提下，均可要求在其领土内既无住所又无真实有效的工商营业所的任何人，为在商标主管机关办理任何手续之目的，必须具备该领土上的联系地址。<br />　　<br />　　（３）［委托书］（ａ）如缔约方允许或要求申请人、注册持有人或任何其他有关的人在商标主管机关由代理人为其代表，该缔约方可要求代理人的指定须由专项文函（下称“委托书”）为之，其中视情况载明申请人、注册持有人或其他人的名称并由其签字。<br />　　<br />　　（ｂ）委托书可涉及其指明的一项或多项申请和／或注册，也可涉及该人现有和将来的全部申请和／或注册。但委托人示明的例外情况除外。<br />　　<br />　　（ｃ）委托书可规定代理人的权力限于某些行为。任何缔约方均可要求规定代理人有权撤回申请或放弃注册的委托书必须明示此种权力。<br />　　<br />　　（ｄ）如果向商标主管机关交送文函的人在函中自称为代理人而商标主管机关在收到该文函时尚未收到必要的委托书，在不违反《实施细则》规定的最短时限的前提下，缔约方可要求将委托书在该缔约方规定的时限内交送商标主管机关。任何缔约方均可规定，如果委托书未在其规定的时限内送达商标主管机关，该人提交的文函无效。<br />　　<br />　　（ｅ）关于委托书呈交书式和内容的要求，下列情况下任何缔约方不得否认委托书的效力：<br />　　<br />　　（一）以书面提交的委托书，在不违反第（４）款的前提下，所用书式相当于《实施细则》规定的委托书书式的；<br />　　<br />　　（二）缔约方允许以传真向商标主管机关传送文函而委托书是如此传送的，在不违反第（４）款的前提下，此种传送产生的纸质副本相当于第（一）目所指的委托书。<br />　　<br />　　（４）［语文］任何缔约方均可要求委托书以商标主管机关接受的语文填写或以其接受的数种语文之一填写。<br />　　<br />　　（５）［委托书的提及］任何缔约方均可要求代理人为与商标主管机关办理手续之目的而送交该商标主管机关的任何文函中须提及代理人据以行动的委托书。<br />　　<br />　　（６）［禁止的其他要求］除了第（３）款至第（５）款所指的要求外，任何缔约方不得规定上述条款所指的事项必须符合其他要求。<br />　　<br />　　（７）［证据］商标主管机关对第（２）款至第（５）款所指任何文函所载的任何说明的真实性产生合理怀疑时，任何缔约方均可要求向商标主管机关提供证据。<br />　　<br />　<strong>　第五条　申请日期</strong><br />　　<br />　　（１）［准许的要求］（ａ）在不违反（ｂ）项和第（２）款的前提下，缔约方应将商标主管机关收到按第三条第（３）款要求的语文书写的下列说明和项目之日作为申请日期：<br />　　<br />　　（一）商标注册意图的明确或隐含表示；<br />　　<br />　　（二）能据以确定申请人身份的说明；<br />　　<br />　　（三）足以通过邮政途径与申请人或其代理人（如有）联系的说明；<br />　　<br />　　（四）一份申请注册的足够清晰的商标图样；<br />　　<br />　　（五）申请注册的商品和／或服务的清单；<br />　　<br />　　（六）在适用第三条第（１）款（ａ）项第（十七）目或（ｂ）项的情况下，第三条第（１）款（ａ）项第（十七）目所指缔约方法律规定的声明或第三条第（１）款（ｂ）项所指缔约方法律规定的声明和证据，在上述法律有要求时，申请人本人须在这些声明上签字，即使申请人有代理人也须如此。<br />　　<br />　　（ｂ）任何缔约方均可将商标主管机关收到（ａ）项所指的部分而非全部的说明和项目之日或在收到以不同于第三条第（３）款要求的语文书写的说明和项目之日作为申请日期。<br />　　<br />　　（２）［准许的附加要求］（ａ）缔约方可规定在规费缴纳之前不得确定申请日期。<br />　　<br />　　（ｂ）唯有加入本条约时已实施（ａ）项所指要求的缔约方才可适用这种要求。<br />　　<br />　　（３）［补正和时限］第（１）款和第（２）款下的补正方式和时限应在《实施细则》中确定。<br />　　<br />　　（４）［禁止的其他要求］除了第（１）款和第（２）款所指的要求外，任何缔约方不得规定申请日期必须符合其他要求。<br />　　<br />　　<strong>第六条　为多个类别的商品和／或服务提出的单项注册</strong><br />　　<br />　　属《尼斯分类》中多个类别的商品和／或服务载于同一份申请的，这种申请应按同一项注册办理。<br />　　<br />　　<strong>第七条　申请和注册的分解</strong><br />　　<br />　　（１）［申请的分解］（ａ）申报多个商品和／或服务的任何一份申请（以下称“原申请”）可以，<br />　　<br />　　（一）至少在商标主管机关对商标的注册作出决定之前，<br />　　<br />　　（二）在对商标主管机关就该商标注册的决定进行任何异议程序期间，<br />　　<br />　　（三）在对该商标注册的决定进行任何上诉程序期间，<br />　　<br />　　由申请人或经其请求分为两份或多份申请（以下称为“分申请”），分别载列原申请中申请的商品和／或服务。分申请应保留原申请的申请日期并享有优先权（如有）。<br />　　<br />　　（ｂ）任何缔约方均可在不违反（ａ）项的前提下对申请分解作出规定，包括规定须缴纳费用。<br />　　<br />　　（２）［注册的分解］第（１）款在细节上作必要修改后也适用于注册分解。这种注册分解<br />　　<br />　　（一）在第三方就注册效力向商标主管机关提出任何争议的程序期间，<br />　　<br />　　（二）在对前诉讼期间商标主管机关作出的决定进行任何上诉程序期间，应得到允许，但缔约方法律允许第三方在商标注册之前对商标的注册提出异议的，缔约方可排除注册分解的可能性。<br />　　<br />　　<strong>第八条　签字</strong><br />　　<br />　　（１）［书面文函］如发给缔约方商标主管机关的函为书面的前要求有签名，该缔约方<br />　　<br />　　（一）应在不违反第（三）目的前提下接受手书签名，<br />　　<br />　　（二）也可允许使用手书签名以外的其他形式的署名，例如印制签名或盖章签名，或使用印章，<br />　　<br />　　（三）签署文函的自然人是其国民并且其地址在其领土内的，可要求使用印章而不用手书签名，<br />　　<br />　　（四）使用印章的，可要求盖章须有使用印章的自然人的以字母标示的姓名。<br />　　<br />　　（２）［传真文函］（ａ）缔约方允许以传真向商标主管机关传送文函的，如传真纸上印出签字或印出印章及第（１）款第（四）项要求的使用印章的自然人以字母标示的姓名，应将文函视为已签名。<br />　　<br />　　（ｂ）在不违反《实施细则》规定的最短时限的前提下，（ａ）项所指的缔约方对传真传送的文件可要求在一定时限内将正文送达商标主管机关。<br />　　<br />　　（３）［以电子手段传送的文函］缔约方允许以电子手段向商标主管机关传送文函的，如文函按缔约方规定注明了以电子手段发送文函的发函者的身份，该文函应视为已签名。<br />　　<br />　　（４）［禁止要求的证书］任何缔约方不得要求对以上各款所指的任何签字或身份证明的其他方式出具证明、公证、认证、法律认可或其他证书，但缔约方法律规定签字涉及放弃注册的情况除外。<br />　　<br />　　<strong>第九条　商品和／或服务的分类</strong><br />　　<br />　　（１）［商品和／或服务的名称］商标主管机关准予的每项注册和涉及商品和／或服务的任何一项申请或注册的公告，应注明商品和／或服务的名称，按《尼斯分类》的类别分组并按该分类的类别顺序排列，每组商品或服务之前应标明该组所属的《尼斯分类》的类别编号。<br />　　<br />　　（２）［属于同一类别或属于不同类别的商品或服务］（ａ）商品或服务不一定因商标主管机关在其任何注册或公告中将它们列在《尼斯分类》的同一类别之下而视为类似。<br />　　<br />　　（ｂ）商品或服务不一定因商标主管机关在任何注册或公告中将它们列在《尼斯分类》的不同类别之下而视为不类似。<br />　　<br />　　<strong>第十条　变更名称或地址</strong><br />　　<br />　　（１）［变更注册持有人名称或地址］（ａ）注册持有人不变而其名称和／或地址变更的，每一缔约方应同意注册持有人或其代理人以其签字的文函请求商标主管机关在其商标注册簿中登记变更，文函中注明有关注册的注册号和请求变更的内容。关于申请的呈交书式，下列情况下任何缔约方不得驳回申请：<br />　　<br />　　（一）以书面提交的申请，在不违反（ｃ）项的前提下，所用书式相当于《实施细则》规定的申请书式的；<br />　　<br />　　（二）缔约方允许以传真向商标主管机关传送文函而申请是如此传送的，在不违反（ｃ）项的前提下，如此传送产生的纸质副本相当于第（一）目所指的申请的。<br />　　<br />　　（ｂ）任何缔约方均可要求在申请中表明：<br />　　<br />　　（一）注册持有人的名称和地址；<br />　　<br />　　（二）注册持有人有代理人的，该代理人的名称和地址；<br />　　<br />　　（三）注册持有人有联系地址的，其联系地址。<br />　　<br />　　（ｃ）任何缔约方均可要求申请必须以商标主管机关接受的语文书写，或以其接受的数种语文之一书写。<br />　　<br />　　（ｄ）任何缔约方均可要求向商标主管机关缴纳变更申请的费用。<br />　　<br />　　（ｅ）即使变更涉及多份注册亦仅需一份申请即可，但申请中必须注明所有有关注册的注册号。<br />　　<br />　　（２）［变更申请人的名称或地址］第（１）款在细节上作必要修改后应适用于涉及一项或多项申请的变更，或既涉及一项或多项申请又涉及一项或多项注册的变更，但如果任何有关的申请，其申请号尚未公布或申请人或其代理人尚不知悉该申请号的，变更申请中应另外按《实施细则》的规定明确该申请。<br />　　<br />　　（３）［变更代理人的名称或地址或联系地址］第（１）款在细节上作修改后应适用于代理人（如有的话）名称或地址的任何变更和联系地址（如有的话）的任何变更。<br />　　<br />　　（４）［禁止的其他要求］除第（１）款至第（３）款所指的要求外，任何缔约方不得规定本条所指的申请必须符合其他要求，尤其不得要求提交有关变更的任何证明。<br />　　<br />　　（５）［证据］商标主管机关对变更申请中所含任何说明的真实性产生合理怀疑时，任何缔约方均可要求向商标主管机关提供证据。<br />　　<br />　　<strong>第十一条　变更所有权</strong><br />　　<br />　　（１）［变更注册所有权］（ａ）注册持有人变更的，每一缔约方应同意注册持有人或其代理人或要求获得所有权的人（下称“新所有人”）或其代理人以其签字的文函请求商标主管机关在其商标注册簿中登记变更，文函中注明有关注册的注册号和请求登记的变更。关于申请的呈交书式，在下列情况下任何缔约方不得驳回申请：<br />　　<br />　　（一）以书面提交的申请，在不违反第（２）款（ａ）项的前提下，所用书式相当于《实施细则》规定的申请书式的；<br />　　<br />　　（二）缔约方允许以传真向商标主管机关传送文函，而申请是如此传送的，在不违反第（２）款（ａ）项的前提下，此种传送产生的纸质副本相当于第（一）目所指的请求的。<br />　　<br />　　（ｂ）所有权变更因合同所致的，任何缔约方均可要求在变更申请中注明此一事实并由申请方选择附送下列各项之一：<br />　　<br />　　（一）合同副本，可要求由公证部门或任何其他政府主管部门证明副本与原合同相符；<br />　　<br />　　（二）示明所有权变更的合同摘录，可要求由公证部门或任何其他政府主管部门证明摘录确系合同的真实摘录；<br />　　<br />　　（三）按《实施细则》规定的书式和内容拟就、由注册持有人和新所有人签署的不加证明的转让证书；<br />　　<br />　　（四）按《实施细则》规定的书式和内容拟就、由注册持有人和新所有人签署的不加证明的转让文件。<br />　　<br />　　（ｃ）所有权变更因合并所致的，任何缔约方均可要求在申请中注明此一事实并附送一份由主管部门颁发并证明合并的文件的副本，诸如商业登记簿摘录的副本，并且须由文件颁发部门或公证部门或任何政府主管部门证明副本与原文件相符。<br />　　<br />　　（ｄ）一个或数个而非所有共同注册持有人变更的，且此种变更为合同或合并所致的，任何缔约方均可要求任何所有权无变更的共同注册持有人在其签署的文件中明确表示同意该所有权的变更。<br />　　<br />　　（ｅ）所有权变更并非合同或合并所致而系法律实施或法院判决等其他原因所致的，任何缔约方均可要求在变更申请中注明此一事实并附送一份证明变更的文件的副本，并要求由文件颁发部门或公证部门或任何其他政府主管部门证明副本与原文件相符。<br />　　<br />　　（ｆ）任何缔约方均可要求在变更申请中注明：<br />　　<br />　　（一）注册持有人的名称和地址；<br />　　<br />　　（二）新所有人的名称和地址；<br />　　<br />　　（三）如新所有人为一国国民，该国国名；新所有人如在一国有住所，该国国名；新所有人如在一国有真实有效的工商营业所，该国国名；<br />　　<br />　　（四）新所有人为法人的，该法人的法律性质，以及该法人按其法律组成的国家及在该国之内适用的领土区域；<br />　　<br />　　（五）注册持有人有代理人的，该代理人的名称和地址；<br />　　<br />　　（六）注册持有人有联系地址的，其联系地址；<br />　　<br />　　（七）新所有人有代理人的，该代理人的名称和地址；<br />　　<br />　　（八）第四条第（２）款（ｂ）项要求新代理人须有联系地址的，其联系地址。<br />　　<br />　　（ｇ）任何缔约方均可要求向商标主管机关缴纳变更申请的费用。<br />　　<br />　　（ｈ）变更涉及数项注册的，如各项注册的注册持有人是同一人且各项注册的新所有人也是同一人并且申请中注明所有有关注册的注册号，则只提交一份申请即可。<br />　　<br />　　（ｉ）所有权变更不影响注册持有人注册中所列的所有商品和／或服务，而且适用法律允许录入此种变更的，商标主管机关应就所有权变更所涉及的那部分商品和／或服务另设一项注册。<br />　　<br />　　（２）［语文；翻译］（ａ）任何缔约方可要求第（１）款所提变更申请、转让证明或转让文件以商标主管机关接受的语文书写或以其接受的数种语文之一书写。<br />　　<br />　　（ｂ）如第（１）款（ｂ）项第（一）目和第（二）目、（ｃ）项和（ｅ）项所指文件并非以商标主管机关接受的语文或其接受的数种语文之一书写，任何缔约国可要求附送一份以商标主管机关接受的语文或其接受的数种语文之一书写的所需文件的译文或经证明的译文。<br />　　<br />　　（３）［有关申请的所有权的变更］第（１）款和第（２）款在细节上作必要修改后应适用于涉及一项或数项申请的所有权变更或既涉及一项或数项申请又涉及一项或数项注册的所有权变更，但如果任何有关申请，其申请号尚未公布或申请人或其代理人尚不知悉该申请号，变更申请中应另外按《实施细则》的规定明确该申请。<br />　　<br />　　（４）［禁止的其他要求］除第（１）款至第（３）款所指的要求外，任何缔约方不得规定本条所指的变更申请必须符合其他要求。尤其不得提出以下要求：<br />　　<br />　　（一）在不违反第（１）款（ｃ）项的前提下，提供任何商业登记簿的证明或摘录；<br />　　<br />　　（二）示明新所有人正在进行的工商业活动并提供相应证据；<br />　　<br />　　（三）示明新所有人正在进行与所有权变更所影响的商品和／或服务相应的一项活动并提供相应证据；<br />　　<br />　　（四）示明注册持有人已将其企业或与企业有关的信誉全部或部分地转让给新所有人并提供相应证据。<br />　　<br />　　（５）［证据］商标主管机关对变更申请或本条所指的任何文件所载的任何说明的真实性产生合理怀疑时，任何缔约方均可要求向其商标主管机关提供证据，或在适用第（１）款（ｃ）项或（ｅ）项时提供进一步证据。<br />　　<br />　　<strong>第十二条　更正错误</strong><br />　　<br />　　（１）［更正注册中的错误］（ａ）每一缔约方应同意注册持有人或其代理人以其签字的文函请求更正其传送给商标主管机关的申请或其他请求中的错误以及反映在商标主管机关商标注册簿和／或任何公告中的错误。文函中注明有关的注册号、需更正的错误和需作的更正。关于更正请求的呈交书式，下列情况下任何缔约方不得驳回请求：<br />　　<br />　　（一）以书面提交的更正请求，在不违反（ｃ）项的前提下，所用书式相当于《实施细则》规定的书式的；<br />　　<br />　　（二）缔约方允许以传真向商标主管机关传送文函而请求是如此传送的，在不违反（ｃ）项的前提下，如此传送产生的纸质副本相当于第（一）目所指的请求的。<br />　　<br />　　（ｂ）任何缔约方均可要求在请求中表明：<br />　　<br />　　（一）注册持有人的名称和地址；<br />　　<br />　　（二）注册持有人有代理人的，该代理人的名称和地址；<br />　　<br />　　（三）注册持有人有联系地址的，其联系地址。<br />　　<br />　　（ｃ）任何缔约方均可要求请求以其商标主管机关接受的语文书写，或以其接受的数种语文之一书写。<br />　　<br />　　（ｄ）任何缔约方均可要求向其商标主管机关缴纳更正请求的费用。<br />　　<br />　　（ｅ）更正涉及同一人的数项注册的，如各项注册的错误相同，须作的更正也相同而且请求中注明了所有有关注册的注册号，则只提交一份请求即可。<br />　　<br />　　（２）［更正申请中的错误］第（１）款在细节上作必要修改后，应适用于涉及一项或数项申请中的错误或适用于一项或数项申请及一项或数项注册中的错误，但如果任何有关的申请，其申请号尚未公布或申请人或其代理人尚不知悉该申请号，更正请求中应另外按《实施细则》的规定明确该申请。<br />　　<br />　　［续第十二条］<br />　　<br />　　（３）［禁止的其他要求］除第（１）款和第（２）款所指的要求外，任何缔约方不得要求本条所指的请求必须符合其他要求。<br />　　<br />　　（４）［证据］商标主管机关对所称须更正的错误是否确系错误产生合理怀疑的，任何缔约方均可要求向其商标主管机关提供证据。<br />　　<br />　　（５）［商标主管机关的错误］缔约方商标主管机关在其职权范围内改正本机关的错误，或被要求改正其错误时，不收任何费用。<br />　　<br />　　（６）［无法更正的情况］任何缔约方均无义务对其法律无法纠正的错误适用第（１）款、第（２）款和第（５）款。<br />　　<br />　　<strong>第十三条　注册期限及续展</strong><br />　　<br />　　（１）［续展申请所载或所附的说明或项目；收费］（ａ）任何缔约方均可要求注册的续展须以提交申请为前提并且申请中须注明下列某些或全部项目：<br />　　<br />　　（一）要求续展的表示；<br />　　<br />　　（二）注册持有人的名称和地址；<br />　　<br />　　（三）有关注册的注册号；<br />　　<br />　　（四）缔约方选定的、有关注册的申请日期或有关注册的注册日期；<br />　　<br />　　（五）注册持有人有代理人的，该代理人的名称和地址；<br />　　<br />　　（六）注册持有人有联系地址的，其联系地址；<br />　　<br />　　（七）缔约方允许对商标注册簿中登记的某些商品和／或服务的注册办理续展而且有些种续展申请提出的，申请续展的记录在案的商品和／或服务的名称或未申请续展的记录在案的商品和／或服务的名称，按《尼斯分类》的类别分组并按该分类的类别顺序排列，每组商品或服务之前应标明该组所属的《尼斯分类》的类别编号；<br />　　<br />　　（八）缔约方允许注册持有人或其代理人以外的其他人员对续展提出申请的，该人的姓名和地址；<br />　　<br />　　（九）注册持有人或其代理人的签字，适用上述第（八）目规定的，应提交该目所指人员的签字。<br />　　<br />　　（ｂ）任何缔约方均可要求向其商标主管机关缴纳请求续展的费用。一旦首次注册期或任何续展期的注册费用已支付，不得要求就上述期限再支付维持注册的费用。就本项之目的，与提供声明和／或使用证据有关的费用不视为是要求支付维持注册的费用，因而不受本项的影响。<br />　　<br />　　（ｃ）在不违反《实施细则》规定的最短时限的情况下，任何缔约方均可要求在缔约方法律规定的时限内向商标主管机关提交续展申请，并交付（ｂ）项所指的相应费用。<br />　　<br />　　（２）［呈交］关于续展申请呈交格式，下列情况下任何缔约方均不得驳回申请：<br />　　<br />　　（一）以书面提交的申请，在不违反第（３）款的前提下，所用格式相当于《实施细则》规定的申请格式的；<br />　　<br />　　（二）缔约方允许以传真向商标主管机关传送文函，而申请亦是如此传送的，在不违反第（３）款的前提下，如此传送产生的纸质副本相当于第（一）目所指的申请的。<br />　　<br />　　（３）［语文］任何缔约方均可要求续展申请以商标主管机关接受的语文书写，或以其接受的数种语文之一书写。<br />　　<br />　　（４）［禁止的其他要求］除第（１）款至第（３）款所指的要求外，任何缔约方不得规定续展申请必须符合其他要求。尤其不得提出以下要求：<br />　　<br />　　（一）提供任何商标图样或其他相当于商标的物品；<br />　　<br />　　（二）提供证据，证明在另一缔约方商标注册簿中该商标已注册或其注册已续展；<br />　　<br />　　（三）提供关于商标使用的声明和／或证据。<br />　　<br />　　（５）［证据］商标主管机关对续展申请所载任何说明或项目的真实性产生合理怀疑时，任何缔约方均可要求向商标主管机关提供证据。<br />　　<br />　　（６）［禁止实质性审查］任何缔约方不得为实施续展而就注册进行实质审查。<br />　　<br />　　（７）［有效期］首次注册有效期和每期续展的有效期均为１０年。<br />　　<br />　　<strong>第十四条　拟驳回情况下的意见表达</strong><br />　　<br />　　商标主管机关如未给予申请人或请求方在合理时限内就其拟议驳回发表意见的机会，一律不得完全或部分地驳回第十一条至第十三条之下的申请或请求。<br />　　<br />　　<strong>第十五条　遵守《巴黎公约》的义务</strong><br />　　<br />　　任何缔约方均应遵守《巴黎公约》中有关商标的条款。<br />　　<br />　　<strong>第十六条　服务商标</strong><br />　　<br />　　各缔约方应对服务商标进行注册并适用《巴黎公约》中有关商标的各款。<br />　　<br />　　<strong>第十七条　实施细则</strong><br />　　<br />　　（１）［内容］（ａ）本条约所附《实施细则》提供与下列各项有关的规则：<br />　　<br />　　（一）本条约明确定为“《实施细则》规定的”事项；<br />　　<br />　　（二）任何有助于实施本条约条款的细节；<br />　　<br />　　（三）任何行政要求、事项或程序。<br />　　<br />　　（ｂ）《实施细则》还包括“国际书式范本”。<br />　　<br />　　（２）［《条约》与《实施细则》的抵触］如本条约条款与《实施细则》条款发生抵触，应以前者为准。<br />　　<br />　　<strong>第十八条　修订；议定书<br />　　</strong><br />　　（１）［修订］本条约可由外交会议修订。<br />　　<br />　　（２）［议定书］为进一步协调商标法，可由外交会议通过议定书，但前提是议定书不与本条约的规定相抵触。<br />　　<br />　<strong>　第十九条　成为本条约缔约方的条件</strong><br />　　<br />　　（１）［资格］下列实体可签署本条约并在不违反第（２）款、第（３）款和第二十条第（１）和（３）款的前提下可成为本条约缔约方：<br />　　<br />　　（一）可在其商标主管机关注册商标的任何本组织成员国；<br />　　<br />　　（二）设有商标主管机关、且可在适用政府间组织的现有条约的领土范围内或在所有成员国内或在有关申请中指定的成员国内进行商标有效注册的任何政府间组织，前提是政府间组织的所有成员国也必须是本组织成员；<br />　　<br />　　（三）唯有通过另一指定的本组织成员国商标主管机关方能注册商标的任何本组织成员国；<br />　　<br />　　（四）唯有通过本身为成员的政府间组织所设商标主管机关才能注册商标的任何本组织成员国；<br />　　<br />　　（五）唯有通过本组织一组成员国共设的商标主管机关才能进行商标注册的任何本组织成员国。<br />　　<br />　　（２）［批准或加入］第（１）款所指任何实体均可交存：<br />　　<br />　　（一）批准书，指已签署本条约的，<br />　　<br />　　（二）加入书，指未签署本条约的。<br />　　<br />　　（３）［交存的有效日期］（ａ）在不违反（ｂ）项的前提下，批准书或加入书的交存有效日期：<br />　　<br />　　（一）对于第（１）款第（一）项所指的国家，为该国交存文书之日；<br />　　<br />　　（二）对于政府间组织，为该政府间组织的文书交存之日；<br />　　<br />　　（三）对于第（１）款第（三）项所指的国家，为符合下列条件之日：该国的文书已交存而且另一指定国家的文书也已交存；<br />　　<br />　　（四）对于第（１）款第（四）项所指的国家，应适用上述第（二）项所指的日期；<br />　　<br />　　（五）对于第（１）款第（五）项所指的属一组国家之一的成员国，为该组所有成员国均已交存文书日。<br />　　<br />　　（ｂ）一国的任何批准书或加入书（本项称“文书”）可附带一项声明，提出其文书是否可视为已交存须以下述情况为条件：指明名称并符合本条约缔约方资格的另一国或一政府间组织的文书或另两国的文书或另一国和一政府间组织的文书也已交存。含此种声明的文书应于声明中的条件达到之日视为已交存。但是，交存声明所指任何文件本身附有同类声明时，该文书应于后一声明中的条件达到之日视为已交存。<br />　　<br />　　（ｃ）按照（ｂ）项作出的声明可随时全部或部分地撤回。任何此种撤回应于总干事收到撤回通知之日起发生效力。<br />　　<br />　　<strong>第二十条　批准和加入的有效日期</strong><br />　　<br />　　（１）［须考虑的文书］为本条之目的，仅考虑第十九条第（１）款所指实体交存的、具备按第十九条第（３）款规定注明有效日期的批准书或加入书。<br />　　<br />　　（２）［条约的生效］本条约应于五个国家递交批准书或加入书三个月之后生效。<br />　　<br />　　（３）［条约生效之后所作批准和加入的生效］第（２）款范围之外的实体应自其交存批准书或加入书之日起三个月之后受本条约约束。<br />　　<br />　　<strong>第二十一条　保留</strong><br />　　<br />　　（１）［特种商标］任何国家或政府间组织均可以提出保留的方式声明，尽管有第二条第（１）款（ａ）项和第（２）款（ａ）项的规定，但对于联合商标、防御商标或衍生商标不适用第三条第（１）款和第（２）款、第五条、第七条、第十一条和第十三条的任何规定。但该保留中应注明上述与保留有关的规定。<br />　　<br />　　（２）［保留形式］第（１）款所提的保留应在有关提出该保留的国家或政府间组织批准或加入本条约的文书所附的声明中提出。<br />　　<br />　　（３）［保留的撤回］依据第（１）款所提保留可随时撤回。<br />　　<br />　　（４）［禁止其他保留］除第（１）款所述允许的保留外，不得对本条约提出任何其他保留。<br />　　<br />　　<strong>第二十二条　过渡性条款</strong><br />　　<br />　　（１）［为多个类别的商品和服务提出的单项申请］（ａ）任何国家或政府间组织均可声明，尽管有第三条第（５）款的规定，但向商标主管机关提交一项申请仅能涉及属《尼斯分类》同一类别的商品或服务。<br />　　<br />　　（ｂ）任何国家或政府间组织可声明，尽管有第六条的规定，如属《尼斯分类》多个类别的商品和／或服务载于同一份申请，以这样一份申请所作的注册商标注册簿中应当列为两项或多项注册，但前提是每一项这种注册均应有参考标志，标明其与由同一申请分出的所有其他此种注册的关系。<br />　　<br />　　（ｃ）依据上述（ａ）项提出保留声明的任何国家和政府间组织均可声明，尽管有第七条第（１）款的规定，申请可以不分解。<br />　　<br />　　（２）［为一项以上的申请和／或注册提交一份委托书］任何国家或政府间组织均可声明，尽管有第四条第（３）款（ｂ）项的规定，但一份委托书仅能涉及一项申请或一项注册。<br />　　<br />　　（３）［禁止要求证明委托书签名和申请书签名］任何国家或政府间组织均可声明，尽管有第八条第（４）款的规定，仍可要求对委托书的签字或申请人在申请书上的签字出具证明、公证、认证、法律认可或其他证明。<br />　　<br />　　（４）［为一项以上申请和／或注册变更名称和／或地址、变更所有权或错误的更正提出的单项申请或请求］任何国家或政府间组织均可声明，尽管有第十条第（１）款（ｅ）项和第（２）、（３）款、第十一条第（１）款（ｈ）项和第（３）款和第十二条第（１）款（ｅ）项和第（２）款的规定，一项名称和／或地址的变更登记申请、一项所有权变更登记申请和一项错误更正请求仅能涉及一项申请或一项注册。<br />　　<br />　　（５）［续展时呈交使用声明和／或证据］任何国家或政府间组织均可声明，尽管有第十三条第（４）款第（三）项的规定，续展时仍需提供有关使用商标的声明和／或证据。<br />　　<br />　　（６）［续展时的实质性审查］任何国家或政府间组织均可声明，尽管有第十三条第（６）款的规定，但在首次续展服务商标注册时，可对该注册进行实质性审查，并审查其注册的可能性，前提是审查应限于排除因本条约生效前该国或该组织规定可注册服务商标的法律生效后六个月期间提交的申请所致的多重注册。<br />　　<br />　　（７）［共同条款］（ａ）仅在下列情况下，一国或一政府间组织才可做第（１）款至第（６）款之下的声明，即：在其交存加入本条约的批准书或加入书时，如不作此种声明，继续适用其法律将会违反本条约的有关规定。<br />　　<br />　　（ｂ）依据第（１）款至第（６）款所作的声明应与提出该声明的国家或政府间组织批准或加入本条约的文书一同附送。<br />　　<br />　　（ｃ）依据第（１）款至第（６）款所作的声明可随时撤回。<br />　　<br />　　（８）［（保留）声明失效］（ａ）在不违反下述（ｃ）项规定的情况下，依据第（１）至第（６）款所作的任何（保留）声明，如是由按联合国大会的惯例被视为发展中国家，或成员国均是发展中国家的政府间组织所提出，该声明将于本条约生效之日起第八年底失效。<br />　　<br />　　（ｂ）依据第（１）至第（６）款所作的任何（保留）声明，如是非上述（ａ）项中所提到的国家或政府间组织提出，该声明将于本条约生效之日起第六年底失效。<br />　　<br />　　（ｃ）如果依据第（１）至第（６）款所作的（保留）声明未按第（７）款（ｃ）项规定撤回，或未按上述（ａ）或（ｂ）项规定于２００４年１０月２８日以前失效，该声明亦于２００４年１０月２８日失效。<br />　　<br />　　（９）［成为本条约缔约方的条件］在本条约通过之日属保护工业产权国际（巴黎）联盟成员但不是本组织成员的任何国家，在１９９９年１２月３１日之前，尽管有第十九条第（１）款第（一）项的规定，只要其商标主管机关可进行商标注册，均可成为本条约缔约方。<br />　　<br />　　<strong>第二十三条　退约</strong><br />　　<br />　　（１）［通知］任何缔约方均可退出本条约，退约应通知总干事。<br />　　<br />　　（２）［有效日期］退约于总干事收到通知之日起一年后发生效力。退约不影响本条约对该一年期结束时涉及退约缔约方任何未决申请或任何注册商标的适用，但退约缔约方可在该一年期结束后对一项注册自其到期需续展之日起停止适用本条约。<br />　　<br />　　<strong>第二十四条　本条约的语文；签署</strong><br />　　<br />　　（１）［原件；正式文本］（ａ）本条约签字原件应为一份，其英文、阿拉伯文、中文、法文、俄文和西班牙文各文本具有同等效力。<br />　　<br />　　（ｂ）应某一缔约方要求，非上述（ａ）项提及的语文，但属该缔约方官方语文的正式文本将由总干事与该缔约方及其他当事缔约方协商后拟定。<br />　　<br />　　（２）［签署时限］本条约应于通过后一年内在本组织总部开放以供签署。<br />　　<br />　　<strong>第二十五条　保存人</strong><br />　　<br />　　总干事为本条约保存人。<div style="TEXT-ALIGN: center"></div>          </div>
+          <!-- <div class="csw_content_text_6">
+            <b>标签：</b>
+            <a href="/e/tags/?tagname=跨境电商网站推广">跨境电商网站推广</a>
+            <a href="/e/tags/?tagname=微软Bing搜索">微软Bing搜索</a>
+            <a href="/e/tags/?tagname=晋江跨境电商峰会">晋江跨境电商峰会</a>
+            </div> -->
+          <div class="share01">
+          <span>分享到：</span>
+              <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+                </div>
+                     <div class="page_up">
+            <p> 上一篇： <a href="/article/index/aid/205.html">专利合作条约</a> </p>
+            <p> 下一篇： <a href="/article/index/aid/221.html">保护文学艺术作品伯尔尼公约（1992）</a> </p>
+          </div>
+          		<!-- <div class="xg_read">
+      		<div class="read_title">相关阅读</div>
+            <div class="read_list">
+	            <ul>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+	            </ul>
+            </div>
+      </div> -->
+        </div>
+    </div></div>	
+	<div class="clear"></div>
+<footer>
+    <div class="footer_box">
+        <select name="select1" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----国家部委-----</option>
+            <option value="http://www.fmprc.gov.cn/chn/">外交部</option>
+            <option value="http://www.sdpc.gov.cn/">国家发展和改革委员会</option>
+            <option value="http://www.moe.edu.cn">教育部</option>
+            <option value="http://www.most.gov.cn/">科学技术部</option>
+            <option value="http://www.seac.gov.cn/">国家民族事务委员会</option>
+            <option value="http://www.mps.gov.cn">公安部</option>
+            <option value="http://www.mca.gov.cn">民政部</option>
+            <option value="http://www.mof.gov.cn">财政部</option>
+            <option value="http://www.mlr.gov.cn">国土资源部</option>
+            <option value="http://www.mohurd.gov.cn/ ">建设部</option>
+            <option value="http://www.moc.gov.cn/">交通运输部</option>
+            <option value="http://www.miit.gov.cn/n11293472/index.html">工信部</option>
+            <option value="http://www.agri.gov.cn">农业部</option>
+            <option value="http://www.mwr.gov.cn">水利部</option>
+            <option value="http://www.mofcom.gov.cn/">商务部</option>
+            <option value="http://www.nhfpc.gov.cn/">卫计委</option>
+            <option value="http://www.mcprc.gov.cn/">文化部</option>
+            <option value="http://gwzs.my.gov.cn/">劳动和社会保障部</option>
+            <option value="http://www.pbc.gov.cn/">中国人民银行</option>
+            <option value="http://www.soa.gov.cn/ ">国家海洋局</option>
+            <option value="http://www.tobacco.gov.cn/">国家烟草专卖局</option>
+            <option value="http://www.chinapost.gov.cn/">国家邮政局</option>
+            <option value="http://www.nach.gov.cn/">国家文物局</option>
+            <option value="http://www.chinasafety.gov.cn/">国家海洋局</option>
+            <option value="http://www.chinasafety.gov.cn/newpage/">国家安全生产监督管理局</option>
+            <option value="http://www.aqsiq.gov.cn/">国家质量监督检验检疫总局</option>
+            <option value="http://www.safe.gov.cn/">国家外汇管理局</option>
+            <option value="http://www.chinagrain.gov.cn/">国家粮食局</option>
+            <option value="http://www.safea.gov.cn/">国家外国专家局</option>
+            <option value="http://www.satcm.gov.cn/">国家中医药管理局</option>
+            <option value="http://www.customs.gov.cn/">海关总署</option>
+            <option value="http://www.caac.gov.cn/">中国民用航空总局</option>
+            <option value="http://www.stats.gov.cn/">国家统计局</option>
+            <option value="http://www.chinatax.gov.cn/">国家税务总局</option>
+            <option value="http://www.zhb.gov.cn/">国家环境保护总局</option>
+            <option value="http://www.chinasarft.gov.cn/index.html">国家广播电影电视总局</option>
+            <option value="http://www.sport.gov.cn/">国家体育总局</option>
+            <option value="http://www.saic.gov.cn/">国家工商行政管理局</option>
+            <option value="http://www.cpo.cn.net/">国家知识产权局</option>
+            <option value="http://www.cnta.com/">国家旅游局</option>
+            <option value="http://www.sfda.gov.cn/WS01/CL0001/">国家粮食药品监督管理局</option>
+            <option value="http://www.cma.gov.cn/">中国气象局</option>
+            <option value="http://www.cbrc.gov.cn/index.html">中国银行业监督委员会</option>
+            <option value="http://www.idcpc.org.cn/index_zhongwen.htm">中共中央对外联络部</option>
+        </select>
+        <select name="select2" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----省直机关-----</option>
+            <option value="http://www.fujian.gov.cn/">福建省人民政府</option>
+            <option value="http://www.fjdpc.gov.cn/">省发改委</option>
+            <option value="http://www.fjetc.gov.cn/">省经信委</option>
+            <option value="http://www.fjhfpc.gov.cn/">省卫计委</option>
+            <option value="http://www.fjedu.gov.cn/html/index.html">省教育厅</option>
+            <option value="http://www.fjkjt.gov.cn/">省科技厅</option>
+            <option value="http://www.fjmzzj.gov.cn/">省民族宗教厅</option>
+            <option value="http://www.fjgat.gov.cn/">省公安厅</option>
+            <option value="http://www.fjcdi.gov.cn/">省监察厅</option>
+            <option value="http://www.fjsmzt.gov.cn/">省民政厅</option>
+            <option value="http://www.fjsf.gov.cn/">省司法厅</option>
+            <option value="http://www.fjcz.gov.cn/">省财政厅</option>
+            <option value="http://www.fjrs.gov.cn">省人社厅</option>
+            <option value="http://www.fjgtzy.gov.cn/">省国土厅</option>
+            <option value="http://www.fjepb.gov.cn/">省环保厅</option>
+            <option value="http://www.fjjs.gov.cn/">省住建厅</option>
+            <option value="http://www.fjjt.gov.cn/">省交通运输厅</option>
+            <option value="http://www.fjagri.gov.cn/html/">省农业厅</option>
+            <option value="http://www.fjforestry.gov.cn/">省林业厅</option>
+            <option value="http://www.fjwater.gov.cn/">省水利厅</option>
+            <option value="http://www.fjof.gov.cn/">省海洋渔业厅</option>
+            <option value="http://www.fiet.gov.cn/">省商务厅</option>
+            <option value="http://www.fjwh.gov.cn/">省文化厅</option>
+            <option value="http://www.fjaudit.gov.cn/">省审计厅</option>
+            <option value="http://www.fjfao.gov.cn/">省外办</option>
+            <option value="http://www.fjgzw.gov.cn/">省国资委</option>
+            <option value="http://www.fj-l-tax.gov.cn">省地税局</option>
+            <option value="http://www.fjaic.gov.cn/">省工商局</option>
+            <option value="http://www.fjqi.gov.cn/">省质监局</option>
+            <option value="http://www.fjxwgd.gov.cn/">省新闻出版广电局</option>
+            <option value="http://www.fjty.gov.cn/">省体育局</option>
+            <option value="http://www.fjsafety.gov.cn/">省安监局</option>
+            <option value="http://www.fjfda.gov.cn/">省食品药品监管局</option>
+            <option value="http://www.stats-fj.gov.cn/">省统计局</option>
+            <option value="http://www.fjta.gov.cn/">省旅游局</option>
+            <option value="http://www.fjgrain.gov.cn/">省粮食局</option>
+            <option value="http://www.fjjg.gov.cn/fjwjj/index.htm">省物价局</option>
+            <option value="http://www.fjqw.gov.cn/">省侨办</option>
+            <option value="http://www.fjrf.gov.cn/">省人防办</option>
+            <option value="http://www.fjfzb.gov.cn/">省法制办</option>
+            <option value="http://www.fjjghq.gov.cn/">省机关事务管理局</option>
+            <option value="http://www.fujian.gov.cn/fw/bmxxcx/wzdh/sydbwzdh/szfbm/201402/t20140210_697591.htm">省金融办</option>
+            <option value="http://www.fujian.gov.cn/fw/bmxxcx/wzdh/sydbwzdh/szfbm/201212/t20121203_550109.htm">省监狱局</option>
+            <option value="http://gwy.fjrs.gov.cn/">省公务员局</option>
+        </select>
+        <select name="select3" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----兄弟自贸区-----</option>
+            <option value="http://www.china-shftz.gov.cn/">中国（上海）自由贸易试验区</option>
+            <option value="http://www.china-gdftz.gov.cn/">中国（广东）自由贸易试验区</option>
+            <option value="http://www.china-tjftz.gov.cn/">中国（天津）自由贸易试验区</option>
+            <option value="http://www.china-zjftz.gov.cn/">中国（浙江）自由贸易试验区</option>
+            <option value="http://www.china-hnftz.gov.cn/">中国（河南）自由贸易试验区</option>
+			<option value="http://www.shaanxiftz.gov.cn/">中国（陕西）自由贸易试验区</option>
+        </select>
+        <select name="select4" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----其他-----</option>
+
+        </select>
+    </div>
+    <div class="gb_footer">
+        <ul>
+            <a href="/index/sitemap.html">站点地图</a> | <a href="/article/index/aid/428.html">使用帮助</a> | <a href="/article/index/aid/430.html">联系我们</a> | <a href="/article/index/aid/429.html">法律声明</a> | <a href="javascript:SetHome(window.location);">设为首页</a> | <a href="javascript:AddFavorite(window.location,document.title);">收藏本站</a>
+        </ul>
+    </div>
+    <div class="gb_bottom">
+        <p>您好，欢迎访问本网站！您是本网站的第10354823位访问者</p>
+        <p>主办：福建自贸试验区工作领导小组办公室</p>
+        <p>版权所有：福建省商务厅 闽ICP备14009608号-3</p>
+        <p>技术支持：<a href="http://www.ec.com.cn/" target="_blank">CIECC</a> <a target="_blank" href="http://www.rsnet.com.cn/">润商网络</a></p>
+    </div>
+</footer>
+<script type="text/javascript">
+    function AddFavorite(sURL, sTitle) {
+        sURL = encodeURI(sURL);
+        try{
+
+            window.external.addFavorite(sURL, sTitle);
+
+        }catch(e) {
+            try{
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+            }
+        }
+    }
+    function SetHome(url){
+        if (document.all) {
+            document.body.style.behavior='url(#default#homepage)';
+            document.body.setHomePage(url);
+        }else{
+            alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+        }
+    }
+</script><script type="text/javascript">
+$(function(){
+	$('.hm-t-go-top').hide();
+	$(window).scroll(function() {		
+		//if($(window).scrollTop() >= 300){
+		h = $(window).height();
+		t = $(document).scrollTop();
+		if(t > h*2){
+			//$('.hm-t-go-top').fadeIn(300); 
+			$('.hm-t-go-top').show();
+		}else{    
+			//$('.hm-t-go-top').fadeOut(300);
+			$('.hm-t-go-top').hide();
+		}  
+	});
+	$('.hm-t-go-top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});	
+});
+</script>
+<div id="hm_t_undefined" class="hm-t-container">
+	<div class="hm-t-go-top" style="display: block; background-color: rgb(102, 102, 102); background-position: -42px 50%;"></div>
+</div>
+</body>
+</html>

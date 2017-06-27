@@ -1,0 +1,25 @@
+Set-Cookie: stopMobileRedirect=true; expires=Thu, 27-Jul-2017 13:48:36 GMT; Max-Age=2592000; path=/; domain=.wikipedia.org; httponly
+Server: mw1270.eqiad.wmnet
+X-Analytics: ns=10;page_id=1337475;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 537340557, 82600750, 505646938, 650237684
+X-Cache-Status: pass
+Accept-Ranges: bytes
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Vary: Accept-Encoding,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+X-Ua-Compatible: IE=Edge
+Age: 0
+X-Cache: cp1065 pass, cp2001 pass, cp4008 pass, cp4010 pass
+Backend-Timing: D=285979 t=1498571315962287
+Content-Language: fr
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+P3P: CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P for more info."
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sun, 18 Jun 2017 22:23:11 GMT
+Content-Encoding: gzip
+Link: </static/images/project-logos/frwiki.png>;rel=preload;as=image;media=not all and (min-resolution: 1.5dppx),</static/images/project-logos/frwiki-1.5x.png>;rel=preload;as=image;media=(min-resolution: 1.5dppx) and (max-resolution: 1.999999dppx),</static/images/project-logos/frwiki-2x.png>;rel=preload;as=image;media=(min-resolution: 2dppx)
+Date: Tue, 27 Jun 2017 13:48:36 GMT

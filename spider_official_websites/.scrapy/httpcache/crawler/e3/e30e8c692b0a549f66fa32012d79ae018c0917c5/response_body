@@ -1,0 +1,156 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0041)http://www.hhhtwl110.com/public/index.php -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>兰州市网站备案系统</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=keywords content=兰州市网监备案,兰州市网监,兰州备案,兰州市网站信息管理系统,兰州市公安局网络安全保卫支队>
+<META name=description content=兰州市网监备案系统><LINK rel=stylesheet type=text/css 
+href="../css/css.css"><LINK rel=stylesheet 
+type=text/css href="../css/form.css">
+<META name=GENERATOR content="MSHTML 8.00.7601.18129"></HEAD>
+<BODY>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=1010 align=center>
+  <TBODY>
+  <TR>
+    <TD><IMG src="../images/head.jpg" 
+      width=1010 height=97></TD></TR>
+  <TR>
+    <TD height=36 vAlign=center 
+    background=../images/nav_bg.gif 
+align=left>
+      <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=nav width="11%" align=middle><A 
+            href="../index.jsp">首页</A></TD>
+          <TD class=nav width="11%" align=middle><A 
+            href="../show/client.MIcp.do?t=0">公告</A></TD>
+          <TD class=nav width="11%" align=middle><A 
+            href="../show/client.MIcp.do?t=1">法律法规</A></TD>
+            <TD class=nav width="11%" align=middle><A 
+            href="../down/client.MIcp.do">相关下载</A></TD>
+          <TD class=nav width="11%" align=middle><A 
+            href="../search/client.MIcp.do">备案查询</A></TD>
+          <TD class=nav width="11%" align=middle><A 
+            href="../getcode/client.MIcp.do">获取代码</A></TD>
+          <TD class=nav width="11%" align=middle><A 
+            href="../register/client.MIcp.do">网上备案</A></TD>
+             <TD class=nav width="11%" align=middle><A 
+            href="../liu/client.MIcp.do">备案流程</A></TD>
+            </TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD  height=6 vAlign=center 
+    background=../images/main_top.gif 
+    align=left></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=1010 align=center>
+  <TBODY>
+  <TR>
+    <TD class=main align=middle width=1000  >
+    
+  <table width="1010" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top" bgcolor="#FFFFFF" class="main"><table width="95%" border="0" cellspacing="0" cellpadding="0" style="margin-left:20px">
+      <tr>
+        <td height="30" align="center" valign="middle" style="font-size:14px;"><strong>《公安部关于对与国际联网的计算机信息系统进行备案工作的通知》</strong></td>
+      </tr>
+      <tr>
+        <td height="25" align="center" valign="middle" style="line-height:150%">发布日期：<strong>2013-07-25</strong></td>
+      </tr>
+      <tr>
+        <td height="50" align="left" valign="top" style="line-height:150%"><p><b>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" valign="top" >公安部关于对与国际联网的计算机信息系统进
+行备案工作的通知
+ 
+
+
+
+　　【颁布单位】 公安部 
+
+　　【颁布日期】 19960129 
+
+　　【实施日期】 19960129 
+
+　　【章名】 通知 
+
+　　各省、自治区、直辖市公安厅、局： 
+
+　　为了促进我国在经济、教育、科学和文化等方面与国际间的交流，推
+动我国信息产业、信息服务业的进一步发展，加强对与国际联网的计算机
+信息系统的安全管理，根据《中华人民共和国计算机信息系统安全保护条
+例》的规定，现就与国际联网的计算机信息系统开展备案工作有关问题通
+知如下： 
+
+　　一、备案范围 
+
+　　凡是在中华人民共和国境内，通过物理通信信道直接或者间接与境外
+(含港、澳、台地区)的计算机信息系统进行联网的计算机信息系统的使用
+单位和个人均应当登记备案。 
+
+　　二、备案时间 
+
+　　与国际联网的计算机信息系统的使用单位和个人，应当在网络正式联
+通后的三十日内，到所在地的省、自治区、直辖市人民政府公安机关指定
+的地(市)级或者县(市)级人民政府公安机关办理备案手续。 
+
+　　已经与国际联网的计算机信息系统，其使用单位和个人应当在本通知
+公布之日起三十日内，到所在地(市)级或者县(市)级人民政府公安机关补
+办备案手续。 
+
+　　与国际联网的计算机信息系统的使用单位和个人的联网方式变更或者
+终止联网时，应当在三十日内通知所在地(市)级或者县(市)级人民政府公
+安机关。 
+
+　　三、备案办理机关 
+
+　　备案办理机关原则上为县(市)级人民政府公安机关，尚无能力承担这
+项工作的，可以在地(市)级人民政府公安机关办理。 
+
+　　各省、自治区、直辖市公安厅、局可以根据具体情况确定办理备案手
+续的机构。 
+
+　　四、备案程序 
+
+　　与国际联网的计算机信息系统的使用单位需凭单位介绍信(个人需凭本
+人有效证件)和批准入网文件办理备案手续(使用单位还应附上国际联网终
+端用户名单)，填写备案表格一式三份。备案表按公安部统一式样，由各省
+自行印制。 
+
+　　备案办理机关应当在受理之日起七日内将用户填好的备案表格一式三
+份报省级人民政府公安机关备案，并在封页加盖办理机关印章。 
+
+　　省级人民政府公安机关应当在收到备案表之日起七日内，在备案表上
+加盖省级人民政府公安机关的印章，并将其中两份备案表退还办理机关，
+另一份备案表由省级人民政府公安机关留存。 
+
+　　五、法律责任 
+
+　　有关使用单位和个人不按规定办理备案登记手续的，由县(市)以上人
+民政府公安机关依照《中华人民共和国计算机信息系统安全保护条例》予
+以处罚。处罚裁决书等法律文书，由县(市)以上人民政府公安机关按公安
+部统一的式样自行印制。 
+
+　　本通知有关内容，各省、自治区、直辖市公安厅、局应当以适当形式
+向社会公布。备案工作中出现的情况和问题，请及时报部。 
+
+　　附件：中华人民共和国计算机信息系统国际联网备案表(略)</td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+    </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=1010 align=center>
+  <TBODY>
+  <TR>
+   
+    <TD class=nav  
+    background=../images/footer_bg.gif 
+    width=100% height=108 align=center>版权所有：兰州市公安局网络安全保卫支队
+      <BR>技术支持：<A href="###" 
+  target=_blank>北京汉唐世纪科技有限公司</A></TD></TR></TBODY></TABLE></BODY></HTML>

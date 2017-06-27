@@ -1,0 +1,9 @@
+Via: 1.1 vegur
+Content-Security-Policy: default-src * wss://*.zopim.com 'unsafe-inline' 'unsafe-eval'; frame-ancestors 'self' app.optimizely.com;
+Location: https://www.zendesk.com/company/customers-partners/privacy-policy
+Content-Type: text/html
+Date: Tue, 27 Jun 2017 13:45:59 GMT
+Server: cloudflare-nginx
+Vary: Accept-Encoding
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 3758d990d8620d85-SJC

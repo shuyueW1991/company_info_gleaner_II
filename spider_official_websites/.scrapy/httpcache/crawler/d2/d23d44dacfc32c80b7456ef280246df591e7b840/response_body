@@ -1,0 +1,129 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon" /><!-- 小图标 -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>全国公安机关互联网站安全服务平台</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+	<link href="/css/css.css" rel="stylesheet" media="screen">
+	<link href="/css/css2.css" rel="stylesheet" media="screen">
+	 <!-- 表单验证 -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/custom/milk.css"> 
+	<script src="/js/jquery-validation-1.13.1/lib/jquery.mockjax.js"></script>
+	<script src="/js/jquery-validation-1.13.1/dist/jquery.validate.js"></script>
+	<script type="text/javascript" src="/js/custom/recordquery.js"></script>
+</head>
+<body>
+ <div class="wrapper">
+	<!-- 页面头 -->
+	
+	<!-- start:头部 -->
+      <div class="container container1">
+        <div class="navbar-header page-scroll">
+          <a class="logo">
+            <img src="/img/logo.png" width="247"/>
+          </a>
+          <div class="logo-right index-top">
+            <div class="input-append pull-right">
+              <input class="span2" type="text" style="border-right:0px;" placeholder="备案查询">
+              <span class="add-on" onclick="window.location.href='/portal/recordQuery'"><i class="icon-search"></i></span>
+            </div>
+            <ul class="nav nav-pills z-index" >
+              <li ><a href="/portal/index">首页</a></li>
+              <li ><a href="/portal/recordQuery">公共查询</a></li>
+              <li ><a href="/portal/recordInform">常见问题</a></li>
+              <li ><a href="/portal/recordIssue">政策法规</a></li>
+              <li class='active'><a href="/portal/recordNotice">通知公告</a></li>
+              <li ><a href="/portal/recordPolicies">备案须知</a></li>
+              <li ><a href="/portal/recordShow" onclick="loading()">备案展厅</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>    
+      <div class="heng"></div>
+    <!-- end:头部 -->
+     <div id="over" class="over"></div>
+    <div id="layout" class="layout"><img src="/img/loading2.gif" /></div>
+   <script type="text/javascript">
+	   function loading(){
+		   document.getElementById("over").style.display = "block";
+		   document.getElementById("layout").style.display = "block";
+	   }
+	</script>
+	<!-- start:内容 -->
+    <div class="p_list">
+      <!-- start:左侧列表内容 -->
+      <div class="list_left">
+        <h5>信息浏览</h5>
+        <ul class="lb_list">          
+        
+          
+           <li><a href="/portal/recordInform">常见问题</a></li>
+          <li><a href="/portal/recordIssue" >政策法规</a></li>
+          <li><a href="/portal/recordNotice" style="color:red;background-color:#F5F2EE;">通知公告</a></li>
+          <li><a href="/portal/recordPolicies">备案须知</a></li>
+             <li><a href="/portal/downloadcenter">下载中心</a></li>
+            
+        </ul>
+      </div>
+      <!-- end:左侧列表内容 -->
+      <!-- start:右侧列表内容 -->
+      <div class="list_right">
+        <h5><span>通知公告</span></h5>
+        <ul class="lb_list">
+          
+           	<li><a href="/portal/topicDetail?id=43">中国公安部：依法打击网络犯罪 加强国际执法合作 </a><span></span></li>
+          
+           	<li><a href="/portal/topicDetail?id=46">公安机关关闭3家违法网站</a><span></span></li>
+          
+           	<li><a href="/portal/topicDetail?id=45">公安机关打击整治网络黑客犯罪活动成效显著   侦破黑客犯罪案件400余起 抓获违法犯罪嫌疑人900余名  </a><span></span></li>
+          
+           	<li><a href="/portal/topicDetail?id=44">公安部指挥破获特大网络赌博案 </a><span></span></li>
+          
+        </ul>
+       <!-- <ul class="unstyled list_foot">
+          <li>首页</li>
+          <li>上一页</li>
+          <li>下一页</li>
+          <li>末页</li>
+          <li class="num">共2条</li>
+        </ul>  --> 
+      </div>
+      <!-- end:右侧列表内容 -->
+    </div>
+    <div style="clear:both;"></div>
+    <!-- end:内容 -->
+</div>
+	<!-- 页面尾 -->
+	
+
+ <div class="z_footerk">
+ 	  <p class="z_gap"></p>
+ 	  
+ 	  <div class="z_footer"> 
+      <p class="text-center">
+        Copyright2015 公安部网络安全保卫局 All Rights Reserved
+        <!-- <br/>公安机关备案号:京010202000001号 --> 
+       <!--  <a href="javascript:void(0)" onClick="recordsform()">京ICP备030173号</a> --><br/>
+<!--         建议使用1024*768以上分辨率浏览 <br/> -->
+        <!-- 地址：北京市东长安街14号 --> 
+       
+       <!--  邮编：100741 -->京ICP备05070602号&nbsp;&nbsp;&nbsp;
+        邮箱：<a href="mailto:support@beian.gov.cn">support@beian.gov.cn</a><br/>
+       <div style="width:440px;margin:0 auto; padding: 0;">
+		 	<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102002019" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/img/ghs.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#666666;">京公网安备 11010102002019号</p>&nbsp;&nbsp;&nbsp;建议使用1024*768以上分辨率浏览 </a>
+	   </div>
+      </p>
+      <form id="recordform" action="/portal/registerSystemInfo" method="post"><input type="hidden" name="recordcode" value="京ICP备030173号"/></form>
+      </div>
+   </div>
+
+</body>
+</html>

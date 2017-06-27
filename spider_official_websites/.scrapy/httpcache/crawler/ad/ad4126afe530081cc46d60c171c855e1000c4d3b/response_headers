@@ -1,0 +1,23 @@
+Accept-Ranges: bytes
+Backend-Timing: D=89039 t=1498558006657926
+Last-Modified: Tue, 13 Jun 2017 10:06:46 GMT
+Server: mw1185.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding,Cookie,X-CS,X-Subdomain,Authorization
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Age: 0
+X-Analytics: ns=0;page_id=8040098;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Ua-Compatible: IE=Edge
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+X-Content-Type-Options: nosniff
+Date: Tue, 27 Jun 2017 10:06:46 GMT
+X-Varnish: 95248410, 238657550, 442863776, 164430257
+X-Client-Ip: 180.173.144.160
+P3P: CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Cache: cp1066 pass, cp2010 pass, cp4017 pass, cp4017 pass
+X-Powered-By: HHVM/3.18.2
+Content-Encoding: gzip
+X-Cache-Status: pass

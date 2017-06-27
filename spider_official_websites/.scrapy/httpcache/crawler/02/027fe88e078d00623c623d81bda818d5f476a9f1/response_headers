@@ -1,0 +1,10 @@
+Set-Cookie: connect.sid=s%3A8VQMn40W_17v9pJUfIBUGhO5QzmBeydq.GYWCbJBTS1akSys0CsZrirsESBnTKmGYbxeo30dPaPM; Path=/; HttpOnly
+X-Response-Time: 76.819ms
+Etag: W/"p2QQ9rGH45NaT0XgMFTkJQ=="
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.6.3
+Vary: Accept-Encoding
+X-Powered-By: Express
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+Date: Tue, 27 Jun 2017 10:05:59 GMT

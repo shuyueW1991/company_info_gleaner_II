@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>国家知识产权局--各代办处通讯地址</title>
+<link rel="stylesheet" type="text/css" href="../../images/index_131021.css">
+<link href="../../css/font_131021.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.index_articl_list li {
+background: url(http://www.sipo.gov.cn/images/index_131022_05.png) no-repeat 0 7px;
+width: 880px;
+height:auto;
+padding: 0 50px 0 10px;
+line-height:20px;
+clear:both;
+position:relative;
+margin:0 0 8px 0;
+}
+.index_articl_list li a{float:none;}
+.index_articl_list li span{float:none;position:absolute;right:0;top:0;line-height:20px;}
+</style>
+</head>
+
+<body>
+<div class="index_Pane">
+	<div class="w1000">
+		<iframe src="../../index_header.html" frameborder="0" marginheight="0" marginwidth="0" width="1000" height="220" scrolling="no" allowTransparency="true"></iframe>		
+		<div class="index_main">
+			<div class="index_nowsite">您现在的位置：  <a href="./../../" class=qq_right>首页</a>&nbsp;>&nbsp;<a href="./../" class=qq_right>专利代办处</a>&nbsp;>&nbsp;<a href="./" class=qq_right>各代办处通讯地址</a></div>
+		</div>
+		<div class="index_hr10"></div>
+		<div class="index_articl_tit">
+		各代办处通讯地址
+		</div>
+		<div class="index_articl_pane">
+			<div class="index_inner">
+				<div class="index_hr10"></div>
+				<div class="index_articl_list">
+					<ul>
+    				    
+						<li><a href="./201310/t20131023_823923.html" target="_blank">通讯地址</a> <span>2017-06-16</span></li>
+ 				        
+					<div class="index_hr10"></div>
+					<div class="index_hr10"></div>
+					</ul>			
+					<div class="clear"></div>
+				</div>
+				<div class="index_hr10"></div>
+				<div class="index_page01">
+<script>
+
+
+
+
+
+
+
+
+
+var currentPage = 0;//所在页从0开始
+var prevPage = currentPage-1//上一页
+var nextPage = currentPage+1//下一页
+var countPage = 1//共多少页
+
+if(1==null || 1<=1){
+}else{
+document.write("<font class='huilan14'>共"+countPage+"页&nbsp;&nbsp;");
+//设置上一页代码
+if(countPage>1&&currentPage!=0&&currentPage!=1)
+	document.write("<a href=\"index.html\" class='huilan14'>首页</a>&nbsp;<a href=\"index"+"_" + prevPage + "."+"html\" class='huilan14'>上一页</a>&nbsp;");
+else if(countPage>1&&currentPage!=0&&currentPage==1)
+	document.write("<a href=\"index.html\" class='huilan14'>首页</a>&nbsp;<a href=\"index.html\" class='huilan14'>上一页</a>&nbsp;");
+else
+	document.write("首页&nbsp;上一页&nbsp;");
+//循环
+var num = 5;
+for(var i=0+(currentPage-1-(currentPage-1)%num) ; i<=(num+(currentPage-1-(currentPage-1)%num))&&(i<countPage) ; i++){
+	if(currentPage==i)
+		document.write("<span style=\"color:#FF0000;\">"+(i+1)+"</span>&nbsp;");
+	else if(i==0)
+		document.write("<a href=\"index.html\" class='huilan14'>"+(i+1)+"</a>&nbsp;");
+	else
+		document.write("<a href=\"index"+"_" + i + "."+"html\" class='huilan14'>"+(i+1)+"</a>&nbsp;");
+}
+
+//设置下一页代码 
+if(countPage>1&&currentPage!=(countPage-1))
+	document.write("<a href=\"index"+"_" + nextPage + "."+"html\" class='huilan14'>下一页</a>&nbsp;<a href=\"index_" + (countPage-1) + ".html\" class='huilan14'>尾页</a>&nbsp;");
+else
+	document.write("<font class='huilan14'>下一页&nbsp;尾页&nbsp;");
+	
+//跳转页面
+document.write("<font class='huilan14'>转到第&nbsp;&nbsp;<input type='text' id='num' class='huilan14' value="+(currentPage+1)+" style='width:30px;font-size:12px;'>&nbsp;&nbsp;页"+"&nbsp;&nbsp;&nbsp;<input style='font-size:12px' type='submit' class='index_go' value='提交' onClick=javacript:toPage()></font>");
+}
+	             
+function toPage(){
+	var _num = document.getElementById("num").value;
+	if(isNaN(_num)){
+		alert("请输入数字");
+		return false;
+	}
+	var str = "index"+"_"+(_num-1)+"."+"html";
+	var url = location.href.substring(0,location.href.lastIndexOf("/")+1);
+	if(_num<=1||_num==null)
+		location.href = url+"index"+"."+"html";
+	else if(_num>countPage)
+		alert("本频道最多"+countPage+"页");
+	else
+		location.href = url+str;
+}
+</script>
+
+				</div>
+				<div class="index_hr10"></div>
+				<div class="index_hr10"></div>
+			</div>
+		</div>
+		<div class="index_article_line2"></div>
+		
+		<div class="index_hr10"></div>
+		<div class="index_hr10"></div>
+		
+			<iframe src="../../index_footer.html" frameborder="0" marginheight="0" marginwidth="0" width="1000" height="102" scrolling="no"></iframe>
+			</div>
+</div>
+<script ignoreapd='1' type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-000530-B8BCC7/gs.js'>
+
+
+</script>
+<script>
+
+
+
+var _vaq = _vaq || [];
+_vaq.push(["setCookieDomain", ".sipo.gov.cn"]);
+_vaq.push(['setPingTime',3000]);
+_vaq.push(['enableHeat']);
+_vaq.push(['trackPageView']);
+(function() {
+var u=(("https:" == document.location.protocol) ? "https" : "http") + "://123.56.210.143/va-003/";
+_vaq.push(['setTrackerUrl', u+'va.gif']);
+_vaq.push(['setSiteId',950]);
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+g.defer=true; g.async=true; g.src='http://123.56.210.143/va.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+</body>
+</html>

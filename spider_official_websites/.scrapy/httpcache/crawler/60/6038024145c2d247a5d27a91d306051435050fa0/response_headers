@@ -1,0 +1,13 @@
+X-Ua-Compatible: IE=Edge
+Set-Cookie: SamlAuthenticationReturnUrl=ReturnUrl=/members/jack-stanley; path=/
+Content-Type: text/html; charset=utf-8
+Server: 
+Strict-Transport-Security: max-age=31536000
+Date: Tue, 27 Jun 2017 10:21:35 GMT
+Cache-Control: private
+X-Content-Type-Options: nosniff
+X-Aspnet-Version: 
+X-Telligent-Evolution: 9.x
+Location: https://sophos.okta.com/app/sophos_sophoscommunity_1/exk1e90idswHrg6Yq0x7/sso/saml
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block

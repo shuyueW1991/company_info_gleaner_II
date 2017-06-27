@@ -1,0 +1,25 @@
+Set-Cookie: SECSESSID_2=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; httponly
+Set-Cookie: SECSESSID=496p5pk93hrfqpfemomftcp2g3; expires=Tue, 27-Jun-2017 14:46:26 GMT; Max-Age=3600; path=/; secure; httponly
+Set-Cookie: SECSESSID_2=EQYnJ1Ag3f%2BdqnLln6ikF47eLZXsaR%2FRn6zqmuuBPatiZmEwM2I5MjFjYjQ2MDEwNjI2MDI1YjliOTIwMjQwNTIzOTFiNDQwOWU0OGQzM2NiMTE3MWU1ODk3OTRlN2ZhaJkumuSUP7DR6gDhxPxIY%2Bh%2BpHz%2BuDtOlAjxYZQxP6GKjpZlwzzjSY%2Fyo0iUH981eVYJqQiDIU9AgShpWFJZrv7PelCYgMzbrRWLZJ1piZgRfQ9RyHXPaAH5HJtaGEfdY8EURiUDF29%2FNwmXOfSCiJfTF1u8yzc2Pdw3EqU%2BevFlXQ5%2BrZrn93Mqg0DPlN6lbxSZIxPgjtQZK9rXQoxHpeTPskati6fkzQqbd6i0DSD6q5ekWupq0dO5DmyYvb7%2BiqH5rdoRFXC9Mvd9%2FFtxTDseBrgGevsc6xB1sqsnl%2FIfJFg1lY2QI6jgopMTmbZMxRJ0wBlPRcrenvIvJjlXPXxWm%2BIrWVTAKLlzW%2BzsTJtdS4nCRzqxJ6XFE5NnSVnyqdrDWt99%2BsNZyk8rwvgeXasoVrY5ahvMbL68uC4neujwkxUKeVtaTRqFCVsQGTnYnc%2BPfQxFu5gRu1%2B7C56Xvw%3D%3D; expires=Tue, 27-Jun-2017 14:10:26 GMT; Max-Age=1440; path=/; secure; httponly
+Server: nginx
+X-Varnish: 486874109
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+X-Cdn: Incapsula
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Vary: Accept-Encoding
+Cache-Control: public, max-age=0, must-revalidate, no-transform
+X-Content-Type-Options: nosniff
+X-Ua-Compatible: IE=edge
+Age: 0
+X-Iinfo: 8-2743230-2743302 SNNN RT(1498571180622 5053) q(0 0 0 -1) r(6 6) U2
+Content-Language: en-NZ
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 varnish-v4
+Content-Security-Policy: default-src https://www.govt.nz https://*.cwp.govt.nz https://*.google-analytics.com; style-src https://www.govt.nz https://*.cwp.govt.nz https://*.gstatic.com 'unsafe-inline' https://api.addressfinder.io; script-src https://www.govt.nz https://*.cwp.govt.nz https://*.gstatic.com 'unsafe-eval' 'unsafe-inline' https://api.addressfinder.io; frame-src https://www.govt.nz https://*.cwp.govt.nz https://*.youtube-nocookie.com https://*.youtube.com; child-src https://www.govt.nz https://*.cwp.govt.nz https://*.youtube-nocookie.com https://*.youtube.com;
+Content-Type: text/html; charset=utf-8
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+Pragma: no-cache
+Date: Tue, 27 Jun 2017 13:46:26 GMT
+Last-Modified: Thu, 27 Apr 2017 00:46:15 GMT

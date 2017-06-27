@@ -1,0 +1,18 @@
+Accept-Ranges: bytes
+Last-Modified: Fri, 17 Feb 2017 04:01:11 GMT
+Content-Type: application/x-apple-diskimage
+X-Reqid: HiYAAG-w5qogpcsU
+Server: NWS_TCloud_SOC1
+X-Daa-Tunnel: hop_count=3
+Date: Tue, 27 Jun 2017 10:05:34 GMT
+Access-Control-Allow-Origin: *
+X-Nws-Log-Uuid: d8a26c9c-6f2e-4f5b-b89e-491ec78ae8f7
+Access-Control-Max-Age: 2592000
+Content-Disposition: inline; filename="mLaserV2.3.dmg"; filename*=utf-8' 'mLaserV2.3.dmg
+Expires: Wed, 27 Jun 2018 10:05:34 GMT
+X-Cache-Lookup: Hit From Disktank3
+X-Cache-Lookup: Hit From Inner Cluster
+X-Cache-Lookup: Hit From Upstream
+X-Cache-Lookup: Hit From Inner Cluster
+Cache-Control: max-age=31536000
+Content-Transfer-Encoding: binary

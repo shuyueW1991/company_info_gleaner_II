@@ -1,0 +1,23 @@
+Surrogate-Control: content="ESI/1.0", compress=yes
+Content-Type: text/html;charset=UTF-8
+Via: 1.1 varnish
+Server: Apache
+Date: Tue, 27 Jun 2017 10:06:51 GMT
+X-Varnish: 599472525
+P3P: CP="This is not a P3P policy! See the privacy statement linked from this page for information on privacy practices."
+X-Server-Name: gcweb01@gcappprd090103.c090.digitalriverws.net
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0, private
+X_Request_Id: TIME=1498558011405:NODE=gcapp01_gcappprd090103.c090:THREAD=177
+Vary: Accept-Encoding
+Expires: Wed, 31 Dec 1969 23:59:59 GMT
+Set-Cookie: JSESSIONID=52B6111474BF039608EC700AA404A9AE; Path=/; HttpOnly
+Set-Cookie: VISITOR_ID=971D4E8DFAED436747EA8049371D14FB09A2BCC41AE92E41D287DED4A31E41DF84AF9FC3FC3110EBA56B8F5E6E47456D; Expires=Wed, 27-Jun-2018 15:56:03 GMT; Path=/
+Set-Cookie: X-DR-SHOPPER-defaults=F2C6C41425D5F00753EAA92BCAA32610652EA2DA2B06CCF2E53A545F161F40BC2743C4B53FDE3B71BC1A8AC31796B04C5C0205F08E57497FB34F257B373818C6; Expires=Wed, 27-Jun-2018 15:56:03 GMT; Path=/
+Set-Cookie: gc_ss_defaults=2A31DDF910225448E1737844568F1BE4919E038C889710558CE55F3052045699A642CF7A9B644563; Path=/; Secure
+Set-Cookie: X-DR-LOCALE=en_US; Path=/; HttpOnly
+Set-Cookie: X-DR-CURRENCY=USD; Path=/; HttpOnly
+Set-Cookie: X-DR-THEME=22100; Path=/; HttpOnly
+Set-Cookie: BIGipServerp-gc2-prd-active-c090-s2=1123406090.260.0000; path=/
+Content-Encoding: gzip
+Age: 0
+Pragma: no-cache

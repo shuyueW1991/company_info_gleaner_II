@@ -1,0 +1,25 @@
+Set-Cookie: stopMobileRedirect=true; expires=Thu, 27-Jul-2017 13:47:08 GMT; Max-Age=2592000; path=/; domain=.wikidata.org; httponly
+Server: mw1180.eqiad.wmnet
+X-Analytics: ns=12;page_id=94789;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 356322167, 878736327, 360645907, 659331402
+X-Cache-Status: pass
+Accept-Ranges: bytes
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Vary: Accept-Encoding,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+X-Ua-Compatible: IE=Edge
+Age: 0
+X-Cache: cp1052 pass, cp2007 pass, cp4018 pass, cp4010 pass
+Backend-Timing: D=375363 t=1498571227843814
+Content-Language: en
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+P3P: CP="This is not a P3P policy! See https://www.wikidata.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sun, 25 Jun 2017 22:47:24 GMT
+Content-Encoding: gzip
+Link: </static/images/project-logos/wikidatawiki.png>;rel=preload;as=image
+Date: Tue, 27 Jun 2017 13:47:08 GMT

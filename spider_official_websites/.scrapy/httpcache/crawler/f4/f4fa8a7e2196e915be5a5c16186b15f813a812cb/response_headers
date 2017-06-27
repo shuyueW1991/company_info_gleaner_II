@@ -1,0 +1,23 @@
+Set-Cookie: metawikiSession=2rhknvq8ot09gl6mgd3tc9hhdogoqmsj; path=/; secure; httponly
+Set-Cookie: forceHTTPS=true; path=/; httponly
+Server: mw1273.eqiad.wmnet
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 897101266, 141327573, 510039962, 648410159
+X-Cache-Status: pass
+Date: Tue, 27 Jun 2017 13:46:39 GMT
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Age: 0
+X-Cache: cp1055 pass, cp2013 pass, cp4017 pass, cp4010 pass
+Location: https://meta.m.wikimedia.org/w/index.php?title=Special:UserLogin&returnto=Help%3APage+history&returntoquery=mobileaction%3Dtoggle_view_desktop
+Backend-Timing: D=53568 t=1498571199429378
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+P3P: CP="This is not a P3P policy! See https://meta.wikimedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 27 Jun 2017 13:46:39 GMT
+Content-Encoding: gzip
+Expires: Thu, 01 Jan 1970 00:00:00 GMT

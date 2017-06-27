@@ -1,0 +1,21 @@
+Backend-Timing: D=199949 t=1498558002878733
+Content-Encoding: gzip
+Last-Modified: Tue, 27 Jun 2017 07:36:17 GMT
+Content-Type: text/html; charset=utf-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Server: mw1246.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+P3P: CP="This is not a P3P policy! See https://www.mediawiki.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Age: 0
+X-Varnish: 405957855, 409172117, 290011468, 154446715
+X-Client-Ip: 180.173.144.160
+X-Content-Type-Options: nosniff
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Cache-Status: pass
+X-Cache: cp1065 pass, cp2016 pass, cp4018 pass, cp4017 pass
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Vary: Accept-Encoding,X-Subdomain,X-CS,X-Forwarded-Proto,Cookie,Authorization
+Date: Tue, 27 Jun 2017 10:06:43 GMT
+X-Powered-By: HHVM/3.18.2
+Location: https://m.mediawiki.org/w/index.php?title=Special:History/MediaWiki&mobileaction=toggle_view_mobile
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate

@@ -1,0 +1,13 @@
+X-Application-Context: application:demo,prod:8080
+Server: nginx/1.10.1
+Expires: 0
+Accept-Ranges: bytes
+P3P: CP="NON DSP COR CUR ADMi DEV OUR BUS NAV"
+Content-Type: text/html
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+Pragma: no-cache
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Date: Tue, 27 Jun 2017 13:46:28 GMT
+X-Content-Type-Options: nosniff
+Last-Modified: Tue, 20 Jun 2017 02:11:42 GMT

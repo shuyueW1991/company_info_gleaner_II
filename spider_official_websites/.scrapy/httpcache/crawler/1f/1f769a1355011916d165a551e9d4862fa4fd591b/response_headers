@@ -1,0 +1,12 @@
+Accept-Ranges: bytes
+Content-Location: ipr-notice-20021231.html
+Last-Modified: Wed, 01 Mar 2017 18:48:49 GMT
+Etag: "4979-549afc3584640;47603f8bda440-gzip"
+Content-Type: text/html; charset=utf-8
+Date: Tue, 27 Jun 2017 10:06:31 GMT
+P3P: policyref="http://www.w3.org/2014/08/p3p.xml"
+Tcn: choice
+Expires: Tue, 27 Jun 2017 16:06:31 GMT
+Vary: negotiate,Accept-Encoding,upgrade-insecure-requests
+Content-Encoding: gzip
+Cache-Control: max-age=21600

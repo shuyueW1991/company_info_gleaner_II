@@ -1,0 +1,19 @@
+Vary: Accept-Encoding
+X-Ms-Invokeapp: 1; RequireReadOnly
+Microsoftsharepointteamservices: 15.0.0.4727
+Server: Microsoft-IIS/8.5
+X-Aspnet-Version: 4.0.30319
+X-Frame-Options: SAMEORIGIN
+Sprequestguid: 98c0ff9d-aad4-e039-f371-135e7b35ff19
+Spiislatency: 0
+Request-Id: 98c0ff9d-aad4-e039-f371-135e7b35ff19
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 12 Jun 2017 14:02:54 GMT
+Content-Encoding: gzip
+X-Powered-By: ASP.NET
+Cache-Control: private, max-age=0
+Sprequestduration: 94
+X-Sharepointhealthscore: 0
+Last-Modified: Tue, 27 Jun 2017 14:02:54 GMT
+X-Content-Type-Options: nosniff
+Date: Tue, 27 Jun 2017 14:02:54 GMT

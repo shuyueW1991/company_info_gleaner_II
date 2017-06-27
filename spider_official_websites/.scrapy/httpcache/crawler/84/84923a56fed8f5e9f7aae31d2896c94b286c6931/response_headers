@@ -1,0 +1,12 @@
+Set-Cookie: pll_language=ru; expires=Wed, 27-Jun-2018 10:05:54 GMT; path=/
+Set-Cookie: wfvt_846727823=59522e036dc4c; expires=Tue, 27-Jun-2017 10:35:55 GMT; path=/; httponly
+Link: <http://questsystems.com.ua/wp-json/>; rel="https://api.w.org/"
+Pragma: no-cache
+Server: nginx/1.2.1
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/5.3.29
+Content-Encoding: gzip
+Cache-Control: no-cache, must-revalidate, max-age=0
+Date: Tue, 27 Jun 2017 10:05:55 GMT

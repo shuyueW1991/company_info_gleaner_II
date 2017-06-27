@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+   <!--[if IE] -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--[end if] -->  
+
+  <title>澳門海關 - 統計數字</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/bootstrap-custom.css" rel="stylesheet">
+	<link href="../css/bootstrap-sgs.css" rel="stylesheet">
+	<link href="../css/languagebar.css" rel="stylesheet">
+	<link href="../css/menubar.css" rel="stylesheet">
+	<link href="../css/footer.css" rel="stylesheet">
+	<link href="../css/layout.css" rel="stylesheet">
+	<link href="../css/tabs.css" rel="stylesheet">
+
+	<style type="text/css">
+		.btn-info:hover, .btn-info:focus, .btn-info:active, .active.btn-info, .open .btn-info.dropdown-toggle {
+		    color: #000;
+		    background-color: #fff;
+		    border-color: #fff;
+		}
+		.btn-info {
+		    color: #000;
+		    background-color: #fff;
+		    border-color: #fff;
+		    padding: 6px 10px;
+		}
+		.btn:focus, .btn:active:focus, .btn.active:focus {
+		    outline: 0 none;
+		}
+		button span.pull-left {
+		  text-align: left;
+		}
+
+		/* callout */
+		.bs-callout {
+			padding: 20px;
+			margin: 20px 0;
+			border: 1px solid #21527d;
+			border-left-width: 10px;
+			border-radius: 3px;
+		}
+		.bs-callout h4 {
+			margin-top: 0;
+			margin-bottom: 5px;
+		}
+
+		/* tab animation */
+		.nav-pills { border-bottom: 1px solid #DDD; }
+		.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover { border-width: 0; background-color: transparent; }
+		.nav-pills > li > a { border: none; color: #666; }
+		.nav-pills > li.active > a, .nav-pills > li > a:hover { /*font-weight:bold;*/ border: none; color: #21527d !important; background: transparent; }
+		.nav-pills > li > a::after { content: ""; background: #4285F4; height: 3px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+		.nav-pills > li.active > a::after, .nav-pills > li:hover > a::after { transform: scale(1); }
+		.nav-pills > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+		.tab-pane { padding: 15px 0; }
+		.tab-content{padding:6px}
+		.nav > li > a:hover, .nav > li > a:focus {
+			text-decoration: none;
+			background-color: transparent;
+		}
+
+
+		/* title fonts style */
+		.section-title::first-letter {
+			font-size: 33.5px;
+			color: #fff;
+			background-color: #21527d;
+		}
+		.section-title {
+			border-bottom: solid 3px #21527d;
+			padding-bottom: 1px;
+			margin-top: 5px;
+		/*	color: #000; */
+		}
+
+
+		/* header text style */
+		h2 {
+			font-size: 31.5px;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			margin: 20px 0;
+			font-family: inherit;
+			font-weight: bold;
+		/*	line-height: 20px; */
+			color: inherit;
+			text-rendering: optimizelegibility;
+		}
+	</style>
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="../img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="../img/favicon.png">
+  
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script src="../js/Chart.min.js"></script>
+	<script type="text/javascript" src="../js/scripts.js"></script>
+	<script src="../js/jstorage.js"></script>
+	<script src="../js/jquery.jfontsize-2.0.js"></script>
+	<script src="../js/fontzoom.js"></script>
+</head>
+
+<!-- <body background="../img/star_background.jpg"> -->
+<body style="background-color: rgb(210, 211, 212);">
+<div class="content">
+<div class="container" style="background-color:#ffffff; box-shadow: 0 0 15px black;">
+<div class="container" style="background-color:#ffffff;">
+
+	<div class="row clearfix gutter-0">
+		<div class="col-md-12 column">
+			<script type="text/javascript" src="../js/languagebar.js"></script>
+		</div>
+	</div>
+    <div class="jumbotron">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 column">
+					<img class="img-responsive" src="../img/customs5.png"></img>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row clearfix gutter-0">
+		<div class="col-md-12 column">
+			<nav class="navbar navbar-custom navbar-static-top" role="navigation">
+
+				<div class="navbar-header">
+					 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span> 首頁</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<script type="text/javascript" src="mission_menub.js"></script>
+						<li class="dropdown">
+							<a class="dropdown-toggle" href="#" data-toggle="dropdown">關檢服務<!--<strong class="caret"></strong>--></a>
+							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+								<script type="text/javascript" src="customs1_submenub.js"></script>
+								<script type="text/javascript" src="customs2_submenub.js"></script>
+								<script type="text/javascript" src="customs3_submenub.js"></script>
+								<script type="text/javascript" src="customs4_submenub.js"></script>
+								<li><a href="customs5.html">貨物服務</a></li>
+							</ul>
+						</li>
+						<script type="text/javascript" src="ipr_menub.js"></script>
+						<script type="text/javascript" src="service_menub.js"></script>
+						<script type="text/javascript" src="news_menub.js"></script>
+						<script type="text/javascript" src="info_menu.js"></script>
+						<li>
+							<a href='contact.html'>聯絡我們</a>
+						</li>
+						<li>
+							<a href='sitemap.html'>網站導航</a>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+		</div>
+	</div>
+
+	<ul class="breadcrumb">
+		<li>
+			<a href="index.html">首頁</a> <span class="divider"></span>
+		</li>
+		<li class="active">
+			常用資訊 <span class="divider"></span>
+		</li>
+		<li class="active">
+			統計數字
+		</li>
+	</ul>
+
+</div>
+
+<header>
+	<div class="container" style="background-color:#ffffff; padding:0 8px 0 8px;">
+	<div class="row clearfix gutter-0">
+		<h2 class="section-title xingothic-tc-w3 justfontfix">統 計數字</h2>
+	</div>
+	</div>
+</header>
+
+<div class="container" style="background-color:#ffffff; padding:0 8px 0 8px;">
+
+	<div class="row gutter-16 clearfix">
+		<div class="col-md-12 column">
+			<div class="tabbable" id="tabs-480814">
+				<ul class="nav nav-pills nav-stacked">
+					<li class="nav-header" style="float:left;">
+<!--						<a>統計數字</a> -->
+					</li>
+					<li class="active">
+						<a href="#panel-133418" data-toggle="tab" name="stats0">陸路口岸跨境汽車流量</a>
+					</li>
+					<li>
+						<a href="#panel-133438" data-toggle="tab" name="stats1">海關檢獲之違法物品</a>
+					</li>
+					<li>
+						<a href="#panel-133458" data-toggle="tab" name="stats2">打擊非法入境活動的統計</a>
+					</li>
+<!--
+					<li>
+						<a href="#panel-133488" data-toggle="tab" name="stats3">涉及各權限實體的筆錄個案統計資料</a>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-chevron-down"></span></a>
+						<ul class="dropdown-menu pull-right">
+							<li>
+								<a href="#panel-137987" data-toggle="tab" name="stats4">緝獲的毒品及精神科藥物</a>
+							</li>
+						</ul>
+					</li>
+-->
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="panel-133418">
+
+						<div class="row">
+							<div class="col-md-12">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											陸路口岸跨境汽車流量
+										</h3>
+									</div>
+									<div style="width: 100%">
+										<img class="img-responsive" src="../img/cn_stats00a.png" ><br/><br/>
+										<img class="img-responsive" src="../img/cn_stats00b.png" ><br/><br/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="tab-pane fade" id="panel-133438">
+
+						<div class="row">
+							<div class="col-md-12">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											海關檢獲之違法物品
+										</h3>
+									</div>
+
+									<button type="button" class="btn btn-info" style="white-space:normal;font-size:20px;" data-toggle="collapse" data-target="#t1">
+										<span class="glyphicon glyphicon-stats" style="color:rgba(66, 139, 202, 1);"></span> 侵犯商標權及侵犯著作權物品
+									</button>
+									<div id="t1" class="collapse out">
+										<div style="width: 100%">
+											<img class="img-responsive" src="../img/cn_stats01a.png" ><br/><br/>
+											<img class="img-responsive" src="../img/cn_stats01b.png" ><br/><br/>
+										</div>
+									</div>
+
+									<br>
+									<button type="button" class="btn btn-info" style="white-space:normal;font-size:20px;" data-toggle="collapse" data-target="#t2">
+										<span class="glyphicon glyphicon-stats" style="color:rgba(66, 139, 202, 1);"></span> 進口未經檢疫的副食品
+									</button>
+									<div id="t2" class="collapse out">
+										<div style="width: 100%">
+											<img class="img-responsive" src="../img/cn_stats02a.png" ><br/><br/>
+											<img class="img-responsive" src="../img/cn_stats02b.png" ><br/><br/>
+										</div>
+									</div>
+
+									<br>
+									<button type="button" class="btn btn-info" style="white-space:normal;font-size:20px;" data-toggle="collapse" data-target="#t3">
+										<span class="glyphicon glyphicon-stats" style="color:rgba(66, 139, 202, 1);"></span> 未完稅煙酒
+									</button>
+									<div id="t3" class="collapse out">
+										<div style="width: 100%">
+											<img class="img-responsive" src="../img/cn_stats03a.png" ><br/><br/>
+											<img class="img-responsive" src="../img/cn_stats03b.png" ><br/><br/>
+											<br>
+										</div>
+									</div>
+
+									<br>
+									<button type="button" class="btn btn-info" style="white-space:normal;font-size:20px;" data-toggle="collapse" data-target="#t4">
+										<span class="glyphicon glyphicon-stats" style="color:rgba(66, 139, 202, 1);"></span> 麻醉藥品及精神藥物
+									</button>
+									<div id="t4" class="collapse out">
+										<div style="width: 100%">
+											<img class="img-responsive" src="../img/cn_stats04a.png" ><br/><br/>
+											<img class="img-responsive" src="../img/cn_stats04b.png" >
+										</div>
+									</div>
+<br><br>
+								</div>
+							</div>
+						</div>
+<!--
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											雞 / 鴨 / 鵝 (公斤)
+										</h3>
+									</div>
+									<div style="width: 100%">
+										<canvas id="canvas5" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											蔬菜 (公斤)
+										</h3>
+									</div>
+									<div style="width: 100%">
+										<canvas id="canvas6" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											豬肉 (公斤)
+										</h3>
+									</div>
+									<div style="width: 100%">
+										<canvas id="canvas8" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+-->
+					</div>
+					<div class="tab-pane fade" id="panel-133458">
+						<h3>
+							打擊非法入境活動的統計
+						</h3>
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h4>
+											被捕非法入境者 (人數)
+										</h4>
+										<p>&nbsp;</p>
+									</div>
+									<div style="width: 100%">
+										<canvas id="canvas9" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h4>
+											被移交法院人士 (人數)
+										</h4>
+										<p>(一般為協助或再次非法入境人士)</p>
+									</div>
+									<div style="width: 100%">
+										<canvas id="canvas10" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="tab-pane fade" id="panel-133488">
+						<h2>涉及各權限實體的筆錄個案統計資料</h2>
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											經濟局 (宗)
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats11.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas11" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											電信管理局 (宗)
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats12.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas12" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											衛生局 (宗)
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats13.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas13" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											民政總署 (宗)
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats14.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas14" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="tab-pane fade" id="panel-137987">
+						<h2>緝獲的毒品及精神科藥物</h2>
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											四號海洛英 (克)
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats15.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas15" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											精神科藥物 (粒)
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats16.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas16" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											大麻 (克)
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats17.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas17" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											冰 (克)
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats18.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas18" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+					<div class="tab-pane fade" id="panel-137987">
+						<h2>陸路口岸跨境汽車流量</h2>
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											關閘
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats15.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas15" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											珠澳跨境工業區
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats16.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas16" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="thumbnail">
+									<div class="caption">
+										<h3>
+											路氹新城
+										</h3>
+									</div>
+<!--									<img alt="300x200" src="../img/stats17.gif"> -->
+									<div style="width: 100%">
+										<canvas id="canvas17" height="450" width="600"></canvas>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<br><br>
+</div>
+
+<div class="container">
+	<div class="site-info">
+		<script type="text/javascript" src="footer.js"></script>
+	</div>
+</div>
+
+</div>
+</div>
+<script>
+
+		
+
+	function showTab1() {
+		
+	}
+
+	$('a[href=#panel-133438]').on('shown.bs.tab', function(){
+		var barChartData5 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [3450,2418,1733,1998,312]
+				}
+			]
+		}
+		
+		var barChartData6 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [121598,129846,113437,113886,31646]
+				}
+			]
+		}
+
+		var barChartData8 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [45682,51531,54343,53046,12115]
+				}
+			]
+		}
+		
+		var ctx5 = document.getElementById("canvas5").getContext("2d");
+		window.myBar5 = new Chart(ctx5).Bar(barChartData5, {
+			responsive : true
+		});
+
+		var ctx6 = document.getElementById("canvas6").getContext("2d");
+		window.myBar6 = new Chart(ctx6).Bar(barChartData6, {
+			responsive : true
+		});
+
+		var ctx8 = document.getElementById("canvas8").getContext("2d");
+		window.myBar8 = new Chart(ctx8).Bar(barChartData8, {
+			responsive : true
+		});
+	
+	
+	})
+
+
+	$('a[href=#panel-133458]').on('shown.bs.tab', function(){
+		var barChartData9 = {
+			labels : ["2013年","2014年","2015年","2016年","2017年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [263,349,428,365,132]
+				}
+			]
+		}
+	
+		var barChartData10 = {
+			labels : ["2013年","2014年","2015年","2016年","2017年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [34,50,78,66,27]
+				}
+			]
+		}
+
+		var ctx9 = document.getElementById("canvas9").getContext("2d");
+		window.myBar9 = new Chart(ctx9).Bar(barChartData9, {
+			responsive : true
+		});
+	
+		var ctx10 = document.getElementById("canvas10").getContext("2d");
+		window.myBar10 = new Chart(ctx10).Bar(barChartData10, {
+			responsive : true
+		});
+
+	})
+
+	$('a[href=#panel-133488]').on('shown.bs.tab', function(){
+		var barChartData11 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [10,109,36,16,15]
+				}
+			]
+		}
+	
+		var barChartData12 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [2,1,1,5,1]
+				}
+			]
+		}
+	
+		var barChartData13 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [26,55,48,53,14]
+				}
+			]
+		}
+	
+		var barChartData14 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [1575,1723,1768,2074,275]
+				}
+			]
+		}
+
+		var ctx11 = document.getElementById("canvas11").getContext("2d");
+		window.myBar11 = new Chart(ctx11).Bar(barChartData11, {
+			responsive : true
+		});
+
+		var ctx12 = document.getElementById("canvas12").getContext("2d");
+		window.myBar12 = new Chart(ctx12).Bar(barChartData12, {
+			responsive : true
+		});
+
+		var ctx13 = document.getElementById("canvas13").getContext("2d");
+		window.myBar13 = new Chart(ctx13).Bar(barChartData13, {
+			responsive : true
+		});
+
+		var ctx14 = document.getElementById("canvas14").getContext("2d");
+		window.myBar14 = new Chart(ctx14).Bar(barChartData14, {
+			responsive : true
+		});	
+
+	})
+
+	$('a[href=#panel-137987]').on('shown.bs.tab', function(){
+		var barChartData15 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [2.08,10.35,10.8,0.35,0]
+				}
+			]
+		}
+	
+		var barChartData16 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [592,0,229,56.65,18.9]
+				}
+			]
+		}
+	
+		var barChartData17 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [11.93,24.35,11.79,0,0]
+				}
+			]
+		}
+	
+		var barChartData18 = {
+			labels : ["2012年","2013年","2014年","2015年","2016年(1-3月)"],
+			datasets : [
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,0.8)",
+					highlightFill : "rgba(151,187,205,0.75)",
+					highlightStroke : "rgba(151,187,205,1)",
+					data : [47.81,144.21,257.88,80.69,14.7]
+				}
+			]
+		}
+
+		var ctx15 = document.getElementById("canvas15").getContext("2d");
+		window.myBar15 = new Chart(ctx15).Bar(barChartData15, {
+			responsive : true
+		});
+	
+		var ctx16 = document.getElementById("canvas16").getContext("2d");
+		window.myBar16 = new Chart(ctx16).Bar(barChartData16, {
+			responsive : true
+		});
+	
+		var ctx17 = document.getElementById("canvas17").getContext("2d");
+		window.myBar17 = new Chart(ctx17).Bar(barChartData17, {
+			responsive : true
+		});
+	
+		var ctx18 = document.getElementById("canvas18").getContext("2d");
+		window.myBar18 = new Chart(ctx18).Bar(barChartData18, {
+			responsive : true
+		});	
+
+	})
+
+/*
+	window.onload = function() {
+	  if(window.location.hash) {
+			var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+			if (hash==="stats1") {
+				$('#tabs-480814 li:eq(2) a').tab('show')
+			} else if (hash==="stats2") {
+				$('#tabs-480814 li:eq(3) a').tab('show')
+			} else if (hash==="stats3") {
+				$('#tabs-480814 li:eq(4) a').tab('show')
+			} else if (hash==="stats4") {
+				$('#tabs-480814 li:eq(5) a').tab('show')
+			}else if (hash==="stats0") {
+				$('#tabs-480814 li:eq(1) a').tab('show')
+			}
+	  }
+	};
+*/
+
+	window.onload = function() {
+	  if(window.location.hash) {
+			var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+			if (hash==="stats0") {
+				$('#tabs-480814 li:eq(1) a').tab('show')
+			} else if (hash==="stats1") {
+				$('#tabs-480814 li:eq(2) a').tab('show')
+			} else if (hash==="stats2") {
+				$('#tabs-480814 li:eq(3) a').tab('show')
+			}
+	  }
+	};
+
+	$(".dropdown").mouseleave(function() {
+		$(".dropdown").removeClass("open");
+	});
+	$(".dropdown-menu").mouseleave(function() {
+		$(".dropdown").removeClass("open");
+	});
+</script>
+
+</body>
+</html>
+

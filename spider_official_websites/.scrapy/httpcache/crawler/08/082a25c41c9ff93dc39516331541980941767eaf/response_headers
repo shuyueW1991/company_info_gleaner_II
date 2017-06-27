@@ -1,0 +1,27 @@
+Accept-Ranges: bytes
+Backend-Timing: D=67229 t=1498557998188350
+Last-Modified: Tue, 27 Jun 2017 09:06:38 GMT
+Content-Encoding: gzip
+Server: mw1275.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Cache: cp1053 pass, cp2016 pass, cp4016 pass, cp4017 pass
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-Analytics: ns=0;page_id=23780;WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Content-Security-Policy-Report-Only: default-src *.wikimedia.org *.wikipedia.org *.wiktionary.org *.wikisource.org *.wikibooks.org *.wikiversity.org *.wikiquote.org *.wikinews.org www.mediawiki.org www.wikidata.org *.wikivoyage.org data: blob: 'self'; script-src *.wikimedia.org 'unsafe-inline' 'unsafe-eval' 'self'; style-src  *.wikimedia.org data: 'unsafe-inline' 'self'; report-uri /w/api.php?action=cspreport&format=none&reportonly=1&source=wmfwiki&
+Content-Security-Policy-Report-Only: default-src *.wikimedia.org *.wikipedia.org *.wiktionary.org *.wikisource.org *.wikibooks.org *.wikiversity.org *.wikiquote.org *.wikinews.org www.mediawiki.org www.wikidata.org *.wikivoyage.org data: blob: 'self'; script-src *.wikimedia.org 'unsafe-inline' 'unsafe-eval' 'self'; style-src  *.wikimedia.org data: 'unsafe-inline' 'self'; report-uri /w/api.php?action=cspreport&format=none&reportonly=1&source=wmfwiki&
+X-Ua-Compatible: IE=Edge
+Set-Cookie: stopMobileRedirect=true; expires=Thu, 27-Jul-2017 10:06:38 GMT; Max-Age=2592000; path=/; domain=.wikimediafoundation.org; httponly
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Link: </static/images/project-logos/foundationwiki.png>;rel=preload;as=image;media=not all and (min-resolution: 1.5dppx),</static/images/project-logos/foundationwiki-1.5x.png>;rel=preload;as=image;media=(min-resolution: 1.5dppx) and (max-resolution: 1.999999dppx),</static/images/project-logos/foundationwiki-2x.png>;rel=preload;as=image;media=(min-resolution: 2dppx)
+Date: Tue, 27 Jun 2017 10:06:38 GMT
+X-Varnish: 19008166, 400255844, 51725644, 156282945
+X-Client-Ip: 180.173.144.160
+X-Content-Type-Options: nosniff
+X-Cache-Status: pass
+X-Webkit-Csp-Report-Only: default-src *.wikimedia.org *.wikipedia.org *.wiktionary.org *.wikisource.org *.wikibooks.org *.wikiversity.org *.wikiquote.org *.wikinews.org www.mediawiki.org www.wikidata.org *.wikivoyage.org data: blob: 'self'; script-src *.wikimedia.org 'unsafe-inline' 'unsafe-eval' 'self'; style-src  *.wikimedia.org data: 'unsafe-inline' 'self'; report-uri /w/api.php?action=cspreport&format=none&reportonly=1&source=wmfwiki&
+Vary: Accept-Encoding,Cookie
+X-Powered-By: HHVM/3.18.2
+Age: 0
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate

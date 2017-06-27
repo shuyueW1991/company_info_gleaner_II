@@ -1,0 +1,738 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<title>保护文学艺术作品伯尔尼公约（1992）-中国（福建）自由贸易试验区门户网站</title>
+<meta name="keywords" content="福州自贸区官网,自贸区官网,福建自贸区官网,中国自贸区,平潭片区,厦门片区,福州片区,自贸区,中国福建自由贸易试验区,中国(福建)自由贸易试验区,平潭自贸区,厦门自贸区,福州自贸区,福建自贸区,平潭自由贸易试验区,厦门自由贸易试验区,福州自由贸易试验区,福建自由贸易试验区,中国（福建）自由贸易试验区,中国（福建）自由贸易试验区门户网站" /><meta name="description" content="中国（福建）自由贸易试验区网站（www.china-fjftz.gov.cn）是中国（福建）自由贸易试验区唯一的官方门户网站，包括福建自贸区总站、自贸区福州片区、自贸区厦门片区、自贸区平潭片区网站。用于发布福建自贸区新闻动态、政策法规、政策解读、规划方案、自贸区网上办事、自贸区对台合作等内容" />
+<meta name="copyright" content="Copyright 2017 - 中国（福建）自由贸易试验区,中国（福建）自由贸易试验区门户网站" />
+<meta name="baidu-site-verification" content="rL3Om7WEqh" />
+<script> 
+   (function() {
+     if (! 
+     /*@cc_on!@*/
+     0) return;
+     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     var i= e.length;
+     while (i--){
+         document.createElement(e[i])
+     } 
+})() 
+</script>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css"/>
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/index_tab.js"></script>
+<script type="text/javascript" src="/js/jquery.SuperSlide.js"></script>
+
+<script type="text/javascript" src="/js/jzf.js"></script>
+
+<script language="javascript" type="text/javascript">
+var baseUrl='/',controller='article';
+function showtime()
+{
+var today,hour,second,minute,year,month,date;
+var strDate ;
+today=new Date();
+var n_day = today.getDay();
+switch (n_day)
+{
+    case 0:{
+      strDate = "星期日"
+    }break;
+    case 1:{
+      strDate = "星期一"
+    }break;
+    case 2:{
+      strDate ="星期二"
+    }break;
+    case 3:{
+      strDate = "星期三"
+    }break;
+    case 4:{
+      strDate = "星期四"
+    }break;
+    case 5:{
+      strDate = "星期五"
+    }break;
+    case 6:{
+      strDate = "星期六"
+    }break;
+    case 7:{
+      strDate = "星期日"
+    }break;
+}
+year = today.getFullYear();
+month = today.getMonth()+1;
+date = today.getDate();
+hour = today.getHours();
+minute =today.getMinutes();
+second = today.getSeconds();
+document.getElementById('time').innerHTML = year + "年" + month + "月" + date + "日" + strDate +" " + hour + ":" + minute + ":" + second; //显示时间
+setTimeout("showtime();", 1000); //设定函数自动执行时间为 1000 ms(1 s)
+}
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fa77760ba71400031b0fe2ba39b97748";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?49ca092d1107900217cfd9ae2cdb9b72";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".tc").find(".tz_box").hide(0);
+        $(".tc").hover(
+		function () { $(this).css("z-index", "20").find(".tz_box").css("z-index", "50").stop(true, true).animate({ opacity: "show" }); },
+		function () { $(this).css("z-index", "1").find(".tz_box").css("z-index", "1").stop(true, true).animate({ opacity: "hide" }); }
+		);
+
+        $(".search_text").focus(function () {
+
+            $(this).addClass("focus");
+
+        }).blur(function () {
+
+            $(this).removeClass("focus");
+
+        });
+    });
+</script>
+</head>
+<body>
+	<header>
+	<div class="gb_top">
+    	<div class="container gb_main">
+        	<div class="left"> 
+                <div class="time_box"> 
+                    <span id="time"></span> 
+                    <script language="javascript"> showtime();</script> 
+                </div>
+                <p>中国(福建)自由贸易试验区欢迎您!</p> 
+            </div>
+            <div class="fright">
+            	<ul class="gb_top_list"><li><a href="javascript:ClickObject1();">简体版</a></li><li> | </li><li><a href="javascript:ClickObject2();">繁體版</a></li><li> | </li><li><a href="/html/en">English</a></li><li> | </li><li><a href="#" style="position:relative;*z-index:1">手机门户<ul class="xl_erweima"><li><img src="/images/mb_qrcode.png"><p>手机站二维码</p></li></ul></a></li><li> | </li><li><a href="#" style="position:relative;*z-index:1">微信<ul class="xl_erweima"><li><img src="/images/wx_qrcode.jpg"><p>微信二维码</p></li></ul></a></li><li> | </li><li><a target="_blank" href="http://weibo.com/fjftz" style="position:relative;*z-index:1">微博<ul class="xl_erweima"><li><img src="/images/wb_qrcode.png"><p>微博二维码</p></li></ul></a></li><li> | </li><li><a target="_blank" href="http://www.fiet.gov.cn/">福建省商务厅</a></li></ul>
+            </div>
+        </div>
+    </div>
+</header><div class="container">	
+		<div class="gb_logo_box">
+    	<div class="gb_logo"><a href="/"></a></div>
+    </div>
+    <div class="gb_banner">
+    <div id="slideBox" class="slideBox">
+    <div class="hd">
+      <ul>
+        <li style="visibility: hidden"><a></a></li>
+        <li><a target="_blank" href="http://www.fzftz.gov.cn/" class="on">福州片区</a></li>
+        <li><a target="_blank" href="http://www.xmftz.gov.cn/" class="a_xm on">厦门片区</a></li>
+        <li><a target="_blank" href="http://ptftz.pingtan.gov.cn/" class="a_pt on">平潭片区</a></li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li style="background:url(/images/picture_zmq.jpg) center no-repeat"><a href="http://picture.china-fjftz.gov.cn/" target="_blank""></a></li>
+        <li style="background:url(/images/fzftz.jpg) center no-repeat"><a href="#"></a></li>
+        <li style="background:url(/images/xmftz.jpg) center no-repeat"><a href="#"></a></li>
+        <li style="background:url(/images/ptftz.jpg) center no-repeat"><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+        <script type="text/javascript">
+		jQuery(".slideBox").slide( { mainCell:".bd ul",effect:"leftLoop",autoPlay:true} );</script> 
+    </div>
+    
+    
+    <nav class="nav"> 
+        <ul class="sy1_ul">
+          <div class="sy2_inside">
+            <li class="sy1_li"><a href="/" class="sy1_tit ">首页</a></li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli1"> <a class="sy1_tit " href="/article/index/gid/8/aid/142" target="_self"><span class="navspan">走进自贸区</span></a>
+              <ul class="sy2_ul">
+              	<div class="into_fta">
+                	<div class="fta_left">
+                    	<img src="/images/ftzmap.jpg">
+                        <p>2014年12月31日，国务院正式批复设立中国（福建）自由贸易试验区。中国（福建）自由贸易试验区从此成为中国大陆境内继上海自贸试验区之后的第二批自贸试验区。中国（福建）自由贸易试验区范围总面积118.04平方公里，包括平潭、厦门、福州3个片区。其中平潭片区43平方公里、厦门片区43.78平方公里、福州片区31.26平方公里。<a href="/article/index/gid/8/aid/142.html">【更多】</a></p>
+                    </div>
+                    <div class="fta_right">
+                    	<ul>
+                        	<li><a href="/article/index/gid/8/aid/142.html"><img src="/images/fta_01.png"><p>自贸区简介</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/11/aid/143"><img src="/images/fta_04.png"><p>福州片区简介</p></a></li>
+                            <li><a href="/article/index/gid/9/aid/358.html"><img src="/images/fta_02.png"><p>机构职能与设置</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/12/aid/144"><img src="/images/fta_05.png"><p>厦门片区简介</p></a></li>
+                            <li><a href="/article/index/gid/14/aid/4.html"><img src="/images/fta_03.png"><p>自贸区大事记</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/13/aid/145"><img src="/images/fta_06.png"><p>平潭片区简介</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli2"> <a class="sy1_tit " href="/article/list/gid/3" target="_self"><span class="navspan">新闻资讯</span></a>
+              <ul class="sy2_ul">
+              	<div class="gb_xl_news">
+                	<div class="slideTxtBox">
+						<div class="hd">
+							<ul><li><a href="">工作动态</a></li><li><a href="">媒体报道</a></li><li><a href="">福建资讯</a></li></ul>
+						</div>
+						<div class="bd">
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6531.html">
+							2017年版自贸试验区外商投资负面清单减至95项</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6451.html">
+							江阴港区海铁联运到发箱量突破5000标箱</a><span class="date">06-15</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6409.html">
+							香港全国人大代表来闽开展专题调研</a><span class="date">06-12</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6408.html">
+							厦门市自贸委、厦门市国资委举办企业转型升级高级研讨班</a><span class="date">06-12</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6391.html">
+							平潭片区与四川自贸试验区川南临港片区签署战略合作协议</a><span class="date">06-08</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6378.html">
+							尤权会见香港全国人大代表访问团</a><span class="date">06-07</span></li>
+											
+							</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6541.html">
+							台湾“中华茶联”厦门设代表处在海沧自贸园区揭牌</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6540.html">
+							习近平主持召开中央全面深化改革领导小组第三十六次会议</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6524.html">
+							今年以来福建江阴港进口汽车3700辆 同比增长五成</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6523.html">
+							菲律宾《联合日报》关注厦门汽车进口贸易：欧洲汽车可直抵厦门</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6522.html">
+							厦门片区太古海投冷链物流厦门冷库正式投用</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6514.html">
+							驶入深蓝 ——中国自贸区“大胆试、大胆闯、自主改”的厦门新实践</a><span class="date">06-22</span></li>
+											</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6545.html">
+							福建“拥抱”世界华文传媒论坛 助推“海丝”建设</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6544.html">
+							福建提升自贸协定原产地签证水平显成效</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6543.html">
+							原产地证书助力莆田企业驰骋“一带一路”</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6534.html">
+							闽出台意见进一步降低实体经济企业成本</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6533.html">
+							福建省再增两个国家级双创示范基地</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6532.html">
+							“一带一路”法律保障高峰论坛举行</a><span class="date">06-26</span></li>
+											</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+                </div>
+                <div class="gb_xl_video">
+                    <h3><a href="/article/video/gid/29" target="_blank">视频新闻</a></h3>
+                    <div class="video_list">
+                    	<ul>
+										
+                        	<li><a target="_blank" href="/article/index/aid/6539.html"><span></span><img src="/upfile/files/201706/26/125721_524.jpg"><p>大陆首家台商独资海员...</p></a></li>
+										
+                        	<li><a target="_blank" href="/article/index/aid/6494.html"><span></span><img src="/upfile/files/201706/19/180450_786.jpg"><p>自贸区负面清单“再瘦...</p></a></li>
+											
+                        </ul>
+                    </div>
+                    <div class="video_news_list">
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6476.html">自贸新路径 厦门：获批为汽车整车进口口岸</a><span class="date">（06-16）</span></li>
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6407.html">福州港开通直航印尼集装箱航线</a><span class="date">（06-09）</span></li>
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6406.html">香港全国人大代表访问团考察福建自贸试验区</a><span class="date">（06-09）</span></li>
+										 
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli3"> <a class="sy1_tit " href="/article/list/gid/4" target="_self"><span class="navspan">信息公开</span></a>
+              <ul class="sy2_ul">
+              	<div class="info_list">
+                	<ul>
+                    	<li><a target="_blank" href="/article/list/gid/66"><i class="fa fa-volume-up"></i>国家支持政策</a></li>
+                        <li><a target="_blank" href="/article/list/gid/22"><i class="fa fa-location-arrow"></i>方案与规划</a></li>
+						<li><a target="_blank" href="/article/list/gid/23"><i class="fa fa-signal"></i>统计数据</a></li>
+                        <li><a target="_blank" href="http://www.fiet.gov.cn/xxgk/zfxxgkzl/"><i class="fa fa-file-text-o"></i>政府信息公开专栏</a></li>
+                     </ul>
+                </div>
+                <div class="info_box">
+                	<div class="info_news" style="border-bottom:dotted 1px #ddd; padding-bottom:15px; margin-bottom:15px;">
+                    	<h3>通知公告<a target="_blank" href="/article/list/gid/19">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/5902.html">
+							关于启动实施新的外国人来华工作许可制度的...</a><span class="date">03-31</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5669.html">
+							关于印发 《福建省引进台湾高层次人才“百...</a><span class="date">02-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5285.html">
+							关于海关特殊监管区域和保税监管场所保税货...</a><span class="date">01-05</span></li>
+										
+                        </ul>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="info_news"  style="border-bottom:dotted 1px #ddd; padding-bottom:15px; margin-bottom:15px;">
+                    	<h3>政策法规<a target="_blank" href="/article/list/gid/20">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/6513.html">
+							质检总局关于推进检验检疫改革创新 进一步...</a><span class="date">06-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6480.html">
+							国务院办公厅关于印发自由贸易试验区外商投...</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6353.html">
+							厦门市市场监督管理局关于印发推进自贸区商...</a><span class="date">06-02</span></li>
+					
+                        </ul>
+                    </div>
+                    <div class="info_news">
+                    	<h3>政策解读<a target="_blank" href="/article/list/gid/44">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/6513.html">
+							质检总局关于推进检验检疫改革创新 进一步...</a><span class="date">06-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6480.html">
+							国务院办公厅关于印发自由贸易试验区外商投...</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6353.html">
+							厦门市市场监督管理局关于印发推进自贸区商...</a><span class="date">06-02</span></li>
+					
+                        </ul>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="info_news">
+                    	<h3>扶持政策<a target="_blank" href="/article/list/gid/21">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/5828.html">
+							平潭综合实验区管委会关于促进会展产业发展...</a><span class="date">03-24</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5803.html">
+							福州市人民政府办公厅关于印发《福州港口生...</a><span class="date">03-21</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/4508.html">
+							福建省深化人才发展体制机制改革实施意见</a><span class="date">09-20</span></li>
+					
+                        </ul>
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli4"> <a class="sy1_tit " href="#" target="_self"><span class="navspan">办事大厅</span></a>
+              <ul class="sy2_ul">
+              	<div class="xl_fta_box">
+                	<div class="box_left"></div>
+                    <div class="box_middle">
+                    	<ul>
+                        	<li><img src="/images/fz_fta.png"><p>福州片区办事大厅</p><a target="_blank" href="http://www.fzftz.gov.cn/wsbs.aspx">办事入口</a></li>
+                            <li><img src="/images/xm_fta.png"><p>厦门片区办事大厅</p><a target="_blank" href="http://www.xmftz.gov.cn/wsbs/">办事入口</a></li>
+                            <li><img src="/images/pt_fta.png"><p>平潭片区办事大厅</p><a target="_blank" href="http://zzhy.ptxzfwzx.gov.cn/">办事入口</a></li>
+                        </ul>
+                    </div>
+                    <div class="box_right"></div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli5"> <a class="sy1_tit " href="/gcolumn/ztlm" target="_self"><span class="navspan">专题专栏</span></a>
+              <ul class="sy2_ul">
+              	<div class="zt_left">
+                	<div class="zt_title"><i></i>专题</div>
+                    <ul>
+										
+                    	<li>
+                        	<div class="zt_img"><a target="_blank" href="http://picture.china-fjftz.gov.cn/"><img src="/upfile/files/201705/05/144925_772.jpg"></a></div>
+                            <div class="zt_text">
+                            	<a target="_blank" href="http://picture.china-fjftz.gov.cn/" class="text_name">福建自贸试验区随手拍&摄影采风作品评选活...</a>
+                                <p><a href="http://picture.china-fjftz.gov.cn/">【详情】</a></p>
+                            </div>
+                            
+                        </li>
+										
+                    	<li>
+                        	<div class="zt_img"><a target="_blank" href="/html/zmqtp/"><img src="/upfile/files/201610/14/083618_111.jpg"></a></div>
+                            <div class="zt_text">
+                            	<a target="_blank" href="/html/zmqtp/" class="text_name">福建自贸试验区2015-2016年度评选活动结果公布</a>
+                                <p>福建自贸试验区2015-2016年度评选活动结果公布<a href="/html/zmqtp/">【详情】</a></p>
+                            </div>
+                            
+                        </li>
+				                    </ul>
+                </div>
+                <div class="zt_right">
+                	<div class="zt_title"><i></i>专栏</div>
+                	<ul>
+										
+                    	<li><a target="_blank" href="/article/list/gid/65.html"><i></i><p>中央媒体报道福建自贸区专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/68.html"><i></i><p>福建自贸区建设成效专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/58.html"><i></i><p>福建创新举措专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/67.html"><i></i><p>福建自贸区实践案例专栏</p></a></li>
+										
+                    </ul>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli6"> <a class="sy1_tit " href="/article/list/gid/70" target="_self"><span class="navspan">对台直通车</span></a>
+              <ul class="sy2_ul">
+              	<div class="gb_xl_news">
+                	<div class="slideTxtBox">
+						<div class="hd">
+							<ul><li><a href="">对台新闻</a></li><li><a href="">对台政策</a></li><li><a href="">创新举措</a></li></ul>
+						</div>
+						<div class="bd">
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6548.html">
+							福建探索海峡博士后计划 深化两岸人才交流...</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6547.html">
+							百余家福建台资企业 将首次联合赴台征才</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6546.html">
+							福建“六区”发展战略 与闽台深度融合发展</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6538.html">
+							第四届中国青年创新创业大赛（福建赛区）启...</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6537.html">
+							两岸护理专家在厦门探讨创新</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6536.html">
+							银监会推动解决台胞办理信用卡难试点工作—...</a><span class="date">06-26</span></li>
+												
+							</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/3427.html">
+							 厦门检验检疫局中国（福建）自由贸易试验...</a><span class="date">04-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/3396.html">
+							厦门检验检疫局中国（福建）自由贸易试验区...</a><span class="date">04-19</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1485.html">
+							台湾导游领队在福建自贸试验区执业实施方案</a><span class="date">08-07</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1239.html">
+							台湾会计专业人士担任中国（福建）自由贸易...</a><span class="date">07-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1091.html">
+							台湾药师在福建自由贸易试验区执业的管理暂...</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/869.html">
+							关于取得大陆注册结构工程师等3类执业资格...</a><span class="date">06-02</span></li>
+											</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6479.html">
+							采认台湾教师从业资格</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6478.html">
+							台胞参保直通车</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6477.html">
+							采认进出港台籍船舶技术证照</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5670.html">
+							两岸保险“创研中心”</a><span class="date">02-24</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5664.html">
+							台湾中高层次人才认定新机制</a><span class="date">02-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5663.html">
+							台资建筑业企业资质认定办法</a><span class="date">02-23</span></li>
+											</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+                </div>
+                <div class="gb_xl_video">
+                    <div class="fw_list">
+                    	<img src="/images/dtztc.jpg"/>
+                    </div>
+                   
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+          </div>
+          <div class="gb_search">
+            <FORM action="/article/list.html" method="post" id="searchForm">
+				<input type="text" class="gb_text_box" id="keywords" name="keywords" value="" placeholder="请输入关键字" />
+                <input type="submit" value="" class="gb_btn_ok">
+            </FORM>
+        </div>
+        </ul>
+        
+    </nav>		<div class="address">
+            <div class="add_box">您所在的位置：<a href="http://www.china-fjftz.gov.cn">首页</a>  > <a href="/gcolumn/ztlm.html">专题专栏</a> > <a href="/gcolumn/ztlm1/gid/25.html">知识产权专栏</a> > <a href="/article/list/gid/51.html">国际条约</a></div>
+    </div>
+	<div class="left">
+    <div id="nav">
+    <h1>知识产权专栏</h1><ul><li><a class="selected" href="/article/list/gid/51.html">国际条约</a></li><li><a  href="/article/list/gid/52.html">国内法律</a></li><li><a  href="/article/list/gid/53.html">行政法规</a></li><li><a  href="/article/list/gid/54.html">纠纷解决</a></li></ul>    </div>
+        <div class="hot_list" id="smartFloat_tags">
+      <h3 class="title_name">热门文章</h3>
+      <ul>
+      <li><span class="number front">1</span><a href="/article/index/aid/142.html">中国（福建）自由贸易试验区简介</a><span class="read">121115</span></li><li><span class="number front">2</span><a href="/article/index/aid/143.html">中国（福建）自由贸易试验区 • 福州片区</a><span class="read">85964</span></li><li><span class="number front">3</span><a href="/article/index/aid/3742.html">办事指南</a><span class="read">81147</span></li><li><span class="number">4</span><a href="/article/index/aid/144.html">中国（福建）自由贸易试验区 • 厦门片区</a><span class="read">76190</span></li><li><span class="number">5</span><a href="/article/index/aid/430.html">联系我们</a><span class="read">74300</span></li><li><span class="number">6</span><a href="/article/index/aid/358.html">机构设置和职能</a><span class="read">60928</span></li><li><span class="number">7</span><a href="/article/index/aid/428.html">使用帮助</a><span class="read">54571</span></li><li><span class="number">8</span><a href="/article/index/aid/429.html">法律声明</a><span class="read">41727</span></li>       
+      </ul>
+    </div>
+  </div>    
+    <div class="right">
+    	    	<div class="right_title"><span>国际条约</span></div>
+    	        <div class="content_box">
+                    <h1>保护文学艺术作品伯尔尼公约（1992）</h1>
+          <div class="wd_info"><span>2015-02-14 16:00:31</span>
+		            来源：<span>福建省商务厅</span>		  阅读次数：<span class="blue">2505</span>次</div>
+                                        <div class="news_vdcon">
+            <div style="TEXT-ALIGN: left">　　（1886年9月9日签订，1896年5月4日于巴黎补充；1908年11月13日于柏林修订，1914年3月20日于伯尔尼补充，1928年6月2日于罗马修订，1948年6月26日于布鲁塞尔修订，1967年7月14日于斯德哥尔摩修订，1971年7月24日于巴黎修订，1979年10月2日更改；1992年7月1日中华人民共和国全国人民代表大会常务委员会批准加入。声明根据附件第一条的规定，享有附件第二条和第三条规定的权利）</div>　　<br />　　本联盟各成员国，受到尽可能有效地和尽可能一致地保护作者对其文学艺术作品所享权利的共同愿望的鼓舞，<br />　　<br />　　承认一九六七年在斯德哥尔摩举行的修订会议工作的重要性。<br />　　<br />　　决定修订斯德哥尔摩会议通过的文本，但不更动该文本第一至二十条和第二十二至二十六条。<br />　　<br />　　下列签字的全权代表以交验全权证书认为妥善后，兹协议如下：<br />　　<br />　　第一条<br />　　<br />　　适用本公约的国家组成保护作者对其文学艺术作品所享权利的联盟。<br />　　<br />　　第二条<br />　　<br />　　一、“文学艺术作品”一词包括科学和文学艺术领域内的一切作品，不论其表现方式或形式如何，诸如书籍、小册子及其他著作；讲课、演讲、讲道及其他同类性质作品；戏剧或音乐戏剧作品；舞蹈艺术作品及哑剧作品；配词或未配词的乐曲；电影作品或以电影摄影术类似的方法创作的作品；图画、油画、建筑、雕塑、雕刻及版画；摄影作品及以与摄影术类似的方法创作的作品；实用美术作品；插图、地图；与地理、地形、建筑或科学有关的设计图、草图及造型作品。<br />　　<br />　　二、但本联盟各成员国法律有权规定仅保护表现于一定物质形式的文学艺术作品或其中之一种或数种。<br />　　<br />　　三、翻译作品、改编作品、改编乐曲以及某件文学或艺术作品的其他改变应得到与原著同等的保护，而不损害原著作者的权利。<br />　　<br />　　四、本联盟成员国得以立法确定对立法、行政或司法性质的官方文件及这些文件的正式译本的保护。<br />　　<br />　　五、文学或艺术作品的汇集本，诸如百科全书和选集，由于对其内容的选择和整理而成为智力创作品，应得到与此类作品同等的保护，而不损害作者对这种汇集本内各件作品的权利。<br />　　<br />　　六、上述作品得在本联盟所有成员国内享受保护。此种保护应为作者及其权利继受人的利益而行使。<br />　　<br />　　七、考虑到本公约第七条第四款的规定，本联盟成员国得以立法规定涉及实用美术作品及工作设计和模型的法律的适用范围，并规定此类作品，设计和模型的保护条件。在起源国单独作为设计和模型受到保护的作品，在本联盟其他成员国可能只得到该国为设计和模型所提供的专门保护。但如在该国并不给予这类专门保护，则这些作品将作为艺术品得到保护。<br />　　<br />　　八、本公约所提供的保护不得适用于日常新闻或纯属报刊消息性质的社会新闻。（参见著作权法第3-5条）<br />　　<br />　　第二条（之二）<br />　　<br />　　一、本联盟成员国有权以立法规定把政治演讲和诉讼过程中发表的言论部分或全部排除于上条提供的保护之外。<br />　　<br />　　二、本联盟成员国同样有权以立法规定对讲演、发言或其他同类性质作品进行报刊转载、无线或有线广播以及构成本公约第十一条之二第一款所指的公共传播对象的条件，如果上述报道之目的证明此种使用为正当的话。<br />　　<br />　　三、但作者享有将上两款所提作品收编成汇集本的专有权。<br />　　<br />　　第三条<br />　　<br />　　一、根据本公约<br />　　<br />　　a）为本联盟任何一成员国公民的作者，其作品无论是否发表，应受到保护；<br />　　<br />　　b）非为本联盟任何一成员国公民的作者，其作品首次在本联盟一成员国出版或在本联盟一成员国和一非本联盟成员国内同时出版的，应受到保护；<br />　　<br />　　二、非本联盟任何一成员国公民但在一成员国国内有经常居住的作者，在适用本公约时，与该国公民作者同等对待。<br />　　<br />　　三、“已发表作品”应理解为在其作者同意下出版的著作，不论其复制件的制作方式如何，但考虑到这部著作的性质，复制件的发行在数量和方式上需要满足公众的合理需要。戏剧、音乐戏剧或电影作品的上演，音乐作品的演奏，文学作品的当众朗诵，文学或艺术作品的广播或转播，美术作品的展出及建筑作品的建造不是发表。<br />　　<br />　　四、在首次发表后三十天内在两个或两个以上国家出版的任何作品视为同时在几国发表。（参见著作权法第2条）<br />　　<br />　　第四条 即使第三条规定之条件未具备；下述作者根据本公约也应受到保护：<br />　　<br />　　a）其电影作品的制片人在本联盟某一成员国有所在地或经常居所的；<br />　　<br />　　b）建造在本联盟某一成员国内的建筑物或设置在本联盟某一成员国内房屋中的绘画和造型艺术品的。<br />　　<br />　　第五条<br />　　<br />　　一、根据本公约得到保护作品的作者，在除作品起源国外的本联盟各成员国，就其作品享受各该国法律现今给予或今后将给予其国民的权利，以及本公约特别授予的权利。<br />　　<br />　　二、享受和行使这类权利不需履行任何手续，也不管作品起源国是否存在有关保护的规定。因此，除本公约条款外，只有向之提出保护要求的国家的法律方得规定保护范围及向作者提供的保护其权利的补救方法。<br />　　<br />　　三、起源国的保护由该国本国法律作出规定。即使作者并非作品起源国的国民，但他就其作品根据本公约受到保护，他在该国仍享有同该国公民作者相同的权利。<br />　　<br />　　四、起源国指的是：<br />　　<br />　　a）对于首次在本联盟一成员国发表的作品，应以该国家为起源国；对于在给予不同保护期的本联盟数成员国同时发表的作品，起源国为立法给予最短保护期的国家；<br />　　<br />　　b）对于在非本联盟成员国和本联盟某一成员国同时发表的作品，应视后者为起源国；<br />　　<br />　　c）对于未发表的作品或首次在非本联盟成员国发表而未同时在本联盟成员国发表的作品，则以作者为其公民的本联盟成员国为起源国，然而<br />　　<br />　　1）对于其制片人于本联盟某一成员国有所在地或经常居所的电影作品，则以该国为起源国；<br />　　<br />　　2）对于建立在本联盟某一成员国内的建筑物或设置在本联盟某一成员国房屋中的绘画和造型艺术作品，应以该国为起源国。<br />　　<br />　　第六条<br />　　<br />　　一、凡任何非本联盟成员国未能充分保护本联盟某一成员国国民为作者的作品时，后一国可对在作品首次发表时系前一国国民而又在任何一联盟成员国内无经常居所之作者的作品的保护加以限制。如首次发表作品国利用这种权利，则本联盟其他成员国对受此特殊待遇的作品无义务给予比首次发表作品国所给予的更广泛的保护。<br />　　<br />　　二、根据前款规定所确定的任何限制均不应损害在此限制实施之前作者就在本联盟任何一成员国发表的作品已经获得的权利。<br />　　<br />　　三、根据本条对作品权利的保护施加限制的本联盟成员国应以书面声明通知世界知识产权总干事（以下称总干事），指出保护受到限制的国家以及为这些国家公民的作者的权利所受的各种限制。总干事应立即向本联盟所有成员通报该项声明。<br />　　<br />　　第六条（之二）<br />　　<br />　　一、不受作者财产权的影响，甚至在上述财产权转让之后，作者仍保有主张对其作品的著作者身份的权利，并享有反对对上述作品进行任何歪曲或割裂或有损于作者声誉的其他损害的权利。<br />　　<br />　　二、根据前款给予作者的权利，在其死后至少应保留到财产权期满为止，并由向之提出保护要求的国家本国法所授权的人或机构行使。但在批准或加入本条约时其法律未包括保证作者死后保护前款承认权利的各国，有权规定这些权利中某些权利在作者死后无效。<br />　　<br />　　三、为保障本条所承认的权利而采取的补救方法由向之提出保护要求的国家的法律规定。<br />　　<br />　　第七条<br />　　<br />　　一、本公约给予保护的期限为作者终生及其死后五十年。<br />　　<br />　　二、但对于电影作品，本联盟成员国有权规定，保护期限自作品在作者同意下公映后五十年届满，如自作品摄制完成后五十年内尚未公映，则自作品摄制完成后五十年届满。<br />　　<br />　　三、对于不具名作品和具笔名作品，本公约给予的保护期为自其合法向公众发表之日起五十年。但如作者采用的笔名不致引起对其身份发生任何怀疑时，该保护期则为第一款所规定的期限。如不具名作品或具笔名作品的作者在上述期间内披露其身份，则适用第一款所规定的保护期限。本联盟成员国没有义务保护不具名作品或具笔名作品，如果有充分理由假定其作者已死去五十年。<br />　　<br />　　四、本联盟成员国有权以法律规定摄影作品及作为艺术品加以保护的实用美术作品的保护期限；但这一期限不应少于自该作品完成时算起二十五年。<br />　　<br />　　五、作者死后的保护期和上述第二、三及四款所规定的期限应从作者死亡日或上述款项提及事情发生日起算，但这种期限只能从死亡后或所述事件发生后次年的一月一日开始计算。<br />　　<br />　　六、本联盟成员国有权规定比前述各款规定期限为长的保护期。<br />　　<br />　　七、受本公约罗马文本约束并在本文件签署时有效的本国法律中规定了比前述各款规定期限为短的保护期的本联盟成员国，有权在加入或批准本文件时保留这种期限。<br />　　<br />　　八、在一切情况下，期限由向之提出保护要求的国家的法律加以规定；但除该国法律另有规定外，这个期限不得超过作品起源国规定的期限。（参见著作权法第21条）<br />　　<br />　　第七条（之二）<br />　　<br />　　前条规定同样适用于作品的版权属于合著者共有的场合，但作者死后的保护期应从最后死亡的作者死亡之日起算。（参见著作权法第21条）<br />　　<br />　　第八条<br />　　<br />　　受本公约保护的文学艺术作品的作者，在对原著享有权利的整个保护期内，享有翻译和授权翻译其作品的专有权。（参见著作权法第10条）<br />　　<br />　　第九条<br />　　<br />　　一、受本公约保护的文学艺术作品的作者，享有批准以任何方式和采取任何形式复制这些作品的专有权。<br />　　<br />　　二、本联盟成员国法律有权允许在某些特殊情况下复制上述作品，只要这种复制不致损害作品的正常使用也不致无故危害作者的合法利益。<br />　　<br />　　三、所有录音或录像均应视为本公约所指的复制。（参见著作权法第10条）<br />　　<br />　　第十条<br />　　<br />　　一、从一部合法向公众发表的作品中摘出引文，包括以报刊摘要形式摘引报纸期刊的文章，只要符合善良习惯，并在为达到正当目的所需要范围内，就属合法。<br />　　<br />　　二、通过出版物、无线电广播或录音录像使用文学艺术作品作为教学解说的权利，只要是在为达到正当目的所需要的范围内使用，并且符合正当习惯，即可由本联盟成员国法律以及成员国之间现已签订或将要签订的特别协议加以规定。（参见著作权法第22条）<br />　　<br />　　三、根据本条前两款使用作品时，应指明出处，如原出处有作者姓名，也应同时说明。<br />　　<br />　　第十条（之二）<br />　　<br />　　一、对在报纸或期刊上已发表的经济、政治和宗教问题的时事性文章，或无线电已转播的同样性质的作品，本联盟成员国法律有权准许在报刊上转载，或向公众作无线或有线广播，如果对这种转载、广播或转播的权利未作直接保留的话。但任何时候均应明确指出出处；不履行该项义务的后果由向之提出保护要求的国家以法律规定。<br />　　<br />　　二、本联盟成员国法律也有权规定，在任何条件下，对在时事事件过程中出现或公开的文学和艺术作品，在为报导目的正当需要范围内，可予以复制，或者以摄影或电影手段或通过无线电或有线广播向公众作时事新闻报导。（参见著作权法第22条）<br />　　<br /><p></p>&nbsp; &nbsp; &nbsp; &nbsp;第十一条<br />　　<br />　　一、戏剧作品、音乐戏剧作品或音乐作品的作者享有下述专有权：1. 许可公开演奏和公演其作品，包括用各种手段和方式的公开演奏和公演；2. 许可用各种手段公开播送<br />　　<br />　　二、戏剧作品或音乐戏剧作品的作者，在对其原著权利的整个期间内，对其作品的翻译享有同样的专有权。<br />　　<br />　　第十一条（之二）<br />　　<br />　　一、文学和艺术作品的作者享有下述专有权：<br />　　<br />　　1. 许可以无线电广播其作品或以任何其他无线播送符号、声音或图像方法向公众发表其作品；2. 许可由原广播机构以外的另一机构通过有线广播或无线广播向公众发表作品；3. 许可通过扩音器或其他任何传送符号、声音或图像的类似工具向公众传送广播作品。<br />　　<br />　　二、本联盟成员国的法律得规定行使上面第一款所指的权利的条件，但这些条件的效力只限于作出这些规定的国家。在任何情况下，这些条件均不应有损于作者的人身非财产权利，也不应有损于作者获得公正报酬的权利，该报酬在无友好协议的情况下应由主管当局规定之。<br />　　<br />　　三、除另有规定外，根据本条第一款给予的许可，不包括利用录音或录像工具录制广播作品的许可。但本联盟成员国法律有权为某一广播机构使用其自己设备并为其自己播送之用而进行短期录制制定规章。本联盟成员国法律也可以批准由于这些录制品具有的特殊文献性质而交付官方档案馆保存。（参见著作权法第10条）<br />　　<br />　　第十一条（之三）<br />　　<br />　　一、文学作品作者享有下述专有权：<br />　　<br />　　（1）许可公开朗诵其作品，包括用各种手段或方式公开朗诵其作品，以及（2）许可作各种手段公开播送其作品的朗诵。<br />　　<br />　　二、文学作品作者在对其原著享有权利的整个期限内，对其作品的翻译也享有同样权利。（参见著作权法第10条）<br />　　<br />　　第十二条<br />　　<br />　　文学和艺术作品的作者享有批准对其作品进行改编、整理和其他改变的专有权。（参见著作权法第10条）<br />　　<br />　　第十三条<br />　　<br />　　一、本联盟每一成员国得就乐曲作者及允许歌词与乐曲一道录音的歌词作者对允许录制上述乐曲及乐曲连同歌词（如有歌词时）的专有权的保留及条件为本国作出规定；但这类保留及条件之效力严格限于对此作出规定的国家范围内，而且在任何情况下均不应损害作者获得在没有友好协议情况下由主管当局规定的公正报酬的权利。<br />　　<br />　　二、根据1928年6月2日在罗马和1948年6月26日在布鲁塞尔签订的本公约文本第十三条第三款，在本联盟任何一成员国内录制的乐曲录音，自本条约文本在该国生效之日起两年内，可以不经乐曲作者同意在该国进行复制。<br />　　<br />　　三、根据本条第一、二款制作的录音品，如未经利益关系人批准而输入认定此种录音属于违法行为的国家的，可在该国予以没收。<br />　　<br />　　第十四条<br />　　<br />　　一、文学和艺术作品的作者享有下述专有权：（一）许可把这类作品改编或复制成电影以及发行经改编或复制的作品；（二）许可公开演出演奏以及向公众作有线广播经改编或复制的作品。（参见著作权法第10条）<br />　　<br />　　二、根据文学或艺术作品制作的电影作品以任何其他形式进行改编，在不损害其作者批准权的情况下，仍须经原著作者批准。<br />　　<br />　　三、第十三条第一款的规定不应适用。<br />　　<br />　　第十四条（之二）<br />　　<br />　　一、在不损害可能已经过改编或翻印的所有作品的版权的情况下，电影作品将作为原作品受到保护。电影作品版权所有者享有原作品作者的权利，包括前一条规定的权利。（参见著作权法第15条）<br />　　<br />　　二、a）向之提出保护要求的国家的法律有权决定电影作品版权的所有者。<br />　　<br />　　b）然而，在其法律承认参加电影作品制作的作者应属于版权所有者的本联盟成员国内，这些作者，如果曾承担参加此项工作的义务，除非有相反或特别的规定，无权反对对电影作品的复制、发行、公开演出演奏、向公众有线广播、无线电广播、向公众发表、配制解说和配音。<br />　　<br />　　c）为适用于上面b项规定，上述义务是否应以书面合同或相当的书面文书规定的问题，由影片制片人所在地或居住地的本联盟成员国的法律加以规定。但向之提出保护要求的本联盟成员国有权规定这一义务应以书面合同或相当的书面文书予以确定。运用这一权利的国家应以书面声明通知总干事，并由后者将这一声明通知本联盟其他成员国。<br />　　<br />　　d） “相反或特别的规定”是指附加于上述义务的限制性条件。<br />　　<br />　　三、除非国内法另有规定，本条第二款b项之规定不适用于为电影作品创作的剧本、台词和音乐作品的作者，也不适用于电影作品的主要导演。但其法律并未规定对电影导演适用上述第二款b项的本联盟成员国，应以书面声明通知总干事，总干事应将此声明转达本联盟所有成员国。<br />　　<br />　　第十四条（之三）<br />　　<br />　　一、对于作家和作曲家的艺术原著和原稿，作者或作者死后由国家法律授权的人或机构，享有从作者第一次转让作品之后对作品的每次销售中分取盈利的不可剥夺的权利。<br />　　<br />　　二、只有在作者国籍所属国法律允许的情况下，才可对本联盟某一成员国要求上款所规定的保护，而且保护的程度应限于向之提出保护要求的国家的法律所规定的程度。<br />　　<br />　　三、征税的程序和税额由各国法律决定。<br />　　<br />　　第十五条<br />　　<br />　　一、只要受本公约保护的文学或艺术作品的作者以通常方式在该作品上署名，在没有相反证据的情况下，即视为该作品的作者，并有权在本联盟的成员国中对侵犯其权利的人提起诉讼。即使作者采用的是笔名，只要根据该笔名即能确定作者身份，本款也同样适用。（参见著作权法第11条）<br />　　<br />　　二、以通常方式在电影作品上署名的自然人或法人，除非有相反的证据，即假定为该作品的制片人。<br />　　<br />　　三、对于不具名作品和上述第一款所述作品以外的笔名作品，如果出版者的名字出现在作品上，在没有相反证据的情况下，该出版者即视为作者的代表，并以此资格有权维护和行使作者的权利。当作者披露其身份并证实其为作者时，本款的规定即停止适用。<br />　　<br />　　四、a）对作者的身份不明但有充分理由假定该作者是本联盟某一成国国民的未发表作品，该国法律有权指定主管当局代表该作者并据此维护和行使作者在本联盟各成员国内的权利。<br />　　<br />　　b）根据本规定而指定主管当局的本联盟成员国应以书面声明将此事通知总干事，声明中应写明被指定当局的全部有关情况。总干事应将此声明立即通知本联盟其他所有成员国。<br />　　<br />　　第十六条<br />　　<br />　　一、对于侵犯版权的一切作品，给予原著法律保护的本联盟任何成员国都可以予以没收。<br />　　<br />　　二、上款规定同样适用于从不保护或停止保护某一作品的国家所进口的复制品。<br />　　<br />　　三、没收应按各国法律实行。（参见著作权法第47、51条）<br />　　<br />　　第十七条<br />　　<br />　　本公约的规定绝不妨碍本联盟每一成员国政府以立法或行政程序行使允许、监督或禁止任何作品或其制品的发行、演出或展出的权利，如果有关当局认为有必要对这些作品行使这种权利的话。（参见著作权法第46、47条）<br />　　<br />　　第十八条<br />　　<br />　　一、本公约适用于在本公约开始生效时尚未因保护期满而在其起源国成为公共财产的所有作品。<br />　　<br />　　二、但是，如果作品因原来给予的保护期满而在向之提出保护要求的国家成为公共财产，则该作品不再重新受该国保护。<br />　　<br />　　三、本原则应当遵守本联盟成员国之间现在或将来缔结的专门条约的规定实行。在没有这种规定的情况下，各国可在本国范围内自行决定实行本原则的条件。<br />　　<br />　　四、新加入本联盟时以及因适用第七条或放弃保留而扩大保护范围时，以上规定也同样适用。<br />　　<br />　　第十九条<br />　　<br />　　本公约的规定不妨碍要求本联盟某一成员国法律可能提供的更广泛的保护。<br />　　<br />　　第二十条<br />　　<br />　　本联盟各成员国政府有权在它们之间签订特别协议，以给予作者比本公约所规定的更多的权利，或者包括不违反本公约的其他条款。凡符合上述条件的现有协议的条款仍然适用。<br />　　<br />　　第二十一条<br />　　<br />　　一、有关发展中国家的特别条款载于附件。<br />　　<br />　　二、在遵守第二十八条第一款b项规定的情况下，附件构成本文件的组成部分。<br />　　<br />　　第二十二条<br />　　<br />　　一、a）本联盟设一大会，由本联盟中受第二十二至二十六条约束的成员国组成。<br />　　<br />　　b）每一国家政府应有一名代表，辅以若干副代表，顾问及专家。<br />　　<br />　　c）各代表团的费用由派遣国政府负担。<br />　　<br />　　二、a）大会：<br />　　<br />　　①处理有关维持及发展本联盟以及执行本公约的一切问题；<br />　　<br />　　②适当考虑本联盟中不受第二十二至二十六条约束的成员国的意见，向成立世界知识产权组织（以下称“组织”）公约中提到的国际知识产权局（以下称“国际局”）发布有关筹备修订会议的指示；<br />　　<br />　　③审查和批准本组织总干事有关本联盟的报告及活动，并就本联盟主管范围内的问题向他发布一切必要的指示；<br />　　<br />　　④选举大会执行委员会委员；<br />　　<br />　　⑤审查和批准执行委员会报告及活动，并向它发布指示；<br />　　<br />　　⑥制订计划，通过本联盟三年期预算和批准财政决算；<br />　　<br />　　⑦通过本联盟财务条例；<br />　　<br />　　⑧设立为实现本联盟目标而需要的专家委员会和工作组；<br />　　<br />　　⑨决定哪些非本联盟成员国和政府间的及非政府间的国际性组织以观察员身份参加它的会议；<br />　　<br />　　⑩通过对第二十二条至第二十六条的修改；<br />　　<br />　　⑾采取旨在达到本联盟目标的其他适当行动；<br />　　<br />　　⑿行使本公约规定的其他所有职权；<br />　　<br />　　⒀行使它所接受的成立产权组织公约所赋予它的权利。<br />　　<br />　　b）就与产权组织管理的其他联盟的利益也有关的问题，大会在作决议时应考虑产权组织协调委员会的意见。<br />　　<br />　　三、a）大会每一成员国有一票。<br />　　<br />　　b）大会成员国的半数构成法定人数。<br />　　<br />　　c）尽管有b项的规定，但在某一次会议上，出席国家不足半数但相当于或多于大会会员国三分之一，则大会可作出决议；但除有关大会议事规则之决议外，大会的决议须具备下列条件方能生效：国际局将上述决议通知未出席大会的成员国，请它们在上述通知发出时起三个月内用书面投票表示同意或反对或弃权。如果在期满时，用这样方式投票或弃权的国家数目达到会议法定人数所欠缺的数目，同时已获得必要的多数，上述决议即可生效。<br />　　<br />　　d）在遵守第二十六条第二款规定的情况下，大会的决议以投票数三分之二的多数通过。<br />　　<br />　　e）弃权不计入投票数。<br />　　<br />　　f）一名代表只能代表一国，也只能以该国名义投票。<br />　　<br />　　g）作为大会成员国的本联盟成员国以观察员身份参加会议。<br />　　<br />　　四、a）大会每三年召开一次例会，由总干事召集，除特殊情况外，与产权组织的大会在同时同地举行。<br />　　<br />　　b）大会特别会议在执行委员会的要求下或大会成员国四分之一的要求下由总干事召集。<br />　　<br />　　五、大会通过其议事规则。<br />　　<br />　　第二十三条<br />　　<br />　　一、大会设执行委员会。<br />　　<br />　　二、a）执委会由大会在其成员国中选出的国家组成。此外，产权组织总部所在地国在遵守第二十五条第七款b项规定的条件下，在执委会中有一当然席位。<br />　　<br />　　b）执委会各成员国政府有一名代表，并辅以若干副代表、顾问和专家。<br />　　<br />　　c）各代表团的费用由派遣国政府负担。<br />　　<br />　　三、执委会成员国数目有大会成员国数目的四分之一。在计算席位数目时，以四相除剩下的余数不计算在内。<br />　　<br />　　四、在选举执委会成员国时，大会要考虑到按地区公平分配和保证使与本联盟缔结特别协议的国家参加执委会的必要性。<br />　　<br />　　五、a）执委会成员国的任期自它们当选的该届大会闭会时起至大会下届例会闭会时止。<br />　　<br />　　b）执委会的成员国得连选连任，但其数目最多不得超过三分之二。<br />　　<br />　　c）大会应制定执委会成员国选举和连选的细则。<br />　　<br />　　六、a）执行委员会：<br />　　<br />　　①拟订大会议事日程草案；<br />　　<br />　　②向大会提交有关总干事草拟的本联盟的计划草案和三年期预算草案的建议；<br />　　<br />　　③在计划和三年期预算的范围内，通过总干事草拟的年度计划和预算；<br />　　<br />　　④向大会提交总干事的定期报告和财务决算年度报告，并附以必要的意见；<br />　　<br />　　⑤根据大会决议并考虑到大会两届例会之间出现的情况，采取一切必要措施以保证总干事执行本联盟的计划；<br />　　<br />　　⑥履行本公约赋予它的其他一切职能。<br />　　<br />　　b）就与产权组织管理的其他联盟的利益也有关系的问题，执行委员会在作决定时应考虑产权组织协调委员会的意见。<br />　　<br />　　七、a）执委会在总干事的召集下，每年举行一次例会，尽可能与产权组织协调委员会在同一时期和同一地点举行。<br />　　<br />　　b）执委会在总干事召集下，或是由他倡议，或是应执委会主席或四分之一成员国的要求，可举行非常会议。<br />　　<br />　　八、a）执委会每一成员国有一票表决权。<br />　　<br />　　b）执委会成员国半数构成法定人数。<br />　　<br />　　c）决定以所投票数中的简单多数票通过。<br />　　<br />　　d）弃权不计入投票数。<br />　　<br />　　e）一名代表只代表一国，并只能以该国名义投票。<br />　　<br />　　九、非执行委员会成员国的本联盟成员国将以观察员身分参加其会议。<br />　　<br />　　十、执行委员会通过其议事规则。<br />　　<br />　　第二十四条<br />　　<br />　　一、a）本联盟的行政任务由国际局执行，该局接替与保护工业产权国际公约设立的联盟局合并的本联盟局的工作。<br />　　<br />　　b）国际局特别应担任本联盟不同机构的秘书处工作。<br />　　<br />　　c）产权组织总干事是本联盟最高官员并代表本联盟。<br />　　<br />　　二、国际局汇集并出版有关保护版权的资料，本联盟每一成员国应及时将有关保护版权的所有新法令及官方文本送交国际局。<br />　　<br />　　三、国际局出版一种月刊。<br />　　<br />　　四、国际局应本联盟成员国的请求，向它们提供有关保护版权问题的资料。<br />　　<br />　　五、国际局从事各项研究工作并提供有利于版权保护的服务。<br />　　<br />　　六、总干事及由他指派的任何工作人员得出席大会、执委会、其他各种专家委员会或工作组的会议，但无表决权。总干事或他指派的一位工作人员行使这些机构的秘书职务。<br />　　<br />　　七、a）国际局根据大会指示并与执委会合作，筹备修订除第二十二条至第二十六条外的公约条款的会议。<br />　　<br />　　b）国际局得就筹备修订会议与政府间和非政府间的国际组织协商。<br />　　<br />　　c）总干事和他指定的人员可参加这些会议的工作，但无表决权。<br />　　<br />　　八、国际局执行交付给它的其他任务。<br />　　<br />　　第二十五条<br />　　<br />　　一、a）本联盟设立一项预算。<br />　　<br />　　b）本联盟的预算包括本联盟本身的收入及支出，它向各联盟共同开支预算的摊款，以及按规定交给产权组织会议预算支配的款项。<br />　　<br />　　c）不专归本联盟的而同时又属于产权组织管理的另一个或其他几个联盟所有的开支，被认为是各联盟的共同开支。本联盟在共同开支中所占份额视这些开支与它的权益而定。<br />　　<br />　　二、在制定本联盟的预算时，须适当考虑与产权组织管理的其他联盟的预算相协调。<br />　　<br />　　三、本联盟预算由下列经费资助：<br />　　<br />　　①联盟成员国的会费；<br />　　<br />　　②因国际局提供与本联盟有关的服务而收的费用；<br />　　<br />　　③销售与本联盟有关的国际局的出版物所得的款项及转让这些出版物的版权所得的版税；<br />　　<br />　　④捐款、遗赠及补助金；<br />　　<br />　　⑤租金、利息及其他杂项收入。<br />　　<br />　　四、a）为确定成员国在预算中应缴纳的会费，本联盟每个成员国分别归入一定等级并根据下列所定数量单位缴纳每年的会费：<br />　　<br />　　第一级…………二十五个单位<br />　　<br />　　第二级…………二十个单位<br />　　<br />　　第三级…………十五个单位<br />　　<br />　　第四级…………十个单位<br />　　<br />　　第五级…………五个单位<br />　　<br />　　第六级…………三个单位<br />　　<br />　　第七级…………一个单位<br />　　<br />　　b）除以前已经指明者外，每个国家在交存其批准书或加入书时，须说明它希望被列入哪一级别。任何国家也可以改变级别。如果某一成员国选择了较低的等级，它应在大会下一届会议上对此声明。这一变动自该届会议后的那一日历年开始时生效。<br />　　<br />　　c）每个国家的年度会费金额在所有国家每年向本联盟预算交付的会费总数中所占比例，同它的单位数在全部交费国家的单位总数中所占比例相同。<br />　　<br />　　d）会费应于每年一月一日交付。<br />　　<br />　　e）逾期未交纳会费的国家，如拖欠总数相当于或超过前两整年内它应缴纳的会费数，则不得在它为其成员的本联盟一切机构中行使表决权。但如：本联盟任何机构确信这种拖欠是由非常的及不可避免的情况造成的，则仍可允许该国继续行使其表决权。<br />　　<br />　　f）如在新的会计年度开始前预算尚未通过，则可按照财务条例规定的制度，以前一年度的水平实行预算。<br />　　<br />　　五、因国际局提供与本联盟有关的服务应交费用的金额由总干事加以规定，并由他向大会和执委会就此提出报告。<br />　　<br />　　六、a）本联盟拥有一笔由每一会员国一次付款组成的周转基金。如基金不足，由大会决定增加。<br />　　<br />　　b）每个国家首次缴纳上述基金的金额或负担增加该基金的份额应与基金建立或决定增加基金的当年该国缴纳会费数成比例。<br />　　<br />　　c）付款的比例及条件由大会根据总干事的提议并征求产权组织协调委员会意见后决定。<br />　　<br />　　七、a）产权组织与该组织总部所在地国签订的关于总部的协定应规定，如周转基金不足，可由该国垫款。垫款数和提供垫款的条件由该国和产权组织每次以具体协定加以规定。该国在其承担垫款义务期间，在执委会中占有一当然席位。<br />　　<br />　　b） a项所指国家和产权组织均有权以书面通知废除提供垫款的义务。这种废除自通知提出那一年底起三年后生效。<br />　　<br />　　八、帐目核查工作，根据财务条例规定的条件，由本联盟一个或几个成员国进行，或由大会指派并经它们同意的外部审计员进行。<br />　　<br />　　第二十六条<br />　　<br />　　一、所有大会成员国、执委会或总干事均可提出修改第二十二，二十三，二十四，二十五条及本条的建议。这些建议要在提交大会审查前至少六个月总干事通知大会成员国。<br />　　<br />　　二、对第一款所指各条的修正案应由大会通过。通过需要投票数的四分之三；但对第二十二条及本款的任何修改需经投票数的五分之四通过。<br />　　<br />　　三、对第一款所提各条的任何修正案，至少要在总干事收到在修正案通过时为大会成员国的四分之三国家关于它们根据各自的宪法程序批准修正案的书面通知一个月后才能生效。以此种方式通过的对上述各条的修正案对修正案生效时为大会成员国的所有国家或在该日期之后成为大会成员国的国家具有约束力；但任何增加本联盟成员国财务义务的修正案只对已通知批准该修正案的国家有约束力。<br />　　<br />　　第二十七条<br />　　<br />　　一、本公约可以进行修订，以便使之得到改进，从而使本联盟体制臻于完备。<br />　　<br />　　二、为此目的，可相继在本联盟成员国内举行各该国代表的会议。<br />　　<br />　　三、在遵守第二十六条有关修改第二十二至二十六条的规定的情况下，所有对本公约文本的修订，包括附件的修订，均需已投票数全体一致通过。<br />　　<br />　　第二十八条<br />　　<br />　　一、a）凡签署本公约文本的任何本联盟成员国均可批准本公约文本，如尚未签署，则可加入本公约文本。批准书或加入书交总干事保存。<br />　　<br />　　b）本联盟任何成员国在其批准书或加入书中均可声明其批准或加入不适用于第一至第二十一条及附件；但如该国已根据附件第六条第一款作出声明，则它在上述文件中只能声明其批准或加入不适用于第一至第二十条。<br />　　<br />　　c）凡根据b项已声明其批准或加入对该项所提各条不发生效力的本联盟任何成员国可在其后任何时候声明将其批准或加入的效力扩大到这些规定。这一声明交总干事保存。<br />　　<br />　　二、a）第一至二十一条及附件在具备下述两条件三个月后生效：<br />　　<br />　　①至少有五个本联盟成员国批准或加入本公约文本而未按照第一款b项作过声明；<br />　　<br />　　②西班牙、美利坚合众国、法国和大不列颠及北爱尔兰联合王国已受到1971年7月24日在巴黎修订过的世界版权公约的约束。<br />　　<br />　　b）对于交存批准书或加入书但未按第一款b项作过声明的各国，a项规定的生效不应早于上述生效后三个月。<br />　　<br />　　c）对于b项对之不适用的已批准或加入本公约文本的而又未按照第一款b项作过声明的本联盟任何成员国，第一至二十一条及附件在总干事通知交存该文件之日起三个月后生效，除非交存文件中注明更晚的日期。在后一情况下，第一至二十一条及附件则在注明的日期对该国生效。<br />　　<br />　　d） a和c项的规定不意味着附件第五条的适用。<br />　　<br />　　三、对不管是否按照第一款b项作过声明而批准或加入本公约文本的任何本联盟成员国，第二十二至三十八条在总干事通知已交存批准书或加入书之日起三个月后生效，除非在交存文件中注明更晚的日期。在后一情况下，第二十二至三十八条则按注明的日期对该国生效。<br />　　<br />　　第二十九条<br />　　<br />　　一、任何非本联盟成员国可加入本公约文本并因之成为本公约的当事国一方和本联盟成员国。加入书交总干事保存。<br />　　<br />　　二、a）在遵守b项规定的情况下，对任何非本联盟成员国，本公约在总干事发生其加入书交存的通知之日起三个月后生效，除非交存文件注明更晚的日期。在后一情况下，本公约则在注明的日期对该国生效。<br />　　<br />　　b）如依a项规定的生效先于第二十八条第二款a项规定的第一至第二十一条和附件的生效，则在此间隔期间，上述国家将受被第一至第二十一条及附件所取代的本公约布鲁塞尔文本第一至二十条的约束。<br />　　<br />　　第二十九条（之二）<br />　　<br />　　不受本公约斯德哥尔摩文本第二十二至三十八条约束的任何国家，为能适用成立产权组织公约的第十四条第二款，其对该文本的批准或加入即意味着批准或加入斯德哥尔摩文本，但应受本文本第二十八条第一款b项的限制。<br />　　<br />　　第三十条<br />　　<br />　　一、除本条第二款，第二十八条第一款b项、第三十三条第二款以及附件允许的例外以外，批准或加入就当然意味着接受本公约的一切条款并享有本公约规定的一切利益。<br />　　<br />　　二、a）凡批准或加入本公约文本的本联盟任何成员国，除附件第五条第二款规定者外，可保持它原来作出的保留的效力，条件是在交存其批准书或加入书时对此作出声明。<br />　　<br />　　b）任何非本联盟成员国在加入本公约文本并在不违背附件第五条第二款的情况下，可以声明它准备以1896年在巴黎经过修订的本联盟1886年公约第五条的规定至少临时代替本公约文本有关翻译权的第八条，条件是这些规定指的仅为译成该国通用语文的翻译。在不违背附件第一条第六款b项的情况下，对于使用这一保留条件的国家为其起源国的作品的翻译权，本联盟任何成员国有权实行与后一国提供的相等的保护。<br />　　<br />　　c）任何国家可随时通知总干事，收回这类保留。<br />　　<br />　　第三十一条<br />　　<br />　　一、任何国家可在其批准书或加入书中声明，或在以后随时书面通知总干事，本公约适用于其对外关系由该国负责的全部领域或声明或通知中指明的若干部分领域。<br />　　<br />　　二、任何已作出此项声明或通知的国家可在任何时候通知总干事本公约不再适用于这些领域的全部或部分。<br />　　<br />　　三、a）按照第一款作出的任何声明同载有该声明的文件中的批准书或加入书同日生效，根据该款作出的通告在总干事发出通知三个月后生效。<br />　　<br />　　b）按照第二款作出的通知在总干事收到该通知十二个月后生效。<br />　　<br />　　四、本条不得解释为包含本联盟某一成员国对另一成员国根据按第一款作出的声明在某一领域适用本公约的事实情势表示明示或默示的承认。<br />　　<br />　　第三十二条<br />　　<br />　　一、本文本在本联盟各成员国之间的关系方面和在它适用的范围内代替1886年9月9日的伯尔尼公约及其以后的修订文本。在未批准或未加入本文本的本联盟成员国关系中，以前生效的各文本全部或在本文本依前句的规定未代替的限度内保持其适用性。<br />　　<br />　　二、成为本文本当事国的非本联盟成员国，在符合第三款规定的条件下，对于不受本文本约束的或虽受其约束但已作过第二十八条第一款b项规定的声明的本联盟任何成员国，适用此条例。上述国家承认，在同它们的关系上，本联盟该成员国。<br />　　<br />　　①适用它成为其当事国的最新的本公约文本的规定，并且<br />　　<br />　　②在符合附件第一条第六款规定的情况下，有权使保护与本文本规定的水平相适应。<br />　　<br />　　三、在批准或加入本文本时作出附件所允许的某种保留的国家，在它与非本文本当事国的本联盟成员国的关系上，得适用附件中包含保留条款的规定，但以这些国家认可上述保留的适用条件。<br />　　<br />　　第三十三条<br />　　<br />　　一、两个或两个以上本联盟成员国在解释或适用本公约方面发生争议，经谈判不能解决时，如果有关国家不能就其他解决办法达成协议，则其中任何一方均可根据国际法院规约的规定通过起诉将争端提交国际法院。起诉国应将交法院审理的争议通知国际局；国际局应将此事告知联盟其他成员国。<br />　　<br />　　二、任何国家在签署本文本或交存其批准书或加入书时，可声明它不受第一款规定的约束。在有关该国和本联盟其他任何成员国间的任何争端方面，第一款的规定不适用。<br />　　<br />　　三、任何作了符合第二款规定的声明的国家，可随时通知总干事撤回其声明。<br />　　<br />　　第三十四条<br />　　<br />　　一、除第二十九条之二的情况外，任何国家在第一至二十一条及附件生效后，不得加入也不得批准本公约以前的各文本。<br />　　<br />　　二、在第一至二十一条及附件生效后，任何国家不得根据附在斯德哥尔摩文本后的有关发展中国家的议定书第五条发表声明。<br />　　<br />　　第三十五条<br />　　<br />　　一、本公约无限期有效。<br />　　<br />　　二、任何国家可通知总干事废除本文本。对本文本的废除即是废除以前的所有文本，废除只对该国有效，而对本联盟其他成员国，本公约继续有效并继续执行。<br />　　<br />　　三、废除自总干事收到废除通知之日起算一年后生效。<br />　　<br />　　四、一国自成为本联盟成员国之日起算未满五年者，不得行使本条规定之废除权。<br />　　<br />　　第三十六条<br />　　<br />　　一、本公约各参加国承担义务根据其宪法采取必要措施以保护本公约的执行。<br />　　<br />　　二、不言而喻，一国在交存其批准书或加入书时，应能按照其本国法律执行本公约的规定。<br />　　<br />　　第三十七条<br />　　<br />　　一、a）本文本在不违背第二款指出的情况下，以英法两种文字签署一份，并交总干事保存。<br />　　<br />　　b）总干事在与有关政府协商后，制订阿拉伯文、西班牙文、意大利文、德文与葡萄牙文的正式文本以及大会指定的其他文本。<br />　　<br />　　c）在对不同文本的解释发生争议时，以法文本为准。<br />　　<br />　　二、本文本开放供签字到1972年1月31日为止。在此日期以前，第一款a项提到的文本交存法兰西共和国政府。<br />　　<br />　　三、总干事应将经过签字并经核实的本文本的两份副本转送本联盟各成员国政府，并可根据请求，转送任何其他国家的政府。<br />　　<br />　　四、总干事并将本文本向联合国组织秘书处登记。<br />　　<br />　　五、总干事将下列情况通知本联盟所有成员国政府：签字情况，批准书或加入书的交存，包括在这些文件中的或依据第二十八条第一款c项、第三十条第二款a、b项和第三十三条第二款而作出的声明的交存，本文本任何规定生效的情况，废除的通知和根据第三十条第二款c项、第三十一条第一和二款、第三十三条第三款和第三十八条第一款的通知以及附件中规定的通知。<br />　　<br />　　第三十八条<br />　　<br />　　一、凡未批准或未加入本文本以及不受斯德哥尔摩文本第二十二至二十六条约束的本联盟成员国，如它们愿意，均可在1975年4月26日前，行使上述各条规定的权利，有如受它们约束一样。任何希望行使上述权利之国家应为此目的向总干事交存一份书面通知，该通知自其签署之日起生效。直到上述期限届满为止，这些国家应视为大会成员国。<br />　　<br />　　二、在本联盟成员国尚未全部成为产权组织成员国之前，产权组织国际局同时作为本联盟局进行工作，总干事即该局局长。<br />　　<br />　　三、在本联盟所有成员国已成为产权组织成员国时，本联盟局的权利、义务和财产即归属产权组织国际局。<br />　　<br />　　附件<br />　　<br />　　第一条<br />　　<br />　　（一）根据联合国大会的惯例被视为发展中国家的任何缔约国，凡已批准或加入由本附件作为其组成部分的本公约文本，但由于其经济情况及社会或文化需要而又不能在当前采取恰当安排以确保对本文本规定的全部权利进行保护的，可在其交存批准书或加入书的同时，或依据附件第五条第一款C项规定，在以后任何日期，在向总干事提交的通知中声明，将利用附件第二条或第三条所规定的优惠，或这两条所规定的权益。它可以按照附件第五条第一款a项规定作出声明，以代替利用附件第二条所规定的优惠。<br />　　<br />　　（二）a按照第一款规定并在第一到二十一条及本附件依第二十八条第二款规定生效之日起算十年期满以前作出的任何此类声明，直到这一期限届满前均属有效。有关国家在该十年期限届满十五个月至三个月时间内得向总干事提交通知将此种声明全部或部分地每次续展十年。<br />　　<br />　　b）按照第一款规定并在第一至二十一条及本附件依第二十八条第二款规定生效之日起算十年期满以后作出的任何声明，直到现行十年期满前均属有效。该种声明得按照a项第二句的规定予以延期。<br />　　<br />　　（三）任何不再被视为第一款所指的发展中国家的本联盟成员国，无权继续第二款所规定的声明，也不管它收回其声明与否，该类国家在现行十年期满时，或在停止被视为发展中国家三年后（以后到期的期限为准）不能再利用第一款所指的优惠。<br />　　<br />　　（四）根据第一款或第二款规定作出的声明有效期满时，依本附件规定已许可印制的并尚有货的作品，可以继续发行至售完为止。<br />　　<br />　　（五）受本文本规定约束并根据第三十一条第一款就使该文本适用其情况可能类似本条第一款所指国家情况的特殊领域作了声明或通知的任何国家，可就此领域作出第一款所指的声明或第二款所指的延期通知。只要这种声明或通知有效，本附件的规定就适用于它所指的领土。<br />　　<br />　　（六）a）一国利用第一款所指的优惠这一事实，不应使另一国给予起源国为前一国家的作品低于根据第一至二十条所应给予的保护。<br />　　<br />　　b）第三十条第二款b项第二句规定的对等权利，在根据附件第一条第三款实施的期限满期前，不得用于其起源国为根据附件第五条第一款a项而作出声明的国家的作品。<br />　　<br />　　第二条<br />　　<br />　　（一）任何声明利用本条规定的优惠的国家，就有关以印刷形式或其他任何类似的复制形式出版的作品而言，均有权以主管当局根据附件第四条在下款所述情况下发给的非专有和不可转让的许可证的制度来代替第八条规定的专有翻译权。<br />　　<br />　　（二）a）在遵守第三款的情况下，当一部分作品自其初次出版起算三年或有关国家本国法规定的更长期限届满尚未以该国通行文字由翻译权所有者或在其授权下出版译本时，该国任何国民都有权得到用该国通行文字翻译该作品并以印刷形式或其他任何类似的复制形式出版该译文的许可证。<br />　　<br />　　b）如果以有关文字出版的译文的所有版本均已售完，也可根据本条发给许可证。<br />　　<br />　　（三）a）当作品译成在一个或若干个发达的本联盟成员国中不通行的文字的情况下，则用一年期限来代替第二款a项规定的三年期限。<br />　　<br />　　b）在通行同一种文字的发达的本联盟成员国的一致协议下，如果要译成这种文字，第一款所提到的任何国家均得以该协议规定的更短期限来代替第二款a项规定的三年期限，但不得少于一年。尽管如此，如涉及的文字为英文、西班牙文或法文，上一句的规定即不适用。所有这方面的协议应由签订国政府通知总干事。<br />　　<br />　　（四）本条规定的许可证，如果经过三年才能取得的，则需再过六个月才能发给；如果经一年才能取得的，则需再过九个月才能发给，并且，上述六个月或九个月期限：<br />　　<br />　　①自申请人履行附件第四条第一款规定的手续之日起算。<br />　　<br />　　②如翻译权所有者的身份或住址不详，由自申请人根据附件第四条第二款的规定向发给许可证的主管部门提交的申请书副本寄出之日起算。<br />　　<br />　　b）如果在6个月或9个月的期限内，由翻译权所有者或经其授权用申请使用的文字将译本出版，则不得根据本条发给任何许可证。<br />　　<br />　　（五）本条所指的任何许可证之发给只限于学校、大学教育或研究之用。<br />　　<br />　　（六）如果翻译权所有者或经其授权出版的一部译作的价格同在有关国家内同类著作通行的价格类似，这本译作的文字和基本内容又同根据许可证批准出版的译文的文字和内容一样，则应撤销缔约国根据本条发给的许可证。在撤销许可证前业已出版的份数可一直发行到售完为止。<br />　　<br />　　（七）对主要是图画组成的作品，其文字翻译与图画复制出版的许可证只有在附件等三条规定的条件得到履行的情况下才能发给。<br />　　<br />　　（八）在作者停止其作品全部份数的发行时，则不得根据本条发给任何许可证。<br />　　<br />　　（九）a）对翻译一部以印刷形式或其他任何类似的复制形式出版的作品发给的许可证，也可根据广播机构向第一款所指国家主管当局提出的要求，发给设置在该国内的广播机构，但必须符合全部下列条件：<br />　　<br />　　①译文的根据必须是依该国法律制作和获得样本；<br />　　<br />　　②译文只能用于教学广播或向特定专业的专家传播科技情报成果的广播；<br />　　<br />　　③专门为②小项所指目的译文，需用于合法的和对该国领土上的收听者的广播中，其中包括合法的和专为此项广播而录制的录音和录像；<br />　　<br />　　④所有对译文的使用均无任何营利性质。<br />　　<br />　　b）对广播机构根据依本款发给的许可证而制作的译文的录音或录像，在a项规定的保留和条件下，并按与上述广播机构所订合同，也可以为在其当局发给该许可证的国家设有所在地的另一广播机构所使用。<br />　　<br />　　c）只要a项列举的所有准则和条件得到遵守，也可以向广播机构颁发翻译专为学校和大学使用而制作与出版的视听教材中所有课文的许可证。<br />　　<br />　　d）在不违背a到c项的情况下，本条前几款的规定也适用于根据本款发给的任何许可证和对许可证的使用。<br />　　<br />　　第三条<br />　　<br />　　（一）任何声明利用本条规定的优惠的国家，均有权以主管当局在下述条件下并根据附件第四条发给的非专有和不可转让的许可证制度代替第九条规定的专有复制权。<br />　　<br />　　（二）a）对于根据第七款而对之适用本条的作品，当<br />　　<br />　　①第三款规定的自这一作品特定版首次出版时起草的期限满期后，或<br />　　<br />　　②由第一款所指的国家本国法律规定的并自同一日期起草的更长的期限满期后，若该版的印刷件尚未以与同类著作在该国通告的价格相似的价格由复制权所有者或在他授权下在该国出售，从而，未能满足广大公众或学校及大学教学之需要，则该国任何国民均可取得以同等价格或更低价格复制和出版该版本的许可证，以满足学校及大学教学之需要。<br />　　<br />　　b）根据本条规定之条件，又可对复制及出版符合a项规定发行的版本发给许可证，如果在适用期限满期后，该版本被批准的印制件在有关国家已脱销六个月，而无法以与该国同类著作通行价格相似的价格满足广大公众或学校及大学教学的需要。<br />　　<br />　　（三）第二款a项①小项所指的期限为五年。但<br />　　<br />　　①对有关精密科学和自然科学以及技术的作品，则为三年；<br />　　<br />　　②对属于想象领域的作品，如小说、诗歌、戏剧和音乐作品以及艺术书籍，则为七年。<br />　　<br />　　（四）a）在三年期满后取得许可证的情况下，须再经过六个月期限满期后才能根据本条发给许可证。<br />　　<br />　　①自申请人履行附件第四条第一款规定的手续之日起算；<br />　　<br />　　②如复制权所有者的身份或住址不详，则自申请人按附件第四条第二款的规定将许可证申请书副本寄给主管当局之日起算。<br />　　<br />　　b）在其他情况下如适用附件第四条第二款时，许可证不得在寄出申请书副本后三个月期满以前发给。<br />　　<br />　　c）如在a项和b项规定的六个月或三个月期间，已实现第二款a项提到的销售则不得根据本条发给任何许可证。<br />　　<br />　　d）在作者已停止发行为进行复制及出版而申请许可证的作品版本的全部份数时，不得发给许可证。<br />　　<br />　　（五）为复制和出版一本作品的译文的许可证，在下述情况下不得根据本条发给；<br />　　<br />　　①所涉及的译文并非由翻译权所有者或在其授权下出版的；<br />　　<br />　　②译文所用的不是向之申请许可证的国家通行的语文的。<br />　　<br />　　（六）如某一作品的版本的印制件以同该国同类著作的通行价格相似的价格，为满足广大公众或学校及大学教学需要，而在第一款所指的国内由复制权所有者或经其授权出售，而该版本的文字和基本内容又同根据许可证批准出版的版本的文字和内容相同，则应撤销根据本条发给的任何许可证。在撤销许可证前业已发行的所有份数可一直发行到售完为止。<br />　　<br />　　（七）a）除b项规定的情况外，本条适用的作品只能是以印刷的形式或任何其他类似复制形式出版的作品。<br />　　<br />　　b）本条同样适用于对包括被保护作品的合法制作的录像或录音的复制以及对附在其上的用向之申请许可证国通行语文印行的译文的复制，条件是所涉及的录像或录音的制作和出版需以学校和大学使用为惟一目的。<br />　　<br />　　第四条<br />　　<br />　　（一）附件第二条或第三条所指的任何许可证只有在下述情况下才能发给：申请人按照有关国家的现行规定，证明已向权利所有者视不同情况提出翻译和出版译本，或复制和出版版本的要求，而又未能得到批准，或经过相当努力仍未能找到权利所有者。在向权利所有者提出这一申请的同时，申请人还必须把这一申请通知第二款提及的国内或国际情报中心。<br />　　<br />　　（二）如申请人无法找到权利所有者，即应将其向发给许可证提及的主管当局提交的申请书副本挂号寄给该作品上列有名称的出版者和据信为出版商主要业务中心所在国的政府为此目的向总干事递交的通知所指定的任何国内或国际情报中心。<br />　　<br />　　（三）在根据附件第二条和第三条发给的许可证出版的译本或复制本的所有印制件上都应列出作者姓名。在所有印制件应有作品名称。如系译文，原著作名称在任何情况下应列于所有印制件上。<br />　　<br />　　（四）a）任何根据附件第二条或第三条发给的许可证不得扩大到印制件的出口，它只适用于在发给许可证的国家领域内出版的译本或复制本。<br />　　<br />　　b）为施行a项规定，凡从任何一领土向根据附件第一条第五款规定代表该领土作过声明的国家运寄印制件应视作出口。<br />　　<br />　　c）当根据附件第二条就译成英文、西班牙文或法文以外语文的译本发给许可证的一国政府机构或其他公共机构将根据该许可证出版的译本的印制件寄到另一国时，这一寄送不视为a项所禁止的出口，但需符合以下所有条件：<br />　　<br />　　①收件人须是发给许可证的主管当局所属国的国民或由这些国民组成的组织；<br />　　<br />　　②印制件只供学校、大学或科学研究使用；<br />　　<br />　　③寄往收件人的印制件及其进一步分发均无任何营利性质；而且<br />　　<br />　　④印制件寄往国与其主管当局发给批准接收或分发或两者同时批准的许可证的国家已订有协议，并且后者已将该协议通知总干事。<br />　　<br />　　（五）任何根据按附件第二条或第三条发给的许可证出版的印制件均须载有适当语文的通知，说明该印制件只能在该许可证适用的国家或领土内发行。<br />　　<br />　　（六）a）以国内程序采取适当措施，以使<br />　　<br />　　①许可证规定根据不同情况向翻译权或复制权所有者支付公平的报酬，其数额相当于两国有关方面在通过谈判给予许可证情况下正常支付的版税费率；而且<br />　　<br />　　②保证这笔报酬的支付和转汇；如果存在着国家对外汇的管制，则主管当局将求助于国际机构，以便尽一切努力保证使这笔报酬转换为国际上可兑换的货币或其等价物。<br />　　<br />　　b）将以国内立法程序采取适当措施以便按照不同情况保证作品翻译和复制的准确性。<br />　　<br />　　第五条<br />　　<br />　　（一）a）任何有权声明将利用附件第二条规定的优惠的国家，在批准或加入本文本时，可不作这一声明，而代之以<br />　　<br />　　①按照第三十条第二款a项有关翻译权的规定作一声明，如果它是第三十条第二款a项对之适用的国家的话；<br />　　<br />　　②按照第三十条第二款b项第一句的规定作一声明，如果它是第三十条第二款a项对之不适用的国家，甚至并不是本联盟成员国的话。<br />　　<br />　　b）在一国已不再被视为是附件第一条第一款所指的发展中国家的情况下，根据本款所作的声明继续有效，直到按照附件第一条第三款规定的实施期限满期之日为止。<br />　　<br />　　c）任何按照本款作出声明的国家不得进一步利用附件第二条规定的优惠的国家不得再根据第一款作出声明。<br />　　<br />　　（二）不再被视为附件第一条第一款所指的发展中国家的任何国家，在根据附件第一条第三款的实施期限满期前最迟两年，可以按照第三十条第二款b项第一句作出声明，即使它并不是本联盟成员国。这一声明将在根据附件第一条第三款的实施期限满期之日生效。<br />　　<br />　　第六条<br />　　<br />　　（一）本联盟任何成员国，自本文本生效之日起和在受到第一至二十一条和附件的约束以前的任何时候都可以声明：<br />　　<br />　　①对于如果受到第一至二十一条和本附件约束，即有权利利用第一条第一款提到的优惠的国家而言，可声明它将对其起源国为如下国家的作品适用附件第二条或第三条或同时适用两条的规定。这一国家在适用下面②小项时，同意把上述两条适用于这类作品或受第一至二十一条及本附件约束；这一声明可以援引附件第五条而不是第二条；<br />　　<br />　　②可声明它同意将本附件适用于其起源国为根据上述①小项而作过声明或根据附件第一条而提出过通知的国家的作品。<br />　　<br />　　（二）任何按第一款的声明均应以书面形式作出并交存总干事。声明自交存之日起生效。<br />　　<br />　　经正式授权的下列签名人特此在本文本上签字以资证明。          </div>
+          <!-- <div class="csw_content_text_6">
+            <b>标签：</b>
+            <a href="/e/tags/?tagname=跨境电商网站推广">跨境电商网站推广</a>
+            <a href="/e/tags/?tagname=微软Bing搜索">微软Bing搜索</a>
+            <a href="/e/tags/?tagname=晋江跨境电商峰会">晋江跨境电商峰会</a>
+            </div> -->
+          <div class="share01">
+          <span>分享到：</span>
+              <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+                </div>
+                     <div class="page_up">
+            <p> 上一篇： <a href="/article/index/aid/205.html">专利合作条约</a> </p>
+            <p> 下一篇： <a href="/article/index/aid/222.html">保护工业产权巴黎公约</a> </p>
+          </div>
+          		<!-- <div class="xg_read">
+      		<div class="read_title">相关阅读</div>
+            <div class="read_list">
+	            <ul>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+	            </ul>
+            </div>
+      </div> -->
+        </div>
+    </div></div>	
+	<div class="clear"></div>
+<footer>
+    <div class="footer_box">
+        <select name="select1" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----国家部委-----</option>
+            <option value="http://www.fmprc.gov.cn/chn/">外交部</option>
+            <option value="http://www.sdpc.gov.cn/">国家发展和改革委员会</option>
+            <option value="http://www.moe.edu.cn">教育部</option>
+            <option value="http://www.most.gov.cn/">科学技术部</option>
+            <option value="http://www.seac.gov.cn/">国家民族事务委员会</option>
+            <option value="http://www.mps.gov.cn">公安部</option>
+            <option value="http://www.mca.gov.cn">民政部</option>
+            <option value="http://www.mof.gov.cn">财政部</option>
+            <option value="http://www.mlr.gov.cn">国土资源部</option>
+            <option value="http://www.mohurd.gov.cn/ ">建设部</option>
+            <option value="http://www.moc.gov.cn/">交通运输部</option>
+            <option value="http://www.miit.gov.cn/n11293472/index.html">工信部</option>
+            <option value="http://www.agri.gov.cn">农业部</option>
+            <option value="http://www.mwr.gov.cn">水利部</option>
+            <option value="http://www.mofcom.gov.cn/">商务部</option>
+            <option value="http://www.nhfpc.gov.cn/">卫计委</option>
+            <option value="http://www.mcprc.gov.cn/">文化部</option>
+            <option value="http://gwzs.my.gov.cn/">劳动和社会保障部</option>
+            <option value="http://www.pbc.gov.cn/">中国人民银行</option>
+            <option value="http://www.soa.gov.cn/ ">国家海洋局</option>
+            <option value="http://www.tobacco.gov.cn/">国家烟草专卖局</option>
+            <option value="http://www.chinapost.gov.cn/">国家邮政局</option>
+            <option value="http://www.nach.gov.cn/">国家文物局</option>
+            <option value="http://www.chinasafety.gov.cn/">国家海洋局</option>
+            <option value="http://www.chinasafety.gov.cn/newpage/">国家安全生产监督管理局</option>
+            <option value="http://www.aqsiq.gov.cn/">国家质量监督检验检疫总局</option>
+            <option value="http://www.safe.gov.cn/">国家外汇管理局</option>
+            <option value="http://www.chinagrain.gov.cn/">国家粮食局</option>
+            <option value="http://www.safea.gov.cn/">国家外国专家局</option>
+            <option value="http://www.satcm.gov.cn/">国家中医药管理局</option>
+            <option value="http://www.customs.gov.cn/">海关总署</option>
+            <option value="http://www.caac.gov.cn/">中国民用航空总局</option>
+            <option value="http://www.stats.gov.cn/">国家统计局</option>
+            <option value="http://www.chinatax.gov.cn/">国家税务总局</option>
+            <option value="http://www.zhb.gov.cn/">国家环境保护总局</option>
+            <option value="http://www.chinasarft.gov.cn/index.html">国家广播电影电视总局</option>
+            <option value="http://www.sport.gov.cn/">国家体育总局</option>
+            <option value="http://www.saic.gov.cn/">国家工商行政管理局</option>
+            <option value="http://www.cpo.cn.net/">国家知识产权局</option>
+            <option value="http://www.cnta.com/">国家旅游局</option>
+            <option value="http://www.sfda.gov.cn/WS01/CL0001/">国家粮食药品监督管理局</option>
+            <option value="http://www.cma.gov.cn/">中国气象局</option>
+            <option value="http://www.cbrc.gov.cn/index.html">中国银行业监督委员会</option>
+            <option value="http://www.idcpc.org.cn/index_zhongwen.htm">中共中央对外联络部</option>
+        </select>
+        <select name="select2" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----省直机关-----</option>
+            <option value="http://www.fujian.gov.cn/">福建省人民政府</option>
+            <option value="http://www.fjdpc.gov.cn/">省发改委</option>
+            <option value="http://www.fjetc.gov.cn/">省经信委</option>
+            <option value="http://www.fjhfpc.gov.cn/">省卫计委</option>
+            <option value="http://www.fjedu.gov.cn/html/index.html">省教育厅</option>
+            <option value="http://www.fjkjt.gov.cn/">省科技厅</option>
+            <option value="http://www.fjmzzj.gov.cn/">省民族宗教厅</option>
+            <option value="http://www.fjgat.gov.cn/">省公安厅</option>
+            <option value="http://www.fjcdi.gov.cn/">省监察厅</option>
+            <option value="http://www.fjsmzt.gov.cn/">省民政厅</option>
+            <option value="http://www.fjsf.gov.cn/">省司法厅</option>
+            <option value="http://www.fjcz.gov.cn/">省财政厅</option>
+            <option value="http://www.fjrs.gov.cn">省人社厅</option>
+            <option value="http://www.fjgtzy.gov.cn/">省国土厅</option>
+            <option value="http://www.fjepb.gov.cn/">省环保厅</option>
+            <option value="http://www.fjjs.gov.cn/">省住建厅</option>
+            <option value="http://www.fjjt.gov.cn/">省交通运输厅</option>
+            <option value="http://www.fjagri.gov.cn/html/">省农业厅</option>
+            <option value="http://www.fjforestry.gov.cn/">省林业厅</option>
+            <option value="http://www.fjwater.gov.cn/">省水利厅</option>
+            <option value="http://www.fjof.gov.cn/">省海洋渔业厅</option>
+            <option value="http://www.fiet.gov.cn/">省商务厅</option>
+            <option value="http://www.fjwh.gov.cn/">省文化厅</option>
+            <option value="http://www.fjaudit.gov.cn/">省审计厅</option>
+            <option value="http://www.fjfao.gov.cn/">省外办</option>
+            <option value="http://www.fjgzw.gov.cn/">省国资委</option>
+            <option value="http://www.fj-l-tax.gov.cn">省地税局</option>
+            <option value="http://www.fjaic.gov.cn/">省工商局</option>
+            <option value="http://www.fjqi.gov.cn/">省质监局</option>
+            <option value="http://www.fjxwgd.gov.cn/">省新闻出版广电局</option>
+            <option value="http://www.fjty.gov.cn/">省体育局</option>
+            <option value="http://www.fjsafety.gov.cn/">省安监局</option>
+            <option value="http://www.fjfda.gov.cn/">省食品药品监管局</option>
+            <option value="http://www.stats-fj.gov.cn/">省统计局</option>
+            <option value="http://www.fjta.gov.cn/">省旅游局</option>
+            <option value="http://www.fjgrain.gov.cn/">省粮食局</option>
+            <option value="http://www.fjjg.gov.cn/fjwjj/index.htm">省物价局</option>
+            <option value="http://www.fjqw.gov.cn/">省侨办</option>
+            <option value="http://www.fjrf.gov.cn/">省人防办</option>
+            <option value="http://www.fjfzb.gov.cn/">省法制办</option>
+            <option value="http://www.fjjghq.gov.cn/">省机关事务管理局</option>
+            <option value="http://www.fujian.gov.cn/fw/bmxxcx/wzdh/sydbwzdh/szfbm/201402/t20140210_697591.htm">省金融办</option>
+            <option value="http://www.fujian.gov.cn/fw/bmxxcx/wzdh/sydbwzdh/szfbm/201212/t20121203_550109.htm">省监狱局</option>
+            <option value="http://gwy.fjrs.gov.cn/">省公务员局</option>
+        </select>
+        <select name="select3" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----兄弟自贸区-----</option>
+            <option value="http://www.china-shftz.gov.cn/">中国（上海）自由贸易试验区</option>
+            <option value="http://www.china-gdftz.gov.cn/">中国（广东）自由贸易试验区</option>
+            <option value="http://www.china-tjftz.gov.cn/">中国（天津）自由贸易试验区</option>
+            <option value="http://www.china-zjftz.gov.cn/">中国（浙江）自由贸易试验区</option>
+            <option value="http://www.china-hnftz.gov.cn/">中国（河南）自由贸易试验区</option>
+			<option value="http://www.shaanxiftz.gov.cn/">中国（陕西）自由贸易试验区</option>
+        </select>
+        <select name="select4" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----其他-----</option>
+
+        </select>
+    </div>
+    <div class="gb_footer">
+        <ul>
+            <a href="/index/sitemap.html">站点地图</a> | <a href="/article/index/aid/428.html">使用帮助</a> | <a href="/article/index/aid/430.html">联系我们</a> | <a href="/article/index/aid/429.html">法律声明</a> | <a href="javascript:SetHome(window.location);">设为首页</a> | <a href="javascript:AddFavorite(window.location,document.title);">收藏本站</a>
+        </ul>
+    </div>
+    <div class="gb_bottom">
+        <p>您好，欢迎访问本网站！您是本网站的第10354823位访问者</p>
+        <p>主办：福建自贸试验区工作领导小组办公室</p>
+        <p>版权所有：福建省商务厅 闽ICP备14009608号-3</p>
+        <p>技术支持：<a href="http://www.ec.com.cn/" target="_blank">CIECC</a> <a target="_blank" href="http://www.rsnet.com.cn/">润商网络</a></p>
+    </div>
+</footer>
+<script type="text/javascript">
+    function AddFavorite(sURL, sTitle) {
+        sURL = encodeURI(sURL);
+        try{
+
+            window.external.addFavorite(sURL, sTitle);
+
+        }catch(e) {
+            try{
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+            }
+        }
+    }
+    function SetHome(url){
+        if (document.all) {
+            document.body.style.behavior='url(#default#homepage)';
+            document.body.setHomePage(url);
+        }else{
+            alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+        }
+    }
+</script><script type="text/javascript">
+$(function(){
+	$('.hm-t-go-top').hide();
+	$(window).scroll(function() {		
+		//if($(window).scrollTop() >= 300){
+		h = $(window).height();
+		t = $(document).scrollTop();
+		if(t > h*2){
+			//$('.hm-t-go-top').fadeIn(300); 
+			$('.hm-t-go-top').show();
+		}else{    
+			//$('.hm-t-go-top').fadeOut(300);
+			$('.hm-t-go-top').hide();
+		}  
+	});
+	$('.hm-t-go-top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});	
+});
+</script>
+<div id="hm_t_undefined" class="hm-t-container">
+	<div class="hm-t-go-top" style="display: block; background-color: rgb(102, 102, 102); background-position: -42px 50%;"></div>
+</div>
+</body>
+</html>

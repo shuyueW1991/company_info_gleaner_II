@@ -1,0 +1,22 @@
+Content-Encoding: gzip
+Server: Microsoft-IIS/10.0
+Strict-Transport-Security: max-age=0
+X-Msedge-Ref: Ref A: 072FC543E69E4E56826C6C9E3D26C169 Ref B: HKG30EDGE0411 Ref C: Tue Jun 27 03:16:05 2017 PST
+Expires: -1
+Pragma: no-cache
+X-Ua-Compatible: IE=Edge;chrome=1
+Set-Cookie: ecadprovider=40; domain=www.msn.com; path=/; HttpOnly
+X-Aspnetmvc-Version: 5.2
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: *
+X-Activity-Id: 072fc543-e69e-4e56-826c-6c9e3d26c169
+X-Az: {did:5f46f41407bf434ca0465c7153fafe3d, rid: 2, sn: easia-prod-entertainment, dt: 2017-05-30T09:29:49.8206955Z, bt: 2017-06-19T00:09:55.3756727Z}
+Date: Tue, 27 Jun 2017 10:16:05 GMT
+Access-Control-Allow-Methods: HEAD,GET,OPTIONS
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Vary: User-Agent
+X-Powered-By: ASP.NET
+X-Appversion: 2.0.6379.289
+Cache-Control: no-cache, no-store, no-transform
+X-Xss-Protection: 1

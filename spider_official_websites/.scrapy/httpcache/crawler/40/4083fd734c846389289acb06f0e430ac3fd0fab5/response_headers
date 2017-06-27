@@ -1,0 +1,13 @@
+Accept-Ranges: bytes
+Content-Type: text/html; charset=iso-8859-1
+X-Cache-Hits: 1
+Server: Oscar Platform 201702201028-385
+X-Timer: S1498557996.678623,VS0,VE0
+X-Vcap-Request-Id: a73af13c-5864-4d44-4875-96d1e295b46f
+X-Served-By: cache-nrt6122-NRT
+Date: Tue, 27 Jun 2017 10:06:35 GMT
+Via: 1.1 varnish
+X-Cache: HIT
+Age: 174
+Location: http://www.nature.com/naturejobs/science/
+Cache-Control: public,max-age=600

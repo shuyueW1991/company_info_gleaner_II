@@ -1,0 +1,19 @@
+Age: 0
+X-Cache: cp1055 pass, cp2023 pass, cp4016 pass, cp4010 pass
+Backend-Timing: D=72815 t=1498571223831273
+Server: mw1254.eqiad.wmnet
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Varnish: 928907478, 532142045, 118078690, 640939307
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Accept-Ranges: bytes
+P3P: CP="This is not a P3P policy! See https://www.wikidata.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Type: text/html
+Date: Tue, 27 Jun 2017 13:47:03 GMT
+X-Cache-Status: pass
+Content-Encoding: gzip
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding

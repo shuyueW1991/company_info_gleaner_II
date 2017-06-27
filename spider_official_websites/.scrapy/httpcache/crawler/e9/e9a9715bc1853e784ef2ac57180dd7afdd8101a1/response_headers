@@ -1,0 +1,21 @@
+Age: 0
+X-Cache: cp1053 pass, cp2004 pass, cp4017 pass, cp4010 pass
+Location: https://m.wikimediafoundation.org/w/index.php?title=Special:WhatLinksHere/Terms_of_Use/ko&limit=250&printable=yes
+Backend-Timing: D=40203 t=1498571261439267
+Set-Cookie: stopMobileRedirect=true; expires=Tue, 27-Jun-2017 12:47:41 GMT; Max-Age=-3600; path=/; domain=.wikimediafoundation.org; httponly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Server: mw1244.eqiad.wmnet
+X-Cache-Status: pass
+X-Varnish: 166444605, 725272392, 490467518, 657479390
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie
+Content-Type: text/html; charset=utf-8
+Date: Tue, 27 Jun 2017 13:47:41 GMT
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+Content-Encoding: gzip
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Last-Modified: Tue, 27 Jun 2017 13:47:41 GMT

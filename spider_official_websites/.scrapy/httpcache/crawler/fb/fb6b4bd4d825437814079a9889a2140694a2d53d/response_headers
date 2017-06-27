@@ -1,0 +1,7 @@
+Location: https://www.facebook.com/dialog/oauth?scope=email&redirect_uri=http%3A%2F%2Fwww.kanjian.com%2Fapi%2FsnsAuth%2Ffacebook%2F&client_id=1439444812967693
+Access-Control-Allow-Headers: *
+Content-Type: text/html; charset=UTF-8
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Date: Tue, 27 Jun 2017 09:58:18 GMT
+Server: TornadoServer/4.4.3

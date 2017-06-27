@@ -1,0 +1,9 @@
+Set-Cookie: __cfduid=d3853e5e2f1d8695559c073b87d0bbfeb1498559199; expires=Wed, 27-Jun-18 10:26:39 GMT; path=/; domain=.xenforo.com; HttpOnly
+Cf-Ray: 3757b5974e8451a0-SJC
+Heartbleed: NO; see http://heartbleedheader.com
+Last-Modified: Tue, 27 Jun 2017 10:26:40 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+Content-Encoding: gzip
+Date: Tue, 27 Jun 2017 10:26:40 GMT

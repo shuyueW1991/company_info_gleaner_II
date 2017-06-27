@@ -1,0 +1,11 @@
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Set-Cookie: MS-CV=x5O5EFNwsk+5IYO/.8; domain=.microsoft.com; expires=Wed, 28-Jun-2017 10:16:00 GMT; path=/
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Date: Tue, 27 Jun 2017 10:16:00 GMT
+X-Powered-By: ASP.NET
+Server: Microsoft-IIS/8.5
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+X-Frame-Options: SAMEORIGIN
+Location: https://privacy.microsoft.com/en-us/privacy-questions?ln=EN-US

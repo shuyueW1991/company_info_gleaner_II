@@ -1,0 +1,12 @@
+Cache-Control: max-age=79, must-revalidate
+Link: <https://wp.me/120rT>; rel=shortlink
+Last-Modified: Tue, 27 Jun 2017 10:19:31 GMT
+Server: nginx
+X-Hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+Vary: Accept-Encoding
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+X-Nananana: Batcache
+Date: Tue, 27 Jun 2017 10:23:12 GMT

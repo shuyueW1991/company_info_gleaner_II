@@ -1,0 +1,24 @@
+Backend-Timing: D=63654 t=1498558001312591
+Last-Modified: Tue, 27 Jun 2017 10:06:41 GMT
+Content-Encoding: gzip
+Server: mw1216.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+Location: https://m.mediawiki.org/w/index.php?title=Special:CreateAccount&returnto=MediaWiki&returntoquery=mobileaction%3Dtoggle_view_desktop
+Set-Cookie: stopMobileRedirect=true; expires=Tue, 27-Jun-2017 09:06:41 GMT; Max-Age=-3600; path=/; domain=.mediawiki.org; httponly
+Set-Cookie: mediawikiwikiSession=kdlifal85rlr4n39tmo1ak24gq17lfjc; path=/; secure; httponly
+Set-Cookie: forceHTTPS=true; path=/; httponly
+Content-Type: text/html; charset=utf-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+X-Content-Type-Options: nosniff
+Date: Tue, 27 Jun 2017 10:06:41 GMT
+X-Varnish: 791782009, 813930741, 443727589, 160906688
+X-Client-Ip: 180.173.144.160
+P3P: CP="This is not a P3P policy! See https://www.mediawiki.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Cache: cp1067 pass, cp2007 pass, cp4017 pass, cp4017 pass
+X-Powered-By: HHVM/3.18.2
+Age: 0
+X-Cache-Status: pass

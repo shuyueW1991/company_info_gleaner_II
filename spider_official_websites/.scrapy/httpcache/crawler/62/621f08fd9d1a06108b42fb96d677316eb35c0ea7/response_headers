@@ -1,0 +1,20 @@
+Age: 0
+X-Cache: cp1065 pass, cp2016 pass, cp4009 pass, cp4010 pass
+Location: https://m.wikimediafoundation.org/wiki/Special:WhatLinksHere/Terms_of_Use/es
+Backend-Timing: D=47876 t=1498571243641756
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Server: mw1185.eqiad.wmnet
+X-Cache-Status: pass
+X-Varnish: 524077750, 472086006, 863043208, 659107294
+X-Client-Ip: 223.167.164.123
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie
+Content-Type: text/html; charset=utf-8
+Date: Tue, 27 Jun 2017 13:47:23 GMT
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+Content-Encoding: gzip
+X-Powered-By: HHVM/3.18.2
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Content-Type-Options: nosniff
+Last-Modified: Tue, 27 Jun 2017 13:47:23 GMT

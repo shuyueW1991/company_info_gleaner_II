@@ -1,0 +1,21 @@
+Accept-Ranges: bytes
+X-Varnish: 514819476 514851904
+Content-Language: en
+Last-Modified: Tue, 27 Jun 2017 10:08:32 GMT
+Etag: "1498558112-0"
+Content-Type: text/html; charset=utf-8
+X-Cache-Hits: 9
+Server: nginx
+Link: <http://www.thechannelco.com/>; rel="canonical",<http://www.thechannelco.com/>; rel="shortlink"
+Date: Tue, 27 Jun 2017 10:09:48 GMT
+X-Request-Id: v-c052dfbc-5b20-11e7-843d-0a0cc47e8984
+Via: 1.1 varnish-v4
+X-Ah-Environment: prod
+Age: 260
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie,Accept-Encoding
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Cache: HIT
+X-Drupal-Cache: HIT
+Content-Encoding: gzip
+Cache-Control: public, max-age=300

@@ -1,0 +1,21 @@
+Backend-Timing: D=57131 t=1498558002191497
+Set-Cookie: stopMobileRedirect=true; expires=Thu, 27-Jul-2017 10:06:42 GMT; Max-Age=2592000; path=/; domain=.wikimediafoundation.org; httponly
+Last-Modified: Tue, 27 Jun 2017 10:06:42 GMT
+Content-Type: text/html; charset=utf-8
+Via: 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+Server: mw1267.eqiad.wmnet
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Encoding: gzip
+Age: 0
+X-Varnish: 134506129, 406669867, 51725660, 161129090
+X-Client-Ip: 180.173.144.160
+X-Content-Type-Options: nosniff
+X-Analytics: WMF-Last-Access=27-Jun-2017;WMF-Last-Access-Global=27-Jun-2017;https=1
+X-Cache-Status: pass
+X-Cache: cp1054 pass, cp2016 pass, cp4016 pass, cp4017 pass
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie
+Date: Tue, 27 Jun 2017 10:06:42 GMT
+X-Powered-By: HHVM/3.18.2
+Location: https://wikimediafoundation.org/w/index.php?title=Special:UserLogin&returnto=Cookie+statement&returntoquery=mobileaction%3Dtoggle_view_desktop
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate

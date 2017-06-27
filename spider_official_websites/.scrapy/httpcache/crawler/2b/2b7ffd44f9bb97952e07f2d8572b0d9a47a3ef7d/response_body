@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="generator" content="Movable Type Pro 5.14-ja" />
+<meta name="keywords" content="慶應義塾大学.言語文化研究所.慶應言語学コロキアム" />
+<meta name="description" content="慶應義塾大学言語文化研究所の公式ホームページです。" />
+<link rev="made" href="mailto:info@usakuma.com" />
+<link rel="start" href="http://www.icl.keio.ac.jp/" title="ホーム" />
+<link rel="contents" href="http://www.icl.keio.ac.jp/sitemap/" />
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://www.icl.keio.ac.jp/atom.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.icl.keio.ac.jp/rsd.xml" />
+<link rel="stylesheet" href="http://www.icl.keio.ac.jp/styles.css" type="text/css" />
+<link rel="stylesheet" href="http://www.icl.keio.ac.jp/css/slimbox2.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster:regular&amp;v1" type="text/css" media="screen,tv" />
+<script type="text/javascript" src="http://www.icl.keio.ac.jp/mt.js"></script>
+<script type="text/javascript" src="http://www.icl.keio.ac.jp/js/jquery.js"></script>
+<script type="text/javascript" src="http://www.icl.keio.ac.jp/js/slimbox2.js"></script>
+<script type="text/javascript" src="http://www.icl.keio.ac.jp/js/jquery.innerfade.js"></script>
+<!-- @Style license ID.0666 -->
+<title>慶應義塾大学言語文化研究所</title>
+</head>
+<body>
+<div id="header">
+<div class="inner">
+<h1 class="logo"><a href="http://www.icl.keio.ac.jp/" accesskey="1" title="慶應義塾大学言語文化研究所"><img src="http://www.icl.keio.ac.jp/blogimg/logo.png" alt="慶應義塾大学言語文化研究所" width="400" height="48" /></a></h1>
+<div class="header_sub">
+<div id="nav">
+<ul>
+<!--<li><a href="http://www.icl.keio.ac.jp/" title="ホーム">ホーム</a></li>-->
+<!--<li><a href="http://www.icl.keio.ac.jp/contact/" title="お問い合わせ">お問い合わせ</a></li>-->
+<!--<li><a href="http://www.keio.ac.jp/ja/access/mita.html" target="_blank">アクセスマップ</a></li>-->
+<br>
+</ul>
+</div><!-- / nav -->
+<div class="h_search">
+<form method="get" action="http://www.icl.keio.ac.jp/mt/mt-search.cgi" class="search-box">
+<input type="hidden" name="IncludeBlogs" value="3,4,6,5" />
+<input type="hidden" name="limit" value="20" />
+<label for="search" accesskey="y">このサイトの検索</label>
+<input type="text" size="15" id="search" name="search" value="" tabindex="9" />
+<input type="submit" value="Search"  tabindex="10" accesskey="z" />
+</form>
+</div><!-- / h_search -->
+<div id="right-logo"><img src="http://www.icl.keio.ac.jp/blogimg/right-logo.jpg"></div>
+</div><!-- / header_sub -->
+</div><!-- / inner -->
+</div><!-- / header -->
+<div class="wrap">
+<div class="wrap_inner">
+<div id="container">
+<div id="main">
+<div class="inner">
+<div class="entry">
+<h2 id="page-4">言語文化研究所のホームページへようこそ</h2>
+<p>言語学コロキアムや公開講座の開催案内など最新情報を掲載してまいります。</p>
+<p><br />
+<a href="http://www.icl.keio.ac.jp/news/2014/04/chomsky-syntax-session-2014-keio-linguistic-colloquium.html">Keio Linguistic Colloquium（2014年3月8日）【動画公開】<br />
+Syntax Session 2014　Professor Noam Chomsky (MIT) </a></p>
+<p></p>
+<p><a href="http://www.icl.keio.ac.jp/news/2014/11/2014theoretical-linguistics-at-keio-talklinguistics-as-scientific-inquiry-lecture-series-1915.html">2014　Theoretical Linguistics at Keio (TaLK)（2014年9月1日～5日）【動画公開】<br />
+Linguistics as Scientific Inquiry Lecture Series #1　斎藤衛氏（南山大学教授）</a></p>
+<p><a href="http://www.icl.keio.ac.jp/colo/2017/05/-a-2017318191400-1830.html">Keio Linguistic Colloquium（2017年3月18日・19日）【動画公開】<br />
+フェイズと転送領域―照応形束縛とA移動の局所性からの考察― 斎藤衛氏（南山大学教授）</a></a><br />
+</p>
+</div><!-- / entry -->
+<h2>最近の記事</h2>
+<div class="entry">
+<dl class="news"><dl class="colo"><dl class="koukaikouza">
+<dt>6月21日</dt>
+<dd id="entry-320"><a href="http://www.icl.keio.ac.jp/news/2017/06/2017theoretical-linguistics-at-keio-talk948.html" title="【2017　Theoretical Linguistics at Keio (TaLK)　の開催（9月4日～8日）】on「ニュース・イベント」">2017　Theoretical Linguistics at Keio (TaLK)　の開催（9月4日～8日）</a> / <a href="http://www.icl.keio.ac.jp/news/new/" title="【新着情報】on「ニュース・イベント」">新着情報</a> / <a href="http://www.icl.keio.ac.jp/news/">ニュース・イベント</a></dd>
+<dt>6月19日</dt>
+<dd id="entry-314"><a href="http://www.icl.keio.ac.jp/colo/2017/06/2017617.html" title="【言語学コロキアムの開催（2017年6月17日）】on「慶應言語学コロキアム」">言語学コロキアムの開催（2017年6月17日）</a> / <a href="http://www.icl.keio.ac.jp/colo/pastcolo/" title="【これまでの言語学コロキアム】on「慶應言語学コロキアム」">これまでの言語学コロキアム</a> / <a href="http://www.icl.keio.ac.jp/colo/">慶應言語学コロキアム</a></dd>
+<dt>5月31日</dt>
+<dd id="entry-318"><a href="http://www.icl.keio.ac.jp/colo/2017/05/201781.html" title="【言語学コロキアムの開催（2017年8月1 日）】on「慶應言語学コロキアム」">言語学コロキアムの開催（2017年8月1 日）</a> / <a href="http://www.icl.keio.ac.jp/colo/new/" title="【開催予定】on「慶應言語学コロキアム」">開催予定</a> / <a href="http://www.icl.keio.ac.jp/colo/">慶應言語学コロキアム</a></dd>
+<dt>5月30日</dt>
+<dd id="entry-317"><a href="http://www.icl.keio.ac.jp/colo/2017/05/2017630.html" title="【言語学コロキアムの開催（2017年6月30 日）】on「慶應言語学コロキアム」">言語学コロキアムの開催（2017年6月30 日）</a> / <a href="http://www.icl.keio.ac.jp/colo/new/" title="【開催予定】on「慶應言語学コロキアム」">開催予定</a> / <a href="http://www.icl.keio.ac.jp/colo/">慶應言語学コロキアム</a></dd>
+<dt>5月18日</dt>
+<dd id="entry-307"><a href="http://www.icl.keio.ac.jp/colo/2017/05/-a-2017318191400-1830.html" title="【言語学コロキアムの開催（2017年3月18日・19日）】on「慶應言語学コロキアム」">言語学コロキアムの開催（2017年3月18日・19日）</a> / <a href="http://www.icl.keio.ac.jp/colo/pastcolo/" title="【これまでの言語学コロキアム】on「慶應言語学コロキアム」">これまでの言語学コロキアム</a> / <a href="http://www.icl.keio.ac.jp/colo/">慶應言語学コロキアム</a></dd>
+</dl>
+</div><!-- / entry -->
+</div><!-- / inner -->
+</div><!-- / main -->
+<div id="sub">
+<div class="inner">
+<dl class="box">
+<dt><a href="http://www.icl.keio.ac.jp/">トップ</a></dt>
+<dd>
+<ul>
+<li><a href="http://www.icl.keio.ac.jp/news/new/">ニュース・イベント</a></li>
+<li><a href="http://www.icl.keio.ac.jp/enkaku.html">研究所紹介</a></li>
+<li><a href="http://www.icl.keio.ac.jp/member.html">所員・運営委員</a></li>
+<li><a href="http://www.icl.keio.ac.jp/kenkyu.html">研究活動</a></li>
+<li><a href="http://www.icl.keio.ac.jp/colo/new/">言語学コロキアム</a></li>
+<li><a href="http://www.icl.keio.ac.jp/koukaikouza">公開講座</a></li>
+<li><a href="http://www.icl.keio.ac.jp/tokushukouza.html">特殊講座</a></li>
+<li><a href="http://www.icl.keio.ac.jp/books.html">出版物</a></li>
+<li><a href="http://www.icl.keio.ac.jp/links.html">リンク</a></li>
+<li><a href="http://www.icl.keio.ac.jp/photo.html">写真館</a></li>
+<li><a href="http://www.keio.ac.jp/ja/access/mita.html" target="_blank">アクセスマップ</a>・<a href="#ft">お問い合わせ</a></li>
+</ul>
+</dd>
+</dl>
+</div><!-- / inner -->
+</div><!-- /sub -->
+</div><!-- / container -->
+</div><!-- / wrap_inner -->
+</div><!-- / wrap -->
+<div id="footer">
+<!-- b_nav -->
+<div class="b_nav">
+<div class="inner">
+<a name="ft" id="ft"></a>〒108-8345　東京都港区三田2－15－45 慶應義塾大学南別館６階　＊三田キャンパス内ではなく正門の向かい側（通りの反対側）にあります。<br>
+【TEL】03-5427-1595　【FAX】03-5427-1594　【お問い合わせ】genbu●icl.keio.ac.jp（●を@に変えてお送りください）
+</div><!-- / inner -->
+</div><!-- / b_nav -->
+<div class="copylight">
+<div class="inner">
+<!--<div class="powered">
+<ul>
+<li></li>
+</ul>
+</div><!-- / powered -->
+<div class="copy">
+<address>Copyright &copy; 2013 The KEIO Institute of Cultural & Linguistic Studies, All Rights Reserved.
+</address>
+</div><!-- / copy -->
+</div><!-- / inner -->
+</div><!-- /copylight -->
+</div><!-- / footer -->
+</body>
+</html>

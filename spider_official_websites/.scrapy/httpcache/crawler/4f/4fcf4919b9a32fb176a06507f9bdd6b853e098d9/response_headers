@@ -1,0 +1,11 @@
+Server: nginx/1.8.1
+Expires: Tue, 27 Jun 2017 15:58:16 GMT
+Content-Encoding: gzip
+Pragma: public
+Jiatag: de2a570993d722c9422fba59eaa5a397
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/5.6.20
+Vary: Accept-Encoding
+Set-Cookie: jiathis_auth=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.jiathis.com
+Cache-Control: max-age=21600
+Date: Tue, 27 Jun 2017 09:58:16 GMT

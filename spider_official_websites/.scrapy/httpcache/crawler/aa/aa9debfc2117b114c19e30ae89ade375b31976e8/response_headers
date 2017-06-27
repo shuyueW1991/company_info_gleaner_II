@@ -1,0 +1,12 @@
+Set-Cookie: ASP.NET_SessionId=nwdabw45wxrfknz4l4zezx55; path=/; HttpOnly
+X-Instance: BAY
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/7.5
+Date: Tue, 27 Jun 2017 10:22:22 GMT
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+X-Aspnet-Version: 2.0.50727
+Expires: Tue, 27 Jun 2017 10:21:22 GMT
+Vary: Accept-Encoding
+X-Powered-By: ASP.NET
+Content-Encoding: gzip
+Cache-Control: private

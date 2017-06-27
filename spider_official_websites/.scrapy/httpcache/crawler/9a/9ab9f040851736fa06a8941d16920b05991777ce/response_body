@@ -1,0 +1,738 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<title>福建检验检疫局服务ECFA签证企业相关政策措施-中国（福建）自由贸易试验区门户网站</title>
+<meta name="keywords" content="福州自贸区官网,自贸区官网,福建自贸区官网,中国自贸区,平潭片区,厦门片区,福州片区,自贸区,中国福建自由贸易试验区,中国(福建)自由贸易试验区,平潭自贸区,厦门自贸区,福州自贸区,福建自贸区,平潭自由贸易试验区,厦门自由贸易试验区,福州自由贸易试验区,福建自由贸易试验区,中国（福建）自由贸易试验区,中国（福建）自由贸易试验区门户网站" /><meta name="description" content="中国（福建）自由贸易试验区网站（www.china-fjftz.gov.cn）是中国（福建）自由贸易试验区唯一的官方门户网站，包括福建自贸区总站、自贸区福州片区、自贸区厦门片区、自贸区平潭片区网站。用于发布福建自贸区新闻动态、政策法规、政策解读、规划方案、自贸区网上办事、自贸区对台合作等内容" />
+<meta name="copyright" content="Copyright 2017 - 中国（福建）自由贸易试验区,中国（福建）自由贸易试验区门户网站" />
+<meta name="baidu-site-verification" content="rL3Om7WEqh" />
+<script> 
+   (function() {
+     if (! 
+     /*@cc_on!@*/
+     0) return;
+     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     var i= e.length;
+     while (i--){
+         document.createElement(e[i])
+     } 
+})() 
+</script>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css"/>
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/index_tab.js"></script>
+<script type="text/javascript" src="/js/jquery.SuperSlide.js"></script>
+
+<script type="text/javascript" src="/js/jzf.js"></script>
+
+<script language="javascript" type="text/javascript">
+var baseUrl='/',controller='article';
+function showtime()
+{
+var today,hour,second,minute,year,month,date;
+var strDate ;
+today=new Date();
+var n_day = today.getDay();
+switch (n_day)
+{
+    case 0:{
+      strDate = "星期日"
+    }break;
+    case 1:{
+      strDate = "星期一"
+    }break;
+    case 2:{
+      strDate ="星期二"
+    }break;
+    case 3:{
+      strDate = "星期三"
+    }break;
+    case 4:{
+      strDate = "星期四"
+    }break;
+    case 5:{
+      strDate = "星期五"
+    }break;
+    case 6:{
+      strDate = "星期六"
+    }break;
+    case 7:{
+      strDate = "星期日"
+    }break;
+}
+year = today.getFullYear();
+month = today.getMonth()+1;
+date = today.getDate();
+hour = today.getHours();
+minute =today.getMinutes();
+second = today.getSeconds();
+document.getElementById('time').innerHTML = year + "年" + month + "月" + date + "日" + strDate +" " + hour + ":" + minute + ":" + second; //显示时间
+setTimeout("showtime();", 1000); //设定函数自动执行时间为 1000 ms(1 s)
+}
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fa77760ba71400031b0fe2ba39b97748";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?49ca092d1107900217cfd9ae2cdb9b72";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".tc").find(".tz_box").hide(0);
+        $(".tc").hover(
+		function () { $(this).css("z-index", "20").find(".tz_box").css("z-index", "50").stop(true, true).animate({ opacity: "show" }); },
+		function () { $(this).css("z-index", "1").find(".tz_box").css("z-index", "1").stop(true, true).animate({ opacity: "hide" }); }
+		);
+
+        $(".search_text").focus(function () {
+
+            $(this).addClass("focus");
+
+        }).blur(function () {
+
+            $(this).removeClass("focus");
+
+        });
+    });
+</script>
+</head>
+<body>
+	<header>
+	<div class="gb_top">
+    	<div class="container gb_main">
+        	<div class="left"> 
+                <div class="time_box"> 
+                    <span id="time"></span> 
+                    <script language="javascript"> showtime();</script> 
+                </div>
+                <p>中国(福建)自由贸易试验区欢迎您!</p> 
+            </div>
+            <div class="fright">
+            	<ul class="gb_top_list"><li><a href="javascript:ClickObject1();">简体版</a></li><li> | </li><li><a href="javascript:ClickObject2();">繁體版</a></li><li> | </li><li><a href="/html/en">English</a></li><li> | </li><li><a href="#" style="position:relative;*z-index:1">手机门户<ul class="xl_erweima"><li><img src="/images/mb_qrcode.png"><p>手机站二维码</p></li></ul></a></li><li> | </li><li><a href="#" style="position:relative;*z-index:1">微信<ul class="xl_erweima"><li><img src="/images/wx_qrcode.jpg"><p>微信二维码</p></li></ul></a></li><li> | </li><li><a target="_blank" href="http://weibo.com/fjftz" style="position:relative;*z-index:1">微博<ul class="xl_erweima"><li><img src="/images/wb_qrcode.png"><p>微博二维码</p></li></ul></a></li><li> | </li><li><a target="_blank" href="http://www.fiet.gov.cn/">福建省商务厅</a></li></ul>
+            </div>
+        </div>
+    </div>
+</header><div class="container">	
+		<div class="gb_logo_box">
+    	<div class="gb_logo"><a href="/"></a></div>
+    </div>
+    <div class="gb_banner">
+    <div id="slideBox" class="slideBox">
+    <div class="hd">
+      <ul>
+        <li style="visibility: hidden"><a></a></li>
+        <li><a target="_blank" href="http://www.fzftz.gov.cn/" class="on">福州片区</a></li>
+        <li><a target="_blank" href="http://www.xmftz.gov.cn/" class="a_xm on">厦门片区</a></li>
+        <li><a target="_blank" href="http://ptftz.pingtan.gov.cn/" class="a_pt on">平潭片区</a></li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li style="background:url(/images/picture_zmq.jpg) center no-repeat"><a href="http://picture.china-fjftz.gov.cn/" target="_blank""></a></li>
+        <li style="background:url(/images/fzftz.jpg) center no-repeat"><a href="#"></a></li>
+        <li style="background:url(/images/xmftz.jpg) center no-repeat"><a href="#"></a></li>
+        <li style="background:url(/images/ptftz.jpg) center no-repeat"><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+        <script type="text/javascript">
+		jQuery(".slideBox").slide( { mainCell:".bd ul",effect:"leftLoop",autoPlay:true} );</script> 
+    </div>
+    
+    
+    <nav class="nav"> 
+        <ul class="sy1_ul">
+          <div class="sy2_inside">
+            <li class="sy1_li"><a href="/" class="sy1_tit ">首页</a></li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli1"> <a class="sy1_tit " href="/article/index/gid/8/aid/142" target="_self"><span class="navspan">走进自贸区</span></a>
+              <ul class="sy2_ul">
+              	<div class="into_fta">
+                	<div class="fta_left">
+                    	<img src="/images/ftzmap.jpg">
+                        <p>2014年12月31日，国务院正式批复设立中国（福建）自由贸易试验区。中国（福建）自由贸易试验区从此成为中国大陆境内继上海自贸试验区之后的第二批自贸试验区。中国（福建）自由贸易试验区范围总面积118.04平方公里，包括平潭、厦门、福州3个片区。其中平潭片区43平方公里、厦门片区43.78平方公里、福州片区31.26平方公里。<a href="/article/index/gid/8/aid/142.html">【更多】</a></p>
+                    </div>
+                    <div class="fta_right">
+                    	<ul>
+                        	<li><a href="/article/index/gid/8/aid/142.html"><img src="/images/fta_01.png"><p>自贸区简介</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/11/aid/143"><img src="/images/fta_04.png"><p>福州片区简介</p></a></li>
+                            <li><a href="/article/index/gid/9/aid/358.html"><img src="/images/fta_02.png"><p>机构职能与设置</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/12/aid/144"><img src="/images/fta_05.png"><p>厦门片区简介</p></a></li>
+                            <li><a href="/article/index/gid/14/aid/4.html"><img src="/images/fta_03.png"><p>自贸区大事记</p></a></li>
+                            <li><a target="_blank" href="/article/index/gid/13/aid/145"><img src="/images/fta_06.png"><p>平潭片区简介</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli2"> <a class="sy1_tit " href="/article/list/gid/3" target="_self"><span class="navspan">新闻资讯</span></a>
+              <ul class="sy2_ul">
+              	<div class="gb_xl_news">
+                	<div class="slideTxtBox">
+						<div class="hd">
+							<ul><li><a href="">工作动态</a></li><li><a href="">媒体报道</a></li><li><a href="">福建资讯</a></li></ul>
+						</div>
+						<div class="bd">
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6531.html">
+							2017年版自贸试验区外商投资负面清单减至95项</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6451.html">
+							江阴港区海铁联运到发箱量突破5000标箱</a><span class="date">06-15</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6409.html">
+							香港全国人大代表来闽开展专题调研</a><span class="date">06-12</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6408.html">
+							厦门市自贸委、厦门市国资委举办企业转型升级高级研讨班</a><span class="date">06-12</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6391.html">
+							平潭片区与四川自贸试验区川南临港片区签署战略合作协议</a><span class="date">06-08</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6378.html">
+							尤权会见香港全国人大代表访问团</a><span class="date">06-07</span></li>
+											
+							</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6541.html">
+							台湾“中华茶联”厦门设代表处在海沧自贸园区揭牌</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6540.html">
+							习近平主持召开中央全面深化改革领导小组第三十六次会议</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6524.html">
+							今年以来福建江阴港进口汽车3700辆 同比增长五成</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6523.html">
+							菲律宾《联合日报》关注厦门汽车进口贸易：欧洲汽车可直抵厦门</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6522.html">
+							厦门片区太古海投冷链物流厦门冷库正式投用</a><span class="date">06-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6514.html">
+							驶入深蓝 ——中国自贸区“大胆试、大胆闯、自主改”的厦门新实践</a><span class="date">06-22</span></li>
+											</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6545.html">
+							福建“拥抱”世界华文传媒论坛 助推“海丝”建设</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6544.html">
+							福建提升自贸协定原产地签证水平显成效</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6543.html">
+							原产地证书助力莆田企业驰骋“一带一路”</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6534.html">
+							闽出台意见进一步降低实体经济企业成本</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6533.html">
+							福建省再增两个国家级双创示范基地</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6532.html">
+							“一带一路”法律保障高峰论坛举行</a><span class="date">06-26</span></li>
+											</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+                </div>
+                <div class="gb_xl_video">
+                    <h3><a href="/article/video/gid/29" target="_blank">视频新闻</a></h3>
+                    <div class="video_list">
+                    	<ul>
+										
+                        	<li><a target="_blank" href="/article/index/aid/6539.html"><span></span><img src="/upfile/files/201706/26/125721_524.jpg"><p>大陆首家台商独资海员...</p></a></li>
+										
+                        	<li><a target="_blank" href="/article/index/aid/6494.html"><span></span><img src="/upfile/files/201706/19/180450_786.jpg"><p>自贸区负面清单“再瘦...</p></a></li>
+											
+                        </ul>
+                    </div>
+                    <div class="video_news_list">
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6476.html">自贸新路径 厦门：获批为汽车整车进口口岸</a><span class="date">（06-16）</span></li>
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6407.html">福州港开通直航印尼集装箱航线</a><span class="date">（06-09）</span></li>
+										
+                    	 <li><a target="_blank" href="/article/index/aid/6406.html">香港全国人大代表访问团考察福建自贸试验区</a><span class="date">（06-09）</span></li>
+										 
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli3"> <a class="sy1_tit " href="/article/list/gid/4" target="_self"><span class="navspan">信息公开</span></a>
+              <ul class="sy2_ul">
+              	<div class="info_list">
+                	<ul>
+                    	<li><a target="_blank" href="/article/list/gid/66"><i class="fa fa-volume-up"></i>国家支持政策</a></li>
+                        <li><a target="_blank" href="/article/list/gid/22"><i class="fa fa-location-arrow"></i>方案与规划</a></li>
+						<li><a target="_blank" href="/article/list/gid/23"><i class="fa fa-signal"></i>统计数据</a></li>
+                        <li><a target="_blank" href="http://www.fiet.gov.cn/xxgk/zfxxgkzl/"><i class="fa fa-file-text-o"></i>政府信息公开专栏</a></li>
+                     </ul>
+                </div>
+                <div class="info_box">
+                	<div class="info_news" style="border-bottom:dotted 1px #ddd; padding-bottom:15px; margin-bottom:15px;">
+                    	<h3>通知公告<a target="_blank" href="/article/list/gid/19">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/5902.html">
+							关于启动实施新的外国人来华工作许可制度的...</a><span class="date">03-31</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5669.html">
+							关于印发 《福建省引进台湾高层次人才“百...</a><span class="date">02-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5285.html">
+							关于海关特殊监管区域和保税监管场所保税货...</a><span class="date">01-05</span></li>
+										
+                        </ul>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="info_news"  style="border-bottom:dotted 1px #ddd; padding-bottom:15px; margin-bottom:15px;">
+                    	<h3>政策法规<a target="_blank" href="/article/list/gid/20">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/6513.html">
+							质检总局关于推进检验检疫改革创新 进一步...</a><span class="date">06-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6480.html">
+							国务院办公厅关于印发自由贸易试验区外商投...</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6353.html">
+							厦门市市场监督管理局关于印发推进自贸区商...</a><span class="date">06-02</span></li>
+					
+                        </ul>
+                    </div>
+                    <div class="info_news">
+                    	<h3>政策解读<a target="_blank" href="/article/list/gid/44">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/6513.html">
+							质检总局关于推进检验检疫改革创新 进一步...</a><span class="date">06-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6480.html">
+							国务院办公厅关于印发自由贸易试验区外商投...</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6353.html">
+							厦门市市场监督管理局关于印发推进自贸区商...</a><span class="date">06-02</span></li>
+					
+                        </ul>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="info_news">
+                    	<h3>扶持政策<a target="_blank" href="/article/list/gid/21">更多></a></h3>
+                        <ul>
+									
+							<li><a target="_blank" href="/article/index/aid/5828.html">
+							平潭综合实验区管委会关于促进会展产业发展...</a><span class="date">03-24</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5803.html">
+							福州市人民政府办公厅关于印发《福州港口生...</a><span class="date">03-21</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/4508.html">
+							福建省深化人才发展体制机制改革实施意见</a><span class="date">09-20</span></li>
+					
+                        </ul>
+                    </div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli4"> <a class="sy1_tit " href="#" target="_self"><span class="navspan">办事大厅</span></a>
+              <ul class="sy2_ul">
+              	<div class="xl_fta_box">
+                	<div class="box_left"></div>
+                    <div class="box_middle">
+                    	<ul>
+                        	<li><img src="/images/fz_fta.png"><p>福州片区办事大厅</p><a target="_blank" href="http://www.fzftz.gov.cn/wsbs.aspx">办事入口</a></li>
+                            <li><img src="/images/xm_fta.png"><p>厦门片区办事大厅</p><a target="_blank" href="http://www.xmftz.gov.cn/wsbs/">办事入口</a></li>
+                            <li><img src="/images/pt_fta.png"><p>平潭片区办事大厅</p><a target="_blank" href="http://zzhy.ptxzfwzx.gov.cn/">办事入口</a></li>
+                        </ul>
+                    </div>
+                    <div class="box_right"></div>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli5"> <a class="sy1_tit " href="/gcolumn/ztlm" target="_self"><span class="navspan">专题专栏</span></a>
+              <ul class="sy2_ul">
+              	<div class="zt_left">
+                	<div class="zt_title"><i></i>专题</div>
+                    <ul>
+										
+                    	<li>
+                        	<div class="zt_img"><a target="_blank" href="http://picture.china-fjftz.gov.cn/"><img src="/upfile/files/201705/05/144925_772.jpg"></a></div>
+                            <div class="zt_text">
+                            	<a target="_blank" href="http://picture.china-fjftz.gov.cn/" class="text_name">福建自贸试验区随手拍&摄影采风作品评选活...</a>
+                                <p><a href="http://picture.china-fjftz.gov.cn/">【详情】</a></p>
+                            </div>
+                            
+                        </li>
+										
+                    	<li>
+                        	<div class="zt_img"><a target="_blank" href="/html/zmqtp/"><img src="/upfile/files/201610/14/083618_111.jpg"></a></div>
+                            <div class="zt_text">
+                            	<a target="_blank" href="/html/zmqtp/" class="text_name">福建自贸试验区2015-2016年度评选活动结果公布</a>
+                                <p>福建自贸试验区2015-2016年度评选活动结果公布<a href="/html/zmqtp/">【详情】</a></p>
+                            </div>
+                            
+                        </li>
+				                    </ul>
+                </div>
+                <div class="zt_right">
+                	<div class="zt_title"><i></i>专栏</div>
+                	<ul>
+										
+                    	<li><a target="_blank" href="/article/list/gid/65.html"><i></i><p>中央媒体报道福建自贸区专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/68.html"><i></i><p>福建自贸区建设成效专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/58.html"><i></i><p>福建创新举措专栏</p></a></li>
+										
+                    	<li><a target="_blank" href="/article/list/gid/67.html"><i></i><p>福建自贸区实践案例专栏</p></a></li>
+										
+                    </ul>
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+            <li class="sy1_li navli6"> <a class="sy1_tit " href="/article/list/gid/70" target="_self"><span class="navspan">对台直通车</span></a>
+              <ul class="sy2_ul">
+              	<div class="gb_xl_news">
+                	<div class="slideTxtBox">
+						<div class="hd">
+							<ul><li><a href="">对台新闻</a></li><li><a href="">对台政策</a></li><li><a href="">创新举措</a></li></ul>
+						</div>
+						<div class="bd">
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6548.html">
+							福建探索海峡博士后计划 深化两岸人才交流...</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6547.html">
+							百余家福建台资企业 将首次联合赴台征才</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6546.html">
+							福建“六区”发展战略 与闽台深度融合发展</a><span class="date">06-27</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6538.html">
+							第四届中国青年创新创业大赛（福建赛区）启...</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6537.html">
+							两岸护理专家在厦门探讨创新</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6536.html">
+							银监会推动解决台胞办理信用卡难试点工作—...</a><span class="date">06-26</span></li>
+												
+							</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/3427.html">
+							 厦门检验检疫局中国（福建）自由贸易试验...</a><span class="date">04-22</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/3396.html">
+							厦门检验检疫局中国（福建）自由贸易试验区...</a><span class="date">04-19</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1485.html">
+							台湾导游领队在福建自贸试验区执业实施方案</a><span class="date">08-07</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1239.html">
+							台湾会计专业人士担任中国（福建）自由贸易...</a><span class="date">07-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/1091.html">
+							台湾药师在福建自由贸易试验区执业的管理暂...</a><span class="date">06-26</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/869.html">
+							关于取得大陆注册结构工程师等3类执业资格...</a><span class="date">06-02</span></li>
+											</ul>
+							<ul class="infoList">
+									
+							<li><a target="_blank" href="/article/index/aid/6479.html">
+							采认台湾教师从业资格</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6478.html">
+							台胞参保直通车</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/6477.html">
+							采认进出港台籍船舶技术证照</a><span class="date">06-16</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5670.html">
+							两岸保险“创研中心”</a><span class="date">02-24</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5664.html">
+							台湾中高层次人才认定新机制</a><span class="date">02-23</span></li>
+									
+							<li><a target="_blank" href="/article/index/aid/5663.html">
+							台资建筑业企业资质认定办法</a><span class="date">02-23</span></li>
+											</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+                </div>
+                <div class="gb_xl_video">
+                    <div class="fw_list">
+                    	<img src="/images/dtztc.jpg"/>
+                    </div>
+                   
+                </div>
+              </ul>
+            </li>
+            <li class="sy_line"></li>
+          </div>
+          <div class="gb_search">
+            <FORM action="/article/list.html" method="post" id="searchForm">
+				<input type="text" class="gb_text_box" id="keywords" name="keywords" value="" placeholder="请输入关键字" />
+                <input type="submit" value="" class="gb_btn_ok">
+            </FORM>
+        </div>
+        </ul>
+        
+    </nav>		<div class="address">
+            <div class="add_box">您所在的位置：<a href="http://www.china-fjftz.gov.cn">首页</a>  > <a href="/gcolumn/ztlm.html">专题专栏</a> > <a href="/gcolumn/ztlm1/gid/27.html">对台合作专栏</a> > <a href="/article/list/gid/55.html">ECFA文件</a></div>
+    </div>
+	<div class="left">
+    <div id="nav">
+    <h1>对台合作专栏</h1><ul><li><a class="selected" href="/article/list/gid/55.html">ECFA文件</a></li><li><a  href="/article/list/gid/56.html">服贸协议</a></li></ul>    </div>
+        <div class="hot_list" id="smartFloat_tags">
+      <h3 class="title_name">热门文章</h3>
+      <ul>
+      <li><span class="number front">1</span><a href="/article/index/aid/142.html">中国（福建）自由贸易试验区简介</a><span class="read">121115</span></li><li><span class="number front">2</span><a href="/article/index/aid/143.html">中国（福建）自由贸易试验区 • 福州片区</a><span class="read">85965</span></li><li><span class="number front">3</span><a href="/article/index/aid/3742.html">办事指南</a><span class="read">81147</span></li><li><span class="number">4</span><a href="/article/index/aid/144.html">中国（福建）自由贸易试验区 • 厦门片区</a><span class="read">76190</span></li><li><span class="number">5</span><a href="/article/index/aid/430.html">联系我们</a><span class="read">74300</span></li><li><span class="number">6</span><a href="/article/index/aid/358.html">机构设置和职能</a><span class="read">60928</span></li><li><span class="number">7</span><a href="/article/index/aid/428.html">使用帮助</a><span class="read">54571</span></li><li><span class="number">8</span><a href="/article/index/aid/429.html">法律声明</a><span class="read">41727</span></li>       
+      </ul>
+    </div>
+  </div>    
+    <div class="right">
+    	    	<div class="right_title"><span>ECFA文件</span></div>
+    	        <div class="content_box">
+                    <h1>福建检验检疫局服务ECFA签证企业相关政策措施</h1>
+          <div class="wd_info"><span>2015-02-24 18:29:57</span>
+		            来源：<span>福建省商务厅</span>		  阅读次数：<span class="blue">2799</span>次</div>
+                                        <div class="news_vdcon">
+            <strong>&nbsp; &nbsp; &nbsp; &nbsp; 一、福建检验检疫局服务ECFA签证企业的优惠措施</strong><br />　　<br />　　(一)精简ECFA签证审批手续。对已注册任何一种优惠原产地证业务的出口企业，无需再申请，一并予以ECFA原产地证的办理资格；对新增申请企业，ECFA签证注册时间缩短为1个工作日。<br />　　<br />　　(二)统一放宽对新增申领员的管理。允许对新增申请企业的业务人员办理临时申领员资格，临时申领员资格设定为6个月。<br />　　<br />　　(三)进一步提升签证服务质量。福建检验检疫局下属分支机构均设立了ECFA原产地证书签证专窗，对ECFA原产地证书随到随签；开通咨询热线，指定专人负责ECFA原产地证申领的业务指导。<br />　　<br />　　(四)广泛开展ECFA优惠原产地政策宣传。通过新闻媒体、公告栏、电子屏幕等多渠道广泛宣传ECFA签证的优惠政策；制作编印8000册《ECFA优惠原产地证政策宣传手册》免费向企业发放；在福建检验检疫局门户网站开辟ECFA优惠原产地政策专栏，供社会公众查阅；组织检验检疫施检部门人员与签证部门人员联合对辖区重点企业开展 “一对一”的重点宣传，指导企业用好用足ECFA优惠政策<br />　　<br />　　(五)加强ECFA签证政策培训。充分发挥企业管理层和原产地证申领人员在利用优惠原产地政策促进企业发展中的重要作用，为辖区出口企业免费组织ECFA优惠原产地政策专题培训12期，提升申领ECFA原产地证书工作效率。<br />　　<br />　　(六)开展ECFA法规政策研究工作。成立福建检验检疫局实施ECFA检验检疫政策研究小组，着重研究福建省出口台湾产品产业结构和原产地规则，为ECFA后续协议谈判体现福建先行先试提供决策参考；研究ECFA项下货物在签证和通关放行方面检验检疫部门优惠便捷措施；应用原产地业务电子管理系统实现ECFA原产地证书电子签证；研发ECFA原产地优惠政策智能查询及应用服务系统，为企业提供方便快捷的信息查询平台。<br />　　<br />　　<strong>二、申请ECFA原产地证应提交的资料</strong><br />　　<br />　　1.《海峡两岸经济合作框架协议》（ECFA）原产地证书申请书；<br />　　<br />　　2.按规定填制的ECFA原产地证书；<br />　　<br />　　3.出口商品的商业发票副本；<br />　　<br />　　4.其他必要的材料。<br />　　<br />　　<strong>三、ECFA原产地证填制要求</strong><br />　　<br />　　<strong>总体要求：</strong>ECFA原产地证书采用统一的格式，证书以简体中文填写，必要时辅以英文（如货品品名等），但不能仅以英文填写。<br />　　<br />　　<strong>证书号：</strong>ECFA原产地证书号共16位。编号规则为：H+年份代码(2位)+企业注册号(9位)+证书流水号(4位)。<br />　　<br />　　<strong>第1栏：</strong>应填写海峡两岸经济合作框架协议下在双方注册登记的海峡两岸双方出口商详细名称、地址、电话、传真和电子邮件等联系方式。如无传真或电子邮件，应填写“无”。<br />　　<br />　　<strong>第2栏：</strong>应填写海峡两岸经济合作框架协议下在双方注册登记的海峡两岸双方生产商的详细名称、地址、电话、传真和电子邮件等联系方式。如无传真或电子邮件，应填写“无”。如果证书包含一家以上生产商，应详细列出所有生产商的名称、地址，如果证书填写不下，可以随附生产商清单，以A4空白纸打印。如果生产商和出口商相同，应填写“同上”。若本栏资料属机密性资料时，请填写“签证机构或相关机关要求时提供”。<br />　　<br />　　<strong>第3栏：</strong>应填写海峡两岸经济合作框架协议下在双方注册登记的海峡两岸双方进口商的详细名称、地址、电话、传真和电子邮件等联系方式，如无传真或电子邮件，应填写“无”。<br />　　<br />　　<strong>第4栏：</strong>应填写运输方式及路线，详细说明离港日期、运输工具（船舶、飞机等）的编号、装货口岸和到货口岸。如离港日期未最终确定，可填写预计的离港日期，并注明“预计”字样。<br />　　<br />　　<strong>第5栏：</strong>不论是否给予优惠关税待遇，进口方海关可在本栏标注(√ )。如果不给予优惠关税待遇，请在该栏注明原因。该栏应由进口方海关已获授权签字人签字。<br />　　<br />　　<strong>第6栏：</strong>如有需要，可填写订单号码、 信用证号等。但如果企业未填写任何内容，则应打上“***”（三个星）。<br />　　<br />　　<strong>第7栏：</strong>应填写项目编号，但不得超过20项。<br />　　<br />　　<strong>第8栏：</strong>应对应第9栏中的每项货物填写《协调制度》编码，以进口方（台方）8位编码为准。<br />　　<br />　　<strong>第9栏：</strong>应详细列明货品名称、包装件数及种类，以便于海关关员查验。货品名称可在中文名称外辅以英文，但不能仅以英文填写。货品名称应与出口商发票及《协调制度》上的商品描述相符。如果是散装货，应注明“散装”。当本栏货物信息填写完毕时，加上“***”（三颗星）或“＼”（结束斜线符号）。<br />　　<br />　　<strong>第10栏：</strong>每种货物的数量可依照海峡两岸双方惯例采用的计量单位填写，但应同时填写以国际计量单位衡量的数量，如毛重（用千克衡量），容积（用公升衡量），体积（用立方米衡量）等，以精确地反映货物数量。<br />　　<br />　　<strong>第11栏：</strong>应填写唛头或包装号，以便于海关关员查验。<br />　　<br />　　<strong>第12栏：</strong>若货物符合临时原产地规则，出口商必须按照下列表格中规定的格式，在本证书第12栏中标明其货物申报适用优惠关税待遇所根据的原产地标准。<br />　　<br />　　本表格第9栏列名的货物生产或制造的详情<br />　　<br />　　填入第12栏<br />　　<br />　　出口方完全获得的货物&nbsp;<br />　　<br />　　“WO”<br />　　<br />　　完全是在一方或双方,仅由符合本附件的临时原产地规则的原产材料生产<br />　　<br />　　“WP”<br />　　<br />　　(c) &nbsp;符合产品特定原产地标准的货物&nbsp;<br />　　<br />　　“PSR”<br />　　<br />　　此外，如果货物适用的原产地标准依据“累积规则”条款（见注释1）、“微小含量”条款（见注释2）或“可互换材料”条款（见注释3），亦应于本栏相应填写“ACU”、“DMI”或“FG”。<br />　　<br />　　<strong>第13栏：</strong>应填写海峡两岸经济合作框架协议下海峡两岸双方出口商开具的商业发票所载明的货物实际成交价格、发票编号及发票日期。<br />　　<br />　<strong>　第14栏：</strong>应由出口商或已获授权人填写、签名，并应填写签名的地点及日期。<br />　　<br />　<strong>　第15栏：</strong>应由签证机构的授权人员填写签证地点和日期，并签名、盖章。同时应提供签证机构的电话号码、传真及地址。具体内容为电话：+86-591-87065316，传真：+86-591-87065300，地址：福州市湖东路312号。<br />　　<br />　<strong>　注释<br />　　<br />　　1.“累积规则”：</strong>一方的原产材料在另一方构成另一货物的组成部分时，该材料应视为原产于该另一方。<br />　　<br />　<strong>　2.“微小含量”： </strong>货物不符合本规则附件规定的税则归类改变标准，但同时符合下列条件的，仍应视为原产货物：<br />　　<br />　　（1）对于不符合税则归类改变的非原产材料，其依据第六条规定核定的价值不超过该货物离岸价格的百分之十；&nbsp;<br />　　<br />　　（2）该货物符合其所适用的本规则所有其他规定。<br />　　<br />　　<strong>3.“可互换材料”：</strong>是指在商业上可互换的材料，其性质实质相同，仅凭目视无法加以区分。<br />　　<br />　　（1）在确定货物是否为原产货物时，任何可互换材料应据实加以区分；或依据出口方公认会计原则承认的库存管理方法择一办理。<br />　　<br />　　（2）上述经择定的库存管理方法，应在其整个会计年度内，连续使用该方法对上述货物或材料进行管理。<br />　　<br />　　<strong>四、其它相关规定：</strong><br />　　<br />　<strong>　1.ECFA原产地证签证周期</strong><br />　　<br />　　福建检验检疫局各签证机构均设立ECFA原产地证书签证专窗，指定专人负责ECFA原产地证申领的业务指导，对ECFA原产地证书做到随到随签。<br />　　<br /><strong>　　2.ECFA原产地证有效期</strong><br />　　<br />　　ECFA原产地证书应在货物出口报关前签发，证书自签发之日起12个月内有效。<br />　　<br />　　符合下列情况之一的，出口商或生产商可在货物出口报关之日起90天内申请补发原产地证书。补发的原产地证书自货物出口报关之日起12个月内有效，证书上注明“补发”字样。<br />　　<br />　　1.因不可抗力或出口方经规定可接受的正当理由；<br />　　<br />　　2.签证机构已签发原产地证书，但由于在填制或签发证书时产生的技术性错误，出口商申请注销及补发原产地证书；<br />　　<br />　　3.原产地证书遗失或损毁。<br />　　<br /><strong>　　3.补发ECFA原产地证有效期</strong><br />　　<br />　　补发的原产地证自货物出口报关之日起12个月内有效，证书上注明“补发”字样。<br />　　<br /><strong>　　4.ECFA原产地证文件的保存时限</strong><br />　　<br />　　依据规定，要求生产商或出口商自原产地证书签发之日起，将与原产地有关的证明文件至少保存3年。上述相关文件应包括但不限于：<br />　　<br />　　1.出口商或生产商获得相关货物的直接证据，如其账册及与出口货物的采购、成本、价格与付款等有关凭证。<br />　　<br />　　2.有助于证明生产货物所用材料是否为原产的文件，例如所有直接及间接原料的采购、成本、价格与付款等有关单据或凭证。&nbsp;<br />　　<br />　　3.证明原材料生产和加工的文件。<br />　　<br /><strong>　　5.申请签发ECFA原产地证注意事项</strong><br />　　<br />　　1.ECFA原产地证书以简体中文填写，必要时辅以英文（如货品品名等），但不能仅以英文填写。<br />　　<br />　　2、一份原产地证书应对应一份进口报关单上申报的货物，不得超过20项。<br />　　<br />　　3、ECFA原产地证书仅能签发一份正本，该正本由进口商递交给台方海关，可申请适用优惠关税待遇。第二副本由出口商留存，第三副本由签证机构留存。<br />　　<br />　　4、生产商或出口商自原产地证书签发之日起，将与原产地有关的证明文件至少保存3年。<br />　　<br />　　5.证书如有续页，亦按照要求填写，续页也应填写同一证书编码。同时请在证书下方填写“第X页，共X页”。如果证书仅有1页，亦应填写“第1页，共1页”<br />　　<br />　　6.ECFA原产地证书自2011年1月1日起签发，证书需在货物出口报关前签发。<br />　　<br />　　7.补发的ECFA原产地证自货物出口报关之日起12个月内有效，证书第十五栏应注明“补发”字样。&nbsp;<br />　　<br /><strong>　　6.货物运输经过双方以外的一个或多个第三方，能否申请ECFA优惠原产地证书？</strong><br />　　<br />　　货物运经双方以外的一个或多个第三方，不论是否在第三方转换运输工具或临时储存，若同时符合下列条件，仍应视为在双方之间直接运输：<br />　　<br />　　1.基于地理原因或运输需要；<br />　　<br />　　2.货物在该第三方未发生贸易、商业或消费的情况；<br />　　<br />　　3.除装卸、重新包装或使货物保持良好状态所需的处理外，货物在该第三方未经任何其他处理。<br />　　<br /><strong>　　7.货物在第三方临时储存最多可停留多长时间？</strong><br />　　<br />　　货物在第三方临时储存的停留时间，自运抵该方之日起不得超过六十天，并且货物在停留期间必须处于该第三方海关监管之下。<br />　　<br /><strong>　　8.货物经停第三方，在申报进口时，应提交哪些资料？</strong><br />　　<br />　　在货物申报进口时，应提交中转方海关出具的证明文件以及进口方海关认可的其他证明文件。<br />　　<br /><strong>　　9.台方税则号列8位码如何与大陆对应？</strong><br />　　<br />　　台方出口大陆早收清单的产品，产地证上应填写大陆8位HS税则号；大陆方出口台湾早收清单货品，产地证上应填写台湾8位HS税则号，可以通过大陆与台方编码对照表查询。<br />　　<br /><strong>　　10.ECFA原产地证书中货品项次最多只能20项，但出口报关单项次超过20项时，应如何申请ECFA原产地证书？</strong><br />　　<br />　　应申请两份以上的ECFA原产地证书。一份出口报单对应一份ECFA原产地证书。<br />　　<strong><br />　　11.ECFA原产地证书是事前申请，如需变更ECFA原产地证书的内容，该如何处理?</strong><br />　　<br />　　企业可向检验检疫机构申请签发“补发” ECFA原产地证书，同时须退回原ECFA原产地证书。<br />　　<br /><strong>　　12.申请ECFA原产地证书证签证费是多少?</strong><br />　　<br />　　ECFA原产地证书证签证费40元。<br />　　<br /><strong>　　13.出口商申请更改ECFA原产地证书，原来的ECFA原产地证书是否要退回?</strong><br />　　<br />　　是。原ECFA原产地证书需要退回。<br />　　<strong><br />　　14.如何使用ECFA原产地证书？</strong><br />　　<br />　　ECFA原产地证书仅能签发一份正本，该正本由进口商递交给台方海关，可申请适用优惠关税待遇。第二副本由出口商留存，第三副本由签证机构留存。<br />　　<br /><strong>　　15.香港算不算第3国？若货物从香港转运大陆各关区，算不算直运？</strong><br />　　<br />　　在大陆与台湾双方签署ECFA时，已将香港视同第3地，属于转运方式。企业如申请适用优惠关税，除ECFA产地证明外，需另向香港海关申请转运证明。货物运经双方以外的一个或多个第三方，不论是否在第三方转换运输工具或临时储存，符合以下条件，仍应视为在双方之间直接运输： (1)基于地理原因或运输需要； (2)货物在该第三方未发生贸易、商业或消费之情况； (3)除装卸、重新包装或市货物保持良好状态所需之处理外，货物在该第三方未经任何其他处理。<br />　　<br /><strong>　　16.若货物系直接从台湾运至大陆，但交易行为由大陆厂商向日本贸易商或境外公司下单，再由台湾工厂出货至大陆，请问可以适用ECFA优惠关税吗？</strong><br />　　<br />　　ECFA效力仅涉及台陆双方，故不适用于第三国厂商（含港澳特区），因此不论出口报单、进口报单或ECFA原产地证，若有一方非台陆厂商，则无法适用优惠关税。<br />　　<br /><strong>　　17.台湾方面申请ECFA原产地证申请人需提供的证明文件</strong><br />　　<br />　　一般情形下，申请时需提供：（1）申请书（2）申报书（3）授权书（4）交易文件及相关文件，另这些证明文件需于原产地证签发之日起保存5年，供贸易局事后抽查。<br />　　<br />　<strong>　18.台湾方面ECFA原产地证申请时间要求</strong><br />　　<br />　　台湾方面ECFA原产地证应于出口报关前完成ECFA原产地证申请程序。但若有下列情形之一者，可以在放行后申请： (1) 进口商未事前要求提供ECFA原产地证，得已向海关主动申报适用优惠关税待遇（2）进口商已向海关主动申报适用优惠关税待遇并缴交保证金（3）因填制或签发证明书时产生之技术性错误而申请注销焕发 (4)原产地证明书遗失或损毁申请补发<br /><strong>　　<br />　　19.台湾方面有哪些进口的相关规定？</strong><br />　　<br />　　1.通关程序中需提交有效的原产地证书正本； 2.同一份产地证的货物应属于同一批次交运； 3.每一份原产地证申报的货物，不得超过20项； 4.一份产地证书仅适用于一份进口报关单； 5.货物放行后不得受理补发（视同未声明适用关税优惠待遇）； 6.将逐批审单，并提高查验比例。          </div>
+          <!-- <div class="csw_content_text_6">
+            <b>标签：</b>
+            <a href="/e/tags/?tagname=跨境电商网站推广">跨境电商网站推广</a>
+            <a href="/e/tags/?tagname=微软Bing搜索">微软Bing搜索</a>
+            <a href="/e/tags/?tagname=晋江跨境电商峰会">晋江跨境电商峰会</a>
+            </div> -->
+          <div class="share01">
+          <span>分享到：</span>
+              <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+                </div>
+                     <div class="page_up">
+            <p> 上一篇： <a href="/article/index/aid/170.html">ECFA大陆方面签证机构——贸易促进委员会</a> </p>
+            <p> 下一篇： <a href="/article/index/aid/179.html">海峡两岸经济合作框架协议</a> </p>
+          </div>
+          		<!-- <div class="xg_read">
+      		<div class="read_title">相关阅读</div>
+            <div class="read_list">
+	            <ul>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+		            <li><a href="#">IMF下调全球经济增长预期 复苏之路并不平坦</a></li>
+	            </ul>
+            </div>
+      </div> -->
+        </div>
+    </div></div>	
+	<div class="clear"></div>
+<footer>
+    <div class="footer_box">
+        <select name="select1" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----国家部委-----</option>
+            <option value="http://www.fmprc.gov.cn/chn/">外交部</option>
+            <option value="http://www.sdpc.gov.cn/">国家发展和改革委员会</option>
+            <option value="http://www.moe.edu.cn">教育部</option>
+            <option value="http://www.most.gov.cn/">科学技术部</option>
+            <option value="http://www.seac.gov.cn/">国家民族事务委员会</option>
+            <option value="http://www.mps.gov.cn">公安部</option>
+            <option value="http://www.mca.gov.cn">民政部</option>
+            <option value="http://www.mof.gov.cn">财政部</option>
+            <option value="http://www.mlr.gov.cn">国土资源部</option>
+            <option value="http://www.mohurd.gov.cn/ ">建设部</option>
+            <option value="http://www.moc.gov.cn/">交通运输部</option>
+            <option value="http://www.miit.gov.cn/n11293472/index.html">工信部</option>
+            <option value="http://www.agri.gov.cn">农业部</option>
+            <option value="http://www.mwr.gov.cn">水利部</option>
+            <option value="http://www.mofcom.gov.cn/">商务部</option>
+            <option value="http://www.nhfpc.gov.cn/">卫计委</option>
+            <option value="http://www.mcprc.gov.cn/">文化部</option>
+            <option value="http://gwzs.my.gov.cn/">劳动和社会保障部</option>
+            <option value="http://www.pbc.gov.cn/">中国人民银行</option>
+            <option value="http://www.soa.gov.cn/ ">国家海洋局</option>
+            <option value="http://www.tobacco.gov.cn/">国家烟草专卖局</option>
+            <option value="http://www.chinapost.gov.cn/">国家邮政局</option>
+            <option value="http://www.nach.gov.cn/">国家文物局</option>
+            <option value="http://www.chinasafety.gov.cn/">国家海洋局</option>
+            <option value="http://www.chinasafety.gov.cn/newpage/">国家安全生产监督管理局</option>
+            <option value="http://www.aqsiq.gov.cn/">国家质量监督检验检疫总局</option>
+            <option value="http://www.safe.gov.cn/">国家外汇管理局</option>
+            <option value="http://www.chinagrain.gov.cn/">国家粮食局</option>
+            <option value="http://www.safea.gov.cn/">国家外国专家局</option>
+            <option value="http://www.satcm.gov.cn/">国家中医药管理局</option>
+            <option value="http://www.customs.gov.cn/">海关总署</option>
+            <option value="http://www.caac.gov.cn/">中国民用航空总局</option>
+            <option value="http://www.stats.gov.cn/">国家统计局</option>
+            <option value="http://www.chinatax.gov.cn/">国家税务总局</option>
+            <option value="http://www.zhb.gov.cn/">国家环境保护总局</option>
+            <option value="http://www.chinasarft.gov.cn/index.html">国家广播电影电视总局</option>
+            <option value="http://www.sport.gov.cn/">国家体育总局</option>
+            <option value="http://www.saic.gov.cn/">国家工商行政管理局</option>
+            <option value="http://www.cpo.cn.net/">国家知识产权局</option>
+            <option value="http://www.cnta.com/">国家旅游局</option>
+            <option value="http://www.sfda.gov.cn/WS01/CL0001/">国家粮食药品监督管理局</option>
+            <option value="http://www.cma.gov.cn/">中国气象局</option>
+            <option value="http://www.cbrc.gov.cn/index.html">中国银行业监督委员会</option>
+            <option value="http://www.idcpc.org.cn/index_zhongwen.htm">中共中央对外联络部</option>
+        </select>
+        <select name="select2" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----省直机关-----</option>
+            <option value="http://www.fujian.gov.cn/">福建省人民政府</option>
+            <option value="http://www.fjdpc.gov.cn/">省发改委</option>
+            <option value="http://www.fjetc.gov.cn/">省经信委</option>
+            <option value="http://www.fjhfpc.gov.cn/">省卫计委</option>
+            <option value="http://www.fjedu.gov.cn/html/index.html">省教育厅</option>
+            <option value="http://www.fjkjt.gov.cn/">省科技厅</option>
+            <option value="http://www.fjmzzj.gov.cn/">省民族宗教厅</option>
+            <option value="http://www.fjgat.gov.cn/">省公安厅</option>
+            <option value="http://www.fjcdi.gov.cn/">省监察厅</option>
+            <option value="http://www.fjsmzt.gov.cn/">省民政厅</option>
+            <option value="http://www.fjsf.gov.cn/">省司法厅</option>
+            <option value="http://www.fjcz.gov.cn/">省财政厅</option>
+            <option value="http://www.fjrs.gov.cn">省人社厅</option>
+            <option value="http://www.fjgtzy.gov.cn/">省国土厅</option>
+            <option value="http://www.fjepb.gov.cn/">省环保厅</option>
+            <option value="http://www.fjjs.gov.cn/">省住建厅</option>
+            <option value="http://www.fjjt.gov.cn/">省交通运输厅</option>
+            <option value="http://www.fjagri.gov.cn/html/">省农业厅</option>
+            <option value="http://www.fjforestry.gov.cn/">省林业厅</option>
+            <option value="http://www.fjwater.gov.cn/">省水利厅</option>
+            <option value="http://www.fjof.gov.cn/">省海洋渔业厅</option>
+            <option value="http://www.fiet.gov.cn/">省商务厅</option>
+            <option value="http://www.fjwh.gov.cn/">省文化厅</option>
+            <option value="http://www.fjaudit.gov.cn/">省审计厅</option>
+            <option value="http://www.fjfao.gov.cn/">省外办</option>
+            <option value="http://www.fjgzw.gov.cn/">省国资委</option>
+            <option value="http://www.fj-l-tax.gov.cn">省地税局</option>
+            <option value="http://www.fjaic.gov.cn/">省工商局</option>
+            <option value="http://www.fjqi.gov.cn/">省质监局</option>
+            <option value="http://www.fjxwgd.gov.cn/">省新闻出版广电局</option>
+            <option value="http://www.fjty.gov.cn/">省体育局</option>
+            <option value="http://www.fjsafety.gov.cn/">省安监局</option>
+            <option value="http://www.fjfda.gov.cn/">省食品药品监管局</option>
+            <option value="http://www.stats-fj.gov.cn/">省统计局</option>
+            <option value="http://www.fjta.gov.cn/">省旅游局</option>
+            <option value="http://www.fjgrain.gov.cn/">省粮食局</option>
+            <option value="http://www.fjjg.gov.cn/fjwjj/index.htm">省物价局</option>
+            <option value="http://www.fjqw.gov.cn/">省侨办</option>
+            <option value="http://www.fjrf.gov.cn/">省人防办</option>
+            <option value="http://www.fjfzb.gov.cn/">省法制办</option>
+            <option value="http://www.fjjghq.gov.cn/">省机关事务管理局</option>
+            <option value="http://www.fujian.gov.cn/fw/bmxxcx/wzdh/sydbwzdh/szfbm/201402/t20140210_697591.htm">省金融办</option>
+            <option value="http://www.fujian.gov.cn/fw/bmxxcx/wzdh/sydbwzdh/szfbm/201212/t20121203_550109.htm">省监狱局</option>
+            <option value="http://gwy.fjrs.gov.cn/">省公务员局</option>
+        </select>
+        <select name="select3" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----兄弟自贸区-----</option>
+            <option value="http://www.china-shftz.gov.cn/">中国（上海）自由贸易试验区</option>
+            <option value="http://www.china-gdftz.gov.cn/">中国（广东）自由贸易试验区</option>
+            <option value="http://www.china-tjftz.gov.cn/">中国（天津）自由贸易试验区</option>
+            <option value="http://www.china-zjftz.gov.cn/">中国（浙江）自由贸易试验区</option>
+            <option value="http://www.china-hnftz.gov.cn/">中国（河南）自由贸易试验区</option>
+			<option value="http://www.shaanxiftz.gov.cn/">中国（陕西）自由贸易试验区</option>
+        </select>
+        <select name="select4" id="select" class="sel" onchange="if (this.options[this.selectedIndex].value!=''){window.open(this.options[this.selectedIndex].value)};">
+            <option>-----其他-----</option>
+
+        </select>
+    </div>
+    <div class="gb_footer">
+        <ul>
+            <a href="/index/sitemap.html">站点地图</a> | <a href="/article/index/aid/428.html">使用帮助</a> | <a href="/article/index/aid/430.html">联系我们</a> | <a href="/article/index/aid/429.html">法律声明</a> | <a href="javascript:SetHome(window.location);">设为首页</a> | <a href="javascript:AddFavorite(window.location,document.title);">收藏本站</a>
+        </ul>
+    </div>
+    <div class="gb_bottom">
+        <p>您好，欢迎访问本网站！您是本网站的第10354823位访问者</p>
+        <p>主办：福建自贸试验区工作领导小组办公室</p>
+        <p>版权所有：福建省商务厅 闽ICP备14009608号-3</p>
+        <p>技术支持：<a href="http://www.ec.com.cn/" target="_blank">CIECC</a> <a target="_blank" href="http://www.rsnet.com.cn/">润商网络</a></p>
+    </div>
+</footer>
+<script type="text/javascript">
+    function AddFavorite(sURL, sTitle) {
+        sURL = encodeURI(sURL);
+        try{
+
+            window.external.addFavorite(sURL, sTitle);
+
+        }catch(e) {
+            try{
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+            }
+        }
+    }
+    function SetHome(url){
+        if (document.all) {
+            document.body.style.behavior='url(#default#homepage)';
+            document.body.setHomePage(url);
+        }else{
+            alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+        }
+    }
+</script><script type="text/javascript">
+$(function(){
+	$('.hm-t-go-top').hide();
+	$(window).scroll(function() {		
+		//if($(window).scrollTop() >= 300){
+		h = $(window).height();
+		t = $(document).scrollTop();
+		if(t > h*2){
+			//$('.hm-t-go-top').fadeIn(300); 
+			$('.hm-t-go-top').show();
+		}else{    
+			//$('.hm-t-go-top').fadeOut(300);
+			$('.hm-t-go-top').hide();
+		}  
+	});
+	$('.hm-t-go-top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});	
+});
+</script>
+<div id="hm_t_undefined" class="hm-t-container">
+	<div class="hm-t-go-top" style="display: block; background-color: rgb(102, 102, 102); background-position: -42px 50%;"></div>
+</div>
+</body>
+</html>
