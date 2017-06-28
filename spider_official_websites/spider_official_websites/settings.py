@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'spider_official_websites.spiders'
 LOG_ENABLED = True
 LOG_ENCODING = 'utf-8'
 LOG_FILE = 'crawler.log'
-LOG_LEVEL = 'DEBUG'
+LOG_LEVEL = 'ERROR'
 LOG_STDOUT = True
 
 # Exporting Settings
@@ -28,7 +28,8 @@ FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_official_websites.items.TxtItemExporter',}
 FEED_STORE_EMPTY = False
 FEED_EXPORT_FIELDS = ["host_url",
-                      "url"
+                      "url",
+                      "content"
                       ]
 CSV_DELIMITER = "|"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -85,7 +86,7 @@ AUTOTHROTTLE_DEBUG = True
 
 # Enable and configure HTTP caching (disabled by default)
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
-HTTPCACHE_ENABLED = True
+HTTPCACHE_ENABLED = False
 HTTPCACHE_EXPIRATION_SECS = 0
 HTTPCACHE_DIR = 'httpcache'
 HTTPCACHE_IGNORE_HTTP_CODES = []

@@ -1,5 +1,0 @@
-Server: nginx
-Content-Type: text/html
-Location: https://automattic.com/
-X-Ac: 3.nrt
-Date: Tue, 27 Jun 2017 10:23:11 GMT

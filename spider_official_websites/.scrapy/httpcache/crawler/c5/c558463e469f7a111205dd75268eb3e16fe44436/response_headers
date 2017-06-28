@@ -1,9 +1,0 @@
-Set-Cookie: JSESSIONID=KEICET7iu7LFsFilTBaI5rMH; Path=/; Secure; HttpOnly
-X-Mod-Pagespeed: 1.12.34.1-0
-Server: Apache-Coyote/1.1
-Vary: Accept-Encoding
-Content-Type: text/html;charset=ISO-8859-1
-Strict-Transport-Security: max-age=31536000;  includeSubDomains; preload
-Content-Encoding: gzip
-Cache-Control: max-age=600, public, s-maxage=10
-Date: Tue, 27 Jun 2017 10:08:18 GMT

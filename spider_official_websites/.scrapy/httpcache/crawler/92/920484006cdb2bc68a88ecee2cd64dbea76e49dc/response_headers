@@ -1,5 +1,0 @@
-Location: https://passport.iriding.cc/login/?from=/sso/login%3Fgo%3Ddirectly%26from%3Dhttp%3A//iriding.cc/sso/login%3Ffrom%3D/company_info
-X-Vcap-Request-Id: 4c2336b1-a598-498b-4fc5-007694afe820
-Content-Type: text/html; charset=utf-8
-Date: Tue, 27 Jun 2017 13:42:47 GMT
-Server: nginx/1.8.0

@@ -1,8 +1,0 @@
-Accept-Ranges: bytes
-Server: Apache
-Expires: Tue, 27 Jun 2017 10:12:51 GMT
-Vary: Accept-Encoding
-Content-Type: text/html; charset=UTF-8
-Content-Encoding: gzip
-Cache-Control: max-age=30
-Date: Tue, 27 Jun 2017 10:12:21 GMT

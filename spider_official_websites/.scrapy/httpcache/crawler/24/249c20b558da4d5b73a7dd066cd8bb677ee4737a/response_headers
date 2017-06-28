@@ -1,9 +1,0 @@
-Content-Encoding: gzip
-Set-Cookie: ECS_ID=af01e653230e8691aa25d7b7add408ffa4bec023; path=/
-Set-Cookie: ECS[visit_times]=1; expires=Wed, 27-Jun-2018 05:45:07 GMT; path=/
-Date: Tue, 27 Jun 2017 13:45:07 GMT
-Server: nginx/1.10.3
-Vary: Accept-Encoding
-X-Powered-By: PHP/5.3.3
-Cache-Control: private
-Content-Type: text/html; charset=utf-8

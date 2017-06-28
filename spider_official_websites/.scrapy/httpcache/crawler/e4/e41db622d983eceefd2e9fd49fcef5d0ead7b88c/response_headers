@@ -1,9 +1,0 @@
-X-Varnish: 159924614
-Set-Cookie: WMF-Last-Access=27-Jun-2017;Path=/;HttpOnly;secure;Expires=Sat, 29 Jul 2017 00:00:00 GMT
-Set-Cookie: WMF-Last-Access-Global=27-Jun-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sat, 29 Jul 2017 00:00:00 GMT
-X-Client-Ip: 180.173.144.160
-X-Cache: cp4017 int
-Server: Varnish
-Location: https://en.wikipedia.org/wiki/Children
-X-Cache-Status: int
-Date: Tue, 27 Jun 2017 10:06:41 GMT

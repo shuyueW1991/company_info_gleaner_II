@@ -1,9 +1,0 @@
-Cache-Control: max-age=0, no-cache, no-store
-Pragma: no-cache
-Content-Type: text/html; charset=UTF-8
-Expires: Tue, 27 Jun 2017 10:15:52 GMT
-Server: Microsoft-IIS/8.5
-X-Powered-By: ASP.NET
-Location: http://www.microsoft.com/en-us/worldwide.aspx
-X-Edgeconnect-Origin-Mex-Latency: 151
-Date: Tue, 27 Jun 2017 10:15:52 GMT

@@ -1,7 +1,0 @@
-Vary: Accept-Encoding
-Server: Apache
-Content-Type: text/html;charset=UTF-8
-X-Cnection: close
-Content-Encoding: gzip
-X-Frame-Options: SAMEORIGIN
-Date: Tue, 27 Jun 2017 10:09:53 GMT

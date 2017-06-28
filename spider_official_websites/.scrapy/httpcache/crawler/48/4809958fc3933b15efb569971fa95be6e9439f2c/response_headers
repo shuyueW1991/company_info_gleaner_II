@@ -1,9 +1,0 @@
-Via: 1.1 vegur
-Content-Security-Policy: default-src * wss://*.zopim.com 'unsafe-inline' 'unsafe-eval'; frame-ancestors 'self' app.optimizely.com;
-Location: https://www.zendesk.com/register/
-Content-Type: text/html
-Date: Tue, 27 Jun 2017 13:46:00 GMT
-Server: cloudflare-nginx
-Vary: Accept-Encoding
-Cf-Cache-Status: EXPIRED
-Cf-Ray: 3758d997e9960d85-SJC

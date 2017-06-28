@@ -1,7 +1,0 @@
-Vary: Accept-Encoding
-Vary: Accept-Encoding
-Server: nginx
-Content-Type: text/html; charset=utf-8
-X-Powered-By: PHP/5.3.5
-Content-Encoding: gzip
-Date: Tue, 27 Jun 2017 10:05:29 GMT

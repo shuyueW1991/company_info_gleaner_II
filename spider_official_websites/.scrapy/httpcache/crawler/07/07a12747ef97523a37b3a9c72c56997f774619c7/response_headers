@@ -1,9 +1,0 @@
-Server: Apache/2.2.15 (CentOS)
-Pragma: no-cache
-Content-Type: text/html; charset=utf-8
-Expires: Thu, 19 Nov 1981 08:52:00 GMT
-Vary: Accept-Encoding
-X-Powered-By: PHP/5.4.45
-Content-Encoding: gzip
-Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-Date: Tue, 27 Jun 2017 10:06:09 GMT

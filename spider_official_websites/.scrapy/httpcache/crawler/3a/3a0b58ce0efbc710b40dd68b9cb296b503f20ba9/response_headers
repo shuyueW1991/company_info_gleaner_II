@@ -1,9 +1,0 @@
-Accept-Ranges: bytes
-Set-Cookie: BIGipServerpl_166.123.218.167_443=352677386.47873.0000; path=/; Httponly; Secure
-Cache-Control: private
-Content-Type: text/html; charset=UTF-8
-Server: Web Services
-Date: Tue, 27 Jun 2017 10:08:29 GMT
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-X-Frame-Options: SAMEORIGIN
-Public-Key-Pins: pin-sha256="base64+primary=="; pin-sha256="base64+backup=="; max-age=5184000; includeSubDomains

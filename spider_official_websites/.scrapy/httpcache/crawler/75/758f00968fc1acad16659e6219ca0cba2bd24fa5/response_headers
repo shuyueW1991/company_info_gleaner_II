@@ -1,8 +1,0 @@
-Etag: W/"31580c561f30a9499361891f4a3bc07ca819940c"
-Content-Encoding: gzip
-Access-Control-Allow-Headers: *
-Content-Type: text/html; charset=UTF-8
-Access-Control-Allow-Credentials: true
-Access-Control-Allow-Methods: GET, POST, OPTIONS
-Date: Tue, 27 Jun 2017 09:58:19 GMT
-Server: TornadoServer/4.4.3
