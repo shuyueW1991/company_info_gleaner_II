@@ -1,0 +1,441 @@
+2017-05-29 20:25:43 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: bosszp_co)
+2017-05-29 20:25:43 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'bosszp_co', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3, 'DUPEFILTER_CLASS': 'scrapy_splash.SplashAwareDupeFilter', 'FEED_EXPORT_FIELDS': ['bosszp_co_web_id', 'co_short_nm', 'co_financing_round', 'co_staff_num', 'co_type', 'co_link', 'co_emply_blank', 'co_boss_num', 'co_short_desc'], 'FEED_FORMAT': 'csv', 'FEED_URI': '/Users/yuyang/notreProgram/company_info_gleaner/bosszp_co/%(name)s.csv', 'HTTPCACHE_STORAGE': 'scrapy_splash.SplashAwareFSCacheStorage', 'LOG_FILE': 'bosszp_co.log', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'bosszp_co.spiders', 'SPIDER_MODULES': ['bosszp_co.spiders']}
+2017-05-29 20:25:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2017-05-29 20:25:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'bosszp_co.spiders.rotate_useragent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy_splash.SplashCookiesMiddleware',
+ 'scrapy_splash.SplashMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-29 20:25:43 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy_splash.SplashDeduplicateArgsMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-29 20:25:43 [scrapy.middleware] INFO: Enabled item pipelines:
+['bosszp_co.pipelines.BosszpCoPipeline']
+2017-05-29 20:25:43 [scrapy.core.engine] INFO: Spider opened
+2017-05-29 20:25:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-29 20:25:43 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-05-29 20:25:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243700.html?ka=company-intro> (referer: None)
+2017-05-29 20:25:44 [stdout] INFO: 6
+2017-05-29 20:25:44 [stdout] INFO: 居然元洲装饰
+2017-05-29 20:25:44 [stdout] INFO: 23
+2017-05-29 20:25:44 [stdout] INFO: http://erp.yz-China.com
+2017-05-29 20:25:44 [stdout] INFO: 56
+2017-05-29 20:25:44 [stdout] INFO: 元洲装饰成立于1997年，历经十余年的稳健发展，现已成为集成家居装饰设计，家居体验式卖场于一体的大型家居装饰企业
+2017-05-29 20:25:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243700.html?ka=company-intro>
+{'bosszp_co_web_id': '243700',
+ 'co_boss_num': '13',
+ 'co_emply_blank': '14',
+ 'co_financing_round': '已上市',
+ 'co_link': 'http://erp.yz-China.com',
+ 'co_short_desc': '元洲装饰成立于1997年，历经十余年的稳健发展，现已成为集成家居装饰设计，家居体验式卖场于一体的大型家居装饰企业',
+ 'co_short_nm': '居然元洲装饰',
+ 'co_staff_num': '100-499人',
+ 'co_type': '房地产/建筑'}
+2017-05-29 20:25:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243701.html?ka=company-intro> (referer: None)
+2017-05-29 20:25:47 [stdout] INFO: 4
+2017-05-29 20:25:47 [stdout] INFO: 东方之星
+2017-05-29 20:25:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243701.html?ka=company-intro>
+{'bosszp_co_web_id': '243701',
+ 'co_boss_num': '2',
+ 'co_emply_blank': '1',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '东方之星',
+ 'co_staff_num': '1000-9999人',
+ 'co_type': '金融'}
+2017-05-29 20:25:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243702.html?ka=company-intro> (referer: None)
+2017-05-29 20:25:51 [stdout] INFO: 6
+2017-05-29 20:25:51 [stdout] INFO: 金色朝阳艺术
+2017-05-29 20:25:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243702.html?ka=company-intro>
+{'bosszp_co_web_id': '243702',
+ 'co_boss_num': '2',
+ 'co_emply_blank': '3',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '金色朝阳艺术',
+ 'co_staff_num': '20-99人',
+ 'co_type': '教育培训'}
+2017-05-29 20:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243703.html?ka=company-intro> (referer: None)
+2017-05-29 20:25:56 [stdout] INFO: 6
+2017-05-29 20:25:56 [stdout] INFO: AR呈现平台
+2017-05-29 20:25:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243703.html?ka=company-intro>
+{'bosszp_co_web_id': '243703',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '1',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': 'AR呈现平台',
+ 'co_staff_num': '0-20人',
+ 'co_type': '数据服务'}
+2017-05-29 20:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243704.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:00 [stdout] INFO: 6
+2017-05-29 20:26:00 [stdout] INFO: 老岳司机之家
+2017-05-29 20:26:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243704.html?ka=company-intro>
+{'bosszp_co_web_id': '243704',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '老岳司机之家',
+ 'co_staff_num': '500-999人',
+ 'co_type': '供应链/物流'}
+2017-05-29 20:26:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243705.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:03 [stdout] INFO: 5
+2017-05-29 20:26:03 [stdout] INFO: 维纳斯会所
+2017-05-29 20:26:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243705.html?ka=company-intro>
+{'bosszp_co_web_id': '243705',
+ 'co_boss_num': '6',
+ 'co_emply_blank': '1',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '维纳斯会所',
+ 'co_staff_num': '100-499人',
+ 'co_type': '生活服务'}
+2017-05-29 20:26:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243706.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:07 [stdout] INFO: 4
+2017-05-29 20:26:07 [stdout] INFO: 大数金融
+2017-05-29 20:26:07 [stdout] INFO: 2
+2017-05-29 20:26:07 [stdout] INFO: 1图
+2017-05-29 20:26:07 [stdout] INFO: 9
+2017-05-29 20:26:07 [stdout] INFO: 大数金融  听语音
+2017-05-29 20:26:07 [stdout] INFO: 114
+2017-05-29 20:26:07 [stdout] INFO: 大数金融是深圳前海大数金融服务有限公司开发的专业化信贷工厂，专业生产无担保信用贷款，专注于为草根级小微企业提供融资服务，为银行、信托、财富管理公司、私募基金、P2P等机构提供信贷外包服务。由世界风险投资机构“红杉资本”投资创立。
+2017-05-29 20:26:07 [stdout] INFO: 7
+2017-05-29 20:26:07 [stdout] INFO: 简介  听语音
+2017-05-29 20:26:07 [stdout] INFO: 171
+2017-05-29 20:26:07 [stdout] INFO: 大数金融，全称深圳前海大数金融服务有限公司，由“红杉资本”投资创立。于2014年8月在深圳前海注册成立，注册及实收资本1.11亿。大数金融，定位于全国性的专业化信贷工厂，为银行、信托、财富管理公司、私募基金、P2P等机构提供全流程或部分流程的信贷外包服务。通过数据化方法和信贷工厂模式，专注于为草根级的小微企业提供无担保纯信用形式的融资服务。
+2017-05-29 20:26:07 [stdout] INFO: 40
+2017-05-29 20:26:07 [stdout] INFO: 截止2015年3月，大数金融已设立广州、深圳分公司，北京重庆等地也将开设分公司。
+2017-05-29 20:26:07 [stdout] INFO: 50
+2017-05-29 20:26:07 [stdout] INFO: 运用独特技术，帮助通过传统信贷方式无法获取贷款的小微企业和消费者，获得正规金融机构、价格合理的贷款。
+2017-05-29 20:26:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243706.html?ka=company-intro>
+{'bosszp_co_web_id': '243706',
+ 'co_boss_num': '16',
+ 'co_emply_blank': '29',
+ 'co_financing_round': 'B轮',
+ 'co_short_desc': '1图 大数金融  听语音 '
+                  '大数金融是深圳前海大数金融服务有限公司开发的专业化信贷工厂，专业生产无担保信用贷款，专注于为草根级小微企业提供融资服务，为银行、信托、财富管理公司、私募基金、P2P等机构提供信贷外包服务。由世界风险投资机构“红杉资本”投资创立。 '
+                  '简介  听语音 '
+                  '大数金融，全称深圳前海大数金融服务有限公司，由“红杉资本”投资创立。于2014年8月在深圳前海注册成立，注册及实收资本1.11亿。大数金融，定位于全国性的专业化信贷工厂，为银行、信托、财富管理公司、私募基金、P2P等机构提供全流程或部分流程的信贷外包服务。通过数据化方法和信贷工厂模式，专注于为草根级的小微企业提供无担保纯信用形式的融资服务。 '
+                  '截止2015年3月，大数金融已设立广州、深圳分公司，北京重庆等地也将开设分公司。 '
+                  '运用独特技术，帮助通过传统信贷方式无法获取贷款的小微企业和消费者，获得正规金融机构、价格合理的贷款。',
+ 'co_short_nm': '大数金融',
+ 'co_staff_num': '500-999人',
+ 'co_type': '金融'}
+2017-05-29 20:26:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243707.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:10 [stdout] INFO: 4
+2017-05-29 20:26:10 [stdout] INFO: 考拉美购
+2017-05-29 20:26:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243707.html?ka=company-intro>
+{'bosszp_co_web_id': '243707',
+ 'co_boss_num': '0',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '考拉美购',
+ 'co_staff_num': '20-99人',
+ 'co_type': '电子商务'}
+2017-05-29 20:26:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243708.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:15 [stdout] INFO: 4
+2017-05-29 20:26:15 [stdout] INFO: 辽宁驷马
+2017-05-29 20:26:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243708.html?ka=company-intro>
+{'bosszp_co_web_id': '243708',
+ 'co_boss_num': '2',
+ 'co_emply_blank': '1',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '辽宁驷马',
+ 'co_staff_num': '20-99人',
+ 'co_type': '企业服务'}
+2017-05-29 20:26:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243709.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:19 [stdout] INFO: 4
+2017-05-29 20:26:19 [stdout] INFO: 畅联宽带
+2017-05-29 20:26:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243709.html?ka=company-intro>
+{'bosszp_co_web_id': '243709',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '1',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '畅联宽带',
+ 'co_staff_num': '500-999人',
+ 'co_type': '移动互联网'}
+2017-05-29 20:26:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243710.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:23 [stdout] INFO: 6
+2017-05-29 20:26:23 [stdout] INFO: 信奇信息咨询
+2017-05-29 20:26:23 [stdout] INFO: 241
+2017-05-29 20:26:23 [stdout] INFO: 常州市信奇信息咨询有限公司，在保持行业领先的同时， 以联盟的形式发展壮大，向国际化的企业集团财务公司迈进。在此情况下，公司成功建设和运作了“中国建筑人才网”、“建筑精英网”、目前我公司在常州、杭州都设立了办事处，为客户提供专业的服务，为客户创造价值。不断的开拓创新，改变招聘形式，结合自身资源，推出建造师挂靠、兼职、全职、等职务。电话招聘有利改善企业形象，提高招聘效果，目前正值建造师注册之时，企业免费注册成为本网站会员并经审核后，可以完全免费发布职位、查看简历、优先参加各种活动。
+2017-05-29 20:26:23 [stdout] INFO: 73
+2017-05-29 20:26:23 [stdout] INFO: 新时期、新政策、新机遇，我们将不断的提高品牌价值，吸引优秀资源，完善服务、提高信誉，为建筑业搭建最及时、最便捷、最成功、最具效率的建造师招聘平台！
+2017-05-29 20:26:23 [stdout] INFO: 132
+2017-05-29 20:26:23 [stdout] INFO: 因为相信奇迹，让我们相聚在信奇信息咨询有限公司，她落座于沪宁线当中、风景秀丽人杰地灵的城市——常州，距上海和南京各160公里，这里水、陆、空交通方便，是江苏省经济最发达地区之一。在魅力常州的培育下，信奇公司逐渐成长为一家优秀、诚信的专业致力于服务建筑业的猎头机构。
+2017-05-29 20:26:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243710.html?ka=company-intro>
+{'bosszp_co_web_id': '243710',
+ 'co_boss_num': '3',
+ 'co_emply_blank': '7',
+ 'co_financing_round': '已上市',
+ 'co_short_desc': '常州市信奇信息咨询有限公司，在保持行业领先的同时， '
+                  '以联盟的形式发展壮大，向国际化的企业集团财务公司迈进。在此情况下，公司成功建设和运作了“中国建筑人才网”、“建筑精英网”、目前我公司在常州、杭州都设立了办事处，为客户提供专业的服务，为客户创造价值。不断的开拓创新，改变招聘形式，结合自身资源，推出建造师挂靠、兼职、全职、等职务。电话招聘有利改善企业形象，提高招聘效果，目前正值建造师注册之时，企业免费注册成为本网站会员并经审核后，可以完全免费发布职位、查看简历、优先参加各种活动。 '
+                  '新时期、新政策、新机遇，我们将不断的提高品牌价值，吸引优秀资源，完善服务、提高信誉，为建筑业搭建最及时、最便捷、最成功、最具效率的建造师招聘平台！ '
+                  '因为相信奇迹，让我们相聚在信奇信息咨询有限公司，她落座于沪宁线当中、风景秀丽人杰地灵的城市——常州，距上海和南京各160公里，这里水、陆、空交通方便，是江苏省经济最发达地区之一。在魅力常州的培育下，信奇公司逐渐成长为一家优秀、诚信的专业致力于服务建筑业的猎头机构。',
+ 'co_short_nm': '信奇信息咨询',
+ 'co_staff_num': '100-499人',
+ 'co_type': '互联网'}
+2017-05-29 20:26:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243711.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:27 [stdout] INFO: 2
+2017-05-29 20:26:27 [stdout] INFO: 找人
+2017-05-29 20:26:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243711.html?ka=company-intro>
+{'bosszp_co_web_id': '243711',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '找人',
+ 'co_staff_num': '100-499人',
+ 'co_type': '房地产/建筑'}
+2017-05-29 20:26:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243712.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:32 [stdout] INFO: 4
+2017-05-29 20:26:32 [stdout] INFO: 方天网络
+2017-05-29 20:26:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243712.html?ka=company-intro>
+{'bosszp_co_web_id': '243712',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '方天网络',
+ 'co_staff_num': '0-20人',
+ 'co_type': '智能硬件'}
+2017-05-29 20:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243713.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:36 [stdout] INFO: 4
+2017-05-29 20:26:36 [stdout] INFO: 信德睿尚
+2017-05-29 20:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243713.html?ka=company-intro>
+{'bosszp_co_web_id': '243713',
+ 'co_boss_num': '0',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '信德睿尚',
+ 'co_staff_num': '100-499人',
+ 'co_type': '互联网'}
+2017-05-29 20:26:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243714.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:40 [stdout] INFO: 3
+2017-05-29 20:26:40 [stdout] INFO: 易飞龙
+2017-05-29 20:26:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243714.html?ka=company-intro>
+{'bosszp_co_web_id': '243714',
+ 'co_boss_num': '0',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '易飞龙',
+ 'co_staff_num': '100-499人',
+ 'co_type': '金融'}
+2017-05-29 20:26:43 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 15 pages/min), scraped 15 items (at 15 items/min)
+2017-05-29 20:26:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243715.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:45 [stdout] INFO: 4
+2017-05-29 20:26:45 [stdout] INFO: 信德睿尚
+2017-05-29 20:26:45 [stdout] INFO: 26
+2017-05-29 20:26:45 [stdout] INFO: 我们是您的人力合作伙伴，致力解决您最迫切的人力问题。
+2017-05-29 20:26:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243715.html?ka=company-intro>
+{'bosszp_co_web_id': '243715',
+ 'co_boss_num': '2',
+ 'co_emply_blank': '0',
+ 'co_financing_round': '不需要融资',
+ 'co_short_desc': '我们是您的人力合作伙伴，致力解决您最迫切的人力问题。',
+ 'co_short_nm': '信德睿尚',
+ 'co_staff_num': '0-20人',
+ 'co_type': '咨询/翻译/法律'}
+2017-05-29 20:26:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243716.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:48 [stdout] INFO: 5
+2017-05-29 20:26:48 [stdout] INFO: T5tea
+2017-05-29 20:26:48 [stdout] INFO: 20
+2017-05-29 20:26:48 [stdout] INFO: http://www.t5tea.com
+2017-05-29 20:26:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243716.html?ka=company-intro>
+{'bosszp_co_web_id': '243716',
+ 'co_boss_num': '2',
+ 'co_emply_blank': '5',
+ 'co_financing_round': '天使轮',
+ 'co_link': 'http://www.t5tea.com',
+ 'co_short_nm': 'T5tea',
+ 'co_staff_num': '0-20人',
+ 'co_type': '移动互联网'}
+2017-05-29 20:26:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243717.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:52 [stdout] INFO: 4
+2017-05-29 20:26:52 [stdout] INFO: 富通科技
+2017-05-29 20:26:52 [stdout] INFO: 24
+2017-05-29 20:26:52 [stdout] INFO: http://www.futong.com.cn
+2017-05-29 20:26:52 [stdout] INFO: 91
+2017-05-29 20:26:52 [stdout] INFO: 富通科技发展控股有限公司于2009年12月4日在香港联合交易所主板上市（香港联合交易所代码:00465.hk）。我们用近二十年的行业历程，见证中国IT盛世时代，分享全球IT华美盛宴。
+2017-05-29 20:26:52 [stdout] INFO: 254
+2017-05-29 20:26:52 [stdout] INFO: 富通，拥有自主研发的企业级信息产品，我们一直密切关注全球信息技术的发展，基于中国市场的需求和趋势，定制产品和服务策略，独立或参与研制出数普系列存储产品、九门系列软件产品、云平台管理产品、数据复制产品、数据质量管理系统、数据文档管理系统等拥有自主知识产权、代表IT领先技术的高可用核心产品，同时与国内外顶级IT企业深度合作，为企业级客户提供相关的技术增值服务和解决方案。我们积极倡导深入全面的增值服务理念，将大数据、商业智能、数据迁移、资源池整合、存储虚拟化、容灾备份、系统监控等整合为核心的增值服务解决方案。
+2017-05-29 20:26:52 [stdout] INFO: 139
+2017-05-29 20:26:52 [stdout] INFO: 富通，在中国二十余个城市设有区域中心，庞大的销售网络覆盖了众多领域及行业。分布在全国300多名工程师以高超的技能提供自主产品及IT主流产品的技术支持与增值服务，长期稳定地为金融、电信、能源、政府、文教卫生、交通运输、军队及中小企业等不同领域及行业客户提供高可靠、全方位解决方案。
+2017-05-29 20:26:52 [stdout] INFO: 74
+2017-05-29 20:26:52 [stdout] INFO: 富通，凭借丰富的行业经验、领先的产品、可靠的服务、覆盖全国的支持网络以及解决方案，已经成为一家在合作伙伴和终端客户眼中值得信赖与尊敬的中国IT企业！
+2017-05-29 20:26:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243717.html?ka=company-intro>
+{'bosszp_co_web_id': '243717',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': '已上市',
+ 'co_link': 'http://www.futong.com.cn',
+ 'co_short_desc': '富通科技发展控股有限公司于2009年12月4日在香港联合交易所主板上市（香港联合交易所代码:00465.hk）。我们用近二十年的行业历程，见证中国IT盛世时代，分享全球IT华美盛宴。 '
+                  '富通，拥有自主研发的企业级信息产品，我们一直密切关注全球信息技术的发展，基于中国市场的需求和趋势，定制产品和服务策略，独立或参与研制出数普系列存储产品、九门系列软件产品、云平台管理产品、数据复制产品、数据质量管理系统、数据文档管理系统等拥有自主知识产权、代表IT领先技术的高可用核心产品，同时与国内外顶级IT企业深度合作，为企业级客户提供相关的技术增值服务和解决方案。我们积极倡导深入全面的增值服务理念，将大数据、商业智能、数据迁移、资源池整合、存储虚拟化、容灾备份、系统监控等整合为核心的增值服务解决方案。 '
+                  '富通，在中国二十余个城市设有区域中心，庞大的销售网络覆盖了众多领域及行业。分布在全国300多名工程师以高超的技能提供自主产品及IT主流产品的技术支持与增值服务，长期稳定地为金融、电信、能源、政府、文教卫生、交通运输、军队及中小企业等不同领域及行业客户提供高可靠、全方位解决方案。 '
+                  '富通，凭借丰富的行业经验、领先的产品、可靠的服务、覆盖全国的支持网络以及解决方案，已经成为一家在合作伙伴和终端客户眼中值得信赖与尊敬的中国IT企业！',
+ 'co_short_nm': '富通科技',
+ 'co_staff_num': '500-999人',
+ 'co_type': 'IT软件'}
+2017-05-29 20:26:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243718.html?ka=company-intro> (referer: None)
+2017-05-29 20:26:56 [stdout] INFO: 4
+2017-05-29 20:26:56 [stdout] INFO: 汉江壹号
+2017-05-29 20:26:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243718.html?ka=company-intro>
+{'bosszp_co_web_id': '243718',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '汉江壹号',
+ 'co_staff_num': '20-99人',
+ 'co_type': '生活服务'}
+2017-05-29 20:27:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243719.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:01 [stdout] INFO: time duration:
+2017-05-29 20:27:01 [stdout] INFO: 77.33353018760681
+2017-05-29 20:27:01 [stdout] INFO: 6
+2017-05-29 20:27:01 [stdout] INFO: 上海知启生物
+2017-05-29 20:27:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243719.html?ka=company-intro>
+{'bosszp_co_web_id': '243719',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '上海知启生物',
+ 'co_staff_num': '20-99人',
+ 'co_type': '健康医疗'}
+2017-05-29 20:27:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243720.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:04 [stdout] INFO: 5
+2017-05-29 20:27:04 [stdout] INFO: 成都银信通
+2017-05-29 20:27:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243720.html?ka=company-intro>
+{'bosszp_co_web_id': '243720',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '成都银信通',
+ 'co_staff_num': '20-99人',
+ 'co_type': '通信'}
+2017-05-29 20:27:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243721.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:09 [stdout] INFO: 3
+2017-05-29 20:27:09 [stdout] INFO: 艾丽斯
+2017-05-29 20:27:09 [stdout] INFO: 18
+2017-05-29 20:27:09 [stdout] INFO: 南京艾丽斯广告有限公司（Alice）
+2017-05-29 20:27:09 [stdout] INFO: 17
+2017-05-29 20:27:09 [stdout] INFO: Alice理念：执行能力就是竞争力
+2017-05-29 20:27:09 [stdout] INFO: 16
+2017-05-29 20:27:09 [stdout] INFO: Alice愿景：服务创造美好生活
+2017-05-29 20:27:09 [stdout] INFO: 19
+2017-05-29 20:27:09 [stdout] INFO: Alice精神：专注 进取 团结 责任
+2017-05-29 20:27:09 [stdout] INFO: 170
+2017-05-29 20:27:09 [stdout] INFO: 南京艾丽斯广告有限公司（Alice）位于建邺区新城科技园内，是一家具有综合型的策划执行全案公司。公司创办至今奉行以“为客户创造价值、用服务创造美好生活“为宗旨，我们以专业的知识、多年的执行经验、用心的服务致力于为我们的广大客户提供高品质的品牌宣传推广、活动策划执行和设计制作、公关活动及会务会展策划、行销策略等线下活动的策划执行服务与方案。
+2017-05-29 20:27:09 [stdout] INFO: 50
+2017-05-29 20:27:09 [stdout] INFO: 我们主要业务：产品推广发布、开业庆典的策划承办、企业年会、房地产开盘、展览展会、时尚发布活动等业务。
+2017-05-29 20:27:09 [stdout] INFO: 44
+2017-05-29 20:27:09 [stdout] INFO: 我们主要客户：奔驰汽车、宝马汽车、大众汽车、华润地产、富力地产等众多国内外知名品牌企业。
+2017-05-29 20:27:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243721.html?ka=company-intro>
+{'bosszp_co_web_id': '243721',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '5',
+ 'co_financing_round': '未融资',
+ 'co_short_desc': '南京艾丽斯广告有限公司（Alice） Alice理念：执行能力就是竞争力 Alice愿景：服务创造美好生活 '
+                  'Alice精神：专注 进取 团结 责任 '
+                  '南京艾丽斯广告有限公司（Alice）位于建邺区新城科技园内，是一家具有综合型的策划执行全案公司。公司创办至今奉行以“为客户创造价值、用服务创造美好生活“为宗旨，我们以专业的知识、多年的执行经验、用心的服务致力于为我们的广大客户提供高品质的品牌宣传推广、活动策划执行和设计制作、公关活动及会务会展策划、行销策略等线下活动的策划执行服务与方案。 '
+                  '我们主要业务：产品推广发布、开业庆典的策划承办、企业年会、房地产开盘、展览展会、时尚发布活动等业务。 '
+                  '我们主要客户：奔驰汽车、宝马汽车、大众汽车、华润地产、富力地产等众多国内外知名品牌企业。',
+ 'co_short_nm': '艾丽斯',
+ 'co_staff_num': '0-20人',
+ 'co_type': '公关会展'}
+2017-05-29 20:27:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243722.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:12 [stdout] INFO: 6
+2017-05-29 20:27:12 [stdout] INFO: 深圳镁刻科技
+2017-05-29 20:27:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243722.html?ka=company-intro>
+{'bosszp_co_web_id': '243722',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '深圳镁刻科技',
+ 'co_staff_num': '0-20人',
+ 'co_type': '互联网'}
+2017-05-29 20:27:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243723.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:14 [stdout] INFO: 6
+2017-05-29 20:27:14 [stdout] INFO: 君来君往集团
+2017-05-29 20:27:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243723.html?ka=company-intro>
+{'bosszp_co_web_id': '243723',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '1',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '君来君往集团',
+ 'co_staff_num': '100-499人',
+ 'co_type': '企业服务'}
+2017-05-29 20:27:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243724.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:18 [stdout] INFO: 6
+2017-05-29 20:27:18 [stdout] INFO: 珠江源大都市
+2017-05-29 20:27:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243724.html?ka=company-intro>
+{'bosszp_co_web_id': '243724',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '珠江源大都市',
+ 'co_staff_num': '10000人以上',
+ 'co_type': '金融'}
+2017-05-29 20:27:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243725.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:22 [stdout] INFO: 5
+2017-05-29 20:27:22 [stdout] INFO: 苏州梦之源
+2017-05-29 20:27:22 [stdout] INFO: 5
+2017-05-29 20:27:22 [stdout] INFO: 公司简介：
+2017-05-29 20:27:22 [stdout] INFO: 177
+2017-05-29 20:27:22 [stdout] INFO: 苏州梦之源信息技术有限公司位于苏州市高新区滨河路588号。公司主要从事软件开发与销售以及电信、移动、联通的增值服务，并与中国电信、中国联通、中国移动等中国主导通信运营商及多家企业建立了长期的合作关系。公司在致力于400市场发展与售后服务以及微信营销，重点投入产品技术品与服务网络。作为经营的企业，我们始终坚持诚信和让利于客户，坚持用自己的服务去打动客户。
+2017-05-29 20:27:22 [stdout] INFO: 212
+2017-05-29 20:27:22 [stdout] INFO: 百度百度竞价包年是我司承接的百度推广业务,合作模式是按照关键词包年，直推公司官网，效果保证在百度的首页竞价位置。包年服务内容为，包年一次性收费，将您的所有推广事宜全部打包，无需客户操心，所有工作都是由我司来负责操作，费用固定，成本可控，大幅度减少了传统点击收费模式推广的不必要浪费（同行恶意点击，参考网站者浏览，无事网民乱逛等等）更加节省资金而且效果稳定。同时保证在线时间最低为8小时（9:00--17：00 时间段可调整）
+2017-05-29 20:27:22 [stdout] INFO: 179
+2017-05-29 20:27:22 [stdout] INFO: 包年模式的推广与传统的点击收费模式具有相同的推广效果，只是收费方式不同，但是，包年模式的推广优势在于：在线时间更长，点击不产生费用，效果稳定，方便快捷，无需自己操作后台，最重要的是，更加的省钱！不要在犹豫了，因为包年推广的特殊性，我们每个关键词只有一个推广位置，也就是说每个词只能合作一家客户，错过了，机会就要被您的同行抢去了，时间就等于金钱！您还在等什么？
+2017-05-29 20:27:22 [stdout] INFO: 242
+2017-05-29 20:27:22 [stdout] INFO: 微信营销是网络经济时代企业营销模式的一种创新，是伴随着微信的火热而兴起的一种网络营销方式。微信不存在距离的限制，用户注册微信后，可与周围同样注册的“朋友”形成一种联系，用户订阅自己所需的信息，商家通过提供用户需要的信息，推广自己的产品，从而实现点对点的营销。微信营销主要体现在以安卓系统、苹果系统的手机或者平板电脑中的移动客户端进行的区域定位营销，商家通过微信公众平台，结合转介率微信会员卡展示商家微官网、微会员、微推送、微支付、微活动，已经形成了一种主流的线上线下微信互动营销方式。
+2017-05-29 20:27:22 [stdout] INFO: 111
+2017-05-29 20:27:22 [stdout] INFO: 公司同时注重400业务与微信营销团队专业化与技能化的培训，签约专业培训公司做团队职业化培训，实现内外互动交流，同时整合技术与营销资源，建立内部共享机制，全力打造一支在中国400以及微信营销行业拥有规模的知识化与技能化的团队
+2017-05-29 20:27:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243725.html?ka=company-intro>
+{'bosszp_co_web_id': '243725',
+ 'co_boss_num': '4',
+ 'co_emply_blank': '14',
+ 'co_financing_round': '不需要融资',
+ 'co_short_desc': '公司简介： '
+                  '苏州梦之源信息技术有限公司位于苏州市高新区滨河路588号。公司主要从事软件开发与销售以及电信、移动、联通的增值服务，并与中国电信、中国联通、中国移动等中国主导通信运营商及多家企业建立了长期的合作关系。公司在致力于400市场发展与售后服务以及微信营销，重点投入产品技术品与服务网络。作为经营的企业，我们始终坚持诚信和让利于客户，坚持用自己的服务去打动客户。 '
+                  '百度百度竞价包年是我司承接的百度推广业务,合作模式是按照关键词包年，直推公司官网，效果保证在百度的首页竞价位置。包年服务内容为，包年一次性收费，将您的所有推广事宜全部打包，无需客户操心，所有工作都是由我司来负责操作，费用固定，成本可控，大幅度减少了传统点击收费模式推广的不必要浪费（同行恶意点击，参考网站者浏览，无事网民乱逛等等）更加节省资金而且效果稳定。同时保证在线时间最低为8小时（9:00--17：00 '
+                  '时间段可调整） '
+                  '包年模式的推广与传统的点击收费模式具有相同的推广效果，只是收费方式不同，但是，包年模式的推广优势在于：在线时间更长，点击不产生费用，效果稳定，方便快捷，无需自己操作后台，最重要的是，更加的省钱！不要在犹豫了，因为包年推广的特殊性，我们每个关键词只有一个推广位置，也就是说每个词只能合作一家客户，错过了，机会就要被您的同行抢去了，时间就等于金钱！您还在等什么？ '
+                  '微信营销是网络经济时代企业营销模式的一种创新，是伴随着微信的火热而兴起的一种网络营销方式。微信不存在距离的限制，用户注册微信后，可与周围同样注册的“朋友”形成一种联系，用户订阅自己所需的信息，商家通过提供用户需要的信息，推广自己的产品，从而实现点对点的营销。微信营销主要体现在以安卓系统、苹果系统的手机或者平板电脑中的移动客户端进行的区域定位营销，商家通过微信公众平台，结合转介率微信会员卡展示商家微官网、微会员、微推送、微支付、微活动，已经形成了一种主流的线上线下微信互动营销方式。 '
+                  '公司同时注重400业务与微信营销团队专业化与技能化的培训，签约专业培训公司做团队职业化培训，实现内外互动交流，同时整合技术与营销资源，建立内部共享机制，全力打造一支在中国400以及微信营销行业拥有规模的知识化与技能化的团队',
+ 'co_short_nm': '苏州梦之源',
+ 'co_staff_num': '20-99人',
+ 'co_type': '互联网'}
+2017-05-29 20:27:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243726.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:26 [stdout] INFO: 4
+2017-05-29 20:27:26 [stdout] INFO: 动漫科技
+2017-05-29 20:27:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243726.html?ka=company-intro>
+{'bosszp_co_web_id': '243726',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '动漫科技',
+ 'co_staff_num': '100-499人',
+ 'co_type': '广告营销'}
+2017-05-29 20:27:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.zhipin.com/gongsi/243727.html?ka=company-intro> (referer: None)
+2017-05-29 20:27:30 [stdout] INFO: 4
+2017-05-29 20:27:30 [stdout] INFO: 汉邦装饰
+2017-05-29 20:27:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.zhipin.com/gongsi/243727.html?ka=company-intro>
+{'bosszp_co_web_id': '243727',
+ 'co_boss_num': '1',
+ 'co_emply_blank': '0',
+ 'co_financing_round': 'NaN',
+ 'co_short_nm': '汉邦装饰',
+ 'co_staff_num': '100-499人',
+ 'co_type': '生活服务'}
+2017-05-29 20:27:31 [scrapy.crawler] INFO: Received SIG_UNBLOCK, shutting down gracefully. Send again to force 
+2017-05-29 20:27:31 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-05-29 20:27:31 [scrapy.crawler] INFO: Received SIG_UNBLOCK twice, forcing unclean shutdown
