@@ -14,22 +14,28 @@ BOT_NAME = 'spider_official_websites'
 SPIDER_MODULES = ['spider_official_websites.spiders']
 NEWSPIDER_MODULE = 'spider_official_websites.spiders'
 
+DELTAFETCH_ENABLED = True
+# DELTAFETCH_DIR = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/'
+DELTAFETCH_DIR = '/root/users/JH/company_info_gleaner_II/spider_official_websites/'
+
 # Logging Settings
 LOG_ENABLED = True
 LOG_ENCODING = 'utf-8'
 LOG_FILE = 'crawler.log'
-LOG_LEVEL = 'ERROR'
+LOG_LEVEL = 'INFO'
 LOG_STDOUT = True
 
 # Exporting Settings
-FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/%(name)s_20170627.txt'
+# FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/%(name)s_20170627.txt'
+FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_official_websites/%(name)s_20170627.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_official_websites.items.TxtItemExporter',}
 FEED_STORE_EMPTY = False
 FEED_EXPORT_FIELDS = ["host_url",
                       "url",
-                      "content"
+                      "email",
+                      "mobile"
                       ]
 CSV_DELIMITER = "|"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -54,9 +60,9 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    'spider_official_websites.middlewares.SpiderOfficialWebsitesSpiderMiddleware': 543,
-# }
+SPIDER_MIDDLEWARES = {
+    'scrapy_deltafetch.DeltaFetch': 200,
+}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html

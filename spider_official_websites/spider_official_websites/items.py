@@ -18,6 +18,8 @@ class SpiderOfficialWebsitesItem(scrapy.Item):
     url = scrapy.Field()
     host_url = scrapy.Field()
     content = scrapy.Field()
+    email = scrapy.Field()
+    mobile = scrapy.Field()
 
 class TxtItemExporter(CsvItemExporter):
 
