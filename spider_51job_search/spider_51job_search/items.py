@@ -8,24 +8,24 @@
 import scrapy
 from scrapy.conf import settings
 from scrapy.exporters import CsvItemExporter
+import re
 from scrapy.loader import ItemLoader
 from scrapy.loader.processors import TakeFirst, MapCompose, Join
 
 class Spider51JobSearchItem(scrapy.Item):
     # define the fields for your item here like:
 
-    qc_job_name = scrapy.Field()
-    qc_co_name = scrapy.Field()
+    positionName = scrapy.Field()
+    companyFullName = scrapy.Field()
     qc_job_loc = scrapy.Field()
-    qc_job_pay = scrapy.Field()
+    salary = scrapy.Field()
     qc_job_date = scrapy.Field()
-    qc_job_desc = scrapy.Field()
-    qc_co_type = scrapy.Field()
-    qc_co_ee_size = scrapy.Field()
-    qc_co_tags = scrapy.Field()
+    description = scrapy.Field()
+    financeStage = scrapy.Field()
+    companySize = scrapy.Field()
+    industryField = scrapy.Field()
     qc_co_desc = scrapy.Field()
     qc_co_address = scrapy.Field()
-    qc_job_desc = scrapy.Field()
 
 class search51jobLoader(ItemLoader):
     default_item_class = Spider51JobSearchItem

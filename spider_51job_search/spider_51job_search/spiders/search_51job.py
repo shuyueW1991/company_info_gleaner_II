@@ -34,40 +34,60 @@ class Search51jobSpider(scrapy.Spider):
         # inspect_response(response, self)
         iterators = response.xpath('//div[@class="dw_table"]/div[@class="el"]')
         for item in iterators:
-            out['qc_job_name'] = item.xpath('p/span/a/@title').extract()
-            out['qc_co_name'] = item.xpath('span[@class="t2"]/a/@title').extract()
+            out['positionName'] = item.xpath('p/span/a/@title').extract()
+            out['companyFullName'] = item.xpath('span[@class="t2"]/a/@title').extract()
             out['qc_job_loc'] = item.xpath('span[@class="t3"]/text()').extract()
-            out['qc_job_pay'] = item.xpath('span[@class="t4"]/text()').extract()
+            out['salary'] = item.xpath('span[@class="t4"]/text()').extract()
             out['qc_job_date'] = item.xpath('span[@class="t5"]/text()').extract()
             job_link = item.xpath('p/span/a/@href').extract()
             job_page = requests.get(clean(str(job_link[0])), headers=self.headers)
             print('the job page is {}'.format(job_link[0]))
             biscuit = bs(job_page.content, 'html.parser')
             try:
-                out['qc_job_desc'] = clean(biscuit.find("div", class_="tBorderTop_box").get_text())
+                # out['description'] = clean(biscuit.find("div", class_="tBorderTop_box").get_text())
+                out['description'] = clean(biscuit.find("div", class_="bmsg job_msg inbox").get_text())
+                # out['description'] = clean(biscuit.find("br", class_="xh-highlight").get_text())
+
             except:
                 print('no job description available')
-            co_link = item.xpath('span[@class="t2"]/a/@href').extract()
-            print('the co link is {}'.format(co_link[0]))
-            try:
-                co_page = requests.get(clean(str(co_link[0])), headers=self.headers)
-                print("the co parsing result is {}".format(co_page.status_code))
-                soup = bs(co_page.content, 'html.parser')
-                try:
-                    out['qc_co_type'] = clean(soup.find("div", class_="tHeader tHCop").div.find("p", class_="ltype").get_text().split('|')[0])
-                    out['qc_co_ee_size'] = clean(soup.find("div", class_="tHeader tHCop").div.find("p", class_="ltype").get_text().split('|')[1])
-                    out['qc_co_tags'] = clean(soup.find("div", class_="tHeader tHCop").div.find("p", class_="ltype").get_text().split('|')[2])
+            # job_link = item.xpath('p/span/a/@href').extract()
+            # print('the job link is {}'.format(job_link[0]))
+            ## adding headers to the python HTTP request method
+            # job_page = requests.get(str(job_link[0]), headers=self.headers)
+            # print("the pos parsing result is {}".format(job_page.status_code))
+            # sel = Selector(job_page)
+            # out['qc_job_desc'] = clean(sel.xpath('//div[@class="bmsg job_msg inbox"]//text()').extract())
+            # soup = bs(job_page.content, 'html.parser')
+            # try:
+            #     out['qc_job_desc'] = clean(soup.find("div", class_="bmsg job_msg inbox").get_text())
+            # except:
+            #     print('special hiring page')
 
-                    out['qc_co_address'] = clean(soup.find("div", class_="bmsg inbox").p.get_text())
-                    out['qc_co_desc'] = clean(soup.find("div", class_="con_msg").find("div", class_="in").p.get_text())
-                except:
-                    print('special hiring page')
+            co_link = item.xpath('//span[@class="t2"]/a/@href').extract()
+            # print('the co link is {}'.format(co_link[0]))
+            co_page = requests.get(str(co_link[0]), headers=self.headers)
+            print("the co parsing result is {}".format(co_page.status_code))
+            soup = bs(co_page.content, 'html.parser')
+            try:
+                out['financeStage'] = clean(soup.find("div", class_="tHeader tHCop").div.find("p", class_="ltype").get_text().split('|')[0])
+                out['companySize'] = clean(soup.find("div", class_="tHeader tHCop").div.find("p", class_="ltype").get_text().split('|')[1])
+                out['industryField'] = clean(soup.find("div", class_="tHeader tHCop").div.find("p", class_="ltype").get_text().split('|')[2])
+
+                out['qc_co_address'] = clean(soup.find("div", class_="bmsg inbox").p.get_text())
+                out['qc_co_desc'] = clean(soup.find("div", class_="con_msg").find("div", class_="in").p.get_text())
             except:
-                print('request failure')
+                print('special hiring page')
+
+            # sel = Selector(co_page)
+            # out['qc_co_type'] = clean(sel.xpath('//div[@class="tHeader tHCop"]/div/p[@class="ltype"]/text()'))
+            # out['qc_co_ee_size'] = clean(sel.xpath('//div[@class="tHeader tHCop"]/div/p[@class="ltype"]/text()'))
+            # out['qc_co_tags'] = clean(sel.xpath('//div[@class="tHeader tHCop"]/div/p[@class="ltype"]/text()'))
+            # out['qc_co_desc'] = clean(sel.xpath('//div[@class="con_msg"]/div[@class="in"]//p/text()'))
+
             yield out
 
         next_page = response.xpath('//div[@class="dw_page"]//div[@class="p_in"]/ul/li[@class="bk"][2]/a/@href').extract()[0]
-        print("the next page is {}".format(next_page))
+        # print("the next page is {}".format(next_page))
         if next_page is not None:
             self.cur_page += 1
             print('next page exists, number is {}'.format(self.cur_page))
