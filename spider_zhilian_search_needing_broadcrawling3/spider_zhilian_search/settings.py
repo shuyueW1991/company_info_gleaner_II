@@ -103,21 +103,23 @@ ITEM_PIPELINES = {
 
 
 # Exporting Settings
-FEED_URI = '%(name)s_%(time)s.txt'
+FEED_URI = '/mnt/qinzhihao/Data/%(name)s_%(time)s.csv'
+# FEED_URI = '%(name)s_%(time)s.csv'
 # FEED_URI = '/root/users/WSY/spider_zhilian_search_needing_broadcrawling/%(name)s_20170605.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_zhilian_search.items.TxtItemExporter',}
 FEED_STORE_EMPTY = False
-FEED_EXPORT_FIELDS = ["job_nm",
-                      "month_pay",
+FEED_EXPORT_FIELDS = ["positionName",
+                      "salary",
                       "job_loc",
+                      "description",
                       "co_id",
-                      "co_nm",
-                      "co_ownership",
-                      "co_ee_size",
+                      "companyFullName",
+                      "financeStage",
+                      "companySize",
                       "co_link",
-                      "co_industry",
+                      "industryField",
                       "co_add",
                       "co_desc"]
 # FEED_EXPORT_FIELDS = ["co_id",

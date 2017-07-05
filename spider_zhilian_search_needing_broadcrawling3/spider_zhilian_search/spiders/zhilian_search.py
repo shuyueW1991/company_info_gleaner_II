@@ -41,9 +41,18 @@ class SpiderZhilianSearchSpider(scrapy.Spider):
 
             item = SpiderZhilianSearchItem()
 
-            item['job_nm'] = title.xpath('tr/td[@class="zwmc"]/div/a/text()').extract()
-            item['month_pay'] = title.xpath('tr/td[@class="zwyx"]/text()').extract()
+            item['positionName'] = title.xpath('tr/td[@class="zwmc"]/div/a/text()').extract()
+            item['salary'] = title.xpath('tr/td[@class="zwyx"]/text()').extract()
             item['job_loc'] = title.xpath('tr/td[@class="gzdd"]/text()').extract()
+            job_url = title.xpath('tr/td[@class="zwmc"]/div/a/@href').extract()[0]
+            print(job_url)
+
+            if job_url:
+
+                job_page = requests.get(job_url)
+                jobtree = Selector(job_page)
+                item['description'] = str(jobtree.xpath('//div[@class="terminalpage-main clearfix"]/div/div[1]//text()').extract()).\
+                    replace('|',"").replace("\r\n","").replace('\t',"").replace('  ',"").replace("\\n","").replace('\\xa0',"").replace('\\r',"").replace("'",'').replace('[','').replace(']','').replace(',','')
 
             # if inside_page is not None:
             if inside_page.startswith('http://company.zhaopin.com'):
@@ -56,11 +65,11 @@ class SpiderZhilianSearchSpider(scrapy.Spider):
                     print('the parsing result is '.format(company_page.status_code))
                     tree = html.fromstring(company_page.content)
                     item['co_id'] = tree.xpath('//input[@id="companyNumber"]/@value')
-                    item['co_nm'] = list(tree.xpath('//div[@class="mainLeft"]/div[1]/h1/text()'))[0].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
-                    item['co_ownership'] = str(tree.xpath('//table[@class="comTinyDes"]/tr[1]/td[2]/span/text()'))[2:-2].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
-                    item['co_ee_size'] = str(tree.xpath('//table[@class="comTinyDes"]/tr[2]/td[2]/span/text()'))[2:-2].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
+                    item['companyFullName'] = list(tree.xpath('//div[@class="mainLeft"]/div[1]/h1/text()'))[0].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
+                    item['financeStage'] = str(tree.xpath('//table[@class="comTinyDes"]/tr[1]/td[2]/span/text()'))[2:-2].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
+                    item['companySize'] = str(tree.xpath('//table[@class="comTinyDes"]/tr[2]/td[2]/span/text()'))[2:-2].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
                     item['co_link'] = str(tree.xpath('//table[@class="comTinyDes"]//tr[3]/td[2]/span/a/text()'))[2:-2]
-                    item['co_industry'] = str(tree.xpath('//table[@class="comTinyDes"]//tr[4]/td[2]/span/text()'))[2:-2].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
+                    item['industryField'] = str(tree.xpath('//table[@class="comTinyDes"]//tr[4]/td[2]/span/text()'))[2:-2].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
                     item['co_add'] = str(tree.xpath('//table[@class="comTinyDes"]//tr[5]/td[2]/span/text()'))[2:-2].replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
                     # item['co_desc'] = str(tree.xpath('//div[@class="company-content"]/p')).replace("<p>","").replace("</p>","").replace("<br>","").replace("&nbsp","").replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
                     item['co_desc'] = tree.xpath('//div[@style="FONT-SIZE: 12px"]')
@@ -73,11 +82,11 @@ class SpiderZhilianSearchSpider(scrapy.Spider):
             else:
                 print('not zhilian webpages')
                 item['co_id'] = 'unavailabe on zhilian itself'
-                item['co_nm'] = 'unavailabe on zhilian itself'
-                item['co_ownership'] = 'unavailabe on zhilian itself'
-                item['co_ee_size'] = 'unavailabe on zhilian itself'
+                item['companyFullName'] = 'unavailabe on zhilian itself'
+                item['financeStage'] = 'unavailabe on zhilian itself'
+                item['companySize'] = 'unavailabe on zhilian itself'
                 item['co_link'] = 'unavailabe on zhilian itself'
-                item['co_industry'] = 'unavailabe on zhilian itself'
+                item['industryField'] = 'unavailabe on zhilian itself'
                 item['co_add'] = 'unavailabe on zhilian itself'
                 # item['co_desc'] = str(tree.xpath('//div[@class="company-content"]/p')).replace("<p>","").replace("</p>","").replace("<br>","").replace("&nbsp","").replace('|',"").replace("\n","").replace('\t',"").replace('\r',"").replace(' ',"")
                 item['co_desc'] = 'unavailabe on zhilian itself'

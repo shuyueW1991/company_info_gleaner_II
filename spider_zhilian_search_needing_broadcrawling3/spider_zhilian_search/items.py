@@ -17,16 +17,17 @@ class SpiderZhilianSearchItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
 
-    job_nm = scrapy.Field()
-    month_pay = scrapy.Field()
+    positionName = scrapy.Field()
+    salary = scrapy.Field()
     job_loc = scrapy.Field()
+    description = scrapy.Field()
 
     co_id = scrapy.Field()
-    co_nm = scrapy.Field()
-    co_ownership = scrapy.Field()
-    co_ee_size = scrapy.Field()
+    companyFullName = scrapy.Field()
+    financeStage = scrapy.Field()
+    companySize = scrapy.Field()
     co_link = scrapy.Field()
-    co_industry = scrapy.Field()
+    industryField = scrapy.Field()
     co_add = scrapy.Field()
     co_desc = scrapy.Field()
 #

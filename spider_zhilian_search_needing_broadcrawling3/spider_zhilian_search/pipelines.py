@@ -30,7 +30,7 @@ class SpiderZhilianSearchPipeline(object):
         # values ('{0}', '{1}', '{2}', '{3}', '{4}','{5}')"
 
         try:
-            print(item['co_nm'])
+            print(item['companyFullName'])
             if len(item):
                 print(len(item))
             else:
@@ -45,10 +45,10 @@ class SpiderZhilianSearchPipeline(object):
             neg_list = ['上海外滩','海外游','海外旅游','房产中介','链家','海底捞','海外背景','海外留学','海外置业','跟单','编辑','买手','采购','推广','广告投放','房产投资','房产','运营','清关','SNS','SEO','facebook','亚马逊','google','SEM','移民','置业','理财','招商','创业','老师','教师','培训','护士','厨师','保险','房产销售','上海外','珠海外','不动产','海外包','猎头']
 
             for word in neg_list:
-                if word in item['co_nm']:
+                if word in item['companyFullName']:
                     flag = 'neg'
                     break
-                for i, val in enumerate(item['job_nm']):
+                for i, val in enumerate(item['positionName']):
                     if word in val:
                         flag = 'neg'
                         break
