@@ -17,6 +17,7 @@ from scrapy.loader.processors import TakeFirst, MapCompose, Join, Compose
 class KanzhunCrawlItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    co_web_id = scrapy.Field()
     co_short_nm = scrapy.Field()
     co_type = scrapy.Field()
     co_city = scrapy.Field()
@@ -26,6 +27,7 @@ class KanzhunCrawlItem(scrapy.Item):
     co_goodcommnt_rate_emply_num = scrapy.Field()
     co_avg_pay =scrapy.Field()
     co_avg_pay_emply_num = scrapy.Field()
+    kz_update_datetime = scrapy.Field()
 
 
 def strip(x):
@@ -106,6 +108,7 @@ class KanzhunCrawlLoader(ItemLoader):
     default_item_class = KanzhunCrawlItem
     default_output_processor = Join()
 
+    co_web_id_in = MapCompose(numeric_only)
     co_short_nm_in = MapCompose(strip,clean)
     co_type_in = MapCompose(strip,clean)
     co_city_in = MapCompose(strip,clean)
@@ -116,6 +119,7 @@ class KanzhunCrawlLoader(ItemLoader):
 
     co_avg_pay_in = MapCompose(numeric_only)
     co_avg_pay_emply_num_in = MapCompose(numeric_only)
+    kz_update_datetime_in = MapCompose(numeric_only)
 
 
 

@@ -7,14 +7,17 @@
 
 from scrapy import signals
 import base64
-#
-# proxyServer = "http://proxy.abuyun.com:9020"
-#
-# # 代理隧道验证信息
-# proxyUser = "H31539Y7ZHE5X8ZD"
-# proxyPass = "1DACB84FC4114009"
-#
-# proxyAuth = "Basic " + base64.urlsafe_b64encode(bytes((proxyUser + ":" + proxyPass), "ascii")).decode("utf8")
+import logging
+from fake_useragent import UserAgent
+proxyServer = "http://proxy.abuyun.com:9020"
+
+logger = logging.getLogger(__name__)
+
+# 代理隧道验证信息
+proxyUser = "H020G39R1142524D"
+proxyPass = "E440F4C798A80714"
+proxyAuth = "Basic " + base64.urlsafe_b64encode(bytes((proxyUser + ":" + proxyPass), "ascii")).decode("utf8")
+
 
 class KanzhunCrawlSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -63,10 +66,36 @@ class KanzhunCrawlSpiderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
+class RandomUserAgentMiddleware(object):
+    def __init__(self, crawler):
+        super(RandomUserAgentMiddleware, self).__init__()
 
-#
-# class ProxyMiddleware(object):
-#     def process_request(self, request, spider):
-#         request.meta["proxy"] = proxyServer
-#
-#         request.headers["Proxy-Authorization"] = proxyAuth
+        self.ua = UserAgent()
+        self.per_proxy = crawler.settings.get('RANDOM_UA_PER_PROXY', False)
+        self.ua_type = crawler.settings.get('RANDOM_UA_TYPE', 'random')
+        self.proxy2ua = {}
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler)
+
+    def process_request(self, request, spider):
+        def get_ua():
+            '''Gets random UA based on the type setting (random, firefox…)'''
+            return getattr(self.ua, self.ua_type)
+
+        if self.per_proxy:
+            proxy = request.meta.get('proxy')
+            if proxy not in self.proxy2ua:
+                self.proxy2ua[proxy] = get_ua()
+                logger.debug('Assign User-Agent %s to Proxy %s'
+                             % (self.proxy2ua[proxy], proxy))
+            request.headers.setdefault('User-Agent', self.proxy2ua[proxy])
+        else:
+            request.headers.setdefault('User-Agent', get_ua())
+
+class ProxyMiddleware(object):
+    def process_request(self, request, spider):
+        request.meta["proxy"] = proxyServer
+
+        request.headers["Proxy-Authorization"] = proxyAuth

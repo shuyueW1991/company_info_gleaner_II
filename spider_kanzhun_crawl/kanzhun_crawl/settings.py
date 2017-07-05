@@ -30,7 +30,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 1
+# DOWNLOAD_DELAY = 1
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -40,6 +40,13 @@ COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
+
+# Failure Retries
+RETRY_ENABLED = True
+RETRY_TIMES = 3
+# RETRY_HTTP_CODES = [400,500,502,503,408]
+RETRY_HTTP_CODES = [400,403,404,408,429,500,502,503]
+
 
 # Override the default request headers:
 #DEFAULT_REQUEST_HEADERS = {
@@ -53,25 +60,23 @@ COOKIES_ENABLED = False
 #    'kanzhun_crawl.middlewares.KanzhunCrawlSpiderMiddleware': 543,
 #}
 
-LOG_LEVEL = 'DEBUG'
 
+# SPIDER_MIDDLEWARES = {
+#    'kanzhun_crawl.middlewares.ProxyMiddleware': 543,
+# }
 
-SPIDER_MIDDLEWARES = {
-   'kanzhun_crawl.middlewares.ProxyMiddleware': 543,
-}
-
-SPIDER_MIDDLEWARES = {
-    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
-}
+# SPIDER_MIDDLEWARES = {
+#     'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+# }
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'scrapy_splash.SplashCookiesMiddleware': 723,
-    'scrapy_splash.SplashMiddleware': 725,
+    'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
     'kanzhun_crawl.spiders.rotate_useragent.RotateUserAgentMiddleware' :400,
-    # 'kanzhun_crawl.middlewares.ProxyMiddleware': 543,
+    # 'kanzhun_crawl.middlewares.KanzhunCrawlSpiderMiddleware': 543,
+    'kanzhun_crawl.middlewares.ProxyMiddleware': 543,
 }
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
@@ -111,12 +116,13 @@ AUTOTHROTTLE_ENABLED = False
 
 # Exporting Settings
 # FEED_URI = '/Users/yuyang/notreProgram/company_info_gleaner/kanzhun_crawl/%(name)s.csv'
-FEED_URI = '/root/users/WSY/kanzhun_crawl/%(name)s.csv'
+FEED_URI = '%(name)s.csv'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'kanzhun_crawl.items.TxtItemExporter',}
 FEED_STORE_EMPTY = False
-FEED_EXPORT_FIELDS = ["co_short_nm",
+FEED_EXPORT_FIELDS = ["co_web_id",
+                      "co_short_nm",
                       "co_type",
                       "co_city",
                       "co_staff_num",
@@ -124,12 +130,13 @@ FEED_EXPORT_FIELDS = ["co_short_nm",
                       "co_goodcommnt_rate",
                       "co_goodcommnt_rate_emply_num",
                       "co_avg_pay",
-                      "co_avg_pay_emply_num"]
+                      "co_avg_pay_emply_num",
+                      "kz_update_datetime"]
 CSV_DELIMITER = "|"
 
 # Logging Settings
 LOG_ENABLED = True
 LOG_ENCODING = 'utf-8'
-LOG_FILE = 'kanzhun_co.log'
+LOG_FILE = 'kanzhun.log'
 LOG_LEVEL = 'INFO'
 LOG_STDOUT = True

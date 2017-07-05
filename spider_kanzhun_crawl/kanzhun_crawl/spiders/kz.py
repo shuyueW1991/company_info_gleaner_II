@@ -10,6 +10,7 @@ import random
 import time
 import datetime
 
+date=time.strftime("%Y%m%d",time.localtime(time.time()))
 
 class KanzhunSpider(scrapy.Spider):
     name = "kzspider"
@@ -20,7 +21,7 @@ class KanzhunSpider(scrapy.Spider):
     def start_requests(self):
         starttime = time.time()
 
-        for i in range(0,50000):
+        for i in range(0,6000000):
             start_urls=['https://www.kanzhun.com/gso'+str(i)+'.html?ka=com1-title']
             # self.url = i
             for url in start_urls:
@@ -35,7 +36,8 @@ class KanzhunSpider(scrapy.Spider):
         # sell = Selector(response)
 
         load = KanzhunCrawlLoader(item=KanzhunCrawlItem(), response=response)
-        load.add_xpath('co_short_nm','//div[@class="banner_word"]/div[@class="bw_company"]/h1/text()')
+        load.add_xpath('co_web_id', '//div[@class="co_pk f_left"]/a/@data-id')
+        load.add_xpath('co_short_nm', '//div[@class="banner_word"]/div[@class="bw_company"]/h1/text()')
 
         co_container = load.nested_xpath('//div[@class="banner_word"]/div[@class="bw_explain"]')
         co_container.add_xpath('co_type', 'span[1]/text()')
@@ -47,8 +49,8 @@ class KanzhunSpider(scrapy.Spider):
         load.add_xpath('co_goodcommnt_rate_emply_num','//div[@class="ci_left"]/span[@class="cil_num"]/text()')
         load.add_xpath('co_avg_pay','//div[@class="ci_right"]/span[@class="cir_perc"]/text()')
         load.add_xpath('co_avg_pay_emply_num','//div[@class="ci_right"]/span[@class="cir_num"]/text()')
-
-        # load.add_value('lg_update_time', repr(date))
+        # item['kz_update_datetime'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        load.add_value('kz_update_datetime', repr(date))
 
 
         yield load.load_item()

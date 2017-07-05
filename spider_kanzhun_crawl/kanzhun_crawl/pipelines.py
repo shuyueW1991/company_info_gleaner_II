@@ -34,8 +34,7 @@ class KanzhunCrawlPipeline(object):
 
 
     def process_item(self, item, spider):
-        sql = "insert into kanzhun_co_init(co_short_nm, co_type, co_city, co_staff_num, co_short_desc, co_goodcommnt_rate, co_goodcommnt_rate_emply_num, co_avg_pay, co_avg_pay_emply_num) \
-        values ('{0}', '{1}', '{2}', '{3}', '{4}','{5}', '{6}','{7}', '{8}')"
+        sql = "insert into kanzhun_co_init(co_web_id, co_short_nm, co_type, co_city, co_staff_num, co_short_desc, co_goodcommnt_rate, co_goodcommnt_rate_emply_num, co_avg_pay, co_avg_pay_emply_num, kz_update_datetime) values ('{0}', '{1}', '{2}', '{3}', '{4}','{5}', '{6}','{7}', '{8}', '{9}', '{10}')"
         # if len(item['title']) > 0:
         #     try:
         #         print("++++++++++++++++++++++++++++++++++++")
@@ -50,50 +49,46 @@ class KanzhunCrawlPipeline(object):
 
 
         try:
-            if len(item['co_short_nm']) > 0:
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_short_nm']))
-                print(len(item['co_short_nm']))
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_type']))
-                print(len(item['co_type']))
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_city']))
-                print(len(item['co_city']))
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_staff_num']))
-                print(len(item['co_staff_num']))
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_short_desc']))
-                print(len(item['co_short_desc']))
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_goodcommnt_rate']))
-                print(len(item['co_goodcommnt_rate']))
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_goodcommnt_rate_emply_num']))
-                print(len(item['co_goodcommnt_rate_emply_num']))
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_avg_pay']))
-                print(len(item['co_avg_pay']))
-                print("++++++++++++++++++++++++++++++++++++")
-                print(type(item['co_avg_pay_emply_num']))
-                print(len(item['co_avg_pay_emply_num']))
+            # if len(item['co_short_nm']) > 0:
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_short_nm']))
+            # print(len(item['co_short_nm']))
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_type']))
+            # print(len(item['co_type']))
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_city']))
+            # print(len(item['co_city']))
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_staff_num']))
+            # print(len(item['co_staff_num']))
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_short_desc']))
+            # print(len(item['co_short_desc']))
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_goodcommnt_rate']))
+            # print(len(item['co_goodcommnt_rate']))
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_goodcommnt_rate_emply_num']))
+            # print(len(item['co_goodcommnt_rate_emply_num']))
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_avg_pay']))
+            # print(len(item['co_avg_pay']))
+            # print("++++++++++++++++++++++++++++++++++++")
+            # print(type(item['co_avg_pay_emply_num']))
+            # print(len(item['co_avg_pay_emply_num']))
 
-                for k,v in item.items():
-                    if len(v) == 0:
-                        v = 'NaN'
-                print('checked. okay.')
+            for k,v in item.items():
+                if len(v) == 0:
+                    v = 'NaN'
+            print('checked. okay.')
 
 
-                self.cursor.execute(sql.format(item['co_short_nm'], item['co_type'], item['co_city'], item['co_staff_num'], item['co_short_desc']\
-                                               , item['co_goodcommnt_rate'], \
-                                               item['co_goodcommnt_rate_emply_num'], \
-                                               item['co_avg_pay'][:], \
-                                               item['co_avg_pay_emply_num']))
-                self.conn.commit()
-                return item
-            else:
-                raise DropItem("This Page Does Not Exist")
+            self.cursor.execute(sql.format(item['co_web_id'], item['co_short_nm'], item['co_type'], item['co_city'], item['co_staff_num'], item['co_short_desc'], item['co_goodcommnt_rate'], item['co_goodcommnt_rate_emply_num'], item['co_avg_pay'][:], item['co_avg_pay_emply_num'], item['kz_update_datetime']))
+            self.conn.commit()
+            return item
+            # else:
+            #     raise DropItem("This Page Does Not Exist")
 
 
         except:
