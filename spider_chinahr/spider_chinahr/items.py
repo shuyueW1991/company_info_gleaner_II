@@ -17,7 +17,7 @@ class SpiderChinahrItem(scrapy.Item):
     chr_co_name = scrapy.Field()
     chr_co_city = scrapy.Field()
     chr_co_industry = scrapy.Field()
-    chr_co_type = scrapy.Field()
+    chr_co_ownership = scrapy.Field()
     chr_co_estab = scrapy.Field()
     chr_co_regcap = scrapy.Field()
     chr_contact_name = scrapy.Field()
@@ -25,11 +25,15 @@ class SpiderChinahrItem(scrapy.Item):
     chr_fixline_num = scrapy.Field()
     chr_email_addr = scrapy.Field()
     chr_co_address = scrapy.Field()
-    chr_co_desc = scrapy.Field()
+    chr_co_des = scrapy.Field()
     chr_co_url = scrapy.Field()
 
 def clean(x):
-    return x.replace('\r', '').replace('\t', '').replace('\n', '').replace("\n", '').replace('"', '').replace(" ", "").replace("\"", "").replace("|","")
+    x = x.replace('\r', '').replace('\t', '').replace('\n', '').replace("\\n", '').replace('\\r', '').replace('\\t', '').replace('"', '').replace(" ", "").replace("\"", "").replace("|","").replace("-", "").replace("_","")
+    if x:
+        return x
+    else:
+        return "NaN"
 
 
 class SpiderChinahrLoader(ItemLoader):
@@ -39,7 +43,7 @@ class SpiderChinahrLoader(ItemLoader):
     chr_co_name_in = MapCompose(clean)
     chr_co_city_in = MapCompose(clean)
     chr_co_industry_in = MapCompose(clean)
-    chr_co_type_in = MapCompose(clean)
+    chr_co_ownership_in = MapCompose(clean)
     chr_co_estab_in = MapCompose(clean)
     chr_co_regcap_in = MapCompose(clean)
     chr_contact_name_in = MapCompose(clean)
@@ -47,7 +51,7 @@ class SpiderChinahrLoader(ItemLoader):
     chr_fixline_num_in = MapCompose(clean)
     chr_email_addr_in = MapCompose(clean)
     chr_co_address_in = MapCompose(clean)
-    chr_co_desc_in = MapCompose(clean)
+    chr_co_des_in = MapCompose(clean)
     chr_co_url_in = MapCompose(clean)
 
 

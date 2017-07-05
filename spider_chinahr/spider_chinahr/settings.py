@@ -15,19 +15,19 @@ SPIDER_MODULES = ['spider_chinahr.spiders']
 NEWSPIDER_MODULE = 'spider_chinahr.spiders'
 
 DELTAFETCH_ENABLED = True
-DELTAFETCH_DIR = '/root/users/JH/company_info_gleaner_II/spider_chinahr/'
+DELTAFETCH_DIR = '/home/qinzhihao/company_info_gleaner_II/spider_chinahr'
 
 # Exporting Settings
-FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_chinahr/%(name)s_20170613.txt'
-# FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_chinahr/%(name)s_20170612.txt'
-FEED_FORMAT = 'csv'
-FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
-FEED_EXPORTERS = {'csv': 'spider_chinahr.items.TxtItemExporter',}
-FEED_STORE_EMPTY = False
+# FEED_URI = '%(name)s_20170613.txt'
+# # FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_chinahr/%(name)s_20170612.txt'
+# FEED_FORMAT = 'csv'
+# FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
+# FEED_EXPORTERS = {'csv': 'spider_chinahr.items.TxtItemExporter',}
+# FEED_STORE_EMPTY = False
 # FEED_EXPORT_FIELDS = ["chr_co_name",
 #                       "chr_co_city",
 #                       "chr_co_industry"
-#                       "chr_co_type",
+#                       "chr_co_ownership",
 #                       "chr_co_estab",
 #                       "chr_co_regcap",
 #                       "chr_contact_name",
@@ -35,12 +35,13 @@ FEED_STORE_EMPTY = False
 #                       "chr_fixline_num",
 #                       "chr_email_addr",
 #                       "chr_co_address",
-#                       "chr_co_desc",
+#                       "chr_co_des",
 #                       "chr_co_url"]
 
-FEED_EXPORT_FIELDS = ["chr_co_url"]
 
-CSV_DELIMITER = "|"
+# FEED_EXPORT_FIELDS = ["chr_co_url"]
+
+# CSV_DELIMITER = "|"
 
 # Logging Settings
 LOG_ENABLED = True
@@ -68,6 +69,9 @@ SPIDER_MIDDLEWARES = {
     'scrapy_deltafetch.DeltaFetch': 200,
 }
 
+ITEM_PIPELINES = {
+    'spider_chinahr.pipelines.SpiderChinahrPipeline': 300,
+}
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 AUTOTHROTTLE_ENABLED = True
