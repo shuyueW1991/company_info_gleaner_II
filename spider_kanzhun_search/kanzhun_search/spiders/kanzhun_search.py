@@ -68,7 +68,6 @@ class KanzhunSearchSpider(scrapy.Spider):
 
                 co_url = 'http://www.kanzhun.com' + title.xpath('p[@class="jieshao"]/a/@href').extract()[0]
                 co_page = requests.get(co_url, headers = headers, proxies=proxies)
-                # co_page = requests.get(co_url, headers = headers)
                 co_sel = Selector(co_page)
 
                 try:
