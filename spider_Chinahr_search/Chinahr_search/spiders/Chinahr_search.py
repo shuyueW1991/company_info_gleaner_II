@@ -17,27 +17,14 @@ def clean(x):
 
 
 class ChinahrSearchSpider(scrapy.Spider):
-    # name = 'example.com'
-    # allowed_domains = ['example.com']
-    # start_urls = [
-    #     'http://www.example.com/1.html',
-    #     'http://www.example.com/2.html',
-    #     'http://www.example.com/3.html',
-    # ]
-    #
-    # def parse(self, response):
-    #     self.log('A response from %s just arrived!' % response.url)
-
 
     name='Chinahr_search'
     allowed_domain='https://www.chinahr.com'
     cur_page = 1
 
     def start_requests(self):
+
         url = 'http://www.chinahr.com/sou/?orderField=relate&keyword=%E6%B5%B7%E5%A4%96&city=36,400&page=1'
-        # test = requests.get(start_url)
-        # print(test.content)
-        # yield test
         yield scrapy.Request(url, callback= self.parse_page)
 
     def parse_page(self,response):
@@ -53,13 +40,13 @@ class ChinahrSearchSpider(scrapy.Spider):
             # print(title)
 
             item = ChinahrSearchItem()
-            item['job_name'] = str(title.xpath('li[1]/span[1]//text()').extract())\
+            item['positionName'] = str(title.xpath('li[1]/span[1]//text()').extract())\
                 .replace('[','').replace(']','').replace("'",'').replace(',','').replace(' ','')
             item['job_add'] = str(title.xpath('li[2]/span[1]/text()').extract())\
                 .split(']')[0].replace('\\t', '').replace('\\n', '').replace('\\r', '').replace("'",'').replace('[', '')
             item['job_limit'] = str(title.xpath('li[2]/span[1]/text()').extract())\
                 .split(']')[1].replace('\\t', '').replace('\\n', '').replace('\\r', '')
-            item['job_pay'] = title.xpath('li[2]/span[2]/text()').extract()
+            item['salary'] = title.xpath('li[2]/span[2]/text()').extract()
 
             # b = a.split(']')[1].split('/')
             # if len(b) == 2:
@@ -69,8 +56,15 @@ class ChinahrSearchSpider(scrapy.Spider):
             #     item['job_edu'] = str(b).replace('\\t','').replace('\\n','').replace('\\r','').replace("'",'')
             #
             item['co_inner_web'] = title.xpath('li[1]/span[3]/a/@href').extract()
-            item['co_ee_size'] = title.xpath('li[2]/span[3]/em[3]/text()').extract()
+            item['companySize'] = title.xpath('li[2]/span[3]/em[3]/text()').extract()
             co_url = str(title.xpath('li[1]/span[3]/a/@href').extract()).replace('[', '').replace(']', '').replace("'", '')
+            job_url = title.xpath('li[1]/span[1]/a/@href').extract()[0]
+
+            if job_url:
+                job_page = requests.get(job_url)
+                jobtree = Selector(job_page)
+                item['description'] = str(jobtree.xpath('//div[@class="job_intro_info"]//text()').extract()).\
+                    replace('\\r', '').replace('\\t', '').replace('\\n', '').replace('"', '').replace("\"", "").replace("|","").replace('[','').replace(']','').replace("'",'').replace(',','').replace('  ','')
 
 
             if co_url.startswith('http://www.chinahr.com/company'):
@@ -82,7 +76,7 @@ class ChinahrSearchSpider(scrapy.Spider):
 
                     tree = Selector(company_page)
                     # print(tree.xpath('//h1/text()'))
-                    item['co_name'] = tree.xpath('//h1/text()').extract()
+                    item['companyFullName'] = tree.xpath('//h1/text()').extract()
                     item['co_contact'] = clean(str(tree.xpath('//div[@class="address"]/p/i[@class="icon_hf people"]/parent::p/text()').extract()))
                         # \.replace('\t','').replace('\n','').replace('\r','').replace(" ",'').replace(' ','').replace('"','').replace('&nbsp;','')
                     item['co_mob'] = tree.xpath('//div[@class="address"]/p/i[@class="icon_hf mobile"]/parent::p/text()').extract()
@@ -95,9 +89,10 @@ class ChinahrSearchSpider(scrapy.Spider):
                         # .replace('\t','').replace('\n','').replace('\r','').replace(" ",'').replace(' ','').replace('"','').replace('&nbsp;','')
                     item['co_add'] = tree.xpath('//div[@class="address"]/p/i[@class="icon_hf add"]/parent::p/text()').extract()
                         # .replace('\t','').replace('\n','').replace('\r','').replace(" ",'').replace(' ','').replace('"','').replace('&nbsp;','')
-                    item['co_type'] = str(tree.xpath('//div[@class="wrap-mc"]/em[2]/text()').extract())\
-                        .replace('\\t','').replace('\\n','').replace('\\r','').replace("[",'').replace(']','').replace('"','').replace("'",'')
-                    item['co_ownership'] = tree.xpath('//div[@class="wrap-mc"]/em[3]/text()').extract()
+                    item['industryField'] = str(tree.xpath('//div[@class="wrap-mc"]/em[2]/text()').extract())\
+                        .replace('\\t','').replace('\\n','').replace('\\r','').replace("[",'').replace(']','').replace('"','').replace("'",'').replace(' ','')
+                    item['financeStage'] = tree.xpath('//div[@class="wrap-mc"]/em[3]/text()').extract()
+                    # item['description'] = clean(str(tree.xpath('//div[@class="article"]/text()').extract()))
 
                     # yield item
 

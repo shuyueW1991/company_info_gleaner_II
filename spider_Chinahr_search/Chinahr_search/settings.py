@@ -89,16 +89,17 @@ COOKIES_ENABLED = True
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-FEED_URI = '/home/qinzhihao/Data/%(name)s_%(time)s.csv'
+FEED_URI = '/mnt/qinzhihao/Data/%(name)s_%(time)s.csv'
+# FEED_URI = '%(name)s_%(time)s.csv'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'Chinahr_search.items.TxtItemExporter',}
 FEED_STORE_EMPTY = False
-FEED_EXPORT_FIELDS = ["job_name","job_pay", "job_add", "job_time", "job_edu", "co_name", "co_ee_size", 'co_type', 'co_ownership', "co_contact", "co_mob", "co_tel", "co_email", "co_link", "co_add", "co_inner_web"]
+FEED_EXPORT_FIELDS = ["positionName","salary", "job_add", "job_time", "job_edu", "companyFullName", "companySize", 'industryField', 'financeStage', "co_contact", "co_mob", "co_tel", "co_email", "co_link", "co_add", "co_inner_web", 'description']
 CSV_DELIMITER = "|"
 
 LOG_ENABLED = True
 LOG_ENCODING = 'utf-8'
-# LOG_FILE="Chinahr.log"
-LOG_LEVEL = 'DEBUG'
+LOG_FILE="Chinahr.log"
+LOG_LEVEL = 'INFO'
 LOG_STDOUT = True

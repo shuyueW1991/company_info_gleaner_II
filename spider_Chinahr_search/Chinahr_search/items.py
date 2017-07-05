@@ -7,7 +7,7 @@
 
 import scrapy
 from scrapy.exporters import CsvItemExporter
-
+from scrapy.conf import settings
 
 class TxtItemExporter(CsvItemExporter):
 
@@ -26,15 +26,15 @@ class ChinahrSearchItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
 
-    job_name = scrapy.Field()
-    job_pay = scrapy.Field()
+    positionName = scrapy.Field()
+    salary = scrapy.Field()
     job_add = scrapy.Field()
     job_limit = scrapy.Field()
 
-    co_name=scrapy.Field()
-    co_ee_size = scrapy.Field()
-    co_type = scrapy.Field()
-    co_ownership = scrapy.Field()
+    companyFullName=scrapy.Field()
+    companySize = scrapy.Field()
+    industryField = scrapy.Field()
+    financeStage = scrapy.Field()
     co_contact=scrapy.Field()
     co_mob=scrapy.Field()
     co_tel=scrapy.Field()
@@ -42,6 +42,7 @@ class ChinahrSearchItem(scrapy.Item):
     co_link = scrapy.Field()
     co_add = scrapy.Field()
     co_inner_web=scrapy.Field()
+    description = scrapy.Field()
 
 
 
