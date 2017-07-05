@@ -10,10 +10,11 @@ import requests
 from bs4 import BeautifulSoup as bs
 from scrapy.selector import Selector as sle
 from spider_official_websites.items import SpiderOfficialWebsitesItem
+from difflib import SequenceMatcher as sqm
 
 date=time.strftime("%Y%m%d",time.localtime(time.time()))
 urls_to_crawl = "/root/users/JH/company_info_gleaner_II/spider_official_websites/url_list_short.txt"
-deny_list = ["www.adobe.com", "www.linkedin.com"]
+deny_list = ["www.adobe.com", "www.linkedin.com","www.weibo.com","www.zhihu.com","open.weibo.com"]
 
 ## Function to Clean URL for Pattern Matching
 def url_clean(url):
@@ -36,9 +37,13 @@ class CrawlerSpider(CrawlSpider):
         super(CrawlerSpider, self).__init__(*args, **kwargs)
         self.le = LinkExtractor(deny_domains=deny_list) ## exclude crawl from wellknown big sites
         self.not_follow_count = 100 ## exclude webpages with follow link > 100
-        # self.email_pattern = re.compile(r'\w+@\w+') ## to do: robust pattern
-        self.email_pattern = re.compile(r'\b[\w.-]+?@\w+?\.\w+?\b')
-        self.mobile_pattern = re.compile(r'\d{11}') ## to do: add - pattern recognition
+        self.similarity = 0.9 ## exclude extracted web urls that are too similar to current url
+        self.email_pattern = re.compile(r'\b[\w.-]+?@[\w.-]+?\.\w+\.?\w+')
+        self.mobile_pattern = re.compile(r'1\d{2}\W?\d{4}\W?\d{4}')
+        self.pre_link = "init"
+        self.pre_host = "init"
+        self.host_dict = {}
+        self.url_max_len = 100
 
     ## Read URLs from External File and Generate Request
     def start_requests(self):
@@ -52,31 +57,44 @@ class CrawlerSpider(CrawlSpider):
         self.log('page is {}'.format(response.url))
         if not isinstance(response, HtmlResponse):
             print('link {} is not html response'.format(response.url))
-            return
+            return None
         else:
             out = SpiderOfficialWebsitesItem()
             out['url'] = response.url
-            out['host_url'] = response.url.split('/')[2]
-            # out['content'] = content_clean(response.text)
+            out['host_url'] = response.request.url.split('/')[2]
             email = re.findall(self.email_pattern,response.text )
             mobile = re.findall(self.mobile_pattern, response.text)
-            out['email'] = list(set(email)) if email else None ## to do: add duplicate removal
-            out['mobile'] = list(set(mobile)) if mobile else None ## to do: add duplicate removal
+            out['email'] = list(set(email)) if email else None
+            out['mobile'] = list(set(mobile)) if mobile else None
 
-            if len(self.le.extract_links(response)) > self.not_follow_count: ## filter out hub pages
+            try:
+                self.host_dict[out['host_url']]+=1
+            except:
+                self.host_dict[out['host_url']]=1
+
+            print('the url count dict is {}'.format(self.host_dict))
+
+            # if (len(self.le.extract_links(response)) > self.not_follow_count) or (self.host_dict[out['host_url']] > self.not_follow_count): ## filter out hub pages
+            if self.host_dict[out['host_url']] > self.not_follow_count:  ## filter out hub pages
+                print('the host dict is {}'.format(self.host_dict[out['host_url']]))
                 print('too many links to follow')
-                return
+                return None
             else:
                 for link in self.le.extract_links(response):
-                    check = re.search(url_clean(out['host_url']), str(link.url)) ## limit crawling to within the website
+                    check = re.search(url_clean(out['host_url']), str(link.url).split('/')[2]) ## limit crawling to within the website
+                    sim_w_res = sqm(None, str(link.url), out['url']).ratio()
+                    sim_w_pre = sqm(None, str(link.url), self.pre_link).ratio()
+                    # sim_w_host = sqm(None, str(link.url).split('/')[2], self.pre_host)
+                    print('pre link is {}'.format(self.pre_link))
                     print('cleaned host url is {}'.format(url_clean(out['host_url'])))
                     print('link to follow is {}'.format(str(link.url)))
-                    if check:
+                    if check and len(link.url)<self.url_max_len and (sim_w_res < self.similarity) and (sim_w_pre < self.similarity) and (sim_w_res > 0.5):
                         r = scrapy.Request(url=link.url, callback=self.parse_page)
                         # r.meta.update(link_text=link.text)
+                        self.pre_link = str(link.url)
                         yield r
                     else:
-                        print('outside link {}, not followed'.format(link.url) )
+                        print('outside link {}, not followed'.format(link.url))
                         continue
                 yield out
 

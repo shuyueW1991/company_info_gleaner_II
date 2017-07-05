@@ -1,15 +1,15 @@
-2017-06-30 15:01:40 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: spider_official_websites)
-2017-06-30 15:01:40 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 2, 'BOT_NAME': 'spider_official_websites', 'AUTOTHROTTLE_ENABLED': True, 'LOG_LEVEL': 'INFO', 'FEED_EXPORT_FIELDS': ['host_url', 'url', 'email', 'mobile'], 'LOG_FILE': 'crawler.log', 'AUTOTHROTTLE_DEBUG': True, 'NEWSPIDER_MODULE': 'spider_official_websites.spiders', 'SPIDER_MODULES': ['spider_official_websites.spiders'], 'LOG_STDOUT': True, 'AUTOTHROTTLE_START_DELAY': 0.1, 'FEED_URI': '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/%(name)s_20170627.txt', 'FEED_FORMAT': 'csv'}
-2017-06-30 15:01:40 [scrapy.middleware] INFO: Enabled extensions:
-['scrapy.extensions.feedexport.FeedExporter',
+2017-07-04 17:34:02 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: spider_official_websites)
+2017-07-04 17:34:02 [scrapy.utils.log] INFO: Overridden settings: {'FEED_EXPORT_FIELDS': ['host_url', 'url', 'email', 'mobile'], 'LOG_LEVEL': 'INFO', 'AUTOTHROTTLE_START_DELAY': 0.1, 'FEED_FORMAT': 'csv', 'BOT_NAME': 'spider_official_websites', 'AUTOTHROTTLE_MAX_DELAY': 2, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_DEBUG': True, 'SPIDER_MODULES': ['spider_official_websites.spiders'], 'FEED_URI': '/root/users/JH/company_info_gleaner_II/spider_official_websites/%(name)s_20170701.txt', 'LOG_STDOUT': True, 'LOG_FILE': 'crawler.log', 'NEWSPIDER_MODULE': 'spider_official_websites.spiders'}
+2017-07-04 17:34:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.throttle.AutoThrottle',
- 'scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.logstats.LogStats',
- 'scrapy.extensions.telnet.TelnetConsole']
-2017-06-30 15:01:40 [py.warnings] WARNING: /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+ 'scrapy.extensions.feedexport.FeedExporter']
+2017-07-04 17:34:02 [py.warnings] WARNING: /usr/local/lib/python3.4/dist-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
   ScrapyDeprecationWarning)
 
-2017-06-30 15:01:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2017-07-04 17:34:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['spider_official_websites.middlewares.RandomUserAgentMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -20,28 +20,1861 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2017-06-30 15:01:41 [twisted] CRITICAL: Unhandled error in Deferred:
-2017-06-30 15:01:41 [twisted] CRITICAL: 
-Traceback (most recent call last):
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/twisted/internet/defer.py", line 1301, in _inlineCallbacks
-    result = g.send(result)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/crawler.py", line 72, in crawl
-    self.engine = self._create_engine()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/crawler.py", line 97, in _create_engine
-    return ExecutionEngine(self, lambda _: self.stop())
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/core/engine.py", line 70, in __init__
-    self.scraper = Scraper(crawler)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/core/scraper.py", line 69, in __init__
-    self.spidermw = SpiderMiddlewareManager.from_crawler(crawler)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/middleware.py", line 58, in from_crawler
-    return cls.from_settings(crawler.settings, crawler)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/middleware.py", line 34, in from_settings
-    mwcls = load_object(clspath)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scrapy/utils/misc.py", line 44, in load_object
-    mod = import_module(module)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
-ImportError: No module named 'scrapy_deltafetch'
+2017-07-04 17:34:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy_deltafetch.DeltaFetch',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 17:34:02 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_official_websites.pipelines.SpiderOfficialWebsitesPipeline']
+2017-07-04 17:34:02 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 17:34:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 17:34:02 [stdout] INFO: url is http://www.linkdata.com.cn/
+2017-07-04 17:34:03 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:  197 ms (+97) | latency:  197 ms | size:  7562 bytes
+2017-07-04 17:34:03 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 1}
+2017-07-04 17:34:03 [stdout] INFO: pre link is init
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is init
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is init
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/legal/, not followed
+2017-07-04 17:34:03 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/'}
+2017-07-04 17:34:03 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:  125 ms (-71) | latency:   53 ms | size:   103 bytes
+2017-07-04 17:34:03 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 2}
+2017-07-04 17:34:03 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/jrwm/join_1/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/jrwm/join_1/'}
+2017-07-04 17:34:03 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   87 ms (-38) | latency:   49 ms | size:  4118 bytes
+2017-07-04 17:34:03 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 3}
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:03 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/>
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:03 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/hyxw/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/hyxw/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20170414/305.html
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20170414/305.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20161103/304.html
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20161103/304.html, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20170414/305.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160906/303.html
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160906/303.html, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20170414/305.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160612/271.html
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20160612/271.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160527/270.html
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160527/270.html, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20160612/271.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160415/268.html
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160415/268.html, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20160612/271.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/index_2.html
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/index_2.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:03 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/'}
+2017-07-04 17:34:03 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   70 ms (-17) | latency:   53 ms | size:  3021 bytes
+2017-07-04 17:34:03 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 4}
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:03 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:03 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/dianw/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/dianw/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/minp/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/minp/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jiaot/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jiaot/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jung/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jung/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jingp/
+2017-07-04 17:34:03 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jingp/, not followed
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:03 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:03 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:03 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:03 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/fangan/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/fangan/'}
+2017-07-04 17:34:03 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 3 | delay:   92 ms (+21) | latency:   92 ms | size:   103 bytes
+2017-07-04 17:34:03 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 3 | delay:   81 ms (-10) | latency:   71 ms | size:    99 bytes
+2017-07-04 17:34:03 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 2 | delay:  120 ms (+38) | latency:  120 ms | size:  4100 bytes
+2017-07-04 17:34:03 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 5}
+2017-07-04 17:34:03 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/brand/about/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/brand/about/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 2 | delay:   86 ms (-34) | latency:   52 ms | size:  4830 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 6}
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/contact/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/contact/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   66 ms (-19) | latency:   47 ms | size:  3391 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 7}
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://106.37.165.18:6688/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://106.37.165.18:6688/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/sitemap.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/honor/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/honor/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/dianw/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/dianw/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/minp/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/minp/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jiaot/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jiaot/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jung/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jung/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jingp/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jingp/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/dyl/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/dyl/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/sjzx/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/sjzx/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/jncp/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/jncp/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/hyxw/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/hyxw/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_2/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/jrwm/join_2/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brands/honor/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/brands/honor/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brands/service-support/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brands/service-support/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/products/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/products/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/news/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/gsxw/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/news/gsxw/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/solution/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/solution/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact-us/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/contact-us/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/sitemap.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/sitemap.html'}
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 8}
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/hyxw/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/hyxw/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20161103/304.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20161103/304.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20170414/305.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20170414/305.html'}
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 9}
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/llz/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/ldc/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/dyl/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/dyl/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/sjzx/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/sjzx/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/jncp/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/jncp/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/20140619/181.html
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/20140619/181.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/20140619/180.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/llz/20140619/180.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/20140619/181.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/20140619/179.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/llz/20140619/179.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/20140619/181.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/20140619/178.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/llz/20140619/178.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/20140619/181.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/20140619/177.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/llz/20140619/177.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/20140619/181.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/20140619/176.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/llz/20140619/176.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/20140619/181.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/product/llz/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/product/llz/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   61 ms (-5) | latency:   56 ms | size:    97 bytes
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   55 ms (-5) | latency:   49 ms | size:  3487 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 10}
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/legal/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/legal/'}
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 11}
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/hyxw/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/hyxw/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160414/267.html
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20160414/267.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160328/266.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160328/266.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20160414/267.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 2 | delay:   52 ms (-3) | latency:   48 ms | size:  4178 bytes
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20140619/189.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20140619/189.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/index.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/index.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/index_2.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/index_2.html'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   51 ms (+0) | latency:   51 ms | size:    21 bytes
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   51 ms (+0) | latency:   50 ms | size:    21 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 12}
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/hyxw/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/hyxw/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160527/270.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160527/270.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160906/303.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160906/303.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20160612/271.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20160612/271.html'}
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 13}
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/jrwm/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/jrwm/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   52 ms (+0) | latency:   52 ms | size:  3448 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 14}
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   51 ms (+0) | latency:   50 ms | size:  3609 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 15}
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/llz/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/ldc/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/dyl/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/dyl/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/sjzx/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/sjzx/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/jncp/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/jncp/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/20140619/175.html
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/20140619/175.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/20140619/174.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/ldc/20140619/174.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/20140619/175.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/20140619/173.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/ldc/20140619/173.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/20140619/175.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/20140619/172.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/ldc/20140619/172.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/20140619/175.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/20140619/171.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/ldc/20140619/171.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/20140619/175.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/20140619/170.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/ldc/20140619/170.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/20140619/175.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/20140619/169.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/product/ldc/20140619/169.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/20140619/175.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/product/ldc/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/product/ldc/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   48 ms (-2) | latency:   46 ms | size:   103 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 16}
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/dianw/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/dianw/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/minp/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/minp/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jiaot/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jiaot/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jung/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jung/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jingp/
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jingp/, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160721/280.html
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160721/280.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160721/279.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160721/279.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160721/280.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160721/278.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160721/278.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160721/280.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160721/277.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160721/277.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160721/280.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160721/276.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160721/276.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160721/280.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160720/275.html
+2017-07-04 17:34:04 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160720/275.html, not followed
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160721/280.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/index_2.html
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/index_2.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:04 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:04 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:04 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:04 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/fangan/yid/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/fangan/yid/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   49 ms (+0) | latency:   49 ms | size:   107 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 17}
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/brand/honor/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/brand/honor/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   49 ms (+0) | latency:   49 ms | size:    99 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 18}
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/legal-disclaimer/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/legal-disclaimer/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 2 | delay:   48 ms (+0) | latency:   48 ms | size:    21 bytes
+2017-07-04 17:34:04 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 19}
+2017-07-04 17:34:04 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/join-us/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/join-us/'}
+2017-07-04 17:34:04 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   58 ms (+9) | latency:   58 ms | size:  3116 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 20}
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/solution/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/solution/'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   56 ms (-1) | latency:   54 ms | size:  3496 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 21}
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/products/llz1/one/1/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/products/llz1/one/1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/news/hyxw/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/join-us/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://106.37.165.18:6688/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://106.37.165.18:6688/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/news/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/gsxw/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/news/gsxw/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/hyxw/20140717/208.html
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/hyxw/20140717/208.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/hyxw/20140619/190.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/news/hyxw/20140619/190.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/hyxw/20140717/208.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact-us/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact-us/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal-disclaimer/>
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/news/hyxw/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/news/hyxw/'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   52 ms (-4) | latency:   48 ms | size:    21 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 22}
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/products/llz1/one/1/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/products/llz1/one/1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/cases/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/products/llz1/one/1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/news/hyxw/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/join-us/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://106.37.165.18:6688/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://106.37.165.18:6688/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/cases/20140717/212.html
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/cases/20140717/212.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/cases/20140717/211.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/cases/20140717/211.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/cases/20140717/212.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/cases/20140618/142.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/cases/20140618/142.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/cases/20140717/212.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact-us/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact-us/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal-disclaimer/>
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/cases/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/cases/'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 2 | delay:   60 ms (+7) | latency:   60 ms | size:   112 bytes
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   55 ms (-4) | latency:   50 ms | size:   104 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 23}
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/products/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/products/'}
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 24}
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/brands/service-support/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/brands/service-support/'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 2 | delay:   53 ms (-2) | latency:   50 ms | size:  3549 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 25}
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/brands/about/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/brands/about/'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   53 ms (+0) | latency:   48 ms | size:  2166 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 26}
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/20140619/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/20140619/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/ldc/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/dyl/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/product/dyl/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/sjzx/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/product/sjzx/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/jncp/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/product/jncp/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': ['14062517023'],
+ 'url': 'http://www.linkdata.com.cn/product/llz/20140619/181.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': ['14062517023'],
+ 'url': 'http://www.linkdata.com.cn/product/llz/20140619/181.html'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   53 ms (+0) | latency:   53 ms | size:  3242 bytes
+2017-07-04 17:34:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.linkdata.com.cn/product/llz/product/llz/>: HTTP status code is not handled or not allowed
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   52 ms (+0) | latency:   52 ms | size:  4264 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 27}
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/hyxw/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/hyxw/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20140619/189.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20140619/189.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160328/266.html
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20160328/266.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   52 ms (+0) | latency:   48 ms | size:  2171 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 28}
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/hyxw/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/hyxw/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160328/266.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160328/266.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160415/268.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160415/268.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20160414/267.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20160414/267.html'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   59 ms (+7) | latency:   59 ms | size:  3622 bytes
+2017-07-04 17:34:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.linkdata.com.cn/product/ldc/product/llz/>: HTTP status code is not handled or not allowed
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   56 ms (-3) | latency:   52 ms | size:  3391 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 29}
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/20140619/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/20140619/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/ldc/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/dyl/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/product/dyl/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/sjzx/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/product/sjzx/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/jncp/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/product/jncp/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/ldc/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/product/ldc/20140619/175.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/product/ldc/20140619/175.html'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 2 | delay:   63 ms (+6) | latency:   63 ms | size:  3290 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 30}
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/yid/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/dianw/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/dianw/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/minp/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/minp/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jiaot/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jiaot/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jung/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jung/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jingp/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jingp/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160721/279.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160721/279.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': ['16072116563'],
+ 'url': 'http://www.linkdata.com.cn/fangan/yid/20160721/280.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': ['16072116563'],
+ 'url': 'http://www.linkdata.com.cn/fangan/yid/20160721/280.html'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   56 ms (-6) | latency:   49 ms | size:   102 bytes
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   56 ms (+0) | latency:   55 ms | size:  4107 bytes
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 31}
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/yid/>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/dianw/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/dianw/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/minp/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/minp/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jiaot/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jiaot/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jung/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jung/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jingp/
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jingp/, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160720/274.html
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160720/274.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160720/273.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160720/273.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160720/274.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/index.html
+2017-07-04 17:34:05 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/index.html, not followed
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/20160720/274.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:05 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:05 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:05 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:05 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/fangan/yid/index_2.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/fangan/yid/index_2.html'}
+2017-07-04 17:34:05 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 32}
+2017-07-04 17:34:05 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/contact-us/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/contact-us/'}
+2017-07-04 17:34:05 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   52 ms (-3) | latency:   49 ms | size:   110 bytes
+2017-07-04 17:34:06 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 33}
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/news/hyxw/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/gsxw/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/news/gsxw/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/hyxw/20140619/190.html
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/news/hyxw/20140619/190.html, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:06 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/news/hyxw/20140717/208.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/news/hyxw/20140717/208.html'}
+2017-07-04 17:34:06 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   55 ms (+3) | latency:   55 ms | size:  3526 bytes
+2017-07-04 17:34:06 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 34}
+2017-07-04 17:34:06 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/products/llz1/one/1/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/products/llz1/one/1/'}
+2017-07-04 17:34:06 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   63 ms (+7) | latency:   63 ms | size:  2177 bytes
+2017-07-04 17:34:06 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 35}
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brands/about/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/brands/about/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/products/llz1/one/1/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/products/llz1/one/1/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/products/llz1/one/1/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/cases/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/cases/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/news/hyxw/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/news/hyxw/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/join-us/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://106.37.165.18:6688/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://106.37.165.18:6688/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/cases/20140717/211.html
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/cases/20140717/211.html, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact-us/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/contact-us/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/join-us/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal-disclaimer/>
+2017-07-04 17:34:06 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/cases/20140717/212.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/cases/20140717/212.html'}
+2017-07-04 17:34:06 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   58 ms (-5) | latency:   53 ms | size:  4101 bytes
+2017-07-04 17:34:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.linkdata.com.cn/product/llz/20140619/product/llz/>: HTTP status code is not handled or not allowed
+2017-07-04 17:34:06 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   58 ms (+0) | latency:   51 ms | size:  2182 bytes
+2017-07-04 17:34:06 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 36}
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal-disclaimer/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/hyxw/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/hyxw/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/20160414/267.html
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/xinwen/gsxw/20160414/267.html, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/20140620/194.html
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:06 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20160328/266.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/xinwen/gsxw/20160328/266.html'}
+2017-07-04 17:34:06 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   58 ms (+0) | latency:   58 ms | size:  3387 bytes
+2017-07-04 17:34:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.linkdata.com.cn/product/ldc/20140619/product/llz/>: HTTP status code is not handled or not allowed
+2017-07-04 17:34:06 [scrapy.extensions.throttle] INFO: slot: www.linkdata.com.cn | conc: 1 | delay:   58 ms (+0) | latency:   57 ms | size:    21 bytes
+2017-07-04 17:34:06 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 37}
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/en/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/en/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/brand/about/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/brand/about/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/product/llz/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/product/llz/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/xinwen/gsxw/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/xinwen/gsxw/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/jrwm/join_1/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/jrwm/join_1/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/contact/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/contact/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/fangan/yid/>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/dianw/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/dianw/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/minp/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/minp/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jiaot/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jiaot/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jung/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jung/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/jingp/
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/jingp/, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160720/273.html
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160720/273.html, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/fangan/yid/20160720/275.html
+2017-07-04 17:34:06 [stdout] INFO: outside link http://www.linkdata.com.cn/fangan/yid/20160720/275.html, not followed
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/fangan/yid/
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/sitemap.html>
+2017-07-04 17:34:06 [stdout] INFO: pre link is http://www.linkdata.com.cn/sitemap.html
+2017-07-04 17:34:06 [stdout] INFO: cleaned host url is linkdata.com.cn
+2017-07-04 17:34:06 [stdout] INFO: link to follow is http://www.linkdata.com.cn/legal/
+2017-07-04 17:34:06 [scrapy_deltafetch.middleware] INFO: Ignoring already visited: <GET http://www.linkdata.com.cn/legal/>
+2017-07-04 17:34:06 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': ['16072013583', '16072013592'],
+ 'url': 'http://www.linkdata.com.cn/fangan/yid/20160720/274.html'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': ['16072013583', '16072013592'],
+ 'url': 'http://www.linkdata.com.cn/fangan/yid/20160720/274.html'}
+2017-07-04 17:34:06 [stdout] INFO: the url count dict is {'www.linkdata.com.cn': 38}
+2017-07-04 17:34:06 [scrapy.core.scraper] WARNING: Dropped: missing contact info in {'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/news/'}
+{'email': None,
+ 'host_url': 'www.linkdata.com.cn',
+ 'mobile': None,
+ 'url': 'http://www.linkdata.com.cn/news/'}
+2017-07-04 17:34:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 17:34:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'deltafetch/skipped': 149,
+ 'deltafetch/stored': 38,
+ 'downloader/request_bytes': 15592,
+ 'downloader/request_count': 42,
+ 'downloader/request_method_count/GET': 42,
+ 'downloader/response_bytes': 102137,
+ 'downloader/response_count': 42,
+ 'downloader/response_status_count/200': 38,
+ 'downloader/response_status_count/404': 4,
+ 'dupefilter/filtered': 23,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 9, 34, 6, 469373),
+ 'item_dropped_count': 38,
+ 'item_dropped_reasons_count/DropItem': 38,
+ 'log_count/INFO': 1524,
+ 'log_count/WARNING': 39,
+ 'request_depth_max': 5,
+ 'response_received_count': 42,
+ 'scheduler/dequeued': 42,
+ 'scheduler/dequeued/memory': 42,
+ 'scheduler/enqueued': 42,
+ 'scheduler/enqueued/memory': 42,
+ 'start_time': datetime.datetime(2017, 7, 4, 9, 34, 2, 980669)}
+2017-07-04 17:34:06 [scrapy.core.engine] INFO: Spider closed (finished)

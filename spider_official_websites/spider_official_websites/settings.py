@@ -27,7 +27,7 @@ LOG_STDOUT = True
 
 # Exporting Settings
 # FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/%(name)s_20170627.txt'
-FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_official_websites/%(name)s_20170627.txt'
+FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_official_websites/%(name)s_20170701.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_official_websites.items.TxtItemExporter',}
