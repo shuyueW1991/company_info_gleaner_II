@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/adhoc.iml" filepath="$PROJECT_DIR$/.idea/adhoc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../Pycharm/ceibs/.idea/ceibs.iml" filepath="$PROJECT_DIR$/../../Pycharm/ceibs/.idea/ceibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../my/tyc_selenium_listsearch_v1.1forpython3forPC/.idea/gsxt_selenium_listsearch.iml" filepath="$PROJECT_DIR$/../../my/tyc_selenium_listsearch_v1.1forpython3forPC/.idea/gsxt_selenium_listsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spider_kanzhun_crawl/.idea/kanzhun_crawl.iml" filepath="$PROJECT_DIR$/../spider_kanzhun_crawl/.idea/kanzhun_crawl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spider_official_websites/.idea/spider_official_websites.iml" filepath="$PROJECT_DIR$/../spider_official_websites/.idea/spider_official_websites.iml" />
     </modules>
   </component>
 </project>

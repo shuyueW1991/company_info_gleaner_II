@@ -4,7 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="ceibs" />
+    <orderEntry type="module" module-name="spider_official_websites" />
+    <orderEntry type="module" module-name="gsxt_selenium_listsearch" />
+    <orderEntry type="module" module-name="gsxt_selenium_listsearch" />
+    <orderEntry type="module" module-name="kanzhun_crawl" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />
