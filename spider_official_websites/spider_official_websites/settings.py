@@ -8,6 +8,10 @@
 #     http://doc.scrapy.org/en/latest/topics/settings.html
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
+#
+# DEPTH_PRIORITY = 1
+# SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleFifoDiskQueue'
+# SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.FifoMemoryQueue'
 
 BOT_NAME = 'spider_official_websites'
 
@@ -16,7 +20,9 @@ NEWSPIDER_MODULE = 'spider_official_websites.spiders'
 
 DELTAFETCH_ENABLED = True
 # DELTAFETCH_DIR = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/'
-DELTAFETCH_DIR = '/root/users/JH/company_info_gleaner_II/spider_official_websites/'
+# DELTAFETCH_DIR = '/root/users/JH/company_info_gleaner_II/spider_official_websites/'
+DELTAFETCH_DIR = '/mnt/qinzhihao/Try/spider_official_websites/'
+
 
 # Logging Settings
 LOG_ENABLED = True
@@ -27,7 +33,7 @@ LOG_STDOUT = True
 
 # Exporting Settings
 # FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/%(name)s_20170627.txt'
-FEED_URI = '/root/users/JH/company_info_gleaner_II/spider_official_websites/%(name)s_20170701.txt'
+FEED_URI = '/mnt/qinzhihao/Try/spider_official_websites/%(name)s_%(time)s.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_official_websites.items.TxtItemExporter',}
