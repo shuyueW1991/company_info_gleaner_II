@@ -8,28 +8,38 @@ import shutil
 
 
 now = datetime.datetime.now().strftime("%Y%m%d")
-past = (datetime.datetime.now() + datetime.timedelta(days=-1)).strftime("%Y%m%d")
+# past = (datetime.datetime.now() + datetime.timedelta(days=-1)).strftime("%Y%m%d")
 list = glob.glob('*.csv')
 sel = pd.DataFrame()
 
 for file in list:
 
-    opener = codecs.open(file, "r",encoding='utf-8', errors='ignore')
-    buffer = pd.read_csv(opener,sep="|")
-    # print(buffer['co_link'])
-    if 'financeStage' in buffer.columns:
-        if 'co_link' in buffer.columns:
-            buffer = buffer[['companyFullName', 'companySize', 'industryField', 'financeStage', 'positionName', 'salary','description','co_link']]
+    if os.stat(file).st_size > 0:
+        opener = codecs.open(file, "r",encoding='utf-8', errors='ignore')
+        buffer = pd.read_csv(opener,sep="|")
+        # print(buffer['co_link'])
+        if 'financeStage' in buffer.columns:
+            if 'co_link' in buffer.columns:
+                buffer = buffer[['companyFullName', 'companySize', 'industryField', 'financeStage', 'positionName', 'salary','description','co_link']]
+            else:
+                buffer = buffer[['companyFullName', 'companySize', 'industryField', 'financeStage', 'positionName', 'salary','description']]
         else:
-            buffer = buffer[['companyFullName', 'companySize', 'industryField', 'financeStage', 'positionName', 'salary','description']]
-    else:
-        buffer = buffer[['companyFullName', 'companySize', 'industryField', 'positionName', 'salary', 'description']]
+            buffer = buffer[['companyFullName', 'companySize', 'industryField', 'positionName', 'salary', 'description']]
 
-    sel = sel.append(buffer)
+        sel = sel.append(buffer)
+
+    else:
+        pass
+
     shutil.move('/mnt/qinzhihao/Data/' + file, '/mnt/qinzhihao/Data/old/')
 
 # 做DataFrame过滤旧公司，并update
-db = pd.read_csv("/mnt/qinzhihao/Data/old/company_info_db.csv",sep="|")
+past = datetime.datetime.now() + datetime.timedelta(days=-1)
+# 找到上一个company_info_db
+while os.path.isfile("/mnt/qinzhihao/Data/old/company_info_db" + past.strftime("%Y%m%d")+ ".csv") is not True:
+    past = past + datetime.timedelta(days=-1)
+
+db = pd.read_csv("/mnt/qinzhihao/Data/old/company_info_db"+ past.strftime("%Y%m%d")+ ".csv",sep="|")
 fold = db.rename(columns={'companyFullName':'companyFullName','companySize':'filter_old'})
 db = db.append(sel[['companyFullName', 'companySize']])
 db = db.drop_duplicates(['companyFullName'])
@@ -58,7 +68,7 @@ highlight = sel[sel['highlight']>0].groupby('companyFullName').size().to_frame()
 highlight.columns = ['companyFullName','highlight']
 # print(all_job)
 des = sel[sel['filter_job']<1].drop_duplicates(['companyFullName'])[['companyFullName','description']]
-pos = sel[sel['filter_job']<1].drop_duplicates(['compangFullName'])[['companyFullName','positionName']]
+pos = sel[sel['filter_job']<1].drop_duplicates(['companyFullName'])[['companyFullName','positionName']]
 
 co_info = sel.drop_duplicates(['companyFullName'])[['companyFullName','companySize','industryField','financeStage','co_link']]
 co_info = co_info.merge(des,how='left', on='companyFullName').merge(pos,how='left', on='companyFullName').merge(oversea_job,how='left', on='companyFullName').merge(good_job,how='left', on='companyFullName').merge(highlight,how='left', on='companyFullName').merge(all_job,how='left', on='companyFullName')
