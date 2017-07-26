@@ -9,13 +9,14 @@ from scrapy.http.response.html import HtmlResponse
 import requests
 from bs4 import BeautifulSoup as bs
 from scrapy.selector import Selector
-from spider_official_websites.items import SpiderOfficialWebsitesItem
+from spider_websites_content_frontera.items import SpiderOfficialWebsitesItem
 from difflib import SequenceMatcher as sqm
 import tldextract as tld
 import traceback
 
 date=time.strftime("%Y%m%d",time.localtime(time.time()))
-urls_to_crawl = "/mnt/qinzhihao/Try/spider_websites_content/url_list_short.txt"
+# urls_to_crawl = "/mnt/qinzhihao/Try/spider_websites_content/url_list_short.txt"
+urls_to_crawl = "/root/users/JH/company_info_gleaner_II/spider_websites_content_frontera/url_list_short.txt"
 deny_list = ["www.adobe.com", "www.linkedin.com","www.weibo.com","www.zhihu.com","open.weibo.com"]
 
 ## Function to Clean URL for Pattern Matching

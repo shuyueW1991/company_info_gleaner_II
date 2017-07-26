@@ -13,22 +13,27 @@
 # SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleFifoDiskQueue'
 # SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.FifoMemoryQueue'
 
-BOT_NAME = 'spider_official_websites'
+BOT_NAME = 'spider_websites_content_frontera'
 
-SPIDER_MODULES = ['spider_official_websites.spiders']
-NEWSPIDER_MODULE = 'spider_official_websites.spiders'
+SPIDER_MODULES = ['spider_websites_content_frontera.spiders']
+NEWSPIDER_MODULE = 'spider_websites_content_frontera.spiders'
 
 DELTAFETCH_ENABLED = True
 # DELTAFETCH_DIR = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/'
 # DELTAFETCH_DIR = '/root/users/JH/company_info_gleaner_II/spider_official_websites/'
-DELTAFETCH_DIR = '/mnt/qinzhihao/Try/spider_websites_content/'
+# DELTAFETCH_DIR = '/mnt/qinzhihao/Try/spider_websites_content/'
+DELTAFETCH_DIR = '/root/users/JH/company_info_gleaner_II/spider_websites_content_frontera/'
 
+# Frontera Settings
+SCHEDULER = 'frontera.contrib.scrapy.schedulers.frontier.FronteraScheduler'
+
+FRONTERA_SETTINGS = 'frontier.spider_settings'
 
 # Logging Settings
 LOG_ENABLED = True
 LOG_ENCODING = 'utf-8'
 LOG_FILE = 'crawler.log'
-LOG_LEVEL = 'DEBUG'
+LOG_LEVEL = 'INFO'
 LOG_STDOUT = True
 
 # Exporting Settings
@@ -68,6 +73,7 @@ ROBOTSTXT_OBEY = False
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
     'scrapy_deltafetch.DeltaFetch': 200,
+    'frontera.contrib.scrapy.middlewares.schedulers.SchedulerSpiderMiddleware': 999
 }
 
 REDIRECT_ENABLED = False
@@ -76,14 +82,15 @@ REDIRECT_ENABLED = False
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
-    'spider_official_websites.middlewares.RandomUserAgentMiddleware': 200,
+    'spider_websites_content_frontera.middlewares.RandomUserAgentMiddleware': 200,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+    'frontera.contrib.scrapy.middlewares.schedulers.SchedulerDownloaderMiddleware': 999
 }
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'spider_official_websites.pipelines.SpiderOfficialWebsitesPipeline': 300,
+   'spider_websites_content_frontera.pipelines.SpiderOfficialWebsitesPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

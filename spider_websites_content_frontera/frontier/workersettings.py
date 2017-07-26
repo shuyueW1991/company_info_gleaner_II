@@ -2,7 +2,7 @@
 from frontera.settings.default_settings import MIDDLEWARES
 
 MAX_NEXT_REQUESTS = 512
-SPIDER_FEED_PARTITIONS = 2
+SPIDER_FEED_PARTITIONS = 5
 SPIDER_LOG_PARTITIONS = 1
 
 #--------------------------------------------------------
@@ -13,7 +13,7 @@ BACKEND = 'frontera.contrib.backends.sqlalchemy.SQLAlchemyBackend'
 #BACKEND = 'frontera.contrib.backends.sqlalchemy.Distributed'
 
 
-SQLALCHEMYBACKEND_ENGINE = 'sqlite:///url_zhilian_dist.sqlite'
+SQLALCHEMYBACKEND_ENGINE = 'sqlite:///website_content.sqlite'
 SQLALCHEMYBACKEND_ENGINE_ECHO = False
 SQLALCHEMYBACKEND_DROP_ALL_TABLES = True
 SQLALCHEMYBACKEND_CLEAR_CONTENT = True
