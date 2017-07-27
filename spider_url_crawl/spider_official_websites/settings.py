@@ -35,7 +35,7 @@ LOG_STDOUT = True
 # FEED_URI = '/Users/Han/Desktop/Code/company_info_gleaner_II/spider_official_websites/%(name)s_20170627.txt'
 # FEED_URI = '/mnt/qinzhihao/Try/spider_content_crawl/%(name)s_%(time)s.txt'
 
-FEED_URI = '%(name)s_%(time)s.txt'
+FEED_URI = '%(name)s.txt'
 FEED_FORMAT = 'csv'
 FEED_STORAGES = {'file': 'scrapy.extensions.feedexport.FileFeedStorage',}
 FEED_EXPORTERS = {'csv': 'spider_official_websites.items.TxtItemExporter',}
