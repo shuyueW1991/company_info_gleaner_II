@@ -1,4 +1,6 @@
 # -*- coding:utf-8 -*-
+# this file is used to transport data from 'wuyaojob_co' to 'data_wuyaojob_co'
+
 import pymysql
 import traceback
 import datetime
@@ -51,18 +53,6 @@ class data_clean_51job(object):
 
         try:
             cursor.execute(wuyaojob_sql)
-            # wuyaojob_res = cursor.fetchall()
-            # for item in wuyaojob_res:
-            #     self.wuyaojob_fullname = item("co_nm").replace(" ","")
-            #     wuyaojob_employee_size_floorceiling = item("co_staff_num")
-            #     self.wuyaojob_employee_size_floorceiling = self.floorceiling(wuyaojob_employee_size_floorceiling)
-            #     self.wuyaojob_industry = item("co_type").strip('<label class="at">')
-            #     self.wuyaojob_description = item("co_short_desc").replace(" ","")
-            #     self.wuyaojob_address = item("co_add").replace(" ","")
-            #
-            #     self.insert_cleansed_51job_info()
-            #     print('this line is lit...')
-
             item = cursor.fetchone()
             while item is not None:
                 self.wuyaojob_fullname = item["co_nm"].replace(" ","")
