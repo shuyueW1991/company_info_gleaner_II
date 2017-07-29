@@ -6,3 +6,6 @@ url crawl 是在百度搜索官网 输出文件 company info for select 和 urlc
 
 text crawl 是爬取官网文本部分
 
+安装位置：根目录
+
+运行方法：sh crawl.sh
