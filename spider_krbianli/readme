@@ -1,0 +1,2 @@
+python3 -m splash.server --proxy-profiles-path=/home/fengwei/kr_bianli_deploy/kr_news.ini --argument-cache-max-entries=100
+scrapy crawl kr_bianli
