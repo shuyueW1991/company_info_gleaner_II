@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Pycharm/itjuzi_retry/.idea/itjuzi_retry.iml" filepath="$PROJECT_DIR$/../../Pycharm/itjuzi_retry/.idea/itjuzi_retry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lagou_history/.idea/lagou_history.iml" filepath="$PROJECT_DIR$/../lagou_history/.idea/lagou_history.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lagou_search.iml" filepath="$PROJECT_DIR$/.idea/lagou_search.iml" />
+    </modules>
+  </component>
+</project>
